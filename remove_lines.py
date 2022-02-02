@@ -66,5 +66,5 @@ newlines = remove_lines_containing_quick("So", strlist=newlines)
 
 # write modifications to new file
 for line in newlines:
-	newfile.write(line)
+	newfile.write(line+"\n")
 newfile.close()
