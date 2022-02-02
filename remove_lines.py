@@ -43,9 +43,11 @@ def remove_lines_containing_quick(excludedWord, strlist):
 ### end of function definitions
 
 # setup
-with open("lecture1.txt") as f:
+filename=input("Please type the (.txt) filename you want to modify in this directory: ")
+with open(filename) as f:
 	lines = f.readlines()
-newfile = open("lecture1_modified.txt","w")
+newname = filename.split(".txt")[0] + "_modified.txt"
+newfile = open(newname,"w")
 bad_chars = ["0","1","2","3","4","5","6","7","8","9", ""]
 
 
