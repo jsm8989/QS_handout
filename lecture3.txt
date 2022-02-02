@@ -1,0 +1,1241 @@
+## Lecture 3 1/2/22
+
+
+Welcome back to the third lecture of the quantum simulation class.
+
+Today's lecture is mostly going to be about phase transitions and quantum fluids. This is again, in some sense, preliminary, where we are picking up on important concepts that we're going to need later on.
+
+This time, we're no longer picking up things from atomic physics to go over here, we're now picking up things from the phase transitions hand out. So the stuff that we're going to do in the first half an hour today, if you want more information on that just get your hand out on the course of phase transitions and collective phenomena, it's mostly definitions, but they have a bit more explanation of what the definitions mean in those lecture notes if you're interested.
+
+And then in the second half, we will look mostly at the BEC transition as one example of that, because the transition into a superfluid state is going to be a key transition that we're going to look at in many cases later on. If you want to study the transition from a superfluid to the Mott insulator, you have to understand the transition into the superfluid.
+
+OK. So what are phase transitions? A typical example is liquid ice freezing into water or a paramagnetic turns into a ferromagnet. The point about a phase transition is that something massively changes, qualitatively changes, and that happens suddenly. If you take water at 20 degrees, it's a liquid. 50 degrees, 10 degrees, five degrees, one degree - it's still liquid. If you look very carefully, of course, heat capacities and so on, they have changed ever so slightly, but it's miniscule, very small changes.
+
+But then from one to minus one, you go from liquid into a solid. So suddenly stuff changes dramatically, and it's a very dramatic change happening at one point. Same thing if you think of a ferromagnetic. If you think of a normal bar magnet, and you heat it up above its temperature, it stops being a ferromagnet and becomes just a paramagnet, which means it's only magnetised in the presence of an external magnetic field. You can think of this as all the little magnetic moments of each electron in the ferromagnetic state being aligned, and the paramagnetic states being random, and only in an external field do they become aligned. 
+
+In this case, when you cool down your paramagnet, at some point you get into this ferromagnetic state. The same thing we have already seen in statistical physics; if you take a thermal gas of bosons and cool it down, you get the phase transition into the BEC, where the ground state becomes macroscopically occupied.
+
+
+
+
+
+So the definition of a phase transition for us is that it's a sudden transition from one kind of macroscopic state to another,
+2:44
+which happens at one specific point, which you're quite a critical point. Why critical?
+2:50
+We'll discuss later why the name comes from.
+2:56
+The one detail is that when you look at Latin America simulations of small systems, you will never see such a very sudden kink.
+2:58
+You will only see like a crossover in the financial system.
+3:06
+But the crossover becomes Chopra and Chopra and Chopra as the system gets bigger, which means that if hemodynamic limits,
+3:10
+you really get like a singularity and nonstrategic behave, you have to free energy would just get a sudden change.
+3:15
+And that's also important for phase detection. There is things which are not phase transitions are just a crossover.
+3:23
+So if you take a system, where is it going up a parameter? I don't know.
+3:29
+For instance, the Doppler interaction smoothly goes down to zero.
+3:33
+There's no critical point you're not going to jump from one thing to the other thing, that's not a phase transition.
+3:36
+So it is this kind of figure, if you want the intuitive explanation,
+3:42
+if you want like a mathematical definition of how we can define a phase transition, then you can come up.
+3:46
+You need the next concept, which is the other parameter.
+3:50
+Do you have other parameters of thermodynamic function, which means it's a function that depends.
+3:53
+It exists in equilibrium and you can like, say, OK, what is going to be the value of this function as a function of pressure or
+3:58
+temperature and all of the other parameters in something then to make equilibrium? And that is a function that is different in each phase.
+4:04
+And very often you have something ready order parameter or the expectation value of the order parameter is zero.
+4:10
+In the one face and this becomes non-zero at a phase transition and then it's non-zero at the other phase.
+4:15
+So we call the one phase with the other parameter zero, the unordered face and the face with the other parameters non-zero the growth phase.
+4:23
+A simple example is the local mechanisation in the magnetic material.
+4:31
+Think of paramagnetic for a moment, so you know that you are the paramedic, that you have these little magnets,
+4:36
+that the democratic movement of the electrons, India, they are already there, but because they are oriented in random direction.
+4:41
+If I ask, what is the expectation value of this?
+4:46
+So what we expected, which direction really springs point that is zero everywhere if I have the external magnetic field.
+4:49
+So H6 talking about getting field because they are enemy oriented, they're still not ordered to can point in any direction.
+4:55
+So if I do a measurement, the quantum mechanical projection, I will of course see that this little spin is pointing spin up.
+5:01
+This little spin is pointing spin down, but the expectation value is that it's totally random and therefore the expectation value will vanish.
+5:07
+If you, however, have a firm magnet. The expectation value of this thing is non-zero.
+5:14
+So because in the power, all of those things are ordered, they all are kind of aligned with each other at the oil point,
+5:20
+in the other direction or the lower direction or this direction. So we expect to see something non-zero.
+5:24
+OK. And that's how you call this an ordered face, because the order parameters nonzero and an unnatural face for the order parameter is zero.
+5:30
+Now you could ask, OK, well, that's what the method. What is the other parameter of I think about liquid water and ice in this case,
+5:39
+the other parameter is the density density or part of body could make correlation function if just one molecule here,
+5:46
+where do I find the next molecule? And in a in a in the crystal face, when the thing is opened its eyes, you find it's a crystal structures.
+5:52
+You have the next one here, the next one there, the next one there, the next one there.
+6:01
+So when you know what, here are here, you also know where they are here. What if you have liquid face?
+6:05
+You don't have that. And this is exactly what we are going to look at in the next slide.
+6:09
+So if a plot say, for instance, the magnetisation. As a function of the temperature,
+6:14
+I would expect the expectation value to be zero at high temperatures and then at the critical temperature
+6:21
+where I go to the phase transition from the paramedic into the ferry and it starts to become non-zero.
+6:25
+In this case, it's a continuous function.
+6:31
+It is a kink, but the function is continuous and that's typically what you get in like a second order or higher order phase transition.
+6:32
+We don't talk much about those terms. Autosteer like historic terms, but we talk a little bit later on.
+6:38
+And I'm rattling through now in the first couple of slides through like a couple of definitions and concepts,
+6:46
+which probably some of you will have seen before, and I hope they make intuitive sense what they're about.
+6:52
+And then in the next slides, we put them together and see how they fit together,
+6:57
+what we kind of first have to like, learn vocabulary that we need to describe the things that we were after.
+7:01
+So the next thing is symmetry.
+7:05
+Very often you Hamiltonian has possesses a certain symmetry, which means it's invariant to energies invariant under some operation.
+7:09
+So for example, if you take the Heisenberg model as eyes a.j.'s, i spin operators that very often you would say like in the classical dipole moment,
+7:16
+if I have two classical dipole moments, if they're are created like this or oreated like this or like this, that makes a difference in your energy.
+7:25
+But this this Kayla product between these two vectors, so it's asking whether the vectors are power or not.
+7:32
+So if you have two classical dipole to be oriented like this or like this or like this, you get the same energy.
+7:36
+What? It's really just the relative orientation that's important. And therefore this whole thing is invariant and the rotation.
+7:40
+Because of two vectors like this or two factors like that gives me the same energy.
+7:48
+And for a very simple case, if you're a Hamiltonian is just a free political p-square,
+7:53
+then you realise that the direction in which the momentum points doesn't go into it.
+7:58
+The kinetic energy is. Symmetric under rotations means it does not depend on the direction, it just depends on the magnitude of the momentum.
+8:02
+So many Evertonians Hefty have cemeteries. And then if you think about this, what happens now in your face transition, what happens in your faces?
+8:10
+You have learnt in statistical mechanics that always the system in familiar equilibrium tries to minimise the free energy.
+8:20
+If you remember back from last week last year to free energy can be written as the total energy minus T times expertise,
+8:27
+the temperature and the entropy. But you would see you and co-defendants would talk a lot about entropy because it's more important for us than it is,
+8:34
+for instance, in a kind of system where you just talk about the temperatures.
+8:43
+The intuitive thing when you think about the free energy ministry is this is what you want to minimise.
+8:47
+This gives rise to the God of this faith tradition that the dynamics you have because if you have a very high temperature,
+8:54
+tea is big, which means the second term here is very important. So to minimise this, I don't have to care so much about minimising the energy.
+8:59
+I mostly have to care about maximising the entropy.
+9:06
+And the entropy is, of course, like, in some sense, a measure for the increase in disorder in anybody's state,
+9:10
+which means it would take a totally disordered state of random combination of all possible states to have a totally
+9:16
+mixed density matrix that would probably not optimise the energy for this term is bigger than it needs to be.
+9:20
+But this term would become very, very small, very, very large, and it's negative. So this will dominate.
+9:26
+And that means that a very high temperature, you typically have an unnatural state. What is very low temperatures when this time becomes unimportant?
+9:31
+The system will really want to sit in the state where you have the minimum energy and that drives you face to.
+9:39
+So, for instance, if you think of a pair of your fair magnets, the fur back in Mr Crown St.,
+9:46
+if they are all aligned in the same direction, that minimises the energy.
+9:50
+So why would the system at high temperatures not want to minimise the energy,
+9:54
+why would it wants to go to this, this or a state where because it always wants to minimise the free energy?
+9:57
+And then if I if I'm unordered, I've caused a lot of entropy. If the system is ordered, the all spin spin up.
+10:03
+That's just a pure state. I only have one configuration in the city zero if I have to run the mixture of spins up and down.
+10:10
+I have like a mixture of all of those possible spin configurations and have a very high entropy.
+10:17
+We calculate this entropy is also in a few lectures. But I think the intuition is clear.
+10:22
+And the same thing, why does water melt ice go to liquid water?
+10:27
+Well, because if if I have a liquid state, I have short range combinations of water particles are.
+10:31
+So the state has much more entropy than the other crystalline state where the particles all sit really belong to minimise the energy.
+10:35
+OK. I may make a pause here and see if there's any questions.
+10:44
+And it would maybe ask, has anything of this been you or is this all things that you have seen before?
+10:53
+See, before. OK, good, so then we could go through it fast. And that's fine.
+11:00
+OK, so let's take an example, this is an important example.
+11:04
+It's the paramagnetic. So we have a system where we have local spins, which it can only point Ising model spin up or spin down.
+11:08
+So it's not fully quantum, it's more classical.
+11:15
+And we can now think about how will this free energy look as a function, as a function of the make of the magnetisation?
+11:17
+And because we're caring about the fascination of caring about where it goes from zero to non-zero,
+11:24
+we only have to think about what happens is very, very small and.
+11:29
+And then you can do a halo expansion of the free energy, and you can buy the desert halo expansion as a constant term,
+11:32
+which you can ignore, it doesn't matter anything and then you start with a quadratic term.
+11:36
+And according to him, and you realise that you cannot have like a linear term in a cubic term that's forbidden by the symmetry up here.
+11:41
+If to make it if I flip, the house spins around. Then the icing interaction will have the same energy.
+11:49
+So it can't have something, it just depends on if it would have an external magnetic moment that would of course give me a term linnean m h times m.
+11:53
+But if I don't have that lowest term, I can have a them at the next term.
+12:01
+That is aquatic turn. And that is basically all you need to like, understand quite some things about how to think about these phase transitions,
+12:05
+because now you can just make a plot of these things and you realise if you make a plot of the free energy landscape, you can have two things.
+12:12
+If the first term alpha here is positive and for some diseases, get a woman, you just assume that better will always be positive.
+12:19
+If 04 is positive, the thing around zero looks like a parabola, and it has its minimum around zero.
+12:25
+If, however, 04 is negative, I have this inverted parabola here. Before the larger the term wins, the thing goes up here.
+12:31
+So you can see that the phase transition will happen at that point when it's over goes to zero,
+12:41
+if I first positive, my minimum of the free energy would be in the middle.
+12:46
+I mean, the unordered face really ought to promote a zero to mechanisation to zero. If 10 04 goes to zero, it becomes negative.
+12:50
+They don't have to structure to a minimum one here and one there. And then the minimum will be sitting in either of those.
+12:57
+If I put in like a delineation were put in like a magnetic field, then of course I get like a linear time on top of it in the fingers shifted.
+13:08
+So in the Paramount Network phase, if I put the magnetic field in the spins will align a little bit of the magnetic field.
+13:16
+So then the end is non-zero. But we should not think of this as an order parameter.
+13:21
+It's just like because it's not in the presence of a magnetic field that takes things away from zero artificially.
+13:25
+What happens here? If you put a magnetic field and you see that the one state is lower than the other?
+13:32
+Because the finger becomes tilted and then the quantity is well-defined and will be here.
+13:37
+So that's how you create like a good magnet. What you really want to do is you want to put in an external magnetic field.
+13:41
+Why this system is hot and then go from the paramagnetic down to the paramagnetic phase slowly cooling down because then the
+13:47
+system would everywhere try to go into this situation and you end up with one big ferromagnetic domain and the bomb magnet.
+13:53
+So what's important for us? And that our also the title of the spontaneous symmetry breaking what's important for us is that the
+13:59
+Crown state or from the state ID law at low temperatures can break the symmetry of demoting you.
+14:07
+So when you're in the situation, the system would either be here in this minimum or in debt minimum.
+14:12
+So the current state breaks a symmetry, even though the Hamiltonian has the symmetry. And how did symmetry is broken?
+14:17
+That's called spontaneous symmetry breaking. So, for instance, to make the directive to mechanisation here can be non-zero,
+14:22
+which breaks the symmetry spin up growth has been down, even though the Hamiltonian maintains that symmetry.
+14:29
+And that's something that you can think about, how does this happen? How does this happen in practise?
+14:36
+OK. I mean, first thing to say is that when people talk about a face with broken symmetry, that means a face, but the other parameters finite.
+14:41
+But if the other parameter is not zero here, the to restore is restored to symmetry is there.
+14:50
+Spinoffs been done doesn't make a difference.
+14:56
+But if I'm in this situation and I sit here that its inventory is broken because I sit in the spin up case not to spin donkeys and vice versa,
+14:58
+of course you. So if Fontaine symmetry breaking is the same thing as, say, we get a final order from it,
+15:05
+it's the same thing as, say, we go through the phase transition. So this begs one question.
+15:10
+Suppose we start in this situation high temperature, and I suppose we cringe,
+15:18
+which means suddenly change the Hamiltonian or the temperature or something to go from left side to the right side.
+15:22
+We do this in a fully symmetric situation, but it's no magnetic field. And the question then is.
+15:29
+What happens in which many when will the system evolve or how will the system evolve?
+15:34
+And of course, we already said spontaneous symmetry breaking, so we cannot say, oh,
+15:42
+it goes to the left or it goes to the right because there's a spontaneous random element in it.
+15:45
+But the philosophical question is where does this random this come from? External fields, yes.
+15:49
+So if I do this in a classical or case, there is some fluctuations coming in from my environment.
+15:57
+A typical example is to say, if I put like a stick like this or a potato like a pen and try to put it on its tip.
+16:04
+But you noted that would be in a situation that would be. That would be a balance of forces.
+16:10
+But, you know, it's an unstable equilibrium, so we'll always start to fall over in some direction.
+16:16
+And then you can say, Well, OK,
+16:20
+there will always be some fluctuation coming from the external world that will predict which direction it's going to be.
+16:21
+It could be like a raft of errors could be me wobbling a little bit.
+16:27
+It could be, you know, being perfectly accurate and putting it upright.
+16:30
+For all practical purposes, it's a random fluctuation coming from the outside world.
+16:34
+That's always what you have in a toilet because you have like the phonons and all of the other part of the system coming in,
+16:38
+and then something will break that symmetry for you and you will end up just in this case.
+16:43
+But now how about you do it isn't the perfect quantum situation. How about you take a pure perfect unitary quantum system?
+16:49
+No noise, no nothing. And you place that system exactly here in the middle, you have an exact symmetry left and right, and it doesn't break.
+16:56
+Then it doesn't break, so what doesn't happen, then you have a position.
+17:04
+Exactly. So there's two important things. The thing is that if I put the quantum system up here,
+17:09
+it will not stay here even without any breaking of the symmetry, without any fluctuations from the outside world.
+17:15
+The quantum system will also like roll down the hill. But because of the quantum system, it will do so in a symmetric fashion.
+17:21
+So good simultaneously road on this hill and that. And then you end up with a superposition of the system being here and here.
+17:27
+And it's kind of a weird idea if you think about the big meta system.
+17:36
+But it is what's happening. And the question is, how can you measure this, what happens when you try to measure the system,
+17:40
+when you look at it, where the answer is, then if you now start to measure, it's been in here,
+17:46
+you will find the system over here or there because the measurement if you measure it,
+17:51
+mechanisation is a projection operator and if projects you over in this state or on that state.
+17:55
+So it's. Conceptually clear, conceptually,
+18:02
+I'd go into this going into a position of both minima and the measurement would give me a collapse of the way function into one of the minimum.
+18:05
+That's, of course, extremely challenging to figure out to think about this experimentally, because experimentally, it's very hard.
+18:12
+It's in many cases impossible to say, OK,
+18:17
+did it have to quantum squat position before I measured or was there some classical noise coming in that said,
+18:19
+already classically, I went to that state or I went into this state.
+18:24
+We will see one example later on where we see that it's where we see the state of the art on this,
+18:30
+but it's conceptually such that whenever you have the classical case,
+18:36
+you go here or you go there or you have the quantum case, you go into the superposition.
+18:39
+And then the measurement collapses to here or there is extremely hard, almost impossible to distinguish.
+18:44
+If you think about how can you distinguish this for like a small system, you can do something where you say, OK, what can I do?
+18:50
+A unitary transformation that takes the position of this one into one state and the other squat position into the other state.
+18:54
+And then I see where I get this state or state or run the mixture of the two.
+19:00
+For small systems, you can do this, but it's very hard to do this in a fully unitary fashion for like a really big system.
+19:05
+OK. So the next thing to discuss all of this is we now have to talk about correlation functions.
+19:11
+So a correlation function is I haven't observable operated at a measure and I measure that position
+19:17
+X and the position X Y and I take the expectation value of the product of these operators.
+19:22
+That's the correlation function G of X and. Have you all seen this before?
+19:28
+Everybody nods, OK, so we can go reasonably quickly.
+19:33
+The intuition about this is the question is, are the measurements as to or what he says correlated.
+19:36
+So if I measure it X, does that give me some information about what to expect to see it prime?
+19:43
+And if you take a, say, random random function like this.
+19:52
+And you measure X here. And you say I measure at this point, it's prime here.
+20:01
+Then you would probably say, OK, these two measurements are uncorrelated just because you have a maximum here because the thing is random.
+20:09
+I could have whatever I want here.
+20:15
+However, you can also say, well, there is something there's a structure in here because I have a characteristic length.
+20:18
+The system goes from maximum to minimum over a distance like this.
+20:23
+So if I take two points, let me take this point x at this point from here, where the distance between these two points is very short.
+20:27
+Shorter than this typical distance to go from maximum to minimum, then we would expect that these measurements are correlated.
+20:35
+We would expect that if I have a high value here, I would also have a high value next to it because we expect that this thing is in.
+20:41
+This distribution is not smooth and continuous and has a certain length to get to it.
+20:46
+And this question of overreach distance are things correlated is an important question when you talk about phase transitions,
+20:51
+because if you have something like the state, like the terror magnet where you would say, OK, if I notice I have been up over here,
+20:58
+I also know I would have spins up over here of correlation of a very long distance.
+21:04
+What if the paramagnetic every little spin fluctuates independently? I would not have any correlations.
+21:08
+So this is like a good way to test whether I will have a C.
+21:13
+I have a correlated state or not.
+21:16
+If I take this a little bit more formal, I can take the long range limit, I can ask, OK, does this combination functions the same way we have up here?
+21:20
+That's the expectation value of the correlation function.
+21:29
+Does that one go to zero or not go to zero if I take X next prime to be like arbitrarily far away?
+21:31
+So you asked, do I have correlations at infinite distances and this people call long range auto?
+21:38
+So if I have a system that has long range order, it means if I know something about the system here,
+21:45
+I can predict something about the system arbitrarily far away. I say something because.
+21:50
+The typically the correlations with UK down a little bit.
+21:57
+But then they were like, Asuman, finite value at arbitrarily large distances, so it's not very smart,
+22:01
+very not an extremely strong correlation, necessarily that if I know it's been up here, it must be spin up here, but it will not.
+22:06
+There was some information still there. So a face to this long range order, the face of broken symmetry, like a firm icon and so on, we can see.
+22:12
+But looking at this object and looking at this limit and see, OK, we have long range auto.
+22:20
+OK. This is basically just the same thing I just said. And now the confusing part comes now.
+22:27
+This is to be called accommodation function. The next thing that are now going to introduce is C, which is the connected correlation function.
+22:33
+And what that basically is, it's basically saying, OK, if we take the correlation function that we just had and subtract from that the
+22:44
+product of the expectation values of the operator at Position X and that x prime.
+22:50
+And now, on one hand, you can say, OK, well, mathematically, yes, you can do this, why not?
+22:57
+The question is, why would you want to do this, why is this relevant? Does anyone have an intuition of why a connected correlation function?
+23:02
+Right? Subtract off the average values could be of importance to us.
+23:11
+So if the correlations are zero, then yes and the whole thing, then this to his first term here zero.
+23:27
+And then if the correlations are zero, then typically you also don't have APR,
+23:31
+so you don't have an expectation that you hear this on zeros and the whole thing is zero. That's true, yes.
+23:36
+But the key thing is slightly the other way around. The key thing is the following Let's say I have a ferromagnetic.
+23:41
+So on average, two spins are more pointing up and down. And now let's say I take the spin and left here and I wiggle a little bit around.
+23:48
+And then I want to know the neighbouring spins because they're coupled to this, and we're probably also we could with it.
+23:56
+So I want to know to dispense very far away, also wiggle with it, or does this kind of dampen out and does not do anything?
+24:02
+If I try to, like do this, have the correlation function itself? I can, but I have to be very careful because in the correlation function itself,
+24:09
+I get this big offset because I get a big correlation everywhere because the spins are mostly pointing up.
+24:15
+So if I say I want to, like now,
+24:21
+know what is the length scale over which a small perturbation does something to the system on top of this big background,
+24:22
+I have to subtract off the background to just see this thing. So if I'm kind of saying, OK.
+24:29
+But picking of the mechanisation, and I'm now thinking of a firm amazing situation, so here is zero.
+24:35
+And now let's say I have a firm. So it is democratisation. So I have a non-zero value here, but I have like some fluctuations on top of that value, I.
+24:41
+And they want to know what is the length scale from this maximum to this minimum?
+24:51
+That it's a very good idea to say OK in order to see this very strongly.
+24:56
+Let me just subtract off the average value this one here and then then just look at the fluctuations around that average value.
+24:59
+And that's what you do, have to connect the correlation function. And you will see what this is nice.
+25:07
+This is just saying the same thing that I said, you will see what is this noise?
+25:14
+Because very often what you will get is you get something where the typical behaviour of
+25:18
+this connected correlation function to see is that these things decay exponentially.
+25:22
+Of minus x minus x prime with a certain length scale. So does this length scale PSI, which required a correlation length?
+25:28
+That is length of of which the fluctuations are correlated. And it's not an intuitive.
+25:36
+Intuitively, a slight stretch initially that you can have a face that can be long range ordered but have a short correlation.
+25:44
+Which basically means I have a state where on average, all of my spins are mostly pointing up to this long range order,
+25:54
+and the democratisation is more or less the same everywhere. So if I know democratisation is positive, I can predict it will be positive here.
+25:59
+I have this long range information. But nonetheless, the correlations are short range,
+26:05
+which basically means if I do something to this one, wiggle a little bit only the nearest neighbours.
+26:10
+When we can revert 10, 20, 50, 100 sites away, they will not wiggle with it.
+26:14
+So two states that this long range ordered but has not long way is not long which correlated.
+26:19
+At the kink, the key thing is that when people talk about correlation things and they talk about this exponential behaviour here,
+26:27
+they always talk about the sea and not the.
+26:33
+And you got to be a bit careful because some literature, some research papers, they're not very careful in what they discuss.
+26:37
+They sometimes omit this word connected, and they just say, Oh, I have this correlation function just in case of potentially that kind of weight.
+26:45
+But it's a long range ordered state. It kind of contradicts itself with the coalition came to zero.
+26:52
+The answer is the coalition function is finite. But to connect, the coalition function decays to zero.
+26:57
+That's what they mean. So that's why I put like a bit of pain in here to make this distinction very clear.
+27:02
+OK. Right. Good. Why is this an exponential function?
+27:08
+The answer is very often from very many calculations, it emerges.
+27:15
+It's the typical thing that we typically see, and it's the only thing where we can, like assign a length to get to it.
+27:19
+If people talk about the length scale, they always mean that it must be a exponential function.
+27:27
+Because if I think of something that looks like a power law,
+27:32
+you cannot easily define a length for what you would define an exponent, a critical exponent or something.
+27:34
+But if you define a length skirt, governs everything and implicitly, you're always talking about an exponential function.
+27:39
+OK, so now we have to accept Capillary to talk about face conditions in slightly more detail.
+27:47
+And basically, there's two types of phase transitions that we care about.
+27:53
+The first one is what we call this discontinuous phase transition, or a first or a phase sensation.
+27:57
+That's the face in this way of a sudden jump. But the other parameter is zero here.
+28:02
+And then there's this continuity, a jump to a finite value at this critical temperature.
+28:07
+And that's what you get when you have water going to ice. You don't get very long correlations building up in the water, necessarily.
+28:12
+You get like directly blocks of ice swimming on the water while in the second or a phase transition or continuous paced transition.
+28:19
+And more generally, there's also a higher infinite order and so on.
+28:25
+You get a continuous evolution here, so it starts off with zero and then continuously go up.
+28:29
+It can be very sharp, but it's continuous. And this has important consequences if you think of a discontinuous phase transition.
+28:33
+The other parameter jumps this continuously, as I said, in classical cases, there is often latent heat involved.
+28:40
+Melting of ice, if you want to go to zero. From the ice to zero liquid water, you have to put in a lot of energy to melting energy.
+28:47
+The both phases, can the cases coexist at a critical point?
+28:55
+Just think of a glass of water in February, zero degrees Celsius with a blocks of ice swimming in it, you realise because of the latent heat.
+29:00
+The only stable situation that you can have is the stable situation where you have like
+29:08
+some ice and some water because we don't have enough energy to go fully into the liquid,
+29:12
+but you have too much energy to be fully in the ice phase. And.
+29:16
+Because of this, because both phases can coexist at a critical point. What is obvious?
+29:23
+And it's important that it's obvious is that the coalition left you must remain finite.
+29:29
+If I have something where to save the situation, I have a block of ice swimming in a bigger pot of water.
+29:36
+The system can't be infinitely correlated.
+29:40
+Because if I have this little block of ice, I cannot necessarily say how big the block of ice isn't going to, water begins.
+29:43
+So the correlation must stay finite. OK.
+29:49
+And this is a funny thing this this gives rise to something called quantum stability or like if you have take fancy terms on long form from future,
+29:53
+you would call it the collapse of the folds vacuum.
+30:02
+And the cartoon for this, and this is not the first thing that's not in the notes from last year because it just edits the cartoon for this is to say,
+30:05
+if I think of my free energy landscape as a double world, which is tilted, yes, one minimum that's lower than the other.
+30:11
+And this double weather means that here is my medium state. So if you take the blue line, the Quonset is this one.
+30:19
+And now what you do is when you change parameters is you like lower to one minimum and you have a minimum goes up.
+30:25
+So you go through the situation from the blue line to the situation to the Green Line. We know this minimum is too deep.
+30:32
+So the other parameter should be here. And what you can see, of course, as you see here is a sudden jump where you have this discontinuity,
+30:37
+the other parameter, you see that in the cartoon because the other parameter, some first is here.
+30:43
+And then suddenly split and later it's you.
+30:48
+There's no situation in between where the other parameter and equilibrium would be, say, here in the middle.
+30:52
+It jumps from there to there. And that also is the effect the cause was to this quantum stability, because if you know, sitting as this system,
+30:57
+it is pretty well here and we turn parameters that is of a minimum in some sense comes down deeper and deeper and deeper.
+31:06
+But you're still sitting here at a local minimum. So how do you get from here to there?
+31:12
+And the answer is it takes a long time, typically you can stay here for an arbitrary, pretty long time.
+31:18
+That's what we call a threat to stability because you either have to tunnel through this barrier
+31:23
+quantum mechanical tunnelling or you need to have some further fluctuation that freaks you over this,
+31:27
+over this hump in the middle. And the classical example for this one that you all see almost every day is fizzy drinks.
+31:33
+When you think about I have my liquid and liquid, I have like dissolved my carbon dioxide, right?
+31:41
+And that's the carbon dioxide bubbles out and gives me this little bubbles.
+31:52
+When you look at this, you will realise that the bubbles are almost always forming at the interface of the liquid with the glass.
+31:57
+If you look at it from the top, you'll see David at around today.
+32:03
+Not like somewhere in the liquid, in the volume.
+32:06
+And that's because for such a bubble to form the system is kind of a computer system sits here with the material being dissolved and
+32:08
+that we can state the state that the state system wants to get to is the state of the bubble where the gas is not his wife anymore,
+32:15
+but in the gas form. But in order to get there, it needs to have something to help you over the hump.
+32:22
+And that can be a fluctuation, a little roughness from the glass on the inside and nucleation point where the bubbles can start to grow.
+32:27
+And in a perfect quantum case, of course, you don't have that. So the system can stay for a long time and is.
+32:35
+And that's what people say that OK and cosmology, this is the fourth vacuum state because it literally looks like a vacuum,
+32:40
+but it's not a true vacuum because it's not at global state. And then the system can at some later point,
+32:46
+tunnelled through the barrier gets to the global crown state and thereby release a lot of energy, potentially.
+32:51
+And there's, like some theories in cosmology that say this is what happens in the inflation period in the early universe.
+32:57
+And there's, of course, a lot of science fiction that says, if I make a device that assumes that we are still in a false vacuum,
+33:03
+we can go to the right thinking, we can release arbitrary amounts of energy and use it for whatever.
+33:08
+But that's science fiction. OK, so if I continue in our continuous phase transitions second order, they're different.
+33:13
+The other parameter changes continuously. The way the symmetry here is broken is to work,
+33:20
+the one that we've discussed in the previous slide is that these transitions are signalled by the spontaneous symmetry breaking.
+33:27
+Because I have this symmetric situation accrued on my stuff and the system has to kind of coordinate,
+33:33
+we are going to spin up, do we all going to spend on? And the way the system does this is by really communicating of a lot, lots of large distances,
+33:38
+which means that you will always find it in this continuous phase transitions to correlation to will diverge at the phase transition.
+33:48
+I show you an example on the next slide as of. But because the system spontaneously chooses, we all go to spin up or we all go to spin down.
+33:55
+There must necessarily be correlation over the whole system, otherwise it wouldn't work.
+34:04
+And this is an important point, because this really is a very powerful thing to analyse them in order to think about stuff.
+34:10
+So if you think about this now in a cartoon, you get a cartoon to, we have in the previous life already.
+34:16
+You start off with something that looks like a parabola because 04 is positive, so both the quadratic and aquatic term are positive.
+34:21
+Then if you tuned on Alpha. Did you see you get to the situation first where you have this flat bottom here and then you get to the situation,
+34:27
+but as minimum appearing and then this gets more and more negative, the minimum moves outwards.
+34:34
+So there's a continuous motion of this, many of the minimum from being going from here to there.
+34:40
+So it's continuous. It's not this continuous. So these cartoons are actually pretty, pretty powerful cartoons of what happens in the free energy.
+34:45
+And they have a lot of intuition about this. OK.
+34:52
+Questions up to you. Good.
+34:57
+Then we go on and just reminder for what we just said,
+35:02
+the correlation divergence in the second phase transition at the transition and in our continuous transitions.
+35:05
+And this has important consequences. The main consequence of this one is what people call universality.
+35:12
+Universality means that if the fluctuations are correlated over long distances and we now know what that means,
+35:18
+that the correlation length in this connected correlation function has very,
+35:23
+very large distances and the divergence at the phase transition that we know or we can infer that microscopic details must be less important.
+35:26
+Because if everything happened, it's very,
+35:35
+very long scales that it can't be so important what happens on it on a very short and a very, very small length scale?
+35:36
+So I might end up with having many different local models that look at you look slightly different,
+35:43
+but they have the same emergent behaviour at this very, very large lengths to get close to the face.
+35:48
+So what it turns out, if you do numerical experiments on like various different Hamiltonians, various different phase transitions,
+35:54
+it turns out that there's always the same effect the theories that come up
+36:00
+close to the critical points that can be equal for very different transitions.
+36:03
+And these are called universality classes.
+36:06
+So it turns out there's a very different system, second, certain quantum magnets that have the same scaling,
+36:10
+the same relations close to the face transition, then for instance, the the quantum gas to be see transition.
+36:15
+And they have the same scaling again as some field view is that you can also write them.
+36:21
+And because of that, you can use one system to study something about face transitions of another system.
+36:25
+So this is, of course, very,
+36:30
+very important for us in quantum simulations because this is the reason why we can relate code atoms to neutron stars or quark crew and plasmas.
+36:31
+So a lot of the relationship between cold atoms and high energy physics, they come via this type because people say, OK, but look at this.
+36:39
+I believe that I have the same kind of taste sensation, the same universality class.
+36:45
+So the same critical exponent in the same things. So he said, critical exponent, what do they mean with this?
+36:49
+It turns out. And if you want to see experts look at the faces, you can send out that if you go close to the face, the many response functions.
+36:56
+For instance, again, this medical suitability ability, many of them diverge.
+37:04
+And of course, the susceptibility must diverge at a critical point.
+37:09
+If you think of this, instability in the paramagnetic tells you like how much of a response do you get for a given magnetic field?
+37:13
+And if you suddenly get to the point where spontaneously you get a big response, you can write a magnetic field.
+37:19
+That means that the system's ability diverges.
+37:23
+You just need an external fuel to say we should all go practise symmetry in this direction or that direction, so it gets extremely sensitive.
+37:25
+You get this, yeah, diverging susceptibility. And it turns out the way they this response functions diverge.
+37:33
+They typically follow polls.
+37:39
+And the exponents of these polls, which are quite the critical exponents because they're the exponents close to the critical point.
+37:42
+They define the universality clause.
+37:48
+And there's like probably 10, 15 sets of these exponents that govern 90 percent of the first indications that people have studied and looked at.
+37:51
+So very often when people look at something kind of matter or face transition or when they like to numerics,
+38:00
+the first thing that they do is they try to like,
+38:04
+get out these response functions, look at their scaling and then they say, Oh, we expected this critically important.
+38:06
+It's this and it's dead. And then you typically see that, oh, actually, it matches what we would expect from this in this phase transition.
+38:11
+It's the same universality class so we can use to one system to learn something about the other system.
+38:17
+OK. And this is an important thing because this is kind of the connexion from a lot of stuff and cold atoms to
+38:25
+neutron stars or Kwaku and plasmas or other things that people are considering it in high energy physics.
+38:32
+So time for a concrete example. The example here is the 2D Ising model.
+38:39
+So we have a 2D array of spins and izing spins, which means they only can spin up or spin down.
+38:45
+We can't have anything in the X y plane here. So the Heisenberg model yet to Mitone units just say, OK, there's a coupling between these two things.
+38:52
+And these are not snapshots of further states that you get, it's different distribution at different temperatures,
+39:00
+so black and white means pinpointing has been up and down. It is this whatever 100 by 100 patch or something?
+39:05
+And some of you might have seen this before, because some of you might have done this one in there part two competing project.
+39:12
+So you can sample these things with quantum of quantum one two column efforts and so on, then numerically nice because they're tractable.
+39:18
+And that's what a nice model system to study. What's important for us is if I take a certain beta, a certain temperature.
+39:24
+In special units, I think, which I think is one. This is the temperature of 10, one of one of the temperatures one by two is the temperature of five.
+39:31
+And you can see, OK, you see that here, there's a correlation in there, but the correlation function is very short changed.
+39:39
+So you see that you have very many small domains of black and white patches.
+39:45
+So if one spin is right, then they're still more likely that the neighbouring spins also spin up, right, because they have this one direction.
+39:48
+But you see that this is like this correlation of a few spin sides and then you have a small, fine grained thing of black and white.
+39:57
+There's a lot of randomness in there.
+40:04
+So that's a typical paramagnetic face in the absence of an external magnetic field, quite a bit above the critical point.
+40:05
+And if you now go increase beta, so you decrease gamma a decrease the temperature.
+40:11
+Points to point to one point to one or nine.
+40:16
+This is getting very close to the phase transition, and you can see that these domains get bigger.
+40:20
+What you just buy are you see the typical size of a white domain here. A smaller gets bigger here and here it gets big.
+40:25
+So this is not getting very, very close to the critical point where the whole system fluctuates as a whole.
+40:32
+So this is something with the correlation left, which typically is,
+40:37
+you can say it's the feature size of the correlation if we go down from here to here.
+40:40
+So you would say if I go 50 pixels, I still if I start on a white one and go 50 pixels, the more likely they end up on a white one.
+40:44
+But if I go 100, there's no correlation left that tells you that you're not getting close to the face and that you would correlation,
+40:51
+and it gets very, very big. So it illustrates the point that the correlation include diverge at a critical point.
+40:58
+OK. So the correlation thinks I just at a second or a phase transition, as we expect for a second or two phase transition.
+41:04
+OK, and now we can move over to the B.C. transition and discuss these things, you.
+41:14
+And the easy transition, OK, let's first look at this again from the experimental point of view,
+41:20
+what you see here is the time is these are always time of night pictures.
+41:25
+They are this many time of day pictures taken when he stopped evaporation sequence at different times.
+41:28
+So the first one is pretty hot and then the temperature gets more than one, it's one of the propaganda evaporate and I apologise for the bad quality.
+41:33
+Somehow the resolution got scrubbed. What's at stake on the right?
+41:41
+OK. Right. So so let's just put the facts.
+41:44
+But OK, so this has temperature in Monaco. It just use of occurring.
+41:49
+And actually, I was wrong. The temperature is this one.
+41:53
+You have starting very hot and the temperature comes down, down, down, down, down. What when you do evaporative cooling?
+41:56
+One thing that happens is that while you cool down, you also lose atoms.
+42:02
+That's how the cooling processes, which basically means that when you get cooler, you have less atoms.
+42:05
+And from statistical physics, you know that if I have less atoms, less density, the critical temperature for B C also goes down.
+42:10
+So therefore, if I know a calculator, I measure my atom number.
+42:16
+From this, I can calculate what the critical temperature must be in that trap.
+42:20
+And I practise on the left side here. So you see as the Finklestein, the critical temperature is here, and then it also decreases down.
+42:24
+And though you see at this point here, when the system gets colder than the critical temperature, that's when the peak starts to appear in here.
+42:30
+But just follow it one more time. The peak appears.
+42:38
+Now, and that's exactly when I when the temperature passes, gets lower than the critical temperature.
+42:43
+So this is the situation, as we've seen it before,
+42:49
+where we say that basically what happens at the B.C. transition is that there is now an old plot from a reconnects group.
+42:51
+This is a and units of TSE. It's a critical temperature.
+43:00
+This is the number of atoms in the concept at momentum zero divided by the total at the numbers.
+43:03
+What's the fraction? You can see that above T c, that fraction is essentially zero.
+43:08
+If I have tentative five parties and they expect only one in 10 to the five or 04:40 to be in a crown state.
+43:14
+But then here at some point they start to shoot up.
+43:19
+And yeah, well, OK, they could got cut down to a point fifty what you see where he got like 80 percent of the particles in the Queen state,
+43:23
+and you would expect that if you would go down to zero, you would expect everybody in the state.
+43:29
+What you can see here is the effect of the cooling down.
+43:35
+The number decreases a lot, so at this point, five points here, there's hardly any items left, so definitely couldn't go further.
+43:40
+This was one very early work, of course. Now we can reach ninety five, 98 percent Collins a fraction which in.
+43:47
+So there is a continuous phase transition here.
+43:54
+You see that this number smoothly increases as continues and you go into the superfluid B.S. phase that we expect.
+43:56
+What I now want to discuss is the question of what is the order parameter for this transition?
+44:06
+So you could, like write down a simple order parameter by saying the order parameter is just exactly this fraction and not over,
+44:12
+and it's zero to one side, Nunzio on the other side that would work.
+44:18
+The problem that you have is that this whole description of particles looking at in which plane weights are and how are they occupied?
+44:22
+That's a nice description for non attracting particles.
+44:30
+But if you particles are interacting, then his whole concept of single particle state doesn't really make sense anymore.
+44:33
+So for interacting particles, you have to define again, what does a b c what is a superfluid actually is what how can I how can I think about this?
+44:39
+You know, if you have a lot of attacking party on attracting particles,
+44:49
+you can always vote on an anybody wave function just as a product of a single particle wave functions.
+44:52
+And then you can look at what does each individual, a single particle do? If you think back off, the internet is a bit discussed in the first lecture,
+44:56
+it's obvious that there this doesn't work because what this one particle does depends very much on what the other particles do.
+45:03
+This is strongly correlated system, but even in weakly correlated system like a typical weakly interacting C,
+45:09
+do you have a problem because the repulsive interaction changes the way functions of all of the particles massively?
+45:14
+If you've been if have listened to Zorn's lecture,
+45:20
+you will have seen this kind of Thomas Fermi approximation where you see the it's not a single particle Quonset in the trip anymore,
+45:22
+it's this inverted parabola that is dominated by the interaction energy.
+45:29
+If you have not seen it doesn't matter, the main thing is to say this point and not over and works well for not injecting particles.
+45:34
+But there's a conceptual problem.
+45:40
+If I have interacting particles because the wave functions, not just the protocol, single particle wave functions anymore.
+45:41
+So we have to think about. How can we like to think about the BBC in another way?
+45:47
+How can we think about the BBC and not in the way of occupations? But in the way of talking about the way function the field?
+45:52
+And the idea is like if you think about optics, you think about, OK, if I have my thumb state, it's basically for a density matrix.
+45:59
+I have a lot of different particles in different in different, highly excited states, and there is not much correlation between them.
+46:08
+I can I can define a thermal correlation things like the thermally proi wavelength,
+46:15
+which goes like one over the school of temperature, and that's about it.
+46:18
+However, if I get to the with zero, I have this one macroscopic wave function, one macroscopic metre wave.
+46:22
+So it's kind of like if you think about light fields you go from, like a light bulb,
+46:28
+classical light to a laser where it's just one nice frequency, which is like an infinite correlation, takes both time wise and space wise.
+46:32
+It's one plane wave. So in the laser, if I have a laser fired, if there's one sign it's hard to go into outer space,
+46:40
+if I know the face here, I can predict the face of a world. I know how it's oscillating just with the wavelength.
+46:46
+While if I have a classical light field like light coming from the sun, that's incoherent light.
+46:51
+You know, there's no fixed face relation between the light and light field there.
+46:55
+The Twilight political light can't interfere. Laser light can interfere, and the same thing you get with the BBC, the BBC is a metre wave.
+47:00
+That is everywhere, well-defined. And if I have to if I know the face here, I also know the face there.
+47:09
+All part of the way functions are coherent that can interfere with each other,
+47:15
+like optica infinite weight, spatial coherence like you have in the days field. So that's the intuition.
+47:18
+And now we have to like take this intuition and put it into a formula. And here's how you do it.
+47:24
+What you basically say is if I want to measure the face of a better way for you to a light field,
+47:30
+what I uses are you use the field operator, the creation and dilation apparatus of the field, the position excellent prime.
+47:34
+We're seeing field operators before. Who has not?
+47:41
+OK, one person has not seen him before. Two persons will not go into too much detail about them now.
+47:48
+We'll see later on a disk with his version of that, where it's easier to like, go through the mathematics.
+47:55
+The key thing here is that you can think of is that you probing the face of your Metway field at a certain point.
+48:00
+You're probing, if I say, taking out a particle here, putting in a particle there and seeing what we still have an oval, if you're rich, a state.
+48:06
+Intuitively, for now, just think about I measure the face of two of the better way for you to measure the face of the
+48:13
+metal away for you to hear and ask if it is two phases of something are related to each other.
+48:18
+Even for very long distances. Because we have the superfluid state where the pictures you have this face coherence
+48:24
+of all of the system that if you measure the phase of the wave function here, you can predict the face of the wave function somewhere else.
+48:30
+And if you have an incoherent better way forward, you can't do that. That's the idea.
+48:36
+OK, so what you do is you take this kind of order parameter. Oh, you can't just kind of correlation function.
+48:41
+Take the India, take the limit of this to infinity, so you look at the long range order of this and people call this off diagonal, long range model.
+48:46
+It's not density density. It's not like the densities like you have in a crystal.
+48:55
+If there's a particle here, this next particle there, the next particle there.
+48:58
+We now have a wave function where each particle as we spread out of all of the area, like in the plane wave.
+49:01
+And what we're saying is we are looking at the optical elements to face elements, the correlations between here and here.
+49:07
+So we are asking if the face is something here. What can we say about the phase of the wave function?
+49:12
+At no point. The people call this the there, the long range, or LRO.
+49:16
+You'll see that a lot of text. This is what it is.
+49:22
+It's basically a mathematical measure to measure the coherence and easy to measure of the way function is coherent everywhere.
+49:24
+OK. And this was what I said in the beginning.
+49:30
+Why do we have to do this?
+49:35
+Why can we not just look at the macroscopic occupation of the ground state where the answer is that would not work for interacting particles?
+49:36
+So this is the order state, this is the state when we talk about UBC, the superfluid,
+49:43
+we say we go from an unnatural state to from a state that has no special face anywhere.
+49:49
+There's no face correlations and nothing going to an ordered state. We have this often long range order.
+49:53
+So what we said earlier about the second lot of face conditions, as we said, OK, well, if you have this.
+50:00
+You would expect you have this mechanism of simultaneous breaking. So you're asking which symmetry is broken here?
+50:05
+We're going to see which symmetry is broken and mathematically speaking, you say, OK,
+50:11
+it breaks that you want symmetry of the Hamiltonian, you want this to face symmetry.
+50:15
+And basically, it's to say if I have one macroscopic metre wave, that would have a face, so I have to pick a face.
+50:19
+Intuitively speaking, if my Hamiltonian is hitch and precise and I can state of that,
+50:27
+the multiplying my my wave function type of a Facebook that actually be priceless.
+50:32
+No, that's also what I it. But, you know,
+50:36
+if if if a wave function is an can state and see times the way function with
+50:39
+these numbers also in state and if it's just a face factor is also anomalous,
+50:43
+nothing changes. So it basically says that this face I fight in front of her way function.
+50:47
+That's my symmetry. Well, if I take this face that face that face, that face that face them or Tony doesn't care.
+50:53
+Because if you think of the kinetic energy to have an amateur in it only looks at like face gradients,
+50:59
+the derivatives doesn't look at the absolute face. So that's like a two million people call us.
+51:02
+Do you want symmetry? Because that's just the age group of étudie i.
+51:06
+And if this faces programme spontaneously, spontaneously picks the phase of the wave function, then that's the symmetry breaking that year after.
+51:10
+Is this the local? Mm hmm.
+51:19
+Good point. Don't. You just multiply the state by state, that's completely unacceptable.
+51:23
+Mm-Hmm. Usually we'll get examples in the next light, yes.
+51:32
+OK, so this is a global or local cemetery and both so the.
+51:36
+To the phase of the wave function is a local order me, because the phases defined it every point,
+51:42
+it can be different at every point in the same thing as the mechanisation or the mechanisation.
+51:47
+Density, I should say, is a local quantity. What I kind of spin up here happened on C-SPAN.
+51:52
+Of course, it's a local quantity, however, because I have long range order, because I say in this face,
+51:57
+if I have to pick a certain face here, it has to be to face somewhere else like an affirmative.
+52:03
+I'd say it spins up here. It would also be spins up there.
+52:08
+The long range auto means that all of the local cemetery gets reduced to a Clover cemetery because we say the system is language order,
+52:11
+so we practise in which at one point it's broken everywhere else in the same way. OK.
+52:18
+Good. So now just two quick examples in the midst of two today.
+52:24
+This is an experiment, what's called the atom laser was done about water 20 years ago now.
+52:30
+What they did here is the details of the trip don't really matter. What's important is they have a b, c and a trap.
+52:35
+This is a cloud of atoms in the trap. This is the atoms in the trap is just a density picture.
+52:40
+And then they couple out atoms at two different points in the trip. Say somewhere up here and somewhere down there.
+52:45
+And then the metre waves that you couple out are particles just floating out like this.
+52:52
+And if you do this with a atoms, so above the critical temperature. This is what you get.
+52:57
+Just take it slow with atoms falling down. Just see the densities. However, if you do this close to the B.C. transition.
+53:03
+If you knock to this close to the transition to the cloud, it's partially condenser,
+53:13
+you know, below to see what you start to see us, you see four inches, the few inches.
+53:17
+You can fit this and you see a nice interference pattern.
+53:22
+And the reason for that is that now the metre waves and the BBC, as such as a from a from a gas we think of like a little plop here,
+53:26
+little prop there, little prop there you think of like big extended wave functions that expand the whole system.
+53:32
+So your face correlations between two points up here and up here.
+53:38
+And then what you get if you have two coherent waves city overlap, you get interference between it.
+53:41
+You get points where the wave functions have the same face, so you get a high density and wave functions, but they have the opposite effect.
+53:46
+So you get destructive interference and you don't see any particles.
+53:51
+So you can see this nicely here, and then you can also see that if you do this now fully condensed to fabulous,
+53:54
+you can see there's less atoms in here now because they air to evaporate forever. You can see you get a very, very strong modulation.
+54:01
+You can a very, very strong interference contrast. So that's really what you're saying is now to be the atoms copied out of the BBC.
+54:07
+They're like an atom laser, like a laser beam. A fully coherent beam. A a about two of them and overlap them.
+54:14
+They get a beating between them interference. And it can see that you.
+54:19
+So you do see this coherence directly popping up, which is amazing.
+54:23
+OK. They also do like they also did like a falls short now, OK?
+54:28
+They also did like a quantitative analysis and ask What is the visibility,
+54:39
+which is like a stand in if you want for a proxy for the coherence as a function of the distance?
+54:43
+This was the same paper. And if they look at high temperatures, you can see that the visibility drops down to zero.
+54:49
+If you fit this exponential decay, you would say the correlation length is maybe 200 300 micrometers in here.
+54:55
+If they do this below the critical temperature,
+55:01
+you can see it also the case to answer there's also correlation next week if the correlation functions the times they grow,
+55:03
+which is the case down,
+55:09
+but at the case to an offset case to a long range order because the system has face coherence over the whole cloud over a large piece.
+55:10
+So I have two concepts that we had.
+55:20
+Looking at the correlation function that tells us where about two particles are two parts of the way functional coherent that goes into invisibility.
+55:22
+It tells us about the coherence, the correlation length. What is the timescale to which decay and tells us with the offset,
+55:28
+the long range order that is the hallmark of the state of a long range order in order to face?
+55:34
+So we see all of this nicely. And later on, they do experiments, what people also did is to say, OK, if they do very quick cooling to take a big load.
+55:39
+Hot air cooled down very, very quickly, and then this is a function of how slow or fast they're cool.
+55:50
+They look at what is the contrast, the visibility that they get as a function of the distance.
+55:56
+The crew very quickly, like when you like 20 minutes down very quickly, there's no time for the system to communicate over large distances.
+56:00
+You see, you only get the correlations of a very short distances.
+56:08
+What if you do it slowly, you see long range or really emerging and the visibility peering over long times?
+56:10
+OK. And now let me come to my final slide for today.
+56:17
+The question of is there really a spontaneous symmetry being broken?
+56:22
+And to answer this is, well, what you can do is you can do the following experiment, which was done in 2004, two years ago, almost.
+56:28
+What they did is they created two pieces independently. One here, one there.
+56:36
+These have never seen each of them take a peek from a cloud split into two parts, and then the condensation occurs independently in the two.
+56:40
+So this species have never seen each other. And then they do time apply to the VCs, expand.
+56:48
+They get bigger and they overlap in the middle, and then you can ask, OK, what do you get?
+56:54
+What do you expect to see? What do you think?
+56:58
+Hmm. Yeah, exactly, you can think of this as a if the BBC is fully coherent in itself, then it's kind of like a double speak.
+57:09
+We have like one laser beam from here, like one laser beam from there, and I will see interference between them.
+57:17
+And indeed, time of light pictures. They see very nice interference contrast in between you.
+57:22
+And something it's really important that is not so much said because we showed it in the pictures, but it said in the text, is that OK?
+57:28
+Books have been created independently. There's no prior face communication.
+57:35
+And the point is, if they do this experiment, many, many times did the appearance contrast is always high.
+57:39
+So this is always a coherent to each other. They always have like a fixed a face relation to each other.
+57:44
+They can always interfere. But the face varies randomly from shot to shot.
+57:49
+So it's not that you always have like the maximum here. Sometimes you have like a minimum and maximum stare and so on.
+57:54
+So every time you do this picture, you get like a random orientation of body shots and the minimal.
+57:59
+So this is fully consistent with the idea of we have this microscopic coherence in
+58:04
+the BBC and we have the spontaneous symmetry breaking during the condensation.
+58:07
+So each piece is kind of if one picks its face randomly while you're right, it's condensing.
+58:12
+And this one does the same, but independently. So the relative space between them is random, but it's always well-defined.
+58:18
+So you always get like a nice coherence, but you get like a different face every time.
+58:25
+It's kind of like if you take the if you take a firm and then cool it down a hundred times from the crude temperature down to the very different,
+58:30
+and you expect that the the domains that did it to you expect that the direction of the mechanisation is random every time you expect that,
+58:37
+every time you get a nice for a magnet, but sometimes it's this. Sometimes it's that sometimes it's that.
+58:43
+And here you can do the same thing with the BBC.
+58:48
+And to answer, coming back to your point earlier on, you would say that normally a global perspective in a way function.
+58:52
+I can't observe that is true. You just have the single object.
+58:57
+But if I have to object to wave functions, then I can observe the relative to face between them doing interference.
+59:02
+So, yeah. A lot of concepts, and they all nicely tied together to explain what we see.
+59:08
+OK. That's the end for today. Any questions left?
+59:16
+Perfect, that's not the case, then I'll see you again on Thursday and on Thursday, we then start with optical lattices.
+59:27
+And then we like started I put this concept into play,
+59:34
+really with the first complex problem on Thursday will also publish the first problem set because it has like parts of this piece in there,
+59:36
+but also parts of the capital letters and will also start in the next two days to like, assign the tutorial groups, which means please,
+59:46
+if you like, interested in taking the exercises, make sure that you are registered for the course of the year and vice versa.
+59:56
+If you think OK, you want to keep listening to the course but not want to take the exam and not want to take the do the exercises,
+1:00:03
+then please make sure that you're not registered nurses so that we know how many people we have to like assign tutors for.
+1:00:10
+Perfect. Thank you very much. See you first.
+1:00:17
