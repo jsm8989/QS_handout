@@ -1,0 +1,1168 @@
+OK. Welcome back, everyone. Let me take this off, if you can better understand me.
+0:10
+Um yeah, this is now a lecture to so the main purpose of today,
+0:15
+first 20 minutes of today is like, look at a couple of different synthetic many body systems.
+0:20
+So look at the systems that can be used to like do quantum simulations.
+0:25
+And then afterwards, we'll look at a little bit more detail about technologies needed for like dealing with ultra cold atoms.
+0:30
+And look at some parameter regimes. What atoms? So today's lecture,
+0:36
+where we also have a section about atom light interaction that is like a repetition reminder of what you have done in atomic and optical physics.
+0:40
+But that's going to be like a 20 30 minute overlap we have and that's about it.
+0:46
+Then we go on with with different things. OK, so let's get go right in.
+0:50
+The first synthetic manoeuvring system, the one that we mostly deal with is ultra cold atoms, ultra cold atoms.
+0:55
+You've heard in typical optical physics. How you cooling down? If not very.
+1:01
+You don't very you don't need to know how we get them. We can get something on the order of several tens of to five, several hundred thousand atoms.
+1:05
+And that's big. That's the biggest synthetic many body systems we have at the moment.
+1:12
+The other thing about these things is it's really atoms that were later on in the optical lattice move around, pop around.
+1:16
+So you really have mobile particles, which are great if you want to, like,
+1:22
+simulate a charged dynamic stuff, moving around transport phenomena and so on.
+1:25
+If you don't have that, if you only have like systems that are static sitting here somewhere,
+1:30
+but they have like two spin states up and down the qubit, then of course, you can like embed, say,
+1:34
+from unicorn mix into a set of qubits like you can describe anything in the classical rock with a set of bits.
+1:38
+But there's a big overhead with that, so it's not great.
+1:44
+So having mobile particles is great that one of the challenges that you have with cold atoms is that you really cool down to as cold as you can,
+1:47
+but you never really achieve with zero. There's always some residual entropy still in the system.
+1:54
+And that's a problem. But we can deliver for for what we've done so far and.
+1:59
+It's one of the limitations with. We look at this later. I'm sorry, so this is no.
+2:06
+OK, so there's a problem with the recording, but we'll also put online the recording from last year.
+2:15
+So for those people that have to watch them online. OK, so this is the main system for this lecture course.
+2:21
+And now I go through a few of our systems and I'll just give you the main gist of them.
+2:27
+So don't worry if you don't get all of the details of the other systems are not examined.
+2:31
+So another one that people used a lot, especially in the past, is photons.
+2:36
+They're reasonably easy to work with because you can do a lot of things, but just say I sent my photon through a beam splitter, trying things overlap,
+2:41
+several photons I can build up, like complex topology circuits of what the photons are supposed to do, and I measure them at the end.
+2:47
+The problem is it's hard to engineer interactions as you know, electrodynamics,
+2:54
+then your theory photons don't interact and nobody just passed through each other,
+2:58
+which basically means you can't really do interacting models very well.
+3:02
+If you want to have the photons interacting with each other, you have to transform them into something else so you can take root,
+3:05
+break atoms and transform a photon into a book interaction which turned into
+3:12
+the excitation which don't interact and then transform it back into a photon.
+3:15
+Or you do the same thing in polaritons or in superconducting circuits, which will look a little bit later.
+3:20
+Superconducting circuits are like a special case if you want. It's like circuits where you build.
+3:25
+We work with microwave photons of photons in a frequency domain of gigahertz, tens of gigahertz.
+3:29
+And then you look at the physics of that, and I have like two more slides about them. I think in the future.
+3:34
+In a few minutes. Inform anybody system to, but also look a little bit later, is trapped ions,
+3:39
+so you take atoms, took away one electron or give them one extra electron,
+3:45
+so they electrically charged and that makes it easy for them to, like, hold them in strong traps.
+3:48
+Because now, once they charged particles, you can put them in person as opposed to have a very strong forces on them.
+3:53
+And it's very easy to cool them down to the absolute ground state, and you can put them in a state where they like,
+3:57
+say, five microns away from each other, which makes them easily addressable optically.
+4:03
+And they stood in the act because they have these Khuram interactions with the language.
+4:08
+The problem with these things is that, Lambert admitted, would see in a second way and the position is frozen.
+4:12
+So you again you admit the to spin models, what each system is, a qubit can be spin up or spin down.
+4:18
+It's not like fermions really moving around. Another system that's now coming up over the last two years massively is what Brooke Adams,
+4:23
+which is basically saying I take one atom and put it into a little optical tweezer.
+4:31
+We talk about what it is in a few minutes and then I take hundreds of them, arrange them in whatever way I want,
+4:35
+and then they copy very strong, strong, long range interactions that we get.
+4:41
+Like Typekit interactions are fundamental to be getting these expectations.
+4:45
+And this is not something that's still reasonably small system 250 items like the record in December 2020.
+4:50
+But it's very quickly increasing and a lot of people are betting their money at the moment of saying
+4:56
+this is going to be one of the prime platforms for a quantum computer in the next five to 10 years.
+5:00
+So they can already do like small things, they can do gates and so on. And they are steadily improving.
+5:06
+So these are the ones at the moment with the fastest growth trajectory. So it's very exciting area to watch.
+5:10
+Again, they're typically frozen, which means spin models only. There's many others, just like in vCenter,
+5:16
+so like little nano defects in diamonds that Winston's Smith attached to his crew was looking a lot at in this building.
+5:21
+Also, Michelle Lukens group at Harvard is looking at that. There's like silicon cubits.
+5:27
+There's atoms on surfaces, quantum dot arrays. There's many, many, many more systems.
+5:31
+So I now want to talk a little bit more in detail about the superconducting circuits and ion traps.
+5:35
+And then we go a little bit more into cold atoms.
+5:41
+So superconducting circuits, the way to think about them is to first think about a normal electrical circuit.
+5:43
+So you have an inductance and you have a capacitor and then you kind of know the differential equation for like this kind of classical oscillator.
+5:50
+It's the same as what I can harmonic oscillator. It isn't harmonic oscillator, which means if you just quantised the thing and say, if I go to very,
+5:57
+very cold temperatures and very small numbers of excitations, one excitation to excitations,
+6:04
+I have a quantum whatever quantum harmonic oscillator,
+6:09
+which you have all calculated in one bit where like they all the states always have like a splitting of one of one h, but we'll make out between them.
+6:12
+Now, this is not so nice if you want to have a qubit because all of these transitions are degenerate.
+6:20
+So if you try something from state zero into state one, it can also be driven back into state forever into state to state three, state four and so on.
+6:23
+So in some sense, it's still too complex a system that's too many states. You would have just two states.
+6:30
+So what can you do?
+6:35
+What would you think you can do in order to have a just two states out of many of those in in the morning goes to make it harmonic?
+6:37
+Exactly. And the element that you put in there is the joys of conjunction pride Josephson,
+6:45
+Nobel prise winner we'll see you in the Cavendish attack basically saw this effect in his Ph.D.
+6:49
+thesis for if you radically stumbled across it and wrote down the fundamental equations.
+6:54
+The idea for that one is that you have a superconductor on the left side,
+6:59
+the superconductor on the right side and the little isolating tunnel barrier in the middle.
+7:02
+If you now just go in with standard quantum mechanics to say, I have a wave function,
+7:07
+I want to calculate the flow of particles, the probability flow of the wave function.
+7:10
+You know, that's given by the creating of the face. So if you have a face difference between left and right,
+7:14
+that gives rise to a current that in this case actually acts is proportionate to the sign of this of this face created.
+7:21
+So depending on what the phases are here and here, the phase of the of the other parameter we'll talk about that is that in the next lecture,
+7:28
+you get like the current going left or going right. If you just crank, handle and say, OK, what does this mean for the voltage?
+7:36
+Well, the energy. So voltage is kind of given by like the how fast the phase evolves, the frequency of the phase evolution.
+7:41
+So it's linked to that.
+7:47
+And if I put all of this together, massage it a little bit, I just get it and I'll have an inductance in the doctor, which is proportional to course.
+7:48
+I doubt one of the course on. So it's a nonlinear inductance.
+7:55
+So it's exactly the thing that I need to make a little resonating circuit, a non-linear circuit.
+7:59
+And if you do this, you just put like this the so-called transform geometry. You put such a Josephson junction into such a little circuit.
+8:05
+You get something where you oscillate just non non harmonic.
+8:12
+And that means that the frequency from zero to one is different than the frequency from one to zero.
+8:15
+And that's what you need for your cupboard, because your cupboard is still just like built by these two states zero and one.
+8:20
+And you should try stuff with frequencies omega 01. It cannot drive any further transitions.
+8:25
+So it's really like a two states subspace that you need for your keyboard.
+8:30
+So that's what you do in superconducting circuits. And the good thing about superconducting circuits is that you cannot put them on a chip.
+8:34
+You cannot do this with like the top WiFi method, so you can make big things.
+8:41
+So the second one chip is like a chip from Google that they created in 2020 or 2019,
+8:45
+and I published stuff in 2020 and Dec. one has fifty four cubits on it.
+8:50
+What's the world record at the time? There is bigger chips now around, but there are no real results as far as I know published on them.
+8:54
+And then if you can ask, OK, if I have these little qubits, this little money diplomatic, that this little things, what can I do with them?
+9:02
+What I can do with single kubert rotations,
+9:06
+which means I take like something in the ground state and turn it into a superposition or into the excited state or any other state that I want.
+9:08
+And it turns out I can do this with ninety nine point eight percent fidelity.
+9:15
+The important point for doing a quantum computer for doing a gate is, of course, the two of these things have to interact.
+9:20
+They have to do two Cuban gates legacy north or anything of these operations. And this is also pretty good, right?
+9:25
+You can look at this. The two qubit arrogate here is not again below one percent, even if you are many of them simultaneously,
+9:30
+which means over 99 percent fidelity of the gate doing what it's supposed to do.
+9:37
+So it's pretty good.
+9:41
+However, if I have that one percent error probability for two Kubert Gate, if I have to run a calculation that consists of 100 steps,
+9:43
+then to put, then the overall fidelity of the whole process is 99 percent to do the powerful and that then suddenly it's a pretty small number.
+9:52
+So this thing is pretty good, but these fingers are still not good enough by far to do any meaningful calculations with it.
+10:01
+I can do things like taking a factories in a small number of 15 or slightly bigger because I only need like 10,
+10:07
+20, 30 steps in the calculations we have like a 30, 40, 50 percent chance of the calculation is correct.
+10:14
+And if I run the calculation 100 times and just look at the most likely outcome, that's probably going to be the correct thing.
+10:20
+But this exponential scaling will kill you if you do more complex calculations.
+10:25
+So this thing is on that scale, still light years away from doing anything that your mobile phone, for instance, can do.
+10:29
+It only becomes better later on when you talk about error correcting, when you say, OK,
+10:37
+can I do something like I do in the classical system where I can correct for these errors so that not any error is a problem,
+10:40
+but it just is a self-correcting code. Like what you do when you like, say, for instance, you have a credit card number,
+10:46
+you type it in and then the computer says, OK, this isn't a valid number because the last two numbers are checks them.
+10:51
+And if you have had a typo somewhere, it recognised there was a mistake and it recognises what you have to do to correct the mistake.
+10:57
+So you can do things quantum error correction, which you would hear about any information lecture if you're interested,
+11:03
+and that will then take these things over the finishing line. But the problem for that is that at the moment,
+11:08
+people believe that you need something on the order of 100 or a thousand or maybe 10000 physical cubits,
+11:13
+10000 of those things to make one fully error corrected logical cubed.
+11:18
+So if you want to have something with like whatever a thousand real logical qubits you would need, like millions and millions of those things.
+11:23
+So we are far away from that.
+11:31
+On the other hand, if you think of computer chips, how quickly they went from the thousands to a million to a billion chips,
+11:32
+two billion transistors on one chip, maybe the scaling goes faster, maybe in a few years with you.
+11:37
+It's an exciting time. The other one is iron traps.
+11:42
+Irons have, for the moment, the world record for having the highest fidelity for doing these quantum gates.
+11:47
+What you have is an iron trap.
+11:52
+If you have a Polish trap that finds the irons together because the charged particles, you can just confine them if electric fields.
+11:53
+And they will always form like a nice iron crystal where they stay separated from each other.
+11:59
+You have an external trap pushing them together,
+12:03
+but the cool and repulsion you have charged particles pushes them apart and you get kind of like this thing.
+12:06
+The position is fixed because of this, you can and it's been an internal state of internal hyper fine states of the island, for instance.
+12:11
+And you have distances on the order of a few micrometers.
+12:17
+So you can, like, really focus a laser beam on this iron or design a design and read them out individually or do stuff to them individually.
+12:19
+So it's a great system for that. There's a couple of nice ways how you can do Gates, the gates basically goes by operations of the infantry.
+12:26
+So basically what you do is you can like shine in some fields, which sets off the whole thing in motion that it kind of oscillates in this direction.
+12:35
+And then you can do something with like the few that you want access to the motion covers to the entire state of the island.
+12:43
+So if this iron isn't the excited state spin up logic one, then I would set the whole thing in motion.
+12:47
+If it's not, it's not. So if I put this one into a critical position of being zero one, then put in this trading post,
+12:53
+then the whole I inquest is in this position of being not in motion and being in motion.
+13:00
+And then if I now say something, if this one is motion, I bring it down. If not, I do nothing to it.
+13:04
+Then I get like the interaction between the two between these two irons and I can control which irons
+13:09
+I want to interact with by saying I want to use like which mode of oscillation of these things.
+13:14
+And this works very, very, very well. They have three nines or more in the fidelity, so really, really good.
+13:19
+The problem is that this limits the number of the ions that you can have, because if you have more ions, you have more of these normal modes.
+13:24
+If you have two ions, you have two modes. If if one, you have one mode and then frequency space isn't that big.
+13:30
+So it becomes very hard to isolate or small to talk to them individually. And that's kind of like a problem.
+13:35
+It becomes hard to trust these reputation, both if you have a really big eye in terms.
+13:40
+That's the limitation at the moment.
+13:44
+The idea is to try to go for something like segmented tribes, so we can just take these five islands, do something with them,
+13:46
+which as they do and then you move two of those lines over to here, bring next three islands and have these five lines and do something to them.
+13:51
+And we're going to segment mode. People have been developing this technology for the last 10, 12 years.
+13:58
+They're making progress, they're getting there, but it takes longer than you would have expected, maybe.
+14:04
+OK, any questions on this of our system so far?
+14:09
+I guess you all like a comfort here you are,
+14:19
+like so used from last year to like have online lectures that the idea of asking questions is kind of foreign.
+14:21
+But please ask questions when something is unclear because it's important that everybody carries along.
+14:27
+OK? This is now a reminder of at some light interactions. This is not stuff that you have done in the atomic and optical physics,
+14:33
+but that everybody we left on the course and it's important just to clarify the lectures.
+14:38
+So I'm going through this reasonably quickly. Some of it will also come back in the proper set.
+14:43
+If those questions interrupt and ask. So the key thing is that we're mostly talking about optical photons,
+14:46
+which is more or less around visible light visible light into this light infra-red
+14:53
+to the wavelengths between a micron or 1.1 microns and a couple hundred nanometres.
+14:57
+And the frequencies of photons of photons, they're like on the order of hundreds of terahertz.
+15:02
+It's kind of important because will later on also talk about micro microwave photons that use fibre find transitions.
+15:08
+They like a lot of gigahertz or if you want to let go of spin states when you're off megahertz.
+15:15
+Here we're talking about much, much, much, much bigger frequencies, hundreds of terahertz.
+15:20
+So you have no chance of really seeing the oscillation of the electric field because it's far too fast.
+15:24
+The energies of those photons are than any on the units of electron volts and important parameter for us,
+15:28
+as opposed to wave number K, which is just to pay over lambda. And then we have to follow the momentum HBK.
+15:34
+And it turns out that the absorption and emission of this optical photons is a significant change for the atoms from the atoms of code.
+15:41
+So these photons are like a nice tool for us because HBK would say this lot is a nice momentum scale.
+15:47
+You give the atom a kick off. It goes into a different momentum class, and that's exactly the kind of like momentum that we are looking at.
+15:54
+So that's the good scale for us. The belief system for all of us is to Cuba, to it's a two level at them.
+16:00
+So we have like typically two states, a crown state and an excited state, and they have an energy difference which gives rise to a frequency.
+16:08
+And then you shine in a laser with a frequency, laser frequency,
+16:15
+and the parameter we always will use is to the joining delta, which is the difference between these two things.
+16:19
+If Delta is positive, we call this purely joint. That means that the frequency of the laser is higher than the frequency of the atom.
+16:25
+So a photon has like more energy than the atom could absorb.
+16:31
+It's called truly tuned because, well, if you increase the photon energy, the wavelength gets shot so you go more towards blue light.
+16:34
+And the other cases are already tuned, which is when the frequency of the light is lower than the frequency of the atom.
+16:41
+And we assume our lasers are always to be perfectly using the frequency and to have enough photons,
+16:48
+enough intensity that you can use a semi classical description. So you just assume it is the perfect coherent oscillating electric field.
+16:52
+You don't care about photon shot noise and all of those kind of things, at least not you.
+16:59
+And that's a pretty good approximation for most of the things we do. And then there is if atoms interact with photons, with laser laser field,
+17:03
+there is the three ancient processes which are just important to think of in mind.
+17:12
+The first one is stimulated absorption. So if the atoms in the Crown state and we have PN photons and the laser beam,
+17:16
+yet it can absorb one of those photon is a coherent process and the atom goes into the excited state it is and minus one photons left.
+17:22
+The next process is stimulated emission, but the atoms in the excited state we have in photons and laser beam,
+17:30
+and then the atom emits one photon coherently into the laser beams.
+17:35
+We have ntx plus one photons in the laser beam and the atoms in the quantity.
+17:40
+And then last process of spontaneous emission, where the atom is an excited state and photons and laser beam,
+17:45
+and then the atom emits a photons spontaneously in a random direction. So there's one photon and then of a mode the laser field still has and modes.
+17:50
+But the atom is in the ground state. And it's important to intuitively understand the difference between cases two and three.
+17:58
+What do you have in case to stimulated emission? It's a coherent process, it's driven by the laser field.
+18:06
+So if you don't have already and photons in the mode, it won't happen.
+18:10
+It's a coherent process, which means that all of the N plus one photons afterwards in the laser are identical,
+18:14
+indistinguishable citizens with lasers oscillating like this.
+18:19
+The photon coming out is also oscillating coherently like this and that will.
+18:23
+It is important in this important distinction to spontaneous emission, which, if you're future futuri,
+18:27
+are things that are stimulated by vacuum fluctuations of the electric field where the photon goes in the random direction.
+18:31
+And that's an important distinction that we would see the reason why this is important on the next slide.
+18:38
+So if you want to ask what kind of effect do I get out of this, there is two different regimes.
+18:42
+The first regime is where data is small. This is basically resonant photons.
+18:47
+And this is what we call the shadowing regime. So this is really where the atoms absorb photons of the laser beam.
+18:52
+And then, of course, they coherently also we omit some of them back into the lesbian, absorbed them again.
+18:58
+So there's a coherent oscillation going on, but on top of that,
+19:02
+they can also observe a photon from the laser beam and then randomly emit it in a different direction.
+19:05
+So it is. The photon gets absorbed and gets readmitted into a different mode, a different direction.
+19:10
+It's what we call a scattering process.
+19:15
+It's an incoherent process, and we call it typically fluorescent, because if you look at this from the site, you see the fluorescent light.
+19:16
+So you have like a cloud of rubidium. Here, you send this red beam coming from here, which is a resonant.
+19:24
+You would see the atoms glowing, glowing red because they absorb photons from here.
+19:28
+It's because of these photons and all kinds of elections.
+19:32
+And this kind of thing can be a pretty, pretty fast process because the lifetime of the excited state is typically in the order of 20 nanoseconds.
+19:35
+So an atom each atom individually like millions of photons per second in the same town, so small compared to what?
+19:42
+It's not the it's not the what is called the level space.
+19:50
+No. Very good. So it's if you think about this.
+19:55
+I have it here, so I have to lifetime here of the excited state.
+20:01
+And it has to be small compared to the inverse lifetime, which was quite aligned with.
+20:04
+So if you have a lifetime of like a nanosecond, the inverse of that is that kind of it's like a gigahertz,
+20:08
+10 nanoseconds, 100 megahertz 20 years, then OK, so you are off of megahertz.
+20:15
+And this is the line of if you can think about this as like the Heisenberg energy uncertainty.
+20:20
+But, you know, that's that right, two x times straight up. It must be bigger than bond.
+20:26
+You also know the Delta E Times that that must be bigger than baseball.
+20:30
+And so that means that if the atom is only going to be an excited say for a very short time,
+20:34
+that state appears to have an energy uncertainty of over over over how.
+20:39
+And yeah, totally unexpected gives you like a couple of megahertz line with.
+20:44
+And when I say delta small, I mean, really small compared to that language. Very good.
+20:48
+OK. If. And this is, for instance, what we use like this is what they use in to optical traps that probably Zorn has explained to you.
+20:53
+We do laser cooling at a scattering of the photo of the photons, transfer momentum and all of that.
+21:02
+And you also use it, as you would see in a minute for imaging. The second machine, which is important for us is to receive data is very,
+21:07
+very large compared to the line work, and that's usually what we call fortitude.
+21:13
+It's 40 June, which basically means that important energy does not match at all the transmission frequency of the atom,
+21:18
+and the direct consequence of that is that the atom cannot absorb the photons.
+21:24
+The energy doesn't match. The atom cannot really absorb these photons, or only exponentially where, which means there is no spontaneous emission.
+21:28
+So you would you would be tempted to think that, OK, well, in this case,
+21:36
+the atoms are just transparent for the photons they just go through and nothing happens.
+21:40
+And if you think about the numbers that there's actually a good picture. However, two photon processes where you have a stimulated absorption,
+21:44
+followed by a stimulated emission that remains possible because what happens if you have a simulated absorption, you would go and observe a photon.
+21:51
+But you know, in a in a state that doesn't really have the energy, somebody's estate.
+21:58
+But if you do two steps in one, go up by a certain energy down by the same energy because you emit the photon back into the laser beam.
+22:01
+So the photon has exactly the same energy that the photo that you originally absorbed, that's two fold the two process loop that is resonant.
+22:08
+You started in exactly the same state, you stop in exactly the same state as he started towards residence, so it always happens.
+22:16
+And you can now think about, OK, you can have calculators in second order perturbation fury and yes, you can.
+22:22
+You can also calculate is exactly and this is now a process that's going to be
+22:28
+very important because this is the basis of optical tweezers of optical lattices.
+22:32
+How we actually trap and manipulate atoms. So.
+22:36
+The model Hamiltonian you would see, and you probably have seen in what you have seen,
+22:41
+it would be quantum mechanics, but we got some power to quantum mechanics is a two by two matrix.
+22:44
+So we say the Crown State is the first state excited state. It's the second state.
+22:48
+And then the two between the tonin here has like we set the Crown State Energy to zero because we
+22:52
+can just set the energy offset wherever we want by subtracting a constant part of the Evertonian.
+22:57
+We then say the energy of the excited state is now because we do something with a quarter rotating wave approximation.
+23:01
+It's actually the difference between the photon energy and the atomic energy.
+23:08
+So it's just the tuning because we do this in the presence of this classical photon field.
+23:12
+So here we have to the tuning we have tried to be tuning because we have over two one half in front.
+23:16
+That's just a convention and we have to transition how fast we go from one state to the other state.
+23:21
+The Robbi frequency omega on the off diagonal.
+23:27
+If you have not seen this before, you can just think about this in an intuitive way of saying that that hurts me,
+23:31
+but very resonant is unique, and Omega tells me how strong my coupling is.
+23:36
+So this wabi frequency is proportional to the strength of the electric field times the diplomatic settlement dipole moment of the atom,
+23:40
+which comes from atomic physics.
+23:46
+For our purposes, we just say it's a no, we have it, and we know that we have this wabi frequency which scared like the electric field strength.
+23:48
+And now, if you have this, you have no telling you this into a true matrix.
+23:57
+You can diagonals it something that you cannot do what you will do in the problem said if you'd analyse that,
+24:00
+you get your energies, which look like this. They have this offset of Delta, and then you have like the square root terminal,
+24:04
+and then you can say now I can calculate what is the energy of an atom instead Wednesday to
+24:11
+interest rates in the presence of the light field minus the energy without light fields.
+24:16
+So omega equals zero is intensity zero, no electric field, no light field and finite omega means in the presence of the light field.
+24:21
+And what you would also do in the problems that you would see, it's five lines of calculation or less,
+24:29
+you would see that in the regime where Delta is large despite a huge regime, this did light shift of the crown.
+24:34
+It goes like omega not squared over delta. So omega not squared goes like epsilon, not square, because like the field strength squared.
+24:39
+So it just goes like the intensity of fluid.
+24:47
+So what you would see and is a slight shift, you see that you get an energy shift of the atom that's proportional to the intensity of the light.
+24:50
+Divided by the. So the intuitive picture for this is that the actor, if the tuning is negative, that the shift is negative,
+24:58
+get them is attracted by gratitude, light field and what gets sucked into the point of where you have the highest intensity.
+25:06
+Because the test is negative potential, you can calculate this shift easily in second order perturbation theory.
+25:11
+You can also think about, OK, what happens with the face like of a pendulum? Wave it below the transition frequency.
+25:17
+I lower the frequency even further, so I suck it down, so I lower its energy.
+25:22
+So it gives me this attractive force.
+25:27
+And that's the effect of that's the consequence of the or the basis, I should say, of all kind of optical tweezers.
+25:29
+If you have an optical light field, you have something that has like a diamond oscillating dipole moment, a polarised ability,
+25:36
+a little sphere of plastic or whatnot, or like a DNA molecule or whatever you want, it will be sucked into like the maximum of the intensity.
+25:42
+That means you can move lightly, you can pick stuff up and move it around.
+25:50
+The problem is, if you do, this is a big thing, of course, that will also scatter photons and thereby heat up and you might burn it.
+25:55
+But if you do all of this with an atom, it's perfectly fine because the atom cannot absorb the energy any other way than what we have discussed here.
+26:01
+So that's how it works. OK. So we have this slight shift.
+26:08
+Which is proportional to intensity over retuning.
+26:13
+You can also say, well, every once in a while, the atom can also go through really excited state and can scuttle reform.
+26:17
+And that's of course, something that we don't want. There are atoms are very, very cold today.
+26:22
+Very, very small momentum. And in October 4th and they get the we kick the photons momentum.
+26:26
+We don't want it.
+26:31
+But luckily for us, if you calculate the scattering rate in the same, which you may have not shown this year, you get intensity of a delta squared.
+26:32
+So he could overdo it like you get over that squared, which means you can always just say, Okay, let's increase my did you go far, far away?
+26:39
+And also, at the same time, increase the power of my laser and you will you get a nice classical potential for the atoms,
+26:46
+but the potential is just proportional to the intensity of the light field without having significant photons scattering.
+26:52
+So this means for his little feeble atoms, we need to use like 50, 60 watt lasers.
+26:59
+Couple of hundred nanometres tuned. So these are lasers when you focus them down,
+27:04
+anything you're putting that focus could be copper could be steel will melt because it will absorb the energy.
+27:08
+But because the atoms can't absorb the energy, because it doesn't match the transition frequency, they're happy.
+27:14
+And there they just see this week potential that we can use to confine them.
+27:19
+So you hit the atom of the hottest thing you have and you just happy about it. OK.
+27:22
+So the way you do this is if you say I take a normal laser beam,
+27:28
+you would typically have a caution be what would the transverse profile looks like aggression if you have delta negative gratitude.
+27:32
+That means you get an attractive caution type potential deposit the we want to like accumulate down in here.
+27:40
+If you take a polluted you and laser beam, you have to have a sign of the things that are positive.
+27:47
+So the whole light shift is not positive. You can have reports of potentially wants us to push the atom out.
+27:51
+And if you just want to trap atoms, this one is easier. But this one gets you a lot of flexibility of creating interesting configurations.
+27:57
+OK. A typical thing to do.
+28:06
+Yes. How do you make exhaustive profile positions based with the laser?
+28:10
+OK. That's actually turns out to be the easiest thing ever because most lasers would you stay with your caution beam?
+28:15
+If you look at the Maxwell's equations at the way equations coming out of that impressive approximation,
+28:22
+you will realise that you get like the cautions times to put,
+28:29
+you know, the characteristic polynomial as the icon functions and you, we realise that this is like the lowest or the LIGO's beam.
+28:33
+It's the quad state solution for that. So many lasers would use them right away.
+28:39
+This is also the beam because it's fulfils the equation is to be met, at least diffraction.
+28:44
+So if I take a beam and focus it, send it out for a long time, everything that's not going to deflect off faster than the ghost mode will expand.
+28:49
+So it's kind of self-cleaning. Also like the mode that's transported in optical fibre is the Gorshin mode.
+28:57
+So what we typically tend to do is we send our lasers all through an optical fibre and what comes out of an optical single mode.
+29:03
+Fibre is a very, very nice caution beam. You can, of course, mess it up, but if you do it well, you get a nice caution.
+29:08
+So that's the standard thing that almost all of laser optics always use as caution beams.
+29:14
+And then if you wanted to have items for, for instance, what we typically do is we use like a wavelength of 10, 60, four nanometres.
+29:21
+You would see this number a lot, and that's just purely for technical reason because it happens to be sighted at this wavelength.
+29:27
+You can build very powerful lasers and then you take two of those beams,
+29:32
+you overlap them in space that they cross each other and you have to call a cross beam Typekit web.
+29:36
+And you have strong, attractive potential in here, and that's a nice pocket to put your atoms in.
+29:40
+We'll see a bit more about this a bit later. Just to be honest and light shift is proportional to the intensity of the jury,
+29:46
+and you'll do the calculation to see why that is the case on the problem said it's straightforward.
+29:53
+OK. So how do we measure something about our atoms?
+29:59
+How do we can improve them in any way we can't really measure like a current or put a voltage metre to them?
+30:03
+What do you do? Well, it turns out in almost all cases, you actually and you and you probably atoms, are you?
+30:08
+You probe deposition and you do that using resonant light. So it's like the cartoon I had before.
+30:13
+You atoms are somewhere doing something and then you send in a resonant laser beam from the left.
+30:18
+Then you can do two things. You can say this do absorption. Let's put the camera here.
+30:23
+And then if there is atoms, there would be less light coming through and I can see this kind of shadow.
+30:28
+If you want that, the cost would see this in the next slide in more detail.
+30:32
+The other thing you can do is you can say, let's observe this, put a camera here to the side and up off the fluorescence.
+30:36
+Observe the photons that scatter. And you can say, Oh, the photons are coming from there, so there must be atoms do.
+30:41
+So that's the way how you do almost all of the measurements and cold atoms, but many other properties,
+30:47
+whatever you want you're interested in, you can always cast it in that language and do it with this measurement trick.
+30:51
+So for instance, if you will see in the next slide how you can measure momentum, how you committed velocities of the particles.
+30:57
+If an atom absorbs a given light or not depends on its initial state,
+31:04
+which means you have state selective imaging, if you have a different type of fine state,
+31:08
+you can put an imaging frequency that's resonant for the one, but not the other hyper state that gives you a state with many things you can do with.
+31:11
+So how can you, as an example, major velocities.
+31:21
+This is the soccer time of flight method that you will see a lot and you also probably have an atomic and optical physics.
+31:24
+The idea is that a have the atoms sitting in a trap and what I do a time check with zero.
+31:30
+I just switch off everything after jumping potentials that can instantly switch them off,
+31:35
+something you can't do of electrons, for instance, where you can't switch off the crystal potential.
+31:39
+But the potential is just the laser beam.
+31:43
+You just switch it off very quickly and then let the atoms do the thing, which basically means they do two things.
+31:45
+First of all, they fall down on the gravity and you let them fall down for something like tens of milliseconds.
+31:50
+And at the same time, they will also spread out because the atoms are not standing still. They all have their initial velocities.
+31:57
+And then they will just move velocity, you wish that they had a time to work with zero.
+32:03
+And we just assume that we can neglect interactions and any potential during the time of flight time of flight.
+32:07
+So they just fly off rooftop velocities they had initially.
+32:14
+And then what you do is after they've flown out for a while, they are big because they have lots of trees spread out.
+32:17
+Then you like accent in this sense that this resonant light beam come from here and you measure like what you get on a camera.
+32:23
+So you kind of get on a camera, you get like the image of the density of the atoms.
+32:31
+Let's look about this in a bit more detail. The first question is where does a particle end up after some time of light?
+32:36
+Well, the position after time of flight is the initial position, plus the velocity times time of light.
+32:42
+Of course. What a physics.
+32:48
+If you wait long enough, if your time of flight is long enough, the second term would be much, much bigger than the first term.
+32:50
+So you can elect the first time, it's not. This is analogous if he wants to the far field diffraction and optics where you say, OK,
+32:56
+my slip is very small and adjust to the spreading momentum space where the light goes.
+33:02
+Which then means that the image after a long enough time of flight when I can
+33:06
+neglect the it's not basically shows me the velocity or momentum distribution.
+33:10
+So just let the response time of flight take a picture,
+33:14
+and it tells me how fast the items who are testing the velocity distribution, which is a pretty, pretty powerful technique.
+33:18
+The way you do it is in detail is that you take two images because we are kind of interested in the shadows.
+33:26
+So we take one image, we just say the blue image. We just have all the atoms.
+33:32
+That's just the laser laser beam we sent through here to chance onto the camera.
+33:36
+Then the second image is roughly atoms being present, and then we get like our there's no atoms, so we get the same light as before,
+33:40
+but in the middle, where those atoms, we get less light because some of the light was absorbed by the atom that was passing through.
+33:46
+And then you look back to like electromagnetism, you get like palombi absorption law,
+33:53
+and you know, that's the ratio of the intensity with the atoms divided by Revathi atoms.
+33:58
+It's given by the exponent is an exponential decreasing function depending on how many atoms to light has encountered.
+34:03
+If each atom absorbs one percent of the light,
+34:09
+then you get this exponentially decreasing number or decreasing amount of light with increasing atom numbers.
+34:12
+And another crucial thing is that what you measure here and see is what we call the column density because you get like this two dimensional image.
+34:18
+And if there's not much light hitting this full picture here, then you know there are many atoms along the path of this probe,
+34:26
+but you don't know where the atmosphere here or here in the middle or here at the edge. You don't know that.
+34:32
+You don't get this information. You only get this two dimensional projection. So what you're really measuring is what we call the quantum density.
+34:36
+And see, we just like the 3D density integrated along the line of sight.
+34:42
+And these are the pictures that we're going to look at a lot. Questions up to your.
+34:48
+OK. Then so, for instance, one thing that we can do from such a thing.
+35:05
+I mean, this kind of looks like a caution.
+35:10
+We can directly measure the temperature from this, we just say, okay, if we pick the particles being an ideal guess.
+35:13
+We can say that's their distribution overall of their kinetic energy is just a vessel box with distribution exponential of minus energy of activity.
+35:20
+If we then say that, well, kinetic energy goes like these, create one off and be square again, classically simple physics.
+35:28
+We get the velocity distribution that the number of particles of a given velocity goes to each of the minus one half and VBScript of activity.
+35:34
+So this is a caution distribution at the roof of the distribution stomach is made by TV,
+35:41
+which basically means if I just measured its caution distribution after a long time of flight.
+35:46
+I can just like visit a whiff of this distribution and that's directly proportional to the
+35:51
+square root of the temperature so we can get all the temperature of these clouds very,
+35:54
+very simply. And, OK, so that's kind of like how we measure them.
+35:58
+And then we should say what happens if he could them down. And this depends on what kind of evidence we have.
+36:04
+We have two classes of atoms. We have bosons and fermions. If we have bosons, we know that if we go to zero, you know,
+36:09
+from statistical mechanics and also from atomic optical physics, if they were from a Bose-Einstein condensate.
+36:16
+So all of the bosons would go into the lowest state. You also noted for fermions that can't happen, because if the party principle.
+36:20
+So if you from unique items, you could affirm your seat and they will form up the lowest states if you have an ethics.
+36:27
+Atoms can be if was only confirming Ionic, which when you have depends on the spin, if you have an integer spin there bosons,
+36:36
+it was thought that just fermions because you're neutral atoms, you kind of know that the number of protons is the same as the number of electrons.
+36:42
+So it's whether it's from unit of boson just depends on the number of neutrons.
+36:50
+If the number of neutrons is even, they form up to an integer spin, everything else isn't.
+36:55
+It's just been. You can observe if the number of neutrons is not, you could have Fermi on.
+37:00
+And that's very nice because it's very convenient for us because, for instance, of potassium,
+37:05
+we can use potassium 39, which is kozanic or potassium 40, which is from ionic.
+37:08
+So if the same laser system, just like dialling into one isotope shift,
+37:13
+we can do fermenting experiments in both experiments on the same machine basically shot to shot.
+37:16
+You can say that's two.
+37:21
+That's two fermions, which is pretty powerful and gives you like a lot of flexibility of what you can do with relatively modest investment.
+37:22
+So if you have phones, you probably have seen these pictures before.
+37:30
+If you have phones and you could have done so from here, you hear from you to hear you get colder,
+37:34
+there is going to be this Bose-Einstein condensation does face to face transition and we're talking about the fascination aspect more.
+37:38
+Next lecture. And you know, if you can see this directly in the momentum distributions,
+37:44
+so reasonably hot clouds, so above the critical temperature is purely thermal.
+37:48
+So this looks like a caution. Then you can calculate the both the distribution function, or you can just think about this intuitively,
+37:53
+you can say that even now just below, it's so I have a partially condensed cloud with some particles of condensed eyebrows.
+38:01
+Not yet I get what we call a bimodal distribution.
+38:07
+So you have two scores and background still sit here and give us very sharp peak on top of the quotient back.
+38:10
+Want this by modality is the thing that people, typically when they like to call,
+38:15
+let them experience first look for because it's a very clear signature.
+38:20
+Just by looking at the picture saying, OK, now I go from thermal to having a b c you do.
+38:23
+And they never go to with zero with the thermal background discussion back to you is fully gone,
+38:28
+and I just have this moment to pick this one macroscopic wave function.
+38:31
+And what this means, how it is, how we can think about this first position in a theoretical way.
+38:36
+We talk a little bit more about next lecture.
+38:40
+If you think of ultracold fermions, on the other hand, life is a bit more subtle because for fermions, if you have not interacting fermions,
+38:44
+there is no faced in and if you put them down, it's just that you are familiar with the distribution in a minute.
+38:51
+The second thing is for fermions because of the poly principle, we want it.
+38:59
+We need to use more spin states, more High-Performance states to Aberfan states if he wanted to interact.
+39:03
+Same spin fermions content direct. It's partially blocked. We'll see also see that in a few that in a few lectures.
+39:07
+The good thing about fermions is that by definition, there was richer than it was ionic systems because two fermions can make a boson.
+39:15
+So if they take a molecule out of two from unique atoms, I get a bosnich molecule.
+39:22
+But I can't make fermions out of bosons, so fermions are intrinsically more powerful in that sense.
+39:26
+And the last thing why we should care about elect from unique items is, of course, because the electrons are firmly on.
+39:31
+So a lot of the conscious metaphysics Natalie is like more interesting, closer connected to fermions, which are confirming.
+39:38
+So if we have fermions, we have to form a direct distribution, which you all have seen in statistical physics,
+39:45
+and this distribution is like it's to with zero has like this sharp kink.
+39:50
+So you start off all the states being occupied up to the Fermi energy diplomacy boom and then the top is down to zero.
+39:55
+And if you increase temperature from year to year increase temperature, you can see how this gets Wolverine's movements moving.
+40:01
+I see these cuts and kindness metaphysics. Yeah, you have a whiff on your off cavity and then eventually turns out it goes over into an
+40:07
+exponentially decreasing distribution that makes the distribution for classical particles.
+40:14
+So what this one really like highlights is that if I take fermions,
+40:18
+there's no face and there's nothing sudden those sudden changes that just smoothly gets steeper,
+40:22
+steeper, steeper, steeper and they add up with my firm.
+40:27
+You see, the probably direct distribution is, of course, also discussed a lot and kind of metaphysical.
+40:29
+So what we have and we have to fermions and what to do with this because they want to get you gets to some numbers.
+40:35
+We take the Fermi energy, which is basically given by the density to the power of two thirds.
+40:43
+And one of the models. And this is like that. We could take more advanced quantum physics if you have.
+40:47
+If you have a certain amount of fermions, then you have to occupy a certain amount of momentum,
+40:54
+states, if you have more firmness, you have to go to higher and higher momentum to occupy them all.
+40:57
+And that's intuitively speaking why if you have a higher density of fermions,
+41:01
+you will have a higher from energy because we're talking about kinetic energies,
+41:05
+it makes sense that also, if the mass gets more kinetic, energy gets bigger at the Fermi, energy gets bigger.
+41:08
+So the Fermi energy is the highest occupied energy at zero,
+41:14
+which is the chemical potential also it's equal to or that's the thing that comes in this equation.
+41:17
+Here is the point where this curve drops down. And yet the temperatures we're using, here's the Fermi temperature,
+41:22
+that's a typical scale if you use a lot to compare our temperatures to at the Fermi temperatures just given by the Fermi energy divided by carbon.
+41:30
+So whenever you have these things, energy up temperature, they're related by Cabe.
+41:38
+OK. So why do we talk about ultracold atoms?
+41:43
+Why do we have to get to ultracold atoms? And these are the equations we just had in the previous slide.
+41:48
+We cannot compare ultra cold atoms to what happens in the kind of system.
+41:54
+If you compare the masses and electronics when you order 10 to the minus five of the mass of an atom,
+41:58
+one factor a thousand to get from the elephant to the proton, and then you have like 100 protons and neutrons in your thing.
+42:03
+So you could affect two to five. This is a factor of 10 to the minus five for you. If you ask what is the density of the electrons in the system?
+42:09
+Well, a typical scale would be 10 to 20 three per cubic centimetre, like a ball of substance.
+42:15
+On the other, we would see that the density for atoms would be much, much, much lower order 10 to 14 per cubic centimetre.
+42:21
+Gives you another factor of 10 to the six,
+42:29
+which basically means if you compare now the Fermi temperature of electrons divided by the Fermi temperature and cold atoms.
+42:31
+You can apply to big factor of 10 to the 11,
+42:38
+which basically means that the Fermi temperature for electrons in the metal is typically the order of 10000 to 100000 Kelvin.
+42:40
+Why the Fermi temperature we have in cold atoms is on the order of Michael Cohen.
+42:48
+So that means code Etan's, because these things are heavier and therefore slower, and they're living at a much, much lower density.
+42:53
+We have to cut them a lot. We have to cut it down to like well below a micro carbon nanotube in temperatures
+42:59
+to simulate what happens in a Kleynhans metal system at room temperature. Because the elections are much faster, much lighter and much, much denser.
+43:04
+So that's what we have to do everything we've ultracold atoms, even if we want to like study room temperature, this metaphysics.
+43:13
+This begs an obvious question. Why do we not just increase the density of atoms?
+43:20
+Why do we not just take this one and bring it up to 10 trillion cubic centimetre?
+43:25
+What do you think? Why does this not work? Public frequencies.
+43:30
+Like what? That could be a case, but it's not a limitation because we don't arrest them at frequencies.
+43:38
+Coalition losses? Yes, exactly. The main thing is that if I take a bunch of atoms, a bunch of, say, potassium atoms,
+43:50
+the crown state for that system, it's notable that Einstein condensate or Fermi guess the quantity of that system.
+43:56
+Is this a block of metal? All right.
+44:01
+We are starting with a very hot gas and then recruiting it down a lot.
+44:05
+Normally when you think about, OK, I take my gas and cooler than it does to liquid, and that liquid then freezes into a solid.
+44:09
+That's what I would normally expect to happen. So why does this not happen in cold atoms?
+44:15
+The answer is that cold atoms in the end are metastable.
+44:19
+They would, when they come together, form molecules, and then these molecules can collide together and form clusters.
+44:23
+And that's how you would start to form a solid. That's a process that would happen in principle.
+44:29
+The key thing the saving grace for us is that this first step, the molecule formation.
+44:34
+It doesn't need two atoms to come together. It turns out it needs three atoms to come together as a three body process.
+44:39
+The reason is that these two particles come together. They bind and the binding energy gets free.
+44:44
+And despite the energy of Cosmos, goes sour, so it causes kinetic energy of the molecule flying away.
+44:49
+And then Momentum Conservation toted it only as positive as a third particle, which flies in the opposite direction to conserve momentum.
+44:54
+So momentum conservation dictates that this must be a three party process.
+45:01
+While at the same time, the conditions that we need for the stuff to formalise the normal atom atom collisions is a two body process.
+45:06
+So the ratio of two body to three body processes depends on the density.
+45:13
+So if you take the density, the ratio or the the rate for three body processes,
+45:17
+it's like the density squared where the weight for two body process case like the density.
+45:22
+So if you go for a low enough density to body processes will win and three body processes will be very aware,
+45:26
+if you have a low density, two particles can come together, but it's unlikely for three particles to come together.
+45:32
+And that basically limits the use of a density to like stuff on the order of 10 to 14 cubic cubic centimetre.
+45:38
+Otherwise, three body losses take over and the system is not stable enough. And that means that we have to live down here with the nano koven life.
+45:43
+Which is OK.
+45:53
+So if we have to confirm use just to show you some numbers and some pictures we typically again have on the order of hundreds of thousands.
+45:57
+We could reach 15 years ago to achieve below 50 percent.
+46:04
+Nowadays, people can reach on the order of four percent and the way they measure temperatures is again using time of light.
+46:08
+So what is what you do is you take an harmonic trap, a dipo trap. What what does this now do?
+46:15
+Time of light afterwards? And then you can. As for the average and you get like a cloud that looks like this, so it's decaying down like this.
+46:20
+And all you have to do pretty careful fitting if you fit this form of caution like you would do for a classical guest, you see it doesn't fit.
+46:28
+You see if less particles see in the middle and you would expect for a classical cast that's like already the first onset of the body blocking.
+46:34
+You can't have all of those particles at low density stay at low or mentally get pushed to higher and higher memento.
+46:43
+And then those extra particles kind of like, show up here and you get this sharper edge that you also can see and could see in the Thomas Fermi thing.
+46:48
+So if I go back to this slide here, this one. Sorry, clinging to past.
+46:55
+No, where are we? This one, so what you get is that I have this very fluffy cloud with a proper minimum distribution,
+47:03
+a classical regime, which then gets deeper and deeper and deeper.
+47:11
+But you could also see it gets like there's a d one for a larger and larger area, gets deeper around here.
+47:14
+And that's exactly kind of what you see here in this picture. It gets kind of deeper here than this would, of course, in the case of pastor here.
+47:19
+Now there's two different fit functions in here how you can fit them in two different ways.
+47:27
+And this one gives you like 30 percent, the other one gives you six percent.
+47:31
+And even if you look at very, very carefully here, you would say, well, maybe the six percent fits better, but the difference is very small.
+47:34
+So it becomes very hard to measure those things very exactly because you're getting pretty close to the targets you were promising.
+47:41
+You might ask yourself, why do I not then see like a sharp edge at the Fermi energy?
+47:48
+The reason simply is that this is like in an ironic trap we have taken in homogeneous density profile.
+47:52
+You have a high density in the middle and lower densities at the edges.
+47:57
+So you have to like average of all of those density profiles and you do this in America and then out comes a curve exactly like this.
+48:00
+You can measure, can you use so-called stone imaging to image in a different spin state separately?
+48:08
+So what you basically do is you take a magnetic field gradient during this time of light and then because a different spin,
+48:14
+states have different magnetic moments that can be facilitated by experiment, they go on different trajectories.
+48:19
+And here, you know, you see, OK, this is a false colour plot.
+48:24
+You see one spin state and spin state showing up here so we can measure those things also in their.
+48:26
+OK, so this was like a whistle stop tour about everything with gold atoms, how cold you are, how you measured them and so on.
+48:33
+And this was done very, very quickly, I know.
+48:41
+But it was done so quickly because most of you would have seen this in like other lectures before, and it's like the typical task of doing a mine.
+48:43
+A topic in the end is you connect bits and pieces from different lectures together,
+48:49
+and then you have the foundation of which then you can, like, build new physics.
+48:53
+So next week, we're starting to go slower because we're starting to get new stuff that you will have not have seen before.
+48:57
+So last slide for today is just a quick comparison.
+49:03
+If I compare continents metaphysics with cold atoms kind of metaphysics is, of course, much, much, much bigger systems.
+49:06
+We only have 10 to the five. These are charged particles. We have long range interactions with Lawrence Falls.
+49:13
+We don't have them because it's neutral atoms. They are homogeneous genius.
+49:17
+That makes life hard for us. The densities we discussed, the temperatures we discussed, but we have a few crucial advantages.
+49:22
+The main advantage that we have is that because we are at much lower densities and heavier particles, our timescales are very, very different.
+49:29
+So if you think about a hopping scale for us as milliseconds, two seconds, so we can be the observed in an equilibrium dynamics,
+49:37
+we can observe them look in real time how they move around while this is happening far too far too fast.
+49:43
+In the real election system with elections,
+49:49
+just we just do something that you already have a firmer state where we can really see how firm a state, for instance, forms.
+49:51
+We also see later on that we don't have an isolated system, which means we don't have a externally imposed temperature.
+49:57
+It's not. We have a crisis that where we say, OK, this is going to be one curve, five and whatnot.
+50:04
+The temperature is kind of like something that's kind of like a self-consistent Sophie emerging temperature coming out of this many buddy system,
+50:08
+and we'll discuss this and let the lecture. And it's a nice connexion to like statistical physics.
+50:14
+What do you do if you don't have a quantum IQ ensemble? If your system is really like isolated and it's not in contact with the outside world?
+50:19
+And we can have very, very clean systems where we don't have this or we don't have phonons,
+50:26
+which is very different from what you have in the better system,
+50:30
+all of this dirt is always complicating the picture you want and you can't do much about it.
+50:33
+OK. And basically, that's it for today. Thank you very much.
+50:39
+Two quick announcements. We'll start next Tuesday organising like the organising the tutorials and talk
+50:45
+about like when will they happen and also when will happen the journal clubs. Also next Tuesday, we will put our next Tuesday or Wednesday.
+50:56
+We put the first footprints head on. So the lecture will take place in the first six weeks of term.
+51:02
+But then the Joy Luck Club some time ago also go into Week seven and eight.
+51:07
+Because that is, it's easier for you to discuss those things and have opportunities to discuss your problems after you've seen all of the lectures.
+51:11
+Otherwise, you end up with the situation that you can't really do much about the last two
+51:17
+lectures because there's no chance to have problems on them or to this custom.
+51:20
+So it's like a slow start regarding problem sets that they pick up a bit towards the end.
+51:24
+And I put today up the scripts of last year so far have not changed anything in this light, so there's no need to put up new slides.
+51:29
+The same as last year's. There is a problem, apparently with the recording.
+51:38
+We'll hope to solve this out.
+51:42
+We had like a technician in here yesterday, yesterday at work today, but it doesn't work against what you have to keep looking at that.
+51:43
+If I can't get these recordings to work, I put up the recordings I did last year.
+51:49
+Which I think also like a very useful resource. OK.
+51:54
+That's it. Thank you. He's at.
+51:58
