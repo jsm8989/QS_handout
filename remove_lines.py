@@ -30,9 +30,9 @@ def remove_lines_containing(word, verbose=True):
 				#print("New line: \n", line)
 				#print("\n")
 
-def remove_lines_containing_quick(excludedWord, strlist):
+def remove_lines_containing_quick(excludedWord, strlist, newWord = ""):
 	"""
-	pretty self-explanatory
+	pretty self-explanatory, want to add ability to change a bad word into a better one too.
 	"""
 	newLines = []
 	for line in strlist:
@@ -59,6 +59,9 @@ for line in lines:
 	
 newlines = remove_lines_containing_quick("like", strlist=lines)	
 newlines = remove_lines_containing_quick("So", strlist=newlines)
+newlines = remove_lines_containing_quick("kind of", strlist=newlines)
+newlines = remove_lines_containing_quick("right", strlist=newlines)
+
 
 
 #for i in range(50,60):
