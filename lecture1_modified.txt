@@ -1,0 +1,1469 @@
+Welcome everyone to the quantum simulation class. It's great to be back in lecturing in person.
+
+It's much easier than last year, where you just had to sit there after midnight at your desk and
+
+record things into the voice and you don't see any reactions from anybody. we're very, very
+
+glad to be back. And let's directly start.
+
+
+
+Quantum simulations is what we're going to do in this course, and we're going to study many
+
+body physics. we're going to talk about things magnetism, superfluidity and so on, we
+
+really try to look at the key models and the key phenomena, and some of the key
+
+experiments that people have used to learn something about this.
+
+
+
+We are not going to dive very deeply into the details of the experimental setups, so we're not
+
+going to spend four weeks asking, how do you get your atoms cold? I assume some of you have
+
+seen this in the atomic and optical physics course. If not, then it's also not a big deal because
+
+we're not going to discuss this much. We're just saying, assume we have cold atoms, for instance,
+
+or we have another medium for quantum simulations, and see what we can do with it.
+
+
+
+We will also not delve very deeply into theoretical formalism, but when we do things
+
+superfluidity or insulators or magnetism, we will, of course, have to do a little bit of theory to see
+
+where the effects come from and how we can describe them and what's going on.
+
+But we really care about the intuitive understanding of the physics. We don't put the focus on
+
+the theoretical formalism, that’s where other lectures TQM are relevant; if you have not
+
+done TQM, don’t worry, it’s not necessarily needed for the course.
+
+
+
+One of the prime examples is a high temperature superconductor. If you put that in the magnetic
+
+field, it will just sit there and float. Understanding how you can get high temperature
+
+superconductors is one of those problems that’s ongoing in condensed matter physics since the
+
+describe them.
+
+
+
+What's really going on, why are they superfluid, why do they form a superconductor and other
+
+materials do not? It's one of the main motivations of why people do quantum simulations.
+
+We'll see in a few minutes why this is something that you need a quantum simulator for, and you
+
+can't do just on a classical computer.
+
+
+
+Just a few formalities before we really get started. it's going to be 12 lectures, two per week
+
+for six weeks. They will all be here in the Ryle room, and if the lecture capture works, they will also
+
+all appear on Moodle. If something should fail, we'll put last year's videos on the Moodle,
+
+which are maybe a bit more boring, but they have the same content, so they also work. There will
+
+be three supervisions. We'll wait a week for those because of course, everybody is initially looking
+
+at a few more lecture courses than they really want to take to the end. A special thing that we do
+
+in this lecture course, which people normally tend to a lot, is journal clubs. They are
+
+voluntary, so if you don't want to come, you don't have to come. They would probably also
+
+happen in the Ryle, and we will arrange two dates, also at the beginning of next week, once we
+
+know how many people there we are. Students tend to them a lot, so I tend to advertise
+
+them a lot. What we do there is we say, OK, if there's one, key result, we look at the experimental
+
+paper, how that key result was observed and we discuss that paper in an hour, hour and a
+
+half in the journal club. It's also great to get a little bit more behind the scenes of how science
+
+works, for example why do you do this measurement? Why do they not measure this regime?
+
+What was the limitation here? Why is this one so important? Why stress this point? It helps you
+
+to get a little bit into the habit of reading primary literature, reading papers, discussing papers,
+
+asking stupid questions about papers. There will be a Teams channel to discuss questions,
+
+advertise that also in a in a week's time. What we will do is we take everybody who's registered,
+
+so please register for the course if you have not done so, and we put them into a Teams channel,
+
+which we can use as an informal forum to ask questions. I can put comments in and put
+
+references to papers if somebody is interested. You can contact me via email or via teams. Today
+
+we will put some of last year’s handouts on the TIS; at the moment, there is a PDF version of all of
+
+the slides that we have, plus a little bit of additional material. I will always release the final PDF for a given lecture, typically on the evening after the lecture, because what tends to happen even after three or four years of going through these slides, is you spot a typo or a minus sign mistake, and then I'll fix them after the lecture and make a new PDF, which I then put online. That becomes the official version for that year, but it's only typos compared to the previous years.
+
+
+
+There might be a bit of new material coming in the second half of the course, but we'll have to see. It depends how we go and what you find most interesting. There is no script per se so far, but I am actually hoping to create one this year and there's an opportunity for a student if anyone is interested. This is remunerated, so it's paid being a demonstrator, at an hourly pay rate. The timing when you do this work is flexible. It could be something that we do, maybe directly in parallel to the lecture course; then, at the end of the lecture course, there's a first alpha version of a new handout, which would be helpful for everybody going forward. It could be something that somebody does over the summer when they have time for it. The idea would be that if we do these Panopto recordings, we have a transcript. Panopto automatically transcribes everything, and it's a starting point for text, which we can use to make a script. We have to do a first editing pass, which basically means replacing all those words which Panopto picks incorrectly, and then it goes back to me. Of course, there will then be quite a lot of editing work to do to make this into a proper script, but I think it would help a lot. If somebody is interested in doing this just contact me afterwards after this lecture or after the next lecture, and then we can see how we can set this up.
+
+
+
+OK? After all the preliminaries, let's start to dive into the topic.
+
+
+
+What we do today is mostly motivation and giving you a flavour of the things to come. If you find that things are going too fast, you don't get them and you would to see a proper derivation more detail, don't worry, we will come back to those things.
+
+
+
+The problem, or the challenge of many body physics in general is simply the dimension of the Hilbert space. If you take the simplest possible system you can have, that's a spin one half system (a two-level system) which we now call a qubit, it's basically a system where you have a state that can be spin up or it can be spin down. Any wavefunction can be superposition of the two things with these two complex coefficients, c_{up} c_{down}. You note that the dimension of the Hilbert space is spanned by these two numbers, so it's a vector space of dimension 2. It may be trivial to see that if I have N spin one half systems, there are 2^N spin states.
+
+
+
+If I ask you to give me the ground state wavefunction of a three-spin system, then what you have to give me back is basically eight numbers. You have to give me 2^3 = 8 coefficients. This exponential scaling is generic for all kind of many body systems, and that is the basis of quantum simulations, because basically the test is something that you can't do in a classical computer.
+
+
+
+If you try to look at typical numbers on a classical computer, (not a supercomputer), the state of the art is on the order of 40 spins. We just write down this big matrix at diagonalise it, and what you can see is that if you have the solution, if you have two states, are you interested in that? That’s already storing around one terabytes of data. Well, one terabyte you can nowadays almost do on your phone; maybe that's OK, but the point is if I take 44, 46, 48 qubits, it's 2^8 terabytes. And if I think about how much memory when you put 300 spins, which is still a pretty modest number, well 2^{300} is the number of protons in the universe; this means that even if I can store one complex number in a single proton, it would take the whole universe just to classically store the wavefunction of 300 spins. I'm saying this every year, and every year I'm amazed by it. It shows you that this exponential scaling is just so big, it has no chance of fully capturing classically what's going on in a quantum system because it's just too many numbers, too many things, too many correlations to take care of. And that's basically where Feynman came in and said, well, if this is generic, then if you're clever, what you do is you take one quantum system, and you use that to simulate the physics and the dynamics of another quantum system. That's the idea of the quantum simulators.
+
+
+
+The idea is to take a few quantum systems that we have under very good control, such as ion traps, cold atoms, photons, microwave photons in a superconducting circuit, and put that system somewhere where you have a Hamiltonian which is the same as the one of the complicated model that you want to understand. We can map it on and off a quantum system where you have control and then you have something much more powerful, than the classical computations and that are limited by scale.
+
+
+
+Let's start with the system that we're mostly going to look at: condensed matter physics, ie electrons in a solid. You can ask, do we understand them? Do we understand why electrons at some point give rise to an insulator while in other cases behave as a metal and conduct electricity? The answer is well, since 1B physics you understand band theory which tells you that in the metal you have overlapping bands and in an insulator you have a big band gap at the Fermi level. This is not.
+
+we understand these things. We understand them on the effect of single particle picture.
+
+And when you think about how you do these calculations,
+
+what you really do is you kind of solving the problem for a single electron in the periodic
+
+landscape.
+
+Right. That's what you do when you do plot equations and all of this, you say,
+
+let's take one electron out of this and see what are the possible states for the electron?
+
+And then you say, OK, I have Fermi statistics.
+
+if I have many electrons, I have to fill up the Fermi states one by one and I get a Fermi energy
+
+somewhere.
+
+And that is a great model, and it works very, very well for many, many things.
+
+Unless the electrons are interacting, unless the interactions between these electrons is important.
+
+Because then you can have something where you have a strongly interacting system of
+
+interactions are really important.
+
+You get very different states.
+
+You, for instance, going to state a Mott insulator, certain, if not the building that's what you
+
+is most famous for what he said.
+
+Is there a state where the band is half filled? Band Few tells me a half events, which would be a
+
+metal.
+
+But if these atoms, if these electrons have a repulsive interaction, if they want to stay away
+
+from each other because they repel each other,
+
+then you can have a state, a strongly correlated state that looks this.
+
+It's an insulating state where you have one particle localised on each letter side.
+
+And these states are now they mutually kind of block each other.
+
+I mean, if you take the red particle down here, it could in principle hop to the left or to the right.
+
+Principle would not forbid this because they different spin states. it's a lot a probably
+
+principle.
+
+But if there was a repulsive interaction, they don't want to do it because it would cost energy to
+
+hop onto the neighbour plane into action energy.
+
+therefore they're not doing it. And this gives rise to this insulating state and not a challenge.
+
+If you want to theoretically describe this is that this is not what we call a strongly correlated
+
+problem where you cannot say,
+
+Oh, let me suggest the problem for this one particle. You cannot do that because what is one
+
+particle does depends on the environment.
+
+It depends on whether it is between particles here and here or not.
+
+it's impossible to solve the problem for one particle revolt at the same time solving it four
+
+level particles.
+
+And then you're back to the exponential scaling, and you can do this for 40 particles,
+
+but not 300 particles, and forget about the 10 to the twenty three particles and a real piece of
+
+material.
+
+that's what the challenge comes from.
+
+And this also gives you richness because now you kind of have these localised electrons, so you
+
+have localised spins and these spins can auto.
+
+You can, for instance, go into an antiferromagnetic state.
+
+And we will see later on in the course how if I have such a model which is typically discussed by a
+
+Heisenberg model, by a hubbard model,
+
+how the low energy limit of that one in the appropriate regime gives rise naturally to an
+
+Heisenberg model which has its own deformities.
+
+It is a cloud state. that's neat. That's nice and antiferromagnetic are important for hot
+
+disks and many other materials.
+
+However, the really cool part is the following this is a phase diagram for one of these high
+
+temperature superconductors.
+
+You have to access, you have to temperature and you have to doping.
+
+here have been talking about a commensurate situation where you have one particle
+
+politicised.
+
+What happens if you go a little bit away from that? if you stay on this line up here, you have
+
+this kind of insulator.
+
+If you go down, there's another temperature and the knife that there's this antiferromagnetic this
+
+data.
+
+Most interesting is not what happens if I say I'm at a very low temperature and they go out of
+
+this at some point you are different,
+
+but the order gets lost, I dope, which means I put in some few extra electrons or a few holes.
+
+I go away from this one particle,
+
+the side and then the antiferromagnetic auto here doesn't make sense because there's too much
+
+disorder in there because it's not ordered.
+
+That's fine. That's understandable. What's maybe not intuitive is that then a little bit later, I get a
+
+new face,
+
+a superconducting phase where these electrons kind of in a way, peer up into some kind of pairs
+
+and then they start to roam around freely.
+
+they go from insulating to not only being a metal, but being a superconductor where he can
+
+roam around freely without scattering at all.
+
+And this is if you want the holy grail of cannons metaphysics, understanding this in detail,
+
+because these superconducting wires, they can be made now, they can be made out of these
+
+materials and they're extremely important.
+
+you can use them to you can use a wire this and probably have a
+
+picture somewhere later on to have something 10000 amps running through it,
+
+without superconductors, without superconductivity. You could not have things an MRI
+
+machines.
+
+You could not have things the Sony, the LHC and many, many other things.
+
+And it's very intriguing to an extent, is a bit better to understand what it comes from, what's
+
+going on here.
+
+And this one is something we're still nobody can we do proper simulations, classical simulations
+
+without using approximations.
+
+You can always make approximations to simplify your system.
+
+But the problem is, you have to understand all of your approximations are actually valid or not.
+
+We come back to a point at the end today. strong interactions can lead to strong correlations,
+
+and as I said,
+
+this is exponentially difficult to study because you cannot solve the problem independently for
+
+particles of the particles,
+
+you have to solve the whole thing at once because the particles the states do so very much
+
+depend on each other.
+
+OK. One thing I should say about the course is that I really it to be interactive,
+
+so I it for people to interrupt and ask questions all the time because I tend to go fast.
+
+Like, not this, but a bit slower, but still,
+
+I tend to go reasonably fast because many of the things you might have seen at this course or
+
+the other course, they might be straightforward.
+
+But then if something is not clear, please just interrupt me and ask a question. And I try to make
+
+passes periodically to encourage it.
+
+OK. See, no questions. let's dive one step deeper and look a little bit at the model's underlying
+
+this.
+
+We'll see the first summer, Tony.
+
+the idea is that when we say we are simulating condensed matter, we're not saying just this
+
+one piece of material.
+
+I want to simulate this material metals. Our materials are very, very complex.
+
+There's a lot of things going on and we don't want to like, look at all of these intricacies.
+
+What we're saying is let's take a step back and look at a few classes of materials that look at the
+
+important model Hamiltonians that have people have come up with and kind of metaphysics to
+
+describe them.
+
+And one of the most famous models for this is the Harvard model that in conjunction with the
+
+insulators 50, 60, 70 years ago, by now, actually.
+
+the idea is to say, OK, we have a material, a crystal, we have to ions, we have the kinetic bands
+
+for the electrons,
+
+and there is more shaded areas in here which are hard to see in the projector.
+
+But you would say that all of these lower bands here, they are just filled with electrons with it,
+
+interacting with doing something.
+
+And this one partially filled band up here, and that's where everything is happening.
+
+we just concentrate on as one band. It's a first approximation. The second one is to say, OK,
+
+we now use a tight binding approach.
+
+we discussed the moving around of the electrons by a hopping process where we say a
+
+particle can hop
+
+from one side to its neighbouring site to its neighbouring site with a tunnelling rate that we call J
+
+or.
+
+And then we make a big approximation, but it's a good one, which is to say, let's assume also
+
+that the interaction has the simplest possible form.
+
+Let's assume that two electrons are only interacting when you're in the same site, then they have
+
+higher energy and interaction energy.
+
+You. these are the ingredients that go into this Hubbert model.
+
+And then the how about model if you write it down in second quantised notation looks this
+
+and we go through the individual terms.
+
+And if you lecture, so don't worry, if there's not a little bit, it's a little bit over your head.
+
+what basically you have for is you have this first term, some over next year's neighbouring
+
+sites and a Heidegger AJ, would you?
+
+Operator AJ is the innovation operator. I take out an iron, an atom or an electron from sage.
+
+And then a Heidegger is the creation operator inside, which basically says,
+
+If I want a model of particle hopping from here to here, I take it out here and I put it back there.
+
+That's just a mathematical way. And second, quantisation how you describe this, and I hope
+
+everybody's familiar with this kind of notation.
+
+Everybody is nodding along, great, good. And then you just say, OK, well, there's minus J does
+
+this to the energy you can gain by doing this.
+
+That's the tunnelling Trump, the second term Mr Johnson into interaction, which is basically
+
+saying number of particles on side.
+
+I spin up times number of particles on the same side, speed down times the interaction constant
+
+you.
+
+And these are fragments of who right out of fermions and eyes are, of course, limited by being a
+
+zero or one.
+
+you can see that if you have zero zero zero one one zero two one particle, no particles puts
+
+out, there's no interaction.
+
+But if you have both particles, one spin up, one spin down precisely, then you have to pay this
+
+interaction energy.
+
+It's OK. And now we were in business because we say what we actually want to do.
+
+We just need to have a nice physical, clean implementation of this model.
+
+Revote this order without let's buy vacations without phoniness about any of these
+
+complications.
+
+Just a simple model to study this. And then we can say, Well, let's take a sinusoidal potential and
+
+optical lattice.
+
+We're talking to lectures about how we do this and then we put atoms in there, and they also
+
+would have the block theorem.
+
+They have their brain structure that we put them in the lowest of these bands and then
+
+they will also hop and they will naturally also only interact when are on the same side.
+
+And this is therefore a very nice implementation of this Hubbert model, and the Hubbert model is
+
+a deceptively simple looking model.
+
+It has no analytic solutions in more than one dimension in two dimensions where exactly
+
+these kind of layered materials live website and the high Typekit superconductors, the Hubbard
+
+model cannot be solved analytically.
+
+And it can only be solved numerically with a lot of difficulty and in some special cases, not in all
+
+cases.
+
+even though the mother looks simple, it's not solved.
+
+that's sort cold atoms then come in and say, we can learn something about this by studying
+
+what cold atoms do in these kind of systems.
+
+OK.
+
+Just to show a little bit about the complexity that can come up, if you just think again of a spin
+
+system you've seen, that's been I have two sides.
+
+If I have two spins, I have, of course, four states. But I also have interactions that can be said for
+
+magnetic.
+
+they want to have the same spin or antiferromagnetic. They want to have the opposite spin.
+
+And then you're kind of tempted to say, Well, OK, that's the story.
+
+Because if I now say three spins well, if it's anti-free market, I would just continue if this
+
+antiferromagnetic chain up, down, up, and that's it.
+
+Rustom, anybody if and I have 100 sides, it would just be up, down, up, down, up, down, up,
+
+down.
+
+And that can be right. But the complexity is that you can also have something this.
+
+You can have a little triangle in there if you think of a triangle of letters or letters or many other
+
+letters,
+
+structures and then you get new effects, you get frustration, you get spin up here, spin
+
+down.
+
+Yeah, what do I put your spin up off and on?
+
+That's the same energy this generation, you have many, many trying to have a massive
+
+degeneracy in micron state and again give rise to new effects.
+
+there's many things just on the spin the firm reckons A. At the spin density wave spin classes,
+
+spin liquids is a collective phenomenon that really come from the fact that you have many,
+
+many, many of these things coming together and reductionist viewpoint of saying, Well, if I
+
+understand you ingredients, I understand the big thing.
+
+No, just me. Understanding a single spin or an ascending to spin interaction does not yet help
+
+me understanding what happens on a bigger scale.
+
+it's really emergent phenomena. War is different.
+
+This isn't used to say you really need a new viewpoint, a collective viewpoint to discuss these
+
+things.
+
+And that's kind of part of the language that we're trying to develop a bit also in discourse.
+
+examples, and we'll see a few examples now. Summarisation, we think about this stuff.
+
+Many of those particles come together and they just form a form of state. This is really a
+
+miracle in itself.
+
+How does this, why does this happen?
+
+But insulators, we briefly touched upon superfluid at the end superconductivity I talk about in the
+
+next 10 minutes,
+
+magnetism thereafter and then quantum, highly effective topology I touch upon during the
+
+second half of this lecture today.
+
+And then these are also the topics that we're going to have a look at in more detail in
+
+subsequent lectures.
+
+OK. questions up to you.
+
+Well, it's odd introductions, all easy now becomes the first fun thing you probably all have
+
+heard a little bit about super fluidity.
+
+You've heard that helium can become a superfluid. But what does this actually mean,
+
+where the definition of super fluidity is that sort of lithium is characterised by the
+
+fact that you can have flow without friction through tubes or kind of equivalently,
+
+you can then an object through a superfluid without friction.
+
+What normally, if you'd to throw a ball in order to bowl, not only has the prerogative, but it
+
+also gets slower.
+
+And that's because of the friction of the air.
+
+If you throw a ball, say a boy that's kind of floating, and if you throw if you try to throw a ball
+
+through water,
+
+say a boy that's kind of floating in the water at the same boat as it is to try to throw it through
+
+water in a swimming pool,
+
+it would just go a few centimetres, and it will stop because there's this huge friction of having
+
+to displace the water before.
+
+To move on is a huge friction. It doesn't get far away. That's why swimming is so hot if you would
+
+throw this ball of water through a superfluid.
+
+It would go on forever, it would even slow down because there's no friction between the water
+
+and the object.
+
+And the same thing, if you take a superfluid, you try to pump it through a pipe.
+
+Normally, you know, the longer your pipe is, the water resistance you get,
+
+the more friction you get, the stronger you have to pump to get it through if you would take.
+
+And in long pipe and take a superfluid and on the one side and you get it into motion.
+
+If we just ballistically keep on going, keep on going. We're never slow down because there's no
+
+friction at all between the superfluid and the war.
+
+And that's the fury, and we'll see the same for you if occurrence of superconductors in two slides.
+
+the formal definition is that there is a finite critical velocity, Lando's critical velocity below
+
+which you have these effects.
+
+the story is if you try to push it too hard, get it too fast and it stops and behaves in a different
+
+way.
+
+We can discuss that later if you're interested. this is pretty spectacular.
+
+And people that don't fully necessarily believe in this and the first experiment really said like,
+
+no, this effect is going on is the famous fountain effect.
+
+here's a conceptual picture.
+
+You have an open beaker and you fill it up to here with a soup of liquid, which basically means a
+
+very, very cold helium below to come.
+
+And then you have something here.
+
+We have the bottom of the bottle is in principle open, but you put a material in here which
+
+has so-called Super League's fancy name.
+
+It just means it's very, very, very thin channels, very, very thin holes through it.
+
+And they are such that a normal liquid cannot really pass through because the because the the
+
+channels are so thin,
+
+the friction is so big that, yeah, just a little bit.
+
+And Epsilon will maybe eventually diffuse through, but it would be so small you neglected.
+
+However, a superfluid because it has no friction with the wall, can flow freely through this thing.
+
+we have a superfluid out here to see if we can easily flow in and flow out.
+
+It's the leak that it's it's it's not just a leak, it's a big motorway for it.
+
+That's why they call it the Super League. It's a leak that only lets the superfluid through, but not
+
+the normal food.
+
+And then what you do is you just put an electrical heater in you. liquid helium turned
+
+superfluid when it gets very, very cold below to COVID.
+
+you have to stuff down here, said one Cogan, around it,
+
+and you put an electrical heater in here and heat it up a little bit from one to three carbons so
+
+that Ghostbusters.
+
+The superfluid temperature and its normal fluid again, then what you have is superfluid coming in
+
+all the time.
+
+But then in here, it's turning into a normal fluid and enormously would go back out.
+
+Because you still have this great deal of money, a lot of fluid outside, but not inside, most of
+
+the fluid is coming in,
+
+but it can't get out, which basically means the liquid level rises at the stuff photons out at the top.
+
+And people made these pictures. It's a picture from nature you can see, OK, this is kind of
+
+bubble.
+
+And you can see, but just having a heater down in here, this liquid. You could have found love
+
+this stuff really spilling out at the top with power.
+
+And that's really showing you, yes, this is really superfluid and has this very spectacular effect.
+
+extremely. that was the first strong indication that something really, really exists or
+
+actually,
+
+I should say it's the second, the first indication is superconductivity.
+
+what you see here is the resistivity of a normal conductor, say, a piece of metal as a function
+
+of temperature.
+
+You know, that's the resistivity will go down,
+
+get smaller and smaller and smaller as you go to lower and lower temperatures because at some
+
+point the phonon squeeze out,
+
+that's going to remove the photons. But you still have scattering, unlike the imperfections of your
+
+material, crystal boundaries and so on.
+
+it gets small, but we still have a finite officer to achieve with zero.
+
+However, some materials, superconducting materials, you could have very different behaviour.
+
+It looks the same, a metal for high temperatures.
+
+But then there is a critical temperature above which below which bumps the resistivity drops to
+
+zero suddenly or pretty sudden.
+
+this is a phase transition. It's you take liquid water. You cool down 20, 15, 10 five one
+
+degree.
+
+Not much is happening.
+
+Smooth evolution, but then suddenly, at zero °C, the water freezes into the ice, so it changes its
+
+face and goes into a totally different phase.
+
+And the metallic state going into a superconducting state this is in some sense, pretty, pretty
+
+similar type of phase transition.
+
+It happened suddenly at this one point at the boom, you're in a different phase.
+
+This was observed at this particular temperature and the first time by a on in Leiden in 1911,
+
+the mercury with the critical temperature being 4.2 Kelvin. the superconductivity in the liquid
+
+helium or was discussed together,
+
+because that's kind of the temperature that you can only reach with liquid helium.
+
+once they had liquid helium, they could stick mercury inside and then it turned
+
+superconducting before they couldn't reach the temperatures.
+
+That's why these things happened at the same time. Here are some data from another material
+
+you can really see.
+
+Okay, this is no way the higher temperature critical temperature of 90 Kelvin. You can really see it
+
+coming down here than with the boom.
+
+This is not just a cartoon, it's really very sharp. This is measured data. It really drops to zero.
+
+At this point, there's a phase transition and suddenly the whole story changes and the system is
+
+now a superconductor.
+
+And you superconductors say we what I said with the pipes earlier.
+
+If you take a superconductor and you make it into a loop that could be coil and you one set a
+
+current in motion and you superconducting,
+
+the current stays in motion forever. And you probably all have seen this because that's exactly
+
+what's happening in the Amazon.
+
+That's why they do the huge power supply to really crank out these very high currents.
+
+They kind of only have to inject the current one little by little by little
+
+and that it accumulate and going on and going on in this loop in this coil.
+
+And because of cold superconducting, it just stays there forever. Which basically means you have
+
+to do a lot of careful things when you want to like,
+
+ramp down this magnet again and switch it off again because you also have to slowly take the
+
+current out again.
+
+But that's a technical side note. OK. yeah, this is the picture I wanted to say earlier.
+
+This is a cable from CERN, a normal cable, normal conductor, metallic conductor.
+
+It's waited for, what is it saying, 12000 amps. And this is from an earlier accelerator that they
+
+had.
+
+This thing is this big in diameter. That's what you need to get through.
+
+This one is kind of a newer one. This is superconducting. It's also rated for 12000 times.
+
+you can see how huge this technical the technical consequences of this are.
+
+Right. here is now a slightly interesting plot just taken from Wikipedia.
+
+This is the critical temperature of many, many materials for superconductivity as a function of
+
+when they were detected.
+
+far, we discussed the mercury, which is a metal. And then you have these green things.
+
+You are kind of normal in normal superconductors that are discussed and explained by this
+
+theory.
+
+You might have heard this in that once quantum physics, to be sincere, in the late fifties,
+
+they understood how electrons we contracting electrons can form into these Koopa Paris and
+
+these cool pairs can condense and form the superconductor,
+
+and it works very well for this materials. There's no different classes of materials that came up in
+
+different years.
+
+A few years ago, the iron pick types were very popular. There's a big change here, by the way.
+
+This is up to 50 Kelvin and then goes up to 100, 150 200.
+
+A very, very interesting class. Is this class up here? These are these copper oxide materials.
+
+Like why? Because what we saw the picture of early on is the terbium barium copper oxide.
+
+it's this one. You can see that David discussed this coming in the 80s and very, very quickly
+
+rose up to 150 Kelvin.
+
+From 30 to over 150, we're just making them better and better.
+
+And then you would say, OK, well, another few years of research and we'll reach 300000,
+
+which is room temperature and we're in business and we will change the world massively
+
+changed the world.
+
+However. It then turns off and seems to saturate up to here, where at the highest temperatures
+
+to go to you 750 could,
+
+there is no materials with even higher critical temperatures. Here is one,
+
+but this one is a 150 Giga PA. And you might have seen the news last year in the last
+
+two years that they now have materials that are superconductors at room temperature,
+
+but only at absurdly high pressure the hybrid materials.
+
+these materials, they room pressure, stable and superconducting at these things, and we
+
+don't understand fully how they work it.
+
+We don't understand. We don't have a general theory that says this is why they work and how
+
+they work.
+
+And the reason for that is that these materials are extremely complicated. They are very there's a
+
+lot of stuff going on in there.
+
+it's a good idea to go back to a simpler model the Hubbert model and try to see what
+
+happens in here.
+
+Can we understand the physics in a slightly simpler model about all of the complications?
+
+this is the face diagram of these things that are just discussed before.
+
+the fundamental question, though, is is, is this kind of just below 200 cousin?
+
+Is this a fundamental limit? Is there a law of nature that says you can't go beyond here?
+
+Or are superconductors at room temperature possible? Have you just not found the right recipe,
+
+the right way of doing it yet?
+
+And it's pretty embarrassing for such an important thing that after 40 years, we. Don't yet have a
+
+full answer.
+
+working towards these answers, that kind of one of the things that quantum simulators are
+
+doing.
+
+OK. Questions. Not good.
+
+state of the art, say, superconducting scissors here,
+
+American is a bit higher up in temperature and one of the best results that we have from a
+
+quantum gas microscope, a quantum simulator.
+
+This is now five years old. It's the following where we say, OK, we can use a quantum gas atoms
+
+and an optical letters.
+
+We put them under a very, very good microscope objective so we can really see each individual
+
+atom on each individual at side,
+
+which is, of course, amazing. It's something that you can't do with electrons. You can't see each
+
+electron in a complex material.
+
+But here you can, you can see each atom. And here you basically see a picture of this.
+
+If you do a reconstruction algorithm telling you virtually atom search,
+
+you get this thing on the right hand side, which turns it's really one atom politicised with the
+
+modern senator.
+
+And even better, if they do spin, we move on and say, Oh, you look at the spin ups, this has been
+
+ups and downs.
+
+Then you directly see why I hear a checkerboard pattern. You can also see it here to be
+
+constructive.
+
+this tells you that you really are in this kind of antiferromagnetic phase where you can use
+
+where you can see this antiferromagnetic auto,
+
+which basically means in the face diagram antiferromagnetic superconducting state here you're
+
+now somewhere up here.
+
+And this is actually where a lot of interesting many body physics is happening strange metals,
+
+non-free liquid behaviour, pseudogap physics.
+
+A lot of stuff is happening up there that we can now really probe of these quantum simulators.
+
+And in my Ph.D., we did something that was up here that was 10 years ago, 15 years ago,
+
+which basically means another five years and we here.
+
+it's really getting getting there. Where can we dissolve this week or hopefully help to solve
+
+this big mysteries?
+
+Another topic which is very interesting in this context is that topology, but we all have heard
+
+about the apology,
+
+quantum physics and so on in previous years, the important idea here is that you can have
+
+something called topology topological invariant.
+
+what you see here is a Mobius strip, which is basically a piece of paper.
+
+And if I take a piece of paper that glued together, I can do it two ways I can put it this.
+
+Or I can rotate one half of the paper half and then do it this.
+
+And this number is kind of winding, no, if you want of proof, I did it this way or this way.
+
+It's a topological invariant, which means once I've put these things together,
+
+I can take this, I can stretch it, I can deform it, I can put it up into little ball.
+
+Whatever, I cannot change this number anymore. This number is fixed until I go in and we cut the
+
+thing apart and change it again.
+
+topological and variance are things that do not change under smooth, continuous
+
+deformations.
+
+The things that I kind of if you want quantised of being zero or one. And then if you change
+
+things a little bit, you can change them.
+
+the famous example where they show up in quantum physics is the hall effect, you know,
+
+the classical hall effect is to say if I have an electric, send the current volume issue with you.
+
+I have a truly electron gas going through it and they have a magnetic field being present,
+
+then all of the particles experience a Lawrence force. The Lawrence Force pushes them sideways,
+
+sort of a measure across the thing from the side.
+
+We measure our whole response. A high voltage we can calculate to the total Lawrence falsas
+
+que times that we crossed B Plus because b sorry.
+
+And then these two terms have to cancel. you need to have an electric fields sideways through
+
+your material.
+
+And it gives rise to alcohol conductance, which is basically at the ratio of the current to this whole
+
+voltage fine,
+
+and that varies linearly with to be filled. classically speaking, with Quantum two would just be
+
+a smooth, linear function.
+
+However, if people measured isn't this again was something that was found in the early 80s,
+
+if they measured is if we do measure exactly this high conductance.
+
+OK, the address to our resistance as a function of the magnetic field, you see, it starts off linearly
+
+classically,
+
+but then it becomes quantised that goes into these kind of jumps and you have these plateaus.
+
+We have a, he wrote, is conducted. This very precisely contest one value and you can change the
+
+magnetic field a little bit and it doesn't change.
+
+And then people later on could show that basically, mathematically speaking,
+
+this whole conductance is a topological invariant because it's basically connected
+
+to something called a chart no new and we will see this in six or eight lecture,
+
+eight to 10 lectures that we see this in more detail.
+
+We do also do the calculation and do these things that this whole conductivity is just given by
+
+these critical times,
+
+this integer new and the fact that it must be an integer that's kind of a logical classification of
+
+topological invariant.
+
+And that's kind of tend to find it OK when and take the system to change something a little bit.
+
+Maybe one would want to go to one point or one, one point two or two or whatnot, but it can't.
+
+It's pinned to one until I just took the system big enough that it jumps to two or it jumps to zero.
+
+it's exactly this behaviour that zero nothing can change it to.
+
+I would jump to the next plateau in this direction or in that direction.
+
+And now, in the last 20 years, people have found these topological effects everywhere.
+
+we have that topological insulators where you don't have an external magnetic field, you have
+
+spin orbit coupling.
+
+We have fractional quantum hall states with any excitations. They're very interesting for many
+
+fundamental and applied properties.
+
+For instance, for topological, you protected quantum computers and many other things, and they
+
+are now when you take this kind of quantum hall system,
+
+which is, say, the single particle effect and you s interactions to that and you go into extremely
+
+correlated regions.
+
+We talk more about this in a few in a few weeks.
+
+The challenge for doing this is that, well, I think once you have tolerance for white and the Lord's
+
+force is proportionate to your charge.
+
+if you take neutral atoms, you don't have a charge, you don't have a Lawrence. all of this
+
+kind of shouldn't exist.
+
+we again have to simulated.
+
+we have to use a synthetic or an artificial gauge field instead of a magnetic field to
+
+assimilate this physics.
+
+And we'll see ways how this can be done again in a in a few weeks.
+
+here's another example from seven years ago, which is basically saying, OK, if I have this whole
+
+effect,
+
+if I have particles which are pushing this one direction by applying a current
+
+and if I have this kind of magnetic field present all artificial gates present,
+
+then you know, they have this this term v Crosby, which basically means that it will curve
+
+sideways.
+
+what I can do is I can measure this differential hall tripped over the particles are pushed left or
+
+right as a function of time here,
+
+and I can see that in the one case, they get pushed to the one direction. You have a case to get
+
+pushed to the action.
+
+this is transverse movement of two particles, which DeCoutere measure for the first time.
+
+And there's a lot going on in this picture, what happens to the situation? What happens?
+
+Why is it this? And we discussed this one in a few weeks. OK.
+
+this one is now close to final slide for today,
+
+and that's kind of the philosophical sleight of what are we doing and why are we doing it, why
+
+are we doing it the way we are doing?
+
+If we have a real toilet? We can write down the full, complete, microscopic, relevant melatonin.
+
+We can always do that because in the end, we can always say, OK, let's take your eye and then
+
+just say it's.
+
+The charge distribution as a spoon has a charge. And then you just have electromagnetic
+
+interactions between the ions and the electrons.
+
+it's just cool on fossils of magnetic forces. That's all there is what you can just write down the
+
+semitone you.
+
+It's just very often not very useful to do that because it's just a complex
+
+beast with tens or twenty three variables that you have no chance of solving it.
+
+let me is this, but we just can't solve it.
+
+if we want to make progress, if China's metaphysics wants to make progress and that's what
+
+he did for the last hundred years is to say,
+
+Okay, can we take a simpler model? Can we take a about model, a Heisenberg model of the
+
+free electron model, the tight binding model?
+
+All of those models can be used them as a simple model. And can we do something with them?
+
+They're very useful to understand the physics and the question when you use a simple model.
+
+As always, does this model capture the world in physics? If your model is your model too simple?
+
+if you have a simple model in some cases. It's exactly, but you could just accept the model
+
+that gets the states out of the model.
+
+for instance, the band structure, the tight binding models, all of the single particle models,
+
+when it's a single particle, you can almost always solve that essentially. Exactly.
+
+And then you know what you're doing, and then you can check whether these solutions agree
+
+with what you will try to does.
+
+And if they do, then you say, OK, it's a good model. If they don't, then it's a bad model.
+
+And in many, many cases, what you see is, well, people do these kind of models in the near
+
+future.
+
+What he would see very often in kind of metaphysics if people are telling you,
+
+OK, yes, and now we have to to measure this bad to what we put in the measured,
+
+effective mass of the particle that's kind of always fudging the model to make it represents
+
+reality to the best as it can.
+
+Very often whenever you have interactions, you cannot solve you even a simplified model.
+
+You just can't do it. It's too hard the Hubbard model as an example, the hubot model I can't
+
+really solve,
+
+except in one year and then I have to go and solve this one approximately put an
+
+approximate solution in there.
+
+Throwing stuff out and really just taking what I think is important.
+
+And then very often there's approximate solution does not agree with what the world saw at us.
+
+And then they're kind of like, OK, it's this approximation wrong? Or is my model wrong?
+
+And that's a lot of crack on this metaphysics come into play and people are discussing and
+
+arguing and doing a lot of work.
+
+Now, if you have a quantum simulator, you can do a bit more because you can implement this
+
+simple model in the quantum simulator.
+
+And you can just look at what is the answer of the quantum simulator.
+
+And then you can do something that we call a cross validation, that's very important where you
+
+say, OK, well, that's my quantum simulator.
+
+In this rare cases, we're at a quiz where I have an exact solution doesn't agree with that.
+
+for instance, if you take quantum simulator,
+
+it put particles in optical lattice refers to each of the interaction of the free particles to what we
+
+expect them to do.
+
+If they don't, then there's maybe something fishy referral potentials, this disorder or something
+
+going one.
+
+But if they do the right thing, then we kind of have a lot of control and a lot of trust that the
+
+Hamiltonian is exactly the right tone.
+
+A tone you.
+
+by doing this, we can say, OK, well, we know what you do, we can say, okay, well, this
+
+approximate solution equips with the quantum simulator.
+
+yes, that's a way off of approximating this, that works.
+
+And by this day, we can learn something about the materials if we can say yes, OK. These
+
+solutions are required to be a bit serious.
+
+And then if we learn something and then we can basically go to the kind of smarter people
+
+and say,
+
+Well, from the way we understand this with these models,
+
+if you want to get your critical temperature for your superconductivity even higher, you try to
+
+have to have something where your band is stronger.
+
+Craft that you have a lower effective mass probability of the particles. Or maybe no, you have
+
+to have a band that's less curved.
+
+It's flatter because then you have a higher density of states and this will promote this.
+
+these are the kind of things that you can then go and say, Look, you want to make do with the
+
+material.
+
+Here's what you have to do make this one bigger. Make this one smaller. That's how you
+
+optimise.
+
+And for this, you need to have you need to have this.
+
+You need to have this kind of understanding of your model and understanding of how it hangs
+
+together.
+
+And that's how these things work. So.
+
+If you want people use the analogy of saying a quantum simulator is a quantum wind tunnel
+
+and we're still here,
+
+we're still at the time of the promise, right?
+
+What they really say, OK, well, let's put very simple basic shapes in front of a wind tunnel and
+
+measure very basic things.
+
+They were not yet about saying, OK, let's construct a Concorde and see if we can what's
+
+going on.
+
+They were saying, OK, what is the fundamental relation between the track and the area and the
+
+angle of attack and all of those things?
+
+they were really trying to hook up the cookbook saying, OK, what are the fundamental laws
+
+that we need?
+
+And the same thing we have with many body physics. What about the fundamental laws?
+
+The fundamental idea is how we have to deal about think about many body physics.
+
+when you talk sphere, you talk a little bit about like, OK, well, high density of states means
+
+strong.
+
+Pairing means good. This order means bad because it changes things.
+
+It's the same through for extremely correlated things. do you need a different set of rules, a
+
+different set of ways of how to think about this?
+
+And that's what you didn't do. And that's what we are.
+
+I would say we are in the in the process of doing, of learning more and more things about as
+
+many body physics.
+
+And then you would say, maybe, OK, maybe at some point this is not needed anymore because
+
+we don't have the laws, but will.
+
+The Formula One cost designed basically a computer using approximate things where
+
+we know that approximations work because we've tested them in wind tunnels previously,
+
+but still nonetheless at the very end we say, OK, let's build the thing, build a prototype and for
+
+validation.
+
+Put it again into the wind tunnel and see whether the wheel measured experiment a squeeze with
+
+what your simulation does.
+
+And if you think about this, you of course, testes car, also the racetrack.
+
+But you say in order to really validate your model, you have to put them in an extremely
+
+controlled environment where you really know the wind,
+
+you know everything when you then you can say, yes, it's it agrees with what I've what I what I
+
+expect or not.
+
+And the same thing. We have proof quantum simulators. If you have an approximate few
+
+and you say, yeah, this is kind of what should happen.
+
+And you can go directly back to kind of metaphysics and say, Yeah, this is kind of what you
+
+should try.
+
+But then if it doesn't work out, it could be because they are doing something wrong.
+
+It could be because there's no effect and there are complications that you have not taken into
+
+account.
+
+even then you say, let's go to a quantum simulator. We really know it's this Hamiltonian.
+
+We've checked this, it's these parameters, we've checked them. There's nothing else in there.
+
+We've checked it and see where we get the right. Results are not. OK.
+
+that's kind of the spirit of what we want to do. And this is the last slide for today.
+
+This is the lecture plan.
+
+the first lecture was the introduction and it the challenge of many body physics telling you a
+
+little bit about why this is interesting,
+
+why we care about this and what we want to do in the next lecture.
+
+On first day, I'm going to introduce several of these synthetic many body systems that
+
+we're going to use.
+
+I concentrate mostly on quote items because that's kind of the main host so far.
+
+But it would also talk about ion traps. I would talk about superconducting superconducting
+
+circuits and photons and so on a little bit.
+
+And we'll also start there to learn the tools.
+
+we would start to doing a recap of how we do that, atom light interactions, how to
+
+describe certain processes.
+
+it's sort of writing equations on the blackboard to see on what will happen.
+
+The next one, then, is a little bit more formality about face transition and quantum foods.
+
+I said that when you take this liquid helium and you go underneath to cover it suddenly
+
+because of the superfluid.
+
+We saw the curve of superconductors. What's really happening then?
+
+How can we describe such a phase transition?
+
+Because these face additions are the most important thing that we want to understand going
+
+into a superconducting state.
+
+we talking a little bit more about how they are theoretically described,
+
+what's going on and so on, then we'll talk about one of our main models, optical lattices.
+
+How do you create them? How do you describe them?
+
+we look at some of the things that you did in kindness, metaphysics on blocks for your
+
+block waves and so on.
+
+And then we start to look at the first many buddy system, which is bosons and lattices,
+
+where we will see a face solution from a superfluid directly into a modern later.
+
+We would see a meaningful calculation of why this transition happens. We understand
+
+intuitively how to think about it.
+
+Let's see how it can be properly an experiment. As one example, then the next thing we have to
+
+do is we have to talk about quantum thermodynamics.
+
+we'd have to talk about what the temperatures and entropy and all of those things do with
+
+these kind of systems.
+
+Where do they come from? What is the behaviour and so on. And then we go on into the
+
+Fermi.
+
+How about model? it is not putting Fermi considering fermions and then talking a lot about
+
+quantum magnetism,
+
+how we democratically ordered, what kind of states can occur here and so on.
+
+And then we talk about dynamics of dynamics.
+
+the question of not only what, how does the correlations look in the current state, but it's like,
+
+what is the response of the system?
+
+What is transport? What happens if I hit the system with a hammer? These kind of questions.
+
+And then towards the end, we look at artificial gauge field and topology. we look at how can
+
+you simulate what effect?
+
+How can you simulate the fraction of quantum hall effect?
+
+Well, there are two ways of breaking topology what can you topological structures that you can
+
+discover, and that is the very end.
+
+We also compare a little bit of what has been done on the last year or two on quantum
+
+computers.
+
+we look at can people take things many by the localisation,
+
+what you have studied them also on a quantum computer and you compare how does a
+
+quantum simulator compared to a quantum computer?
+
+And the upshot will be that, OK, quantum computers have more control, but much, much, much
+
+smaller systems.
+
+But we look at how these things play out and what the strengths and pathogens are at the very
+
+end.
+
+OK. And that's all I have to say for today. Thank you all for being here.
+
+And if you have any questions about anything, just ask
