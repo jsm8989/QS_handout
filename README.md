@@ -4,12 +4,7 @@
 - And at the start of a sentence
 - kind of
 - right
-- side > site
-- letter > lattice
-- face > phase
-- metaphysics > matter physics
-- block>Bloch
-- Hubbert>Hubbard
+
 
 
 
