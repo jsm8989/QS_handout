@@ -2,8 +2,9 @@
 ### Additional possible shortcuts (in the python script)
 - way function into wavefunction
 - And at the start of a sentence
-- kind of
+- kind of (maybe replace it with "")
 - right
+- hall>Hall
 
 
 
