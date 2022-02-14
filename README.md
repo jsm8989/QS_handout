@@ -8,6 +8,7 @@
 ### Timelog (time spent working on this, for records)
 - 1 hour on 1/2/22
 - 2 hours on 2/2/22
+- 1 hour 12/2/22
 
 
 ### Thoughts
