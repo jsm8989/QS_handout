@@ -1,69 +1,16 @@
-OK. Welcome back, everyone. Let me take this off, if you can better understand me.
-Um yeah, this is now a lecture to so the main purpose of today,
-first 20 minutes of today is like, look at a couple of different synthetic many body systems.
-look at the systems that can be used to do quantum simulations.
-And then afterwards, we'll look at a little bit more detail about technologies needed for dealing with ultra cold atoms.
-And look at some parameter regimes. What atoms? today's lecture,
-where we also have a section about atom light interaction that is a repetition reminder of what you have done in atomic and optical physics.
-But that's going to be a 20 30 minute overlap we have and that's about it.
-Then we go on with with different things. OK, so let's get go in.
-The first synthetic manoeuvring system, the one that we mostly deal with is ultra cold atoms, ultra cold atoms.
-You've heard in typical optical physics. How you cooling down? If not very.
-You don't very you don't need to know how we get them. We can get something on the order of several tens of to five, several hundred thousand atoms.
-And that's big. That's the biggest synthetic many body systems we have at the moment.
-The other thing about these things is it's really atoms that were later on in the optical lattice move around, pop around.
-you really have mobile particles, which are great if you want to, like,
-simulate a charged dynamic stuff, moving around transport phenomena and so on.
-If you don't have that, if you only have systems that are static sitting here somewhere,
-but they have two spin states up and down the qubit, then of course, you can embed, say,
-from unicorn mix into a set of qubits you can describe anything in the classical rock with a set of bits.
-But there's a big overhead with that, so it's not great.
-having mobile particles is great that one of the challenges that you have with cold atoms is that you really cool down to as cold as you can,
-but you never really achieve with zero. There's always some residual entropy still in the system.
-And that's a problem. But we can deliver for for what we've done so far and.
-It's one of the limitations with. We look at this later. I'm sorry, so this is no.
-OK, so there's a problem with the recording, but we'll also put online the recording from last year.
-for those people that have to watch them online. OK, so this is the main system for this lecture course.
-And now I go through a few of our systems and I'll just give you the main gist of them.
-don't worry if you don't get all of the details of the other systems are not examined.
-another one that people used a lot, especially in the past, is photons.
-They're reasonably easy to work with because you can do a lot of things, but just say I sent my photon through a beam splitter, trying things overlap,
-several photons I can build up, complex topology circuits of what the photons are supposed to do, and I measure them at the end.
-The problem is it's hard to engineer interactions as you know, electrodynamics,
-then your theory photons don't interact and nobody just passed through each other,
-which basically means you can't really do interacting models very well.
-If you want to have the photons interacting with each other, you have to transform them into something else so you can take root,
-break atoms and transform a photon into a book interaction which turned into
-the excitation which don't interact and then transform it back into a photon.
-Or you do the same thing in polaritons or in superconducting circuits, which will look a little bit later.
-Superconducting circuits are a special case if you want. It's circuits where you build.
-We work with microwave photons of photons in a frequency domain of gigahertz, tens of gigahertz.
-And then you look at the physics of that, and I have two more slides about them. I think in the future.
-In a few minutes. Inform anybody system to, but also look a little bit later, is trapped ions,
-so you take atoms, took away one electron or give them one extra electron,
-so they electrically charged and that makes it easy for them to, like, hold them in strong traps.
-Because now, once they charged particles, you can put them in person as opposed to have a very strong forces on them.
-And it's very easy to cool them down to the absolute ground state, and you can put them in a state where they like,
-say, five microns away from each other, which makes them easily addressable optically.
-And they stood in the act because they have these Khuram interactions with the language.
-The problem with these things is that, Lambert admitted, would see in a second way and the position is frozen.
-you again you admit the to spin models, what each system is, a qubit can be spin up or spin down.
-It's not fermions really moving around. Another system that's now coming up over the last two years massively is what Brooke Adams,
-which is basically saying I take one atom and put it into a little optical tweezer.
-We talk about what it is in a few minutes and then I take hundreds of them, arrange them in whatever way I want,
-and then they copy very strong, strong, long range interactions that we get.
-Like Typekit interactions are fundamental to be getting these expectations.
-And this is not something that's still reasonably small system 250 items the record in December 2020.
-But it's very quickly increasing and a lot of people are betting their money at the moment of saying
-this is going to be one of the prime platforms for a quantum computer in the next five to 10 years.
-they can already do small things, they can do gates and so on. And they are steadily improving.
-these are the ones at the moment with the fastest growth trajectory. it's very exciting area to watch.
-Again, they're typically frozen, which means spin models only. There's many others, just in vCenter,
-so little nano defects in diamonds that Winston's Smith attached to his crew was looking a lot at in this building.
-Also, Michelle Lukens group at Harvard is looking at that. There's silicon cubits.
-There's atoms on surphases, quantum dot arrays. There's many, many, many more systems.
-I now want to talk a little bit more in detail about the superconducting circuits and ion traps.
-And then we go a little bit more into cold atoms.
+OK. Welcome back, everyone. Let me take this off, if you can better understand me. The main purpose of today, is to at a couple of different synthetic many body systems that can be used to do quantum simulations. And then afterwards, we'll look at a little bit more detail about technologies needed for dealing with ultra cold atoms. We also have a section about atom light interaction that is a repetition reminder of what you have done in atomic and optical physics. But that's going to be a 20-30 minute overlap we have and that's about it. Then we go on with different things. OK, so let's get go in.
+
+The first synthetic manoeuvring system, the one that we mostly deal with is ultra cold atoms. You've heard in typical optical physics. How you cooling down? You don't need to know how we get them. We can get something on the order of $10^5$ atoms. And that's big. That's the biggest synthetic many body systems we have at the moment. The other thing about these things is it's really atoms that were later on in the optical lattice move around, hop around; you really have mobile particles, which are great if you want to, simulate a charged dynamic stuff, moving around transport phenomena and so on. If you don't have that, if you only have systems that are static sitting here somewhere, but they have two spin states up and down the qubit, then of course, you can embed, say, information into a set of qubits in the same way that you can describe anything in the classical world with a set of bits. But there's a big overhead with that, so it's not great. Having mobile particles is great but one of the challenges that you have with cold atoms is that you really cool down to as cold as you can, but you never really achieve zero. There's always some residual entropy still in the system. And that's a problem. 
+
+OK, so this is the main system for this lecture course. And now I go through a few other systems and I'll just give you the main gist of them. Don't worry if you don't get it all, the details of the other systems are not examined. Another one that people used a lot, especially in the past, is photons. They're reasonably easy to work with because you can do a lot of things, but just say I sent my photon through a beam splitter, trying to overlap several photons, I can build up complex topology circuits of what the photons are supposed to do, and I measure them at the end. The problem is it's hard to engineer interactions as you know through electrodynamics, which basically means you can't really do interacting models very well. If you want to have the photons interacting with each other, you have to transform them into something else.
+
+Another manybody system is trapped ions, so you take atoms, took away one electron or give them one extra electron, so they electrically charged and that makes it easy for them to be trapped. And it's very easy to cool them down to the absolute ground state, and you can put them in a state where they are around five microns away from each other, which makes them easily addressable optically. And they still interact because they have these Coulomb interactions with the long range. The problem with these things is that, the numbers are limited and the position is frozen. You again admit to spin models, what each system is, a qubit can be spin up or spin down. It's not fermions really moving around. 
+
+Another system that's now coming up over the last two years massively is Rydberg atoms, which is basically saying I take one atom and put it into a little optical tweezer and then I take hundreds of them, arrange them in whatever way I want, and then they copy very strong, long range interactions that we get. And this is not something that's still reasonably small system; 250 atoms was the record in December 2020. But it's very quickly increasing and a lot of people are betting that this is going to be one of the prime platforms for a quantum computer in the next five to 10 years. They can already do small things, they can do gates and so on. And they are steadily improving. These are the ones at the moment with the fastest growth trajectory. Again, they're typically frozen, which means spin models only. 
+
+There's many others, like NV-centers, little nano defects in diamonds that have been studied a lot in this building, also by Lukin's group at Harvard. There's silicon qubits. There's atoms on surfaces, quantum dot arrays. There's many, many, many more systems.
+
+I now want to talk a little bit more in detail about the superconducting circuits and ion traps. And then we go a little bit more into cold atoms.
 superconducting circuits, the way to think about them is to first think about a normal electrical circuit.
 you have an inductance and you have a capacitor and then you kind of know the differential equation for this kind of classical oscillator.
 It's the same as what I can harmonic oscillator. It isn't harmonic oscillator, which means if you just quantised the thing and say, if I go to very,
