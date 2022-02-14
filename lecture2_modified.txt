@@ -28,36 +28,11 @@ The idea is to try to go for some segmented traps, so we can just take these fiv
 
 OK, any questions on this of our system so far? But please ask questions when something is unclear because it's important that everybody carries along. OK? 
 
-This is now a reminder of at some light interactions. This is not stuff that you have done in the atomic and optical physics,
-but that everybody we left on the course and it's important just to clarify the lectures.
-I'm going through this reasonably quickly. Some of it will also come back in the proper set.
-If those questions interrupt and ask. the key thing is that we're mostly talking about optical photons,
-which is more or less around visible light visible light into this light infra-red
-to the wavelengths between a micron or 1.1 microns and a couple hundred nanometres.
-And the frequencies of photons of photons, they're on the order of hundreds of terahertz.
-It's kind of important because will later on also talk about micro microwave photons that use fibre find transitions.
-They a lot of gigahertz or if you want to let go of spin states when you're off megahertz.
-Here we're talking about much, much, much, much bigger frequencies, hundreds of terahertz.
-you have no chance of really seeing the oscillation of the electric field because it's far too fast.
-The energies of those photons are than any on the units of electron volts and important parameter for us,
-as opposed to wave number K, which is just to pay over lambda. And then we have to follow the momentum HBK.
-And it turns out that the absorption and emission of this optical photons is a significant change for the atoms from the atoms of code.
-these photons are a nice tool for us because HBK would say this lot is a nice momentum scale.
-You give the atom a kick off. It goes into a different momentum class, and that's exactly the kind of momentum that we are looking at.
-that's the good scale for us. The belief system for all of us is to Cuba, to it's a two level at them.
-we have typically two states, a crown state and an excited state, and they have an energy difference which gives rise to a frequency.
-And then you shine in a laser with a frequency, laser frequency,
-and the parameter we always will use is to the joining delta, which is the difference between these two things.
-If Delta is positive, we call this purely joint. That means that the frequency of the laser is higher than the frequency of the atom.
-a photon has more energy than the atom could absorb.
-It's called truly tuned because, well, if you increase the photon energy, the wavelength gets shot so you go more towards blue light.
-And the other cases are already tuned, which is when the frequency of the light is lower than the frequency of the atom.
-And we assume our lasers are always to be perfectly using the frequency and to have enough photons,
-enough intensity that you can use a semi classical description. you just assume it is the perfect coherent oscillating electric field.
-You don't care about photon shot noise and all of those kind of things, at least not you.
-And that's a pretty good approximation for most of the things we do. And then there is if atoms interact with photons, with laser laser field,
-there is the three ancient processes which are just important to think of in mind.
+This is now a reminder of at some light interactions. This is stuff that you have done in the atomic and optical physics, so I'm going through this reasonably quickly. Some of it will also come back in the problem set. The key thing is that we're mostly talking about optical photons, which is more or less around visible light into the infra-red, with wavelengths between a micron and a couple hundred nanometres. And the frequencies on the order of hundreds of terahertz. It's kind of important because we will later on also talk about microwave photons that use fibre find transitions. They are a lot of gigahertz or if you want to let go of spin states when you're off megahertz. Here we're talking about much, much, much, much bigger frequencies, hundreds of terahertz. You have no chance of really seeing the oscillation of the electric field because it's far too fast. The energies of those photons are then on the units of electron volts. And it turns out that the absorption and emission of this optical photons is a significant change for the atoms. These photons are a nice tool for us because $\hbar k$ is a nice momentum scale. You give the atom a kick off. It goes into a different momentum class, and that's exactly the kind of momentum that we are looking at. That's the good scale for us. We have typically two states, a ground state and an excited state, and they have an energy difference which gives rise to a frequency $\omega_0$. And then you shine in a laser with a frequency $\omega$, and the parameter we always will use is detuning $\Delta$, which is the difference between these two things. If Delta is positive, we call this blue detumed. That means that the frequency of the laser is higher than the frequency of the atom, or a photon has more energy than the atom could absorb. And the other case is red detuned, which is when the frequency of the light is lower than the frequency of the atom. And we assume our lasers are always to be perfectly using the frequency and to have enough photons,
+enough intensity that you can use a semi classical description. You just assume it is the perfect coherent oscillating electric field. You don't care about photon shot noise and all of those kind of things. And that's a pretty good approximation for most of the things we do. And then there is if atoms interact with photons, with laser field, there is the three Einstein processes which are just important to keep in mind.
+
 The first one is stimulated absorption. if the atoms in the Crown state and we have PN photons and the laser beam,
+[equation]
 yet it can absorb one of those photon is a coherent process and the atom goes into the excited state it is and minus one photons left.
 The next process is stimulated emission, but the atoms in the excited state we have in photons and laser beam,
 and then the atom emits one photon coherently into the laser beams.
