@@ -22,40 +22,13 @@ The second one chip is a chip from Google that they published in 2020 which has 
 [pic]
 You can look at this. The two qubit error rate here is again below one percent, even if you are using many of them simultaneously,which means over 99 percent fidelity of the gate doing what it's supposed to do. It's pretty good. However, if I have that one percent error probability for two-qubit gate, if I have to run a calculation that consists of 100 steps, then to put, then the overall fidelity of the whole process is 99 percent to do the powerful and that then suddenly it's a pretty small number. This thing is pretty good, but these figures are still not good enough by far to do any meaningful calculations with it. This thing is on that scale, still light years away from doing anything that your mobile phone, for instance, can do. It only becomes better later on when you talk about error correcting, when you say, OK, can I do something I do in the classical system where I can correct for these errors so that not any error is a problem, but it just is a self-correcting code. Like what you do when you like, say, for instance, you have a credit card number, you type it in and then the computer says, OK, this isn't a valid number because the last two numbers are checks them. And if you have had a typo somewhere, it recognised there was a mistake and it recognises what you have to do to correct the mistake. You can do things with quantum error correction, which you would hear about in the quantum information lecture if you're interested, and that will then take these things over the finishing line. But the problem for that is that at the moment, people believe that you need something on the order of 100 or a thousand or maybe 10000 physical qubits to make one fully error corrected logical qubit. If you want to have something with whatever a thousand real logical qubits you would need, millions and millions of those things. We are far away from that. On the other hand, if you think of computer chips, how quickly they went from the thousands to a million to a billion chips, two billion transistors on one chip, maybe the scaling goes faster, maybe in a few years with you. It's an exciting time. 
 
-The other one is iron traps.
-Irons have, for the moment, the world record for having the highest fidelity for doing these quantum gates.
-What you have is an iron trap.
-If you have a Polish trap that finds the irons together because the charged particles, you can just confine them if electric fields.
-And they will always form a nice iron crystal where they stay separated from each other.
-You have an external trap pushing them together,
-but the cool and repulsion you have charged particles pushes them apart and you get kind of this thing.
-The position is fixed because of this, you can and it's been an internal state of internal hyper fine states of the island, for instance.
-And you have distances on the order of a few micrometers.
-you can, like, really focus a laser beam on this iron or design a design and read them out individually or do stuff to them individually.
-it's a great system for that. There's a couple of nice ways how you can do Gates, the gates basically goes by operations of the infantry.
-basically what you do is you can shine in some fields, which sets off the whole thing in motion that it kind of oscillates in this direction.
-And then you can do something with the few that you want access to the motion covers to the entire state of the island.
-if this iron isn't the excited state spin up logic one, then I would set the whole thing in motion.
-If it's not, it's not. if I put this one into a critical position of being zero one, then put in this trading post,
-then the whole I inquest is in this position of being not in motion and being in motion.
-And then if I now say something, if this one is motion, I bring it down. If not, I do nothing to it.
-Then I get the interaction between the two between these two irons and I can control which irons
-I want to interact with by saying I want to use which mode of oscillation of these things.
-And this works very, very, very well. They have three nines or more in the fidelity, so really, really good.
-The problem is that this limits the number of the ions that you can have, because if you have more ions, you have more of these normal modes.
-If you have two ions, you have two modes. If if one, you have one mode and then frequency space isn't that big.
-it becomes very hard to isolate or small to talk to them individually. And that's kind of a problem.
-It becomes hard to trust these reputation, both if you have a really big eye in terms.
-That's the limitation at the moment.
-The idea is to try to go for something segmented tribes, so we can just take these five islands, do something with them,
-which as they do and then you move two of those lines over to here, bring next three islands and have these five lines and do something to them.
-And we're going to segment mode. People have been developing this technology for the last 10, 12 years.
-They're making progress, they're getting there, but it takes longer than you would have expected, maybe.
-OK, any questions on this of our system so far?
-I guess you all a comfort here you are,
-so used from last year to have online lectures that the idea of asking questions is kind of foreign.
-But please ask questions when something is unclear because it's important that everybody carries along.
-OK? This is now a reminder of at some light interactions. This is not stuff that you have done in the atomic and optical physics,
+The other one is ion traps. Ions have, for the moment, the world record for having the highest fidelity for doing these quantum gates. What you have is an ion trap. If you have a Paul trap that confines the ions together because they are charged particles, you can just confine them with electric fields. And they will always form a nice ion crystal where they stay separated from each other. You have an external trap pushing them together, but due to the Coulomb repulsion you have in charged particles they are pushed apart and you get kind of this thing. The position is fixed because of this, and you have distances on the order of a few micrometers. You can really focus a laser beam on this ion and read them out individually or do stuff to them individually. It's a great system for that. There's a couple of nice ways how you can do gates, basically what you do is you can shine in some fields, which sets off the whole thing in motion that it kind of oscillates in this direction. And then you can do something with the few that you want access to the motion covers to the entire state of the island. If this ion is in the excited state spin up logic one, then I would set the whole thing in motion. If it's not, it's not. And then if I now say something, if this one is motion, I bring it down. If not, I do nothing to it. Then I get the interaction between the two between these two ions and I can control which ions I want to interact with by saying I want to use which mode of oscillation of these things. And this works very, very, very well. They have three nines or more in the fidelity, so really, really good. The problem is that this limits the number of the ions that you can have, because if you have more ions, you have more of these normal modes. If you have two ions, you have two modes. If if one, you have one mode and then frequency space isn't that big. It becomes very hard to isolate or small to talk to them individually. And that's a problem. That's the limitation at the moment. 
+[pic]
+The idea is to try to go for some segmented traps, so we can just take these five islands, do something with them, which as they do and then you move two of those lines over to here, bring next three islands and have these five ions and do something to them. And we're going to segment mode. People have been developing this technology for the last 10, 12 years. They're making progress, they're getting there, but it takes longer than you would have expected, maybe. 
+
+OK, any questions on this of our system so far? But please ask questions when something is unclear because it's important that everybody carries along. OK? 
+
+This is now a reminder of at some light interactions. This is not stuff that you have done in the atomic and optical physics,
 but that everybody we left on the course and it's important just to clarify the lectures.
 I'm going through this reasonably quickly. Some of it will also come back in the proper set.
 If those questions interrupt and ask. the key thing is that we're mostly talking about optical photons,
