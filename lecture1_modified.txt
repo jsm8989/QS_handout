@@ -1,114 +1,20 @@
-Welcome everyone to the quantum simulation class. It's great to be back in lecturing in person.
-
-It's much easier than last year, where you just had to sit there after midnight at your desk and
-
-record things into the voice and you don't see any reactions from anybody. we're very, very
-
-glad to be back. And let's directly start.
+Welcome everyone to the quantum simulation class. It's great to be back in lecturing in person. It's much easier than last year, where you just had to sit there after midnight at your desk and record things into the void and you don't see any reactions from anybody. We're very, very glad to be back. And let's directly start.
 
 
+Quantum simulations is what we're going to do in this course, and we're going to study many body physics. We're going to talk about things like magnetism, superfluidity and so on, we really try to look at the key models and the key phenomena, and some of the key experiments that people have used to learn something about these.
 
-Quantum simulations is what we're going to do in this course, and we're going to study many
 
-body physics. we're going to talk about things magnetism, superfluidity and so on, we
+We are not going to dive very deeply into the details of the experimental setups, so we're not going to spend four weeks asking, how do you get your atoms cold? I assume some of you have seen this in the atomic and optical physics course. If not, then it's also not a big deal because we're not going to discuss this much. We're just saying, assume we have cold atoms, for instance, or we have another medium for quantum simulations, and see what we can do with it.
 
-really try to look at the key models and the key phenomena, and some of the key
 
-experiments that people have used to learn something about this.
+We will also not delve very deeply into theoretical formalism, but when we do things like superfluidity or insulators or magnetism, we will, of course, have to do a little bit of theory to see where the effects come from and how we can describe them and what's going on. But we really care about the intuitive understanding of the physics. We don't put the focus on the theoretical formalism, that’s where other lectures TQM are relevant; if you have not done TQM, don’t worry, it’s not necessarily needed for the course.
+
+
+One of the prime examples is a high temperature superconductor. If you put that in the magnetic field, it will just sit there and float. Understanding how you can get high temperature superconductors is one of those problems that’s ongoing in condensed matter physics. What's really going on, why are they superfluid, why do they form a superconductor and other materials do not? It's one of the main motivations of why people do quantum simulations. We'll see in a few minutes why this is something that you need a quantum simulator for, and you can't do just on a classical computer.
 
 
 
-We are not going to dive very deeply into the details of the experimental setups, so we're not
-
-going to spend four weeks asking, how do you get your atoms cold? I assume some of you have
-
-seen this in the atomic and optical physics course. If not, then it's also not a big deal because
-
-we're not going to discuss this much. We're just saying, assume we have cold atoms, for instance,
-
-or we have another medium for quantum simulations, and see what we can do with it.
-
-
-
-We will also not delve very deeply into theoretical formalism, but when we do things
-
-superfluidity or insulators or magnetism, we will, of course, have to do a little bit of theory to see
-
-where the effects come from and how we can describe them and what's going on.
-
-But we really care about the intuitive understanding of the physics. We don't put the focus on
-
-the theoretical formalism, that’s where other lectures TQM are relevant; if you have not
-
-done TQM, don’t worry, it’s not necessarily needed for the course.
-
-
-
-One of the prime examples is a high temperature superconductor. If you put that in the magnetic
-
-field, it will just sit there and float. Understanding how you can get high temperature
-
-superconductors is one of those problems that’s ongoing in condensed matter physics since the
-
-describe them.
-
-
-
-What's really going on, why are they superfluid, why do they form a superconductor and other
-
-materials do not? It's one of the main motivations of why people do quantum simulations.
-
-We'll see in a few minutes why this is something that you need a quantum simulator for, and you
-
-can't do just on a classical computer.
-
-
-
-Just a few formalities before we really get started. it's going to be 12 lectures, two per week
-
-for six weeks. They will all be here in the Ryle room, and if the lecture capture works, they will also
-
-all appear on Moodle. If something should fail, we'll put last year's videos on the Moodle,
-
-which are maybe a bit more boring, but they have the same content, so they also work. There will
-
-be three supervisions. We'll wait a week for those because of course, everybody is initially looking
-
-at a few more lecture courses than they really want to take to the end. A special thing that we do
-
-in this lecture course, which people normally tend to a lot, is journal clubs. They are
-
-voluntary, so if you don't want to come, you don't have to come. They would probably also
-
-happen in the Ryle, and we will arrange two dates, also at the beginning of next week, once we
-
-know how many people there we are. Students tend to them a lot, so I tend to advertise
-
-them a lot. What we do there is we say, OK, if there's one, key result, we look at the experimental
-
-paper, how that key result was observed and we discuss that paper in an hour, hour and a
-
-half in the journal club. It's also great to get a little bit more behind the scenes of how science
-
-works, for example why do you do this measurement? Why do they not measure this regime?
-
-What was the limitation here? Why is this one so important? Why stress this point? It helps you
-
-to get a little bit into the habit of reading primary literature, reading papers, discussing papers,
-
-asking stupid questions about papers. There will be a Teams channel to discuss questions,
-
-advertise that also in a in a week's time. What we will do is we take everybody who's registered,
-
-so please register for the course if you have not done so, and we put them into a Teams channel,
-
-which we can use as an informal forum to ask questions. I can put comments in and put
-
-references to papers if somebody is interested. You can contact me via email or via teams. Today
-
-we will put some of last year’s handouts on the TIS; at the moment, there is a PDF version of all of
-
-the slides that we have, plus a little bit of additional material. I will always release the final PDF for a given lecture, typically on the evening after the lecture, because what tends to happen even after three or four years of going through these slides, is you spot a typo or a minus sign mistake, and then I'll fix them after the lecture and make a new PDF, which I then put online. That becomes the official version for that year, but it's only typos compared to the previous years.
+Just a few formalities before we really get started. it's going to be 12 lectures, two per week for six weeks. They will all be here in the Ryle room, and if the lecture capture works, they will also all appear on Moodle. If something should fail, we'll put last year's videos on the Moodle, which are maybe a bit more boring, but they have the same content, so they also work. There will be three supervisions. We'll wait a week for those because of course, everybody is initially looking at a few more lecture courses than they really want to take to the end. A special thing that we do in this lecture course, which people normally tend to a lot, is journal clubs. They are voluntary, so if you don't want to come, you don't have to come. They would probably also happen in the Ryle, and we will arrange two dates, also at the beginning of next week, once we know how many people there we are. Students tend to them a lot, so I tend to advertise them a lot. What we do there is we say, OK, if there's one, key result, we look at the experimental paper, how that key result was observed and we discuss that paper in an hour, hour and a half in the journal club. It's also great to get a little bit more behind the scenes of how science works, for example why do you do this measurement? Why do they not measure this regime? What was the limitation here? Why is this one so important? Why stress this point? It helps you to get a little bit into the habit of reading primary literature, reading papers, discussing papers, asking stupid questions about papers. There will be a Teams channel to discuss questions, advertise that also in a in a week's time. What we will do is we take everybody who's registered, so please register for the course if you have not done so, and we put them into a Teams channel, which we can use as an informal forum to ask questions. I can put comments in and put references to papers if somebody is interested. You can contact me via email or via teams. Today we will put some of last year’s handouts on the TIS; at the moment, there is a PDF version of all of the slides that we have, plus a little bit of additional material. I will always release the final PDF for a given lecture, typically on the evening after the lecture, because what tends to happen even after three or four years of going through these slides, is you spot a typo or a minus sign mistake, and then I'll fix them after the lecture and make a new PDF, which I then put online. That becomes the official version for that year, but it's only typos compared to the previous years.
 
 
 
@@ -140,407 +46,34 @@ The idea is to take a few quantum systems that we have under very good control, 
 
 
 
-Let's start with the system that we're mostly going to look at: condensed matter physics, ie electrons in a solid. You can ask, do we understand them? Do we understand why electrons at some point give rise to an insulator while in other cases behave as a metal and conduct electricity? The answer is well, since 1B physics you understand band theory which tells you that in the metal you have overlapping bands and in an insulator you have a big band gap at the Fermi level. This is not.
+Let's start with the system that we're mostly going to look at: condensed matter physics, ie electrons in a solid. You can ask, do we understand them? Do we understand why electrons at some point give rise to an insulator while in other cases behave as a metal and conduct electricity? The answer is well, since 1B physics you understand band theory which tells you that in the metal you have overlapping bands and in an insulator you have a big band gap at the Fermi level. This is not how we want to understand these things. We understand them on the effect of single particle picture.
 
-we understand these things. We understand them on the effect of single particle picture.
+And when you think about how you do these calculations, what you really do is you are solving the problem for a single electron in the periodic landscape. That's what you do when you do plot equations and all of this, you say, let's take one electron out of this and see what are its possible states. And then you say, OK, I have Fermi statistics, if I have many electrons, I have to fill up the Fermi states one by one and I get a Fermi energy somewhere. And that is a great model, and it works very, very well for many, many things. Unless the electrons are interacting, because then you can have something where you have a strongly interacting system and you get very different states. You, for instance, mey get a Mott insulator.
 
-And when you think about how you do these calculations,
+Is there a state where the band is half filled? Band theory tells me a half events, which would be a metal. But if these atoms, if these electrons have a repulsive interaction, if they want to stay away from each other because they repel each other, then you can have a state, a strongly correlated state that looks this.
+[pic]
+It's an insulating state where you have one particle localised on each lattice site. And these states are now they mutually block each other. I mean, if you take the red particle down here, it could in principle hop to the left or to the right. Pauli principle would not forbid this because they different spin states. But if there was a repulsive interaction, they don't want to do it because it would cost energy to hop onto the neighbour plane, the interaction energy. Therefore they're not doing it. And this gives rise to this insulating state.
 
-what you really do is you kind of solving the problem for a single electron in the periodic
+If you want to theoretically describe this, it is what we call a strongly correlated problem where you cannot say, let me suggest the problem for this one particle. You cannot do that because what is one particle does depends on the environment. It depends on whether it is between particles here and here or not. It's impossible to solve the problem for one particle. And then you're back to the exponential scaling, and you can do this for 40 particles, but not 300 particles, and forget about the 10 to the twenty three particles in a real piece of material. That's where the challenge comes from. And this also gives you richness because now you have these localised electrons, so you have localised spins and these spins can interact; you can, for instance, go into an antiferromagnetic state. And we will see later on in the course how if I have such a model which is typically described by a Hubbard model, how the low energy limit of that one in the appropriate regime gives rise naturally to an Heisenberg model which has its own deformities. It is a ground state. However, the really cool part is the following;
+[pic]
+this is a phase diagram for one of these high temperature superconductors. You have twi axes, the temperature and the doping. Here we have been talking about a commensurate situation where you have one particle per lattice site. What happens if you go a little bit away from that? If you stay on this line up here, you have this insulator. If you go down, there's another temperature and there's this antiferromagnetic state. If I say I'm at a very low temperature and then go out of this at some point you are different, but the order gets lost, and I dope, which means I put in some few extra electrons or a few holes; I go away from this one particle, the side and then the antiferromagnetic auto here doesn't make sense because there's too much disorder in there because it's not ordered. That's fine. That's understandable. What's maybe not intuitive is that then a little bit later, I get a new superconducting phase where these electrons pair up and then they start to roam around freely, without scattering at all. And this is the holy grail of condensed matterphysics, understanding this in detail, because these superconducting wires, they can be made now, they can be made out of these materials and they're extremely important. Without superconductivity, you could not have things like an MRI machine, the LHC and many, many other things. And it's very intriguing to an extent, and this is something where still nobody can do proper classical simulations without using approximations. But the problem is, you have to understand if all of your approximations are actually valid or not. We come back to a point at the end today; strong interactions can lead to strong correlations, and as I said, this is exponentially difficult to study because you cannot solve the problem independently for only a few of the particles, you have to solve the whole thing at once because the particles the states do so very much depend on each other.
 
-landscape.
+OK. One thing I should say about the course is that I really it to be interactive, so I am happy for people to interrupt and ask questions all the time because I tend to go fast. I try to make pauses periodically to encourage it. OK. See, no questions. Let's dive one step deeper and look a little bit at the models underlying this. We see the first Hamiltonian; the idea is that when we say we are simulating condensed matter, we're not saying just this one piece of material. Our materials are very, very complex. There's a lot of things going on and we don't want to look at all of these intricacies. What we're saying is let's take a step back and look at a few classes of materials, then look at the important model Hamiltonians that people have come up with in condensed matter physics to describe them. And one of the most famous models for this is the Hubbard model, where the idea is to say, OK, we have a material, a crystal, we have two ions, we have the kinetic bands for the electrons, and there is more shaded areas in here which are hard to see in the projector.
+[pic]
+But you would say that all of these lower bands here, they are just filled with electrons with it, interacting with doing something. This partially filled band up here, that's where everything is happening. We just concentrate on that as one band. It's a first approximation. The second one is to say, OK, we now use a tight binding approach. We discussed the moving around of the electrons by a hopping process where we say a particle can hop from one side to its neighbouring site with a tunnelling rate that we call J. And then we make a big approximation, but it's a good one, which is to say, let's assume also that the interaction has the simplest possible form. Let's assume that two electrons are only interacting when you're in the same site, then they have higher energy and interaction energy U. These are the ingredients that go into this Hubbard model.
 
-Right. That's what you do when you do plot equations and all of this, you say,
+If you write it down in second quantised notation looks like this
+[equation]
+and we go through the individual terms. Basically you have this first term, sum over nearest neighbouring sites. $a_i$ is the annihilation operator, where I take out an ion, an atom or an electron from site i. And then $a_i^+$ is the creation operator inside, which basically says, if I want a model of particle hopping from here to here, I take it out here and I put it back there. That's just a mathematical way. And second quantisation is how you describe this, and I hope everybody's familiar with this kind of notation. And then you just say, OK, well, this $-J$ is the contribution to the energy you can gain by doing this. That's the tunnelling term. The second term is the interaction, which is basically saying number of particles on the site. 
 
-let's take one electron out of this and see what are the possible states for the electron?
+And now we were in business because we say what we actually want to do. We just need to have a nice physical, clean implementation of this model. Without disorder, without bifurcations, without phonons, or any of these complications. Just a simple model to study this. And then we can say, let's take a sinusoidal potential in an optical lattice. When we put atoms in there, and they also would satisfy Bloch theorem. They have their band structure that we put them in the lowest of these bands and then they will also hop and they will naturally also only interact when are on the same site. And this is therefore a very nice implementation of this Hubbard model, and the Hubbard model is a deceptively simple looking model. It has no analytic solutions in more than one dimension, and in two dimensions is where exactly these kind of layered materials live. It can only be solved numerically with a lot of difficulty and in some special cases. That's where we come in and say, we can learn something about this by studying what cold atoms do in these kind of systems.
 
-And then you say, OK, I have Fermi statistics.
 
-if I have many electrons, I have to fill up the Fermi states one by one and I get a Fermi energy
+Just to show a little bit about the complexity that can come up, if you just think again of a spin system you've seen, that spin $i$ has two sites. If I have two spins, I have, of course, four states. But I also have interactions that can be, say, ferromagnetic, where they want to have the same spin, or antiferromagnetic, where they want to have the opposite spin. And then you're kind of tempted to say, OK, that's the story.
 
-somewhere.
-
-And that is a great model, and it works very, very well for many, many things.
-
-Unless the electrons are interacting, unless the interactions between these electrons is important.
-
-Because then you can have something where you have a strongly interacting system of
-
-interactions are really important.
-
-You get very different states.
-
-You, for instance, going to state a Mott insulator, certain, if not the building that's what you
-
-is most famous for what he said.
-
-Is there a state where the band is half filled? Band Few tells me a half events, which would be a
-
-metal.
-
-But if these atoms, if these electrons have a repulsive interaction, if they want to stay away
-
-from each other because they repel each other,
-
-then you can have a state, a strongly correlated state that looks this.
-
-It's an insulating state where you have one particle localised on each letter side.
-
-And these states are now they mutually kind of block each other.
-
-I mean, if you take the red particle down here, it could in principle hop to the left or to the right.
-
-Principle would not forbid this because they different spin states. it's a lot a probably
-
-principle.
-
-But if there was a repulsive interaction, they don't want to do it because it would cost energy to
-
-hop onto the neighbour plane into action energy.
-
-therefore they're not doing it. And this gives rise to this insulating state and not a challenge.
-
-If you want to theoretically describe this is that this is not what we call a strongly correlated
-
-problem where you cannot say,
-
-Oh, let me suggest the problem for this one particle. You cannot do that because what is one
-
-particle does depends on the environment.
-
-It depends on whether it is between particles here and here or not.
-
-it's impossible to solve the problem for one particle revolt at the same time solving it four
-
-level particles.
-
-And then you're back to the exponential scaling, and you can do this for 40 particles,
-
-but not 300 particles, and forget about the 10 to the twenty three particles and a real piece of
-
-material.
-
-that's what the challenge comes from.
-
-And this also gives you richness because now you kind of have these localised electrons, so you
-
-have localised spins and these spins can auto.
-
-You can, for instance, go into an antiferromagnetic state.
-
-And we will see later on in the course how if I have such a model which is typically discussed by a
-
-Heisenberg model, by a hubbard model,
-
-how the low energy limit of that one in the appropriate regime gives rise naturally to an
-
-Heisenberg model which has its own deformities.
-
-It is a cloud state. that's neat. That's nice and antiferromagnetic are important for hot
-
-disks and many other materials.
-
-However, the really cool part is the following this is a phase diagram for one of these high
-
-temperature superconductors.
-
-You have to access, you have to temperature and you have to doping.
-
-here have been talking about a commensurate situation where you have one particle
-
-politicised.
-
-What happens if you go a little bit away from that? if you stay on this line up here, you have
-
-this kind of insulator.
-
-If you go down, there's another temperature and the knife that there's this antiferromagnetic this
-
-data.
-
-Most interesting is not what happens if I say I'm at a very low temperature and they go out of
-
-this at some point you are different,
-
-but the order gets lost, I dope, which means I put in some few extra electrons or a few holes.
-
-I go away from this one particle,
-
-the side and then the antiferromagnetic auto here doesn't make sense because there's too much
-
-disorder in there because it's not ordered.
-
-That's fine. That's understandable. What's maybe not intuitive is that then a little bit later, I get a
-
-new face,
-
-a superconducting phase where these electrons kind of in a way, peer up into some kind of pairs
-
-and then they start to roam around freely.
-
-they go from insulating to not only being a metal, but being a superconductor where he can
-
-roam around freely without scattering at all.
-
-And this is if you want the holy grail of cannons metaphysics, understanding this in detail,
-
-because these superconducting wires, they can be made now, they can be made out of these
-
-materials and they're extremely important.
-
-you can use them to you can use a wire this and probably have a
-
-picture somewhere later on to have something 10000 amps running through it,
-
-without superconductors, without superconductivity. You could not have things an MRI
-
-machines.
-
-You could not have things the Sony, the LHC and many, many other things.
-
-And it's very intriguing to an extent, is a bit better to understand what it comes from, what's
-
-going on here.
-
-And this one is something we're still nobody can we do proper simulations, classical simulations
-
-without using approximations.
-
-You can always make approximations to simplify your system.
-
-But the problem is, you have to understand all of your approximations are actually valid or not.
-
-We come back to a point at the end today. strong interactions can lead to strong correlations,
-
-and as I said,
-
-this is exponentially difficult to study because you cannot solve the problem independently for
-
-particles of the particles,
-
-you have to solve the whole thing at once because the particles the states do so very much
-
-depend on each other.
-
-OK. One thing I should say about the course is that I really it to be interactive,
-
-so I it for people to interrupt and ask questions all the time because I tend to go fast.
-
-Like, not this, but a bit slower, but still,
-
-I tend to go reasonably fast because many of the things you might have seen at this course or
-
-the other course, they might be straightforward.
-
-But then if something is not clear, please just interrupt me and ask a question. And I try to make
-
-passes periodically to encourage it.
-
-OK. See, no questions. let's dive one step deeper and look a little bit at the model's underlying
-
-this.
-
-We'll see the first summer, Tony.
-
-the idea is that when we say we are simulating condensed matter, we're not saying just this
-
-one piece of material.
-
-I want to simulate this material metals. Our materials are very, very complex.
-
-There's a lot of things going on and we don't want to like, look at all of these intricacies.
-
-What we're saying is let's take a step back and look at a few classes of materials that look at the
-
-important model Hamiltonians that have people have come up with and kind of metaphysics to
-
-describe them.
-
-And one of the most famous models for this is the Harvard model that in conjunction with the
-
-insulators 50, 60, 70 years ago, by now, actually.
-
-the idea is to say, OK, we have a material, a crystal, we have to ions, we have the kinetic bands
-
-for the electrons,
-
-and there is more shaded areas in here which are hard to see in the projector.
-
-But you would say that all of these lower bands here, they are just filled with electrons with it,
-
-interacting with doing something.
-
-And this one partially filled band up here, and that's where everything is happening.
-
-we just concentrate on as one band. It's a first approximation. The second one is to say, OK,
-
-we now use a tight binding approach.
-
-we discussed the moving around of the electrons by a hopping process where we say a
-
-particle can hop
-
-from one side to its neighbouring site to its neighbouring site with a tunnelling rate that we call J
-
-or.
-
-And then we make a big approximation, but it's a good one, which is to say, let's assume also
-
-that the interaction has the simplest possible form.
-
-Let's assume that two electrons are only interacting when you're in the same site, then they have
-
-higher energy and interaction energy.
-
-You. these are the ingredients that go into this Hubbert model.
-
-And then the how about model if you write it down in second quantised notation looks this
-
-and we go through the individual terms.
-
-And if you lecture, so don't worry, if there's not a little bit, it's a little bit over your head.
-
-what basically you have for is you have this first term, some over next year's neighbouring
-
-sites and a Heidegger AJ, would you?
-
-Operator AJ is the innovation operator. I take out an iron, an atom or an electron from sage.
-
-And then a Heidegger is the creation operator inside, which basically says,
-
-If I want a model of particle hopping from here to here, I take it out here and I put it back there.
-
-That's just a mathematical way. And second, quantisation how you describe this, and I hope
-
-everybody's familiar with this kind of notation.
-
-Everybody is nodding along, great, good. And then you just say, OK, well, there's minus J does
-
-this to the energy you can gain by doing this.
-
-That's the tunnelling Trump, the second term Mr Johnson into interaction, which is basically
-
-saying number of particles on side.
-
-I spin up times number of particles on the same side, speed down times the interaction constant
-
-you.
-
-And these are fragments of who right out of fermions and eyes are, of course, limited by being a
-
-zero or one.
-
-you can see that if you have zero zero zero one one zero two one particle, no particles puts
-
-out, there's no interaction.
-
-But if you have both particles, one spin up, one spin down precisely, then you have to pay this
-
-interaction energy.
-
-It's OK. And now we were in business because we say what we actually want to do.
-
-We just need to have a nice physical, clean implementation of this model.
-
-Revote this order without let's buy vacations without phoniness about any of these
-
-complications.
-
-Just a simple model to study this. And then we can say, Well, let's take a sinusoidal potential and
-
-optical lattice.
-
-We're talking to lectures about how we do this and then we put atoms in there, and they also
-
-would have the block theorem.
-
-They have their brain structure that we put them in the lowest of these bands and then
-
-they will also hop and they will naturally also only interact when are on the same side.
-
-And this is therefore a very nice implementation of this Hubbert model, and the Hubbert model is
-
-a deceptively simple looking model.
-
-It has no analytic solutions in more than one dimension in two dimensions where exactly
-
-these kind of layered materials live website and the high Typekit superconductors, the Hubbard
-
-model cannot be solved analytically.
-
-And it can only be solved numerically with a lot of difficulty and in some special cases, not in all
-
-cases.
-
-even though the mother looks simple, it's not solved.
-
-that's sort cold atoms then come in and say, we can learn something about this by studying
-
-what cold atoms do in these kind of systems.
-
-OK.
-
-Just to show a little bit about the complexity that can come up, if you just think again of a spin
-
-system you've seen, that's been I have two sides.
-
-If I have two spins, I have, of course, four states. But I also have interactions that can be said for
-
-magnetic.
-
-they want to have the same spin or antiferromagnetic. They want to have the opposite spin.
-
-And then you're kind of tempted to say, Well, OK, that's the story.
-
-Because if I now say three spins well, if it's anti-free market, I would just continue if this
-
-antiferromagnetic chain up, down, up, and that's it.
-
-Rustom, anybody if and I have 100 sides, it would just be up, down, up, down, up, down, up,
-
-down.
-
-And that can be right. But the complexity is that you can also have something this.
-
-You can have a little triangle in there if you think of a triangle of letters or letters or many other
-
-letters,
-
-structures and then you get new effects, you get frustration, you get spin up here, spin
-
-down.
-
-Yeah, what do I put your spin up off and on?
-
-That's the same energy this generation, you have many, many trying to have a massive
-
-degeneracy in micron state and again give rise to new effects.
-
-there's many things just on the spin the firm reckons A. At the spin density wave spin classes,
-
-spin liquids is a collective phenomenon that really come from the fact that you have many,
-
-many, many of these things coming together and reductionist viewpoint of saying, Well, if I
-
-understand you ingredients, I understand the big thing.
-
-No, just me. Understanding a single spin or an ascending to spin interaction does not yet help
-
-me understanding what happens on a bigger scale.
-
-it's really emergent phenomena. War is different.
-
-This isn't used to say you really need a new viewpoint, a collective viewpoint to discuss these
-
-things.
-
-And that's kind of part of the language that we're trying to develop a bit also in discourse.
-
-examples, and we'll see a few examples now. Summarisation, we think about this stuff.
-
-Many of those particles come together and they just form a form of state. This is really a
-
-miracle in itself.
+Because if I now say three spins well, if it's antiferromagnet, I would just continue with this antiferromagnetic chain up, down, up, and that's it. If I have 100 sites, it would just be up, down, up, down, up, down, up, down. And that can be right. But the complexity is that you can also have something this.
+[pic]
+If you think of a triangular lattice then you get new effects, you get frustration, you get spin up here, spin down. So here, do I put your spin up or down? That's the same energy, so you have a massive degeneracy microstate and again this gives rise to new effects. Spin density waves, spin glasses, spin liquids is a collective phenomenon that really come from the fact that you have many, many, many of these things coming together and reductionist viewpoint of saying, Well, if I understand you ingredients, I understand the big thing. No, trust me. Understanding a single spin or a two-spin interaction does not yet help me understanding what happens on a bigger scale. It's really emergent phenomena. More is different.
 
 How does this, why does this happen?
 
