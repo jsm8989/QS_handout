@@ -11,75 +11,18 @@ Another system that's now coming up over the last two years massively is Rydberg
 There's many others, like NV-centers, little nano defects in diamonds that have been studied a lot in this building, also by Lukin's group at Harvard. There's silicon qubits. There's atoms on surfaces, quantum dot arrays. There's many, many, many more systems.
 
 I now want to talk a little bit more in detail about the superconducting circuits and ion traps. And then we go a little bit more into cold atoms.
-superconducting circuits, the way to think about them is to first think about a normal electrical circuit.
-you have an inductance and you have a capacitor and then you kind of know the differential equation for this kind of classical oscillator.
-It's the same as what I can harmonic oscillator. It isn't harmonic oscillator, which means if you just quantised the thing and say, if I go to very,
-very cold temperatures and very small numbers of excitations, one excitation to excitations,
-I have a quantum whatever quantum harmonic oscillator,
-which you have all calculated in one bit where they all the states always have a splitting of one of one h, but we'll make out between them.
-Now, this is not so nice if you want to have a qubit because all of these transitions are degenerate.
-if you try something from state zero into state one, it can also be driven back into state forever into state to state three, state four and so on.
-in some sense, it's still too complex a system that's too many states. You would have just two states.
-what can you do?
-What would you think you can do in order to have a just two states out of many of those in in the morning goes to make it harmonic?
-Exactly. And the element that you put in there is the joys of conjunction pride Josephson,
-Nobel prise winner we'll see you in the Cavendish attack basically saw this effect in his Ph.D.
-thesis for if you radically stumbled across it and wrote down the fundamental equations.
-The idea for that one is that you have a superconductor on the left site,
-the superconductor on the site and the little isolating tunnel barrier in the middle.
-If you now just go in with standard quantum mechanics to say, I have a wave function,
-I want to calculate the flow of particles, the probability flow of the wave function.
-You know, that's given by the creating of the phase. if you have a phase difference between left and right,
-that gives rise to a current that in this case actually acts is proportionate to the sign of this of this phase created.
-depending on what the phases are here and here, the phase of the of the other parameter we'll talk about that is that in the next lecture,
-you get the current going left or going right. If you just crank, handle and say, OK, what does this mean for the voltage?
-Well, the energy. voltage is kind of given by the how fast the phase evolves, the frequency of the phase evolution.
-it's linked to that.
-And if I put all of this together, massage it a little bit, I just get it and I'll have an inductance in the doctor, which is proportional to course.
-I doubt one of the course on. it's a nonlinear inductance.
-it's exactly the thing that I need to make a little resonating circuit, a non-linear circuit.
-And if you do this, you just put this the so-called transform geometry. You put such a Josephson junction into such a little circuit.
-You get something where you oscillate just non non harmonic.
-And that means that the frequency from zero to one is different than the frequency from one to zero.
-And that's what you need for your cupboard, because your cupboard is still just built by these two states zero and one.
-And you should try stuff with frequencies omega 01. It cannot drive any further transitions.
-it's really a two states subspace that you need for your keyboard.
-that's what you do in superconducting circuits. And the good thing about superconducting circuits is that you cannot put them on a chip.
-You cannot do this with the top WiFi method, so you can make big things.
-the second one chip is a chip from Google that they created in 2020 or 2019,
-and I published stuff in 2020 and Dec. one has fifty four cubits on it.
-What's the world record at the time? There is bigger chips now around, but there are no real results as far as I know published on them.
-And then if you can ask, OK, if I have these little qubits, this little money diplomatic, that this little things, what can I do with them?
-What I can do with single kubert rotations,
-which means I take something in the ground state and turn it into a superposition or into the excited state or any other state that I want.
-And it turns out I can do this with ninety nine point eight percent fidelity.
-The important point for doing a quantum computer for doing a gate is, of course, the two of these things have to interact.
-They have to do two Cuban gates legacy north or anything of these operations. And this is also pretty good, right?
-You can look at this. The two qubit arrogate here is not again below one percent, even if you are many of them simultaneously,
-which means over 99 percent fidelity of the gate doing what it's supposed to do.
-it's pretty good.
-However, if I have that one percent error probability for two Kubert Gate, if I have to run a calculation that consists of 100 steps,
-then to put, then the overall fidelity of the whole process is 99 percent to do the powerful and that then suddenly it's a pretty small number.
-this thing is pretty good, but these fingers are still not good enough by far to do any meaningful calculations with it.
-I can do things taking a factories in a small number of 15 or slightly bigger because I only need 10,
-20, 30 steps in the calculations we have a 30, 40, 50 percent chance of the calculation is correct.
-And if I run the calculation 100 times and just look at the most likely outcome, that's probably going to be the correct thing.
-But this exponential scaling will kill you if you do more complex calculations.
-this thing is on that scale, still light years away from doing anything that your mobile phone, for instance, can do.
-It only becomes better later on when you talk about error correcting, when you say, OK,
-can I do something I do in the classical system where I can correct for these errors so that not any error is a problem,
-but it just is a self-correcting code. Like what you do when you like, say, for instance, you have a credit card number,
-you type it in and then the computer says, OK, this isn't a valid number because the last two numbers are checks them.
-And if you have had a typo somewhere, it recognised there was a mistake and it recognises what you have to do to correct the mistake.
-you can do things quantum error correction, which you would hear about any information lecture if you're interested,
-and that will then take these things over the finishing line. But the problem for that is that at the moment,
-people believe that you need something on the order of 100 or a thousand or maybe 10000 physical cubits,
-10000 of those things to make one fully error corrected logical cubed.
-if you want to have something with whatever a thousand real logical qubits you would need, millions and millions of those things.
-we are far away from that.
-On the other hand, if you think of computer chips, how quickly they went from the thousands to a million to a billion chips,
-two billion transistors on one chip, maybe the scaling goes faster, maybe in a few years with you.
-It's an exciting time. The other one is iron traps.
+
+Superconducting circuits, the way to think about them is to first think about a normal electrical circuit. You have an inductance and you have a capacitor and then you know the differential equation for this kind of classical oscillator. It's the same as a harmonic oscillator which you have all calculated in 1B, where all the states always have a splitting of one h. Now, this is not so nice if you want to have a qubit because all of these transitions are degenerate. If you try move something from state zero into state one, it can also be driven further into state to state three, state four and so on. In some sense, it's still too complex a system that's too many states. What can you do to get just two states? Make it anharmonic: put in a Joesphson junction. The idea for that one is that you have a superconductor on the left side, the superconductor on the right side and the little insulating tunnel barrier in the middle. If you now just go in with standard quantum mechanics to say, I have a wave function, I want to calculate the flow of particles, the probability flow of the wave function; you know, that's given by the creating of the phase. If you have a phase difference between left and right, that gives rise to a current that in this case actually acts is proportionate to the sign of this of this phase created. If you just crank, handle and say, OK, what does this mean for the voltage? Well, the energy (and hence voltage) is kind of given by the how fast the phase evolves, the frequency of the phase evolution. And if I put all of this together, massage it a little bit, I just get this
+[equation] 
+and I'll have an inductance in there. it's a nonlinear inductance, which is exactly the thing that I need to make a little resonating circuit. And if you do this, you just put this the so-called 
+[transform geometry].
+You put such a Josephson junction into such a little circuit. You get something where you oscillate just non harmonic. And that means that the frequency from zero to one is different than the frequency from one to zero. And that's what you need for your qubit, because your qubit is still just built by these two states zero and one. And you should try stuff with frequencies $\omega_{01}$, it cannot drive any further transitions. That's what you do in superconducting circuits. And the good thing about superconducting circuits is that you can put them on a chip. 
+[pic]
+The second one chip is a chip from Google that they published in 2020 which has 54 qubits on it, which was the world record at the time. And then if you can ask, OK, if I have these little qubits, what can I do with them? What I can do with single qubit rotations, which means I take something in the ground state and turn it into a superposition or into the excited state or any other state that I want. And it turns out I can do this with $99.8\%$ fidelity. The important point for a quantum computer doing a gate is, of course, the two of these things have to interact. They have to do two qubit gates.
+[pic]
+You can look at this. The two qubit error rate here is again below one percent, even if you are using many of them simultaneously,which means over 99 percent fidelity of the gate doing what it's supposed to do. It's pretty good. However, if I have that one percent error probability for two-qubit gate, if I have to run a calculation that consists of 100 steps, then to put, then the overall fidelity of the whole process is 99 percent to do the powerful and that then suddenly it's a pretty small number. This thing is pretty good, but these figures are still not good enough by far to do any meaningful calculations with it. This thing is on that scale, still light years away from doing anything that your mobile phone, for instance, can do. It only becomes better later on when you talk about error correcting, when you say, OK, can I do something I do in the classical system where I can correct for these errors so that not any error is a problem, but it just is a self-correcting code. Like what you do when you like, say, for instance, you have a credit card number, you type it in and then the computer says, OK, this isn't a valid number because the last two numbers are checks them. And if you have had a typo somewhere, it recognised there was a mistake and it recognises what you have to do to correct the mistake. You can do things with quantum error correction, which you would hear about in the quantum information lecture if you're interested, and that will then take these things over the finishing line. But the problem for that is that at the moment, people believe that you need something on the order of 100 or a thousand or maybe 10000 physical qubits to make one fully error corrected logical qubit. If you want to have something with whatever a thousand real logical qubits you would need, millions and millions of those things. We are far away from that. On the other hand, if you think of computer chips, how quickly they went from the thousands to a million to a billion chips, two billion transistors on one chip, maybe the scaling goes faster, maybe in a few years with you. It's an exciting time. 
+
+The other one is iron traps.
 Irons have, for the moment, the world record for having the highest fidelity for doing these quantum gates.
 What you have is an iron trap.
 If you have a Polish trap that finds the irons together because the charged particles, you can just confine them if electric fields.
