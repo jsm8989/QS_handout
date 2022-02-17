@@ -28,62 +28,21 @@ The idea is to try to go for some segmented traps, so we can just take these fiv
 
 OK, any questions on this of our system so far? But please ask questions when something is unclear because it's important that everybody carries along. OK? 
 
-This is now a reminder of at some light interactions. This is stuff that you have done in the atomic and optical physics, so I'm going through this reasonably quickly. Some of it will also come back in the problem set. The key thing is that we're mostly talking about optical photons, which is more or less around visible light into the infra-red, with wavelengths between a micron and a couple hundred nanometres. And the frequencies on the order of hundreds of terahertz. It's kind of important because we will later on also talk about microwave photons that use fibre find transitions. They are a lot of gigahertz or if you want to let go of spin states when you're off megahertz. Here we're talking about much, much, much, much bigger frequencies, hundreds of terahertz. You have no chance of really seeing the oscillation of the electric field because it's far too fast. The energies of those photons are then on the units of electron volts. And it turns out that the absorption and emission of this optical photons is a significant change for the atoms. These photons are a nice tool for us because $\hbar k$ is a nice momentum scale. You give the atom a kick off. It goes into a different momentum class, and that's exactly the kind of momentum that we are looking at. That's the good scale for us. We have typically two states, a ground state and an excited state, and they have an energy difference which gives rise to a frequency $\omega_0$. And then you shine in a laser with a frequency $\omega$, and the parameter we always will use is detuning $\Delta$, which is the difference between these two things. If Delta is positive, we call this blue detumed. That means that the frequency of the laser is higher than the frequency of the atom, or a photon has more energy than the atom could absorb. And the other case is red detuned, which is when the frequency of the light is lower than the frequency of the atom. And we assume our lasers are always to be perfectly using the frequency and to have enough photons,
-enough intensity that you can use a semi classical description. You just assume it is the perfect coherent oscillating electric field. You don't care about photon shot noise and all of those kind of things. And that's a pretty good approximation for most of the things we do. And then there is if atoms interact with photons, with laser field, there is the three Einstein processes which are just important to keep in mind.
+This is now a reminder of at some light interactions. This is stuff that you have done in the atomic and optical physics, so I'm going through this reasonably quickly. Some of it will also come back in the problem set. The key thing is that we're mostly talking about optical photons, which is more or less around visible light into the infra-red, with wavelengths between a micron and a couple hundred nanometres. And the frequencies on the order of hundreds of terahertz. It's kind of important because we will later on also talk about microwave photons that use fibre find transitions. They are a lot of gigahertz or if you want to let go of spin states when you're off megahertz. Here we're talking about much, much, much, much bigger frequencies, hundreds of terahertz. You have no chance of really seeing the oscillation of the electric field because it's far too fast. The energies of those photons are then on the units of electron volts. And it turns out that the absorption and emission of this optical photons is a significant change for the atoms. These photons are a nice tool for us because $\hbar k$ is a nice momentum scale. You give the atom a kick off. It goes into a different momentum class, and that's exactly the kind of momentum that we are looking at. That's the good scale for us. We have typically two states, a ground state and an excited state, and they have an energy difference which gives rise to a frequency $\omega_0$. And then you shine in a laser with a frequency $\omega$, and the parameter we always will use is detuning $\Delta$, which is the difference between these two things. If Delta is positive, we call this blue detumed. That means that the frequency of the laser is higher than the frequency of the atom, or a photon has more energy than the atom could absorb. And the other case is red detuned, which is when the frequency of the light is lower than the frequency of the atom. And we assume our lasers are always to be perfectly a single frequency and to have enough intensity that you can use a semi classical description. You just assume it is the perfect coherent oscillating electric field. You don't care about photon shot noise and all of those kind of things. And that's a pretty good approximation for most of the things we do. 
 
-The first one is stimulated absorption. if the atoms in the Crown state and we have PN photons and the laser beam,
+And then there is if atoms interact with photons, with laser field, there is the three Einstein processes which are just important to keep in mind. The first one is stimulated absorption. If the atom is in the ground state and we have $N$ photons in the laser beam,
 [equation]
-yet it can absorb one of those photon is a coherent process and the atom goes into the excited state it is and minus one photons left.
-The next process is stimulated emission, but the atoms in the excited state we have in photons and laser beam,
-and then the atom emits one photon coherently into the laser beams.
-We have ntx plus one photons in the laser beam and the atoms in the quantity.
-And then last process of spontaneous emission, where the atom is an excited state and photons and laser beam,
-and then the atom emits a photons spontaneously in a random direction. there's one photon and then of a mode the laser field still has and modes.
-But the atom is in the ground state. And it's important to intuitively understand the difference between cases two and three.
-What do you have in case to stimulated emission? It's a coherent process, it's driven by the laser field.
-if you don't have already and photons in the mode, it won't happen.
-It's a coherent process, which means that all of the N plus one photons afterwards in the laser are identical,
-indistinguishable citizens with lasers oscillating this.
-The photon coming out is also oscillating coherently this and that will.
-It is important in this important distinction to spontaneous emission, which, if you're future futuri,
-are things that are stimulated by vacuum fluctuations of the electric field where the photon goes in the random direction.
-And that's an important distinction that we would see the reason why this is important on the next slide.
-if you want to ask what kind of effect do I get out of this, there is two different regimes.
-The first regime is where data is small. This is basically resonant photons.
-And this is what we call the shadowing regime. this is really where the atoms absorb photons of the laser beam.
-And then, of course, they coherently also we omit some of them back into the lesbian, absorbed them again.
-there's a coherent oscillation going on, but on top of that,
-they can also observe a photon from the laser beam and then randomly emit it in a different direction.
-it is. The photon gets absorbed and gets readmitted into a different mode, a different direction.
-It's what we call a scattering process.
-It's an incoherent process, and we call it typically fluorescent, because if you look at this from the site, you see the fluorescent light.
-you have a cloud of rubidium. Here, you send this red beam coming from here, which is a resonant.
-You would see the atoms glowing, glowing red because they absorb photons from here.
-It's because of these photons and all kinds of elections.
-And this kind of thing can be a pretty, pretty fast process because the lifetime of the excited state is typically in the order of 20 nanoseconds.
-an atom each atom individually millions of photons per second in the same town, so small compared to what?
-It's not the it's not the what is called the level space.
-No. Very good. it's if you think about this.
-I have it here, so I have to lifetime here of the excited state.
-And it has to be small compared to the inverse lifetime, which was quite aligned with.
-if you have a lifetime of a nanosecond, the inverse of that is that kind of it's a gigahertz,
-10 nanoseconds, 100 megahertz 20 years, then OK, so you are off of megahertz.
-And this is the line of if you can think about this as the Heisenberg energy uncertainty.
-But, you know, that's that right, two x times straight up. It must be bigger than bond.
-You also know the Delta E Times that that must be bigger than baseball.
-And so that means that if the atom is only going to be an excited say for a very short time,
-that state appears to have an energy uncertainty of over over over how.
-And yeah, totally unexpected gives you a couple of megahertz line with.
-And when I say delta small, I mean, really small compared to that language. Very good.
-OK. If. And this is, for instance, what we use this is what they use in to optical traps that probably Zorn has explained to you.
-We do laser cooling at a scattering of the photo of the photons, transfer momentum and all of that.
-And you also use it, as you would see in a minute for imaging. The second machine, which is important for us is to receive data is very,
-very large compared to the line work, and that's usually what we call fortitude.
-It's 40 June, which basically means that important energy does not match at all the transmission frequency of the atom,
-and the direct consequence of that is that the atom cannot absorb the photons.
-The energy doesn't match. The atom cannot really absorb these photons, or only exponentially where, which means there is no spontaneous emission.
-you would you would be tempted to think that, OK, well, in this case,
-the atoms are just transparent for the photons they just go through and nothing happens.
+it can absorb one of those photons. This is a coherent process and the atom goes into the excited state. The next process is stimulated emission, but the atoms in the excited state we have $N$ photons in the laser beam, and then the atom emits one photon coherently into the laser beams.
+[equation]
+And then last process of spontaneous emission, where the atom is in the excited state and emits a photon spontaneously in a random direction. It's important to intuitively understand the difference between cases two and three. What do you have in stimulated emission? It's a coherent process, it's driven by the laser field. If you don't have already $N$ photons in the mode, it won't happen. It's a coherent process, which means that all of the $N+1$ photons afterwards in the laser are indistinguishable. The photon coming out is also oscillating coherently. It is an important distinction to spontaneous emission, which are stimulated by vacuum fluctuations of the electric field where the photon goes in the random direction. And that's an important distinction that we would see the reason why this is important on the next slide. 
+
+If you want to ask what kind of effect do I get out of this, there is two different regimes. The first regime is where $\Delta$ is small. This is basically resonant photons. And this is what we call the scattering regime. This is really where the atoms absorb photons of the laser beam. And then, of course, they coherently also emit some of them. There's a coherent oscillation going on, but on top of that, they can also absorb a photon from the laser beam and then randomly emit it in a different direction. This is what we call a scattering process. It's an incoherent process, and we call it fluorescence, because if you look at this from the side, you see the fluorescent light. Here you have a cloud of rubidium. Here, you send this red beam coming from here, which is a resonant.
+[pic]
+You would see the atoms glowing, glowing red because they absorb photons from here. And this kind of thing can be a pretty, pretty fast process because the lifetime of the excited state is typically in the order of 20 nanoseconds. The detuning has to be small compared to the inverse lifetime. If you have a lifetime of a nanosecond, the inverse of that is that kind of it's a gigahertz; 10 nanoseconds, 100 megahertz; 20 years, then OK, so you are off of megahertz. And this is the line of if you can think about this as the Heisenberg energy uncertainty.  
+[equation]
+You also know that $\Delta E \Gamma \gt \hbar$ which means that if the atom is only going to be an excited say for a very short time, that state appears to have large energy uncertainty. So you get a couple of megahertz linewidth. And this is, for instance, what they use in optical traps that probably Zoran has explained to you. We do laser cooling and scattering of the photons leads to transfer of momentum and all of that. And you also use it, as you would see in a minute for imaging. 
+
+The second regime which is important for us is $\Delta \gt \gt \Gamma$ and that's usually what we call far-detuned, which basically means that the photon energy does not match at all the transmission frequency of the atom, and the direct consequence of that is that the atom cannot absorb the photons. The energy doesn't match. The atom cannot really absorb these photons, or only exponentially where, which means there is no spontaneous emission. You would you would be tempted to think that, OK, well, in this case, the atoms are just transparent for the photons, they just go through and nothing happens.
 And if you think about the numbers that there's actually a good picture. However, two photon processes where you have a stimulated absorption,
 followed by a stimulated emission that remains possible because what happens if you have a simulated absorption, you would go and observe a photon.
 But you know, in a in a state that doesn't really have the energy, somebody's estate.
