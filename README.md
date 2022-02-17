@@ -5,6 +5,7 @@
 - kind of (maybe replace it with "")
 - right
 - hall>Hall
+- capitalise start of sentence (likely where "So" has been removed)
 
 
 
