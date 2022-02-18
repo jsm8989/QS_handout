@@ -6,6 +6,11 @@
 - right
 - hall>Hall
 - capitalise start of sentence (likely where "So" has been removed)
+- Crown State > ground state
+- week > weak
+- caution > Gaussian
+- Oh > oh
+- election > electron
 
 
 
@@ -15,6 +20,8 @@
 - 2 hours on 2/2/22
 - 1 hour 12/2/22
 - 2 hours on 14/2/22
+- 1 hour 17/2/22
+- 1 hour 18/2/22
 
 
 ### Thoughts
