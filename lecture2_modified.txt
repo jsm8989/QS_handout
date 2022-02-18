@@ -81,77 +81,11 @@ OK. why do we talk about ultracold atoms? Why do we have to get to ultracold ato
 [pic]
 If you compare the masses and electronics when you order 10 to the minus five of the mass of an atom, one factor a thousand to get from the electron to the proton, and then you have 100 protons and neutrons in your thing. This is a factor of 10 to the minus five for you. If you ask what is the density of the electrons in the system? Well, a typical scale would be $10^{23}$ per cubic centimetre; on the other, we would see that the density for atoms would be much lower, of order $10^{14}$ per cubic centimetre. This gives you another factor of 10 to the six, which basically means if you compare now the Fermi temperature of electrons divided by the Fermi temperature and cold atoms, you can apply to big factor of $10^{11}$, which basically means that the Fermi temperature for electrons in the metal is typically the order of 10000 to 100000 Kelvin. Why the Fermi temperature we have in cold atoms is on the order of $\mu K$? That means cold atoms, because these things are heavier and therefore slower, and they're living at a much, much lower density, we have to cool them a lot. We have to cool it down to well below $\mu K$ temperatures to simulate what happens in a metal system at room temperature. Because the electrons are much faster, much lighter and much, much denser, that's why we have to do everything with ultracold atoms, even if we want to study room temperature condensed matter physics. This begs an obvious question. Why do we not just increase the density of atoms? Why do we not just take this one and bring it up to 10 trillion per cubic centimetre? What do you think? Why does this not work? 
 
-Collision losses? Yes, exactly. The main thing is that if I take a bunch of atoms, a bunch of, say, potassium atoms, the ground state for that system, it's notable that Bose-Einstein condensate or Fermi gas the quantity of that system. Is this a block of metal? All right. We are starting with a very hot gas and then cooling it down a lot. Normally when you think about, OK, I take my gas and cooler than it does to liquid, and that liquid then freezes into a solid. That's what I would normally expect to happen. Why does this not happen in cold atoms? The answer is that cold atoms in the end are metastable. They would, when they come together, form molecules, and then these molecules can collide together and form clusters. And that's how you would start to form a solid. That's a process that would happen in principle. The key thing the saving grace for us is that this first step, the molecule formation; it doesn't just need two atoms to come together. It turns out it needs three atoms to come together as a three body process. The reason is that these two particles come together. They bind and the binding energy gets free. And then Momentum Conservation requires a third particle, which flies in the opposite direction. The ratio of two body to three body processes depends on the density. If you take the density, the ratio or the rate for three body processes, it's the density squared where the weight for two body process case the density.
+Collision losses? Yes, exactly. The main thing is that if I take a bunch of atoms, a bunch of, say, potassium atoms, the ground state for that system, it's notable that Bose-Einstein condensate or Fermi gas the quantity of that system. Is this a block of metal? All right. We are starting with a very hot gas and then cooling it down a lot. Normally when you think about, OK, I take my gas and cooler than it does to liquid, and that liquid then freezes into a solid. That's what I would normally expect to happen. Why does this not happen in cold atoms? The answer is that cold atoms in the end are metastable. They would, when they come together, form molecules, and then these molecules can collide together and form clusters. And that's how you would start to form a solid. That's a process that would happen in principle. The key thing the saving grace for us is that this first step, the molecule formation; it doesn't just need two atoms to come together. It turns out it needs three atoms to come together as a three body process. The reason is that these two particles come together. They bind and the binding energy gets free. And then Momentum Conservation requires a third particle, which flies in the opposite direction. The ratio of two body to three body processes depends on the density. If you take the density, the ratio of the rate for three body processes, it's the density squared where the rate for two body process goes as the density. Therefor if you go for a low enough density two body processes will win; if you have a low density, two particles can come together, but it's unlikely for three particles to come together. And that basically limits the useful density to $10^{14}$ per cubic centimetre. Otherwise, three body losses take over and the system is not stable enough. And that means that we have to live down at $nK$. Which is OK.
 
-if you go for a low enough density to body processes will win and three body processes will be very aware,
-if you have a low density, two particles can come together, but it's unlikely for three particles to come together.
-And that basically limits the use of a density to stuff on the order of 10 to 14 cubic cubic centimetre.
-Otherwise, three body losses take over and the system is not stable enough. And that means that we have to live down here with the nano koven life.
-Which is OK.
-if we have to confirm use just to show you some numbers and some pictures we typically again have on the order of hundreds of thousands.
-We could reach 15 years ago to achieve below 50 percent.
-Nowadays, people can reach on the order of four percent and the way they measure temperatures is again using time of light.
-what is what you do is you take an harmonic trap, a dipo trap. What what does this now do?
-Time of light afterwards? And then you can. As for the average and you get a cloud that looks this, so it's decaying down this.
-And all you have to do pretty careful fitting if you fit this form of caution you would do for a classical guest, you see it doesn't fit.
-You see if less particles see in the middle and you would expect for a classical cast that's already the first onset of the body Bloching.
-You can't have all of those particles at low density stay at low or mentally get pushed to higher and higher memento.
-And then those extra particles kind of like, show up here and you get this sharper edge that you also can see and could see in the Thomas Fermi thing.
-if I go back to this slide here, this one. Sorry, clinging to past.
-No, where are we? This one, so what you get is that I have this very fluffy cloud with a proper minimum distribution,
-a classical regime, which then gets deeper and deeper and deeper.
-But you could also see it gets there's a d one for a larger and larger area, gets deeper around here.
-And that's exactly kind of what you see here in this picture. It gets kind of deeper here than this would, of course, in the case of pastor here.
-Now there's two different fit functions in here how you can fit them in two different ways.
-And this one gives you 30 percent, the other one gives you six percent.
-And even if you look at very, very carefully here, you would say, well, maybe the six percent fits better, but the difference is very small.
-it becomes very hard to measure those things very exactly because you're getting pretty close to the targets you were promising.
-You might ask yourself, why do I not then see a sharp edge at the Fermi energy?
-The reason simply is that this is in an ironic trap we have taken in homogeneous density profile.
-You have a high density in the middle and lower densities at the edges.
-you have to average of all of those density profiles and you do this in America and then out comes a curve exactly this.
-You can measure, can you use so-called stone imaging to image in a different spin state separately?
-what you basically do is you take a magnetic field gradient during this time of light and then because a different spin,
-states have different magnetic moments that can be facilitated by experiment, they go on different trajectories.
-And here, you know, you see, OK, this is a false colour plot.
-You see one spin state and spin state showing up here so we can measure those things also in their.
-OK, so this was a whistle stop tour about everything with gold atoms, how cold you are, how you measured them and so on.
-And this was done very, very quickly, I know.
-But it was done so quickly because most of you would have seen this in other lectures before, and it's the typical task of doing a mine.
-A topic in the end is you connect bits and pieces from different lectures together,
-and then you have the foundation of which then you can, like, build new physics.
-next week, we're starting to go slower because we're starting to get new stuff that you will have not have seen before.
-last slide for today is just a quick comparison.
-If I compare continents matter physics with cold atoms kind of matter physics is, of course, much, much, much bigger systems.
-We only have 10 to the five. These are charged particles. We have long range interactions with Lawrence Falls.
-We don't have them because it's neutral atoms. They are homogeneous genius.
-That makes life hard for us. The densities we discussed, the temperatures we discussed, but we have a few crucial advantages.
-The main advantage that we have is that because we are at much lower densities and heavier particles, our timescales are very, very different.
-if you think about a hopping scale for us as milliseconds, two seconds, so we can be the observed in an equilibrium dynamics,
-we can observe them look in real time how they move around while this is happening far too far too fast.
-In the real election system with elections,
-just we just do something that you already have a firmer state where we can really see how firm a state, for instance, forms.
-We also see later on that we don't have an isolated system, which means we don't have a externally imposed temperature.
-It's not. We have a crisis that where we say, OK, this is going to be one curve, five and whatnot.
-The temperature is kind of something that's kind of a self-consistent Sophie emerging temperature coming out of this many buddy system,
-and we'll discuss this and let the lecture. And it's a nice connexion to statistical physics.
-What do you do if you don't have a quantum IQ ensemble? If your system is really isolated and it's not in contact with the outsite world?
-And we can have very, very clean systems where we don't have this or we don't have phonons,
-which is very different from what you have in the better system,
-all of this dirt is always complicating the picture you want and you can't do much about it.
-OK. And basically, that's it for today. Thank you very much.
-Two quick announcements. We'll start next Tuesday organising the organising the tutorials and talk
-about when will they happen and also when will happen the journal clubs. Also next Tuesday, we will put our next Tuesday or Wednesday.
-We put the first footprints head on. the lecture will take place in the first six weeks of term.
-But then the Joy Luck Club some time ago also go into Week seven and eight.
-Because that is, it's easier for you to discuss those things and have opportunities to discuss your problems after you've seen all of the lectures.
-Otherwise, you end up with the situation that you can't really do much about the last two
-lectures because there's no chance to have problems on them or to this custom.
-it's a slow start regarding problem sets that they pick up a bit towards the end.
-And I put today up the scripts of last year so far have not changed anything in this light, so there's no need to put up new slides.
-The same as last year's. There is a problem, apparently with the recording.
-We'll hope to solve this out.
-We had a technician in here yesterday, yesterday at work today, but it doesn't work against what you have to keep looking at that.
-If I can't get these recordings to work, I put up the recordings I did last year.
-Which I think also a very useful resource. OK.
-That's it. Thank you. He's at.
+Just to show you some numbers and some pictures we typically again have on the order of hundreds of thousands. We could reach 15 years ago to achieve below 50 percent. Nowadays, people can reach on the order of four percent and the way they measure temperatures is again using time of light. What you do is you take an harmonic trap, a dipole trap, and do pretty careful fitting of the time of flight measurement. If you fit this with a Gaussian like you would do for a classical gas, you see it doesn't fit.
+[pic]
+You see less particles in the middle than you would expect for a classical gas. And then those extra particles kind of like, show up here and you get this sharper edge that you also can see and could see in the Thomas Fermi regime. You might ask yourself, why do I not then see a sharp edge at the Fermi energy? The reason simply is that this is in an ionic trap we have taken in homogeneous density profile. You have a high density in the middle and lower densities at the edges. You have to average of all of those density profiles and then out comes a curve exactly this. You can measure, using Stern-Gerlach imaging, a different spin state separately. What you basically do is you take a magnetic field gradient during this time of light, and then because different spin states have different magnetic moments, they go on different trajectories. You see one spin state showing up here so we can measure those things also there.
+
+OK, so this was a whistle stop tour about everything with cold atoms, how cold you are, how you measured them and so on. And this was done very, very quickly, I know. But it was done so quickly because most of you would have seen this in other lectures before. In the end is you connect bits and pieces from different lectures together, and then you have the foundation of which then you can, like, build new physics. Next week, we're starting to go slower because we're starting to get new stuff that you will have not have seen before. Last slide for today is just a quick comparison.
+[pic]
