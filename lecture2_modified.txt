@@ -42,271 +42,47 @@ You would see the atoms glowing, glowing red because they absorb photons from he
 [equation]
 You also know that $\Delta E \Gamma \gt \hbar$ which means that if the atom is only going to be an excited say for a very short time, that state appears to have large energy uncertainty. So you get a couple of megahertz linewidth. And this is, for instance, what they use in optical traps that probably Zoran has explained to you. We do laser cooling and scattering of the photons leads to transfer of momentum and all of that. And you also use it, as you would see in a minute for imaging. 
 
-The second regime which is important for us is $\Delta \gt \gt \Gamma$ and that's usually what we call far-detuned, which basically means that the photon energy does not match at all the transmission frequency of the atom, and the direct consequence of that is that the atom cannot absorb the photons. The energy doesn't match. The atom cannot really absorb these photons, or only exponentially where, which means there is no spontaneous emission. You would you would be tempted to think that, OK, well, in this case, the atoms are just transparent for the photons, they just go through and nothing happens.
-And if you think about the numbers that there's actually a good picture. However, two photon processes where you have a stimulated absorption,
-followed by a stimulated emission that remains possible because what happens if you have a simulated absorption, you would go and observe a photon.
-But you know, in a in a state that doesn't really have the energy, somebody's estate.
-But if you do two steps in one, go up by a certain energy down by the same energy because you emit the photon back into the laser beam.
-the photon has exactly the same energy that the photo that you originally absorbed, that's two fold the two process loop that is resonant.
-You started in exactly the same state, you stop in exactly the same state as he started towards resitence, so it always happens.
-And you can now think about, OK, you can have calculators in second order perturbation fury and yes, you can.
-You can also calculate is exactly and this is now a process that's going to be
-very important because this is the basis of optical tweezers of optical lattices.
-How we actually trap and manipulate atoms. So.
-The model Hamiltonian you would see, and you probably have seen in what you have seen,
-it would be quantum mechanics, but we got some power to quantum mechanics is a two by two matrix.
-we say the Crown State is the first state excited state. It's the second state.
-And then the two between the tonin here has we set the Crown State Energy to zero because we
-can just set the energy offset wherever we want by subtracting a constant part of the Evertonian.
-We then say the energy of the excited state is now because we do something with a quarter rotating wave approximation.
-It's actually the difference between the photon energy and the atomic energy.
-it's just the tuning because we do this in the presence of this classical photon field.
-here we have to the tuning we have tried to be tuning because we have over two one half in front.
-That's just a convention and we have to transition how fast we go from one state to the other state.
-The Robbi frequency omega on the off diagonal.
-If you have not seen this before, you can just think about this in an intuitive way of saying that that hurts me,
-but very resonant is unique, and Omega tells me how strong my coupling is.
-this wabi frequency is proportional to the strength of the electric field times the diplomatic settlement dipole moment of the atom,
-which comes from atomic physics.
-For our purposes, we just say it's a no, we have it, and we know that we have this wabi frequency which scared the electric field strength.
-And now, if you have this, you have no telling you this into a true matrix.
-You can diagonals it something that you cannot do what you will do in the problem said if you'd analyse that,
-you get your energies, which look this. They have this offset of Delta, and then you have the square root terminal,
-and then you can say now I can calculate what is the energy of an atom instead Wednesday to
-interest rates in the presence of the light field minus the energy without light fields.
-omega equals zero is intensity zero, no electric field, no light field and finite omega means in the presence of the light field.
-And what you would also do in the problems that you would see, it's five lines of calculation or less,
-you would see that in the regime where Delta is large despite a huge regime, this did light shift of the crown.
-It goes omega not squared over delta. omega not squared goes epsilon, not square, because the field strength squared.
-it just goes the intensity of fluid.
-what you would see and is a slight shift, you see that you get an energy shift of the atom that's proportional to the intensity of the light.
-Divided by the. the intuitive picture for this is that the actor, if the tuning is negative, that the shift is negative,
-get them is attracted by gratitude, light field and what gets sucked into the point of where you have the highest intensity.
-Because the test is negative potential, you can calculate this shift easily in second order perturbation theory.
-You can also think about, OK, what happens with the phase of a pendulum? Wave it below the transition frequency.
-I lower the frequency even further, so I suck it down, so I lower its energy.
-it gives me this attractive force.
-And that's the effect of that's the consequence of the or the basis, I should say, of all kind of optical tweezers.
-If you have an optical light field, you have something that has a diamond oscillating dipole moment, a polarised ability,
-a little sphere of plastic or whatnot, or a DNA molecule or whatever you want, it will be sucked into the maximum of the intensity.
-That means you can move lightly, you can pick stuff up and move it around.
-The problem is, if you do, this is a big thing, of course, that will also scatter photons and thereby heat up and you might burn it.
-But if you do all of this with an atom, it's perfectly fine because the atom cannot absorb the energy any other way than what we have discussed here.
-that's how it works. OK. we have this slight shift.
-Which is proportional to intensity over retuning.
-You can also say, well, every once in a while, the atom can also go through really excited state and can scuttle reform.
-And that's of course, something that we don't want. There are atoms are very, very cold today.
-Very, very small momentum. And in October 4th and they get the we kick the photons momentum.
-We don't want it.
-But luckily for us, if you calculate the scattering rate in the same, which you may have not shown this year, you get intensity of a delta squared.
-he could overdo it you get over that squared, which means you can always just say, Okay, let's increase my did you go far, far away?
-And also, at the same time, increase the power of my laser and you will you get a nice classical potential for the atoms,
-but the potential is just proportional to the intensity of the light field without having significant photons scattering.
-this means for his little feeble atoms, we need to use 50, 60 watt lasers.
-Couple of hundred nanometres tuned. these are lasers when you focus them down,
-anything you're putting that focus could be copper could be steel will melt because it will absorb the energy.
-But because the atoms can't absorb the energy, because it doesn't match the transition frequency, they're happy.
-And there they just see this week potential that we can use to confine them.
-you hit the atom of the hottest thing you have and you just happy about it. OK.
-the way you do this is if you say I take a normal laser beam,
-you would typically have a caution be what would the transverse profile looks aggression if you have delta negative gratitude.
-That means you get an attractive caution type potential deposit the we want to accumulate down in here.
-If you take a polluted you and laser beam, you have to have a sign of the things that are positive.
-the whole light shift is not positive. You can have reports of potentially wants us to push the atom out.
-And if you just want to trap atoms, this one is easier. But this one gets you a lot of flexibility of creating interesting configurations.
-OK. A typical thing to do.
-Yes. How do you make exhaustive profile positions based with the laser?
-OK. That's actually turns out to be the easiest thing ever because most lasers would you stay with your caution beam?
-If you look at the Maxwell's equations at the way equations coming out of that impressive approximation,
-you will realise that you get the cautions times to put,
-you know, the characteristic polynomial as the icon functions and you, we realise that this is the lowest or the LIGO's beam.
-It's the quad state solution for that. many lasers would use them away.
-This is also the beam because it's fulfils the equation is to be met, at least diffraction.
-if I take a beam and focus it, send it out for a long time, everything that's not going to deflect off faster than the ghost mode will expand.
-it's kind of self-cleaning. Also the mode that's transported in optical fibre is the Gorshin mode.
-what we typically tend to do is we send our lasers all through an optical fibre and what comes out of an optical single mode.
-Fibre is a very, very nice caution beam. You can, of course, mess it up, but if you do it well, you get a nice caution.
-that's the standard thing that almost all of laser optics always use as caution beams.
-And then if you wanted to have items for, for instance, what we typically do is we use a wavelength of 10, 60, four nanometres.
-You would see this number a lot, and that's just purely for technical reason because it happens to be sighted at this wavelength.
-You can build very powerful lasers and then you take two of those beams,
-you overlap them in space that they cross each other and you have to call a cross beam Typekit web.
-And you have strong, attractive potential in here, and that's a nice pocket to put your atoms in.
-We'll see a bit more about this a bit later. Just to be honest and light shift is proportional to the intensity of the jury,
-and you'll do the calculation to see why that is the case on the problem said it's straightforward.
-OK. how do we measure something about our atoms?
-How do we can improve them in any way we can't really measure a current or put a voltage metre to them?
-What do you do? Well, it turns out in almost all cases, you actually and you and you probably atoms, are you?
-You probe deposition and you do that using resonant light. it's the cartoon I had before.
-You atoms are somewhere doing something and then you send in a resonant laser beam from the left.
-Then you can do two things. You can say this do absorption. Let's put the camera here.
-And then if there is atoms, there would be less light coming through and I can see this kind of shadow.
-If you want that, the cost would see this in the next slide in more detail.
-The other thing you can do is you can say, let's observe this, put a camera here to the site and up off the fluorescence.
-Observe the photons that scatter. And you can say, Oh, the photons are coming from there, so there must be atoms do.
-that's the way how you do almost all of the measurements and cold atoms, but many other properties,
-whatever you want you're interested in, you can always cast it in that language and do it with this measurement trick.
-for instance, if you will see in the next slide how you can measure momentum, how you committed velocities of the particles.
-If an atom absorbs a given light or not depends on its initial state,
-which means you have state selective imaging, if you have a different type of fine state,
-you can put an imaging frequency that's resonant for the one, but not the other hyper state that gives you a state with many things you can do with.
-how can you, as an example, major velocities.
-This is the soccer time of flight method that you will see a lot and you also probably have an atomic and optical physics.
-The idea is that a have the atoms sitting in a trap and what I do a time check with zero.
-I just switch off everything after jumping potentials that can instantly switch them off,
-something you can't do of electrons, for instance, where you can't switch off the crystal potential.
-But the potential is just the laser beam.
-You just switch it off very quickly and then let the atoms do the thing, which basically means they do two things.
-First of all, they fall down on the gravity and you let them fall down for something tens of milliseconds.
-And at the same time, they will also spread out because the atoms are not standing still. They all have their initial velocities.
-And then they will just move velocity, you wish that they had a time to work with zero.
-And we just assume that we can neglect interactions and any potential during the time of flight time of flight.
-they just fly off rooftop velocities they had initially.
-And then what you do is after they've flown out for a while, they are big because they have lots of trees spread out.
-Then you accent in this sense that this resonant light beam come from here and you measure what you get on a camera.
-you kind of get on a camera, you get the image of the density of the atoms.
-Let's look about this in a bit more detail. The first question is where does a particle end up after some time of light?
-Well, the position after time of flight is the initial position, plus the velocity times time of light.
-Of course. What a physics.
-If you wait long enough, if your time of flight is long enough, the second term would be much, much bigger than the first term.
-you can elect the first time, it's not. This is analogous if he wants to the far field diffraction and optics where you say, OK,
-my slip is very small and adjust to the spreading momentum space where the light goes.
-Which then means that the image after a long enough time of flight when I can
-neglect the it's not basically shows me the velocity or momentum distribution.
-just let the response time of flight take a picture,
-and it tells me how fast the items who are testing the velocity distribution, which is a pretty, pretty powerful technique.
-The way you do it is in detail is that you take two images because we are kind of interested in the shadows.
-we take one image, we just say the blue image. We just have all the atoms.
-That's just the laser laser beam we sent through here to chance onto the camera.
-Then the second image is roughly atoms being present, and then we get our there's no atoms, so we get the same light as before,
-but in the middle, where those atoms, we get less light because some of the light was absorbed by the atom that was passing through.
-And then you look back to electromagnetism, you get palombi absorption law,
-and you know, that's the ratio of the intensity with the atoms divided by Revathi atoms.
-It's given by the exponent is an exponential decreasing function depending on how many atoms to light has encountered.
-If each atom absorbs one percent of the light,
-then you get this exponentially decreasing number or decreasing amount of light with increasing atom numbers.
-And another crucial thing is that what you measure here and see is what we call the column density because you get this two dimensional image.
-And if there's not much light hitting this full picture here, then you know there are many atoms along the path of this probe,
-but you don't know where the atmosphere here or here in the middle or here at the edge. You don't know that.
-You don't get this information. You only get this two dimensional projection. what you're really measuring is what we call the quantum density.
-And see, we just the 3D density integrated along the line of sight.
-And these are the pictures that we're going to look at a lot. Questions up to your.
-OK. Then so, for instance, one thing that we can do from such a thing.
-I mean, this kind of looks a caution.
-We can directly measure the temperature from this, we just say, okay, if we pick the particles being an ideal guess.
-We can say that's their distribution overall of their kinetic energy is just a vessel box with distribution exponential of minus energy of activity.
-If we then say that, well, kinetic energy goes these, create one off and be square again, classically simple physics.
-We get the velocity distribution that the number of particles of a given velocity goes to each of the minus one half and VBScript of activity.
-this is a caution distribution at the roof of the distribution stomach is made by TV,
-which basically means if I just measured its caution distribution after a long time of flight.
-I can just visit a whiff of this distribution and that's directly proportional to the
-square root of the temperature so we can get all the temperature of these clouds very,
-very simply. And, OK, so that's kind of how we measure them.
-And then we should say what happens if he could them down. And this depends on what kind of evidence we have.
-We have two classes of atoms. We have bosons and fermions. If we have bosons, we know that if we go to zero, you know,
-from statistical mechanics and also from atomic optical physics, if they were from a Bose-Einstein condensate.
-all of the bosons would go into the lowest state. You also noted for fermions that can't happen, because if the party principle.
-if you from unique items, you could affirm your seat and they will form up the lowest states if you have an ethics.
-Atoms can be if was only confirming Ionic, which when you have depends on the spin, if you have an integer spin there bosons,
-it was thought that just fermions because you're neutral atoms, you kind of know that the number of protons is the same as the number of electrons.
-it's whether it's from unit of boson just depends on the number of neutrons.
-If the number of neutrons is even, they form up to an integer spin, everything else isn't.
-It's just been. You can observe if the number of neutrons is not, you could have Fermi on.
-And that's very nice because it's very convenient for us because, for instance, of potassium,
-we can use potassium 39, which is kozanic or potassium 40, which is from ionic.
-if the same laser system, just dialling into one isotope shift,
-we can do fermenting experiments in both experiments on the same machine basically shot to shot.
-You can say that's two.
-That's two fermions, which is pretty powerful and gives you a lot of flexibility of what you can do with relatively modest investment.
-if you have phones, you probably have seen these pictures before.
-If you have phones and you could have done so from here, you hear from you to hear you get colder,
-there is going to be this Bose-Einstein condensation does phase to phase transition and we're talking about the fascination aspect more.
-Next lecture. And you know, if you can see this directly in the momentum distributions,
-so reasonably hot clouds, so above the critical temperature is purely thermal.
-this looks a caution. Then you can calculate the both the distribution function, or you can just think about this intuitively,
-you can say that even now just below, it's so I have a partially condensed cloud with some particles of condensed eyebrows.
-Not yet I get what we call a bimodal distribution.
-you have two scores and background still sit here and give us very sharp peak on top of the quotient back.
-Want this by modality is the thing that people, typically when they to call,
-let them experience first look for because it's a very clear signature.
-Just by looking at the picture saying, OK, now I go from thermal to having a b c you do.
-And they never go to with zero with the thermal background discussion back to you is fully gone,
-and I just have this moment to pick this one macroscopic wave function.
-And what this means, how it is, how we can think about this first position in a theoretical way.
-We talk a little bit more about next lecture.
-If you think of ultracold fermions, on the other hand, life is a bit more subtle because for fermions, if you have not interacting fermions,
-there is no phased in and if you put them down, it's just that you are familiar with the distribution in a minute.
-The second thing is for fermions because of the poly principle, we want it.
-We need to use more spin states, more High-Performance states to Aberfan states if he wanted to interact.
-Same spin fermions content direct. It's partially Bloched. We'll see also see that in a few that in a few lectures.
-The good thing about fermions is that by definition, there was richer than it was ionic systems because two fermions can make a boson.
-if they take a molecule out of two from unique atoms, I get a bosnich molecule.
-But I can't make fermions out of bosons, so fermions are intrinsically more powerful in that sense.
-And the last thing why we should care about elect from unique items is, of course, because the electrons are firmly on.
-a lot of the conscious matter physics Natalie is more interesting, closer connected to fermions, which are confirming.
-if we have fermions, we have to form a direct distribution, which you all have seen in statistical physics,
-and this distribution is it's to with zero has this sharp kink.
-you start off all the states being occupied up to the Fermi energy diplomacy boom and then the top is down to zero.
-And if you increase temperature from year to year increase temperature, you can see how this gets Wolverine's movements moving.
-I see these cuts and kindness matter physics. Yeah, you have a whiff on your off cavity and then eventually turns out it goes over into an
-exponentially decreasing distribution that makes the distribution for classical particles.
-what this one really highlights is that if I take fermions,
-there's no phase and there's nothing sudden those sudden changes that just smoothly gets steeper,
-steeper, steeper, steeper and they add up with my firm.
-You see, the probably direct distribution is, of course, also discussed a lot and kind of metaphysical.
-what we have and we have to fermions and what to do with this because they want to get you gets to some numbers.
-We take the Fermi energy, which is basically given by the density to the power of two thirds.
-And one of the models. And this is that. We could take more advanced quantum physics if you have.
-If you have a certain amount of fermions, then you have to occupy a certain amount of momentum,
-states, if you have more firmness, you have to go to higher and higher momentum to occupy them all.
-And that's intuitively speaking why if you have a higher density of fermions,
-you will have a higher from energy because we're talking about kinetic energies,
-it makes sense that also, if the mass gets more kinetic, energy gets bigger at the Fermi, energy gets bigger.
-the Fermi energy is the highest occupied energy at zero,
-which is the chemical potential also it's equal to or that's the thing that comes in this equation.
-Here is the point where this curve drops down. And yet the temperatures we're using, here's the Fermi temperature,
-that's a typical scale if you use a lot to compare our temperatures to at the Fermi temperatures just given by the Fermi energy divided by carbon.
-whenever you have these things, energy up temperature, they're related by Cabe.
-OK. why do we talk about ultracold atoms?
-Why do we have to get to ultracold atoms? And these are the equations we just had in the previous slide.
-We cannot compare ultra cold atoms to what happens in the kind of system.
-If you compare the masses and electronics when you order 10 to the minus five of the mass of an atom,
-one factor a thousand to get from the elephant to the proton, and then you have 100 protons and neutrons in your thing.
-you could affect two to five. This is a factor of 10 to the minus five for you. If you ask what is the density of the electrons in the system?
-Well, a typical scale would be 10 to 20 three per cubic centimetre, a ball of substance.
-On the other, we would see that the density for atoms would be much, much, much lower order 10 to 14 per cubic centimetre.
-Gives you another factor of 10 to the six,
-which basically means if you compare now the Fermi temperature of electrons divided by the Fermi temperature and cold atoms.
-You can apply to big factor of 10 to the 11,
-which basically means that the Fermi temperature for electrons in the metal is typically the order of 10000 to 100000 Kelvin.
-Why the Fermi temperature we have in cold atoms is on the order of Michael Cohen.
-that means code Etan's, because these things are heavier and therefore slower, and they're living at a much, much lower density.
-We have to cut them a lot. We have to cut it down to well below a micro carbon nanotube in temperatures
-to simulate what happens in a Kleynhans metal system at room temperature. Because the elections are much faster, much lighter and much, much denser.
-that's what we have to do everything we've ultracold atoms, even if we want to study room temperature, this matter physics.
-This begs an obvious question. Why do we not just increase the density of atoms?
-Why do we not just take this one and bring it up to 10 trillion cubic centimetre?
-What do you think? Why does this not work? Public frequencies.
-Like what? That could be a case, but it's not a limitation because we don't arrest them at frequencies.
-Coalition losses? Yes, exactly. The main thing is that if I take a bunch of atoms, a bunch of, say, potassium atoms,
-the crown state for that system, it's notable that Einstein condensate or Fermi guess the quantity of that system.
-Is this a Bloch of metal? All right.
-We are starting with a very hot gas and then recruiting it down a lot.
-Normally when you think about, OK, I take my gas and cooler than it does to liquid, and that liquid then freezes into a solid.
-That's what I would normally expect to happen. why does this not happen in cold atoms?
-The answer is that cold atoms in the end are metastable.
-They would, when they come together, form molecules, and then these molecules can collide together and form clusters.
-And that's how you would start to form a solid. That's a process that would happen in principle.
-The key thing the saving grace for us is that this first step, the molecule formation.
-It doesn't need two atoms to come together. It turns out it needs three atoms to come together as a three body process.
-The reason is that these two particles come together. They bind and the binding energy gets free.
-And despite the energy of Cosmos, goes sour, so it causes kinetic energy of the molecule flying away.
-And then Momentum Conservation toted it only as positive as a third particle, which flies in the opposite direction to conserve momentum.
-momentum conservation dictates that this must be a three party process.
-While at the same time, the conditions that we need for the stuff to formalise the normal atom atom collisions is a two body process.
-the ratio of two body to three body processes depends on the density.
-if you take the density, the ratio or the the rate for three body processes,
-it's the density squared where the weight for two body process case the density.
+The second regime which is important for us is $\Delta \gt \gt \Gamma$ and that's usually what we call far-detuned, which basically means that the photon energy does not match at all the transmission frequency of the atom, and the direct consequence of that is that the atom cannot absorb the photons. The energy doesn't match. The atom cannot really absorb these photons, or only exponentially where, which means there is no spontaneous emission. You would you would be tempted to think that, OK, well, in this case, the atoms are just transparent for the photons, they just go through and nothing happens. However, two photon processes where you have a stimulated absorption,
+followed by a stimulated emission that remain possible. You can calculate this in second order perturbation theory, and this is a process that's going to be very important because this is the basis of optical tweezers of optical lattices, which is how we actually trap and manipulate atoms. 
+
+The model Hamiltonian you would see, and you probably have seen, is a two by two matrix. We have the ground state and the first state excited state. And we set the ground state energy to zero because we can just set the energy offset wherever we want by subtracting a constant part of the Hamiltonian. We then find the energy of the excited state within the rotating wave approximation.
+[equation]
+It's actually the difference between the photon energy and the atomic energy. It's just the detuning because we do this in the presence of this classical photon field. That's just a convention and we have to transition how fast we go from one state to the other state. The Rabi frequency $\Omega$ on the off diagonal. If you have not seen this before, you can just think about this in an intuitive way of saying that $\Delta$ tells me how close to resonance we are, and Omega tells me how strong my coupling is. This Rabi frequency is proportional to the strength of the electric field times the dipole matrix element of the atom, which comes from atomic physics. Now you can diagonalise it (see problem set) you get your energies, which look this. 
+[euqation]
+They have this offset of $\Delta$, and then you have the square root term, and then you can say what is the energy of an atom in the presence of the light field minus the energy without light fields. $\Omega = 0$ is intensity zero, no electric field, no light field and finite $\Omega$ means in the presence of the light field. And what you would also do in the problems that you would see, it's five lines of calculation or less, you would see that in the regime where $\Delta$ is large this light shift of the ground state goes
+$\Omega_0^2/ \Delta$. What you would see is that you get an energy shift of the atom that's proportional to the intensity of the light, divided by the detuning. If the detuning is negative, that the shift is negative, and the atom gets sucked into the point of where you have the highest intensity.  You can also think about, OK, what happens with the phase of a pendulum? Wave it below the resonant frequency. I lower the frequency even further, so I suck it down, so I lower its energy. It gives me this attractive force. And that's the basis of all kind of optical tweezers. If you have an optical light field, and you have something that has an oscillating dipole moment, a polariseability, a little sphere of plastic or whatnot, or a DNA molecule or whatever you want, it will be sucked into the maximum of the intensity. That means you can move lightly, you can pick stuff up and move it around. The problem is, if you do, this is a big thing, of course, that will also scatter photons and thereby heat up and you might burn it. But if you do all of this with an atom, it's perfectly fine because the atom cannot absorb the energy any other way than what we have discussed here. 
+
+You can also say, well, every once in a while, the atom can also go through really excited state, and that's of course, something that we don't want, because we want them cold, with very small momentum. But luckily for us, if you calculate the scattering rate you get $I/ \Delta^2$. And also, at the same time, increase the power of my laser and you will you get a nice classical potential for the atoms, but the potential is just proportional to the intensity of the light field without having significant photon scattering. This means for little feeble atoms, we need to use 50W, 60W lasers. Couple of hundred nanometres detuned. These are lasers when you focus them down, anything you're putting into that focus will melt because it will absorb the energy. But because the atoms can't absorb the energy, because it doesn't match the transition frequency, they're happy. And there they just see this weak potential that we can use to confine them. The way you do this is if you say I take a normal laser beam, you would typically have a Gaussian beam, that means you get an attractive Gaussian type potential. If you take a blue-detuned laser beam, $\Delta>0$, the whole light shift is now positive. You can have potentially push the atom out. And if you just want to trap atoms, this one is easier. But this one gets you a lot of flexibility of creating interesting configurations. It turns out that making Gaussian beams is the easiest thing ever because most lasers do this by default. If you look at the Maxwell's equations at the way equations coming out of that approximation, you will realise that you get the Gaussian output. If I take a beam and focus it, send it out for a long time, everything that's not going to deflect off faster than the Gaussian mode will expand, so it's kind of self-cleaning. Also the mode that's transported in optical fibre is the Gaussian mode. What we typically tend to do is we send our lasers all through an optical fibre and what comes out is a single mode. 
+
+OK. How do we measure something about our atoms? How do we do it when we can't really measure a current or put a voltage metre to them? What do you do? Well, it turns out in almost all cases, you probe the transition and you do that using resonant light. It's the cartoon I had before.
+[pic]
+You atoms are somewhere doing something and then you send in a resonant laser beam from the left. Then you can do two things. You can have absorption. Let's put the camera here. And then if there is atoms, there would be less light coming through and I can see this kind of shadow. The other thing you can do is you can say, let's observe this, put a camera here to the side and look at the fluorescence. Observe the photons that scatter. And you can say, oh, the photons are coming from there, so there must be atoms too. That's the way how you do almost all of the measurements and cold atoms, but many other properties, whatever you want you're interested in, you can always cast it in that language and do it with this measurement trick. For instance, if you will see in the next slide how you can measure momentum, velocities of the particles. If an atom absorbs a given light or not depends on its initial state, which means you have state selective imaging; if you have a different hyperfine statse, you can put an imaging frequency that's resonant for the one, but not the other hyperfine state. 
+
+How can you, as an example, measure velocities.
+[pic]
+This is the time of flight method that you will see a lot and you also probably have an atomic and optical physics. The idea is that a have the atoms sitting in a trap and what I do is at time zero, I just switch off everything, since the potential is just the laser beam, which you cannot do with electrons in a crystal. You just switch it off very quickly and then let the atoms do the thing, which basically means they do two things. First of all, they fall down on the gravity and you let them fall down for something tens of milliseconds. And at the same time, they will also spread out because the atoms are not standing still. They all have their initial velocities. And then they will just move according to their velocity. And we just assume that we can neglect interactions and any potential during the time of flight time of flight. And then what you do is after they've flown out for a while, they are dispersed, and you send in this resonant light beam and you measure what you get on a camera. On a camera, you get the image of the density of the atoms. Let's look about this in a bit more detail. The first question is where does a particle end up after some time of flight? Well, the position after time of flight is the initial position, plus the velocity times time of flight. 1A physics. If you wait long enough, if your time of flight is long enough, the second term would be much, much bigger than the first term, so you can neglect the first term. This is analogous to the far field diffraction in optics where you say, OK, my slit is very small and adjust to the spreading momentum space where the light goes. Which then means that the image after a long enough time of flight basically shows me the velocity or momentum distribution, which is a pretty, pretty powerful technique. The way you do it in detail is that you take two images because we are kind of interested in the shadows. We take one image, we just say the blue image. We just have all the atoms. 
+[pic]
+That's just the laser beam we sent through here onto the camera. Then the second image is roughly atoms being present, and then there's no atoms, so we get the same light as before, but in the middle, where those atoms, we get less light because some of the light was absorbed by the atom that was passing through. And then you look back to electromagnetism, you get 
+[palombi absorption law,]
+It's given by the exponent is an exponential decreasing function depending on how many atoms to light has encountered. If each atom absorbs one percent of the light, then you get this exponentially decreasing number or decreasing amount of light with increasing atom numbers. And another crucial thing is that what you measure here and see is what we call the column density because you get this two dimensional image. And if there's not much light hitting this full picture here, then you know there are many atoms along the path of this probe, but you don't know whether the atoms are here or here in the middle or here at the edge. You don't know that. You don't get this information. You only get this two dimensional projection. What you're really measuring is what we call the quantum density, which is just the 3D density integrated along the line of sight. And these are the pictures that we're going to look at a lot. 
+
+For instance, we can directly measure the temperature from this, we just say, okay, if we pick the particles being an ideal gas. We can say that's their distribution overall of their kinetic energy is just a vessel box with Boltzmann distribution. We get the velocity distribution that the number of particles of a given velocity goes to each 
+[of the minus one half and VBScript of activity.]
+This is a Gaussian distribution, which easily gives the temperature from classical physics. And then we should say what happens if we cool them down. And this depends on what kind of atoms we have. We have two classes of atoms. We have bosons and fermions. If we have bosons, we know that if we go to zero, you know, from statistical mechanics and also from atomic optical physics, they a Bose-Einstein condensate. All of the bosons would go into the lowest state. You also know that for fermions that can't happen, because if the Pauli principle. For atoms, whether it's a boson or fermion just depends on the number of neutrons. If the number of neutrons is even, they have integer spin, everything else isn't. And that's very convenient for us because, for instance in potassium, we can use potassium 39 (bosonic) or potassium 40 (fermionic). With the same laser system, just dialling into one isotope shift, we can do both experiments on the same machine basically side to side. 
+
+The good thing about fermions is that by definition, they are richer than it bosonic systems because two fermions can make a boson. But I can't make fermions out of bosons, so fermions are intrinsically more powerful in that sense. And the last thing why we should care is, of course, because the electrons are fermions. If we have fermions, we have to form a Dirac distribution, which you all have seen in statistical physics, 
+[pic]
+You start off all the states being occupied up to the Fermi energy then suddenly boom and then the top is down to zero. And if you increase temperature, you can see how this gets smoothed out, then eventually turns out it goes over into an exponentially decreasing distribution that makes the distribution for classical particles.  What this one really highlights is that if I take fermions, there's no phase and there's nothing sudden those sudden changes that just smoothly gets steeper, steeper, steeper, steeper and they add up with my firm. You see, the Dirac distribution is, of course, also discussed a lot in condensed matter physics. Lets look at some numbers. We take the Fermi energy, which is basically given by the density to the power of two thirds.
+[equation]
+If you have a certain amount of fermions, then you have to occupy a certain amount of momentum states, and if you have more fermions, you have to go to higher and higher momentum to occupy them all. That's intuitively speaking why if you have a higher density of fermions, you will have a higher Fermi energy because we're talking about kinetic energies, it makes sense that also, if the mass increases, kinetic energy gets bigger and the Fermi energy gets bigger. The Fermi energy is the highest occupied energy $0K$,
+which is also the chemical potential. Here is the point where this curve drops down. And yet the temperatures we're using, here's the Fermi temperature, that's a typical scale if you use a lot to compare our temperatures to at the Fermi temperatures just given by the Fermi energy divided by $k_B$.
+
+OK. why do we talk about ultracold atoms? Why do we have to get to ultracold atoms? And these are the equations we just had in the previous slide. We cannot compare ultra cold atoms to what happens in the condensed matter system. 
+[pic]
+If you compare the masses and electronics when you order 10 to the minus five of the mass of an atom, one factor a thousand to get from the electron to the proton, and then you have 100 protons and neutrons in your thing. This is a factor of 10 to the minus five for you. If you ask what is the density of the electrons in the system? Well, a typical scale would be $10^{23}$ per cubic centimetre; on the other, we would see that the density for atoms would be much lower, of order $10^{14}$ per cubic centimetre. This gives you another factor of 10 to the six, which basically means if you compare now the Fermi temperature of electrons divided by the Fermi temperature and cold atoms, you can apply to big factor of $10^{11}$, which basically means that the Fermi temperature for electrons in the metal is typically the order of 10000 to 100000 Kelvin. Why the Fermi temperature we have in cold atoms is on the order of $\mu K$? That means cold atoms, because these things are heavier and therefore slower, and they're living at a much, much lower density, we have to cool them a lot. We have to cool it down to well below $\mu K$ temperatures to simulate what happens in a metal system at room temperature. Because the electrons are much faster, much lighter and much, much denser, that's why we have to do everything with ultracold atoms, even if we want to study room temperature condensed matter physics. This begs an obvious question. Why do we not just increase the density of atoms? Why do we not just take this one and bring it up to 10 trillion per cubic centimetre? What do you think? Why does this not work? 
+
+Collision losses? Yes, exactly. The main thing is that if I take a bunch of atoms, a bunch of, say, potassium atoms, the ground state for that system, it's notable that Bose-Einstein condensate or Fermi gas the quantity of that system. Is this a block of metal? All right. We are starting with a very hot gas and then cooling it down a lot. Normally when you think about, OK, I take my gas and cooler than it does to liquid, and that liquid then freezes into a solid. That's what I would normally expect to happen. Why does this not happen in cold atoms? The answer is that cold atoms in the end are metastable. They would, when they come together, form molecules, and then these molecules can collide together and form clusters. And that's how you would start to form a solid. That's a process that would happen in principle. The key thing the saving grace for us is that this first step, the molecule formation; it doesn't just need two atoms to come together. It turns out it needs three atoms to come together as a three body process. The reason is that these two particles come together. They bind and the binding energy gets free. And then Momentum Conservation requires a third particle, which flies in the opposite direction. The ratio of two body to three body processes depends on the density. If you take the density, the ratio or the rate for three body processes, it's the density squared where the weight for two body process case the density.
+
 if you go for a low enough density to body processes will win and three body processes will be very aware,
 if you have a low density, two particles can come together, but it's unlikely for three particles to come together.
 And that basically limits the use of a density to stuff on the order of 10 to 14 cubic cubic centimetre.
