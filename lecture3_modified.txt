@@ -3,34 +3,8 @@ Welcome back to the third lecture of the quantum simulation class. Today's lectu
 OK. what are phase transitions? A typical example is liquid ice freezing into water or a paramagnetic turns into a ferromagnet. The point about a phase transition is that something massively changes, qualitatively changes, and that happens suddenly. If you take water at 20 degrees, it's a liquid. 50 degrees, 10 degrees, five degrees, one degree - it's still liquid. If you look very carefully, of course, heat capacities and so on, they have changed ever so slightly, but it's miniscule, very small changes. But then from one to minus one, you go from liquid into a solid. suddenly stuff changes dramatically, and it's a very dramatic change happening at one point. Same thing if you think of a ferromagnetic. If you think of a normal bar magnet, and you heat it up above its temperature, it stops being a ferromagnet and becomes just a paramagnet, which means it's only magnetised in the presence of an external magnetic field. You can think of this as all the little magnetic moments of each electron in the ferromagnetic state being aligned, and the paramagnetic states being random, and only in an external field do they become aligned. In this case, when you cool down your paramagnet, at some point you get into this ferromagnetic state. The same thing we have already seen in statistical physics; if you take a thermal gas of bosons and cool it down, you get the phase transition into the BEC, where the ground state becomes macroscopically occupied.
 
 
-The definition of a phase transition for us is that it's a sudden transition from one kind of macroscopic state to another, which happens at one specific point, called a critical point. Why critical? We'll discuss later where the name comes from. The one detail is that when you look at simulations of small systems, you will never see such a very sudden kink. You will only see a crossover which becomes sharper as the system gets bigger, tending towards a discontinuity in the thermodynamic limit.
+The definition of a phase transition for us is that it's a sudden transition from one kind of macroscopic state to another, which happens at one specific point, called a critical point. Why critical? We'll discuss later where the name comes from. The one detail is that when you look at simulations of small systems, you will never see such a very sudden kink. You will only see a crossover which becomes sharper as the system gets bigger, tending towards a discontinuity in the thermodynamic limit. And that's also important for phase detection. There are things which are not phase transitions, but just a crossover. For instance, the number fraction smoothly goes down to zero and there's no critical point. If you want a mathematical description of a phase transition, then you need the next concept, which is the order parameter. It's a thermodynamic function, and so exists in equilibrium, and you can ask what its value is going to be as a function of pressure or temperature and all of the other parameters. And that is a function that is different in each phase. And very often you have something where the expectation value of the order parameter is zero in the one phase and non-zero at the other phase. We call the phase with the $\langle \hat O=0 \rangle$ the unordered phase and the phase with the non-zero $\langle \hat O \rangle$ the growth phase. A simple example is the local magnetisation in the magnetic material. Think of a paramagnet for a moment. If i ask, what is the expectation value of the magnetisation? What we expect is that the spins point in random directions and so it is zero everywhere if I have no external magnetic field. If I do a measurement, the quantum mechanical projection, I will of course see that this little spin is pointing spin up, this little spin is pointing down etc., but because it's totally random the expectation value will vanish. If you, however, have a ferromagnet the expectation value $\langle \hat M \rangle$ is non-zero, and so you call this an ordered phase.
 
-
-And that's also important for phase detection. There is things which are not phase transitions are just a crossover.
-if you take a system, where is it going up a parameter? I don't know.
-For instance, the Doppler interaction smoothly goes down to zero.
-There's no critical point you're not going to jump from one thing to the other thing, that's not a phase transition.
-it is this kind of figure, if you want the intuitive explanation,
-if you want a mathematical definition of how we can define a phase transition, then you can come up.
-You need the next concept, which is the other parameter.
-Do you have other parameters of thermodynamic function, which means it's a function that depends.
-It exists in equilibrium and you can like, say, OK, what is going to be the value of this function as a function of pressure or
-temperature and all of the other parameters in something then to make equilibrium? And that is a function that is different in each phase.
-And very often you have something ready order parameter or the expectation value of the order parameter is zero.
-In the one phase and this becomes non-zero at a phase transition and then it's non-zero at the other phase.
-we call the one phase with the other parameter zero, the unordered phase and the phase with the other parameters non-zero the growth phase.
-A simple example is the local mechanisation in the magnetic material.
-Think of paramagnetic for a moment, so you know that you are the paramedic, that you have these little magnets,
-that the democratic movement of the electrons, India, they are already there, but because they are oriented in random direction.
-If I ask, what is the expectation value of this?
-what we expected, which direction really springs point that is zero everywhere if I have the external magnetic field.
-H6 talking about getting field because they are enemy oriented, they're still not ordered to can point in any direction.
-if I do a measurement, the quantum mechanical projection, I will of course see that this little spin is pointing spin up.
-This little spin is pointing spin down, but the expectation value is that it's totally random and therefore the expectation value will vanish.
-If you, however, have a firm magnet. The expectation value of this thing is non-zero.
-because in the power, all of those things are ordered, they all are kind of aligned with each other at the oil point,
-in the other direction or the lower direction or this direction. we expect to see something non-zero.
-OK. And that's how you call this an ordered phase, because the order parameters nonzero and an unnatural phase for the order parameter is zero.
 Now you could ask, OK, well, that's what the method. What is the other parameter of I think about liquid water and ice in this case,
 the other parameter is the density density or part of body could make correlation function if just one molecule here,
 where do I find the next molecule? And in a in a in the crystal phase, when the thing is opened its eyes, you find it's a crystal structures.
