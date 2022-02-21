@@ -1,31 +1,11 @@
-## Lecture 3 1/2/22
+Welcome back to the third lecture of the quantum simulation class. Today's lecture is mostly going to be about phase transitions and quantum fluids. This is again, in some sense, preliminary, where we are picking up on important concepts that we're going to need later on. This time, we're no longer picking up things from atomic physics to go over here, we're now picking up things from the phase transitions hand out. the stuff that we're going to do in the first half an hour today, if you want more information on that just get your hand out on the course of phase transitions and collective phenomena, it's mostly definitions, but they have a bit more explanation of what the definitions mean in those lecture notes if you're interested. And then in the second half, we will look mostly at the BEC transition as one example of that, because the transition into a superfluid state is going to be a key transition that we're going to look at in many cases later on. If you want to study the transition from a superfluid to the Mott insulator, you have to understand the transition into the superfluid.
+
+OK. what are phase transitions? A typical example is liquid ice freezing into water or a paramagnetic turns into a ferromagnet. The point about a phase transition is that something massively changes, qualitatively changes, and that happens suddenly. If you take water at 20 degrees, it's a liquid. 50 degrees, 10 degrees, five degrees, one degree - it's still liquid. If you look very carefully, of course, heat capacities and so on, they have changed ever so slightly, but it's miniscule, very small changes. But then from one to minus one, you go from liquid into a solid. suddenly stuff changes dramatically, and it's a very dramatic change happening at one point. Same thing if you think of a ferromagnetic. If you think of a normal bar magnet, and you heat it up above its temperature, it stops being a ferromagnet and becomes just a paramagnet, which means it's only magnetised in the presence of an external magnetic field. You can think of this as all the little magnetic moments of each electron in the ferromagnetic state being aligned, and the paramagnetic states being random, and only in an external field do they become aligned. In this case, when you cool down your paramagnet, at some point you get into this ferromagnetic state. The same thing we have already seen in statistical physics; if you take a thermal gas of bosons and cool it down, you get the phase transition into the BEC, where the ground state becomes macroscopically occupied.
 
 
-Welcome back to the third lecture of the quantum simulation class.
-
-Today's lecture is mostly going to be about phase transitions and quantum fluids. This is again, in some sense, preliminary, where we are picking up on important concepts that we're going to need later on.
-
-This time, we're no longer picking up things from atomic physics to go over here, we're now picking up things from the phase transitions hand out. the stuff that we're going to do in the first half an hour today, if you want more information on that just get your hand out on the course of phase transitions and collective phenomena, it's mostly definitions, but they have a bit more explanation of what the definitions mean in those lecture notes if you're interested.
-
-And then in the second half, we will look mostly at the BEC transition as one example of that, because the transition into a superfluid state is going to be a key transition that we're going to look at in many cases later on. If you want to study the transition from a superfluid to the Mott insulator, you have to understand the transition into the superfluid.
-
-OK. what are phase transitions? A typical example is liquid ice freezing into water or a paramagnetic turns into a ferromagnet. The point about a phase transition is that something massively changes, qualitatively changes, and that happens suddenly. If you take water at 20 degrees, it's a liquid. 50 degrees, 10 degrees, five degrees, one degree - it's still liquid. If you look very carefully, of course, heat capacities and so on, they have changed ever so slightly, but it's miniscule, very small changes.
-
-But then from one to minus one, you go from liquid into a solid. suddenly stuff changes dramatically, and it's a very dramatic change happening at one point. Same thing if you think of a ferromagnetic. If you think of a normal bar magnet, and you heat it up above its temperature, it stops being a ferromagnet and becomes just a paramagnet, which means it's only magnetised in the presence of an external magnetic field. You can think of this as all the little magnetic moments of each electron in the ferromagnetic state being aligned, and the paramagnetic states being random, and only in an external field do they become aligned.
-
-In this case, when you cool down your paramagnet, at some point you get into this ferromagnetic state. The same thing we have already seen in statistical physics; if you take a thermal gas of bosons and cool it down, you get the phase transition into the BEC, where the ground state becomes macroscopically occupied.
+The definition of a phase transition for us is that it's a sudden transition from one kind of macroscopic state to another, which happens at one specific point, called a critical point. Why critical? We'll discuss later where the name comes from. The one detail is that when you look at simulations of small systems, you will never see such a very sudden kink. You will only see a crossover which becomes sharper as the system gets bigger, tending towards a discontinuity in the thermodynamic limit.
 
 
-
-
-
-the definition of a phase transition for us is that it's a sudden transition from one kind of macroscopic state to another,
-which happens at one specific point, which you're quite a critical point. Why critical?
-We'll discuss later why the name comes from.
-The one detail is that when you look at Latin America simulations of small systems, you will never see such a very sudden kink.
-You will only see a crossover in the financial system.
-But the crossover becomes Chopra and Chopra and Chopra as the system gets bigger, which means that if hemodynamic limits,
-you really get a singularity and nonstrategic behave, you have to free energy would just get a sudden change.
 And that's also important for phase detection. There is things which are not phase transitions are just a crossover.
 if you take a system, where is it going up a parameter? I don't know.
 For instance, the Doppler interaction smoothly goes down to zero.
@@ -37,8 +17,8 @@ Do you have other parameters of thermodynamic function, which means it's a funct
 It exists in equilibrium and you can like, say, OK, what is going to be the value of this function as a function of pressure or
 temperature and all of the other parameters in something then to make equilibrium? And that is a function that is different in each phase.
 And very often you have something ready order parameter or the expectation value of the order parameter is zero.
-In the one face and this becomes non-zero at a phase transition and then it's non-zero at the other phase.
-we call the one phase with the other parameter zero, the unordered face and the face with the other parameters non-zero the growth phase.
+In the one phase and this becomes non-zero at a phase transition and then it's non-zero at the other phase.
+we call the one phase with the other parameter zero, the unordered phase and the phase with the other parameters non-zero the growth phase.
 A simple example is the local mechanisation in the magnetic material.
 Think of paramagnetic for a moment, so you know that you are the paramedic, that you have these little magnets,
 that the democratic movement of the electrons, India, they are already there, but because they are oriented in random direction.
@@ -50,12 +30,12 @@ This little spin is pointing spin down, but the expectation value is that it's t
 If you, however, have a firm magnet. The expectation value of this thing is non-zero.
 because in the power, all of those things are ordered, they all are kind of aligned with each other at the oil point,
 in the other direction or the lower direction or this direction. we expect to see something non-zero.
-OK. And that's how you call this an ordered face, because the order parameters nonzero and an unnatural face for the order parameter is zero.
+OK. And that's how you call this an ordered phase, because the order parameters nonzero and an unnatural phase for the order parameter is zero.
 Now you could ask, OK, well, that's what the method. What is the other parameter of I think about liquid water and ice in this case,
 the other parameter is the density density or part of body could make correlation function if just one molecule here,
-where do I find the next molecule? And in a in a in the crystal face, when the thing is opened its eyes, you find it's a crystal structures.
+where do I find the next molecule? And in a in a in the crystal phase, when the thing is opened its eyes, you find it's a crystal structures.
 You have the next one here, the next one there, the next one there, the next one there.
-when you know what, here are here, you also know where they are here. What if you have liquid face?
+when you know what, here are here, you also know where they are here. What if you have liquid phase?
 You don't have that. And this is exactly what we are going to look at in the next slide.
 if a plot say, for instance, the magnetisation. As a function of the temperature,
 I would expect the expectation value to be zero at high temperatures and then at the critical temperature
@@ -78,9 +58,9 @@ Because of two vectors this or two factors that gives me the same energy.
 And for a very simple case, if you're a Hamiltonian is just a free political p-square,
 then you realise that the direction in which the momentum points doesn't go into it.
 The kinetic energy is. Symmetric under rotations means it does not depend on the direction, it just depends on the magnitude of the momentum.
-many Evertonians Hefty have cemeteries. And then if you think about this, what happens now in your face transition, what happens in your faces?
+many Evertonians Hefty have cemeteries. And then if you think about this, what happens now in your phase transition, what happens in your phases?
 You have learnt in statistical mechanics that always the system in familiar equilibrium tries to minimise the free energy.
-If you remember back from last week last year to free energy can be written as the total energy minus T times expertise,
+If you remember back from last weak last year to free energy can be written as the total energy minus T times expertise,
 the temperature and the entropy. But you would see you and co-defendants would talk a lot about entropy because it's more important for us than it is,
 for instance, in a kind of system where you just talk about the temperatures.
 The intuitive thing when you think about the free energy ministry is this is what you want to minimise.
@@ -92,7 +72,7 @@ which means it would take a totally disordered state of random combination of al
 mixed density matrix that would probably not optimise the energy for this term is bigger than it needs to be.
 But this term would become very, very small, very, very large, and it's negative. this will dominate.
 And that means that a very high temperature, you typically have an unnatural state. What is very low temperatures when this time becomes unimportant?
-The system will really want to sit in the state where you have the minimum energy and that drives you face to.
+The system will really want to sit in the state where you have the minimum energy and that drives you phase to.
 So, for instance, if you think of a pair of your fair magnets, the fur back in Mr Crown St.,
 if they are all aligned in the same direction, that minimises the energy.
 why would the system at high temperatures not want to minimise the energy,
@@ -126,7 +106,7 @@ If 04 is positive, the thing around zero looks a parabola, and it has its minimu
 If, however, 04 is negative, I have this inverted parabola here. Before the larger the term wins, the thing goes up here.
 you can see that the phase transition will happen at that point when it's over goes to zero,
 if I first positive, my minimum of the free energy would be in the middle.
-I mean, the unordered face really ought to promote a zero to mechanisation to zero. If 10 04 goes to zero, it becomes negative.
+I mean, the unordered phase really ought to promote a zero to mechanisation to zero. If 10 04 goes to zero, it becomes negative.
 They don't have to structure to a minimum one here and one there. And then the minimum will be sitting in either of those.
 If I put in a delineation were put in a magnetic field, then of course I get a linear time on top of it in the fingers shifted.
 in the Paramount Network phase, if I put the magnetic field in the spins will align a little bit of the magnetic field.
@@ -144,18 +124,18 @@ the current state breaks a symmetry, even though the Hamiltonian has the symmetr
 That's called spontaneous symmetry breaking. So, for instance, to make the directive to mechanisation here can be non-zero,
 which breaks the symmetry spin up growth has been down, even though the Hamiltonian maintains that symmetry.
 And that's something that you can think about, how does this happen? How does this happen in practise?
-OK. I mean, first thing to say is that when people talk about a face with broken symmetry, that means a face, but the other parameters finite.
+OK. I mean, first thing to say is that when people talk about a phase with broken symmetry, that means a phase, but the other parameters finite.
 But if the other parameter is not zero here, the to restore is restored to symmetry is there.
 Spinoffs been done doesn't make a difference.
 But if I'm in this situation and I sit here that its inventory is broken because I sit in the spin up case not to spin donkeys and vice versa,
 of course you. if Fontaine symmetry breaking is the same thing as, say, we get a final order from it,
 it's the same thing as, say, we go through the phase transition. this begs one question.
 Suppose we start in this situation high temperature, and I suppose we cringe,
-which means suddenly change the Hamiltonian or the temperature or something to go from left side to the right side.
+which means suddenly change the Hamiltonian or the temperature or something to go from left site to the site.
 We do this in a fully symmetric situation, but it's no magnetic field. And the question then is.
 What happens in which many when will the system evolve or how will the system evolve?
 And of course, we already said spontaneous symmetry breaking, so we cannot say, oh,
-it goes to the left or it goes to the right because there's a spontaneous random element in it.
+it goes to the left or it goes to the because there's a spontaneous random element in it.
 But the philosophical question is where does this random this come from? External fields, yes.
 if I do this in a classical or case, there is some fluctuations coming in from my environment.
 A typical example is to say, if I put a stick this or a potato a pen and try to put it on its tip.
@@ -165,14 +145,14 @@ And then you can say, Well, OK,
 there will always be some fluctuation coming from the external world that will predict which direction it's going to be.
 It could be a raft of errors could be me wobbling a little bit.
 It could be, you know, being perfectly accurate and putting it upright.
-For all practical purposes, it's a random fluctuation coming from the outside world.
+For all practical purposes, it's a random fluctuation coming from the outsite world.
 That's always what you have in a toilet because you have the phonons and all of the other part of the system coming in,
 and then something will break that symmetry for you and you will end up just in this case.
 But now how about you do it isn't the perfect quantum situation. How about you take a pure perfect unitary quantum system?
 No noise, no nothing. And you place that system exactly here in the middle, you have an exact symmetry left and right, and it doesn't break.
 Then it doesn't break, so what doesn't happen, then you have a position.
 Exactly. there's two important things. The thing is that if I put the quantum system up here,
-it will not stay here even without any breaking of the symmetry, without any fluctuations from the outside world.
+it will not stay here even without any breaking of the symmetry, without any fluctuations from the outsite world.
 The quantum system will also roll down the hill. But because of the quantum system, it will do so in a symmetric fashion.
 good simultaneously road on this hill and that. And then you end up with a superposition of the system being here and here.
 And it's kind of a weird idea if you think about the big meta system.
@@ -226,7 +206,7 @@ I can predict something about the system arbitrarily far away. I say something b
 The typically the correlations with UK down a little bit.
 But then they were like, Asuman, finite value at arbitrarily large distances, so it's not very smart,
 very not an extremely strong correlation, necessarily that if I know it's been up here, it must be spin up here, but it will not.
-There was some information still there. a face to this long range order, the face of broken symmetry, a firm icon and so on, we can see.
+There was some information still there. a phase to this long range order, the phase of broken symmetry, a firm icon and so on, we can see.
 But looking at this object and looking at this limit and see, OK, we have long range auto.
 OK. This is basically just the same thing I just said. And now the confusing part comes now.
 This is to be called accommodation function. The next thing that are now going to introduce is C, which is the connected correlation function.
@@ -258,7 +238,7 @@ Because very often what you will get is you get something where the typical beha
 this connected correlation function to see is that these things decay exponentially.
 Of minus x minus x prime with a certain length scale. does this length scale PSI, which required a correlation length?
 That is length of of which the fluctuations are correlated. And it's not an intuitive.
-Intuitively, a slight stretch initially that you can have a face that can be long range ordered but have a short correlation.
+Intuitively, a slight stretch initially that you can have a phase that can be long range ordered but have a short correlation.
 Which basically means I have a state where on average, all of my spins are mostly pointing up to this long range order,
 and the democratisation is more or less the same everywhere. if I know democratisation is positive, I can predict it will be positive here.
 I have this long range information. But nonetheless, the correlations are short range,
@@ -268,7 +248,7 @@ two states that this long range ordered but has not long way is not long which c
 At the kink, the key thing is that when people talk about correlation things and they talk about this exponential behaviour here,
 they always talk about the sea and not the.
 And you got to be a bit careful because some literature, some research papers, they're not very careful in what they discuss.
-They sometimes omit this word connected, and they just say, Oh, I have this correlation function just in case of potentially that kind of weight.
+They sometimes omit this word connected, and they just say, , I have this correlation function just in case of potentially that kind of weight.
 But it's a long range ordered state. It kind of contradicts itself with the coalition came to zero.
 The answer is the coalition function is finite. But to connect, the coalition function decays to zero.
 That's what they mean. that's why I put a bit of pain in here to make this distinction very clear.
@@ -279,28 +259,28 @@ If people talk about the length scale, they always mean that it must be a expone
 Because if I think of something that looks a power law,
 you cannot easily define a length for what you would define an exponent, a critical exponent or something.
 But if you define a length skirt, governs everything and implicitly, you're always talking about an exponential function.
-OK, so now we have to accept Capillary to talk about face conditions in slightly more detail.
+OK, so now we have to accept Capillary to talk about phase conditions in slightly more detail.
 And basically, there's two types of phase transitions that we care about.
 The first one is what we call this discontinuous phase transition, or a first or a phase sensation.
-That's the face in this way of a sudden jump. But the other parameter is zero here.
+That's the phase in this way of a sudden jump. But the other parameter is zero here.
 And then there's this continuity, a jump to a finite value at this critical temperature.
 And that's what you get when you have water going to ice. You don't get very long correlations building up in the water, necessarily.
-You get directly blocks of ice swimming on the water while in the second or a phase transition or continuous paced transition.
+You get directly Blochs of ice swimming on the water while in the second or a phase transition or continuous paced transition.
 And more generally, there's also a higher infinite order and so on.
 You get a continuous evolution here, so it starts off with zero and then continuously go up.
 It can be very sharp, but it's continuous. And this has important consequences if you think of a discontinuous phase transition.
 The other parameter jumps this continuously, as I said, in classical cases, there is often latent heat involved.
 Melting of ice, if you want to go to zero. From the ice to zero liquid water, you have to put in a lot of energy to melting energy.
 The both phases, can the cases coexist at a critical point?
-Just think of a glass of water in February, zero degrees Celsius with a blocks of ice swimming in it, you realise because of the latent heat.
+Just think of a glass of water in February, zero degrees Celsius with a Blochs of ice swimming in it, you realise because of the latent heat.
 The only stable situation that you can have is the stable situation where you have
 some ice and some water because we don't have enough energy to go fully into the liquid,
 but you have too much energy to be fully in the ice phase. And.
 Because of this, because both phases can coexist at a critical point. What is obvious?
 And it's important that it's obvious is that the coalition left you must remain finite.
-If I have something where to save the situation, I have a block of ice swimming in a bigger pot of water.
+If I have something where to save the situation, I have a Bloch of ice swimming in a bigger pot of water.
 The system can't be infinitely correlated.
-Because if I have this little block of ice, I cannot necessarily say how big the block of ice isn't going to, water begins.
+Because if I have this little Bloch of ice, I cannot necessarily say how big the Bloch of ice isn't going to, water begins.
 the correlation must stay finite. OK.
 And this is a funny thing this this gives rise to something called quantum stability or if you have take fancy terms on long form from future,
 you would call it the collapse of the folds vacuum.
@@ -322,20 +302,20 @@ quantum mechanical tunnelling or you need to have some further fluctuation that 
 over this hump in the middle. And the classical example for this one that you all see almost every day is fizzy drinks.
 When you think about I have my liquid and liquid, I have dissolved my carbon dioxide, right?
 And that's the carbon dioxide bubbles out and gives me this little bubbles.
-When you look at this, you will realise that the bubbles are almost always forming at the interface of the liquid with the glass.
+When you look at this, you will realise that the bubbles are almost always forming at the interphase of the liquid with the glass.
 If you look at it from the top, you'll see David at around today.
 Not somewhere in the liquid, in the volume.
 And that's because for such a bubble to form the system is kind of a computer system sits here with the material being dissolved and
 that we can state the state that the state system wants to get to is the state of the bubble where the gas is not his wife anymore,
 but in the gas form. But in order to get there, it needs to have something to help you over the hump.
-And that can be a fluctuation, a little roughness from the glass on the inside and nucleation point where the bubbles can start to grow.
+And that can be a fluctuation, a little roughness from the glass on the insite and nucleation point where the bubbles can start to grow.
 And in a perfect quantum case, of course, you don't have that. the system can stay for a long time and is.
 And that's what people say that OK and cosmology, this is the fourth vacuum state because it literally looks a vacuum,
 but it's not a true vacuum because it's not at global state. And then the system can at some later point,
 tunnelled through the barrier gets to the global crown state and thereby release a lot of energy, potentially.
 And there's, some theories in cosmology that say this is what happens in the inflation period in the early universe.
 And there's, of course, a lot of science fiction that says, if I make a device that assumes that we are still in a false vacuum,
-we can go to the right thinking, we can release arbitrary amounts of energy and use it for whatever.
+we can go to the thinking, we can release arbitrary amounts of energy and use it for whatever.
 But that's science fiction. OK, so if I continue in our continuous phase transitions second order, they're different.
 The other parameter changes continuously. The way the symmetry here is broken is to work,
 the one that we've discussed in the previous slide is that these transitions are signalled by the spontaneous symmetry breaking.
@@ -362,21 +342,21 @@ very large distances and the divergence at the phase transition that we know or 
 Because if everything happened, it's very,
 very long scales that it can't be so important what happens on it on a very short and a very, very small length scale?
 I might end up with having many different local models that look at you look slightly different,
-but they have the same emergent behaviour at this very, very large lengths to get close to the face.
+but they have the same emergent behaviour at this very, very large lengths to get close to the phase.
 what it turns out, if you do numerical experiments on various different Hamiltonians, various different phase transitions,
 it turns out that there's always the same effect the theories that come up
 close to the critical points that can be equal for very different transitions.
 And these are called universality classes.
 it turns out there's a very different system, second, certain quantum magnets that have the same scaling,
-the same relations close to the face transition, then for instance, the the quantum gas to be see transition.
+the same relations close to the phase transition, then for instance, the the quantum gas to be see transition.
 And they have the same scaling again as some field view is that you can also write them.
-And because of that, you can use one system to study something about face transitions of another system.
+And because of that, you can use one system to study something about phase transitions of another system.
 this is, of course, very,
 very important for us in quantum simulations because this is the reason why we can relate code atoms to neutron stars or quark crew and plasmas.
 a lot of the relationship between cold atoms and high energy physics, they come via this type because people say, OK, but look at this.
 I believe that I have the same kind of taste sensation, the same universality class.
 the same critical exponent in the same things. he said, critical exponent, what do they mean with this?
-It turns out. And if you want to see experts look at the faces, you can send out that if you go close to the face, the many response functions.
+It turns out. And if you want to see experts look at the phases, you can send out that if you go close to the phase, the many response functions.
 For instance, again, this medical suitability ability, many of them diverge.
 And of course, the susceptibility must diverge at a critical point.
 If you think of this, instability in the paramagnetic tells you how much of a response do you get for a given magnetic field?
@@ -388,13 +368,13 @@ They typically follow polls.
 And the exponents of these polls, which are quite the critical exponents because they're the exponents close to the critical point.
 They define the universality clause.
 And there's probably 10, 15 sets of these exponents that govern 90 percent of the first indications that people have studied and looked at.
-very often when people look at something kind of matter or face transition or when they to numerics,
+very often when people look at something kind of matter or phase transition or when they to numerics,
 the first thing that they do is they try to like,
-get out these response functions, look at their scaling and then they say, Oh, we expected this critically important.
+get out these response functions, look at their scaling and then they say, , we expected this critically important.
 It's this and it's dead. And then you typically see that, oh, actually, it matches what we would expect from this in this phase transition.
 It's the same universality class so we can use to one system to learn something about the other system.
 OK. And this is an important thing because this is kind of the connexion from a lot of stuff and cold atoms to
-neutron stars or Kwaku and plasmas or other things that people are considering it in high energy physics.
+neutron stars or Kwaku and plasmas or other things that people are consitering it in high energy physics.
 time for a concrete example. The example here is the 2D Ising model.
 we have a 2D array of spins and izing spins, which means they only can spin up or spin down.
 We can't have anything in the X y plane here. the Heisenberg model yet to Mitone units just say, OK, there's a coupling between these two things.
@@ -407,9 +387,9 @@ In special units, I think, which I think is one. This is the temperature of 10, 
 And you can see, OK, you see that here, there's a correlation in there, but the correlation function is very short changed.
 you see that you have very many small domains of black and white patches.
 if one spin is right, then they're still more likely that the neighbouring spins also spin up, right, because they have this one direction.
-But you see that this is this correlation of a few spin sides and then you have a small, fine grained thing of black and white.
+But you see that this is this correlation of a few spin sites and then you have a small, fine grained thing of black and white.
 There's a lot of randomness in there.
-that's a typical paramagnetic face in the absence of an external magnetic field, quite a bit above the critical point.
+that's a typical paramagnetic phase in the absence of an external magnetic field, quite a bit above the critical point.
 And if you now go increase beta, so you decrease gamma a decrease the temperature.
 Points to point to one point to one or nine.
 This is getting very close to the phase transition, and you can see that these domains get bigger.
@@ -418,7 +398,7 @@ this is not getting very, very close to the critical point where the whole syste
 this is something with the correlation left, which typically is,
 you can say it's the feature size of the correlation if we go down from here to here.
 you would say if I go 50 pixels, I still if I start on a white one and go 50 pixels, the more likely they end up on a white one.
-But if I go 100, there's no correlation left that tells you that you're not getting close to the face and that you would correlation,
+But if I go 100, there's no correlation left that tells you that you're not getting close to the phase and that you would correlation,
 and it gets very, very big. it illustrates the point that the correlation include diverge at a critical point.
 OK. the correlation thinks I just at a second or a phase transition, as we expect for a second or two phase transition.
 OK, and now we can move over to the B.C. transition and discuss these things, you.
@@ -436,7 +416,7 @@ That's how the cooling processes, which basically means that when you get cooler
 And from statistical physics, you know that if I have less atoms, less density, the critical temperature for B C also goes down.
 therefore, if I know a calculator, I measure my atom number.
 From this, I can calculate what the critical temperature must be in that trap.
-And I practise on the left side here. you see as the Finklestein, the critical temperature is here, and then it also decreases down.
+And I practise on the left site here. you see as the Finklestein, the critical temperature is here, and then it also decreases down.
 And though you see at this point here, when the system gets colder than the critical temperature, that's when the peak starts to appear in here.
 But just follow it one more time. The peak appears.
 Now, and that's exactly when I when the temperature passes, gets lower than the critical temperature.
@@ -456,7 +436,7 @@ there is a continuous phase transition here.
 You see that this number smoothly increases as continues and you go into the superfluid B.S. phase that we expect.
 What I now want to discuss is the question of what is the order parameter for this transition?
 you could, write down a simple order parameter by saying the order parameter is just exactly this fraction and not over,
-and it's zero to one side, Nunzio on the other side that would work.
+and it's zero to one site, Nunzio on the other site that would work.
 The problem that you have is that this whole description of particles looking at in which plane weights are and how are they occupied?
 That's a nice description for non attracting particles.
 But if you particles are interacting, then his whole concept of single particle state doesn't really make sense anymore.
@@ -483,33 +463,33 @@ However, if I get to the with zero, I have this one macroscopic wave function, o
 it's kind of if you think about light fields you go from, a light bulb,
 classical light to a laser where it's just one nice frequency, which is an infinite correlation, takes both time wise and space wise.
 It's one plane wave. in the laser, if I have a laser fired, if there's one sign it's hard to go into outer space,
-if I know the face here, I can predict the face of a world. I know how it's oscillating just with the wavelength.
+if I know the phase here, I can predict the phase of a world. I know how it's oscillating just with the wavelength.
 While if I have a classical light field light coming from the sun, that's incoherent light.
-You know, there's no fixed face relation between the light and light field there.
+You know, there's no fixed phase relation between the light and light field there.
 The Twilight political light can't interfere. Laser light can interfere, and the same thing you get with the BBC, the BBC is a metre wave.
-That is everywhere, well-defined. And if I have to if I know the face here, I also know the face there.
+That is everywhere, well-defined. And if I have to if I know the phase here, I also know the phase there.
 All part of the way functions are coherent that can interfere with each other,
 optica infinite weight, spatial coherence you have in the days field. that's the intuition.
 And now we have to take this intuition and put it into a formula. And here's how you do it.
-What you basically say is if I want to measure the face of a better way for you to a light field,
+What you basically say is if I want to measure the phase of a better way for you to a light field,
 what I uses are you use the field operator, the creation and dilation apparatus of the field, the position excellent prime.
 We're seeing field operators before. Who has not?
 OK, one person has not seen him before. Two persons will not go into too much detail about them now.
 We'll see later on a disk with his version of that, where it's easier to like, go through the mathematics.
-The key thing here is that you can think of is that you probing the face of your Metway field at a certain point.
+The key thing here is that you can think of is that you probing the phase of your Metway field at a certain point.
 You're probing, if I say, taking out a particle here, putting in a particle there and seeing what we still have an oval, if you're rich, a state.
-Intuitively, for now, just think about I measure the face of two of the better way for you to measure the face of the
+Intuitively, for now, just think about I measure the phase of two of the better way for you to measure the phase of the
 metal away for you to hear and ask if it is two phases of something are related to each other.
-Even for very long distances. Because we have the superfluid state where the pictures you have this face coherence
-of all of the system that if you measure the phase of the wave function here, you can predict the face of the wave function somewhere else.
+Even for very long distances. Because we have the superfluid state where the pictures you have this phase coherence
+of all of the system that if you measure the phase of the wave function here, you can predict the phase of the wave function somewhere else.
 And if you have an incoherent better way forward, you can't do that. That's the idea.
-OK, so what you do is you take this kind of order parameter. Oh, you can't just kind of correlation function.
+OK, so what you do is you take this kind of order parameter. , you can't just kind of correlation function.
 Take the India, take the limit of this to infinity, so you look at the long range order of this and people call this off diagonal, long range model.
 It's not density density. It's not the densities you have in a crystal.
 If there's a particle here, this next particle there, the next particle there.
 We now have a wave function where each particle as we spread out of all of the area, in the plane wave.
-And what we're saying is we are looking at the optical elements to face elements, the correlations between here and here.
-we are asking if the face is something here. What can we say about the phase of the wave function?
+And what we're saying is we are looking at the optical elements to phase elements, the correlations between here and here.
+we are asking if the phase is something here. What can we say about the phase of the wave function?
 At no point. The people call this the there, the long range, or LRO.
 You'll see that a lot of text. This is what it is.
 It's basically a mathematical measure to measure the coherence and easy to measure of the way function is coherent everywhere.
@@ -517,24 +497,24 @@ OK. And this was what I said in the beginning.
 Why do we have to do this?
 Why can we not just look at the macroscopic occupation of the ground state where the answer is that would not work for interacting particles?
 this is the order state, this is the state when we talk about UBC, the superfluid,
-we say we go from an unnatural state to from a state that has no special face anywhere.
-There's no face correlations and nothing going to an ordered state. We have this often long range order.
-what we said earlier about the second lot of face conditions, as we said, OK, well, if you have this.
+we say we go from an unnatural state to from a state that has no special phase anywhere.
+There's no phase correlations and nothing going to an ordered state. We have this often long range order.
+what we said earlier about the second lot of phase conditions, as we said, OK, well, if you have this.
 You would expect you have this mechanism of simultaneous breaking. you're asking which symmetry is broken here?
 We're going to see which symmetry is broken and mathematically speaking, you say, OK,
-it breaks that you want symmetry of the Hamiltonian, you want this to face symmetry.
-And basically, it's to say if I have one macroscopic metre wave, that would have a face, so I have to pick a face.
+it breaks that you want symmetry of the Hamiltonian, you want this to phase symmetry.
+And basically, it's to say if I have one macroscopic metre wave, that would have a phase, so I have to pick a phase.
 Intuitively speaking, if my Hamiltonian is hitch and precise and I can state of that,
 the multiplying my my wave function type of a Facebook that actually be priceless.
 No, that's also what I it. But, you know,
 if if if a wave function is an can state and see times the way function with
-these numbers also in state and if it's just a face factor is also anomalous,
-nothing changes. it basically says that this face I fight in front of her way function.
-That's my symmetry. Well, if I take this face that face that face, that face that face them or Tony doesn't care.
-Because if you think of the kinetic energy to have an amateur in it only looks at face gradients,
-the derivatives doesn't look at the absolute face. that's a two million people call us.
-Do you want symmetry? Because that's just the age group of étudie i.
-And if this faces programme spontaneously, spontaneously picks the phase of the wave function, then that's the symmetry breaking that year after.
+these numbers also in state and if it's just a phase factor is also anomalous,
+nothing changes. it basically says that this phase I fight in front of her way function.
+That's my symmetry. Well, if I take this phase that phase that phase, that phase that phase them or Tony doesn't care.
+Because if you think of the kinetic energy to have an amateur in it only looks at phase gradients,
+the derivatives doesn't look at the absolute phase. that's a two million people call us.
+Do you want symmetry? Because that's just the age group of Ã©tudie i.
+And if this phases programme spontaneously, spontaneously picks the phase of the wave function, then that's the symmetry breaking that year after.
 Is this the local? Mm hmm.
 Good point. Don't. You just multiply the state by state, that's completely unacceptable.
 Mm-Hmm. Usually we'll get examples in the next light, yes.
@@ -542,8 +522,8 @@ OK, so this is a global or local cemetery and both so the.
 To the phase of the wave function is a local order me, because the phases defined it every point,
 it can be different at every point in the same thing as the mechanisation or the mechanisation.
 Density, I should say, is a local quantity. What I kind of spin up here happened on C-SPAN.
-Of course, it's a local quantity, however, because I have long range order, because I say in this face,
-if I have to pick a certain face here, it has to be to face somewhere else an affirmative.
+Of course, it's a local quantity, however, because I have long range order, because I say in this phase,
+if I have to pick a certain phase here, it has to be to phase somewhere else an affirmative.
 I'd say it spins up here. It would also be spins up there.
 The long range auto means that all of the local cemetery gets reduced to a Clover cemetery because we say the system is language order,
 so we practise in which at one point it's broken everywhere else in the same way. OK.
@@ -560,9 +540,9 @@ you know, below to see what you start to see us, you see four inches, the few in
 You can fit this and you see a nice interference pattern.
 And the reason for that is that now the metre waves and the BBC, as such as a from a from a gas we think of a little plop here,
 little prop there, little prop there you think of big extended wave functions that expand the whole system.
-your face correlations between two points up here and up here.
+your phase correlations between two points up here and up here.
 And then what you get if you have two coherent waves city overlap, you get interference between it.
-You get points where the wave functions have the same face, so you get a high density and wave functions, but they have the opposite effect.
+You get points where the wave functions have the same phase, so you get a high density and wave functions, but they have the opposite effect.
 you get destructive interference and you don't see any particles.
 you can see this nicely here, and then you can also see that if you do this now fully condensed to fabulous,
 you can see there's less atoms in here now because they air to evaporate forever. You can see you get a very, very strong modulation.
@@ -576,13 +556,13 @@ which is a stand in if you want for a proxy for the coherence as a function of t
 This was the same paper. And if they look at high temperatures, you can see that the visibility drops down to zero.
 If you fit this exponential decay, you would say the correlation length is maybe 200 300 micrometers in here.
 If they do this below the critical temperature,
-you can see it also the case to answer there's also correlation next week if the correlation functions the times they grow,
+you can see it also the case to answer there's also correlation next weak if the correlation functions the times they grow,
 which is the case down,
-but at the case to an offset case to a long range order because the system has face coherence over the whole cloud over a large piece.
+but at the case to an offset case to a long range order because the system has phase coherence over the whole cloud over a large piece.
 I have two concepts that we had.
 Looking at the correlation function that tells us where about two particles are two parts of the way functional coherent that goes into invisibility.
 It tells us about the coherence, the correlation length. What is the timescale to which decay and tells us with the offset,
-the long range order that is the hallmark of the state of a long range order in order to face?
+the long range order that is the hallmark of the state of a long range order in order to phase?
 we see all of this nicely. And later on, they do experiments, what people also did is to say, OK, if they do very quick cooling to take a big load.
 Hot air cooled down very, very quickly, and then this is a function of how slow or fast they're cool.
 They look at what is the contrast, the visibility that they get as a function of the distance.
@@ -601,30 +581,30 @@ Hmm. Yeah, exactly, you can think of this as a if the BBC is fully coherent in i
 We have one laser beam from here, one laser beam from there, and I will see interference between them.
 And indeed, time of light pictures. They see very nice interference contrast in between you.
 And something it's really important that is not so much said because we showed it in the pictures, but it said in the text, is that OK?
-Books have been created independently. There's no prior face communication.
+Books have been created independently. There's no prior phase communication.
 And the point is, if they do this experiment, many, many times did the appearance contrast is always high.
-this is always a coherent to each other. They always have a fixed a face relation to each other.
-They can always interfere. But the face varies randomly from shot to shot.
+this is always a coherent to each other. They always have a fixed a phase relation to each other.
+They can always interfere. But the phase varies randomly from shot to shot.
 it's not that you always have the maximum here. Sometimes you have a minimum and maximum stare and so on.
 every time you do this picture, you get a random orientation of body shots and the minimal.
 this is fully consistent with the idea of we have this microscopic coherence in
 the BBC and we have the spontaneous symmetry breaking during the condensation.
-each piece is kind of if one picks its face randomly while you're right, it's condensing.
+each piece is kind of if one picks its phase randomly while you're right, it's condensing.
 And this one does the same, but independently. the relative space between them is random, but it's always well-defined.
-you always get a nice coherence, but you get a different face every time.
+you always get a nice coherence, but you get a different phase every time.
 It's kind of if you take the if you take a firm and then cool it down a hundred times from the crude temperature down to the very different,
 and you expect that the the domains that did it to you expect that the direction of the mechanisation is random every time you expect that,
 every time you get a nice for a magnet, but sometimes it's this. Sometimes it's that sometimes it's that.
 And here you can do the same thing with the BBC.
 And to answer, coming back to your point earlier on, you would say that normally a global perspective in a way function.
 I can't observe that is true. You just have the single object.
-But if I have to object to wave functions, then I can observe the relative to face between them doing interference.
+But if I have to object to wave functions, then I can observe the relative to phase between them doing interference.
 So, yeah. A lot of concepts, and they all nicely tied together to explain what we see.
 OK. That's the end for today. Any questions left?
 Perfect, that's not the case, then I'll see you again on Thursday and on Thursday, we then start with optical lattices.
 And then we started I put this concept into play,
 really with the first complex problem on Thursday will also publish the first problem set because it has parts of this piece in there,
-but also parts of the capital letters and will also start in the next two days to like, assign the tutorial groups, which means please,
+but also parts of the capital lattice and will also start in the next two days to like, assign the tutorial groups, which means please,
 if you like, interested in taking the exercises, make sure that you are registered for the course of the year and vice versa.
 If you think OK, you want to keep listening to the course but not want to take the exam and not want to take the do the exercises,
 then please make sure that you're not registered nurses so that we know how many people we have to assign tutors for.
