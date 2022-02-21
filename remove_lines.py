@@ -79,6 +79,16 @@ newlines = replace_word("letters", "lattice", strlist=newlines)
 newlines = replace_word("face", "phase", strlist=newlines)
 newlines = replace_word("metaphysics", "matter physics", strlist=newlines)
 newlines = replace_word("block", "Bloch", strlist=newlines)
+newlines = replace_word("election", "electron", strlist=newlines)
+newlines = replace_word("Oh", "", strlist=newlines)
+newlines = replace_word("caution", "Gaussian", strlist=newlines)
+newlines = replace_word("week", "weak", strlist=newlines)
+newlines = replace_word("Crown State", "ground state", strlist=newlines)
+
+
+
+
+
 
 
 #for i in range(50,60):
