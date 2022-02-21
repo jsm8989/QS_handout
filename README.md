@@ -6,11 +6,7 @@
 - right
 - hall>Hall
 - capitalise start of sentence (likely where "So" has been removed)
-- Crown State > ground state
-- week > weak
-- caution > Gaussian
-- Oh > oh
-- election > electron
+
 
 
 
