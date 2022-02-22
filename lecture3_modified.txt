@@ -5,48 +5,14 @@ OK. what are phase transitions? A typical example is liquid ice freezing into wa
 
 The definition of a phase transition for us is that it's a sudden transition from one kind of macroscopic state to another, which happens at one specific point, called a critical point. Why critical? We'll discuss later where the name comes from. The one detail is that when you look at simulations of small systems, you will never see such a very sudden kink. You will only see a crossover which becomes sharper as the system gets bigger, tending towards a discontinuity in the thermodynamic limit. And that's also important for phase detection. There are things which are not phase transitions, but just a crossover. For instance, the number fraction smoothly goes down to zero and there's no critical point. If you want a mathematical description of a phase transition, then you need the next concept, which is the order parameter. It's a thermodynamic function, and so exists in equilibrium, and you can ask what its value is going to be as a function of pressure or temperature and all of the other parameters. And that is a function that is different in each phase. And very often you have something where the expectation value of the order parameter is zero in the one phase and non-zero at the other phase. We call the phase with the $\langle \hat O=0 \rangle$ the unordered phase and the phase with the non-zero $\langle \hat O \rangle$ the growth phase. A simple example is the local magnetisation in the magnetic material. Think of a paramagnet for a moment. If i ask, what is the expectation value of the magnetisation? What we expect is that the spins point in random directions and so it is zero everywhere if I have no external magnetic field. If I do a measurement, the quantum mechanical projection, I will of course see that this little spin is pointing spin up, this little spin is pointing down etc., but because it's totally random the expectation value will vanish. If you, however, have a ferromagnet the expectation value $\langle \hat M \rangle$ is non-zero, and so you call this an ordered phase.
 
-Now you could ask, OK, well, that's what the method. What is the other parameter of I think about liquid water and ice in this case,
-the other parameter is the density density or part of body could make correlation function if just one molecule here,
-where do I find the next molecule? And in a in a in the crystal phase, when the thing is opened its eyes, you find it's a crystal structures.
-You have the next one here, the next one there, the next one there, the next one there.
-when you know what, here are here, you also know where they are here. What if you have liquid phase?
-You don't have that. And this is exactly what we are going to look at in the next slide.
-if a plot say, for instance, the magnetisation. As a function of the temperature,
-I would expect the expectation value to be zero at high temperatures and then at the critical temperature
-where I go to the phase transition from the paramedic into the ferry and it starts to become non-zero.
-In this case, it's a continuous function.
-It is a kink, but the function is continuous and that's typically what you get in a second order or higher order phase transition.
-We don't talk much about those terms. Autosteer historic terms, but we talk a little bit later on.
-And I'm rattling through now in the first couple of slides through a couple of definitions and concepts,
-which probably some of you will have seen before, and I hope they make intuitive sense what they're about.
-And then in the next slides, we put them together and see how they fit together,
-what we kind of first have to like, learn vocabulary that we need to describe the things that we were after.
-the next thing is symmetry.
-Very often you Hamiltonian has possesses a certain symmetry, which means it's invariant to energies invariant under some operation.
-for example, if you take the Heisenberg model as eyes a.j.'s, i spin operators that very often you would say in the classical dipole moment,
-if I have two classical dipole moments, if they're are created this or oreated this or this, that makes a difference in your energy.
-But this this Kayla product between these two vectors, so it's asking whether the vectors are power or not.
-if you have two classical dipole to be oriented this or this or this, you get the same energy.
-What? It's really just the relative orientation that's important. And therefore this whole thing is invariant and the rotation.
-Because of two vectors this or two factors that gives me the same energy.
-And for a very simple case, if you're a Hamiltonian is just a free political p-square,
-then you realise that the direction in which the momentum points doesn't go into it.
-The kinetic energy is. Symmetric under rotations means it does not depend on the direction, it just depends on the magnitude of the momentum.
-many Evertonians Hefty have cemeteries. And then if you think about this, what happens now in your phase transition, what happens in your phases?
-You have learnt in statistical mechanics that always the system in familiar equilibrium tries to minimise the free energy.
-If you remember back from last weak last year to free energy can be written as the total energy minus T times expertise,
-the temperature and the entropy. But you would see you and co-defendants would talk a lot about entropy because it's more important for us than it is,
-for instance, in a kind of system where you just talk about the temperatures.
-The intuitive thing when you think about the free energy ministry is this is what you want to minimise.
-This gives rise to the God of this faith tradition that the dynamics you have because if you have a very high temperature,
-tea is big, which means the second term here is very important. to minimise this, I don't have to care so much about minimising the energy.
-I mostly have to care about maximising the entropy.
-And the entropy is, of course, like, in some sense, a measure for the increase in disorder in anybody's state,
-which means it would take a totally disordered state of random combination of all possible states to have a totally
-mixed density matrix that would probably not optimise the energy for this term is bigger than it needs to be.
-But this term would become very, very small, very, very large, and it's negative. this will dominate.
-And that means that a very high temperature, you typically have an unnatural state. What is very low temperatures when this time becomes unimportant?
-The system will really want to sit in the state where you have the minimum energy and that drives you phase to.
+Now you could ask, OK, well, what is the order parameter when I think about liquid water and ice? In this case, the order parameter is the density. In one part of body could make a correlation function; if there is just one molecule here, where do I find the next molecule? When the thing is turned into ice, you find it's a crystal structure. You have the next one here, the next one there, the next one there, the next one there. What if you have liquid phase? You don't have that. And this is exactly what we are going to look at in the next slide.
+[pic]
+With a plot of, for instance, the magnetisation as a function of the temperature, I would expect the expectation value to be zero at high temperatures and then at the critical temperature it starts to become non-zero. In this case, it's a continuous function. It is a kink, but the function is continuous and that's typically what you get in a second order or higher order phase transition. We don't talk much about those terms. The next thing is symmetry. Very often your Hamiltonian possesses a certain symmetry, which means it's energies are invariant under some operation. For example, if you take the Heisenberg model 
+[equation]
+very often you would say if I have two classical dipole moments, if they're oriented like this or this, that makes a difference in your energy. But this is a scalar product between these two vectors, so it's asking whether the vectors are parallel or not. If you have two classical dipole to be oriented this or this or this, you get the same energy. It's really just the relative orientation that's important. And therefore this whole thing is invariant under rotation. And for a very simple case, if your Hamiltonian is just a free particle $p^2 / (2m)$, then you realise that the direction in which the momentum points doesn't go into it. The kinetic energy is symmetric under rotations and it just depends on the magnitude of the momentum. Many Hamiltonians have these symmetries. And then if you think about what happens in your phase transition? You have learnt in statistical mechanics that always the system in thermal equilibrium tries to minimise the free energy. If you remember back from last year the free energy can be written as
+$$F=E-TS$$
+and we will talk a lot about entropy because it's more important for us than it is, for instance, in a kind of system where you just talk about the temperatures. The intuitive thing when you think about the free energy is this $S$ is what you want to maximise. This gives rise to the phase transition and the dynamics you have because if you have a very high temperature, which means the second term here is very important, and I don't have to care so much about minimising the energy. And the entropy is, in some sense, a measure for the increase in disorder in a manybody state, which means it would take a totally disordered state, a random combination of all possible states to have a totally
+mixed density matrix, and the second term will dominate. And that means that at very high temperature, you typically have an unnatural state. What is very low temperatures when this time becomes unimportant? The system will really want to sit in the state where you have the minimum energy and that drives you phase to.
 So, for instance, if you think of a pair of your fair magnets, the fur back in Mr Crown St.,
 if they are all aligned in the same direction, that minimises the energy.
 why would the system at high temperatures not want to minimise the energy,
