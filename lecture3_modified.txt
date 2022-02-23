@@ -11,53 +11,16 @@ With a plot of, for instance, the magnetisation as a function of the temperature
 [equation]
 very often you would say if I have two classical dipole moments, if they're oriented like this or this, that makes a difference in your energy. But this is a scalar product between these two vectors, so it's asking whether the vectors are parallel or not. If you have two classical dipole to be oriented this or this or this, you get the same energy. It's really just the relative orientation that's important. And therefore this whole thing is invariant under rotation. And for a very simple case, if your Hamiltonian is just a free particle $p^2 / (2m)$, then you realise that the direction in which the momentum points doesn't go into it. The kinetic energy is symmetric under rotations and it just depends on the magnitude of the momentum. Many Hamiltonians have these symmetries. And then if you think about what happens in your phase transition? You have learnt in statistical mechanics that always the system in thermal equilibrium tries to minimise the free energy. If you remember back from last year the free energy can be written as
 $$F=E-TS$$
-and we will talk a lot about entropy because it's more important for us than it is, for instance, in a kind of system where you just talk about the temperatures. The intuitive thing when you think about the free energy is this $S$ is what you want to maximise. This gives rise to the phase transition and the dynamics you have because if you have a very high temperature, which means the second term here is very important, and I don't have to care so much about minimising the energy. And the entropy is, in some sense, a measure for the increase in disorder in a manybody state, which means it would take a totally disordered state, a random combination of all possible states to have a totally
-mixed density matrix, and the second term will dominate. And that means that at very high temperature, you typically have an unnatural state. What is very low temperatures when this time becomes unimportant? The system will really want to sit in the state where you have the minimum energy and that drives you phase to.
-So, for instance, if you think of a pair of your fair magnets, the fur back in Mr Crown St.,
-if they are all aligned in the same direction, that minimises the energy.
-why would the system at high temperatures not want to minimise the energy,
-why would it wants to go to this, this or a state where because it always wants to minimise the free energy?
-And then if I if I'm unordered, I've caused a lot of entropy. If the system is ordered, the all spin spin up.
-That's just a pure state. I only have one configuration in the city zero if I have to run the mixture of spins up and down.
-I have a mixture of all of those possible spin configurations and have a very high entropy.
-We calculate this entropy is also in a few lectures. But I think the intuition is clear.
-And the same thing, why does water melt ice go to liquid water?
-Well, because if if I have a liquid state, I have short range combinations of water particles are.
-the state has much more entropy than the other crystalline state where the particles all sit really belong to minimise the energy.
-OK. I may make a pause here and see if there's any questions.
-And it would maybe ask, has anything of this been you or is this all things that you have seen before?
-See, before. OK, good, so then we could go through it fast. And that's fine.
-OK, so let's take an example, this is an important example.
-It's the paramagnetic. we have a system where we have local spins, which it can only point Ising model spin up or spin down.
-it's not fully quantum, it's more classical.
-And we can now think about how will this free energy look as a function, as a function of the make of the magnetisation?
-And because we're caring about the fascination of caring about where it goes from zero to non-zero,
-we only have to think about what happens is very, very small and.
-And then you can do a halo expansion of the free energy, and you can buy the desert halo expansion as a constant term,
-which you can ignore, it doesn't matter anything and then you start with a quadratic term.
-And according to him, and you realise that you cannot have a linear term in a cubic term that's forbidden by the symmetry up here.
-If to make it if I flip, the house spins around. Then the icing interaction will have the same energy.
-it can't have something, it just depends on if it would have an external magnetic moment that would of course give me a term linnean m h times m.
-But if I don't have that lowest term, I can have a them at the next term.
-That is aquatic turn. And that is basically all you need to like, understand quite some things about how to think about these phase transitions,
-because now you can just make a plot of these things and you realise if you make a plot of the free energy landscape, you can have two things.
-If the first term alpha here is positive and for some diseases, get a woman, you just assume that better will always be positive.
-If 04 is positive, the thing around zero looks a parabola, and it has its minimum around zero.
-If, however, 04 is negative, I have this inverted parabola here. Before the larger the term wins, the thing goes up here.
-you can see that the phase transition will happen at that point when it's over goes to zero,
-if I first positive, my minimum of the free energy would be in the middle.
-I mean, the unordered phase really ought to promote a zero to mechanisation to zero. If 10 04 goes to zero, it becomes negative.
-They don't have to structure to a minimum one here and one there. And then the minimum will be sitting in either of those.
-If I put in a delineation were put in a magnetic field, then of course I get a linear time on top of it in the fingers shifted.
-in the Paramount Network phase, if I put the magnetic field in the spins will align a little bit of the magnetic field.
-then the end is non-zero. But we should not think of this as an order parameter.
-It's just because it's not in the presence of a magnetic field that takes things away from zero artificially.
-What happens here? If you put a magnetic field and you see that the one state is lower than the other?
-Because the finger becomes tilted and then the quantity is well-defined and will be here.
-that's how you create a good magnet. What you really want to do is you want to put in an external magnetic field.
-Why this system is hot and then go from the paramagnetic down to the paramagnetic phase slowly cooling down because then the
-system would everywhere try to go into this situation and you end up with one big ferromagnetic domain and the bomb magnet.
-what's important for us? And that our also the title of the spontaneous symmetry breaking what's important for us is that the
+and we will talk a lot about entropy because it's more important for us than it is, for instance, in a kind of system where you just talk about the temperatures. The intuitive thing when you think about the free energy is this $S$ is what you want to maximise. This gives rise to the phase transition and the dynamics you have because if you have a very high temperature, which means the second term here is very important, and I don't have to care so much about minimising the energy. And the entropy is, in some sense, a measure for the increase in disorder in a many-body state, which means it would take a totally disordered state, a random combination of all possible states, to have a totally mixed density matrix, and the second term will dominate. And that means that at very high temperature, you typically have an unnatural state. Only at very low temperatures does this term become important. The system will really want to sit in the state where you have the minimum energy. So, for instance, if you think of a pair of ferromagnets in the ground state, if they are all aligned in the same direction, that minimises the energy. That's just a pure state. If I instead have a mixture of spins up and down, I have a very high entropy. And the same thing, why does ice melt to become liquid water? Well, because if I have a liquid state, I have short range interactions of water particles, and the state has much more entropy than the crystalline ice state which minimises the interaction energy between molecules.
+
+
+OK, so let's take an example, this is an important example. It's the paramagnet. We have a system where we have local spins, which it can only point (see Ising model) spin up or spin down. It's not fully quantum, it's more classical. And we can now think about how will this free energy look as a function of the magnetisation? And because we're caring about where it goes from zero to non-zero, you can do a Taylor expansion of the free energy, 
+[euqation]
+and then you start with a quadratic term. You realise that you cannot have a linear (or cubic) term as that's forbidden by the symmetry up here. If I flip the whole spins around, then the Ising interaction will have the same energy. But if I don't have that lowest quadratic term, I can have a them at the next, quartic, term. And that is basically all you need to understand quite some things about how to think about these phase transitions, because now you can just make a plot of these things and you realise if you make a plot of the free energy landscape, you can have two things. If the first term $\alpha$ here is positive [and you just assume that $\beta$ will always be positive], the thing around zero looks a parabola, and it has its minimum around zero. If, however, $\alpha$ is negative, I have this inverted parabola here, before the larger the term wins, the thing goes up here. You can see that the phase transition will happen at that point when it's over goes to zero, and then the minimum will be sitting in either of those. If I put in a magnetic field, then of course I get a linear time on top of it and the thing is shifted. In the paramagnetic phase, if I put the magnetic field in the spins will align a little bit of the magnetic field. Then $M$ is non-zero. But we should not think of this as an order parameter. It's just because it's not in the presence of a magnetic field that takes things away from zero artificially. What happens here? If you put a magnetic field and you see that the one state is lower than the other? Because the function becomes tilted and then the quantity is well-defined and will be here. 
+[pic]
+That's how you create a good magnet. What you really want to do is you want to put in an external magnetic field, while the system is hot, and then go down to the paramagnetic phase slowly cooling down because then the system would everywhere try to go into this situation and you end up with one big ferromagnetic domain and a permanent magnet. 
+
+We can also talk about broken symmetry.
 Crown state or from the state ID law at low temperatures can break the symmetry of demoting you.
 when you're in the situation, the system would either be here in this minimum or in debt minimum.
 the current state breaks a symmetry, even though the Hamiltonian has the symmetry. And how did symmetry is broken?
