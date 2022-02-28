@@ -39,123 +39,20 @@ And then I want to know the neighbouring spins because they're coupled to this. 
 That is length over which the fluctuations are correlated. Intuitively, a slight stretch initially that you can have a phase that can be long range ordered but have a short correlation. Which basically means I have a state where on average, all of my spins are mostly pointing up to this long range order, and the magnetisation is more or less the same everywhere. But nonetheless, the correlations are short range, which basically means if I do something to this one, wiggle a little bit only the nearest neighbours. When we can revert 10, 20, 50, 100 sites away, they will not wiggle with it. You've got to be a bit careful because some literature, some research papers, they're not very careful in what they discuss. They sometimes omit this word connected, and they just say, I have this correlation function just in case of potentially that kind of weight. But it's a long range ordered state. It kind of contradicts itself with the coalition faling to zero. The answer is the correlation function is finite, but the connected coalition function decays to zero. That's what they mean. Why is this an exponential function? The answer is very often from very many calculations, it emerges. It's the typical thing that we typically see, and it's the only thing where we can assign a length scale to it. If people talk about the length scale, they always mean that it must be a exponential function. Because if I think of something that looks a power law, you cannot easily define a length; instead you would define an exponent, a critical exponent or something. 
 
 
-OK, so now we have to accept Capillary to talk about phase conditions in slightly more detail.
-And basically, there's two types of phase transitions that we care about.
-The first one is what we call this discontinuous phase transition, or a first or a phase sensation.
-That's the phase in this way of a sudden jump. But the other parameter is zero here.
-And then there's this continuity, a jump to a finite value at this critical temperature.
-And that's what you get when you have water going to ice. You don't get very long correlations building up in the water, necessarily.
-You get directly Blochs of ice swimming on the water while in the second or a phase transition or continuous paced transition.
-And more generally, there's also a higher infinite order and so on.
-You get a continuous evolution here, so it starts off with zero and then continuously go up.
-It can be very sharp, but it's continuous. And this has important consequences if you think of a discontinuous phase transition.
-The other parameter jumps this continuously, as I said, in classical cases, there is often latent heat involved.
-Melting of ice, if you want to go to zero. From the ice to zero liquid water, you have to put in a lot of energy to melting energy.
-The both phases, can the cases coexist at a critical point?
-Just think of a glass of water in February, zero degrees Celsius with a Blochs of ice swimming in it, you realise because of the latent heat.
-The only stable situation that you can have is the stable situation where you have
-some ice and some water because we don't have enough energy to go fully into the liquid,
-but you have too much energy to be fully in the ice phase. And.
-Because of this, because both phases can coexist at a critical point. What is obvious?
-And it's important that it's obvious is that the coalition left you must remain finite.
-If I have something where to save the situation, I have a Bloch of ice swimming in a bigger pot of water.
-The system can't be infinitely correlated.
-Because if I have this little Bloch of ice, I cannot necessarily say how big the Bloch of ice isn't going to, water begins.
-the correlation must stay finite. OK.
-And this is a funny thing this this gives rise to something called quantum stability or if you have take fancy terms on long form from future,
-you would call it the collapse of the folds vacuum.
-And the cartoon for this, and this is not the first thing that's not in the notes from last year because it just edits the cartoon for this is to say,
-if I think of my free energy landscape as a double world, which is tilted, yes, one minimum that's lower than the other.
-And this double weather means that here is my medium state. if you take the blue line, the Quonset is this one.
-And now what you do is when you change parameters is you lower to one minimum and you have a minimum goes up.
-you go through the situation from the blue line to the situation to the Green Line. We know this minimum is too deep.
-the other parameter should be here. And what you can see, of course, as you see here is a sudden jump where you have this discontinuity,
-the other parameter, you see that in the cartoon because the other parameter, some first is here.
-And then suddenly split and later it's you.
-There's no situation in between where the other parameter and equilibrium would be, say, here in the middle.
-It jumps from there to there. And that also is the effect the cause was to this quantum stability, because if you know, sitting as this system,
-it is pretty well here and we turn parameters that is of a minimum in some sense comes down deeper and deeper and deeper.
-But you're still sitting here at a local minimum. how do you get from here to there?
-And the answer is it takes a long time, typically you can stay here for an arbitrary, pretty long time.
-That's what we call a threat to stability because you either have to tunnel through this barrier
-quantum mechanical tunnelling or you need to have some further fluctuation that freaks you over this,
-over this hump in the middle. And the classical example for this one that you all see almost every day is fizzy drinks.
-When you think about I have my liquid and liquid, I have dissolved my carbon dioxide, right?
-And that's the carbon dioxide bubbles out and gives me this little bubbles.
-When you look at this, you will realise that the bubbles are almost always forming at the interphase of the liquid with the glass.
-If you look at it from the top, you'll see David at around today.
-Not somewhere in the liquid, in the volume.
-And that's because for such a bubble to form the system is kind of a computer system sits here with the material being dissolved and
-that we can state the state that the state system wants to get to is the state of the bubble where the gas is not his wife anymore,
-but in the gas form. But in order to get there, it needs to have something to help you over the hump.
-And that can be a fluctuation, a little roughness from the glass on the insite and nucleation point where the bubbles can start to grow.
-And in a perfect quantum case, of course, you don't have that. the system can stay for a long time and is.
-And that's what people say that OK and cosmology, this is the fourth vacuum state because it literally looks a vacuum,
-but it's not a true vacuum because it's not at global state. And then the system can at some later point,
-tunnelled through the barrier gets to the global crown state and thereby release a lot of energy, potentially.
-And there's, some theories in cosmology that say this is what happens in the inflation period in the early universe.
-And there's, of course, a lot of science fiction that says, if I make a device that assumes that we are still in a false vacuum,
-we can go to the thinking, we can release arbitrary amounts of energy and use it for whatever.
-But that's science fiction. OK, so if I continue in our continuous phase transitions second order, they're different.
-The other parameter changes continuously. The way the symmetry here is broken is to work,
-the one that we've discussed in the previous slide is that these transitions are signalled by the spontaneous symmetry breaking.
-Because I have this symmetric situation accrued on my stuff and the system has to kind of coordinate,
-we are going to spin up, do we all going to spend on? And the way the system does this is by really communicating of a lot, lots of large distances,
-which means that you will always find it in this continuous phase transitions to correlation to will diverge at the phase transition.
-I show you an example on the next slide as of. But because the system spontaneously chooses, we all go to spin up or we all go to spin down.
-There must necessarily be correlation over the whole system, otherwise it wouldn't work.
-And this is an important point, because this really is a very powerful thing to analyse them in order to think about stuff.
-if you think about this now in a cartoon, you get a cartoon to, we have in the previous life already.
-You start off with something that looks a parabola because 04 is positive, so both the quadratic and aquatic term are positive.
-Then if you tuned on Alpha. Did you see you get to the situation first where you have this flat bottom here and then you get to the situation,
-but as minimum appearing and then this gets more and more negative, the minimum moves outwards.
-there's a continuous motion of this, many of the minimum from being going from here to there.
-it's continuous. It's not this continuous. these cartoons are actually pretty, pretty powerful cartoons of what happens in the free energy.
-And they have a lot of intuition about this. OK.
-Questions up to you. Good.
-Then we go on and just reminder for what we just said,
-the correlation divergence in the second phase transition at the transition and in our continuous transitions.
-And this has important consequences. The main consequence of this one is what people call universality.
-Universality means that if the fluctuations are correlated over long distances and we now know what that means,
-that the correlation length in this connected correlation function has very,
-very large distances and the divergence at the phase transition that we know or we can infer that microscopic details must be less important.
-Because if everything happened, it's very,
-very long scales that it can't be so important what happens on it on a very short and a very, very small length scale?
-I might end up with having many different local models that look at you look slightly different,
-but they have the same emergent behaviour at this very, very large lengths to get close to the phase.
-what it turns out, if you do numerical experiments on various different Hamiltonians, various different phase transitions,
-it turns out that there's always the same effect the theories that come up
-close to the critical points that can be equal for very different transitions.
-And these are called universality classes.
-it turns out there's a very different system, second, certain quantum magnets that have the same scaling,
-the same relations close to the phase transition, then for instance, the the quantum gas to be see transition.
-And they have the same scaling again as some field view is that you can also write them.
-And because of that, you can use one system to study something about phase transitions of another system.
-this is, of course, very,
-very important for us in quantum simulations because this is the reason why we can relate code atoms to neutron stars or quark crew and plasmas.
-a lot of the relationship between cold atoms and high energy physics, they come via this type because people say, OK, but look at this.
-I believe that I have the same kind of taste sensation, the same universality class.
-the same critical exponent in the same things. he said, critical exponent, what do they mean with this?
-It turns out. And if you want to see experts look at the phases, you can send out that if you go close to the phase, the many response functions.
-For instance, again, this medical suitability ability, many of them diverge.
-And of course, the susceptibility must diverge at a critical point.
-If you think of this, instability in the paramagnetic tells you how much of a response do you get for a given magnetic field?
-And if you suddenly get to the point where spontaneously you get a big response, you can write a magnetic field.
-That means that the system's ability diverges.
-You just need an external fuel to say we should all go practise symmetry in this direction or that direction, so it gets extremely sensitive.
-You get this, yeah, diverging susceptibility. And it turns out the way they this response functions diverge.
-They typically follow polls.
-And the exponents of these polls, which are quite the critical exponents because they're the exponents close to the critical point.
-They define the universality clause.
-And there's probably 10, 15 sets of these exponents that govern 90 percent of the first indications that people have studied and looked at.
-very often when people look at something kind of matter or phase transition or when they to numerics,
-the first thing that they do is they try to like,
-get out these response functions, look at their scaling and then they say, , we expected this critically important.
-It's this and it's dead. And then you typically see that, oh, actually, it matches what we would expect from this in this phase transition.
-It's the same universality class so we can use to one system to learn something about the other system.
-OK. And this is an important thing because this is kind of the connexion from a lot of stuff and cold atoms to
-neutron stars or Kwaku and plasmas or other things that people are consitering it in high energy physics.
-time for a concrete example. The example here is the 2D Ising model.
+OK, so now we talk about phase conditions in slightly more detail. And basically, there's two types of phase transitions that we care about. The first one is what we call this discontinuous phase transition, or a first order phase sensation. That's the phase in this way of a sudden jump. But the other parameter is zero here. And then there's this discontinuity, a jump to a finite value at this critical temperature. And that's what you get when you have water going to ice. You don't get very long correlations building up in the water, necessarily. You get blocks of ice swimming on the water. There are also second order or continuous phase transitions, and more generally, there's also a higher order and so on. You get a continuous evolution here, so it starts off with zero and then continuously go up. It can be very sharp, but it's continuous. And this has important consequences if you think of a discontinuous phase transition. The order parameter jumps this continuously, as I said, in classical cases, there is often latent heat involved. Melting of ice, if you want to go to zero. From the ice to zero liquid water, you have to put in a lot of melting energy. Can the phases coexist at a critical point? Just think of a glass of water in February, zero degrees Celsius with a blocks of ice swimming in it, you realise because of the latent heat. The only stable situation that you can have is the stable situation where you have some ice and some water because we don't have enough energy to go fully into the liquid, but you have too much energy to be fully in the ice phase. Because of this, because both phases can coexist at a critical point. And it's important that it's obvious is that the correlation length must remain finite. And this is a funny thing, which gives rise to something called quantum stability, or if you have take fancy terms 
+[on long form from future, you would call it the collapse of the folds vacuum.]
+And the cartoon for this, and this is the first thing that's not in the notes from last year because it just edits the cartoon for this is to say, if I think of my free energy landscape as a double well, which is tilted, yes, one minimum that's lower than the other. And this double well means that here is my medium state. if you take the blue line, the 
+[Quonset] [pic]
+is this one. And now what you do is when you change parameters is you lower to one minimum and you have a minimum goes up. You go through the situation from the blue line to the situation to the Green Line. We know this minimum is too deep. The order parameter should be here. And what you can see, of course, as you see here is a sudden jump where you have this discontinuity. There's no situation in between where the order parameter and equilibrium would be, say, here in the middle. It jumps from there to there. And that also is the effect the cause was to this quantum stability, because if you know, sitting as this system, it is pretty well here and we turn parameters that is of a minimum in some sense comes down deeper and deeper and deeper. But you're still sitting here at a local minimum. How do you get from here to there? And the answer is it takes a long time, typically you can stay here for an arbitrary, pretty long time. That's what we call a metastability because you either have to tunnel through this barrier or you need to have some further fluctuation that gets you over this hump in the middle. And the classical example for this one that you all see almost every day is fizzy drinks. When you think about I have my liquid and I have dissolved my carbon dioxide, right? And that's the carbon dioxide bubbles out and gives me this little bubbles. When you look at this, you will realise that the bubbles are almost always forming at the interfacee of the liquid with the glass. A little roughness from the glass on the inside can provide the fluctation needed to become a nucleation point where the bubbles can start to grow. And in a perfect quantum case, of course, you don't have that. The system can stay for a long time, and that's when people say in cosmology, this is the false vacuum state because it literally looks a vacuum, but it's not a true vacuum because it's not a global state. And then the system can at some later point, tunnel through the barrier gets to the global ground state and thereby release a lot of energy, potentially. And there's, some theories in cosmology that say this is what happens in the inflation period in the early universe. And there's, of course, a lot of science fiction that says, if I make a device that assumes that we are still in a false vacuum, we can go to the thinking, we can release arbitrary amounts of energy and use it for whatever. But that's science fiction. 
+
+OK, so if I continue in our continuous phase transitions second order, they're different. The other parameter changes continuously. The way the symmetry here is broken is to work, the one that we've discussed in the previous slide is that these transitions are signalled by the spontaneous symmetry breaking. There must necessarily be correlation over the whole system, otherwise it wouldn't work. And this is an important point, because this really is a very powerful thing to analyse them in order to think about stuff. If you think about this now in a cartoon; you start off with something that looks a parabola because $\alpha$ is positive, so both the quadratic and quartic term are positive. Then if you turn down $\Alpha$ you get to the situation first where you have this flat bottom here and then you get to the situation, but as minimum appearing and then this gets more and more negative, the minimum moves outwards. There's a continuous motion of this, many of the minimum from being going from here to there. It's continuous. 
+
+Then we go on and just reminder for what we just said, the correlation diverges in the second order phase transition. And this has important consequences. The main consequence of this one is what people call universality. Universality means that if the fluctuations are correlated over long distances, we can infer that microscopic details must be less important. Because if everything happened, it's very, very long scales that it can't be so important what happens on it on a very short and a very, very small length scale. I might end up with having many different local models that look at you look slightly different, but they have the same emergent behaviour at this very, very large lengths to get close to the phase. What it turns out, if you do numerical experiments on various different Hamiltonians, various different phase transitions, it turns out that there's always the same effective theories that come up close to the critical points that can be equal for very different transitions. And these are called universality classes.
+[]
+It turns out there's a very different system, certain quantum magnets that have the same scaling,
+the same relations close to the phase transition, as for instance the quantum gas to BEC transition. And because of that, you can use one system to study something about phase transitions of another system. This is, of course, very, very important for us in quantum simulations because this is the reason why we can relate cold atoms to neutron stars or quark-gluon plasmas. A lot of the relationship between cold atoms and high energy physics, they come via this type because people say, OK, but look at this. I believe that I have the same universality class, the same critical exponent. What do they mean by critical exponent? If you go close to the phase transition, the response functions, for instance the magnetic susceptability, many of them diverge. And of course, the susceptibility must diverge at a critical point. If you think of this, instability in the paramagnetic tells you how much of a response do you get for a given magnetic field. And if you suddenly get to the point where spontaneously you get a big response, you can write a magnetic field. That means that the susceptability diverges. You just need an external field to say we should break symmetry in this direction or that direction, so it gets extremely sensitive. And they follow how the response diverges. And the exponents of these power laws, which are the critical exponents because they're the exponents close to the critical point, they define the universality clause. And there's probably 10, 15 sets of these exponents that govern 90 percent of the first interattions that people have studied and looked at. 
+
+Time for a concrete example. The example here is the 2D Ising model.
 we have a 2D array of spins and izing spins, which means they only can spin up or spin down.
 We can't have anything in the X y plane here. the Heisenberg model yet to Mitone units just say, OK, there's a coupling between these two things.
 And these are not snapshots of further states that you get, it's different distribution at different temperatures,
