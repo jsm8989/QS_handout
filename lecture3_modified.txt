@@ -52,106 +52,16 @@ Then we go on and just reminder for what we just said, the correlation diverges 
 It turns out there's a very different system, certain quantum magnets that have the same scaling,
 the same relations close to the phase transition, as for instance the quantum gas to BEC transition. And because of that, you can use one system to study something about phase transitions of another system. This is, of course, very, very important for us in quantum simulations because this is the reason why we can relate cold atoms to neutron stars or quark-gluon plasmas. A lot of the relationship between cold atoms and high energy physics, they come via this type because people say, OK, but look at this. I believe that I have the same universality class, the same critical exponent. What do they mean by critical exponent? If you go close to the phase transition, the response functions, for instance the magnetic susceptability, many of them diverge. And of course, the susceptibility must diverge at a critical point. If you think of this, instability in the paramagnetic tells you how much of a response do you get for a given magnetic field. And if you suddenly get to the point where spontaneously you get a big response, you can write a magnetic field. That means that the susceptability diverges. You just need an external field to say we should break symmetry in this direction or that direction, so it gets extremely sensitive. And they follow how the response diverges. And the exponents of these power laws, which are the critical exponents because they're the exponents close to the critical point, they define the universality clause. And there's probably 10, 15 sets of these exponents that govern 90 percent of the first interattions that people have studied and looked at. 
 
-Time for a concrete example. The example here is the 2D Ising model.
-we have a 2D array of spins and izing spins, which means they only can spin up or spin down.
-We can't have anything in the X y plane here. the Heisenberg model yet to Mitone units just say, OK, there's a coupling between these two things.
-And these are not snapshots of further states that you get, it's different distribution at different temperatures,
-so black and white means pinpointing has been up and down. It is this whatever 100 by 100 patch or something?
-And some of you might have seen this before, because some of you might have done this one in there part two competing project.
-you can sample these things with quantum of quantum one two column efforts and so on, then numerically nice because they're tractable.
-And that's what a nice model system to study. What's important for us is if I take a certain beta, a certain temperature.
-In special units, I think, which I think is one. This is the temperature of 10, one of one of the temperatures one by two is the temperature of five.
-And you can see, OK, you see that here, there's a correlation in there, but the correlation function is very short changed.
-you see that you have very many small domains of black and white patches.
-if one spin is right, then they're still more likely that the neighbouring spins also spin up, right, because they have this one direction.
-But you see that this is this correlation of a few spin sites and then you have a small, fine grained thing of black and white.
-There's a lot of randomness in there.
-that's a typical paramagnetic phase in the absence of an external magnetic field, quite a bit above the critical point.
-And if you now go increase beta, so you decrease gamma a decrease the temperature.
-Points to point to one point to one or nine.
-This is getting very close to the phase transition, and you can see that these domains get bigger.
-What you just buy are you see the typical size of a white domain here. A smaller gets bigger here and here it gets big.
-this is not getting very, very close to the critical point where the whole system fluctuates as a whole.
-this is something with the correlation left, which typically is,
-you can say it's the feature size of the correlation if we go down from here to here.
-you would say if I go 50 pixels, I still if I start on a white one and go 50 pixels, the more likely they end up on a white one.
-But if I go 100, there's no correlation left that tells you that you're not getting close to the phase and that you would correlation,
-and it gets very, very big. it illustrates the point that the correlation include diverge at a critical point.
-OK. the correlation thinks I just at a second or a phase transition, as we expect for a second or two phase transition.
-OK, and now we can move over to the B.C. transition and discuss these things, you.
-And the easy transition, OK, let's first look at this again from the experimental point of view,
-what you see here is the time is these are always time of night pictures.
-They are this many time of day pictures taken when he stopped evaporation sequence at different times.
-the first one is pretty hot and then the temperature gets more than one, it's one of the propaganda evaporate and I apologise for the bad quality.
-Somehow the resolution got scrubbed. What's at stake on the right?
-OK. Right. so let's just put the facts.
-But OK, so this has temperature in Monaco. It just use of occurring.
-And actually, I was wrong. The temperature is this one.
-You have starting very hot and the temperature comes down, down, down, down, down. What when you do evaporative cooling?
-One thing that happens is that while you cool down, you also lose atoms.
-That's how the cooling processes, which basically means that when you get cooler, you have less atoms.
-And from statistical physics, you know that if I have less atoms, less density, the critical temperature for B C also goes down.
-therefore, if I know a calculator, I measure my atom number.
-From this, I can calculate what the critical temperature must be in that trap.
-And I practise on the left site here. you see as the Finklestein, the critical temperature is here, and then it also decreases down.
-And though you see at this point here, when the system gets colder than the critical temperature, that's when the peak starts to appear in here.
-But just follow it one more time. The peak appears.
-Now, and that's exactly when I when the temperature passes, gets lower than the critical temperature.
-this is the situation, as we've seen it before,
-where we say that basically what happens at the B.C. transition is that there is now an old plot from a reconnects group.
-This is a and units of TSE. It's a critical temperature.
-This is the number of atoms in the concept at momentum zero divided by the total at the numbers.
-What's the fraction? You can see that above T c, that fraction is essentially zero.
-If I have tentative five parties and they expect only one in 10 to the five or 04:40 to be in a crown state.
-But then here at some point they start to shoot up.
-And yeah, well, OK, they could got cut down to a point fifty what you see where he got 80 percent of the particles in the Queen state,
-and you would expect that if you would go down to zero, you would expect everybody in the state.
-What you can see here is the effect of the cooling down.
-The number decreases a lot, so at this point, five points here, there's hardly any items left, so definitely couldn't go further.
-This was one very early work, of course. Now we can reach ninety five, 98 percent Collins a fraction which in.
-there is a continuous phase transition here.
-You see that this number smoothly increases as continues and you go into the superfluid B.S. phase that we expect.
-What I now want to discuss is the question of what is the order parameter for this transition?
-you could, write down a simple order parameter by saying the order parameter is just exactly this fraction and not over,
-and it's zero to one site, Nunzio on the other site that would work.
-The problem that you have is that this whole description of particles looking at in which plane weights are and how are they occupied?
-That's a nice description for non attracting particles.
-But if you particles are interacting, then his whole concept of single particle state doesn't really make sense anymore.
-for interacting particles, you have to define again, what does a b c what is a superfluid actually is what how can I how can I think about this?
-You know, if you have a lot of attacking party on attracting particles,
-you can always vote on an anybody wave function just as a product of a single particle wave functions.
-And then you can look at what does each individual, a single particle do? If you think back off, the internet is a bit discussed in the first lecture,
-it's obvious that there this doesn't work because what this one particle does depends very much on what the other particles do.
-This is strongly correlated system, but even in weakly correlated system a typical weakly interacting C,
-do you have a problem because the repulsive interaction changes the way functions of all of the particles massively?
-If you've been if have listened to Zorn's lecture,
-you will have seen this kind of Thomas Fermi approximation where you see the it's not a single particle Quonset in the trip anymore,
-it's this inverted parabola that is dominated by the interaction energy.
-If you have not seen it doesn't matter, the main thing is to say this point and not over and works well for not injecting particles.
-But there's a conceptual problem.
-If I have interacting particles because the wave functions, not just the protocol, single particle wave functions anymore.
-we have to think about. How can we to think about the BBC in another way?
-How can we think about the BBC and not in the way of occupations? But in the way of talking about the way function the field?
-And the idea is if you think about optics, you think about, OK, if I have my thumb state, it's basically for a density matrix.
-I have a lot of different particles in different in different, highly excited states, and there is not much correlation between them.
-I can I can define a thermal correlation things the thermally proi wavelength,
-which goes one over the school of temperature, and that's about it.
-However, if I get to the with zero, I have this one macroscopic wave function, one macroscopic metre wave.
-it's kind of if you think about light fields you go from, a light bulb,
-classical light to a laser where it's just one nice frequency, which is an infinite correlation, takes both time wise and space wise.
-It's one plane wave. in the laser, if I have a laser fired, if there's one sign it's hard to go into outer space,
-if I know the phase here, I can predict the phase of a world. I know how it's oscillating just with the wavelength.
-While if I have a classical light field light coming from the sun, that's incoherent light.
-You know, there's no fixed phase relation between the light and light field there.
-The Twilight political light can't interfere. Laser light can interfere, and the same thing you get with the BBC, the BBC is a metre wave.
-That is everywhere, well-defined. And if I have to if I know the phase here, I also know the phase there.
-All part of the way functions are coherent that can interfere with each other,
-optica infinite weight, spatial coherence you have in the days field. that's the intuition.
-And now we have to take this intuition and put it into a formula. And here's how you do it.
-What you basically say is if I want to measure the phase of a better way for you to a light field,
-what I uses are you use the field operator, the creation and dilation apparatus of the field, the position excellent prime.
-We're seeing field operators before. Who has not?
-OK, one person has not seen him before. Two persons will not go into too much detail about them now.
+Time for a concrete example. The example here is the 2D Ising model. We have a 2D array of spins, only spin up or spin down. We can't have anything in the X-Y plane here. The Heisenberg model just says, OK, there's a coupling between these two things. And these are not snapshots of further states that you get, it's different distribution at different temperatures, so black and white means pinpointing has been up and down.
+[pic]
+And some of you might have seen this before, because some of you might have done this one in the part II competing project. You can sample these things, they're numerically nice because they're tractable. And that's a nice model system to study. What's important for us is if I take a certain $\beta$, a certain temperature. And you can see, OK, you see that here, there's a correlation in there, but the correlation function is very short ranged. You see that you have very many small domains of black and white patches. If one spin is right, then they're still more likely that the neighbouring spins also spin up, right, because they have this one direction. But you see that this is this correlation of a few spin sites and then you have a small, fine grained thing of black and white. There's a lot of randomness in there. That's a typical paramagnetic phase in the absence of an external magnetic field, quite a bit above the critical point. And if you now go increase $\beta$, so you decrease the temperature. This is getting very close to the phase transition, and you can see that these domains get bigger. What you see is the typical size of a white domain here gets bigger. Very close to the critical point the whole system fluctuates as a whole. It illustrates the point that the correlation diverges at a critical point. OK, and now we can move over to the BEC transition and discuss these things. Let's first look at this again from the experimental point of view, what you see here are this many time of flight pictures taken when we stopped evaporation sequence at different times.
+[pic]
+The first one is pretty hot and then the temperature gets more than one, I apologise for the bad quality. Somehow the resolution got scrubbed. What's at stake on the right? So let's just put the facts. And actually, I was wrong. The temperature is this one. You have starting very hot and the temperature comes down, down, down, down, down. What when you do evaporative cooling? One thing that happens is that while you cool down, you also lose atoms. That's how the cooling processes, which basically means that when you get cooler, you have less atoms. And from statistical physics, you know that if I have less atoms, less density, the critical temperature for BEC also goes down. Therefore, if I know I measure my atom number, I can calculate what the critical temperature must be in that trap. 
+[pic]
+What I now want to discuss is the question of what is the order parameter for this transition? You could write down a simple order parameter by saying the order parameter is just exactly this fraction $N_0/N$ it's zero to one side, nonzero on the other side. The problem that you have is that this whole description of particles looking at in which plane waves are and how are they occupied? That's a nice description for noninteracting particles. But if your particles are interacting, then his whole concept of single particle state doesn't really make sense anymore. For interacting particles, you have to define again, what what is a superfluid? You know, if you have noninteracting particles, you can always write down a manybody wave function just as a product of a single particle wave functions. And then you can look at what does each individual, a single particle do? If you think back to the first lecture, it's obvious that this doesn't work because what this one particle does depends very much on what the other particles do. This is a strongly correlated system, but even in weakly correlated system you have a problem because the repulsive interaction changes the way functions of all of the particles massively. If you have listened to Zoran's lecture, you will have seen this kind of Thomas Fermi approximation where you see the it's not a single particle in the trip anymore, it's this inverted parabola that is dominated by the interaction energy. If you have not seen it doesn't matter, the main thing is to say this point works well for noninteracting particles. But there's a conceptual problem if I have interacting particles because the wave functions are not just the single particle wave functions anymore. How can we to think about the BBC in another way? If you think about optics, you think about, OK, if I have my number state, it's basically for a density matrix. I have a lot of different particles in different highly excited states, and there is not much correlation between them, I can I can define a thermal correlation using the thermal de Broglie wavelength, 
+[equation]
+However, if I get to $T=0$, I have this one macroscopic wave function, one macroscopic matter wave. If you think about light fields you go from, a light bulb, classical light to a laser where it's just one nice frequency, which is an infinite correlation, both time wise and space wise. It's one plane wave. In the laser, if I have a laser field, if there's one sign it's hard to go into outer space, if I know the phase here, I can predict the phase globally. I know how it's oscillating just with the wavelength. While if I have a classical light field light coming from the sun, that's incoherent light. You know, there's no fixed phase relation between the light and light field there. And now we have to take this intuition and put it into a formula. And here's how you do it. What you basically say is if I want to measure the phase of a matter wave, you use the field operator, the creation and annihilation operators of the field, at position $x,x'$.
+]equation]
 We'll see later on a disk with his version of that, where it's easier to like, go through the mathematics.
 The key thing here is that you can think of is that you probing the phase of your Metway field at a certain point.
 You're probing, if I say, taking out a particle here, putting in a particle there and seeing what we still have an oval, if you're rich, a state.
