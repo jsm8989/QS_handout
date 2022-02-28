@@ -20,148 +20,25 @@ and then you start with a quadratic term. You realise that you cannot have a lin
 [pic]
 That's how you create a good magnet. What you really want to do is you want to put in an external magnetic field, while the system is hot, and then go down to the paramagnetic phase slowly cooling down because then the system would everywhere try to go into this situation and you end up with one big ferromagnetic domain and a permanent magnet. 
 
-We can also talk about broken symmetry.
-Crown state or from the state ID law at low temperatures can break the symmetry of demoting you.
-when you're in the situation, the system would either be here in this minimum or in debt minimum.
-the current state breaks a symmetry, even though the Hamiltonian has the symmetry. And how did symmetry is broken?
-That's called spontaneous symmetry breaking. So, for instance, to make the directive to mechanisation here can be non-zero,
-which breaks the symmetry spin up growth has been down, even though the Hamiltonian maintains that symmetry.
-And that's something that you can think about, how does this happen? How does this happen in practise?
-OK. I mean, first thing to say is that when people talk about a phase with broken symmetry, that means a phase, but the other parameters finite.
-But if the other parameter is not zero here, the to restore is restored to symmetry is there.
-Spinoffs been done doesn't make a difference.
-But if I'm in this situation and I sit here that its inventory is broken because I sit in the spin up case not to spin donkeys and vice versa,
-of course you. if Fontaine symmetry breaking is the same thing as, say, we get a final order from it,
-it's the same thing as, say, we go through the phase transition. this begs one question.
-Suppose we start in this situation high temperature, and I suppose we cringe,
-which means suddenly change the Hamiltonian or the temperature or something to go from left site to the site.
-We do this in a fully symmetric situation, but it's no magnetic field. And the question then is.
-What happens in which many when will the system evolve or how will the system evolve?
-And of course, we already said spontaneous symmetry breaking, so we cannot say, oh,
-it goes to the left or it goes to the because there's a spontaneous random element in it.
-But the philosophical question is where does this random this come from? External fields, yes.
-if I do this in a classical or case, there is some fluctuations coming in from my environment.
-A typical example is to say, if I put a stick this or a potato a pen and try to put it on its tip.
-But you noted that would be in a situation that would be. That would be a balance of forces.
-But, you know, it's an unstable equilibrium, so we'll always start to fall over in some direction.
-And then you can say, Well, OK,
-there will always be some fluctuation coming from the external world that will predict which direction it's going to be.
-It could be a raft of errors could be me wobbling a little bit.
-It could be, you know, being perfectly accurate and putting it upright.
-For all practical purposes, it's a random fluctuation coming from the outsite world.
-That's always what you have in a toilet because you have the phonons and all of the other part of the system coming in,
-and then something will break that symmetry for you and you will end up just in this case.
-But now how about you do it isn't the perfect quantum situation. How about you take a pure perfect unitary quantum system?
-No noise, no nothing. And you place that system exactly here in the middle, you have an exact symmetry left and right, and it doesn't break.
-Then it doesn't break, so what doesn't happen, then you have a position.
-Exactly. there's two important things. The thing is that if I put the quantum system up here,
-it will not stay here even without any breaking of the symmetry, without any fluctuations from the outsite world.
-The quantum system will also roll down the hill. But because of the quantum system, it will do so in a symmetric fashion.
-good simultaneously road on this hill and that. And then you end up with a superposition of the system being here and here.
-And it's kind of a weird idea if you think about the big meta system.
-But it is what's happening. And the question is, how can you measure this, what happens when you try to measure the system,
-when you look at it, where the answer is, then if you now start to measure, it's been in here,
-you will find the system over here or there because the measurement if you measure it,
-mechanisation is a projection operator and if projects you over in this state or on that state.
-it's. Conceptually clear, conceptually,
-I'd go into this going into a position of both minima and the measurement would give me a collapse of the way function into one of the minimum.
-That's, of course, extremely challenging to figure out to think about this experimentally, because experimentally, it's very hard.
-It's in many cases impossible to say, OK,
-did it have to quantum squat position before I measured or was there some classical noise coming in that said,
-already classically, I went to that state or I went into this state.
-We will see one example later on where we see that it's where we see the state of the art on this,
-but it's conceptually such that whenever you have the classical case,
-you go here or you go there or you have the quantum case, you go into the superposition.
-And then the measurement collapses to here or there is extremely hard, almost impossible to distinguish.
-If you think about how can you distinguish this for a small system, you can do something where you say, OK, what can I do?
-A unitary transformation that takes the position of this one into one state and the other squat position into the other state.
-And then I see where I get this state or state or run the mixture of the two.
-For small systems, you can do this, but it's very hard to do this in a fully unitary fashion for a really big system.
-OK. the next thing to discuss all of this is we now have to talk about correlation functions.
-a correlation function is I haven't observable operated at a measure and I measure that position
-X and the position X Y and I take the expectation value of the product of these operators.
-That's the correlation function G of X and. Have you all seen this before?
-Everybody nods, OK, so we can go reasonably quickly.
-The intuition about this is the question is, are the measurements as to or what he says correlated.
-if I measure it X, does that give me some information about what to expect to see it prime?
-And if you take a, say, random random function this.
-And you measure X here. And you say I measure at this point, it's prime here.
-Then you would probably say, OK, these two measurements are uncorrelated just because you have a maximum here because the thing is random.
-I could have whatever I want here.
-However, you can also say, well, there is something there's a structure in here because I have a characteristic length.
-The system goes from maximum to minimum over a distance this.
-if I take two points, let me take this point x at this point from here, where the distance between these two points is very short.
-Shorter than this typical distance to go from maximum to minimum, then we would expect that these measurements are correlated.
-We would expect that if I have a high value here, I would also have a high value next to it because we expect that this thing is in.
-This distribution is not smooth and continuous and has a certain length to get to it.
-And this question of overreach distance are things correlated is an important question when you talk about phase transitions,
-because if you have something the state, the terror magnet where you would say, OK, if I notice I have been up over here,
-I also know I would have spins up over here of correlation of a very long distance.
-What if the paramagnetic every little spin fluctuates independently? I would not have any correlations.
-this is a good way to test whether I will have a C.
-I have a correlated state or not.
-If I take this a little bit more formal, I can take the long range limit, I can ask, OK, does this combination functions the same way we have up here?
-That's the expectation value of the correlation function.
-Does that one go to zero or not go to zero if I take X next prime to be arbitrarily far away?
-you asked, do I have correlations at infinite distances and this people call long range auto?
-if I have a system that has long range order, it means if I know something about the system here,
-I can predict something about the system arbitrarily far away. I say something because.
-The typically the correlations with UK down a little bit.
-But then they were like, Asuman, finite value at arbitrarily large distances, so it's not very smart,
-very not an extremely strong correlation, necessarily that if I know it's been up here, it must be spin up here, but it will not.
-There was some information still there. a phase to this long range order, the phase of broken symmetry, a firm icon and so on, we can see.
-But looking at this object and looking at this limit and see, OK, we have long range auto.
-OK. This is basically just the same thing I just said. And now the confusing part comes now.
-This is to be called accommodation function. The next thing that are now going to introduce is C, which is the connected correlation function.
-And what that basically is, it's basically saying, OK, if we take the correlation function that we just had and subtract from that the
-product of the expectation values of the operator at Position X and that x prime.
-And now, on one hand, you can say, OK, well, mathematically, yes, you can do this, why not?
-The question is, why would you want to do this, why is this relevant? Does anyone have an intuition of why a connected correlation function?
-Right? Subtract off the average values could be of importance to us.
-if the correlations are zero, then yes and the whole thing, then this to his first term here zero.
-And then if the correlations are zero, then typically you also don't have APR,
-so you don't have an expectation that you hear this on zeros and the whole thing is zero. That's true, yes.
-But the key thing is slightly the other way around. The key thing is the following Let's say I have a ferromagnetic.
-on average, two spins are more pointing up and down. And now let's say I take the spin and left here and I wiggle a little bit around.
-And then I want to know the neighbouring spins because they're coupled to this, and we're probably also we could with it.
-I want to know to dispense very far away, also wiggle with it, or does this kind of dampen out and does not do anything?
-If I try to, do this, have the correlation function itself? I can, but I have to be very careful because in the correlation function itself,
-I get this big offset because I get a big correlation everywhere because the spins are mostly pointing up.
-if I say I want to, now,
-know what is the length scale over which a small perturbation does something to the system on top of this big background,
-I have to subtract off the background to just see this thing. if I'm kind of saying, OK.
-But picking of the mechanisation, and I'm now thinking of a firm amazing situation, so here is zero.
-And now let's say I have a firm. it is democratisation. I have a non-zero value here, but I have some fluctuations on top of that value, I.
-And they want to know what is the length scale from this maximum to this minimum?
-That it's a very good idea to say OK in order to see this very strongly.
-Let me just subtract off the average value this one here and then then just look at the fluctuations around that average value.
-And that's what you do, have to connect the correlation function. And you will see what this is nice.
-This is just saying the same thing that I said, you will see what is this noise?
-Because very often what you will get is you get something where the typical behaviour of
-this connected correlation function to see is that these things decay exponentially.
-Of minus x minus x prime with a certain length scale. does this length scale PSI, which required a correlation length?
-That is length of of which the fluctuations are correlated. And it's not an intuitive.
-Intuitively, a slight stretch initially that you can have a phase that can be long range ordered but have a short correlation.
-Which basically means I have a state where on average, all of my spins are mostly pointing up to this long range order,
-and the democratisation is more or less the same everywhere. if I know democratisation is positive, I can predict it will be positive here.
-I have this long range information. But nonetheless, the correlations are short range,
-which basically means if I do something to this one, wiggle a little bit only the nearest neighbours.
-When we can revert 10, 20, 50, 100 sites away, they will not wiggle with it.
-two states that this long range ordered but has not long way is not long which correlated.
-At the kink, the key thing is that when people talk about correlation things and they talk about this exponential behaviour here,
-they always talk about the sea and not the.
-And you got to be a bit careful because some literature, some research papers, they're not very careful in what they discuss.
-They sometimes omit this word connected, and they just say, , I have this correlation function just in case of potentially that kind of weight.
-But it's a long range ordered state. It kind of contradicts itself with the coalition came to zero.
-The answer is the coalition function is finite. But to connect, the coalition function decays to zero.
-That's what they mean. that's why I put a bit of pain in here to make this distinction very clear.
-OK. Right. Good. Why is this an exponential function?
-The answer is very often from very many calculations, it emerges.
-It's the typical thing that we typically see, and it's the only thing where we can, assign a length to get to it.
-If people talk about the length scale, they always mean that it must be a exponential function.
-Because if I think of something that looks a power law,
-you cannot easily define a length for what you would define an exponent, a critical exponent or something.
-But if you define a length skirt, governs everything and implicitly, you're always talking about an exponential function.
+We can also talk about broken symmetry. The ground state breaks a symmetry, even though the Hamiltonian has the symmetry. And how does this happen? That's called spontaneous symmetry breaking. So, for instance, the mechanisation here can be non-zero. When people talk about a phase with broken symmetry, that means a phase, but the order parameter is finite. If spontaneous symmetry breaking gives a final order from it, it's the same thing as, say, we go through the phase transition. This begs one question. Suppose we start in this situation high temperature, and I suppose we quench, which means suddenly change the Hamiltonian or the temperature or something. We do this in a fully symmetric situation, but it's no magnetic field. And the question then is, in which way will the system evolve or how will the system evolve? And of course, we already said spontaneous symmetry breaking, so we cannot say, oh, it goes to the left or it goes to the right because there's a spontaneous random element in it. But the philosophical question is where does this random this come from? External fields, yes. If I do this in a classical case, there is some fluctuations coming in from my environment. A typical example is to say, if I have a pen and try to put it on its tip. But, you know, it's an unstable equilibrium, so we'll always start to fall over in some direction. And then you can say, Well, OK, there will always be some fluctuation coming from the external world that will predict which direction it's going to be. It could be a draft or it could be me wobbling a little bit. For all practical purposes, it's a random fluctuation coming from the outsite world. That's always what you have in a solid because you have the phonons and all of the other part of the system coming in, and then something will break that symmetry for you and you will end up just in this case. 
+
+But now how about you do it in the perfect quantum situation. How about you take a pure perfect unitary quantum system? No noise, no nothing. And you place that system exactly here in the middle, you have an exact symmetry left and right, and it doesn't break. There's two important things. The thing is that if I put the quantum system up here, it will not stay here even without any breaking of the symmetry, without any fluctuations from the outsite world. The quantum system will also roll down the hill. But because of the quantum system, it will do so in a symmetric fashion. And then you end up with a superposition of the system being here and here. And it's kind of a weird idea if you think about the big metal system, but it is what's happening. And the question is, how can you measure this, what happens when you try to measure the system, when you look at it? Well the answer is, then if you now start to measure, it's been in here, you will find the system over here or there because the measurement if you measure it; magnetisation is a projection operator and it projects you either in this state or on that state. Measurement would give me a collapse of the way function into one of the minimum. That's, of course, extremely challenging to figure out to think about this experimentally, because experimentally, it's very hard. It's in many cases impossible to say, OK, did it have that position before I measured or was there some classical noise coming in that said, already classically, I went to that state or I went into this state. We will see one example later on where we see that it's where we see the state of the art on this, but it's conceptually such that whenever you have the classical case, you go here or you go there or you have the quantum case, you go into the superposition. And then the measurement collapses to here or there is extremely hard, almost impossible to distinguish. If you think about how can you distinguish this for a small system, you can do something where you say, OK, what can I do? A unitary transformation that takes the position of this one into one state and the other position into the other state. And then I see whether I get this state or state or some mixture of the two. For small systems, you can do this, but it's very hard to do this in a fully unitary fashion for a really big system. 
+
+OK. the next thing to discuss all of this is we now have to talk about correlation functions. If I have an observable and I measure that position X and the position Y and I take the expectation value of the product of these operators. Have you all seen this before?
+[equation]
+The intuition about this is the question is, are the measurements (or to what extent) correlated? If I measure this X, does that give me some information about what to expect to see in Y? And if you take a, say, random random function and you measure X here. And you say I measure at this point, it's prime here.
+[pic]
+Then you would probably say, OK, these two measurements are uncorrelated just because you have a maximum here because the thing is random. I could have whatever I want here. However, you can also say, well, there is something there's a structure in here because I have a characteristic length. The system goes from maximum to minimum over a distance. If I take two points, let me take this point x at this point from here, where the distance between these two points is very short. Shorter than this typical distance to go from maximum to minimum, then we would expect that these measurements are correlated. We would expect that if I have a high value here, I would also have a high value next to it. This distribution is smooth and continuous and has a certain length to get to it. And this is an important question when you talk about phase transitions; for example if you have a ferromagnet where you would say, OK, if I notice I have spin up over here, I also know I would have spins up over here of correlation of a very long distance. Instead in a paramagnetic every little spin fluctuates independently, so I would not have any correlations. This is a good way to test whether I will have a correlated state or not. If I take this a little bit more formal, I can take the long range limit, I can ask, OK, does this correlation function behave the same way as up here? It's the expectation value of the correlation function. Does that one go to zero or not go to zero if I take $X'$ to be arbitrarily far away? Do I have correlations at infinite distances? This is called long ranged order. If I have a system that has long range order, it means if I know something about the system here, I can predict something about the system arbitrarily far away. I say something because, typically the correlations decrease with distance. 
+
+The next thing that are now going to introduce is the connected correlation function.
+[euqation]
+And what that basically is, it's basically saying, OK, if we take the correlation function that we just had and subtract from that the product of the expectation values of the operator at Position X and $X'$. And now, on one hand, you can say, OK, well, mathematically, yes, you can do this, why not? The question is, why would you want to do this, why is this relevant? Does anyone have an intuition of why a connected correlation function? If the correlations are zero, then the first term here is zero. And then if the correlations are zero, then typically the whole thing is zero. That's true, yes. But the key thing is slightly the other way around. The key thing is the following. Let's say I have a ferromagnet, on average, two spins are pointing up and down. And now let's say I take the spin here and I wiggle a little bit around.
+[pic]
+And then I want to know the neighbouring spins because they're coupled to this. I want to know the effect very far away, also wiggle with it, or does this kind of dampen out and does not do anything? If I try to, do this, have the correlation function itself? I can, but I have to be very careful because in the correlation function itself, I get this big offset because I get a big correlation everywhere because the spins are mostly pointing up. Say I want to, now, know what is the length scale over which a small perturbation does something to the system on top of this big background, I have to subtract off the background to just see this thing. Very often what you will get is you get something where the typical behaviour of this connected correlation function to see is that these things decay exponentially. 
+[equation]
+That is length over which the fluctuations are correlated. Intuitively, a slight stretch initially that you can have a phase that can be long range ordered but have a short correlation. Which basically means I have a state where on average, all of my spins are mostly pointing up to this long range order, and the magnetisation is more or less the same everywhere. But nonetheless, the correlations are short range, which basically means if I do something to this one, wiggle a little bit only the nearest neighbours. When we can revert 10, 20, 50, 100 sites away, they will not wiggle with it. You've got to be a bit careful because some literature, some research papers, they're not very careful in what they discuss. They sometimes omit this word connected, and they just say, I have this correlation function just in case of potentially that kind of weight. But it's a long range ordered state. It kind of contradicts itself with the coalition faling to zero. The answer is the correlation function is finite, but the connected coalition function decays to zero. That's what they mean. Why is this an exponential function? The answer is very often from very many calculations, it emerges. It's the typical thing that we typically see, and it's the only thing where we can assign a length scale to it. If people talk about the length scale, they always mean that it must be a exponential function. Because if I think of something that looks a power law, you cannot easily define a length; instead you would define an exponent, a critical exponent or something. 
+
+
 OK, so now we have to accept Capillary to talk about phase conditions in slightly more detail.
 And basically, there's two types of phase transitions that we care about.
 The first one is what we call this discontinuous phase transition, or a first or a phase sensation.
@@ -504,11 +381,3 @@ I can't observe that is true. You just have the single object.
 But if I have to object to wave functions, then I can observe the relative to phase between them doing interference.
 So, yeah. A lot of concepts, and they all nicely tied together to explain what we see.
 OK. That's the end for today. Any questions left?
-Perfect, that's not the case, then I'll see you again on Thursday and on Thursday, we then start with optical lattices.
-And then we started I put this concept into play,
-really with the first complex problem on Thursday will also publish the first problem set because it has parts of this piece in there,
-but also parts of the capital lattice and will also start in the next two days to like, assign the tutorial groups, which means please,
-if you like, interested in taking the exercises, make sure that you are registered for the course of the year and vice versa.
-If you think OK, you want to keep listening to the course but not want to take the exam and not want to take the do the exercises,
-then please make sure that you're not registered nurses so that we know how many people we have to assign tutors for.
-Perfect. Thank you very much. See you first.
