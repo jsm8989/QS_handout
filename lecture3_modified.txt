@@ -62,129 +62,18 @@ What I now want to discuss is the question of what is the order parameter for th
 [equation]
 However, if I get to $T=0$, I have this one macroscopic wave function, one macroscopic matter wave. If you think about light fields you go from, a light bulb, classical light to a laser where it's just one nice frequency, which is an infinite correlation, both time wise and space wise. It's one plane wave. In the laser, if I have a laser field, if there's one sign it's hard to go into outer space, if I know the phase here, I can predict the phase globally. I know how it's oscillating just with the wavelength. While if I have a classical light field light coming from the sun, that's incoherent light. You know, there's no fixed phase relation between the light and light field there. And now we have to take this intuition and put it into a formula. And here's how you do it. What you basically say is if I want to measure the phase of a matter wave, you use the field operator, the creation and annihilation operators of the field, at position $x,x'$.
 ]equation]
-We'll see later on a disk with his version of that, where it's easier to like, go through the mathematics.
-The key thing here is that you can think of is that you probing the phase of your Metway field at a certain point.
-You're probing, if I say, taking out a particle here, putting in a particle there and seeing what we still have an oval, if you're rich, a state.
-Intuitively, for now, just think about I measure the phase of two of the better way for you to measure the phase of the
-metal away for you to hear and ask if it is two phases of something are related to each other.
-Even for very long distances. Because we have the superfluid state where the pictures you have this phase coherence
-of all of the system that if you measure the phase of the wave function here, you can predict the phase of the wave function somewhere else.
-And if you have an incoherent better way forward, you can't do that. That's the idea.
-OK, so what you do is you take this kind of order parameter. , you can't just kind of correlation function.
-Take the India, take the limit of this to infinity, so you look at the long range order of this and people call this off diagonal, long range model.
-It's not density density. It's not the densities you have in a crystal.
-If there's a particle here, this next particle there, the next particle there.
-We now have a wave function where each particle as we spread out of all of the area, in the plane wave.
-And what we're saying is we are looking at the optical elements to phase elements, the correlations between here and here.
-we are asking if the phase is something here. What can we say about the phase of the wave function?
-At no point. The people call this the there, the long range, or LRO.
-You'll see that a lot of text. This is what it is.
-It's basically a mathematical measure to measure the coherence and easy to measure of the way function is coherent everywhere.
-OK. And this was what I said in the beginning.
-Why do we have to do this?
-Why can we not just look at the macroscopic occupation of the ground state where the answer is that would not work for interacting particles?
-this is the order state, this is the state when we talk about UBC, the superfluid,
-we say we go from an unnatural state to from a state that has no special phase anywhere.
-There's no phase correlations and nothing going to an ordered state. We have this often long range order.
-what we said earlier about the second lot of phase conditions, as we said, OK, well, if you have this.
-You would expect you have this mechanism of simultaneous breaking. you're asking which symmetry is broken here?
-We're going to see which symmetry is broken and mathematically speaking, you say, OK,
-it breaks that you want symmetry of the Hamiltonian, you want this to phase symmetry.
-And basically, it's to say if I have one macroscopic metre wave, that would have a phase, so I have to pick a phase.
-Intuitively speaking, if my Hamiltonian is hitch and precise and I can state of that,
-the multiplying my my wave function type of a Facebook that actually be priceless.
-No, that's also what I it. But, you know,
-if if if a wave function is an can state and see times the way function with
-these numbers also in state and if it's just a phase factor is also anomalous,
-nothing changes. it basically says that this phase I fight in front of her way function.
-That's my symmetry. Well, if I take this phase that phase that phase, that phase that phase them or Tony doesn't care.
-Because if you think of the kinetic energy to have an amateur in it only looks at phase gradients,
-the derivatives doesn't look at the absolute phase. that's a two million people call us.
-Do you want symmetry? Because that's just the age group of Ã©tudie i.
-And if this phases programme spontaneously, spontaneously picks the phase of the wave function, then that's the symmetry breaking that year after.
-Is this the local? Mm hmm.
-Good point. Don't. You just multiply the state by state, that's completely unacceptable.
-Mm-Hmm. Usually we'll get examples in the next light, yes.
-OK, so this is a global or local cemetery and both so the.
-To the phase of the wave function is a local order me, because the phases defined it every point,
-it can be different at every point in the same thing as the mechanisation or the mechanisation.
-Density, I should say, is a local quantity. What I kind of spin up here happened on C-SPAN.
-Of course, it's a local quantity, however, because I have long range order, because I say in this phase,
-if I have to pick a certain phase here, it has to be to phase somewhere else an affirmative.
-I'd say it spins up here. It would also be spins up there.
-The long range auto means that all of the local cemetery gets reduced to a Clover cemetery because we say the system is language order,
-so we practise in which at one point it's broken everywhere else in the same way. OK.
-Good. now just two quick examples in the midst of two today.
-This is an experiment, what's called the atom laser was done about water 20 years ago now.
-What they did here is the details of the trip don't really matter. What's important is they have a b, c and a trap.
-This is a cloud of atoms in the trap. This is the atoms in the trap is just a density picture.
-And then they couple out atoms at two different points in the trip. Say somewhere up here and somewhere down there.
-And then the metre waves that you couple out are particles just floating out this.
-And if you do this with a atoms, so above the critical temperature. This is what you get.
-Just take it slow with atoms falling down. Just see the densities. However, if you do this close to the B.C. transition.
-If you knock to this close to the transition to the cloud, it's partially condenser,
-you know, below to see what you start to see us, you see four inches, the few inches.
-You can fit this and you see a nice interference pattern.
-And the reason for that is that now the metre waves and the BBC, as such as a from a from a gas we think of a little plop here,
-little prop there, little prop there you think of big extended wave functions that expand the whole system.
-your phase correlations between two points up here and up here.
-And then what you get if you have two coherent waves city overlap, you get interference between it.
-You get points where the wave functions have the same phase, so you get a high density and wave functions, but they have the opposite effect.
-you get destructive interference and you don't see any particles.
-you can see this nicely here, and then you can also see that if you do this now fully condensed to fabulous,
-you can see there's less atoms in here now because they air to evaporate forever. You can see you get a very, very strong modulation.
-You can a very, very strong interference contrast. that's really what you're saying is now to be the atoms copied out of the BBC.
-They're an atom laser, a laser beam. A fully coherent beam. A a about two of them and overlap them.
-They get a beating between them interference. And it can see that you.
-you do see this coherence directly popping up, which is amazing.
-OK. They also do they also did a falls short now, OK?
-They also did a quantitative analysis and ask What is the visibility,
-which is a stand in if you want for a proxy for the coherence as a function of the distance?
-This was the same paper. And if they look at high temperatures, you can see that the visibility drops down to zero.
-If you fit this exponential decay, you would say the correlation length is maybe 200 300 micrometers in here.
-If they do this below the critical temperature,
-you can see it also the case to answer there's also correlation next weak if the correlation functions the times they grow,
-which is the case down,
-but at the case to an offset case to a long range order because the system has phase coherence over the whole cloud over a large piece.
-I have two concepts that we had.
-Looking at the correlation function that tells us where about two particles are two parts of the way functional coherent that goes into invisibility.
-It tells us about the coherence, the correlation length. What is the timescale to which decay and tells us with the offset,
-the long range order that is the hallmark of the state of a long range order in order to phase?
-we see all of this nicely. And later on, they do experiments, what people also did is to say, OK, if they do very quick cooling to take a big load.
-Hot air cooled down very, very quickly, and then this is a function of how slow or fast they're cool.
-They look at what is the contrast, the visibility that they get as a function of the distance.
-The crew very quickly, when you 20 minutes down very quickly, there's no time for the system to communicate over large distances.
-You see, you only get the correlations of a very short distances.
-What if you do it slowly, you see long range or really emerging and the visibility peering over long times?
-OK. And now let me come to my final slide for today.
-The question of is there really a spontaneous symmetry being broken?
-And to answer this is, well, what you can do is you can do the following experiment, which was done in 2004, two years ago, almost.
-What they did is they created two pieces independently. One here, one there.
-These have never seen each of them take a peek from a cloud split into two parts, and then the condensation occurs independently in the two.
-this species have never seen each other. And then they do time apply to the VCs, expand.
-They get bigger and they overlap in the middle, and then you can ask, OK, what do you get?
-What do you expect to see? What do you think?
-Hmm. Yeah, exactly, you can think of this as a if the BBC is fully coherent in itself, then it's kind of a double speak.
-We have one laser beam from here, one laser beam from there, and I will see interference between them.
-And indeed, time of light pictures. They see very nice interference contrast in between you.
-And something it's really important that is not so much said because we showed it in the pictures, but it said in the text, is that OK?
-Books have been created independently. There's no prior phase communication.
-And the point is, if they do this experiment, many, many times did the appearance contrast is always high.
-this is always a coherent to each other. They always have a fixed a phase relation to each other.
-They can always interfere. But the phase varies randomly from shot to shot.
-it's not that you always have the maximum here. Sometimes you have a minimum and maximum stare and so on.
-every time you do this picture, you get a random orientation of body shots and the minimal.
-this is fully consistent with the idea of we have this microscopic coherence in
-the BBC and we have the spontaneous symmetry breaking during the condensation.
-each piece is kind of if one picks its phase randomly while you're right, it's condensing.
-And this one does the same, but independently. the relative space between them is random, but it's always well-defined.
-you always get a nice coherence, but you get a different phase every time.
-It's kind of if you take the if you take a firm and then cool it down a hundred times from the crude temperature down to the very different,
-and you expect that the the domains that did it to you expect that the direction of the mechanisation is random every time you expect that,
-every time you get a nice for a magnet, but sometimes it's this. Sometimes it's that sometimes it's that.
-And here you can do the same thing with the BBC.
-And to answer, coming back to your point earlier on, you would say that normally a global perspective in a way function.
-I can't observe that is true. You just have the single object.
-But if I have to object to wave functions, then I can observe the relative to phase between them doing interference.
-So, yeah. A lot of concepts, and they all nicely tied together to explain what we see.
-OK. That's the end for today. Any questions left?
+The key thing here is that you can think of probing the phase of your field at a certain point. You're probing, if I say, taking out a particle here, putting in a particle there and seeing what we still have an overall coherent state. Intuitively, for now, just think about measuring the phase of the matter wave in two locations and ask if they are related to each other. Even for very long distances. Because we have the superfluid state where the pictures you have this phase coherence of all of the system that if you measure the phase of the wave function here, you can predict the phase of the wave function somewhere else. OK, so what you do is you take this order parameter, take the limit of this to infinity, so you look at the long range order of this and people call this off diagonal, long range order, ODLRO. It's not density density. It's not the densities you have in a crystal. 
+[equation]
+If there's a particle here, this next particle there, the next particle there. We now have a wave function where each particle as we spread out of all of the area, in the plane wave. And what we're saying is we are looking at the optical elements to phase elements, the correlations between here and here. We are asking, if the phase is something here, what can we say about the phase of the wave function at another point? The ODLRO basically a mathematical measure of the coherence and easy to measure of the wavefunction is coherent everywhere. OK. And this was what I said in the beginning. Why do we have to do this? Why can we not just look at the macroscopic occupation of the ground state where the answer is that would not work for interacting particles? This is the order state, this is the state when we talk about the superfluid, we say we go from an unnatural state to from a state that has no special phase anywhere. There's no phase correlations and nothing going to an ordered state. We have this often long range order. What we said earlier about the second order phase transitions, as we said, OK, well, if you have this. You would expect you have this mechanism of symmetry breaking. You're asking which symmetry is broken here? We're going to see which symmetry is broken and mathematically speaking, you say, OK, it breaks that you want symmetry of the Hamiltonian, you want this to phase symmetry. And basically, it's to say if I have one macroscopic matter wave, that would have a phase, so I have to pick a phase. Intuitively speaking, if my Hamiltonian has a certain symmetry, then multiplying my wave function by a phase factor is unimportant. Because if you think of the kinetic energy, it only looks at phase gradients. 
+[Because that's just the age group of Ã©tudie i.]
+
+And if this phases programme spontaneously, spontaneously picks the phase of the wave function, then that's the symmetry breaking that year after. Is this the local? Mm hmm. Good point. Don't. You just multiply the state by state, that's completely unacceptable. Mm-Hmm. Usually we'll get examples in the next light, yes. OK, so this is a global or local cemetery and both so the. To the phase of the wave function is a local order me, because the phases defined it every point, it can be different at every point in the same thing as the mechanisation or the mechanisation. Density, I should say, is a local quantity. What I kind of spin up here happened on C-SPAN. Of course, it's a local quantity, however, because I have long range order, because I say in this phase, if I have to pick a certain phase here, it has to be to phase somewhere else an affirmative. I'd say it spins up here. It would also be spins up there. The long range auto means that all of the local cemetery gets reduced to a Clover cemetery because we say the system is language order, so we practise in which at one point it's broken everywhere else in the same way. OK.
+
+
+Good. now just two quick examples to finish off today. This is an experiment, what's called the atom laser was done about water 20 years ago now. The details of the setup don't really matter. What's important is they have a BEC in a trap. 
+[pic]
+This is a cloud of atoms in the trap. This is the atoms in the trap is just a density picture. And then they couple out atoms at two different points in the trip. Say somewhere up here and somewhere down there. And then the matterwaves that you couple out are particles just floating out this. And if you do this with a atoms, so above the critical temperature, this is what you get. Just take it slow with atoms falling down. Just see the densities. However, if you do this close to the BEC transition, where it's partially condensed, you see a nice interference pattern. And the reason for that is that now the matterwaves and the BEC, you can think of big extended wave functions that expand the whole system. Your phase correlations between two points up here and up here. And then what you get if you have two coherent waves overlap, you get interference between it. You get points where the wave functions have the same phase, so you get a high density. You can see this nicely here, and then you can also see that if you do this now fully condensed, you can see there's less atoms in here now because they evaporated for longer. You can a very, very strong interference contrast. They're an atom laser, a laser beam. A fully coherent beam. They also did a quantitative analysis and asked what is the visibility, which is if you want for a proxy for the coherence as a function of the distance?
+[equation]
+This was the same paper. And if they look at high temperatures, you can see that the visibility drops down to zero. If you fit this exponential decay, you would say the correlation length is maybe 200-300 micrometers in here. If they do this below the critical temperature, you can see it also decays to a finite value, due a long range order because the system has phase coherence over the whole cloud. Looking at the correlation function that tells us where about two particles are. It tells us about the coherence, the correlation length. We see all of this nicely. And later on, they do experiments, what people also did is to say, OK, if they do very quick cooling to take a big load. Hot air cooled down very, very quickly, and then this is a function of how slow or fast they're cool. They look at what is the contrast, the visibility that they get as a function of the distance. If you cool it quickly, you only get the correlations of a very short distances. What if you do it slowly, you see long range or really emerging and the visibility peering over long times. 
+
+OK. And now let me come to my final slide for today. The question of is there really a spontaneous symmetry being broken? And to answer this is, well, what you can do is you can do the following experiment, which was done in 2004. What they did is they created two pieces independently. One here, one there. These have never seen each other; they from a cloud split into two parts, and then the condensation occurs independently in the two. And then they do time of flight expansion. They get bigger and they overlap in the middle, and then you can ask, OK, what do you get? What do you expect to see? What do you think? Hmm. Yeah, exactly, you can think of this as a if the BEC is fully coherent in itself, then it's kind of a double peak. We have one laser beam from here, one laser beam from there, and I will see interference between them. And indeed, time of light pictures. They see very nice interference contrast. Both have been created independently. There's no prior phase communication. And the point is, if they do this experiment many, many times the appearance contrast is always high. This is always a coherent to each other. They always have a fixed a phase relation to each other. They can always interfere. But the phase varies randomly from shot to shot. It's not that you always have the maximum here. Sometimes you have a minimum and maximum there and so on. This is fully consistent with the idea of we have this microscopic coherence in the BEC and we have the spontaneous symmetry breaking during the condensation. 
