@@ -1,0 +1,1288 @@
+Hello and welcome back. For election number six in the quantum simulation course today, we are continuing with boatswain's and lettuces.
+0:01
+We're going to look at this face diagram of the bulls, a Hubbard model in more detail.
+0:08
+We're going to calculate some critical interaction, strength. And then in the end, also look at how this can actually be measured.
+0:12
+In the experiment. So, Boza, how about Amazonian?
+0:18
+We arrived last lecture.
+0:26
+We said that we have two important tourism data, first term estie kinetic energy tears is the tunnelling rate or hopping rate of nozzle called J.
+0:28
+And it's due at the speed with which particles can hop from one letter side to the next, and then hopping is only between nearest neighbours.
+0:37
+So only from one letter side to its direct neighbour in the various dimensions.
+0:45
+The interaction term is a purely on site interaction, so particles only interact if there's more than one particle on the same letter site.
+0:50
+And if you have any particles on it, let the site. Each of those particles can interact with an eye minus one partners.
+0:57
+And in total, you have a factor of one half in here because every pair you kind of double count because every pair shows up ones here,
+1:04
+every atom shows up, one's here and one's there.
+1:11
+So therefore, your double counting or pairs are counted twice interconnectors with this picture of one half.
+1:13
+For the first part of this lecture,
+1:19
+we can't ignore the onsite energies which are only relevant if you have a trapped system will come back to that at the end.
+1:20
+And we note that we can control the overall density of the particles with the chemical potential by working in the current canonical ensemble.
+1:26
+What we discussed last time was that we have two different types of Chron states.
+1:34
+And as a reminder, if we are in the limit of having no interactions with you, we could zero.
+1:39
+We have a superfluid state and the superfluid state in this limit can be described as
+1:43
+just saying is it was Einstein condensate of all particles condensing on an eight atoms,
+1:48
+condensing into Cuke zero zero quasi elemental mode of the lowest band.
+1:52
+And that basically means that each particle can be described as being in a position of all of the sites.
+1:58
+A dagar create a particle on the side. And each particle isn't this super position of being spread out of all.
+2:02
+Let the sides. And if we have any particles, we do it this way. This means if I look at this in momentums space,
+2:10
+I get sharp peaks because all of the particle acidity requires momentum and we see the high order peaks.
+2:17
+If I look in weird space to the local particle,
+2:22
+no has a proud distribution because every particle by chance wouldn't be projected onto one of the letter sites and different by chance,
+2:27
+you will find one, two or three particles on this letter site.
+2:33
+And last time we discussed how you can describe this with local coherent states and how you get a persona, no distribution.
+2:37
+So that's the superfluid regime. And each Artemus delocalised over the whole letters, the other regime upper face, Mr. Mod insulator face.
+2:43
+And again, this expression is only about it. If the limit were tears tweetie zero and he was positive.
+2:52
+The so-called atomic limit where he has no kinetic energy whatsoever.
+2:56
+And then we are saying, if I have on average one particle politicised, I will get a state that is a product of Fox.
+3:00
+States were put exactly one atom on each letter site and only on it at the site.
+3:06
+So I put what, two for one particle,
+3:10
+the one that the site and then Abdullah's with every letter sites were put one or n small and particles in each letter site.
+3:12
+It's a product of fox dates and that means that particles never meet for any one of these particles never meet.
+3:19
+There's no interaction, energy and really minimises this interaction. Energy debt status, insulating.
+3:24
+It's a gap state. And we will see later on why the particles being localised also means that the momentum distribution is very, very broad.
+3:30
+The state is capped, it's incompressible and there's no phase coherence.
+3:38
+So this limit, you would say that each atom is localised to a single letter aside.
+3:42
+And we also noticed that the multiphase can only exist at commensurate filling.
+3:47
+So if this number is more than the density, so the ratio of atom numbers overlap, number of Letha sites is an integer, one, two, three and so on.
+3:52
+And we also said that these two regimes are not connected by some kind of crossover.
+4:01
+But there is really a face transition between them. So there is some critical you.
+4:07
+You watch a critical or you pretty critical were you have a sudden jump from the superfluid state into the mid-state.
+4:11
+What I should say is that the expressions that we see here, the way from sincere in here, they are really only valid at the point of view.
+4:19
+We could zero into teak with zero. So they are only better than these limits. In general, the physics is much more complex.
+4:27
+The way function is so complex, it has no way of weighting it down in a closed form.
+4:33
+And if you want to do a precise calculation, you have to like results to heavyweight metrics, like, for instance, quantum on the cartel methods.
+4:37
+Intuitively speaking, we will see this later in this lecture.
+4:45
+The point that an atom is really pinned to its own let the side only that is really only true.
+4:48
+It is atomic limit, which has no tunnelling. What we would see later is that if you have a little bit of tunnelling,
+4:52
+there's always a small probability of that particle having hopped onto its neighbour and we can calculate this one in first order perturbation fuel.
+4:57
+So the particles would spread out a little bit. Also in the model insulator, but they still we mean it's potentially localised.
+5:04
+And this localisation only goes away at the phase transition when they are go into a superfluid state.
+5:10
+And we will see this later on in today's lecture. So let's think about this face diagram.
+5:16
+Think about the point that we have these two phases, superfluid and what insulator.
+5:21
+And we note that the molten Slater only exists for comments with Philae.
+5:25
+So if you want to draw a face diagram and approximate paste diagram, you could come up or you would come up with a diagram like this.
+5:29
+We have two axis here, the one Xerces Kinetic Energy now given by team hopping element.
+5:36
+We do everything and orders a few units of use to you of you here.
+5:42
+And on the other axis while we apply this to chemica potential. So how likely it is or how the external potential is pushing atoms into this.
+5:46
+So it controls the filling of the atoms. And what you can see is that on the right hand side, for large kinetic energies,
+5:54
+everything is in a superfluid face while you decided lines there to face boundaries.
+6:00
+And then here to the left of those space boundaries, we do have modern insulators.
+6:05
+So here we have two what insulator we're filling one the no means one modulated lobe of the modern integrated with filling two, three, four and so on.
+6:09
+We can think about first, maybe about the limits T being zero.
+6:18
+That's the limit that we've discussed in detail. Last lecture where we said, okay, I have a positive chemical potential.
+6:22
+I can minimise my kinetic, my free energy by putting particles in the system.
+6:28
+So the density will rise, but it will only rise up to the point of density one, an equal one insulator where particles will never meet.
+6:32
+So I have no interaction energy to pay.
+6:41
+I cannot put particles on top of each other in this regime because my chemical potential is less than due to interaction energy unit.
+6:43
+I would have to pay to put two particles in the same. That the site is, of course.
+6:50
+Change is exactly at this point to a new equals you. And then suddenly the minimum winfree energy is for density to.
+6:54
+Because now suddenly if I put in one particle, I have to pay into each energy one you.
+7:01
+But again, the chemical potential of the chemical potential is bigger than you.
+7:06
+Then of course I want to put into particles. And similarly here I have to step up to three to step up to four.
+7:10
+As we discussed last week, the superfluid, as I said, can exist at all densities.
+7:16
+But the modern selecter only at this discrete commensal once. So that's where we get this discrete steps here.
+7:22
+Density one, jumping up to density to jumping up to density three and so on.
+7:28
+And these numbers, one, two, three are the average density of the atoms parasite.
+7:32
+These dashed lines here, over here, they now just, you know, the evolution of what a constant density would do.
+7:37
+So which kind of chemical potentially gets wise to a constant density?
+7:44
+So if we think about it here, we can have density one one point two, one point four, one point five,
+7:48
+one point six and all of that all the way up to two and then from two to three to whatever the continuum of densities that we can have here.
+7:53
+But if you now move towards the mode insulators, and that's kind of what these lines here indicate.
+7:59
+If I'm really at density one, I will go straight into remote insulator at this point.
+8:03
+But if I say I am at density one, point two, what if I am at density one point?
+8:08
+Why can't we form a much insulator? Because I have 20 percent too many atoms or it or two little atoms.
+8:12
+So I will have to follow this line bending upwards and I will have to kind of avoid them with insulator and add some add up.
+8:20
+So end up somewhere here.
+8:25
+This little sliver of the first diagram, because I'm pinned at density one, point two, I can't form a modern circuit, so I have to end up here.
+8:27
+So out of this area are you. If you want gets kind of squeezed into this little part of the face.
+8:34
+Tarquin.
+8:38
+Of course, if the system, though, has a chance of, like absorbing more atoms or getting rid of excess atoms because it's connected to a reservoir,
+8:40
+as you would really expect it to be at a crankin, I think an ensemble. Then, of course,
+8:48
+this means that the system will now either go into the nuclear Wal-Mart insulator or and it put
+8:52
+too much insulator and the mismatch and at the numbers will be made up with the reservoir.
+8:56
+So let's try to like understand a little bit more the shape of this, why do we have these domes here?
+9:03
+Why are they looking like this? Well, the argument you can make is that if you think that you is much, much bigger than teak.
+9:08
+So we are very close to this line. T is very, very small but finite.
+9:14
+And you assumed it, you know, sits exactly at J times you, which is an integer.
+9:19
+So we've been talking exactly about the point here. Rimu equals you.
+9:23
+Or you could say to you, if we say we said exactly at this point, then of course there's a degeneracy.
+9:26
+And if we energy because both end bar being J plus one or in by being J is possible.
+9:32
+Right. You the minimum is two atoms precise. You'd if anyone was three atoms parasite.
+9:38
+But exactly at this point here between the two regenerate, you can have either two or three atoms politicised.
+9:42
+And then it's very plausible that if I'm sitting exactly at this point, that orebody,
+9:50
+a small tunnelling, can kind of mixed it two and three sides and we'll have an effect.
+9:54
+So it's kind of plausible that the pace boundaries will have to evolve like this.
+9:58
+So that very close to this point here. But it was states that generate I will get a big effect even if a small tunnelling.
+10:03
+And it will go into the superfluid face. Why do I say I'm sitting somewhere here where everything's solid?
+10:09
+He wants to be too atoms politicised, a little bit of tunnelling, but not have such a pronounced effect.
+10:14
+So that kind of fact tells us to reasoning. Why would we expect these kind of Loeb's structure where it starts off like this?
+10:19
+Another thing that we can see is that the lobes get smaller or bigger and so do any good one, though, extends all the way up to here.
+10:25
+But yeah, and it could true lobe is already smaller. The three one is smaller, the forward is even smaller and so on.
+10:32
+But we can also understand this intuitively by saying that we have ozone's, we have Bosnich tunnelling and that means we have was only enhancement.
+10:38
+So that means there already half like three or four or five poison's on the letter side. For them to tunnel is easier than hopping goes faster.
+10:46
+And again, a smaller tunnelling can have a bigger effect. Pythonic enhancement you probably have seen before.
+10:53
+If not, do we minder is that you know, think of this term a Heidegger, A.J., that if I think of AJ operating on, say,
+10:59
+a Fox state n then I get this square would have end times to Fox State with N minus one in this queer would
+11:05
+of N beings that the effect of the whole thing is bigger for larger and that's platonic enhancement.
+11:11
+OK, the last question we can ask. And that's the question we should ask now for the next two slides is where is this
+11:21
+point here exactly in the Y direction is probably straightforward to think about that.
+11:27
+It would be in the vicinity of New U. Equals you over to so kind of in the middle of the slope.
+11:32
+But the question is, where is this critical U of a T. So what is the critical parameter?
+11:38
+At which point do we expect this one to change from what insulator into superfluid?
+11:43
+And in order to answer this, we don't have to do a little bit of theory. And we'll do this in the easiest possible way.
+11:49
+We would use an approximation that's called mean food, fuel.
+11:56
+So if you think about this fundamentally, the problem you have is say you want to understand what's going on in this letter.
+11:59
+But this letter side is, of course, coupled with the tunnel couplings to its neighbours.
+12:05
+So you can't really solve the problem for this one provide having solve the problems with the neighbouring sites beforehand,
+12:09
+because we really need to know how many items are there? Are you likely to hop onto the sacred site or not?
+12:15
+You need to notice so no site can be swiped individually. And that is, as I said already, India introduction.
+12:20
+That is what makes them anybody problem heart. You cannot, like, take out one little part of the system and solve that.
+12:26
+You have to solve the whole system in one go.
+12:31
+But you can now say, if I have quite a few of those neighbours, I can make an approximation where we place all of those couplings,
+12:35
+former given site to all of its surroundings by an average or an effective
+12:41
+interaction off this temple at the site with kind of what we call immune feud.
+12:45
+So kind of the average of all of the Letha sites around it.
+12:50
+So pictorials pictorially speaking, we are saying we go from a situation up here, one left aside cobber,
+12:53
+to operate the sites to the situation of one let the site cover to kind of like an average mean feud.
+12:58
+And this is a very strong simplification because it reduces the many body problem into an effective one body or single site problem.
+13:05
+I should say that is, of course, much, much easier to deal with. What we need to do then is we need to find the value of this minefield.
+13:13
+And it needs to be found serve consistently. So we kind of saying, OK, whatever we get for this little site.
+13:21
+If we take that many, many times average over debt for the surroundings.
+13:27
+This is supposed to give us back them in future. So is it a self-consistent calculations?
+13:32
+Have consistency is very important here. And that's something we're going to do.
+13:36
+It's an approximate scheme because you only have these four neighbours in this case and these are not infinitely many.
+13:41
+So there will be fluctuations around the average and these evacuations are important. And we told him away in this kind of thing.
+13:47
+So very often these furies only become exact in the limit of infinitely many neighbours.
+13:54
+So infinitely many dimensions. So we can't really expect from this that put 3-D where we have six neighbours in a super cubic lattice.
+13:58
+It should be better than INTUITY. And that would be even better than in one day, because on one day we only have two neighbours.
+14:06
+And the fluctuations would be very, very important. Okay, let's try to do this calculation.
+14:12
+As I said, it's very approximate, but therefore it's also easy to handle and even me as an experimentalist can present it.
+14:17
+So the idea, the starting point is to save. I take a quantum mechanical operator, a I can kind of replace that by its mean value,
+14:24
+its expectation value, plus the remaining part, the fluctuations. So take an observable and say it's mean value plus fluctuations.
+14:31
+What we're going to do here is we're going to say, let's take our B.S. and describe our B.S. as a product of local coherent states.
+14:40
+So the operator we're looking at is the annihilation operator I onsite AI.
+14:47
+And then we're going to say, well, if that's what we can describe this one as a coherent state.
+14:52
+Were you in states like last lecture we used to parameter over.
+14:57
+Now we call up cyber is the same thing.
+15:01
+So the expectation value of A.I. and as you would see, also no problem, said the Cohu in states of the Eigen states of A.I.
+15:03
+So if have a coherent state over. Then there's expectation value is just far.
+15:11
+And we just got up. And then of course, there's the remaining part, the fluctuations.
+15:14
+Dodaro. And what we can do is just to simplify things as we assume that we have a homogeneous system.
+15:19
+So we assume that all letter sites are the same.
+15:27
+And we're assuming that if there is a mean feud, if there is something happening, then it's going to be condensation into the zero momentum mode.
+15:29
+The problem at hand and we're talking about the soup of root and rotten sort of transition. That's, of course, obviously a very reasonable assumption.
+15:38
+And if we say it's Kubic with zero, then as I already said on the previous slide, I a shortened equation there.
+15:45
+Then basically the Kuga zero mode is to equals what position of all of the
+15:50
+Bunyah states with the same face factor because Kuzio would affect us equally,
+15:54
+ICU X or one. And that basically means that the expectation value of all of the ice on it and that
+15:57
+the sides will be the same in this homogeneous system and colonisation of Kukan zero,
+16:03
+we just quoted the expectation value. So everything becomes independent. The pie which simplifies things.
+16:08
+Again. Please note that if we do this calculation and his calculation tells us that the self-consistent minefield we get is finite.
+16:13
+So the exploitation by side, if the value of science bigger than zero, then this Darity implies long range order of day a language.
+16:23
+Because if we now look at Sady to accommodate as a Heidegger, A.J., they would just become a site stop sign.
+16:31
+So having this mean futurity means long you order in his mean food situation.
+16:39
+The only thing that we can have is no order at all or full on which order will let the
+16:43
+sides are doing the same thing because of the simplifications that we've made up here.
+16:48
+So so far, everything just has been a restatement of things that are through in a slightly different language.
+16:55
+Now the approximation part comes in this line where we say, okay, we can now try to technik take some fluctuations.
+17:01
+So in particular, what we want to do is we want to declare terms on the order of dirt or Aido to be so turned to that,
+17:08
+like the small fluctuations of board of both operators multiplied with each other.
+17:13
+So what we're basically saying is if I take an operator minus its expectation
+17:19
+about two times the protocol from other operator minus expectation value, I would set that to zero.
+17:23
+This is kind of a form of thing that we're doing.
+17:28
+We're not saying we neglecting all the fluctuations that would be too harsh and would mean that we would never get something.
+17:30
+But we're saying we like neglecting the product of fluctuations. So if you want to be a connecting term in the order of one over X, quit.
+17:35
+So what this means is that if we take a product of Operators' eight times B, we can now we place this within the following way where we say,
+17:44
+okay, we replace a word with expectation value or we replace B with an expectation value because we now have to type two terms here,
+17:52
+which are both on the order of eight times B, we subtract off to compensate for this A minus D,
+18:00
+expect the product of the expectation values of A times B.
+18:05
+In our complex concrete situation here, what we're doing is we're saying, OK, we take the tunnelling term,
+18:10
+we just the one that couplets different, let the sides and different means that all this the a coupled and be decouple it by saying a Heidegger,
+18:16
+A.J., we white Eivor,
+18:23
+we take the Heidegger and we replace it by Psystar or we take DHEA and replace it by design and then we subtract off minus plus square.
+18:25
+If you want to see this line, you can directly just say, okay, take this definition, pluck this definition into the product A Heidegger,
+18:36
+A.J., and then use this condition, are saying we neglected terms it like dislike or traffic in the fluctuations.
+18:43
+This is called the decoupling approximation and decoupling approximation is important because now what you see here is that the right hand side,
+18:51
+the sides, I and J are not directly couples. Nothing covert sites are in J anymore.
+18:58
+It's just that both the sides I cuppers to mean at the site J.
+19:02
+Also copies to me. I do not die would be covered like here here on the left hand side.
+19:06
+So they are decoupled. Hence the name. So up here that's the same equation.
+19:10
+Again, just a copy.
+19:14
+And if we now say we take this one and go with this one into the Bulls Hubbard Hamiltonian and we would place all appearances of a digger, A.J.,
+19:17
+and the boys abutment or any kinetic energy with these things on the right hand side,
+19:25
+then we can, like, cruise together to terms depending on Rober independent IJA.
+19:29
+And then we realised that we get like a total Hamiltonians immune photometer,
+19:37
+one which is not just a sum over terms that depend on a single at the site and each of these terms.
+19:39
+Ajai is then given by minus T time set. Roset is the coordination number.
+19:45
+To talk more about this in a second, Psystar a I plus bpci a Heidegger says basically saying from his two terms,
+19:50
+I have once this to read it doesn't I. And once disturbed it doesn't I.
+19:57
+So it's a two couplings to mean feud. Then I have to act.
+20:00
+Substract off this part to you. So I get the minus ts it.
+20:04
+A plus teaser because you can avoid minus hiden Hamiltonian sized upside.
+20:08
+And we have the interaction term which is already local insight I. And we have to chemic a potential term onsite.
+20:12
+I. So because we do this averaging of all of the newest neighbours, Egypt is coming to an Yose neighbour, we'll do the same thing.
+20:18
+It's the coming to the bean field. So we just have to ask, how many newest neighbours do we have?
+20:27
+And that's the coordination number. Did we get zatz many of these terms here and here?
+20:32
+So if I have a cubic lettuce, then I have two neighbours would use number of dimensions.
+20:37
+So I think of the two, these queer letters, then I have four neighbours.
+20:42
+If I think of the cubic letters in 3D, then I have six neighbours and the X and the Y end in the Z direction.
+20:46
+And if I think of the one day letters, I only have two neighbours.
+20:51
+And the key thing is that even though his expression was longer than expressions we had before,
+20:56
+for Hamiltonian, this is now a purely local problem of a single site which is uncoupled to amino average feud.
+21:00
+So definite, the complexity of this one is far, far, far we used.
+21:07
+And we only have to understand what goes on in Mifune and what goes on in a single site.
+21:10
+And because this. So the goal of this calculation will not always be to say, let's find the concept of this,
+21:14
+so let's find that value of site, that valuable to mean feud that minimises does mean feed energy.
+21:22
+So the expectation value of this mean for Hamiltonian up here, which basically because this is a sum of identical term,
+21:27
+just means to say we need to find that way of BPCI that minimises the expectation value of this guy.
+21:34
+And it's something to be can do. In order to do this,
+21:41
+we realised that we are mostly interested in the face transition and the fascination superfluid to modern Solara is a continuous paced transition,
+21:46
+which means that the expectation, value or absolute value of CI would be very small, close to the transition.
+21:53
+On the mod side, there would be zero. And another piece he the superfluid said it would start to take off from zero.
+21:58
+So we're kind of interested in this position point where we are asking Web site
+22:04
+changes from being zero to being on zero because we know it would be small.
+22:09
+It's a continuous phase transition. So there's no big jump. It would be smaller, continuous evolution.
+22:14
+We can do the following. We can say we tend to expand the infinite energy as a function of BPCI.
+22:18
+So this expectation really appear around the pipe site equals zero. And this is now coming back to what we discussed about taste transitions.
+22:23
+If we do this in a Taylor expansion, we know that we'll get a constant term plus eight times PSI squared plus B Times cited a fourth asset values.
+22:32
+Both we understand that it cannot be linear or Kubic terms because the symmetry of 10 Latonia.
+22:41
+And we also well, it's not shown here, but we will always be positive.
+22:48
+So the main player would be this a.
+22:52
+And the question of whether it is a positive or negative so we can make the same plots as we did in the second or third lecture.
+22:54
+We were talking about vestment that we realise that if A is positive, we basically get something that's like a parabola down here.
+23:00
+Dead turns over into the exit, a funnel. But it's going up like this and has a minimum at the middle, while if A is negative.
+23:06
+There's a study cited a follow out here, but it's not so important.
+23:14
+Very close to zero, close to zero. The quadratic term dominates.
+23:19
+And if A is negative with a parabola that opens to below, which basically means we get something where we have a minimum here or here.
+23:21
+So in one situation, the plus situation, does the modern Salvator say zero?
+23:29
+There is no mean feud, meaning there is no superfluid, there is no off there along with order.
+23:34
+Why do you ever case there is a mean. There is of taking a which order. And this is the superfluid face.
+23:39
+And if we were asking about if we're thinking about what is the super size?
+23:48
+I didn't say this, but SCI is obviously a complex parameter and they've just plotted it here as a weird part of SCI.
+23:53
+If I want to also plot the compter for complex plane with the weird part of SCI and imaginary part of SCI,
+23:59
+then this becomes this typical Mexican head potential like us from Pereiro were if you start in a mud insulator, but you are into superfluid regime.
+24:05
+So you on the situation at a minimum is not a zero. This is an unstable situation.
+24:13
+You will accept this continuous symmetry breaking and you can be either here or there at any point around this week.
+24:17
+And spontaneous symmetry was broken here. Is the symmetry of the argument the face of the of Piramida?
+24:25
+Because that one is the one that is kind of connected to the cemetery that we discussed earlier.
+24:32
+And it can be spontaneously broken by going from the mountains related to the
+24:37
+superfluid and it's there spontaneously face off to B.C. to be discussed,
+24:40
+to be looked at, interference between two species where we said, okay, we see the fringes, but the fringes and every shot at a random position.
+24:44
+That's because the symmetry breaking is indeed spontaneous, i.e. random.
+24:51
+And obviously, the phase transition happens exactly at the point where a zero.
+24:57
+So the only thing left to do is to calculate this does point of order as a equal zero.
+25:02
+And this can be done easily, numerically, or it can even be done in second order.
+25:07
+Perturbation few. And the answer is that if you do this at the tip of the Motlop, at any good one, you get a value that you overset.
+25:11
+T must be five point eighty. So now we understand we're at a critical point would in this very approximate mean few, few.
+25:19
+So the question now is this five point eight three is, of course, independent of dimensioned,
+25:29
+because the only effect of dimensionality is to control those parameters that year.
+25:35
+But the question is, is this through? Is it okay to neglect all of the other things and to just look at this mean fit for you?
+25:39
+And as already alluded to. It's okay. And high dimensions, but very much not okay in low dimensions.
+25:46
+So what you see here is to mean fewer predictions. So this is justice, five point eight three multiplied by two and one the case for.
+25:52
+Into two decades and six in 3D case. So we get values in the order of twelve.
+26:00
+Twenty three and 35. And there is no ways of doing this calculations.
+26:04
+Exactly. So without using the method approximation.
+26:09
+And they are all heavyweight numerics that are far beyond what we can discuss interest in this lecture.
+26:12
+Just give you the names. This is a density Matrix Humanisation group. And in 2002, we did the best way of doing it is Quantum onto Kadal.
+26:18
+And then we can look at the results. We can compare the numbers and we see it in 3D.
+26:25
+We're basically pretty good. So the correct result is twenty nine point four. The result we got is 35.
+26:30
+So that's correct, within 15 percent, which is pretty good.
+26:36
+If we go to 2D, we get like seventeen to twenty three. That's a bigger discrepancy, but also not too bad maybe.
+26:40
+But if we go to one, these things are very different because we get like almost twelve and mean feud.
+26:49
+But the reality is much, much closer to zero. We only get three point something. So what's going on here?
+26:54
+Well, what's going on here is that means you fear is always pretty good in 3D and it's even better in higher dimensions.
+27:00
+And it will typically, in almost all cases, overestimate the audit phase and or the audit phase.
+27:08
+It favours the audit phases. So if people do like more in-depth analysis later on, they typically first look at the minford analysis.
+27:15
+If they mean that really tells you that there is not going to be any faced and any audit faced and it's unlikely but not impossible to find one.
+27:23
+But typically, you have to then look at all of the pieces you find in me. If you didn't ask ROBERI wienie.
+27:31
+Correct. If you like. Yeah. Introduce quantum fluctuations and take quantum fluctuations into account.
+27:35
+Just to recap, what we did is we said instead of having all of those discrete nearest neighbours, we kind of take an average of all of them.
+27:41
+And we assume that that average no, we're not fluctuate anymore, but we'd be like one precise number, which were quite a mean feat.
+27:49
+But in reality, of course, if I take the average of four numbers and the numbers change and the average with the fluctuate around.
+27:56
+So I'd have to take this into account. And this is a quantum fluctuations that I neglected in the immediate future, but unpartnered the exact few.
+28:02
+And I'll give an example, what kind of fluctuations are in a few slides for the experts?
+28:10
+Not relevant for us mostly, but for the experts in one district speaking.
+28:17
+You never have a proper order parameter expectation that your PSI will always be zero.
+28:23
+You don't really get long range order. You only get cuonzo language orders.
+28:27
+So you get something. What is correlation functions? So I dig up J.
+28:31
+Dukane. I'm not exponentially but appropriately.
+28:35
+And that means that the phase transitions will be of a particular type, the so-called cost poly's type.
+28:38
+If that's if this doesn't mean anything to you, then don't worry. It's just like the experts.
+28:43
+Okay,
+28:49
+so now we have as good an understanding of word Espace Transitional Cure's and how we should think about this in homogeneous lettuces as who we need.
+28:49
+But now, of course, many experiments are not done in big homogeneous letters.
+28:59
+Dehradun Trap. So the next step will be to say, how can I think about the system in a trap and how can I think about what's going on there?
+29:04
+Because I don't have this big homogeneous piece. I'd have like a potential underlying harmonic trap that keeps all of the atoms together.
+29:11
+And that means that the situation might be very different and well.
+29:18
+We typically ignore it. So what we typically do is we do something called the local density approximation,
+29:23
+where we are saying in principle, I have like my underlying harmonic trap.
+29:28
+And I should think of this one being as kind of a couple hundred, let the side say so.
+29:33
+It isn't top of this stairs that let us potential that I have, not one here.
+29:36
+And then you can ask, what can I learn from the homogeneous system and use it for the enormous genius system?
+29:39
+And the answer is that I can say take back this area off the trap where a potential is more or less constant than
+29:45
+say that we place this overall potential here just with a potential of a box with like a constant potential inside.
+29:51
+So we just say that in here and in this little box, we assume that the tripping potential is going to be constant.
+29:58
+And then you as well, we are assuming that the trapping potential in you, which, of course, is the problem parameter.
+30:05
+We just approximate this one to be a constant. Same in this box.
+30:10
+Same in every box. So we kind of approximate our in homogeneous system by a sequence of boxes.
+30:13
+What a system is internally always homogeneous. And then we can ask even a half like a bunch of particles in this overall harmonic trap.
+30:19
+How will these particles distribute themselves over those boxes? Will you all go into this box?
+30:27
+Or will it kind of fill up the first three or four boxes? What will they do?
+30:33
+And because we're doing the calculation already in the crankin Oklahoma,
+30:37
+it's actually rather easy to take this into account because we're basically saying,
+30:42
+well, each box will be filled up of its own chemical potential and the chemical potentially in a given box or in a given position.
+30:46
+We can as quote as it can. A central chemical potential unit, which is the controls of Ofili, minus two potential at this point.
+30:54
+So kind of you really saying that like because this box is higher up here,
+31:02
+it will have a lower chemical potential, so therefore less particles will go.
+31:06
+We want to go into this box and then in equilibrium, what you get is you get that you have the same chemical potential everywhere.
+31:09
+It's Roger trapped in the particles have kind of arranged themselves in such a way that they minimise the total energy.
+31:15
+As a quick reminder, what again is the chemica potential in a Quinkan Nergal ensemble?
+31:24
+It's defined as the derivative of the total energy with respect to partic a number at constant entropy.
+31:29
+This constant entry path is not that important for us because a team with zero.
+31:35
+So just represents the energy required to add another particle.
+31:39
+So if I have a chemical potential of three and it would cost me just the energy of two to edit of a particle to the system,
+31:44
+then there would be a particle going in. And another. And another. And another.
+31:50
+And another and another until the cost of putting in the next particle will be three.
+31:53
+My chemical potential. Then this would stop.
+31:58
+So maybe a good analogy of this is we need to think of this one as like, say, a a rock landscape like think of puddles in the road.
+32:01
+But a potential is deeper, probably steeper. You would have more water on to the water level in the end would be the same level everywhere.
+32:09
+Now, of course, it's not the density of you're talking about years when you were talking about the energy per particle that we have in this case.
+32:17
+So if we start devolve to political stone here like CNBC, but then we say no, we have a positive interaction.
+32:25
+Then the chemical potential would have to rise a lot in the middle here because the energy of a particle requires a lot by the interaction.
+32:31
+And suddenly it makes sense to this city because particles more broadly let them spread out to the particles.
+32:37
+Up here, we're peignoir potential energy. But in all of the particles in the middle here, we would reduce their interaction, energy.
+32:43
+And that means totally speaking.
+32:49
+This system saves energy and totally speaking the system that minimises the kinetic and the chemical potential that will have to have everywhere.
+32:51
+And it kind of equalises the chemical potential everywhere. This is exactly the same thinking as you have in physics, chemistry, where you would say,
+32:59
+okay, I have a reaction action, reflect different reaction, partners and so on.
+33:07
+And then I provide the chemical, potentially one chemical potentially for each of those we action partners, the products and the things that go in.
+33:11
+And then I also get like a chemical equilibrium, which will tell me you have the same chemical potential everywhere.
+33:18
+And that will determine how many of the particles I say I have from the molecules.
+33:23
+How many are free atoms and so on. So here will tell us how many particles you can find in each box.
+33:26
+The way you calculate this in practise and the way you cut in practise, you get to know your central chemical potential.
+33:35
+The way you do this is you say there's no organisation constraint because you save.
+33:41
+And I'll take my local density, which is basically given by the local chemical potentials.
+33:44
+So Klauber chemical potential minus local potential. I take this density and integrate this density over the whole trip.
+33:50
+Then of course I need to get the right correct for particle number. So this basically determines me or not.
+33:56
+So those parameters are permitted to be, don't know, apriori. But by knowing how many particles we'll have,
+34:02
+totally moving the total particle number and knowing the trapping potential and knowing our equation of state,
+34:07
+which is the function of new, then we can calculate what is you notice.
+34:13
+So this picture is, of course, very simple in a sense, because you never have to like softy in Virginia's system.
+34:21
+You just need a good solution for a homogeneous system.
+34:27
+And then you basically just say, okay, I know ever which this one over my trip and they end up where I want.
+34:29
+It's quantitatively correct.
+34:37
+If the trapping if Trevis big enough so that the potential is only slowly varying and if I have the phases for final correlation things.
+34:38
+So very often it is okay for us in cases where it's not okay.
+34:46
+We have to think more. But these are where. So what does this mean for the situation that we have now with bosun's in an optical lettuce?
+34:50
+And this is basically something that gives rise to the following set of diagrams
+35:00
+and to the famous wedding cake structure of photons in an optical letters.
+35:04
+So what we said about the chemical potential is we say that the chemical potential at a given
+35:09
+point in Trepp is the central chemical potentially minus the dropping potential at this point.
+35:13
+So you're not minus V of X, which means when I go back to his face, diagrammed disasters mean food,
+35:18
+pasto equipment we had before he left his meatloaf's and equal one and equal to an equal three.
+35:24
+And the superfluid phases out here as a function of chemical potential and kinetic energy.
+35:29
+Then if we have a certain you're not, say, in the centre of the trip, we might be at this position.
+35:35
+So this is the point. We have to situation. We have in the centre of the trip. We are somewhere and you Enuka one and it two Motlop.
+35:41
+Now, if we move to get to the edge of the trip, if you move outside,
+35:47
+we move up in the typically harmonic potential, which means you move down in local chemical potential.
+35:50
+This this party of XY goes up, which means that the chemical potential goes down.
+35:57
+Which basically means to be stopped off. In the end it could rumold insulator. But then beneath that, we go into a superfluid face.
+36:02
+Hue of density to density continues decreasing until we reach density one and then we enter into the next mod phase,
+36:08
+then one mod phase and then out here again we go into a superfluid her face.
+36:14
+So this basically means if I look at this in two days from the top, I would expect that in the centre of the trap for this set of parameters,
+36:19
+I haven't any good too much later, which is then surrounded by is to off a shell with density varying from two to one,
+36:25
+which isn't surrounded by any one but insulating shell.
+36:32
+And then again, it's surrounded by a superfluid wing with the density going from zero from one to zero.
+36:37
+So in this superfluid choksi, the density would be continuously very well in the mud.
+36:42
+Schertz there incompressible. The density does not change of a change to chemical potential, which means that the density in here would be constant.
+36:46
+And here, like some simple plots in this simple mean, few fearing the Chodas in three dimensions.
+36:54
+So X and Y other positions in space and the Z axis here is the density and you
+36:59
+would get a situation if you start off at a very large you a T or a very small T,
+37:05
+you basically start of summer see around here and if you start in the middle you would have an equal three.
+37:10
+You have only a very small area where you have a superfluid, the next moppet or a small area of superfluid, the next moch plateau and out.
+37:15
+So you basically see that kind of almost steps would very suddenly jump from zero to one.
+37:23
+This is the angle one from zero to tooted is Jericho 2.0 and then from two to three.
+37:28
+And you see this as very much. And what insulating plateau? Because you here have an extended region.
+37:33
+We have a constant density. And because the chemical potential is changing,
+37:38
+this means you have an incompressible region where the density does not directly depend on the chemical potential.
+37:41
+Even our star to increase kinetic energy. So I go to a bigger jail where you are big a tuba, you then you see.
+37:49
+Okay, as you would expect from here, the first thing that notes is the frequency plateau.
+37:56
+So we know not here, but we start now here and you see the kids and it would super to us.
+38:00
+Now three pillows are melting. It becomes continuous. We have a superfluid there.
+38:04
+The two and one states are still there. But the superfluid chugs in between get like a little bit wider.
+38:09
+And then if we look further, we see the okay, if we go for a small,
+38:15
+you go to the mountains that are fully goes away and you basically just have this invert the problem or
+38:19
+that you really know from composer Einstein condensate from your time in an optical physics lecture here,
+38:23
+you basically just have something that is Puti superfluid, but you have no modern Modeselektor anymore.
+38:28
+And now for the Journal Club, this is the picture that we will look there.
+38:35
+This is kind of like such a transition. We start with A, B, C. How about letters?
+38:40
+We increased the letter stepped. So here we are fully in the superfluid regime.
+38:44
+And then in the deep letters here were because the letters is deep, tunnelling is very small and definitely a fully deep in the modern sorting regime.
+38:48
+Here we have this modern insulator. And then here in between, we have this point where the peaks out.
+38:55
+You stay sharp. So there seems to still be long which are in the system.
+39:01
+But there seems to be less atoms in that language, or most of the atoms seem to be this kind of Quast type structure in the middle.
+39:04
+And that's basically the regime where you now have the coexisting of different phases.
+39:11
+So, for instance, the any good one system, the outside constant, can already be modern insulating.
+39:15
+But the inner core where the densities are higher could still be a superfluid.
+39:19
+And so you have to coexisting of different phases in the trap because of the homogeneity.
+39:23
+On the next slide are now going to show you a little bit how we can try to calculate this kind of pictures.
+39:35
+Also, theoretically, how we can analyse them in a better way and how we get quantitative information about the physics from these kind of pictures.
+39:41
+So for this, let's not to think about the time of flight from a let us again, but thinking about it in a different way.
+39:48
+Last time we said, okay. Think about the individual particles and say they have a certain velocity and then they fly
+39:54
+with this velocity and that's where we can see the particles and after time of flight.
+39:59
+Now we take a very different approach. We're thinking about this really in the future reticle approach if you want.
+40:03
+We're saying basically think of this like as much as that system. So here's my letters.
+40:08
+And I have, like, little worth packets of metal with little weight packets on each letter site.
+40:11
+And even I take off switch off the letters that these wav packets will now spread out in free space.
+40:17
+I have this caution with packets of money function waste packets that will now spread out and they would start to overlap.
+40:22
+And if there's no phase coherence between all of these different things.
+40:29
+So all of these waste coming from the different letter sites cannot interfere, then they're basically just get like a total density.
+40:32
+We just like the some of the density coming from the individual letters set because we just this broad envelope.
+40:38
+And that's what I would expect in a deep mud insulator where there's no correlations, no coherence between letter science.
+40:43
+If I'm on the other side or the other hand, in a superfluid regime,
+40:49
+why half of diagonal on which order Bendit basically means is like I have all of those little
+40:54
+illuminated with one coherent source and one of these little waste can in the future.
+40:59
+And then I get interference and I get something that's kind of like a diffraction experiment.
+41:03
+You can really think of this as a multi slit. And the typical thing that you think about then is to save, I think, of long term afloat.
+41:08
+This becomes another one to Fraunhofer effect.
+41:14
+So I can say that kind of there there would be an envelope dissolve overall envelope will be the diffraction coming off from a single slit.
+41:17
+So the food and some of the signal lit. And then this interview is between all of the slits which cause wise,
+41:24
+if they are periodic based, isn't that this is to this ultimately series of dotcoms.
+41:29
+So we now think about our pictures again. We can say, okay, this is a superfluid.
+41:35
+It has often a long tomorrow. So we have this interference and therefore we see the sharp peaks here.
+41:40
+And the sharpness of the peaks directly tells us something about how many letter sites must have been coherent, if coherent.
+41:45
+If these peaks are very sharp and witty means we have a coherence over very long distance.
+41:51
+On the other hand, in the modern insulator, I have no coherence. I have no interference.
+41:56
+And I have no peaks. And I basically just see this kind of envelope.
+42:00
+And this we can now also calculate analytically and for this we use the feud apparatus,
+42:06
+SIPI Dagger MSP for Momentum states the field operate as a momentum space.
+42:12
+And that's, of course, given by a free transform of the field operators and wheelbase.
+42:17
+So does it if you liberate this abuse base.
+42:22
+This is actually I p times R, which is a free transform into quote, a ball of space and memorisation constant.
+42:24
+The next step, the first step that we can now do is we can say, OK,
+42:35
+let's take these field operators with space and truncate them to the lowest band and express them in the basis of the lowest point,
+42:38
+namely the value function. So we can say that the field operator meatspace particular position are truncated
+42:45
+to lowest band is a super position of all of the funniest dates and lowest band.
+42:50
+Like the value of a function as their amplitude.
+42:55
+And we cannot simply plug this into his expression here, so we we this one with this kind of structure.
+43:00
+And then the next step we can do is we can just change the indexing. We can say we do find a new coordinate prime, which is given by our minus I.
+43:08
+And then it would change the position here. And the point that we have up here and we get something now where we basically have the.
+43:18
+The W store. The complex fight, the complex, can you get to Bunyah functions?
+43:27
+No, just depending on Prime. And here we had the all before. We now have an odd prime class.
+43:31
+All right. And the other thing we did is, no, we took this some and took it out of the antiflu, put it to.
+43:35
+This is all simple and valid to do, and if you not have done this, you can now see that.
+43:43
+OK, well, I can now take this picture here, Pizzuti our prime plus our eye and split it up into two parts.
+43:49
+Would have P times I plot times to the P times are prime.
+43:55
+And you realise that the our eye part can be taken out of the inequal because it doesn't depend on the equation very.
+44:00
+Which is no upright. So it can take the array apart out you guessed minutes exponentially prefecture.
+44:05
+There can also take the a dagger from here out of the antiquity because it also doesn't depend on the upper one.
+44:11
+And then I see something interesting because I now see that everything that remains in the integral only depends on our prime.
+44:17
+But that's not dependent. Let the site are anymore. And if I stare at this expression with his expression,
+44:24
+basically is is it's just a photons transform of a vanua function and the one you function unifor, you transform it.
+44:29
+And that's the integral together of the prefect and from the future.
+44:35
+So I can write the whole thing in a compact form of saying it's the sum over all at the sites I experience.
+44:38
+And it would a p r i over h bar a Heidegger Times to fully transform over one year function.
+44:44
+Used the same expression again up here, we're from some of the money function and to some of right.
+44:52
+And this is now the fifth operator in momentum space. What we're measuring is, of course, the density momentum space.
+44:57
+So if we collect kinetic fluctuations because we're measuring many, many particles at the same time, we just see the expectation value.
+45:04
+Sipi dig up side by side. And this expectation value, we can of course, calculate because we have this guy.
+45:11
+Different. Also complex. Can you get near and take away the data?
+45:18
+[INAUDIBLE] be awesome to fill up Regio itself in relation operator.
+45:21
+And if you pluck both things in, what we get is the following simple expression we get from this vanua function here.
+45:25
+We transform there off. We get the full year transform.
+45:31
+So they just quit and we get like a term with those two indices, IJA one eye from upside eggar and the other J from this side.
+45:34
+And we have done the expectation values. Sorry, the creation dilation operators, they all go into this expectation values.
+45:43
+We can put them in here. Expectation value of a Heidegger A.J. and then the prefect knows the exponential.
+45:50
+They go into this for you to the IP over H bar are minus Arjay.
+45:57
+And this is already our final result. This is the thing we need. It basically tells us that the momentum distribution that we can measure is
+46:04
+given by a tiny envelope with just a free transform of the venue function times,
+46:12
+a structure factor which depends on the state and the letters, because these commentators,
+46:19
+a dagger, A.J., he's off dependent on the expectation value of these correlates.
+46:24
+They, of course, depend on the many body state that we have in here. So this is the only way for anybody stake enters into this,
+46:29
+because rights to all of these oscillating terms and then they are all summed up football at the sides and multiplied with this money envelope.
+46:36
+So if I have something worth have a until later and it's something that you will calculate, we'll see later.
+46:44
+Were all of those things go away because we don't have these commentators? Then we would only die because he does Vanya envelope.
+46:50
+If you think of the Bunyah function in the deep letters as being akin to a caution,
+46:57
+then the fruit on some of that is also very prokosch to a mental space. So this looks like a two dimensional gorshin as it should.
+47:01
+If you have something where you have off the annual long one tomorrow, the structure factor is very non-trivial.
+47:08
+And it basically gives rise to these delta peaks like you would expect from the front Hilferty fraction of a normal diffraction grating.
+47:14
+And they think it's basically wise of the structure within this envelope. So here's a one, the cartoon to just make it clear.
+47:20
+This is our Bunyah envelope. And then we've enough that the structure factor is wise to these sharp peaks.
+47:27
+Same thing as you have in Condit's metaphysics. This was pretty quick on the theory side,
+47:33
+but it's actually straight forward and the calculations just take a little bit of time going back and forth over these two or three,
+47:42
+two or three slides. And will you make sure you understand how you get from one step to the next?
+47:48
+It should not be too difficult. If there's problems, we can discuss them in the office.
+47:53
+So what can we do with this now? What you see here is absorption images from an experiment 50 years ago, 2005.
+48:00
+This is Pollock,
+48:08
+B.C. In '88 we call deep letters and then they go into a deeper letters were to B.C. use like this cross over region B.C. plus insulator.
+48:09
+And then you go deep in the mountains, Sumatra and very deep in the mountains.
+48:17
+And then we can try to analyse these pictures a bit more quantitative, you know.
+48:21
+And one thing one observably could use is to use so-called visibility.
+48:25
+You're basically saying if I take this picture, I just calculate a number of atoms that I have in this little white box.
+48:30
+And they also calculate the number of atoms.
+48:36
+So they have this little black box and then they just compare these two to decorate visibility, white minus black, divided by white plus black.
+48:37
+The key thing for the key reason for doing it this way is to say that it gets with gets
+48:46
+width of this value envelope because the vanua envelope is more this notation is symmetric.
+48:50
+So by comparing like two points here and here on the circle,
+48:55
+you would have diffraction maximum and we would not have any fraction maximum basically that we could get rid of the effect of the value envelope.
+48:58
+So we expect to face transition in this case to be somewhere between the first and the second picture.
+49:07
+So for any good one, the first edition should have meant twelve point five weeks or so before the second picture.
+49:13
+But for any good two and any good three, it should happen after the second picture. So the second picture is exactly this intermediate situation.
+49:19
+We are a part of the system as modern insulating part of the system, the superfluid.
+49:24
+I think here, if they extract these visibilities as a function of Letha steps, they decay down like here.
+49:29
+So we have high visibility into superfluid with humidity case down to zero deep in the mud insulator and the different colours, black and white.
+49:35
+You just mean different experimental situations and they are offset vertically.
+49:41
+Just for clarity, it becomes even more interesting if I take this data and plot them now on the lock lock plot,
+49:45
+because then you can see that there's decay of the visibility in the. My insulator actually follows a very simple power law in particular.
+49:52
+It follows a power law that in a case like one over you.
+50:00
+Divisibility case is a poll like one over you. And that's not something that we can try to understand again analytically.
+50:05
+We can try to understand where does this come from? Where's it this particular poll?
+50:11
+So our task for the next slide, next two slides is going to be to understand this poll.
+50:16
+Why does the visibility decay like one over you in order to make progress on this?
+50:21
+So atomic limit and equal zero means that the way function is, is product of FOX states will be put exactly one particle at each letter signed.
+50:30
+The thing about reporter KFOX states then the expectation value of a high degree, A.J., would just be just a total.
+50:38
+You can see this in detail on a broken set. The second problem said. But it's also easy to see that if I is not the same as J.
+50:45
+I took a particle out of the state here with the particle. In some other point, I get a different particle Fox states.
+50:53
+So the overlap in Tequilla zero and different expectation value vanishes. If I equals J.
+50:58
+I take a particle out, put it back into the same state. I have not changed anything.
+51:04
+So this equals to one. And with this one, the the torture factor from the previous slide or two slides ago is actually what was simply to calculate,
+51:08
+because if we take this expectation rageous a Heidegger, A.J., and replace this with Dr. IJA.
+51:18
+Then they realised that the only term surviving into some other ones were our eye equals RJ to this one is zero.
+51:24
+So this whole term is a constant. So the whole structure factor is a constant, which of course means that invisibility vanishes.
+51:31
+You equals zero because we have the same kind of density, the same value of the structure factor everywhere.
+51:38
+If we now go one step further and say, let's take perturbation, you Iran's atomic limit.
+51:45
+So we assume that unity is launch, which means T is finite but small.
+51:50
+And we do perturbation few in Ts starting from the above atomic limit.
+51:54
+So what we petition the Anatolian we say the H not is the interaction Hamiltonian.
+51:59
+That's the limit that we perturb around. And to perturbation is the hopping term A Heidegger,
+52:05
+A.J. some of all of them with T parameter T know the kinetic energy that the hopping parameter being the small parameter.
+52:10
+So you can take the standard expression for the first other perturbation fury.
+52:18
+And you can say that in first order, the state is the same state as it was in 04.
+52:23
+Auto parts of the quires a crack at it. It requires an admixture of all of our many body states,
+52:27
+K and W of the mixtures I was given by the overlap stickwork k h was the perturbation Hamiltonian,
+52:34
+the concepts I know not, and and divide it by, you know, minack the energy difference between the Chron state and this new state.
+52:43
+So if you know, just plug in this expression here for each one in there, we end up with this expression.
+52:52
+We have to k.k the projector k k here for each one.
+52:57
+We got this a Heidegger A.J. with the summer by James Chron state here.
+53:00
+And the denominator. This is the same expression here on the next slide.
+53:07
+And now we can see that this one is a little bit would be nicer if some would give
+53:12
+all states K orses inhibits space and it only all states except for the cross state.
+53:17
+But luckily we can extend the sum to include the Chron state because simply to cross the state.
+53:22
+If I think about this, with this being the crown state for not a dig of IJA, if will be zero for the same argument that we said before,
+53:27
+because it take a particle out of a Fox state, put it into a different Fox state,
+53:36
+then have different Fox states and the overlap into equal vanishes identically.
+53:39
+And that means that I can now extend to some to run over the whole Herberts base.
+53:43
+And that means that then I have to Sumburgh projectors onto the old Herberts base here.
+53:47
+And if I project them to the whole Hubert's base, that's just the identity operator. So nothing happens and I can take this away.
+53:52
+And then I and then the next thing I need to know is what is this value?
+53:59
+The denominator is not minus. Okay, well, the answer is that, of course, if I operate with a Heidegger A.J. on, say,
+54:03
+protocol FOX with one particle and each letter site then with the AJ will do is it would take a particle number down to zero.
+54:11
+A.J., I wouldn't take the neighbouring particle number up to two.
+54:18
+So I have one Daptone India, which means that the energy will be increased by one factor of you,
+54:22
+which basically means that you're not minus Keek would just be minus you.
+54:28
+If I block design, I get a rather complex thriver compact expression for the way function and first little perturbation fury.
+54:33
+It's just a one of the atomic limits to the protocol. Fox states plus T over you.
+54:40
+The T comes from here. The one over you comes from here. Times this ethnics just you are off of the form.
+54:45
+Some of our nearest neighbours, A.I. Deger, AJ Fi and this is a pretty important wizard.
+54:52
+But this was a means is it means that if I have some finite tunnelling,
+54:59
+not all particles would be pinned onto individual sides, but we get an at mixture of higher order terms of the following form.
+55:03
+So fine art here is kind of the way function one one one one one.
+55:11
+But then we get this ethnics just plus t over you.
+55:15
+Were all of these products, a dagger, a JDA would always have taken a particle out of one side, putting it onto a neighbouring side.
+55:20
+The square brackets, you mean some of the your neighbours only. But we have all possible commutations of those.
+55:27
+So which means you have all possible put positions were added to consent at zero.
+55:33
+Can be if either side of the room with many, many, many of those terms.
+55:38
+And this is now our anybody chron state in the limit of most Taum who puts it into action but small but finite tunnelling.
+55:42
+So it's kind of like the soup where like the Kronstadt we had before. One particle politicised.
+55:51
+It requires this cohu and admixture of all possible newest neighbour, Doubilet Hall on.
+55:56
+So whenever you have like two sides, you would say, OK, a dominant contribution is one particle.
+56:02
+Precisely, but there's always a small admixture of having one dockland hold on power in here.
+56:06
+And what this means is that look at it, the number has acquired.
+56:12
+Now quantum fluctuations, because the terms till you the two positive Muthoni in kinetic energy and potential energy do not commute.
+56:15
+If you have both of them present this crosswise to quantum fluctuations. So even if you're very close to like an extreme state of the one term,
+56:25
+it would be prudent a little bit by the of her term because that term doesn't compute with the first time.
+56:33
+It is prawning up with the distribution. That's called quantum fluctuations. So in a concrete example.
+56:38
+Interaction term would say you want to have exactly one particle at the site.
+56:44
+That's it. And then you would measure everywhere. One would never measure anything else.
+56:47
+And you would not have fluctuations in the particle number. But because of the presence of the non-competing particle Hamiltonian, the kinetic energy,
+56:53
+you get like a small admixture of having no particle there or two particles.
+57:01
+So the local at number has acquired quantum fluctuations.
+57:05
+And it turns out if you now plug this into divisibility calculation, you get the divisibility actually decays.
+57:09
+Executive scare's executor of the spectra to divisibility with K executive the Spectre T over you.
+57:14
+So we now have we covered this power law of one over you that we've promised on the previous slide.
+57:20
+So this turns out that this first order processes are like the dominant processes at various Malti.
+57:27
+You can now go on and say what happens if I do second order perturbation fury. If I assume higher orders and t then you get two types of things.
+57:34
+You first of all, get at mixtures of two of those. And second order of two of those Dockland Holum pairs.
+57:41
+We have up a whole appear here and at the same time a different Holum P here.
+57:46
+Or you can have a process where like one dockland one, how long could could have gone to hops away.
+57:50
+So the particle that not only hop to its nearest neighbour but its next to nearest neighbour.
+57:54
+And that's a very useful picture to think about how devolution from a deep mud insulator close to the superfluid behaves.
+57:59
+So what plot you. This is not just a cartoon is I plot the correlation length that we expect from such a system as the function of Ubaydi.
+58:07
+So we estimate insulator BCU small jails munchy.
+58:16
+This is getting close to the atomic limit. And here's the critical value where we go from the inserted into the superfluid.
+58:20
+We just assumed everything that happens at density one to have to deal with this.
+58:26
+If we talk about oxidation functions again, we would say that the typically exponential decay of decorrelation in Exeter.
+58:31
+And then we can ask, what do we get? Well, if we are deep into Fox, deep in.
+58:38
+And what insulator? Close to the atomic limit, we would say that we have these Fox states.
+58:42
+Political fox states, one particle parenticide. And it means if I think of the correlate as a Heidegger, A.J., there's are zero for all.
+58:47
+I'm unable to G.S., as we just discussed. So does correlation. Length is basically zero.
+58:54
+It basically tells us that the colation function is dair finite. Even on the same point.
+58:59
+But everything goes away to zero. If I mean different letter. If I now do first or perturbation theory.
+59:03
+We said that we get this nearest neighbour correlations.
+59:10
+We have this small probability of having a party that would hold on power on two newest neighbours, a neighbouring miticides.
+59:12
+So we get something, but it's exponentially case two, very steep but not infinitely steep.
+59:19
+So we got a finite, small correlation linked. Which is less than one letter side.
+59:24
+But still find it. And then if he x a go to bigger Hocking's, you would expect that this correlation gets bigger.
+59:28
+Because now we can also have next to nearest neighbour. Particle next newest neighbour, Dublin, Holland, pairs next to nearest next.
+59:35
+Next to the next two nearest neighbours and so on. As we go like approach to face transition, this one will increase and increase further.
+59:43
+It will in fact actually diverge at the phase transition. So that fascination can also be thought of.
+59:50
+Bound unbound condition. Sorry. And I'm finding unbinding last way confined unconfined transition of discipline.
+59:56
+Holum Pierce keeping them insulated.
+1:00:06
+Dublin Hurum Peer's exist, but they're kind of bound to each other not only in close distances from each other and they never go into the superfluid.
+1:00:08
+There's still a correlation. Length diverges and they can rober one freely and we get like long range correlations.
+1:00:15
+Long Wenche order and we get like this. Yeah, it. I mean infinity.
+1:00:21
+And the universal language, even the issue of critical physics is, of course, the new regime around this space condition to be discussed before.
+1:00:26
+And let me basically stop at this point in the next lecture.
+1:00:35
+I will also show you two examples of how this one can actually be measured, how this newest neighbour correlation functions can be measured,
+1:00:38
+and how they actually show us that this is not just pure fury, but these things really exist in practise.
+1:00:45
