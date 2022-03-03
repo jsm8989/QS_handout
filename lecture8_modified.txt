@@ -1,0 +1,427 @@
+
+Now that we have all the technical problems, we can probably get started.
+So, yeah, welcome back to the quantum simulation class and we today will be moving on from photons,
+looking at fermions and how the different Fermi statistics can.
+Hello. And let us study quantum magnetism. let's start with a recap of what we've seen about fermions before.
+thousands, we can call fermions down and perform very similar sets of analysis.
+if we've got here the plot of the optical density of the Fermi cloud and you can see that it is slightly different from the
+Gaussian fit that you might expect to see if it was the same Fermi cloud because you are now fitting with Fermi direct statistics.
+Remember that the difference between one of the differences between fermions and bosons,
+and we'll look at this again later, is that from statistics of fermions obey the Pauli exclusion principle.
+with fermions, you're filling up sequential energy levels up to the top of the fantasy.
+And with fermions, we also often want to look at different spin states,
+and we can separate those spin states out by applying a magnetic field gradient
+during that period of time of flight and image those and analyse them separately.
+But that image of the office of the optical density up here.
+Looks a little bit closer to a Gaussian fit than we would actually expect from Fermi direct statistics.
+And that is largely due to the homogeneity of the trap.
+remember, there's that underlying trapping potential that underlies. Any any cold atom system.
+Almost you have to work quite hard to get rid of it.
+one one thing that we can do to actually extract more useful or more meaningful data from analysing immune system
+is to play a trick that really boils down to making the local density approximation just in an experimental way.
+what you can do here is selectively only image the central portion of the track,
+and you do this by applying to hollow beans, to the cloud, to your atom cloud where.
+Those beams contain resonant light that will optically pump the atoms from, let's say, in this example from this.
+My seven half state, I'm sorry, nine how state into the seven half state and this removes removes the atoms from the main imaging
+transition from the imaging cycle so that you are only able to image this blue central core here.
+That experience is a much more homogeneous trap.
+you just removing all of the atoms from the edges from that really homogeneous region,
+from your analysis and you get a density measurement that looks this so much more as you'd expect from Fermi statistics.
+The density has this plateau at a feeling of one before falling off as you reach the.
+The age of the firm you see at the Fermi momentum and the insect that just shows the contrast between.
+The much more Gaussian looking. Density when you don't perform this trick and the kind of more reliable for me on analysis when you do.
+And one of the pieces of information that we can extract from this analysis is again to look at the entropy of the Fermi gas.
+And this is the entropy per particle that is plotted against the reduced temperature,
+so the temperature divided by the Fermi temperature of the system and in red.
+Here we have the this is all numerics.
+We have the result that you obtain for a harmonic trap.
+And in blue is the Sommerfeld expansion, which should be familiar from government statistical courses.
+And it's just here that that entropy per particle is proportional to your reduced temperature.
+And you can see already from that plot that let's zoom in.
+This has a reasonably good agreement at very low temperatures, so up to about this reduced temperature of around point one,
+that's a linear approximation is is a reasonable one to make.
+And these are temperatures that are experimentally achievable.
+The typical limits that you can reach an experiment the best have been achieved have reduced temperature point zero four.
+you have to do a lot of work to cool your atoms down until you can operate in this limit.
+But it is. It is achievable and.
+As you can see from.
+From the plot that this will and from the Sommerfeld extension itself, this will give an article of approximately Bolton's consent divided by two.
+that was a quick recap of some of the things you have seen already about farming systems, maybe a couple of new things as well.
+But let's think about actually putting fermions in an optical lattice. And to do this,
+we'll have a reminder of the second quantisation picture where we use creation and deny creation
+annihilation operators on the two sites labelled by IMJ to describe to describe the atoms in that lattice.
+And. We've seen those once before. That's what you've been studying all term.
+And you know that photons have these computation relations so that.
+Your Bosnich states on some site, I will all be Fox states with some particle number between zero and infinity.
+And. We also know just by looking at the at these computation relations that if we want to put.
+Atoms on neighbouring sites or different sites of the lattice.
+And we want to put an atom first on site j and then on site ISO,
+each first creation operators acting on the vacuum that will be exactly the same as putting an atom first on site and then on site J.
+we know that photons are symmetric with respect to particle interchange.
+But that's not true for me. with fermions, we have these anti mutations and.
+By exactly the same sets of algebra, we know.
+That if we put an item on site today and then Site II, that will be that the negative of placing an item on Site I and then Site J.
+And. this tells us that a wave function is A. symmetric and that the the order in which you apply these operators matters.
+And this makes defining your basis a lot more complicated because as part of defining the basis,
+you have to define the order in which these operators are applied.
+And there is one other. Very important consequence of this, and that is the exclusion principle.
+if we look at this in the language of second quantisation, we can say that placing an atom on.
+Or placing two items on site, I is just the creation operator on site, I squared.
+placing one item at an acting on the vacuum on site, I second item and then on site I.
+But we know from these antique commutation relations that that must be the negative
+of itself and that therefore this creation of practise squad must be zero.
+that's just. Phrasing in the language of second quantisation.
+What we already know. Complicit, an exclusion principle, which is that our density can be either zero or one on a given lattice light.
+It cannot be, too we. Cannot place two identical fermions in the same quantum state.
+I on on the same lattice site if we're working with a single band model.
+I'm. And we know from what you've seen with both ons that.
+And those those contact interactions, those on site interactions only occur if two atoms occupy the same site.
+again, we know that if we've got two identical fermions, they can't occupy the same site, therefore they cannot interact via contact interactions.
+And. This gives us really quite an uninteresting system until we remember that we can
+use different spin states to allow two particles to occupy the same lattice light.
+this then gives us a firm model, which looks a lot the both of the Hamiltonian.
+But takes into account the effect of spin, so in this Hamiltonian, the spin is described by this sigma.
+And we have three times again. the hopping term of.
+The destruction of an item from site eye and the creation of an atom insite J.
+But then this is going to have that spin dependence. we need to also sum over the spin states available in our system.
+Likewise for the. Total item number and chemical potential.
+We need some over both seven states because we can we can vary those separately.
+And then our interaction time.
+This one just looks a little bit different to the other two terms in the Hamiltonian because we know that we cannot have,
+say, two spins occupying the same sites.
+if we want to consiter the same site, we have to consiter opposite spins so we don't need some over the spins in that term.
+And we know that for each letter site, we have four possible states that could correspond to this,
+so we could have zero items in the latter site can have one atom a spin up.
+that's just this creation operator on the on the spin up.
+Likewise, spin down or we can have two items per site, one spin up, one spin down.
+And similarly to the language that we've been using for the post on case, we would call that a double on.
+And yes, just kind of a site note on.
+The history was that this was the original hybrid model that was was invented to describe what insulators.
+actually, I guess we just got a little bit out of step in terms of what was achieved experimentally and.
+Between those on some fermions and kind of the way that people tend to present.
+The two systems. OK, so just before we launch into.
+The possible phases that we can get, let's have a quick recap of the four different parameters that we can use to describe our system,
+so we'll just take for the take the example of a 3D simple cubic lattice.
+And we know that for one type binding lattice, we'll have a kinetic energy range minus two to two.
+the 3-D that extends out to minus 60 to 60 or so total.
+Range of 12 to. And.
+We want to describe once again the density, and this is just the expectation value of the application of.
+Some given that a site.
+And we know that to do that, we have to account for both the occupation of husbands and down spins, which tells us about our feeling factor.
+And this is where things get a little bit confusing for fermions, because if you have a feeling factor of one.
+And so any clues, one you could call that unity feeling that makes sense, you have one one particle.
+But you have one particle on a site on which you could have two particles, you could have spin up and spin down.
+But one particle on that latter site, you could also describe that as her feeling because of the possible options.
+Half of them are filled. that's just one thing to.
+Just keep in the back of your mind and remember that slightly strange terminology.
+You can also find the double and fraction, and that is just the fraction of atoms that occupy occupied sites.
+note that this is expressed as a fraction of the total atom number, not a fraction of the total lattice sites.
+And so you could have, say, sites around the edges if you're consitering a harmonic trap,
+say that have very low occupation and that would skew your statistics.
+you consiter the fraction of the total atom number where we consiter twice the number of.
+Belongs in the system, so that double occupation once cleaned up, one's been down on a single site divided by the total atom number.
+And. Um. This should give us all of the background that we need to consiter the possible phases of the Fermi model,
+actually, before I jump straight into that, do you have any questions on anything that we've said so far?
+Excellent. So, yeah, let's look at the family phase diagram,
+so we'll consiter in the first instance the non-interactive case where the interaction time you is zero.
+And we also have, in this first example, a temperature of zero.
+And this means that we have completely free fermions filling up the Fermi C one energy level as time.
+let's consiter adding atoms to the system. Start off with an equal zero.
+And this is just the vacuum. We have no particles. We have an empty lattice.
+But as we start to add particles and.
+We get a metallic state, so we know that.
+As we add particles up to this total occupancy level, they're not interacting so they can occupy the air,
+we can have one particle per site, we can have two particles per site, zero because there's no cost associated with any double occupation.
+And so this is a metallic compressible state.
+It is a conducting gap to state because we can always add more particles and we're just then raising the level of the Fermi S. to do that.
+And then we hit and equals. And that is the limit of the allowed states in our system because we can take one spin up, one spin down on each site.
+Once we've exhausted those states. There are none left that we can populate.
+that becomes a band insulator and it becomes completely incompatible state and an insulating state
+because there's nothing you can do to to that system to force more atoms to occupy the same sites.
+And we can sketch this out, so.
+As we if we look at the occupation as a function of the chemical potential start off, you said here in the vacuum,
+and then as soon as we reach the kinetic energy range of the range of kinetic energies that we have available in our systems, it's minus 60 to 60.
+We're able to start populating that lattice, adding in more and more atoms per a site up to that band insulator point of two.
+And we get half filling for chemical potential of zero.
+And um, yes, so then up to a plateau, we can't we can't increase anymore because there are no states we can occupy.
+And we can think about the job alone fraction here, remember that this is the specific case of non-interactive of the specific non-interactive case.
+if we look at the double infraction and we can say that the expectation value
+or this correlate here and I up and down is actually just a product state,
+though those particles don't see each other, there are no correlations between them, which gives us a double and fraction of an over two.
+In this. In this system. And again, we can plot this, and so it's just a nice linear relationship between the Dublin faction and.
+. And identity. But now let's consiter the case of strong interactions and in the first instance, strong attractive interactions.
+you is negative and the magnitude of you is much larger than both the hopping term and the thermal energies available in the system.
+we don't have enough thermal energy to be able to overcome the effects of the interactions.
+And here we know that all of the particles in our system for formed uplands because.
+We can we can lower our energy by having two particles occupying the same site.
+as soon as you add here, if you start off with one particle in your system, you add another one.
+The energetically favourable configuration is for those two to occupy the same sites.
+You add in third, fourth and and they always pair up.
+you have a double fraction of one. But in the opposite case.
+You have the exact opposite effect. There is a strong energy cost associated with double occupancy of a single site.
+particles will try to sink the Occupy sites as far as they can and up to a filling factor of one.
+And that means that are, um, double and fraction will be zero.
+Greater than one. They have no choice. They have to start occupying sites because.
+There are no no unoccupied sites that they can occupy. And so then we would.
+Yeah, have have some non-zero double infraction there.
+And we can express this in terms of the relationship between the number of atoms and the number of occupied lattice sites.
+To get. This relationship, this two minus two over in relationship in.
+Double infraction. And we can represent this.
+As shown in this plot here, so US equals zero, the non-interactive case is the black line here.
+And as you said before, this is going to be this linear increase in the double infraction as you increase the filling factor and.
+You is a. Large and negative.
+And again, this this both in this case,
+there's going to be no dependence on the filling factor because you're always going to want to double occupancy.
+But for the Red Line this year, because infinity is a bit more of an interesting line because up to that half filling point you.
+I have no dependence on the filling factor, they're just going to simply occupy sites.
+Until then, as soon as you have to start, things that, double infraction is going to increase.
+And. this gets us to quite interesting.
+Regimes. When, again, when we have any calls to, we're going to have abandon ship later and purely around insulator Dublin's.
+But for this health failing case and. We're going to get a Mott insulator with with no problems at all,
+at zero temperature because we know that as soon as we want to create a double on it,
+we're going to have to pay some energy cost associated with that.
+we're going to create more insulating phase. And.
+In the atomic limits of this very low or zero T and tunnelling T, then that must insulator is again just the product of local Fox states.
+Exactly as we've seen it before. Where?
+You can have an occupation of equals one. again, that whole feeling.
+let's let's compare, we've we've seen the metallic phase, we've seen that we can get a more intimate phase.
+Let's compare the two. again, use equal to zero, but this time to use is.
+The huffing is potentially small, but but non-zero, and we get this uncorrelated metal case that we've seen before.
+And let's take the example of the potential to illustrate this.
+So. We can have particle a particle on the left or the left or the site in this double well.
+And for a given spin state, whether that's up or down, we can have a safe position of left and hand sites and.
+The resultant wave function will be proportional to the product of these two positions.
+And if we expand that out, we see that we have these four options. having both spin up and spin down on the left hand site,
+spin up and spin down on the hand site or one of each spin on each to the left and hand sites.
+And. If we extend that out to a full a full lattice system rather than just a double well again in this year equals zero limit,
+we just have Bloch waves localised across.
+Across the entire lattice. But let's add some interactions in now, because this is going to change the way that the system will respond quite a lot.
+And because as we've seen before, if we have non-zero, repulsive interactions, then the.
+Double occupation is going to be suppressed by the existence of those interactions we saw before that, that gives us a Mott insulator.
+And if we take this example again of our simple double world potential.
+Then that. That state will only have.
+Your double expenses is not a lot of people, so we lose that, we lose those two terms and we'll just have the possibility to have spin down on spin.
+he's been down on the left site, spin off on the site and vice versa.
+And. This means that if we measure spin down on the left hand site, we know that there is a spin up on the hand site.
+this is a strongly correlated entangled state. And.
+And again, we can expand this out into an entire lattice.
+And we'll see that we'll get some kind of ordering of spin up and spin down on different lattice sites and the rest of the next half hour will be.
+Looking at how how the spin up and spin down states are likely to be ordered within the optical lattice.
+Because, yeah, the the key difference here that we have to the business case is the spin
+degree of freedom that because of the firm statistics this exclusion principle.
+That makes a big difference in how the sites can be occupied. So.
+Everything we've just said can be summarised in this plot. we have a.
+Density and. Plotted as a function of our chemical potential, and if we start in this region of an zero to one.
+That is the metallic state that we described. this correlated metal where?
+We don't have any double occupancy. We have neighbouring sites.
+With or we distribute our different spins amongst different letter sites.
+But there is some correlation between them. As soon as we reach unity, filling all that, that half filling.
+We get this not insulating kind of plateau here, because we know that as soon as we add more particles into our system,
+we're going to have to start having double occupancy as soon as we start having double occupancy.
+We pay some energy cost. And so I guess opens and we reach our most insulating state and that Mott insulator lasts until we reach.
+The next available kinetic energy range available to our system so that you minus 60 is where we now have the kinetic energy available in our system.
+To. Overcome that energy cost associated with the interaction, so that lets us have.
+, that was the plateau. These lattice have.
+Another correlated metal.
+But now that corrugated metal is contained, some Dublin's between equals one and equals to it again, it's metallic conducting and compressible.
+Until we reach. Until we reach any close to which is the case that we've seen before.
+No possible available sites or no sites that are available to occupy, so we reach our and insulator.
+And one important note is that this is, of course, a simplification. Especially around that halfling region.
+There are a lot of interesting phases that can emerge.
+Yeah. The system becomes quite unstable and you can, for instance, get D-Wave superconducting sites.
+it gives a bit of an idea of why it's interesting.
+Well, one of the reasons that it's interesting to study the phases in the Fermi hybrid model
+because we can get a lot of insight into interesting and potentially useful states.
+OK, so. We also want to think about the entropy.
+And we looked at this last time and we saw that.
+The entropy of our system is proportional to the log of the dimensionality of, I hope it space.
+And we know that we have for a year, if we've got a single lattice site,
+we have four possible configurations that if zero occupancy spin up, spin down or spin up and spin down.
+the maximum entropy capacity of our system is always going to be proportional to log for.
+But then. We have to consiter the different and the different limits of energy scales.
+again, if we if we consiter this halfling case and we consiter zero interaction, so you equals zero.
+As we saw before, there is no cost associated with double occupancy.
+And so at this halfling point, you have an equal probability of occupying any of those four combinations.
+So. No, no atoms or a pair of ATMs, that kind of.
+Paired up just in terms of the number of sites and the number of particles that you need to accommodate or a single item.
+Are all equally profitable, so we reached that maximum entropy of KP lock for.
+But if we have. A large, repulsive interaction.
+Then and again, well outsite of the Connecticut, sorry, if the thermal energy scales of the system we saw before that we get somewhat insulated and.
+This means that only single occupancy is possible, only spin up or spin down to possible two possible states.
+entropy is much lower. It's this logic to proportionality.
+And. This is quite an interesting system, because we can say so all of that entropy is associated with the spin.
+this cable to we can we can call the spin entropy of our system.
+And we have this ordering in our charge number of particles, whether that's in our case,
+it's neutral atoms, but in other systems it could be, for instance, electrons.
+But we have no order in the way that the spins are distributed.
+I'm. let's think about, again, strong, repulsive interactions, so you as much greater than the hopping term.
+But now you is much less than the sum of energy available in our system and.
+Once again,
+we go back to having four states available because we have the energy available in our system to create these double on her own paths again,
+so we have the energy available to pay. To pay the price of that on site interaction.
+this whole impasse can be called thermal powers, and we lose that charge ordering that we had before,
+so we lose that knowledge of one out and put a lot of sight because we could either we could alternatively have zero or two.
+And similar arguments for the attractive case.
+We know that again, if we just consiter the low temperature limit, we only have problems if a site is occupied.
+we either have zero occupation or an occupation, which again gives us a lock to scaling of our entropy.
+And it's quite a nice symmetry here between the repulsive and interactive cases where you only have these.
+You got this look to entropy because of the two possible configurations, even though for the attractive case that's on hold on.
+And for the repulsive case, it's single occupancy spin up or spin down.
+And again, all of this can be. Cottage numerically, so again, these are numerical calculations of the entropy capacity.
+Of each letter site. So.
+We have. , dear. , no. OK.
+To keep my computer awake. I guess I don't have enough.
+OK, so let's consiter those four cases that we had on the previous slide.
+we know that for interrupting. We've got a maximum entropy of proportional slog for and and for.
+Strong, repulsive, and we have this look to, but possibly possibly higher.
+And then we've got our attractive case as well.
+And. I'm.
+OK, so we've got our. Black line here, sir, indicates.
+Non-Interactive case, so what's again, zero and one, those limits are quite easy.
+And that's where our entropy drops to zero because we know a lot about how the system is
+going to be occupied is going to either have zero atoms per site or one atom per site.
+But we get this peak and equals two. And.
+We know that have. I'm sorry that was coming later, but I'll leave it up for now.
+We got the similar case for a strong, attractive interactions where it's kind of the same system actually as the.
+Non-Interactive case in as much as we know that we're only working with Dublin pairs,
+so we have kind of it's as though each Dublin statistically acts a bit a single particle because.
+We know that we either have zero or two particles, so we kind of have half the number of particles available in a sense,
+and so our entropy capacity will rise to just that log two point.
+The strong, repulsive interaction case is quite different.
+that's where things get interesting, so we we saw before that at halfling, we get this look look to behaviour.
+But either site of that. So. Let's take the example of a two thirds feeling, we know that we've got an equal chance of having.
+You're one one of each type of spin on a given that a site or we have.
+A Avalon, because. We know that we have more a lot of sites there must be some, some problems, so that rises up to this log three point.
+Likewise, at one third filling. We have some combination of zero atmosphere site or zero items on a given site, spin up or spin down.
+And again, we get this rise to log three, so that has a bit more of an interesting structure.
+And we can also not focus on to the entropy capacity that particle rather than per site, and we see that again as we.
+Kind of she has some commonalities with with the features of this part, this minimum in all this little dip in.
+The you as large and positive case.
+Fall to zero for failing factor and equals one. But we see that when we have a very low feeling factor.
+There is a lot of entropy that can be stored per particle because there is so much
+uncertainty or so many different options of where these particles can be distributed.
+And. this gives us a really useful tool for comparing for controlling the distribution of entropy in an optical system.
+if we can create a region in which we have very low filling, so very low atom density,
+then we can use that as kind of a reservoir for all of our excess entropy.
+We can store a lot of entropy per particle in those low field regions.
+And then in the. Keep it keep a nice, clean region with very low entropy and.
+Elsewhere in our system, and we can do this by quite careful manipulation of the trapping potential.
+we've got a couple of plots coming up.
+just illustrate touch, that's probably a good point to pose, because we've got some plots coming up to illustrate some of those ideas.
+But do you have any questions so far? Excellent, OK.
+So, yeah, let's just summarise this in a few plots again, or look at it in a little bit more detail,
+so everything that we've seen so far has been at zero temperature.
+And oh, OK, sorry. That's a lie, we did look at one one case where we had some thermal energy.
+But let's look now at this Mott insulator transition as a function of temperature,
+so we've got quite a low temperature point to five up to a high temperature of two.
+When we contrast with the. Available, interact with the interaction and as you scale of our system,
+and we can see that if we look at our density as a function of our chemical potential.
+We see them not insulating behaviour that we expect,
+so we've got this severe occupation metallic phase Mott insulator, another metal and then band insulator.
+But as we increase the temperature that just slowly gets blurred out by the thermal
+energy available in our system that is able to slightly overcome some of those,
+um, restrictions on the occupancy of different sites.
+And so this Mott insulator. And Signal just gets blurred out as you increase the temperature,
+and so that's one quite important thing to highlight is that this is actually in the communiqu system.
+The transition is just. A crossover as you increase temperature, you just get the smooth, smooth transition is not a phase transition.
+I want to look at this again. Just this is again all these a few.
+We'll see some experimental results in a minute and.
+Just some slightly more complicated numerics here have plotted against the density and the distance to the centre,
+but now also in the said axis we have. The transference, which is expressed in units of.
+This hockey energy. And.
+Yes, so what we can look at here is if we take a slice in the first instance, kind of a long, a long, a single point along here.
+a single um. A single point in terms of the trap geometry, but changing the trap strands.
+We can see that as we start to increase the troop strength from something very weak to something a little bit stronger.
+We enter that compressible metallic phase again, we're increasing our troop strength.
+Occupation is is very low, so atoms can those atoms can be compressed and they can move around very easily and freely.
+But again, we reach a point where we have one atom per site.
+And even as we can press that trap, we cannot encourage the atoms to occupy.
+Because they've got to pay some energy cost. Until we keep compressing the trap, we're able you think back to that what we saw before.
+We then have the energy available to create another metallic shell until we reach the band insulating point.
+And then if you look at the slides in the other direction as a function of the distance,
+the Trump centre that reproduces the classic wedding cake structure of the Mott insulator.
+But now with just an equals one and the end equals two plateaus there.
+The crowd size of the atoms can be studied directly, too.
+And this is a move over into experimental data. in this first case of.
+Zero interaction. We can see that once again at very, very weak trap.
+It's this gradient is quite strong, so we have a very compressible cloud.
+But as you? Increase the interactions you are in, if you just look at this bread line here, you see this little wiggle here in the data.
+And that is indicative of the emergence of that somewhat insulating phase that
+equals one Mott insulator that was shown in the matrix on the slide before.
+I'm. You could argue that some of this data looks a little bit noisy, especially around this region here, where you've got this very sharp gradient.
+This was experimentally attributed to non-native Battisti in the loading,
+and we talked last time about how important it was to to make your loading process as adiabatic as possible.
+We can convert this cloud size into the compatibility itself because we know that the rate of change of the cloud size with respect to the energy.
+ sorry, with respect to the strength gives an idea of it gives you the compressed ability and this little plateau here.
+Gives you a minimum here for the strongly interacting case. And again, that was taken as a signature of the intellectual.
+And since then, more experiments have. We have worked on similar things and corroborated the existence of this, this plateau and the minimum in the.
+In the. In the compatibility.
+And one type of this new experiment is the quantum gas microscope that we talked about last time, exactly as for bosons.
+This is a single high resolution imaging of the optical lattice,
+but a parity measurement because of those lightest light assisted collisions during imaging.
+this can give us some really nice images as we increase interaction strength of our system.
+And as we increase all our filling and.
+Once again, he see the nice features emerge, the moth insulating,
+the most insulating and the metallic regions, and one feature that I want to highlight here.
+this is just a plot of the kind of theoretical occupation versus the experimental and the reconstructed occupations.
+What I wanted to highlight here is this lower um row,
+which gives us the fluctuations in the atom number because with the bows on case, we see the insulating regime.
+The fluctuations are very low because you've got to pay the energy cost in order to
+change our item number on those sites in the metallic shells around the outsite.
+The fluctuations are much higher.
+And. This data can be shown as well.
+Kind of more explicitly looking at looking at the entropy, so these slices here are poor or these errors,
+here are four different interaction strength, so low interaction up to high interaction.
+And we see as we move through the phase diagram between the band insulator to metallic to Mott
+insulating to vacuum phases as we move from the centre of the centre of the cloud out towards the edge.
+And once again, we see that it's in this metallic gradient regime that the entropy and those fluctuations start to get very high.
+So. Yeah, we've seen kind of how the entropy can be redistributed deliberately into a region where you have very low density,
+but you're allowed to have these fluctuations. It's also that you've got to be quite careful if you're working with these
+metallic shells around you to remember that the entropy will be quite high there.
+in the last couple of minutes, let's think about how.
+Those spins will order themselves. On a lighter site or on on an optical lattice.
+And again, we can take the atomic limit this large you zero hoping and again,
+your interaction strength is much so your interaction energy is much larger than your your thermal energy and.
+And we know that at halfling, we just have these and equals one fox states in your own state.
+And if you have any localisation. Of atoms from one state to another.
+That must create a double occupancy and a vacancy. And we've already seen the consequences of that.
+And we know that that is related to. The spins.
+remember that the products states of the spins are highly degenerate,
+so we have all of these different spin configurations in our brain state and they all.
+Well, as far as we know so far they could, they all have equal energies associated with them.
+But the question is, can we identify a ground state in the system?
+And. That ground state will depend on this hopping turn.
+we've consitered T is equal to zero. But now let's consiter some small T, I think that might be a typo on the slide.
+we should be consitering a small hopping now where we, if we start from the T equals zero atomic limit wave function.
+We can perform second order perturbation theory in just in the tunnelling term.
+And the kind of intuitive picture of this is the. , the counter-intuitive consequence of this, I guess, is that if we have tumbling,
+this means that we can have some slight localisation of atoms from their initial lattice light.
+And according to Heisenberg, the Heisenberg uncertainty principle, this will lower the kinetic energy of that system.
+if we've got neighbouring spins once been up and down, we have this hopping term,
+it's called virtual hopping because we actually just have hopping forward and hopping back very quickly.
+And this small amount of localisation is enough to lower the energy of the system, the Heisenberg uncertainty principle.
+And we know that this is forbidden if those two spins are aligned to each other because of the exclusion principle explicitly forbids this.
+if we've got two spins of opposite as teaspoons of opposite sign on neighbouring sites,
+we can lower the energy by hoping if the same spin, we cannot do that.
+And we can make this a little bit more. Quantitative by directly consitering second order preservation theory,
+where we know that the energy shift that will be associated with this, with this hopping,
+I remember it's a two stage process and that will be proportional to the square of the overlap between our
+ground state with the whole thing Hamiltonian and an excited state divided by the difference in the energies.
+And this is a little bit more complicated for somewhat more complicated because we actually need
+to generate perturbation theory because we know that our excited states are highly degenerate.
+let's just simplify this. I'm not worried about what the other terms and say that that hopping term squared will be
+proportional to T squared and the energy difference will be proportional to will be minus you.
+this gives us our energy shift of minus T squared over you.
+And. This tells us that if we.
+And are working with some,
+some small hopping to then we know that the ground state that will be preferred and has the will be the one with the largest energy shift,
+the one with the largest gain associated with the localisation of particles due to the Heisenberg uncertainty principle.
+We know from the poverty exclusion principle that that is only possible if the two two neighbouring sites have opposite spins.
+And so this means that in our simple square lattice or a cubic lattice,
+we will get antiferromagnetic ordering so neighbouring sites will have opposite spins.
+And that will be the energetically favoured configuration. And.
+That brings us to the end for today, and I want to give you one thing to think about for next time.
+we saw that if we've got four sites, they want to use antiferromagnetic order so that all of your neighbouring sites will have opposite spins.
+The question is now. What happens if you have three sites?
+And. Think about that, and you will discuss that either in a future lecture or in one of the journal clubs.
+OK, that is everything for today. Does anyone have any questions? OK, well, thank you very much.
