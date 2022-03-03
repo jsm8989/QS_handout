@@ -1,0 +1,1369 @@
+
+OK, we're recording. So welcome back. Lecture number nine today we are I mean,
+0:02
+last week you looked at quantum thermodynamics asking what happens at final temperatures and then you looked at the Fermi Hubbard model.
+0:07
+So fermions and optical lattices, we're basically going to continue.
+0:14
+Rift isn't going towards quantum magnetism, so we're going to see what is the magnetic structure that we can expect.
+0:17
+What has been observed so far?
+0:22
+And then also in the second half, seeing what other possibilities that people could look at in the next couple of years.
+0:24
+There's a lot of interesting things happening there.
+0:29
+So to start with, you said last week that there is the firm insulator, so you have to firmly how about model you get like similar to the Bosnia case,
+0:32
+just that you have no need to have like two different spin states of the fermions in order to have interactions.
+0:41
+Otherwise, probably blocking means there is no interactions.
+0:46
+And that, of course, means that you have to take a very, totally new thing because you have a mechanism to play with.
+0:49
+So if you take the atomic limit, the easiest case you will positive is essentially zero.
+0:54
+And we are also saying that you is much, much, much bigger than K-beauty.
+0:59
+So we now have to talk also about temperature in a slightly different way because
+1:02
+we now have to say there's like different hierarchies of temperature scales.
+1:06
+So the first thing we say is that you is much, much, much bigger than K-beauty, and we would say a density one we get a product of.
+1:08
+It's like if it was on a case. You don't have enough time and energy to produce a.
+1:14
+Putting two particles on one side, and if you don't have the energy for that,
+1:19
+then at any one you must have this protocol fox, that is the only possible solution.
+1:22
+So that's very similar to what we did in the Bosnian case, when it was only case,
+1:26
+we were done at this point we were say, OK, well, you have one, both on the lighter side, and that's it.
+1:29
+Now if the fermions, we have this huge degeneracy of the spins because we can have all kind of different spin patterns in here.
+1:34
+Up, up, up, up, up, down, down, down and down and everything in between. So you have these all of these many spin combinations.
+1:40
+Now, I should say that, of course, you can also do similar things to both the Hubbard model,
+1:47
+if you take the Bozo Hubbard model and you load like to spin of photons into a lattice,
+1:51
+you get the same kind of degeneracy, you get the same kind of physics. We talk about the differences a bit later on.
+1:55
+But for both on the easiest case you can do is just put one party in every little side and then you have to have a model already by Hermione's.
+2:00
+If you were to have just one spin state, then you just have basically a boring band insulator.
+2:06
+OK, so if you do this, how many possible combinations of states do you have?
+2:12
+Well, the answer is simple, but it's you have a factor of two for each letter site because you can put a spin up or it's been down there,
+2:16
+so you get in total two, three and other combinations.
+2:22
+Which means that the entropy capacity, the maximum entropy that you can put on each letter side, if you want to think about it.
+2:25
+And just some of the Nemec terms is locked to and this has been a.
+2:31
+So there's no new and entropy scale of lock, two per particle lock to Panetta's side, which is the maximum entropy you can still adjust in the speeds.
+2:35
+And then the question you can ask and in the atomic limit, all of those configurations are totally degenerate because.
+2:44
+There is no talking, no communication between the different letters, so they're all, strictly speaking, absolutely degenerate.
+2:52
+Any final. It's more about finality, but of course, practise degeneracy and you can ask which of this configuration will be the quantity.
+2:57
+Or maybe it will be something totally different, and which Hamiltonian will describe this low energy spin physics?
+3:05
+And that's what we're going to develop today and going to see that this is going to be the Heisenberg model.
+3:11
+So the first intuition that we can start is by saying, well, OK,
+3:15
+let's do second order perturbation, fury and then teeth like we did also with the Bosnia case,
+3:19
+because we can say that the Heisenberg uncertainty principle means that if we can localise the particles that allowed them to spread out,
+3:25
+a little bit of the neighbour that will lower the kinetic energy.
+3:30
+And in the process you have in mind, as you say, okay, what if I have two particles and two letter sides that's been down here has been a PSA.
+3:34
+Then by tunnelling, one can hop on top of the upper.
+3:40
+Now that processes of constituent by an energy union, so you won't do this, you won't want to do this,
+3:43
+but if you think of the Second Order preservation group, you can go to this intermediate state,
+3:49
+which is determined by you and go back to the original state. So you calculate the energy shift that you get.
+3:52
+It's a function of the as a consequence of this, and you would say that the structure to get this,
+3:57
+you take a sum of all of the states and that the Crown states that you can reach for one hopping element.
+4:03
+That's the very discreet divided by the intermediate tuning.
+4:09
+And then you realise you get many, many, many terms. But they all have the same structure.
+4:13
+They are proportional to teeth quit because this is always like going one hopping.
+4:16
+I have to go with one T to the other side and back. That gives me a T squared.
+4:20
+There is no square with of two or something here because it's fermions, so no bosonic enhancement entity tunings.
+4:24
+All of these energy differences will all be because they are something where like you start with atoms,
+4:30
+a neighbouring site and one atom somewhere in this chain. Think of an infinite chain. It could be this atom hopping on top of its neighbour.
+4:35
+Or it could be that atom popping on top of its neighbour could happen anywhere.
+4:41
+But it happens exactly once because we're just doing second order.
+4:45
+And that means that the energy to create is just exactly you because it's always wanting to actually to get into the game.
+4:48
+So this whole thing was collected squared over you. And then you can ask how many of these processes are possible?
+4:54
+And is that something that distinguishes different configurations?
+5:00
+And the answer is yes, because if you have a configuration where you have two identical spins on neighbouring that sites,
+5:03
+then the principle of business. So in a sense, the the ruling in this case is not you, because the particles do not pay you when you come here.
+5:09
+It's the band gap to the next band because if this particle wants to hop on to let us have it as what is one party principle dictates,
+5:17
+it has to go to the first excited state in that little. And that's a very big energy to be elected.
+5:24
+And we say this just doesn't happen.
+5:29
+So all of the Fox states what the combination of FOX dates, all it's been configurations have the same energy and atomic limit.
+5:32
+Which means that the Crown said it's more about parity with that state. It has its largest energy shift, 32 here.
+5:39
+So the Crown state will be the one that maximises the number of pairs of orthogonal spins on neighbouring letter sites.
+5:46
+And what this means is this is going to favour antiferromagnetic or. Ferromagnetic say, all been up here and all spins down there,
+5:54
+which mean that only at the end of does one pair a tunnel if antiferromagnetic auto up, down, up, down, up, down, up, down.
+6:01
+Then I can hop everywhere, so the state will be the one with the strongest of the strongest energy ships,
+6:08
+so that will be the crowds did so that second hypothesis that becomes really
+6:14
+clear from just thinking about this one in second order perturbation theory. OK.
+6:18
+And the next thing I should say is that everything I thought I talked so far is a lie.
+6:28
+It's an oversimplification because what we are saying here is we will be picking a direction.
+6:32
+We say, OK, there is just a spin up and it's been done. And that's kind of like the language that you use for the Ising model.
+6:36
+And that's not adequate to you to see this. Let's go back and look at the from.
+6:42
+How about not look and look at the symmetry of the firm? How about modelling?
+6:46
+So what I'm writing done from you, I have a model here in the sense in standard form where we say, okay, we have the whupping term C.J. Degrassi I,
+6:49
+particularly from one side to the next, and you see that these operators now have an index sigma,
+6:57
+which is the speed index, so it can be spin up spin on the basis of the spin on it.
+7:02
+And the same thing that I have here in the interaction term, and I at times and I don't have the protocol of the two political numbers.
+7:07
+The interesting thing is, now if I say spin up and spin down, we know that they are like a conflict, a basis of the sea to space,
+7:15
+spending one spin what you can say spin up and down, but you could also say it's been left, spin right, spin front and back.
+7:24
+You can kind of take like any two states of Faulkner states on the sphere and use them as a basis.
+7:29
+Nothing will change. So what you can do here is if this if this these parameters of the strategy does not depend on sigma,
+7:35
+then you can just go in and say, let's do a business change that we place up and down by spin left and spin right.
+7:43
+If you do this, if Crank is through you, you it to some of these two terms for two week must become standard, some of the two terms for these terms.
+7:49
+Which intuitively makes sense of a spin up particle, and it's been on particle if they hop tunnel in the same way,
+7:56
+then the Koreans superposition of up and down what also happened exactly the same way.
+8:01
+So I could also write it down its native hopping terms for spin right and spin left.
+8:06
+And the second term here means that we need two particles that can be on the same lighter side to interact,
+8:11
+so it must be something where I have one spin and you spin, it could be spin up and spin down.
+8:16
+But if I take spin left and spin right, they also a falconer that would also work.
+8:20
+So what you see is that this whole. You can take any of them on the basis of the spin one half Hilbert space.
+8:25
+And you do not change the form of the Hamiltonian. So the firm, how about model?
+8:30
+Is symmetric is invariant under any kind of change of basis for less than one half state where I pick up down or left right or wrong back.
+8:35
+I mean, ultimately, that just means I change my coordinate system, do I say this is up or do I say this is up?
+8:44
+And of course, I don't have gravity. There is nothing in the magnetic field. There's nothing distinguishing to the states.
+8:49
+Hence, all of that must be possible. So therefore, it makes sense for me.
+8:54
+How about model describing? This must be what we call CO2 symmetric. So it does not change at all, whatever basis I pick on the issue to skew.
+8:58
+OK. You can think of the point that because if I don't have a magnetic field, if I don't have anything external breaking symmetries,
+9:07
+then what I point out is that access is random could be an equipment in any direction.
+9:15
+And this note has profound consequences. This is the consequence when I write things down, like in this form, up, down, up,
+9:21
+down and down and all of these cartoons, they are strictly speaking wrong and identity of.
+9:27
+The other cartoons that are correct for the Ising model,
+9:32
+I think models the model where we say does that direction is especially directing and it's been can only point up or down,
+9:35
+but it cannot point in any other direction. That's the Ising model can only point up or down.
+9:41
+But in the model that we have here. And we have a different cemetery also.
+9:47
+It also means we have a different cemetery that's been broken. When you look at the four Americans on antiferromagnetic.
+9:53
+If you take the Ising model, it breaks, it's a two symmetry, the two is the group of the two numbers plus one minus one.
+9:58
+With basically this means that the first spin can spin up or spin down.
+10:05
+So the discreet symmetry, it's the one or the other.
+10:10
+Now what we have here is we have to ask you to cemetery, which is basically a cemetery of pointing anywhere on this sphere.
+10:13
+So the first spin can point in any direction. It's like a magnet, like they could all have a domain all pointing up.
+10:19
+But I think we'll all be in the domain, pointing 45 degrees to the left or any other direction.
+10:26
+That's why the same services rotation symmetry in the property. So we have a different symmetry breaking.
+10:30
+And if we have a different symmetry being broken, the continuous symmetry in this case,
+10:35
+that means that universality class of such a transition and many other things will be different.
+10:39
+Have we noticed already this must be different just by noting that we make a difference in between?
+10:45
+So a lot of thinking can go into this lot of knowledge can be extracted without ever solving the problem,
+10:49
+just by saying, OK, we know what's different compared to other models and the fun fact,
+10:54
+and this is now getting very interesting, very interesting states coming up and it's getting incredibly complicated incredibly quickly
+11:00
+is that you cannot extend the symmetries of the firm model to more than two species.
+11:07
+If you think about this, no, not in terms of it's been pointing somewhere in space.
+11:13
+But you think about this on if you have these two spin states, which means you have to have a foreign component of our atoms.
+11:17
+We can also choose three high-performing components or four or five and so on.
+11:22
+And normally, what you don't get is you get a not very symmetric model because normally what you get is if you say, I have been state.
+11:25
+I will typically get that the interaction between my two spin states depends on which spin states I have.
+11:32
+So it might be the state one and say to interact strongly, but two and three act quickly and to be informed to make even week or whatnot.
+11:37
+And then of course, that means that we have a problem about cemeteries and it's a very specific problem.
+11:43
+However, you cannot have the situation where the interaction does not depend on the spin states, but in all identical.
+11:48
+And this, turns out, is something that you get, for instance, with things like strontium or terbium,
+11:55
+where you have a two or two electrons, because then very often what you get is that each electrons go into a spin singlet.
+12:00
+So you have no electronic spin, which means the spin sets of the atoms, if they talking about this, just a nuclear spin.
+12:05
+And because the nuclear nucleus doesn't really take part in all of these kind of electronic exchange reactions,
+12:10
+it means that whatever spin states the nuclear has, it doesn't change.
+12:15
+The physics doesn't change the collision of physics and therefore you get to the interaction is the same independent of the spin state.
+12:18
+And that's what people don't call it end symmetric model.
+12:24
+And if you look at those models, you can't think of them just as has been pointing in the direction,
+12:28
+they have a more complex representation to more complicated modules and we're not talking more about them in too much detail.
+12:32
+But for instance, if you have an as you fall model, you can realise that you can have an entropy capacity of four of look four per letter
+12:38
+site because you have to possibly forecast the configuration from what insulator?
+12:45
+I could have stayed one day yesterday, Tuesday twisted for. OK, so what is now?
+12:49
+An appropriate Hamiltonian to describe the exchange interaction that we had like on the previous slide,
+12:58
+the second on a process of hopping back and forth. What kind of interaction would give us if we if if we say we're just living in this in
+13:03
+the most insulated space of one party controlled outside of one's been politicised? What is the spin model that comes out of this?
+13:12
+And it turns out the spin model that comes out of this is the Heisenberg model. So the Heisenberg model is the model of just by the tone.
+13:19
+We have like an interaction strength and then some of our nearest neighbours, as I say, is killer product SJ.
+13:26
+So these you can think of of of spins, little magnetic moments pointing in the direction.
+13:32
+And the Heisenberg model tells you that you have a strong interaction when they are kind of like
+13:37
+parallel or minus two one minute A. Parallel or interaction is zero when you orthogonal pointing,
+13:41
+also pointing 90 degrees to each other because it's just as Kayla product you.
+13:46
+You can write down these spin operators just in terms of the polling matrices with you in relation to creation operators of the fermions.
+13:51
+You probably have seen this in advanced quantum physics. The good thing about this model is that because you just have this killer product here,
+13:59
+it means it has this issue to submit many respects that symmetry because there is nothing in there that points out the direction.
+14:07
+The only thing that's relevant is kind of like a direction between two spins.
+14:13
+If you make the connexion to the Heisenberg, to the Hubbard model,
+14:18
+you can formally show that the Heisenberg model is the low energy limit of this hubbard model for an equal one and you much, much bigger than you.
+14:21
+So if I say I really take this,
+14:29
+how about model and a take out to be charge exhortations to a take out the possibility of creating a dominant hold on here
+14:30
+because you are so big that it would have needed need it and they really only look at what to dispense to relative to each other,
+14:37
+then end up with the Heisenberg model. And it turns out that the stakes change the energy scale in here is actually given by 40s.
+14:43
+Quit over you. So that it's good of you,
+14:49
+you can directly see from the second of activation fuel that we had with the factor of four comes out of diverse content arguments.
+14:52
+And here again, there's like a million different conventions.
+15:00
+People sometimes write under Heisenberg model of putting a two in front of the exchange or four in front of the exchange.
+15:03
+And then of course, they don't have a for here if they have it there. Where you put it, where you put your prefect.
+15:08
+This convention. OK.
+15:14
+So in this metal context, if you look at consumer assistance, they would typically call this exchange just as they typically call say,
+15:16
+this is the day we exchange the hopping from one party to the next and second order perturbation for you.
+15:25
+They would call this the exchange process.
+15:30
+People in Connecticut started calling Jay Z, A.J. because they say they use Jay already for the better hobby,
+15:33
+which kind of creative people are quite small t, but because quote atoms do everything time,
+15:40
+dependence, multiuse time, so they didn't wanna use the floppy. So just again, different conventions.
+15:43
+The cemetery to be looked at so far,
+15:50
+it was pretty clear that you get minimum energy here when the two particles are orthogonal spin up and down because that's when they can localise,
+15:52
+which basically means that this term you must be positive. So if I get a minus sign from here, then I get the lowering of the energy.
+16:00
+So you see that this really promotes antiferromagnetic or. Positive js, antiferromagnetic.
+16:06
+Negative, Jay is also common in conscious metaphysics, and that's when you get electromagnetic systems.
+16:12
+When it's been one to a line, there will be like a negative J Typekit.
+16:18
+It turns out and cold atoms, if you do the same kind of analysis that we did before the second order perturbation fury on the previous slide.
+16:23
+But you do it with bosonic particles.
+16:31
+Then whenever you have like two parties of the same speed next to each other, you get them was only an enhancement of the tunnelling.
+16:34
+And hence the even bigger energy shift. So it turns out if you look at bosons, you also get like ferromagnetic auto, but antiferromagnetic.
+16:40
+It's really this flip between bosons and fermions, where you can, like have the same particles hopping in the same at the site or not.
+16:48
+In the one case, it's impossible, partly forbidden. And it was only case that's actually enhanced if there was only enhancement of tunnelling.
+16:55
+That gives you like the same model, but different factors, different physics.
+17:02
+So, yeah, as I said, CSG is invariant on rotation because it's only the relative that is important, which means it's the easiest possible term.
+17:06
+It's compatible as you symmetry and intuitive to second order.
+17:13
+Perturbation of argument also requires that it's been so locally Antipolo. So we will not go through the formal proof.
+17:17
+This is a formal, low energy limit, but I hope I motivated where it makes sense that this is the right model.
+17:22
+OK. So this model, even though is again very deceptively simple,
+17:28
+can only be solved analytically in one dimension in 2D and 3D, there's no analytic solution for it.
+17:33
+You kind of fact maybe why is that, why is this so complicated?
+17:40
+Why do we not just put in a trial way function up, down, up, down, up, down, up, down and get it.
+17:43
+And the answer is, OK, I get to the answer in a minute.
+17:48
+Just to say, if I go to higher dimensions and think about simple cubic lattices of square lettuce, cubic litres,
+17:54
+hypercube criticism, higher dimensions and possible exchanges, you have a fermions than the quantity.
+17:59
+State will always show antiferromagnetic long range order.
+18:05
+So when I say long, when you order, you do everything OK, looking back from we talked about phase transitions.
+18:08
+We need to like this cost what is the order parameter? And the other parameter in this case is this little beast, which is quite a stigmatisation.
+18:13
+So it's the sum of all that aside, one of an endless just normalisation, as I thought of the spin vectors to be discussed before,
+18:22
+and they are staggered, which means they have a prefect of PHI, which is basically just minus one to the number two the Power X. What explains why?
+18:29
+I said I. So that's basically a prefecture that kind of rotates every of us, but.
+18:36
+So it gives you this matrix of plus minus plus minus plus minus.
+18:41
+And that one is basically telling us that now the state maximise us, this is not a state where all spins are pointing in the same direction.
+18:45
+But this is maximised by the spins pointing in alternating directions.
+18:52
+Up, down, up, down, up, down, up, down. What are some of the ice itself with varnish?
+18:56
+But because I multiply every second, I have minus one. I kind of rotate the dance into ups and then I send them up and I get something finite.
+19:02
+So to stick up marketisation, you can think of astronomical consideration for a fair amount, but for the other case.
+19:11
+It is staggering. So multiplying it with this like checkerboard pattern of plus or minus ones into that basically does the trick
+19:18
+of rotating every other spin such that it rotates and antiferromagnetic into a firm magnet and vice versa.
+19:26
+OK, so just to stack up magnetisation and in your face the expectation value of this sticker,
+19:33
+mechanisation is non-zero while in the paramagnetic unordered phase it is zero.
+19:39
+So the antiferromagnetic, even though we don't have the magnetisation becoming on zero or we have is the up decision becoming until.
+19:47
+Very analogous to what you have of affirmative. OK.
+19:55
+And now he has to. Here's why things become so complicated.
+20:01
+If you now think about the classical Ising model, where you would only have the asset as that term, so when you is that components are interacting.
+20:04
+That is pretty simple to maximise that,
+20:11
+to maximise this product asset a set you just take with a sticker on an that direction that maximises this term and you get a local state,
+20:13
+got a local sticker mechanisation of one of.
+20:21
+Each local spin state will be fully Mexx, it will be fully fully polarised.
+20:26
+This won't be fully up that can be fully down, fully up, fully down, and that just maximises this stuff.
+20:30
+But now let me go back to the Heisenberg model and say something that maybe didn't see on the last slide.
+20:36
+If I take this, oops. Come on. Speed up.
+20:41
+If I take the Heisenberg model and ride it out in components wide just to scale a product is that as x x x x plus as y as Y plus a set asset.
+20:46
+So what you have to think about is that what you want to do is now you want to maximise or minimise the sum of all of those three terms.
+20:56
+So you want to maximise that, because if you are different,
+21:03
+you think of her method and you realise that the problem that you get is that if you say you have to.
+21:06
+Do we have to do here, we have to, because this is positive, we have to minimise it.
+21:13
+So we have to minimise this and say we take a staggered ordering we take.
+21:18
+Positive net negative said positive, that's negative, said, and you realise that, OK, this really minimises this.
+21:23
+I always get minus one zero. But if you think of this when you think about what does this do to us in this way, this way?
+21:30
+What if I take this point of this, this this, this rotate into the spaces to see what is excess weight does?
+21:36
+I will say that is nothing to these terms.
+21:42
+So maybe I can find something I can find a state that minimises the sum of these three terms even better by saying,
+21:45
+let's not try to just minimise this term,
+21:52
+but let's try to spread the life of all three terms and try to minimise the sum of all of three of these terms at the same time.
+21:54
+And if you try to do this by hand, you go crazy, it's kind of like whatever you try, it gets better for one time, it gets worse for the upper term.
+22:02
+So this is why this model is not solvable in higher dimensions. What you can do is you can just say, Okay, let's try to solve this numerically.
+22:09
+Let's use Quantum Monte Carlo and see what is the prediction. What will be the the perfect state?
+22:18
+And the state is so complicated, it's so much entanglement, and it's that it's not easy to write it down.
+22:24
+So even if you get an answer from Quantum Monte Carlo, it's like so many times and they're so complicated that you can't easily write it down.
+22:28
+But you can say is that if you include this in this way as white terms.
+22:34
+You get something where the stigmatisation is far less than this one half that you would expect from the IOC model.
+22:39
+But if I take a year career that doesn't do Quantum Monte Carlo, I get it.
+22:44
+I get something to take up my position on your off point two three one in the Golden State.
+22:48
+Instead of point five, it's quite a bit we used to look at magnetic moments are smaller, so the state is not that much spread out and ordered,
+22:52
+as you would have thought from the classical state, but therefore it really minimises the sum of all three Thompson Evertonian.
+23:01
+And this is this idea also was discussed last week, I hope the idea of quantum fluctuations.
+23:07
+Quinn Infatuations is a very fancy term, and when I heard it for the first time as a student.
+23:14
+For the first two years, I didn't really understand what people meant with it.
+23:18
+On one level, you understand that people say, well, because it's quantum and it's not just one number, it fluctuates around this number.
+23:22
+I kind of intuitively makes sense, but then you say, Well, OK, I want to see what this means more formal.
+23:28
+Well, it was very not clear to me. The way it becomes clear to me is by releasing Cave, I take the sum of different terms which do not compute.
+23:35
+And you know that the spin operators don't commute, right, so you can say I take a if if you spin operators don't commute and you can't like
+23:45
+take one model or one under said minimises all three times at the same time.
+23:51
+If you try to minimise one term, you do very badly with the other terms.
+23:56
+And if you like, minimise another time, you do very badly with the first time. So if you try to, like, minimise all three of them at the same time,
+24:00
+do some of the three at the same time, then you get like a very complicated wave function to dust it.
+24:06
+But then very often you can't really write it down, you just look at it numerically and you see, OK, well, this is what it does.
+24:11
+So quantum fluctuations, he just means that you have terms and you have a tone in that do not commute.
+24:16
+So you can't find the solution that, like minimises everything at the same time.
+24:20
+So you have to find a compromise between them and his compromise seem to be a pretty complicated way from.
+24:26
+At the same time, you have something that you have something that is already in the business model
+24:32
+because you have the Mott insulator and the atomic limit to put the states. That's the one that minimises the interaction of energy.
+24:35
+It's tricky zero because there's no dominant. At the same time,
+24:41
+you have put everything just in the queue with zero lock wave that minimises kinetic
+24:45
+energy because the kinetic energy of each particle as many those part of the boundary.
+24:50
+But if you now say, I want to like, minimise the sum of these two terms.
+24:55
+In the middle, then you get very complicated way functions and you get to face tension and all of that stuff.
+24:58
+And these are typically where, frankly, you can't write down that you cannot like calculate analytically.
+25:03
+We have to like, use American. OK, so here we see that the Heisenberg model is very complicated, and we see that we get this,
+25:08
+but maybe intuitive but hard to predict answer of what the local magnetisation look at second will be.
+25:16
+OK, so what this means is we have a phase transition in the middle.
+25:24
+Because we have like asymmetry that's broken, we have not a parameter, it becomes non-zero.
+25:29
+So we have this transition of where we start off at, say, higher temperature still very small compared to you,
+25:33
+where if is insulator entropy in the system dispensed to whatever they want to run the pattern of spins?
+25:39
+And then as we carry that one down,
+25:45
+there would be a phase transition of proper phase transition from the unordered mode insulator to the antiferromagnetic.
+25:46
+And at this phase transition, there is a kind of spontaneous symmetry breaking and sue to spin rotation symmetry, it spontaneously broke.
+25:53
+The same thing, like with the Fermement you could have down at the transition.
+26:00
+The system suddenly spontaneously decided to form a domain in plus that direction or the plus x direction or whatnot.
+26:05
+And here it's the same thing happening the the axis of the state mechanisation
+26:11
+is going to be chosen spontaneously because a spontaneous symmetry breaking.
+26:15
+If we are at large you of we have a critical temperature for when this process happens,
+26:20
+which we don't know, we can't really calculate it will see numerically what happens on the next slide.
+26:26
+But what we do know is that in this regime for large you, you can be neglectful in Holland.
+26:31
+It must scale with the exchange energy so that Danielle's temperature reduces critical temperature.
+26:36
+Must change that T squared over you.
+26:41
+This we know why, because we know the whole logistical often atonement, which is only to exchange kids case like this.
+26:44
+We also know that the. Heisenberg model will not be valid if you go for weaker and weaker interactions, because at that point,
+26:52
+then the whole impasse becomes important and you would go back to T.J. model or like
+26:59
+more complicated models when he entered the full blown how about Model two calculators?
+27:03
+OK. Questions up to here. I thought about the dagger.
+27:09
+Mm-Hmm. Is there any way into the picture as to how many?
+27:20
+Like. Or, you know, that really picture like what the physical picture of the.
+27:25
+Mm-Hmm. I mean that the physics of OK, if I take.
+27:34
+If you forget about it, if you think about the normal marketisation, think about the paramagnetic.
+27:43
+What if you like there was no external magnetic field during high temperature of a permanent, which means that all spins fluctuate independently.
+27:47
+If you now measure a local spin, it could be up or it could be down.
+27:54
+There's no symmetry programme, which means that if you look at the expectation value of what you get half the time,
+27:59
+you will get to pick up half the time you think it's been done. So the expectation that you have to make in that case is zero.
+28:05
+If you go through the phase transition into the free market.
+28:11
+Then you like in a big domain, say maybe in the domain, we're all Spencer pointing upwards.
+28:15
+And then that state, then the expectation value of any local spin.
+28:19
+Will not be zero anymore, but will be spin up. So the point what happens at the face this is that this expectation value of the accusation was zero.
+28:24
+And then it starts to become non-zero. So it's the order parameter of the transition.
+28:33
+Because all of the spins in a firm and try to like a line in the same direction. Now in an antiferromagnetic don't have that right.
+28:38
+But you have any antiferromagnetic is that the spins want to align in a another way and in the opposite direction,
+28:44
+sort of having the state opposite directions. So if the first spin is here, the next spin want to be there, they're there, they are there and so on.
+28:50
+So how can I make a useful quantity of that?
+28:57
+Because if you look at any spin, it could still be spin up or spin doctor, but look, it's been spin correlations.
+29:01
+They bring correlations.
+29:05
+I would say, OK, well, if the correlations have been negative, if this one is more spin up and that's where we must bend down and so on.
+29:06
+So try to get like a quantity that can average over a big sample and see where it becomes non-zero.
+29:12
+What I do is I would take this antiferromagnetic into empowerment, so if I take every spin and rotated.
+29:17
+That it comes from here to there, the next one, I keep the same,
+29:25
+the first one I can rotate the kind of take my from and rotated into a fragment and then I can see whether the magnetisation is non-zero or not.
+29:28
+And this rotating the spins while rotating the spins is nothing else.
+29:37
+If I take a vector and I have to go to get to minus that vector, so I have to multiply it by minus one.
+29:44
+And then I want to like multiply every up a vector I can just talk about pattern, I want to multiply this vector with this one, this one, this one.
+29:49
+If you think about this 2-D pattern,
+29:55
+they're going check about all of the white spaces you want to keep the flex spaces you want to multiply by minus one.
+29:57
+The function that does that is minus one to the power X plus y.
+30:02
+If you can't see it, you just throw out for like a four by four thing.
+30:08
+You can see that, OK, well, if the two numbers are even, that means the court rose or even lower us and so on.
+30:11
+And then I get like the minus one. So that's exactly what this is doing. This is a stag at minus one.
+30:17
+OK. So here is now some quantum Monte Carlo data.
+30:25
+This is no data where it just went on and say, OK, let's do this,
+30:32
+put forth this data 10 years old so people can nowadays do a bit better, but still it's pretty good.
+30:34
+And what they say is in kind of the caller, you do something simulated annealing.
+30:41
+So we start off a very high temperature and kind of artificially cool the system down and see what the energy and the parameters are that you get.
+30:46
+And then they get plots like this. So what you do, what you do here is there is two parameters and here it is a length.
+30:53
+So this is a two by two system, so Ali could six means six by six brackets.
+31:00
+And L equals eight, which they do in some cases. It's eight by eight.
+31:05
+That's the biggest they can do in a not exact but like approximate calculation.
+31:10
+What's important for those things is there is a critical position in here,
+31:17
+and if they want to cool down what kind of package if you want the virtual step size by which they could don't.
+31:20
+It's a parameter that he wanted to take to zero in order to convert to the right result.
+31:26
+You can see that in the case of Liquid six, they take three different sizes point one point six point one point zero six point five.
+31:29
+In the case of adequate eight. They only take point one because they couldn't do this more than once because we've been working too heavy.
+31:37
+And then you can see all of these lines, all of these data points, they kind of like, follow the same trend.
+31:44
+And then they can do something where they say, OK,
+31:49
+we try to extrapolate down to what happens in the infinite system limit and four steps one zero just
+31:50
+by extrapolation and say this is our best prediction of what would happen in the world system.
+31:56
+And then what you can see here is there is like the energy. In terms of the tea is a function of temperature.
+32:02
+It is the locks get this lock off the temperature. So this is very, very hot and this gets done close to the ground state.
+32:08
+And here is here, you can really see, OK, this is probably the energy of the crowd on stage because here nothing is happening anymore.
+32:15
+And then they would say, Okay, you see two different regimes, you see regime here and the energy increases a little bit.
+32:21
+And then here's a second you wrote increases massively. And what's very intuitive isn't to say, OK, let's look at.
+32:27
+Not the energy, but let's also look at the entropy. What is the entropy on the latter side?
+32:36
+As a function again of this temperature. And you can see here up here, if the tea gets very high, the people at the site shoots up to look for.
+32:42
+And look for makes sense because it is a total capacity of the firm mohabbat model.
+32:51
+But you can only have like no political, one more political spin up, spin down or D'Appolonia.
+32:56
+We have proposed configuration for that aside. So if you if you reach this look for, you kind of say, OK, I'm now at the very highly mixed state.
+33:01
+Then you can say, OK, the interaction strengthened their case, this u of a T is eight.
+33:11
+That's what they've chosen.
+33:15
+And then you can look at the end and you can see it when temperature T becomes, that's on the order of between five and 10.
+33:16
+So maybe eight. Then the entropy starts to go down.
+33:21
+Because this is now where the system gets colder, where the temperature cap becomes less than you.
+33:26
+So you get less and less likely to have this double hold on because they cost no
+33:32
+more energy than you have from an engineer system and you would never expect,
+33:36
+OK? Entropy goes down, the state gets more ordered and then there is no structure in here.
+33:39
+There's something happening in here. What is maybe like an interesting point here and the point of inflexion point in the middle?
+33:45
+That's exactly at lock to. This, again, matches what you expect, because this means that in this case, you know,
+33:51
+you have a state where you can really see there's still a lot of entropy, but you see the energy is already pretty low.
+33:58
+But energy wise is already close to the Granite State, but enterprise, it's still pretty high up.
+34:03
+And that again, matches we talked about the low lying spin excitations.
+34:08
+So that's in a situation where you have an unaltered, fully developed Mott insulator where the spins are still random.
+34:12
+There's no fluctuated widely. But you already have charge ordering, you already have one particle politicised and no doesn't hold obvious anymore.
+34:18
+And because the energy to care for charge is you, which is very big,
+34:26
+it means you're getting most of the way down and energy, but you're not yet most of the way down.
+34:30
+You only halfway down in entropy because of the spin entropy is there and very low energy degrees of freedom.
+34:35
+So that's also what makes quantum mechanism often so challenging and planets metaphysics.
+34:42
+But you would say, OK, the charge or they already have like a room temperature system is a modern insulator,
+34:46
+a competitor to what's inside that even room temperature.
+34:50
+But to really measure like the magnetic fine structure in there, I have to get much, much colder because it lives on this modern energy scale.
+34:53
+OK, so here we hit this OK to. Then the energy and discipline sector goes down forever, and then he had increases and yet rapidly starts to drop.
+35:00
+And that's then something where you get like when you are off, then the temperature of a T is point thirty six in this case.
+35:09
+So this is where you really start to get to get antiferromagnetic along with or because at that point when you get along with each other,
+35:15
+there's not much freedom left in the system and therefore the entropy then very massively, very quickly drops down.
+35:21
+So this is the way how people analyse this, so people will say, okay, well, in this case, when I get to this critical entry,
+35:27
+Peter Beattie also can calculate you can also calculate like the spin correlations that you get you see at the same point.
+35:32
+Long way it's been correlations start to appear. That is why the entropy drops so they can say, OK, this is not a critical temperature.
+35:37
+For forming an antiferromagnetic in the system, you see at that point, that's also the point here,
+35:44
+a little lost energy decays off because this system really starts to go into the Quonset.
+35:49
+So that's how we know about these numbers coming from quantum with the cost of looking at plots like this.
+35:55
+And then this is now a plot done for puberty equals eight. They can kind of repeat these plots for like many, many, many, many different directions.
+36:00
+And then they can get a plot like this. So what you see here is you have a.
+36:09
+And here you see temperature non-linear set. And what they can say is that, OK, these data points, here they are for the calculations they've done.
+36:14
+We looked at the one you what? You would say it this this data point here where we see there's a critical temperature below eight
+36:21
+point thirty six or somewhere below point for that's exactly this point you then you can see,
+36:27
+OK, where is the interaction? Where is the critical temperature for the antiferromagnetic, for different view of adjacent?
+36:32
+And then they plotted three things here they plot like the dotted line.
+36:40
+This line is like t squared over you. So didn't even go much further than you would.
+36:44
+You would say 10. Because they kind of know up from down here thinks we just took down like one over you.
+36:49
+What was interesting, more interesting is to say, okay, what happens down here on this side?
+36:55
+And he had this idea plot line, but there's no about the quantum of the cargo data.
+36:59
+And that's because in this regime here you have a antiferromagnetic and because you beauty is so small that the particles from like a metallic state,
+37:03
+they would not form a and insulated because you are small.
+37:12
+However, you still have this tendency for antiferromagnetic interactions,
+37:16
+and there's a different theory spin spin spin where theory that you can use to calculate that in this state,
+37:20
+you expect a A94 for a magnet with an exponential onset of the critical temperature here.
+37:26
+And that's basically what gives you this dashed line here is the prediction of this kind of theory and then you see the tier,
+37:33
+the regime in the middle. This is the most complicated one.
+37:39
+That's where the quantum of the cargo data, where you say, Well, OK, you and the exchange energy are all on the same scale.
+37:42
+Everything's coupled together. That makes it very complicated to calculate. And here we can only use the quantum of the cargo data.
+37:48
+And the interesting thing for. For us was a question that was asked for 10 years in the Latino community,
+37:55
+which this paper ultimately answered as we were asking no one if you want to see the country for a minute.
+38:01
+What is the best in two directions? Two things to look at.
+38:07
+You would have thought let's go for very strong use, because then we have a nice fat, modern Sinatra.
+38:11
+And the answer was, well, that's maybe not so good because then the critical temperature here goes on.
+38:16
+The same time you answer was going on here for very weak interactions, but we also not very good,
+38:21
+even though you might be able to put like some entropy into the charge sector because the system is very fragile.
+38:26
+And here the answer is not really, as there was around eight nine is the best with you.
+38:32
+And here you can also see plots which we should take from this curve, but to say what is the entropy that we get as a function of temperature?
+38:35
+And then they can match these ones and can say, Well, if you have an entropy of a particle of, say, 0.6 five.
+38:42
+And these are the temperatures that you will get. Point five point three So it basically tells you that the critical entropy density you need
+38:47
+to have in order to just get into the antiferromagnetic is a your off point for cable.
+38:54
+So less than this look to which is point seven, which you would expect because point seven is the maximum speed entropy.
+39:00
+And you have to go below that point for here is the critical value we would say the antiferromagnetic start.
+39:06
+So that's what all of these magic numbers that we sometimes quote say, quantum technologies like, that's how they come about, where they come from.
+39:12
+OK. So now let's do some experiments just to see what can be done about all of this.
+39:19
+Can this be seen in the lab? And this super exchange process, so the process of particles hopping from one side to the next.
+39:25
+Also exist with bosons, so it was first observe opposants because that was easier.
+39:34
+I should say that people call a super exchanging cold atoms and the kind of smarter people say, Oh, you're crazy, this is not just direct exchange.
+39:40
+What we call it super exchange is when you have, for instance, the corporate structure.
+39:48
+We have copper, oxygen, copper and it's a fourth 4-4-2 process because you have these two spins on the copper side,
+39:51
+they always have to hop via the oxygen side to get to the next copper sets and total to their two packs on total four for this super exchange,
+39:57
+not normal exchange. But because you wouldn't take these kind of systems and just look at the capacity and the effect of how about model,
+40:04
+we say on the level of a model, it's a dabiq exchange. So maybe we call it super exchange for that.
+40:11
+Doesn't matter too much. So what they did here is they said like, OK, if I have a double world.
+40:16
+Two letter sites, one left, one right, and I can turn them slightly at slightly different energies, for instance,
+40:21
+then they can have the configuration they have like spin up and left spin on the right hand side and then by hopping events, J.
+40:26
+This particle can happen to that side or that particular problem to that side.
+40:34
+So get back to intermediate states, which are detuned, but it's energy you have a definite left or right up to the right.
+40:37
+And they also have flag splitting to Delta, which adjusts the offset between these two sides with respect to each other and then by another hopping.
+40:43
+From there, you can go back to the opposite configuration.
+40:50
+So if you do second order perturbation you, you have to calculate now with two different intermediate states.
+40:54
+You get an exchange coupling from here to there. So this is what this is, the way to think about it.
+40:59
+And then another important point here was this was done before gas microscopes, but they could be read out of which particles on the left,
+41:06
+which particles underwrite by doing the following trick, they said, Okay, we start with this double well.
+41:13
+It is like this, many other words, as the superlatives like we discussed a few decades ago.
+41:19
+Then they said, OK, now go to such that I move up this one side first to a very high side and then merge the ones and the particles.
+41:24
+And here we go into the third excited state on the other side.
+41:30
+And then if you do time of flight imaging bent mapping,
+41:34
+you will see like the particle stone here showing up in the lowest band because the lowest energy state and the particles up here,
+41:37
+which show up in higher events because they have much more kinetic energy. And then if you combine this one reflects jungle of imaging.
+41:43
+We split the two speed components doing time of flight of a magnetic field.
+41:51
+You can get like one picture where in the end you see the spin offs and left and the spin dance on the right.
+41:56
+So with this one picture, you can really say, okay, how many particles are left, how many parties on the right and which spin state is where?
+42:01
+So that's how they can do the measurement. And what he then did is they said, OK, let's start with one configuration.
+42:08
+So let's start with the configuration. We always have to spin up on the left and the spin down on the right hand side.
+42:14
+And then just jumps to like the symmetric W.L., where you have this resonance tunnel happening from the one to the other.
+42:19
+And just look at as a function of time what happens. And this was like a science paper line almost 50 years ago.
+42:24
+And you can see three different configurations. The first configuration, eh, up here.
+42:31
+This is a configuration where like let the step was not very deep.
+42:35
+So, Jay, over you tunnelling of a hopping was big, so you would expect you're not dead in the mud.
+42:38
+And so that the loss of particles can move around, really. And you can expect that you could see double occupancies and all of those kind of things.
+42:43
+And if you look at what happened to you in the blue line, which the blue data, which is the spin off data spin for population,
+42:49
+you can see it's a pretty complicated function that doesn't look that intuitive.
+42:56
+But the blue line fits it very well, and the blue line is a fit with two frequencies one frequency of RJ,
+43:00
+the direct path, dark energy of particles hopping left and right. And the second one of order is quit over you.
+43:07
+That's our super exchange process. And, of course, Jay typically is faster than just get over you.
+43:13
+So what you don't see, which is interesting, is if you don't make the letters deeper going to be very deep,
+43:22
+going to see and how you see your this is much slower. You have different, very different times, kids here.
+43:26
+You see, it's already like one big sinusoidal wave and the second wave is just a small perturbation around.
+43:30
+And down here, the and you only see the slow oscillation of fossil oscillations totally gone away.
+43:37
+And that's the that's the way you really say this is no super exchange upon a single
+43:42
+particle will never hop on top of the other particle because you is too big.
+43:46
+But the second order exchange process, that slower process is still happening.
+43:50
+So you never kind of see the intermediate state, but you only select the full final results because it's the second order process.
+43:58
+What's the downside of that? Oh, the dumping mechanism in this case, OK, this is probably not damping in the right way,
+44:04
+it's in homogeneously phasing because you have this kind of alerts,
+44:12
+many of them and you have a big underlying harmonic trap, which means that if the one in the middle is really symmetric,
+44:16
+but the one to the left is to the tilt on it and the one on the right is the opposite on it.
+44:23
+So all of these little ones we do face with respect to each other. And that would explain this effect.
+44:27
+Strictly speaking, of course, that's not proven. It's just that it's very likely that it would happen.
+44:34
+So people accept that that's the likely explanation. OK.
+44:38
+And then for the years now, we are like just this was five years ago.
+44:44
+People have seen this antiferromagnetic directly in we live with a continuous microscope.
+44:50
+So we've discussed this before where we saw they said, OK,
+44:54
+what they do is they look at fermions under the microscope so they can really see them individually and each letter side.
+44:57
+And then if they remove one spin, so they say only look at the spin up atoms, they do see this checkerboard pattern here.
+45:03
+And then reconstruction also shows as nicely. And there's a couple of things that should be said about this.
+45:09
+The first thing to be said about we now have a much better understanding, much,
+45:16
+much better than what we could when we saw this for the first time in the first week is if you look at the overall potential.
+45:19
+It has a shape like this. So this is not very, very far from an ironic trip, and this is a very optimised trip.
+45:27
+So there's, of course, that this potential on top of that that we can't see because this card is too small.
+45:33
+So what you see here is there's a middle region.
+45:37
+Which is the reason we're going to look at the microscope, it's a sampling in the middle of that region is like flat bottomed,
+45:41
+so it has the same density everywhere which you need to have, like a nice smart insulator so that you can see it for a moment.
+45:46
+And then what you can see here artificially, as you can see these wings, very large wings, very big area.
+45:52
+It's like a big ring out here where the density is going to be very, very low.
+45:57
+And the fact that the density here so low is critical,
+46:02
+because that means that at a very low temperature, the particles in the air can carry a lot of entropy.
+46:05
+Intuitively speaking, if the density is very low, each particles have lots of letter sides to choose from, but wants to sit.
+46:10
+So it carries a lot of entropy, even at very low temperatures. And this is entropy management.
+46:16
+This is the idea of saying that. Most of the entropy my nation state will be carried by this low density wings.
+46:22
+And that means that the temperature would be low enough that in the middle, I can focus on different measurement.
+46:30
+And it was a real tour de force to just get to the stage and see that. The problem that you face is you have to ask, OK, well,
+46:36
+if I want to keep thermal equilibrium between in here and out there, how fast or slow can I do things?
+46:42
+How fast or slow is heat transported in a spin system over this big dislodging area on a charge system?
+46:47
+And as many, many questions, transport questions and all of those kind of things,
+46:54
+dynamics questions which are much harder to answer than steady questions,
+46:58
+but you kind of need to have an idea about them in order to be able to look through the static experiment of always,
+47:01
+you never know what's 10x, what's dynamics. So this is where really, really are in all of this this.
+47:05
+And the other thing I should say, and we look at this paper in a bit more detail in the next John Clarke, by the way.
+47:11
+So then we will see all of the experimental details. The second thing I should say is that this in some sense.
+47:17
+Is a lucky shot, they will not get this quality in every shot. Because remember this spontaneous symmetry breaking.
+47:24
+Sometimes you get lucky, antiferromagnetic, staggered like this we did on desert direction, but next to it, it might be this or that, but this.
+47:29
+And if you take many shots, then some of the shots will be like very where it's more or less in line with the direction.
+47:37
+And then you will really get something because you like measurement phases. Does that phase?
+47:43
+OK. So he has now finally done just for completeness, the mud in the face diagram of the frame.
+47:50
+How about at half filling? And as concentrated on the right hand side, there's a temperature.
+47:58
+This is the entire ActionScript. So what happens at high temperature is that you have like a normal state, which is the metal.
+48:04
+We can really think of this as like, OK, it's just like a pharmacy with thermal excitations on top of it.
+48:12
+And then as you increase the interaction strengthen, you becomes at some point you become much bigger than captain if you go in this direction.
+48:16
+Then you have a cross over that line is the shaded area.
+48:22
+Cross over from this metal into a into insulator because you just have less and less and less double occupancy.
+48:25
+So. But there's no symmetry being broken, so there's no hard line, there's no transition.
+48:31
+It's just that this admixture of smaller and smaller and smaller and smaller and smaller, and at some point here it's not relevant anymore.
+48:35
+And if you go down in temperature,
+48:43
+you reach a phase transition into the chaotic state and the antiferromagnetic state really extends all the way here,
+48:45
+all the exits over here, you get this good of a new regime. It's like one of a you dependencia down here.
+48:51
+You have to spin density waves and up here, just quantum of the cargo can tell you what it is.
+48:57
+And this is what you have to be part of, said. Crossover and phase transition.
+49:03
+Now, the other thing to be said is that we have not discussed at all what happens on the attractive side of the system.
+49:10
+And it turns out you can do like a funny transformation called the deep mother's transformation, which is kind of like a political transformation,
+49:18
+but only once been component, and that must be attractive to remove parts of system and vice versa.
+49:24
+And therefore, it means that every face that you have on the right hand side must have like also a face on the left hand side.
+49:30
+So when you go from the normal state here to the mud and that when you freeze out double occupancies.
+49:37
+You don't have them anymore. What happens here is you get what we call preform pairs because, you know, if attractive into action.
+49:42
+So it makes more sense for the particles to be in the same dataset together being bound together.
+49:48
+So what you get in this regime here is you get something like where the particles are all bound into pairs and give a firm guess of these pairs.
+49:52
+If you now cool down here, this regime.
+49:59
+To think that you only have singlets with at some point start to form an A. for a minute, if you down here this regime, you get the same thing.
+50:02
+Similarly speaking with with the doubloons and the holds because you only have dominance and hose at this point.
+50:10
+And what those will form is the Republican superfluid state. So you get like a b c of these tightly peers.
+50:15
+And this regime here we have to act is weakly interacting, repulsive, antiferromagnetic for a minute.
+50:22
+What you get in this regime is actually a superfluid.
+50:29
+And then you get like a transition in here, cross over from the superfluid into a piece of tightly wound pierce.
+50:33
+But that's a faith tradition in between them. It's just a smooth cross over a ravine. That superfluid face is just as of the size of your piece.
+50:39
+We come from very big, loosely bound cooper pairs to very tightly bound on types and just a continuous transformation.
+50:45
+In the same way as you would say, here we go from a spin density wave antiferromagnetic to a Heisenberg antiferromagnetic.
+50:52
+And if you would have liked to lecture us more,
+51:02
+we would to have one lecture on this party's transformation and look at this in a bit more detail because it's fun,
+51:03
+but we don't have the time, so we have to move on. For the last two minutes, let's look at alternatives if we cannot have antiferromagnetic or.
+51:07
+And there's a few reasons why you could have this, the first reason this lower dimensions in one deep.
+51:17
+There's a fear in cause the moment of darkness for room,
+51:23
+which says that if I have a long range ordered face in higher dimensions, that's connected to a continuous between.
+51:25
+Then in one, this would be absent. I will not have long ordered states because quantum fluctuations with there's two other language or.
+51:32
+Now, mind you about two things, the first thing is that. It's important that we hear talk about continuous cemeteries.
+51:40
+So if you look, for instance, the Ising model,
+51:47
+I think model can be the antiferromagnetic you ordered in one because the Ising model only breaks a discrete symmetry, not a continuous symmetry.
+51:49
+Why the Heisenberg model cannot be antiferromagnetic,
+51:56
+the one that mentioned it may not have long range order will only have quassel on which order which would decay than 80,
+51:59
+apparently because of this effect.
+52:04
+And the intuitive point is that if I have a single effect in one gene, it kind of blocks communication between the two halves.
+52:07
+They have an infinitely long one detained. It's so unlikely to have a system of any of those blockages and defects that it will
+52:13
+always have some defects over long ranges will always have decaying populations,
+52:22
+and these kind of fluctuations are like defects enough in one dimension to destroy district language or.
+52:27
+That's the essence of the movement back in the field.
+52:33
+But that's kind of the most interesting part, the most interesting part is not what happens in higher dimensions.
+52:36
+So for instance, if I take A. from a cat in two dimensions, what's the current state?
+52:40
+And I start to daub it to say, Okay, let's take one spin out to spin out.
+52:46
+It's like a few defects and there are a few holes in there, but there's no spin. What would happen?
+52:49
+And, well, the answer tells us that in quantum in simulations of the Hubbard model Monte Carlo simulations,
+52:54
+people have seen that you get into very different phases and also in your height you see materials to culprit.
+53:01
+We know that this doping induces this way wave superconductivity.
+53:07
+So the system goes out in quantum magnet and being a superconductor, a very massive change,
+53:11
+just like taking out a few particles or putting in a few extra particles. That's very interesting.
+53:16
+And the last part that can, of course, quantify magnetism is frustration.
+53:22
+So, for instance, if I have like a wire triangular lattice with the triangle spin up here, spin down there, what shall I put you?
+53:26
+This frustration also gives rise to more complex dates.
+53:31
+And then the cogman letters, for instance, that can give rise to like, yeah, very different states.
+53:34
+So what can these states be? How can they look like some classic that states definitely discussed for a long time?
+53:38
+The first one is the so-called VBS. states of surveillance upon solid.
+53:44
+The idea here is that you always take a to neighbouring spins and they form a spins of aliens,
+53:48
+want to spin it in these things that are arranged in the periodic fashion that breaks the symmetry of the underlying letters?
+53:53
+So a cartoon of this one would be if I take this triangle letters here, I can take these two spins,
+54:00
+put them together into a spin singlet to uptown minus turn up in this case, OK, this is the triplet, OK?
+54:05
+And then I do this one and this one at this point.
+54:10
+At this point, at this point, you can see that the bonds themselves, the valence bonds arranged and in like a crystalline or.
+54:12
+So it's a state it has broken a symmetry, because now the Unitel, if you want, goes from here to here from one start to the next.
+54:19
+So it's twice as big as two units that of, you know that.
+54:27
+So if a period during which practises create symmetry because it could happen here or it could happen to.
+54:29
+These are maybe less interesting,
+54:35
+the more interesting states are so-called spin liquid states where you have no long range order at all temperatures even in the state.
+54:36
+And one way how you can get them are so-called AVB states resonating valence one states surveillance fund is kind of like this.
+54:44
+Bond between the two parties could see that going to a singlet and resonating means that.
+54:53
+I kind of like a covering of this singlet,
+54:58
+one configuration of how do you think that's arranged over my letters and I have another can have another one.
+55:00
+And those two can be in resonance, which means they can have the same energy.
+55:07
+And then they're kind of fluctuating from one to the other, from the one to the other.
+55:10
+The resonating between different configurations and these are babysits is resonating variance upon states.
+55:13
+They have been discussed already by Phil Anderson as a potential explanation for what might be going on inside these materials.
+55:18
+Because the question you can have is if I have this kind of spin background and have at one site here where I have to, I can have like a single,
+55:25
+I see a single spin that's not paired and say, no, I will arrange this bond to this bond, then the unpaid particle sincere.
+55:33
+And then you can calculate the energy for this, and you can ask, can maybe those particles now move through the system in a superfluid way?
+55:42
+And can they don't give rise to like superconductivity? And it's like one of the stories behind this IPB fury.
+55:50
+There's lots of things in here which are very interesting that we cannot discuss forever because we don't have time.
+55:56
+I hope it's OK for overrun by two minutes today because I still have like two slides to show just to show what can be done.
+56:05
+Also, 50 systems that have a context. So you can also like take other models of what the mechanism and them of cold atoms.
+56:11
+So we now go away from the Fermi about model. That was the Heisenberg model.
+56:17
+One thing that we can do is we can do something like Quantum Ising model. So the Ising model is that asset is typically a classical model.
+56:21
+And if you want to get a longitudinal field, nothing changes here,
+56:29
+but if you wait also a transverse field so you have an filled next component of the field,
+56:32
+then it turns into a quantum model because you can have fluctuations in that.
+56:36
+You cannot like, say, minimise this to these two terms and that term at the same time.
+56:40
+If you look at the phase diagram of this model, it has like antiferromagnetic state,
+56:46
+if these two companies are not important, but if you give it like a strong external field over an asset on the X direction,
+56:50
+then you go into a permanent state where everything is then aligned in line with external magnetic field, as you would expect.
+56:56
+And this kind of model people could like to in a staggered so in a tilted pose.
+57:03
+How about model? The idea is the start of an unequal Walmart insulator, one particle, and maybe that's a side.
+57:09
+They noted that there's a lot of they put like a big gradient over the letters.
+57:15
+And if you have this data, you would say in the this microscope, you see one particle in every letter side.
+57:20
+Now what can happen is that say this particle here? Can they beam hop to the right?
+57:25
+There's a big energy mismatch,
+57:32
+but if they're state of a particle in here and the detuned thing such that e the energy of going left to right is the same as you.
+57:33
+So the index energy on top of this one is compensating for the step down that this can be a resident of what can up from here to there recently.
+57:42
+What you also see in this case is that you cannot have the situation and you can map in this.
+57:50
+The political say sitting on the left side is has been up to politics. Having moved to the right side is been done.
+57:54
+So you can do a mapping from the occupation to a nice spin model and then you can see you get a very interesting spin model because a good spin model,
+57:58
+we can never have two down spins next to each other. You have a constraint in here because if this one particle is spin down,
+58:06
+which means let's move to the left, to the other particle here, so we move to the right.
+58:11
+Sorry, the next part cannot also move to the right because there's no you here, no interaction because the particle has left.
+58:15
+So what you get that kind of situation, and if you can get like an A. from, I think one state or every other particle has moved over.
+58:22
+So we have the dome particle moved over, spin up, particles not moved over and so on.
+58:28
+And you get something if you look to a microscope, you see no particles.
+58:32
+And long story short, it gives rise to this kind of Hamiltonian exactly like the one we had before, and then people could do these things.
+58:37
+Would it change the ratio of you? And it can go from a permanent phase.
+58:43
+We have one party that you say decides to like the antiferromagnetic phase where
+58:49
+you have no party gets a single party because you when you have plans on hold on.
+58:52
+And they can go from one to the other and go back. So just whistle stop tour.
+58:57
+You can also simulate this kind of model. You can also go and simulate the classical X Y model,
+59:03
+because you can say the classical X Y model means that I have a classical picture in the plane that points in any direction parameterised.
+59:08
+But if you're an English teacher and that one gets wise to an Hamiltonian like this, like the Heisenberg model.
+59:15
+But now with this classical vectors? Now, if I think about the BBC's ABC,
+59:20
+I can describe as locally as a coherent state alpha far and I can say this fitter and fitter can be just the argument the face of my other.
+59:26
+So I can say that and in affirming, I think face my vote is the same face everywhere in the antiferromagnetic face, my BBC would have staggered faces.
+59:33
+And then they can look at these companies.
+59:42
+And they can now use like a method where they can change the ratio of some of the things make them positive, negative and the triangle letters.
+59:45
+And they could see like a whole horror of different magnetic states.
+59:52
+They could see ferromagnetic states, state of Rumbek Order or spiral states, and so on.
+59:55
+Basically, what they always do is they always do time of night imaging of the items.
+1:00:01
+From its regular letters, and if they see that it's nice hexagonal pattern here,
+1:00:05
+for instance, they know I have the same face everywhere, so I'm in ferromagnetic face.
+1:00:08
+If I have something like this, there's one big face. We have a line of all spinoffs.
+1:00:12
+The next line is pencil pointing in the opposite direction.
+1:00:15
+Then I get like in the x direction, still the same pattern that we have before, but in the right direction.
+1:00:18
+It's kind of like the atoms are, know, staggered. So it's kind of like a shifted to the edge of the zone and indeed in the right direction.
+1:00:23
+Instead of having one spot in the middle, you see two spots, which can be the edge of the principal.
+1:00:29
+And that way, you can interpret many things from here to there. And, yeah, classical models can be analysed in this way very often.
+1:00:35
+And this, by the way, is very interesting because what they cannot do is if you have local control of each of those tunnelling things,
+1:00:43
+you can say you make this thing positive, this negative, this thing positive listing negative.
+1:00:49
+People have shown, for instance, that such a bad off in the empty department here is done.
+1:00:53
+A lot of drug of this to show that this is a very powerful state for doing optimisation problems.
+1:00:58
+Because you can take many optimisation problem coverings, herdsmen and so on. You can cost them in the language of saying, I put them on the letters.
+1:01:04
+So my nation state, the positions of all of the things become hopping, which was positive, which was negative and so on.
+1:01:11
+And then the question of finding the minimum cover this and say, becomes the question of finding a state of the minimum energy.
+1:01:16
+So the state? So if you take this big model that you can't really solve numerically because it's very hard.
+1:01:24
+You can encode that perfectly in letters and then you take your bosons, just cooled them down gently.
+1:01:30
+And you just look at the quality that you get. It tells you what you up, what the what the answer to is optimisation problem is.
+1:01:37
+And this is like one very fascinating direction the people are working on,
+1:01:45
+although we are working on here because what you need for the Senate is local control
+1:01:47
+and you need to programme this tunnelling that tunnelling this tunnelling and so on, and the technology is becoming available in principle.
+1:01:51
+But nobody so far has integrated all of this, and we demonstrated that it perfectly works.
+1:01:59
+So it's something that might happen in the next two or three years, so it's very exciting, very exciting development.
+1:02:03
+And last thing to say is just that, of course, if you forget about let us spinel, guess this is a.
+1:02:10
+We just have to take all of the spin components in the BBC, all eight hypothyroid states.
+1:02:16
+And you just asked by imaging, what a kind of fact the different domains that I get.
+1:02:21
+And then people can do coarsening that that makes you really look at the expense to actually see what do say.
+1:02:26
+If I crunched the back very quickly, I get very small domains like when you have an A. from a ferromagnetic front, it could very quickly.
+1:02:31
+If you put it more gently, you can see that, OK, the domains become larger and larger and you get bigger information.
+1:02:39
+So many models can be mapped onto those models, and a lot of work can be done on this.
+1:02:46
+OK. A bit longer than I should have done, but we got food for it in the end.
+1:02:52
+Thank you very much. I'll upload the next problem sets today or tomorrow.
+1:02:57
+And then there's also instructions on when the next join clap, what happened and how I think we're going.
+1:03:01
+Thanks a lot, Seront.
+1:03:06
