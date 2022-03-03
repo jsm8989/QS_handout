@@ -1,0 +1,1312 @@
+OK. Good morning, welcome back. So election number 10.
+0:06
+Last time we talked about, like what the last couple of weeks we talked about,
+0:11
+like interesting phases you can have like superfluid mott insulators and then last time about quantum magnetism mechanical phases.
+0:14
+Now today is again a very big change because today we're talking about how a system
+0:23
+can actually reach firm equilibrium in something we've always been taken for granted.
+0:28
+We've always been saying, Okay, you put it gas in there and it will have a temperature of so-and-so.
+0:32
+And it would be a bit described by a former state. And we swept under the rug, how can it get there and can it actually even fertilise?
+0:37
+And what does humanisation actually really mean? So that's going to be the topic of today.
+0:45
+So it's kind of like a connexion. It's kind of a bit away from that quartette.
+0:49
+And specifically, it's a connexion really to statistical mechanics and thermodynamics.
+0:52
+How does thermodynamics actually work here? And so what is feminisation?
+0:57
+Well, if you start with hemodynamics, you say it's just an empirical fact,
+1:03
+it's an observation that if I take a generic classical in anybody's system, it will, if left alone, evolve into a firmer state.
+1:07
+So the classic the the two classical examples would be to say, if I have a system where all of the particles are dressed,
+1:15
+they get balls and they just inject some energy, one very fast, big coming from the right.
+1:21
+Then obviously, before it starts colliding, it's a very non-formal state. It's not like a box makes a bolt, an institution or anything.
+1:26
+It's one particle being really fast enough to pass the other particles being addressed.
+1:32
+That's a pretty non-equilibrium situation. But then you know that if you calculate now the conditions or you just observe what happens after many,
+1:36
+many collisions in the yard were things that reflected what they conduct. As this tribute, you can describe the evolution.
+1:43
+You can describe the distribution of velocities that you get very, very well with an ideal gas law.
+1:48
+So it looks really just like a firm against. Another example from thermodynamics is the dual expansion.
+1:53
+So you start with like a gas on one side of a container,
+2:00
+with this one being close to the pressure of being the volume here and obviously the density on the other side is empty.
+2:03
+There's a vacuum, there's nothing there. So now you know that if you now open up this connexion and the gas will expand,
+2:08
+that will fill the full volume and you would have a different kind of pressure everywhere and the different temperature.
+2:16
+And you also know from family dynamics that was told that this process is irreversible.
+2:21
+So you cannot just say, Oh, particle, so please go back and close the gate again.
+2:27
+And if you go from here to here, this irreversible possibility is seen by an increase in entropy,
+2:33
+some creative calculated in classical thermodynamics.
+2:38
+So the idea is that this process of feminisation is something that happens and it's irreversible.
+2:41
+So if you open up the gate,
+2:47
+you have a very non equilibrium situation because you if one big homogeneous volume with a much higher pressure here than you have here.
+2:49
+So the system will try to equilibrium particles which flow from here to here.
+2:55
+And by doing so in this very violent non-diabetic, non quasi static fashion, it will create entropy,
+2:59
+which means if you come in with a piston and push the particles back or back to the other side and close to five again,
+3:06
+you will find out that you have a higher temperature near the end and the higher president you had before.
+3:12
+Because you've created entropy, you've created this order in the system. And once it's in there, it can't get out.
+3:16
+That's the second law of thermodynamics. So that's what you all know from permanent that this is nothing new.
+3:21
+The new part is not a question of, OK, how does this happen microscopically?
+3:27
+How can a system go from a state with a low entropy to a state of a higher and what's going on there?
+3:31
+And the answer the people now believe is the right answer is the answer of dynamical chaos.
+3:37
+So I should maybe stress one important point here. Everything we're doing now is you always talking now about isolated systems,
+3:44
+so we're talking about a system has no firm connexions to the outside world.
+3:49
+Because what you normally do is when you, for instance, take a kind of sweater system,
+3:54
+you say, I take my little rope and I put it in the choir start then which you say,
+3:57
+well, it's in from a contact of a big firm reservoir and then it will by exchanging energy and information,
+4:00
+all of that and entanglement with the reservoir. It will equally point at the same temperature anywhere as ever has.
+4:05
+So normally you never really much think about the process of feminisation itself,
+4:11
+because you just say my system approach is in contact with a big firm, a reservoir and it gets the temperature from there.
+4:15
+And it's very nice in many situations, but it's an intellectual it's a very interesting question, what happens in isolation?
+4:21
+And the question is, of course, also very relevant for cosmologists, because you would argue that, well,
+4:27
+if I start, if I think of the Big Bang at the start of the universe coming from nothing out of the Big Bang,
+4:31
+it has to equilibrium as a closed, isolated quantum system in a sense because there is nothing outside the window of the liquid qualified with.
+4:37
+So how can such a system happen?
+4:45
+And it turns out the answer is dynamic of chaos and chaos, chaotic dynamics, this dynamics where the president determines the future.
+4:47
+But the approximate president does not approximately determine the future. That's a weird sentence that it's past us step by step.
+4:56
+The first thing is to say, well, this is classical physics, classical dynamics.
+5:04
+Newton's laws apply. So if I know my initial state, it's just mechanics.
+5:07
+I can calculate what would be the state at any time later on the property.
+5:11
+The problem is only that I know don't know my initial state perfectly well. And you kind of know if you have an opinion on the dynamics,
+5:16
+if you say I was over a ball rolling down the slope and have like a one percent uncertainty in the initial velocity,
+5:22
+I get like something in the order of one percent uncertainty in the final position. Fine.
+5:28
+That's approximately where I am here will know approximately where it end up.
+5:33
+But the question is, can I have a system where if I just know the present, approximately I cannot say anything, even approximately about the future.
+5:37
+And this is, of course, something that people in popular culture at say a lot.
+5:46
+It was done the butterfly effect where if I have the right atmospheric conditions,
+5:49
+the question of whether I get like a tropical storm over North America or maybe over Asia
+5:54
+somewhere can depend on whether a butterfly and president was flapping its wings or not.
+6:00
+It's kind of like a little bit like with the we had a related idea when we were talking about the spontaneous symmetry breaking when we were saying,
+6:06
+you put like a pencil on the tip, it will fall over some direction and it can be extremely hard and impossible
+6:12
+to predict which direction because it can go down different routes and very,
+6:18
+very small. Initial things can like, make the decision. You have something many body contacts, which is a bit similar but also different,
+6:21
+where you would say that the dynamics that you get are exponentially diverging, depending on the initial conditions.
+6:29
+So a typical example where you get this is like the easiest one is the double pendulum.
+6:35
+So, you know, if I have a single pendulum just swinging back and forth,
+6:40
+it's like my simple harmonic motion and I can predict everything approximately and perfectly well.
+6:43
+If I have a double pendulum swing back to the end of the first part of the second pendulum attached.
+6:47
+You just watch the trajectories that go out here.
+6:52
+You would see that a very different, very similar path of the trajectory at this point might end up going into very different futures later on.
+6:54
+So you see, OK, well, APR is always just doing this kind of isolation, but now suddenly diverges.
+7:02
+So the first oscillation looks kind of like a third or fourth oscillation,
+7:07
+but if the fourth one suddenly things turn out differently and it just spins around the lower one and so on.
+7:10
+Another typical example the people have studied, the most of it initially is what they call the so-called Lawrence Attractor.
+7:16
+It's a simple differential equation with just like a cubic term. And the idea that you get in some parameter space, it's like the following.
+7:23
+So you see the particles just moving around in this kind of orbit here or acquisition of the different equations moving around in his orbit.
+7:31
+You see that it starts spiralling around this one point here.
+7:36
+And then at some case, for some reasons, we will go over and spiral towards a different point.
+7:40
+And then for some reason, we go back and spout about this point again.
+7:44
+So it's extremely hard to predict what in the next orbit it will stay on this side of it to go over to the other side because it will really very,
+7:48
+very much depends on where you are you in this land that night. So a very small difference.
+7:55
+It's like a fork in the road. You go this way, you go that way. And that's something that people call, uh, uh, say.
+7:59
+What people say is that the uncertainty in the forecast increases exponentially with the elapsed time.
+8:05
+So if I have this differentiated question, I'm here, I can say, yes, you most likely end up there, dear, dear, dear, dear.
+8:11
+But Ray, will you be after like two rotations? You can't say anything, really, because the uncertainty grows exponentially.
+8:16
+And the way it grows is we've been surprised at the exponent, the financial dynamics this quarter, the of exponent.
+8:22
+And you will see a lot of literature where people look at different systems and say they try to extract the kind of exponent,
+8:29
+and if it's finite, you have chaotic dynamics. If it's zero, you have regular dynamics.
+8:35
+And this is the way people now believe that a simple classical system can formalise,
+8:41
+because if I cannot really later on say what a particle will be if we limit uncertainty grows exponentially,
+8:46
+then I kind of lose the information about the initial state. What if I say, okay, the particle particles snow here, here you cannot really say,
+8:54
+where was it like 100 orbits before you can really say it wasn't in this area?
+9:02
+Wasn't this light? Was the initial state of particles here all the particles there,
+9:06
+like if you think big of this jewel expansion right after you have this comet state and the two chambers were identical,
+9:10
+you cannot say what a particle initially you are left or on the way, such as information about initial state is erased.
+9:15
+It's gone. It's not practically accessible anymore.
+9:20
+And that's what people mean, got big time dynamics to redirect, sweep out the whole parameter space.
+9:24
+And after some point in time, the system can be anywhere in parameter space.
+9:30
+Well, I should be a bit more precise. Of course, you have tons of quantities, the one quantity, this is an isolated quantum system.
+9:34
+Again, it's important to isolate is always conserve this energy.
+9:40
+And now we are suddenly doing thermodynamics because we're not suddenly saying that, OK, well.
+9:45
+The only thing that's conserved over time is energy and everything else because of this exotic time dynamics gets erased.
+9:49
+Then if I want to make a prediction of how what can I say about the state? Far in the future.
+9:56
+What I can say that a very good approximation is what we call the microeconomic an ensemble being a particle
+10:02
+is of equal probability at any point in space based where it has to save energy than an initial stage.
+10:06
+So everything was erased, except for the initial for for the energy.
+10:12
+And that's what we mean, the feminisation. And that's how we get like the microcontroller sample and then, you know,
+10:17
+from statistical physics how you can go on to further and further from canonical crank, canonical and so on.
+10:22
+So I think this is the key step of saying where you go from microscopic loss, you have dynamical chaos.
+10:29
+You go to Harvard economics into thermodynamics. This is the key step printing if you want microscopic to statistical physics to thermodynamics.
+10:34
+OK. And this is well understood, and it's it's a fascinating story, but it's kind of it's there.
+10:45
+And as I said before, Feminisation reasons a lot of information about the initial state,
+10:52
+except for a few conserved quantities like a particle, no energy to the momentum of the system.
+10:55
+In some cases here, of course not quite because it's. A moment of concern, but in general, often it is OK.
+11:01
+The key point. For having something like this is you always need to have a non-linear differential equation,
+11:08
+if you are differential equations linear, you can't have that.
+11:15
+Because in the linear equation, you know, you have to superposition of solutions, which means you can always say,
+11:18
+well, if I'm over here or there on initial stage, it must be over the on the final stage.
+11:23
+So I can't have this exponential growth of uncertainty. I can only have that you have an engineer within the system.
+11:27
+And it's also well understood from classical dynamics, classical dynamical chaos.
+11:33
+And now that's OK, and just to say that also in classical cases, you don't always get it, you get it, in some cases put on in all cases.
+11:39
+So the jury system is a typical system where you would expect chaotic dynamics and feminisation and you would expect to have the ideal gas.
+11:47
+Now in one day, if you want this system situation can be different if you have like so many particles in
+11:54
+the road that they can really only move in one direction and they are all identical.
+11:59
+Then you realise that you have many, many more kinds of quantities,
+12:03
+because the only way how you can like exchange was what can happen in a collision between
+12:07
+two identical particles is that they exchange their momentum but not redistributed.
+12:12
+So if one particle is very slow, one part goes very fast. Afterwards, the other particle will be very fast and the first one will be very slow,
+12:16
+but it will not be the case that they cannot have equal velocities afterwards.
+12:23
+Right, that's impossible.
+12:27
+And that's what you get with Newton Cradle here, we really get like all of the energy will always be in one bite at the time.
+12:29
+So it's strictly speaking, if there would not be friction or anything. A perfectly periodic dynamic would not firmness.
+12:35
+And this is what people call integral dynamics.
+12:41
+Integral just really means that you can integrate the differential equation if you get like, say, maybe an analytic solution for what it looks like,
+12:45
+its regular dynamics look chaotic but regular, and it's called integral and there's no firm reservation in you.
+12:52
+And what people are saying, which you can mathematically prove is you can show that these systems are integral
+13:00
+because they have a high number of indicators of motion sort of conserved quantities.
+13:06
+So you can show that the occupation of two different momentum classes,
+13:11
+how many projects are moving with a given velocity and how many particles are west, that one doing a collision is not changing.
+13:16
+So it's an integral of motion. It's something that stays constant.
+13:21
+And then, you know, from when you started first doing Kepler's laws, you know how you could solve them by saying,
+13:24
+Well, OK, I have this three degrees of freedom, but I have my three conserved quantities and different.
+13:29
+I can integrate it up. And I just got a regular dynamics because it's the only dynamics compatible with those conserved quantities.
+13:34
+If you don't have as many conserved quantities, you have degrees of freedom, which you tend to have in this kind of system,
+13:40
+then this and that mix is constrained so much as can't formalised and that's how you get classical integral motion.
+13:46
+And it's a typical thing that you have in one day and almost never higher up in higher dimensions.
+13:51
+But if you do, particles are kind of like colliding colliding in two dimensions.
+13:56
+The picture is that what if they really hard on it's like a collision, they just exchange their momentum.
+13:59
+But if ever glancing incidents, then they cannot go off in this direction.
+14:04
+So, for instance, say the same velocities or whatnot, so you can redistribute the absolute amount of momentum between particles.
+14:08
+OK. And now we finally go over to quantum and ask, can we do the same kind of understanding for quantum systems?
+14:14
+What's happening with a quantum system? Can the quantum system formulas?
+14:22
+And again, I'm stressing that we are talking about isolated systems where there's no exchange, you have an environment.
+14:26
+There is no external noise. There's no heat exchange and classical human dynamic terms.
+14:32
+You can still do work on the system, so you could still say a quantum system, so it could be in a and it can compress the piston.
+14:38
+But there should not be any thermal exchange between the particles into one.
+14:44
+Which means in our case, of course, we can make our traps stronger or weaker change, let us step and things like this,
+14:48
+but there's no heat exchange because we just interacting with a classical field that has no entropy.
+14:53
+OK, so. Well, you can do this analysis in one line, and you can say feminisation is impossible because the shooting equation is a linear equation.
+14:58
+So dynamical chaos cannot take place because it's a linear differential equation.
+15:08
+So we should go home. There is no feminisation of quantum mechanics. The problem is, of course, that this can't be the full story, because in the end,
+15:13
+even the stuff that we describe as classical, it's just an approximation. Everything is quantum in the end.
+15:22
+And we do see formalisation. So what's going on? And the answer is we have to think hard about what we actually mean with feminisation and
+15:27
+whether we should really think about whether or a picture of humanisation is the right one.
+15:36
+So let's start looking into this. So let's say I start from a pure state of zero, it's time to equals zero.
+15:42
+And I do unitary time evolution. It's a closed system.
+15:48
+So it's just Hamiltonian time evolutionary and you know, it's the matrix exponential of them in Italy.
+15:51
+To your times, the nation state gives you the final state.
+15:56
+So the key thing is to say, well, this state safety, it will remain a pure state away from, I get away from.
+16:00
+I have many, many, many, many kinds of quantities in here, because if you think of the way function for many wave from, you can always.
+16:09
+This is what position of one of the many agencies. What conceptual you can do this?
+16:15
+We looked at in practise and we said the dimension of the Hubert's space is so huge it's impossible to do it in practise.
+16:20
+But conceptually, of course, you can read everything in an eigenvectors.
+16:26
+You do that and then you know that the projection of the item onto the 18 states,
+16:29
+the occupations of the island states will not change in time because the island states.
+16:33
+So you know that if you have dimensionality of human space and you will have encountered quantity,
+16:38
+then all of those projectors, so you have exponentially many conserved quantities and you manage better than them.
+16:44
+So it's a huge number. So in classical sense, you would say, OK,
+16:49
+now have a system of sorts source of so many conserved quantities that are conceptualisation because
+16:52
+the occupation of each state literally stays constant over time because the American states.
+16:58
+So basically. And isolate the quantum system can therefore never dated.
+17:03
+You cannot say there is any kind of closed system dynamics where you start of
+17:09
+a pure state of time to zero and it goes into like a thermal density matrix.
+17:12
+And I'm assuming everybody's familiar with like the language of density matrices and firmer density matrices.
+17:17
+I see people nodding, that's good. So, so that can't happen on a global scale.
+17:22
+The cost of shooting a question is that you? Now, the key insight in the toy model, if you want, is to say, OK, this is about the global system.
+17:31
+What can happen to subsystems? And let's look at the toy model that say we just thought of a pure state of two spins spin it left to spin it a right.
+17:41
+Let me start with an entangled state up, down plus down up.
+17:51
+Do you have the position of the one speed being up, the ever being down plus the opposite one?
+17:54
+So this is the office of your state is a purely functional.
+18:00
+But even now, just looking at the state on the left hand, on the left hand system, so I take the partial trace of the system on the right hand side.
+18:04
+The remaining density makes for the left hand system looks like a mixed state half half.
+18:11
+And if you don't know what the past which raises, they're sitting down here, which you can see,
+18:19
+but which is in the notes where you can find a web page, which explains it very nicely.
+18:22
+So the idea is to say, OK, intuitively speaking, I have this bipartite system, just not left system on the right.
+18:27
+And I know that these two subsystems are entangled and it's global in a pure state event, they'll say, Well, let's forget about the system.
+18:33
+On the left hand side, let's put it somewhere I never look at again, and let's just look focus on the one spin state and the one thing.
+18:40
+And let me do local measurements on this one to a certain what is going to be the state.
+18:46
+What I then find is that, well, half the time I see you spin up half the time as he has been done,
+18:50
+so with a certain there is nothing I can say that looks like a mixed state. I can also do all kind of fancy spin rotations on it.
+18:55
+Try to measure a different basis. There will always be half this, half that will obviously mix episodes.
+19:02
+So it looks like a mixed state.
+19:07
+And if I wouldn't know that it's like entangled with the other half of the system, I wouldn't know that it's global or state.
+19:10
+I would have thought it could be global, it could be just on its own in a mixed state.
+19:15
+So it's not it's an important conceptual step.
+19:19
+If the system is entangled with something else and I don't have access to the other side, I can never fundamentally never prove that it's entangled.
+19:22
+It can always look just like a mixed state on the one off. Because I just don't have access to the information.
+19:31
+But that's kind of an important insight for us, because maybe subsystems. Ten families.
+19:37
+So maybe if I have a big plug of system of a million particles and whenever I only measure like
+19:43
+the left half of the right half or the middle half or whatever sub selection of particles,
+19:48
+they might look like a firmer state.
+19:53
+So maybe the system globally doesn't formalise, but each part locally looks like it has formalised and then all of the pureness, if you want,
+19:56
+is like in this many body entanglement between all of the parts of the system,
+20:03
+which I can never really measure because you can measure like a million auto correlation function.
+20:06
+If you have a million particles.
+20:10
+And that's the spirit that stayed here, and we're going to look at this idea in the next couple of slides and a bit more detail.
+20:13
+Just to say what is what is this sudden crunch,
+20:21
+because this is a typical protocol that people look at this, the word quenching comes from material signs.
+20:24
+And it means the rapid cooling of a rock piece and water. So you take your hot iron, for instance,
+20:29
+and put it into a cold oil liquid water so you very quickly change the temperature in
+20:33
+this case and thereby you get like a very interesting non-equilibrium properties.
+20:38
+So crunch for us just means a sudden crunch is changing in between instantly.
+20:43
+Like opening up this thing in an instant. That's a sudden quick.
+20:49
+And when you have a sudden crunch, when you do something that's very non-diabetic,
+20:53
+not causes static, not a slow, smooth change, but a sudden bang, different Hamiltonian,
+20:56
+then you have non-equilibrium dynamics because the system initially is very far out of
+21:01
+equilibrium and then the system reaching equilibrium again in the classical description.
+21:05
+That's irreversible, and that's where entropy can increase.
+21:09
+So sudden crunch just means we suddenly project onto a new Hamiltonian and then we know that classically speaking,
+21:13
+you can have irreversible dynamics that produces entropy.
+21:19
+And then we can look at what else this kind of is a set up to talk about depression as a it's a nice test that people are studying a lot.
+21:23
+We can see what does this do on the quantum side? OK, so let's try to like do some calculations here.
+21:30
+We start off with an island state size zero, which could be the iron state of the Hamiltonian h0.
+21:39
+So we started in the concept of Hamiltonian because that's a nice, pure state that we can create approximately created in a lab.
+21:44
+And then let's say a time check with zero, which suddenly changed Hamiltonian to eight one.
+21:50
+So one example, if you can think of, which is a good example, is to say, well, OK,
+21:55
+let me have a paramagnetic let me have the magnetic field pointing in that direction.
+21:58
+So all of the spins are pointing no more or less than this, that that requires a pure state.
+22:03
+And now what I can do is I can suddenly instantly switch the direction off to make it feel to be in the.
+22:07
+You know that if you would do it slowly, if you would slowly rotating magnetic field,
+22:14
+the pure spins, it would just rotate rivet it and that would be it.
+22:17
+But now suddenly, if you have two spins pointing in this direction, suddenly in this direction.
+22:21
+They will not turn like this white, if you look at the classical mechanics,
+22:26
+they will start the process around this magnetic field that will start to process
+22:29
+and they will collide why they're doing that and they will permit that in a way.
+22:32
+And then I have a lot of energy because they are not in the iron state of the system, but because they are now perpendicular to it.
+22:34
+They have a lot of energy and that energy has to stay in the system. Like a typical crunch we could do in items is to say we just suddenly jump,
+22:41
+let us go for a week from a week, let us into a very strong leaders or vice versa.
+22:47
+Well, any questions like this? So what we do to analyse this is take this initial state and we express it again, conceptually,
+22:51
+you can't really do this in practise often in the island state basis of each one.
+23:00
+So you write this one as a position of all of the island states of the new Hamiltonian, and these are states.
+23:03
+So I would have epsilon. You write it just as like a squat position of efficiency, I.
+23:09
+Conceptually easy. And then you say, OK, well, how does this, by the way, function or evolve in time?
+23:17
+Pantheons, who is conceptually, again, very easy because these states saying I can state.
+23:23
+So they just acquire Facebook to each buy abstinent items to your bar,
+23:28
+which basically means you can say the only thing that happens is that these kind of like coefficients are evolving in time.
+23:32
+They should basically say that this one in the next couple of slides is really following one major paper from 2008.
+23:40
+It's one of the few theory papers that made it into nature because it's really such a great insight.
+23:45
+And if you want to read up on this, you can just read up on this paper, which explains things, and it's quite a good thing to.
+23:50
+So we know that this state, because it's obviously going to be like a pure state, remains pure, so it can't allies globally.
+23:58
+But let's not focus on the way, frankly, that's what was in the stuff we can actually measure.
+24:06
+We can't measure every function, what we can measure observable. So here's our time in a function that we just arrived in the previous light.
+24:10
+Nothing too fancy about it. And let's say let's look at the prediction for an observable eight could be the density could be the momentum.
+24:16
+Density could be the spin, the magnetisation any observable. And then we know that the expectation value of this obstacle.
+24:23
+So what you get after averaging over many, many measurements you can write down like this,
+24:30
+it's the the sandwich bit with the time of all state left and to the right.
+24:33
+The expectation that, you know, you just plug in those things and you get like this expression here, right?
+24:38
+So this is say this one gives me the sum of AJ. So I get to see Jay here and getting you to the minus observed on Jay here.
+24:45
+And then this one is complex. Conjugate it. Let's say this is the sum of our eyes.
+24:51
+We're going to see a complex conjugated here in a minus sign the energy.
+24:54
+And here the end, I call this these matrix elements AIG. So these are obviously expectations of these types AIG.
+24:58
+Just the former thing I can write, don't like this.
+25:06
+And this turns out to be useful because what I can now define is I cannot define what is the long term average,
+25:09
+but I'm not interested in the observable at a certain point in time,
+25:15
+but I'm interested in the long term average of this observable average of all possible times.
+25:19
+We'll see in a minute why this is useful, but if I do this, what you realise is that this one simplifies massively because all of these terms.
+25:24
+You have this rotating and you to the minus i epsilon j at minus absurd eight times T. It's kind of rotating on the complex on circle.
+25:32
+If you take the time average of disputation, you get exactly zero right,
+25:41
+which basically means that all of those rotating terms the average down to zero. The only terms that remain out of the original terms were I equals j,
+25:46
+because an after an A-minus epsilon, I so zero, so I don't get the first rotation.
+25:54
+So in those terms we made, which basically means that now I can write this long term average just in a diagonal
+25:59
+way as I do diagonal terms times to call efficiency if I just quit some of my.
+26:04
+So the time is now we're going back to a simpler time because the oscillating terms all have oscillated away.
+26:10
+So why should I do this, why should I care about this long term average?
+26:18
+Well, the answer is that if we assume we have a system that reaches a steady state that equilibrate or maybe even formalises,
+26:21
+let's just assume that then what we know is that if the system formalises, a of team has to reach a steady state.
+26:28
+So you would expect that if I have a system that initially does something on equilibrium but eventually settles down into a firm and state,
+26:36
+then my observable will do something crazy. But it will settle down into a firm, into a into a steady state.
+26:42
+Once you have a firm, a state, no, then makes nothing is happening anymore. If the state is steady, doesn't change anymore, right?
+26:49
+So what this means is that if I want to ask what is going to happen in four long times when the system has formalised well,
+26:56
+the average voter did a get over here.
+27:04
+And because this goes on for infinitely long, I can neglect this party in the beginning with us, and that mix is just exactly this long term average.
+27:06
+So if I assume that the system is firm and I think it's reaching a steady state,
+27:14
+then it can predict that steady state just using this diagonal form, not the whole phone.
+27:17
+So the interpretation is that if the system, which is a city state where it is necessary,
+27:24
+must be a constant, then the consent value I get must be identical to the long term average.
+27:28
+And that's simply facile thinking a lot, and it actually turns out to be a very interesting and very complex insight as we into slides.
+27:33
+So people call this the diagonal ensemble. Which is basically saying that if I take a steady state, this must be true for all of them.
+27:41
+So if the system really goes into a formal, steady state, all of the efforts that I want to predict,
+27:50
+everything I can predict about what I can measure on the system would only depend on this diagonal ensemble.
+27:54
+So if I think of my density matrix of time T equals zero, which you can calculate even for a pure statewide.
+28:01
+Capsule items site looks like then if I wanted to calculate anything, it happens in the steady state.
+28:08
+I can forget about all of the octagon elements I just use to diagonal elements. And that's what people call it, diagonal also on the.
+28:15
+Just saying take the take the density matrix of time to zero after the crunch.
+28:22
+You don't even have to calculate anytime evolution, you just know it,
+28:28
+you can just throw away all of the off the air element and just keep to the elements,
+28:31
+and that will predict the steady state if there is a steady state.
+28:34
+And intuitive interpretations, really, as this as the off diagonal terms with oscillate fast in a chaotic fashion.
+28:40
+Hence, after some time, they effectively vanish, so they're irrelevant for calculating of the.
+28:46
+Four time average for. So all of this is, of course, not really relying on the fact that if I do reach a steady state,
+28:52
+if you think of you Newton's cradle, you got like a time periodic thing, tick tock, tick tock,
+29:00
+then this would never happen because what you would have done in this case where you have this
+29:05
+regular dynamics is that everything has like one fundamental frequency and harmonics thereof,
+29:08
+which basically means that all of those different parts, you will not have independent frequencies, so they will not all interfere to zero on average.
+29:14
+Kind of all, stay in unison and you have this periodic structure and then you have to like something that does not paralyse.
+29:21
+OK. So now we said the only thing that we said is that there's a big simplification because you if you do families,
+29:29
+you can like, you should be able to predict everything using the signals of the.
+29:38
+So now what they did in this paper is they said, OK, let's look at some numerical example.
+29:42
+Let's try to calculate this. And I said if that did, of course, calculating stuff for a big many buddy system dynamics is totally unfeasible.
+29:47
+And definitely had to get take the small, the biggest system they could do and hope that it's still a small system,
+29:55
+but it's still predicting something useful. So here's the system they took.
+30:02
+It took something like this, Julie, to respond to an experiment. They took like a little bit of a two dimensional lattice like in here.
+30:06
+And the bigger part of the mission that is up here and initially there was no hopping between and there were two isolated systems.
+30:13
+And then they said we put five hot on on this side and we calculate the quantity of these sites.
+30:18
+Hardcore bosons are numerically reasonably easy to do if they're interacting. But because you say you is infinitely large, it's the hard core.
+30:26
+If they don't start of two particles in the same that the side, you will never get two particles on the same side.
+30:32
+So you only have to like, look at zero and one is occupation numbers per litre side.
+30:37
+So you hubert's basis is quite a bit smaller than if you would have one two three four five on the same side.
+30:41
+So that makes life simpler for them.
+30:45
+OK, so what they didn't say is they wish they stayed here and then the time stick with zero, they switch on the hopping from here to here.
+30:47
+So the system will not expand into the food system. And if the system is firm and I think you would expect that it goes into a firm and
+30:54
+state at a finite temperature because it's now there was a crunch entropy was created.
+31:01
+It's not the quantity anymore. So that's what you would expect. But the question is, will the system go into a thermal state or not?
+31:06
+What were the. And, well, they looked at some of the let's, for instance, say as a function of time.
+31:11
+So this is a time in units of the hopping hopping, as you called. That's why T.J. and they said, OK, let's look at, for instance,
+31:18
+the momentum distribution and ask how many particles do we have with zero momentum in the.
+31:25
+It's an observer. It's one thing you can look at and then you see the blue line is the dynamics, the calculation.
+31:31
+It starts off here. It does some oscillations, but then it does settle down into a steady state.
+31:37
+There are still oscillations about the steady status fluctuations on top of that.
+31:42
+That's because, well, we have five particles does not have the limit.
+31:46
+You would expect to find that those corrections that you would have fluctuations around.
+31:49
+And then you can say, okay, well, we know by theory that the value that we should get should be given by the diagonal ensemble.
+31:54
+So the prediction after the Agnus homebuilders, the red line here is this line.
+32:03
+Fits perfectly, as it should would have been very surprised. The pricing otherwise.
+32:08
+And then they can also say, well, I can also go in and calculate after the crash what is my energy in the state that I have,
+32:13
+what is the total energy that I have?
+32:19
+You can calculate it and then you can say, Well, if I now would put in a Michael Panopto sample at the same time at the same energy,
+32:20
+what would be the prediction of this microcontroller ensemble? And it turns out that's the Green Line perfectly ellipse on top of the red light.
+32:28
+And they also look at the canonical ensemble, which gives a slightly different answer. You can talk about this in a minute.
+32:36
+OK, but this is one of the other white is only and of X equals zero.
+32:41
+So they can also say, let's look at long times when stuff has relaxed and plot the food momentum distribution.
+32:46
+So he has X and he has an X. It's got the full momentum distribution on the X direction.
+32:52
+The black line,
+32:57
+this is the initial state because the Vatican said it was very peaked around zero and we can see now the final distributions we get it is broader.
+32:58
+So it's not the crown state anymore makes sense.
+33:05
+Next thing you see is that if I think about this diagonal ensemble, Hollywood exceptional mix, I've convinced myself now that they must be identical.
+33:09
+We also knew this in fury. I get like, This is the red line and I can again look at the Green Line to micro-economic a prediction.
+33:16
+And again, they're perfectly on top of each other. So we're seeing two things we're seeing a after a long time I can predict.
+33:22
+What I can describe, what I get in this kind of dynamics with the microkernel model.
+33:30
+So it looks like the momentum distribution. When I look at the momentum of each individual particle that seems to formalise,
+33:34
+even though I know the whole way function confirm Elisabeth Moss debut.
+33:41
+And the second thing I can see is that this microeconomic prediction with to the accurate predicted.
+33:45
+And this is what we are now going to call Feminisation.
+33:53
+We're not going to say that, OK, the wave function goes really into affirmative density matrix because it can't it must step away function.
+33:56
+But if it looks whatever I measure, it looks, I get the same response and in informal system,
+34:04
+then I will just call this feminisation because that's practically what we do, what we wanted to predict, what we can measure.
+34:08
+And if the system responds like a formal system does, we think it's a formal system?
+34:14
+OK. And the differences between a micro canonical, the canonical and so on, but here you can ignore that just because the system is so small.
+34:19
+So you've seen in family dynamics that if you go to the infinite systems has limit,
+34:28
+you get the equivalence of assault and the prediction of mycophenolate non-canonical become the same.
+34:31
+But that's only true in the family dynamic limit. So the fact that it's not through here is totally fine just stems from the final size of the system.
+34:37
+OK. Now. Big step, saying, OK, this was an observation we could see that this was happening.
+34:44
+The system is apparently the system is apparently formalising,
+34:53
+and after some time we can see the diagnosis predicts the same thing as the marketing of.
+34:57
+And then you can go in very deeply and you can ask, why is that what is the fundamental reason for why, which is why it should be like this?
+35:04
+And then you can think of, OK, there might be I mean, I might have fancy,
+35:11
+I might have a very complicated structure with many Asian states being occupied and maybe there's some selection.
+35:14
+Would it be occupied in exactly such a way that the different contributions add up to give me the right answer?
+35:20
+But then you think of it further and say, well, that's pretty, that's pretty weird, because if I start to throw it,
+35:27
+I can bite down very different initial states that all have the same energy and they will have different occupations of the different island states.
+35:32
+What they would have a different occupation of the different states, but they all kind of must verbalise to the same state.
+35:39
+So that's pretty, pretty weird. How could that be?
+35:45
+It can't really be like in the structure of these coefficients because I can tune them, I can make very different coefficients.
+35:47
+And different people came up with an hypothesis saying what actually could be the other way around.
+35:54
+Maybe all of the many body aiding states of the system, maybe each individual island state looks already like a permanent island.
+36:01
+If each state looks like the microeconomic ensemble, then whatever prefectures I put in front of them, I will get the same answer in front of.
+36:09
+And this is a hypothesis that was first formulated in current form by Deutsche and specifically sort of three years ago.
+36:20
+And this goes under the name of the ageing state feminisation hypothesis.
+36:27
+And the hypothesis, and mathematically speaking, is that if I take in many steps, I look at the expectation value a I of a few body observable.
+36:34
+So I'm not looking at the full system or looking at like a part of the system, see a few particles.
+36:45
+Of a few body observable, eight in an ageing state of Epsilon Epsilon Energy Epsilon, I have a mytilene of a large interacting many buddy system,
+36:51
+two thinking about the system that we would expect to formalise a large system
+36:59
+of many interacting particles and that peak on one of the I can say that.
+37:02
+Then the hypothesis is that this expectation value equals to from an average meaning the microkernel, the prediction.
+37:06
+And the parliament state at the same energy.
+37:14
+That's basically saying that the prediction of each state for the expectation value of each of the observable in each state will look the same,
+37:19
+like in the in the Michael Clarke ensemble. So each state individually looks like at the former state.
+37:30
+And then, of course, A. Random mixture of agencies would also look like a farm state because you're just mixing many of the same things.
+37:37
+So this is a an hypothesis, and this needs to be tested in every system.
+37:49
+And. This is written very generically by saying if you very observable.
+37:55
+What's conceptually and very good point is to say, well, a special example is to reduce density matrix of a small subsystem.
+38:03
+So basically, what this thing says is that if I take like a small subsystem.
+38:11
+And I look at the density matrix to reduce density matrix I get, which is like the expectation value of this density matrix operator.
+38:15
+Basically, it's saying that the subsystem formalises the subsystem looks like a firm density matrix,
+38:23
+even if the whole system cannot look like a full density matrix. So it's back to the picture that we had in the beginning.
+38:28
+You have to speak to your state with a lot of entanglements between the different parts of the system.
+38:34
+And then there's a consequence of that of the auditors entanglement, if you forget it.
+38:38
+And you just look at the part of the system, it looks like a former state.
+38:43
+So if you look at say, for instance, the momentum distribution you're measuring at,
+38:47
+one political observer would think the momentum of this project to the next part of the next political and so on.
+38:50
+If you project them all out, you measure them all out.
+38:55
+You get like a perfectly firm answer, even though in reality, it's one complicated and tangled, pure way function of all of the particles.
+38:58
+So that's the idea, it's very, very powerful.
+39:04
+And the point is, if I want to prove that it's not a formal state, but it's really a pure state still and political system,
+39:08
+I have to measure these and political correlations to prove that in any political way, functions of the pure.
+39:14
+So people are nowadays measuring something like six other population functions or 10 for accommodation functions, and they feel very smart about it.
+39:21
+But they're doing this in a system of tens of thousands of particles.
+39:27
+So we have infinitely far away from being ever able to measure at 10 and auto correlation function,
+39:30
+just the amount of statistics you would need would be crazy. And this basically means for us that.
+39:36
+We just ignore these high order correlations, we just see all of these high order correlations in a farming system,
+39:45
+we can just ignore them because they're not accessible and they don't do anything for us.
+39:50
+So we know that we can go to the point of saying that the feminisation of the
+39:54
+whole system is philosophically one it stays if you wave function at all time.
+39:57
+But it is a hugely simplifying and extremely useful approximation. Because it does not lead to any false prediction for possible measurement.
+40:02
+It would only give you the one predictions if you want to really measure and particle correlation functions,
+40:12
+which you never, ever would be able to do, so you can ignore the point.
+40:16
+And that's the story, and the story has, of course, many, many funny consequences.
+40:27
+The first consequences that we always talk about humanisation and of course, quantum system, we talk about the system electing to affirm its state,
+40:33
+we measuring our B.S., we're measuring its temperature and so on, and we say, Yeah,
+40:39
+this is a of state, even though we strictly speaking, no, that it can't really be.
+40:42
+But we know that for anything we ever might care about, that's what it is.
+40:48
+So if you like part of a quantum system, say, universe. But you only can, like look at your local environment.
+40:52
+Then that might very well just look like a foreign environment, even though the universe as a whole is in a pure state.
+40:59
+So everything looks like it's just hanging together and would just work fine.
+41:06
+Now, of course, we have all of this kind of theory is correct for the whole universe,
+41:10
+but the point of describing the universe a society moved away from it in its right to begin with.
+41:14
+We don't know. And the point is, what this suggests is that also we have no way of finding out.
+41:19
+Whatever the universe started to have entropy or start the pure because we can only observe a small part of it.
+41:26
+There's not really a chance for us of ever finding out. At least according to these arguments.
+41:31
+OK, so let's look at this now numerically in the last ten minutes.
+41:37
+So we have the same system as before, it's the same treaty system as before.
+41:43
+What they are doing is they say, OK, we look at the momentum distribution.
+41:46
+And now we're not talking at the time evolution we're just looking at, say, the microkernel Nicholas humble excuse me this line,
+41:51
+and they're looking at the prediction of two island states take I said one, I can stay two and look,
+41:57
+these island states, they have the same energy in a microcosm, but lost a bit of energies. You see, they really give you the same distribution.
+42:02
+So it really looks like these 18 states individually already look like the formulas on them yet as you would expect.
+42:08
+What you can see down here is they can all say, OK, let's take a good one observable. This distribution of X equals zero.
+42:15
+And the plot is just the function of the energy of the Eigen state.
+42:22
+And there's calculators for all I can say, it's it's cause for calculator every state.
+42:25
+What is the prediction of of this?
+42:29
+And one result that you got is you would have to say that all I can say is we have the same energy must give you the same answer.
+42:31
+What? Because they all correspond to the same ensemble. So they have to give you the same answer.
+42:38
+Otherwise, the whole story breaks down and can't be true. And it's neat that you say here, Well, OK, we didn't see that one straight line one.
+42:42
+One nice line. One of the exits, it's a very close to each other. Where people live now in the years since then have done is to say, well,
+42:49
+there's a certain with the twist to this line and we say there could be final size effect.
+42:57
+So that's good. So a good test of of a system now based on what is to say,
+43:01
+let's take different observables and look at the width of this line as we increase system size.
+43:06
+So the relative drift of the line so that absent of absolute must get smaller, smaller, smaller.
+43:11
+And then I can say, okay, well, because it would be informative to make limited would really be.
+43:16
+A straight line, a sharp line, as we would expect. And that's generally what you get.
+43:21
+That's generally what you see. And if you compare this now to the same kind of experiment, but just done a one day change,
+43:27
+you just have not left half of a chain right half of the 2021 zero opened open to the open,
+43:35
+the tunnelling between the two sides and they look at again, what is the microkernel Oklahoma?
+43:40
+Michael Clarke a prediction is kind of the one one thing to diagnose home.
+43:45
+It is giving me a very different thing so that darkness does not coincide with the microcontroller ensemble.
+43:49
+So my time evolution would not go to a formal state because it would not go to the Crichton ensemble.
+43:55
+And indeed, I can now say that I can see that wagon states have two very separate lines or they do something very different.
+44:00
+And the same thing is, you know, look again that you see it well, well.
+44:06
+The dots all over the place to the island states are not all behaving in the same way.
+44:11
+And this is typically what you would expect for a non chaotic and non-alcoholic and non sermonising system.
+44:16
+And as in the classical case,
+44:22
+you would expect that Huckabee isn't in one deep are in fact an integral part system because it's really like Newton's cradle.
+44:23
+You have hard balls that can't pass through each other because you have this infinitely strong repulsion.
+44:29
+So it's really like this classical system. So here this is compatible.
+44:33
+And this one violates. And that's basically the status where we are, because you can only test systems and check every compatible hypothesis or not.
+44:39
+And so far and all of the systems that people have checked. They got the answer you would expect.
+44:49
+They got when your system really looks like a film like a show summarising behaviour, it seems to be fulfilled.
+44:54
+And if you see that it does not show feminising behaviour and also it just violated.
+45:00
+So people are getting gaining more and more trust and saying, well, we should.
+45:05
+We get more and more believe that it is the truth that it's really a valid hypothesis that it works.
+45:09
+But as far as I know, there's no way of mathematically proved this at the moment, so it remains an hypothesis.
+45:15
+So the picture that he didn't have is, uh, feminisation in the classical state,
+45:24
+because the feminisation and the quantum mechanics is the very different cartoon.
+45:29
+So the cartoon, it's like, OK, well, we have like a configuration space, it can be, look, whatever.
+45:34
+And we have a hyper plane in the air of constant energy. So if you now say I take a classical system, I think about,
+45:38
+I think about what happens when the classical system started at one point on my parameter space.
+45:45
+And then due to like and will evolve around this effect, some kind of motion runs based on that constant energy, of course.
+45:50
+And if this is chaotic, we basically go to all of the points we have.
+45:56
+The so-called economics really visits every point on this hyper plane and basically then says that, OK, well, you have a good economics.
+46:00
+You just know the energy. You can't predict what the system is going to be at a certain amount, a certain point in time.
+46:07
+If the dynamics would not be chaotic, would just be too close to orbit, say, for instance, it would have regular pandemics.
+46:12
+But it's really chaotic. In the.
+46:17
+And the quantum system, on the other hand, you would say, OK, I have one of these ageing states and they all look like a former state.
+46:22
+However. If I say I have to say Nation State statement, a party would say it sits here,
+46:29
+then it can make a superposition of all of those states that a time two equals zero.
+46:34
+We'll just have accepted as part of the party that sits there. So the simple example, if you go back to this June heating effect, you would say,
+46:38
+Well, I want to make a wave if wave functions that spend the whole system.
+46:45
+So the way function is OK, it's like like in the hydrogen atom is left plus right,
+46:49
+there's one I can see the left minus right this, the other I can state, so both I can see it's spread out of left and right.
+46:54
+But if I then, as initial states take a position of state one plus state two,
+47:00
+I can have it such that the wave function at the left hand side interfere constructively while on the right
+47:04
+hand side interfere destructively and then they end up of the particle being firmly just on the left side.
+47:09
+So that would be my initial state.
+47:15
+I can say to spread over the whole system, but the particles just in the left hand side because the position is such that the dust is.
+47:18
+And that's what we say it is this the island states looked like from a state.
+47:24
+But this position is such coherence is such that maybe the project is only at this point in a world.
+47:27
+And then what we say is going on and time is basically just a defacing between
+47:33
+all of these states because each state oscillates with its own frequency.
+47:37
+So the oil can become out of sync.
+47:41
+And then at some point you can neglect the time that you can say, Okay, well, I now just don't have coherence and you are left.
+47:43
+The firmest state is just like the incoherent mixture of all of those states,
+47:49
+and because they all individually and state, the mixture also looks like the former state.
+47:52
+And he is also like a nice point about poker currencies and about why you need a big system for this.
+48:01
+If you think about what I said just before the time I left, plus wide left minus right.
+48:06
+And then, you know, if you do, this is the two level system, so you know that the political oscillate from the left to the right and back to the
+48:11
+left because you only have one frequency in the game because you have two states.
+48:16
+But if you now have, say, a million states.
+48:20
+And their frequencies are all different, and the frequencies are also not congruent to each other, so it's not like one two three four five,
+48:22
+but a million random numbers, then you would say that all of those things differed from each other very quickly.
+48:28
+If they were all in phase, the time and energy phase, they would never we face because of all of these different increments with frequencies.
+48:34
+So then you get the point of where you really say it is this chaotic and you have this idea of the coherence is just going to get the former state.
+48:42
+OK. So that's the picture, that's the picture of how people think about these kind of states and quantum mechanics.
+48:50
+And now let me.
+48:59
+Yeah, just show a few things, so people have done some experiments in this direction, and I go very quickly, but they're just there for illustration.
+49:03
+So one thing it can do is you can say, OK, if I have a system initially with very low entanglement of the lines,
+49:10
+you indicate entanglement of both sides are like, this is let us model. They're decoupled.
+49:15
+Think of what insulator, but there's almost no entanglement.
+49:20
+You would measure always one particle Four-Letter side and then you crunch into like, say, a superfluid, which you very quickly and tunnelling.
+49:22
+Then you know, OK as a unitary dynamics. So it stays a pure state but have lots of entanglement.
+49:30
+And if I now look at like an observer with just one letter side, how many patterns we have and let aside,
+49:35
+I look at, I get something that looks like a problem distribution.
+49:39
+So you can calculate this by saying, OK, what is the entropy of my thermal distribution that I get on the other side?
+49:45
+And why? The answer for that is to say, well, it's basically a moment and think of it entropy between the subsystems.
+49:52
+So we have a global system. Which is in a pure state of identity matrix as pure as no entropy.
+49:57
+But even now, we're going to take a partial trace and just look at a subsystem.
+50:04
+It's just the density base inside a. Then it can calculate what is the entanglement and just using the normal formula trace role of Rolfe.
+50:08
+And it turns out that this one is finite and non-zero, so I can expect that the entanglement entropy,
+50:18
+the amount of entanglement between the different subsystems will look up like something like determined entropy or my of my subsystem.
+50:23
+And that's the idea, how you can quantify and get entanglement in quantum systems.
+50:30
+In the end, it's Unitarian Nemec, so it's all just entanglement being built up because you can follow it through.
+50:37
+It looks like the entanglement entropy, which is a measure of the entanglement. Looks like the fervent entropy locally speaking.
+50:42
+And I should say that, OK, if you look up this paper, they're not using the phenomenon entanglement entropy because it's too complicated to measure.
+50:50
+They're using another definition of tyranny entanglement entropy. If you look at this a little bit further,
+50:56
+you realise that the whole story of rich entanglement measures to use and which definition of entropy is there are.
+51:01
+Gets very complicated, very quickly.
+51:08
+So what they did in another experiment a bit later on this, they said, OK, let's start with like they want more and more insulated from.
+51:12
+They looked at that one. The political no basis, and they said, OK, Willie, as you see, OK, it's just one political politicised.
+51:20
+It's a local state. Then they let the devolve into sort of regime for political to a lot of a tunnel around.
+51:25
+And if they didn't look at the political, no distribution, they get something like this, which looks like a form of distribution.
+51:31
+For the experts, how can they measure like particle numbers of two, three, four five?
+51:38
+Didn't we say that the best microscopes only do this kind of parity projection?
+51:43
+The answer is it's a good trick because they only start of at these two copies of the system, these two lines here.
+51:47
+But they said they want to measure particle number. What they do is they make the letters in this direction very deep.
+51:53
+But there's no tunnelling between the letter sides anymore. But then they allow for tunnelling along this direction and the transverse direction.
+51:58
+So you basically say you the system of many particle starting out here now allow for tunnelling in this direction of a lot of sites,
+52:04
+and then it's very unlikely if I have, say,
+52:11
+five particles that they issue up in the same that society will typically spread out over five different little sites.
+52:13
+And then I can just imagine a total particle, no longer one vertical line.
+52:17
+And that gives me and the particle number that was initially on one of those that decides.
+52:21
+And then they can do something very clever that they don't have time to explain.
+52:26
+They can do something where they do like global purity test by doing some kind of many bad interference basically hit if two lines,
+52:30
+so they have two copies of the same system.
+52:36
+And then by using tunnelling between these two systems, like if anybody beam splitter they can measure every state is globally pure or not.
+52:39
+So what they can show is to do the crunch, and they wait after they quench the global purity,
+52:46
+well, OK, it takes a little bit, but it essentially stays pure.
+52:50
+So globally, they can show that the system of whatever in six letter sites here stays globally pure, but locally it looks from.
+52:53
+So it shows exactly on this very small, microscopic scale the physics that we have discussed.
+53:02
+So entanglements between the subsystems and the subsequent system then appears locally feasible, even though it's close you.
+53:08
+OK. Of a quick. OK, let me let me.
+53:16
+Let me actually stop the beach, skip this one, and just like a very quickly say this part here.
+53:22
+So this is Nick. This is an experiment that we actually needed. Uh. More than 10 years ago now we said, OK, let's take another call.
+53:28
+It's it with like an insulator of particles sitting in letters like this roughly harmonic
+53:36
+trip and then switching off the ionic traps of the particles can easily spread out.
+53:40
+And we are asking how fast do they spread out? What is the velocity with which the particles can spread through the letters?
+53:45
+And then you kind of realise that that's kind of an interesting question to ask because of the politics of money directing,
+53:52
+you would expect the ballistics spreading of. But if the particles are classically interacting,
+53:57
+you would expect that there is diffusion going on that they move much, much slower and they move in the diffusive way.
+54:02
+So you can look at this and you can actually say, OK, let's try to like look at the expansion speed that you get as a function of the interaction.
+54:07
+This is the first Mohabbat model to you, adjust the strength of the interaction.
+54:14
+And you can indeed see that not interacting particles expand very fast. But then you party particles proven to be positive and attractive sides.
+54:18
+It's much, much slower.
+54:25
+And this is a problem that if you wanted to calculate this quantum mechanically two dimensional system, thousands of particles,
+54:27
+many, many lighter sides non-equilibrium quantum dynamics impossible to calculate quantum mechanically far too complicated.
+54:33
+However, when you think about this physically, you would say, OK,
+54:41
+what will happen where these little particles were locally scattered all the time off each other?
+54:44
+If the dynamics are psychotic,
+54:48
+I would expect that in locally families that have a look little patch with a certain temperature and a certain chemical potential.
+54:50
+And then I would expect that the slower global dynamics of the whole part moving out,
+54:56
+I should be able to describe the classical theory like gradients in temperature and chemical potential to something like a classical diffusion theory.
+55:01
+And the classical theory that does this is the the Boltzmann equation, classical Boltzmann equation,
+55:08
+and you can see if you use the classical equation, you get something for the peak if it's very, very well.
+55:14
+And it's kind of funny and annoying and amusing, because the quantum problem.
+55:20
+Even the best superconductors, the best supercomputers would have no chance of solving it.
+55:25
+But if you say, well, in this case, this quantum system, because it creates so much entanglement, if we just think of this entanglement as entropy.
+55:30
+It's a simple classical problem, and basically, yeah, this line you can put use on your iPhone within seconds.
+55:38
+The calculations in that sense, numerically not very heavy because you throw away all of this complicated entanglement that close up and say,
+55:45
+it's just fine, I can ignore it. Last case very, very briefly, though, is to say if we do this in one day.
+55:51
+But if the polls are, how about model,
+56:01
+then they also get the same thing because the are how about model is not integral and people could show 15 years ago that it's actually
+56:03
+classically chaotic in the case of intermediate use and intermediate energies for not everywhere but in the most chaotic way into this chaotic.
+56:10
+If you take attacking particles in the balls or have a model, it's of course integral because the momentum of.
+56:18
+And if you take like we did on this previous numerical example, how cobblestones and one dimension that it turns out, it's also integral.
+56:24
+And it turns out that you can actually map this using your vehicle transformation, but you might have seen in TV, too.
+56:33
+You can map this onto non-threatening spin this women's. If you have not seen a transformation, don't worry, you don't need it.
+56:38
+It's just to say we know how it behaves. We know the hard components behave exactly like monitoring fermions.
+56:44
+So he has done my last slide. What you now look at is expansion velocities for bosonic systems again as a function of data ActionScript.
+56:49
+The perpetrator here are two that he did this to you.
+56:59
+We again have this huge spike at end directing particles and then very quickly it goes down to essentially zero and nothing you can do.
+57:03
+Yes, very, very slow diffusive dynamics because the system is formalising.
+57:11
+However, if you do it in one day, you see the same onset velocity goes down a lot because the system starts to be formalising.
+57:14
+Classical theory is correct. But then you see, it turns out again,
+57:23
+it becomes fast again and then the hot condiment because you have this quantum mechanical mapping from protons to Fermi.
+57:27
+It looks like normal talking particles, again going fast.
+57:33
+So this is a regime, but it's a quantum part is very, very important because this mapping business to ferment is a purely quantum thing.
+57:36
+It doesn't exist classically.
+57:43
+So in some cases, we can just throw classically everything quantum away and say, OK, this is just effectively classical dynamics.
+57:45
+While in other cases, we have to say, well. There is a classical mapping, but it's very different when we consider quantum effects.
+57:52
+The other vehicle transformation a really, really important to you. Quantum statistics are the key to this.
+57:58
+So it tells us that we really have to be creative when we do quantum simulations and asking or asking questions, OK, what can they use?
+58:02
+What kind of approximations? And then I need to have the experiment to check whether this approximation is actually valid or not.
+58:08
+Because you can do another type of approximation. That's how we actually started this business, that's why it's a nice story.
+58:18
+You can make another approximation in 2-D, which predicts very, very good to the approximation, which predicts very,
+58:23
+very interesting, dynamic and 2D and predicted in 2D used to also go up again and get very fast the ballistic.
+58:29
+And you get like a very nice moving condensate.
+58:35
+And we've been spending a coffee and lab trying to find this moving condensate because the theory tells us it must be there.
+58:37
+And then at some point we started to think about this in a different way, looking at the permanent mix of it instead of actually wait a second.
+58:44
+Probably the approximation of its fury, even though it was widely used at the time, is just plain one for this case.
+58:50
+It's like a tail off when you make an approximation, if you always have to make approximations, of course,
+58:57
+but you have to be very careful which ones are good ones and which ones are maybe misleading in certain areas.
+59:02
+So you always need fact the experiments to recount you and tell you, yes, this approximation is better than no.
+59:07
+Now you're thinking in the wrong direction. And, of course, very often in these cases and hindsight is obvious, in hindsight,
+59:12
+it's like, yes, of course, here we have many, many more parties participating.
+59:18
+So we're good for the under two, which basically just has one mode that looks into can't be correct.
+59:22
+And you would say, OK, taking a step back if you have a single good approximation, they can never see a chaotic dynamics.
+59:27
+I can only see chaotic enemies of many, many, both that can interfere and do stuff. So in hindsight, it all makes sense.
+59:32
+But still, you need to experiment to get to that point. OK.
+59:38
+And that's basically the end for today. Thank you very much.
+59:42
+I have uploaded the next problem, said.
+59:46
+So the next day, the next supervisions would be next week and the next one next Friday afternoon, join the club.
+59:49
+We should be able to do in person. I attend confirmation about that early next week.
+59:57
+And then last week, also the last two lectures and then the week thereafter,
+1:00:04
+we will again have the last two positions and then the last journal club and last journal club.
+1:00:08
+We like catch on for a bit longer because that only also then going to be like a good revision point for you.
+1:00:13
+So we'll have like if you want an extended office or beforehand where you can just like ask
+1:00:18
+any kind of questions you have and we can discuss any of problems that you might have.
+1:00:22
+And that shouldn't prepare you very well for the exam and everything. OK, thank you very much.
+1:00:26
+See you next week.
+1:00:31
