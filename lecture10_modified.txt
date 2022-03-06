@@ -1,59 +1,11 @@
-OK. Good morning, welcome back. electron number 10.
-Last time we talked about, what the last couple of weaks we talked about,
-interesting phases you can have superfluid mott insulators and then last time about quantum magnetism mechanical phases.
-Now today is again a very big change because today we're talking about how a system
-can actually reach firm equilibrium in something we've always been taken for granted.
-We've always been saying, Okay, you put it gas in there and it will have a temperature of so-and-so.
-And it would be a bit described by a former state. And we swept under the rug, how can it get there and can it actually even fertilise?
-And what does humanisation actually really mean? that's going to be the topic of today.
-it's kind of a connexion. It's kind of a bit away from that quartette.
-And specifically, it's a connexion really to statistical mechanics and thermodynamics.
-How does thermodynamics actually work here? And so what is feminisation?
-Well, if you start with hemodynamics, you say it's just an empirical fact,
-it's an observation that if I take a generic classical in anybody's system, it will, if left alone, evolve into a firmer state.
-the classic the the two classical examples would be to say, if I have a system where all of the particles are dressed,
-they get balls and they just inject some energy, one very fast, big coming from the right.
-Then obviously, before it starts colliding, it's a very non-formal state. It's not a box makes a bolt, an institution or anything.
-It's one particle being really fast enough to pass the other particles being addressed.
-That's a pretty non-equilibrium situation. But then you know that if you calculate now the conditions or you just observe what happens after many,
-many collisions in the yard were things that reflected what they conduct. As this tribute, you can describe the evolution.
-You can describe the distribution of velocities that you get very, very well with an ideal gas law.
-it looks really just a firm against. Another example from thermodynamics is the dual expansion.
-you start with a gas on one site of a container,
-with this one being close to the pressure of being the volume here and obviously the density on the other site is empty.
-There's a vacuum, there's nothing there. now you know that if you now open up this connexion and the gas will expand,
-that will fill the full volume and you would have a different kind of pressure everywhere and the different temperature.
-And you also know from family dynamics that was told that this process is irreversible.
-you cannot just say, , particle, so please go back and close the gate again.
-And if you go from here to here, this irreversible possibility is seen by an increase in entropy,
-some creative calculated in classical thermodynamics.
-the idea is that this process of feminisation is something that happens and it's irreversible.
-if you open up the gate,
-you have a very non equilibrium situation because you if one big homogeneous volume with a much higher pressure here than you have here.
-the system will try to equilibrium particles which flow from here to here.
-And by doing so in this very violent non-diabetic, non quasi static fashion, it will create entropy,
-which means if you come in with a piston and push the particles back or back to the other site and close to five again,
-you will find out that you have a higher temperature near the end and the higher presitent you had before.
-Because you've created entropy, you've created this order in the system. And once it's in there, it can't get out.
-That's the second law of thermodynamics. that's what you all know from permanent that this is nothing new.
-The new part is not a question of, OK, how does this happen microscopically?
-How can a system go from a state with a low entropy to a state of a higher and what's going on there?
-And the answer the people now believe is the answer is the answer of dynamical chaos.
-I should maybe stress one important point here. Everything we're doing now is you always talking now about isolated systems,
-so we're talking about a system has no firm connexions to the outsite world.
-Because what you normally do is when you, for instance, take a kind of sweater system,
-you say, I take my little rope and I put it in the choir start then which you say,
-well, it's in from a contact of a big firm reservoir and then it will by exchanging energy and information,
-all of that and entanglement with the reservoir. It will equally point at the same temperature anywhere as ever has.
-normally you never really much think about the process of feminisation itself,
-because you just say my system approach is in contact with a big firm, a reservoir and it gets the temperature from there.
-And it's very nice in many situations, but it's an intellectual it's a very interesting question, what happens in isolation?
-And the question is, of course, also very relevant for cosmologists, because you would argue that, well,
-if I start, if I think of the Big Bang at the start of the universe coming from nothing out of the Big Bang,
-it has to equilibrium as a closed, isolated quantum system in a sense because there is nothing outsite the window of the liquid qualified with.
-how can such a system happen?
-And it turns out the answer is dynamic of chaos and chaos, chaotic dynamics, this dynamics where the presitent determines the future.
-But the approximate presitent does not approximately determine the future. That's a weird sentence that it's past us step by step.
+Last time we talked about, what the last couple of weaks we talked about, interesting phases you can have - superfluid, mott insulators and then last time about quantum magnetism phases. Now today is again a very big change because today we're talking about how a system can actually reach thermal equilibrium, something we've always been taken for granted. We've always been saying, Okay, you put it gas in there and it will have a temperature of so-and-so. And it would be described by a thermal state. And we swept under the rug, how can it get there and can it actually even thermalise? And what does thermalisation actually really mean? that's going to be the topic of today. It's a connection really to statistical mechanics and thermodynamics. How does thermodynamics actually work here? And so what is thermalisation? Well, if you start with thermodynamics, you say it's just an empirical fact, it's an observation that if I take a generic classical manybody system, it will, if left alone, evolve into a thermal state. The two classical examples would be to say, if I have a system where all of the particles are at rest, amd just inject some energy in the form of one very fast, big coming from the right, then obviously, before it starts colliding, it's a very non-thermal state. It's one particle being really fast enough to pass the other particles being at rest. That's a pretty non-equilibrium situation. But then you know that if you calculate now the conditions or you just observe what happens after many, many collisions, you can describe the evolution. You can describe the distribution of velocities that you get very, very well with an ideal gas law. It looks really just like a thermal state. Another example from thermodynamics is the Joule expansion. You start with a gas on one side of a container, with this one being close to the pressure of being the volume here and obviously the density on the other site is empty.
+[pic]x2
+There's a vacuum, there's nothing there. Now you know that if you now open up this connection and the gas will expand, that will fill the full volume and you would have a different kind of pressure everywhere and the different temperature. And you also know from thermodynamics that this process is irreversible. You cannot just say, particle, so please go back and close the gate again. And if you go from here to here, this irreversible possibility is seen by an increase in entropy, some quantity calculated in classical thermodynamics. The idea is that this process of thermalisation is something that happens and it's irreversible. If you open up the gate, you have a very non equilibrium situation, and particles which flow from here to here. And by doing so in this very violent non-adiabatic, non quasi static fashion, it will create entropy, which means if you come in with a piston and push the particles back or back to the other site and close to five again, you will find out that you have a higher temperature near the end and the higher pressure than you had before, because you've created entropy, you've created disorder in the system. And once it's in there, it can't get out. That's the second law of thermodynamics. This is nothing new.
+
+
+The new part is a question of, OK, how does this happen microscopically? How can a system go from a state with a low entropy to a state of a higher and what's going on there? And the answer the people now believe is the answer is the answer of dynamical chaos. I should maybe stress one important point here. Everything we're doing now is you always talking now about isolated systems, so we're talking about a system has no firm connections to the outside world. Because what you normally do is when you, for instance, take a system, you say, I take my little rope and I put it in the cryostat then which you say, well, it's in thermal contact with a big reservoir and then by exchanging energy and information, will become entangled with the reservoir. It will equally point at the same temperature anywhere. Normally you never really much think about the process of thermalisation itself, because you just say my system is in contact with a big thermal reservoir and it gets the temperature from there. And it's very nice in many situations, but it's a very interesting question, what happens in isolation? And the question is, of course, also very relevant for cosmologists, because you would argue that, well, if I start, if I think of the Big Bang at the start of the universe coming from nothing out of the Big Bang, it has to equilibrium as a closed, isolated quantum system in a sense because there is nothing outside. How can such a system happen? And it turns out the answer is dynamical chaos, where the present determines the future, but the approximate present does not approximately determine the future. That's a weird sentence that it's past us step by step.
+
+
 The first thing is to say, well, this is classical physics, classical dynamics.
 Newton's laws apply. if I know my initial state, it's just mechanics.
 I can calculate what would be the state at any time later on the property.
