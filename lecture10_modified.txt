@@ -6,82 +6,18 @@ There's a vacuum, there's nothing there. Now you know that if you now open up th
 The new part is a question of, OK, how does this happen microscopically? How can a system go from a state with a low entropy to a state of a higher and what's going on there? And the answer the people now believe is the answer is the answer of dynamical chaos. I should maybe stress one important point here. Everything we're doing now is you always talking now about isolated systems, so we're talking about a system has no firm connections to the outside world. Because what you normally do is when you, for instance, take a system, you say, I take my little rope and I put it in the cryostat then which you say, well, it's in thermal contact with a big reservoir and then by exchanging energy and information, will become entangled with the reservoir. It will equally point at the same temperature anywhere. Normally you never really much think about the process of thermalisation itself, because you just say my system is in contact with a big thermal reservoir and it gets the temperature from there. And it's very nice in many situations, but it's a very interesting question, what happens in isolation? And the question is, of course, also very relevant for cosmologists, because you would argue that, well, if I start, if I think of the Big Bang at the start of the universe coming from nothing out of the Big Bang, it has to equilibrium as a closed, isolated quantum system in a sense because there is nothing outside. How can such a system happen? And it turns out the answer is dynamical chaos, where the present determines the future, but the approximate present does not approximately determine the future. That's a weird sentence that it's past us step by step.
 
 
-The first thing is to say, well, this is classical physics, classical dynamics.
-Newton's laws apply. if I know my initial state, it's just mechanics.
-I can calculate what would be the state at any time later on the property.
-The problem is only that I know don't know my initial state perfectly well. And you kind of know if you have an opinion on the dynamics,
-if you say I was over a ball rolling down the slope and have a one percent uncertainty in the initial velocity,
-I get something in the order of one percent uncertainty in the final position. Fine.
-That's approximately where I am here will know approximately where it end up.
-But the question is, can I have a system where if I just know the present, approximately I cannot say anything, even approximately about the future.
-And this is, of course, something that people in popular culture at say a lot.
-It was done the butterfly effect where if I have the atmospheric conditions,
-the question of whether I get a tropical storm over North America or maybe over Asia
-somewhere can depend on whether a butterfly and presitent was flapping its wings or not.
-It's kind of a little bit with the we had a related idea when we were talking about the spontaneous symmetry breaking when we were saying,
-you put a pencil on the tip, it will fall over some direction and it can be extremely hard and impossible
-to predict which direction because it can go down different routes and very,
-very small. Initial things can like, make the decision. You have something many body contacts, which is a bit similar but also different,
-where you would say that the dynamics that you get are exponentially diverging, depending on the initial conditions.
-a typical example where you get this is the easiest one is the double pendulum.
-So, you know, if I have a single pendulum just swinging back and forth,
-it's my simple harmonic motion and I can predict everything approximately and perfectly well.
-If I have a double pendulum swing back to the end of the first part of the second pendulum attached.
-You just watch the trajectories that go out here.
-You would see that a very different, very similar path of the trajectory at this point might end up going into very different futures later on.
-you see, OK, well, APR is always just doing this kind of isolation, but now suddenly diverges.
-the first oscillation looks kind of a third or fourth oscillation,
-but if the fourth one suddenly things turn out differently and it just spins around the lower one and so on.
-Another typical example the people have studied, the most of it initially is what they call the so-called Lawrence Attractor.
-It's a simple differential equation with just a cubic term. And the idea that you get in some parameter space, it's the following.
-you see the particles just moving around in this kind of orbit here or acquisition of the different equations moving around in his orbit.
-You see that it starts spiralling around this one point here.
-And then at some case, for some reasons, we will go over and spiral towards a different point.
-And then for some reason, we go back and spout about this point again.
-it's extremely hard to predict what in the next orbit it will stay on this site of it to go over to the other site because it will really very,
-very much depends on where you are you in this land that night. a very small difference.
-It's a fork in the road. You go this way, you go that way. And that's something that people call, uh, uh, say.
-What people say is that the uncertainty in the forecast increases exponentially with the elapsed time.
-if I have this differentiated question, I'm here, I can say, yes, you most likely end up there, dear, dear, dear, dear.
-But Ray, will you be after two rotations? You can't say anything, really, because the uncertainty grows exponentially.
-And the way it grows is we've been surprised at the exponent, the financial dynamics this quarter, the of exponent.
-And you will see a lot of literature where people look at different systems and say they try to extract the kind of exponent,
-and if it's finite, you have chaotic dynamics. If it's zero, you have regular dynamics.
-And this is the way people now believe that a simple classical system can formalise,
-because if I cannot really later on say what a particle will be if we limit uncertainty grows exponentially,
-then I kind of lose the information about the initial state. What if I say, okay, the particle particles snow here, here you cannot really say,
-where was it 100 orbits before you can really say it wasn't in this area?
-Wasn't this light? Was the initial state of particles here all the particles there,
-if you think big of this jewel expansion after you have this comet state and the two chambers were identical,
-you cannot say what a particle initially you are left or on the way, such as information about initial state is erased.
-It's gone. It's not practically accessible anymore.
-And that's what people mean, got big time dynamics to redirect, sweep out the whole parameter space.
-And after some point in time, the system can be anywhere in parameter space.
-Well, I should be a bit more precise. Of course, you have tons of quantities, the one quantity, this is an isolated quantum system.
-Again, it's important to isolate is always conserve this energy.
-And now we are suddenly doing thermodynamics because we're not suddenly saying that, OK, well.
-The only thing that's conserved over time is energy and everything else because of this exotic time dynamics gets erased.
-Then if I want to make a prediction of how what can I say about the state? Far in the future.
-What I can say that a very good approximation is what we call the microeconomic an ensemble being a particle
-is of equal probability at any point in space based where it has to save energy than an initial stage.
-everything was erased, except for the initial for for the energy.
-And that's what we mean, the feminisation. And that's how we get the microcontroller sample and then, you know,
-from statistical physics how you can go on to further and further from canonical crank, canonical and so on.
-I think this is the key step of saying where you go from microscopic loss, you have dynamical chaos.
-You go to Harvard economics into thermodynamics. This is the key step printing if you want microscopic to statistical physics to thermodynamics.
-OK. And this is well understood, and it's it's a fascinating story, but it's kind of it's there.
-And as I said before, Feminisation reasons a lot of information about the initial state,
-except for a few conserved quantities a particle, no energy to the momentum of the system.
-In some cases here, of course not quite because it's. A moment of concern, but in general, often it is OK.
-The key point. For having something this is you always need to have a non-linear differential equation,
-if you are differential equations linear, you can't have that.
-Because in the linear equation, you know, you have to superposition of solutions, which means you can always say,
-well, if I'm over here or there on initial stage, it must be over the on the final stage.
-I can't have this exponential growth of uncertainty. I can only have that you have an engineer within the system.
-And it's also well understood from classical dynamics, classical dynamical chaos.
-And now that's OK, and just to say that also in classical cases, you don't always get it, you get it, in some cases put on in all cases.
-the jury system is a typical system where you would expect chaotic dynamics and feminisation and you would expect to have the ideal gas.
-Now in one day, if you want this system situation can be different if you have so many particles in
+The first thing is to say, well, this is classical physics, classical dynamics. Newton's laws apply. If I know my initial state, I can calculate what would be the state at any time later on. The problem is only that I know don't know my initial state perfectly well. If you say have a ball rolling down the slope and have a one percent uncertainty in the initial velocity, I get something in the order of one percent uncertainty in the final position. Fine. But the question is, can I have a system where if I just know the present, I cannot say anything, even approximately, about the future. And this is, of course, something that people in popular culture say a lot. Consider the butterfly effect where if I have the atmospheric conditions, the question of whether I get a tropical storm over North America or maybe over Asia somewhere can depend on whether a butterfly was flapping its wings or not. We had a related idea when we were talking about the spontaneous symmetry breaking when we were saying, you put a pencil on the tip, it will fall over some direction and it can be extremely hard and impossible to predict which direction. Initial things can make the decision. A typical example where you get this is the double pendulum. So, you know, if I have a single pendulum just swinging back and forth, it's my simple harmonic motion and I can predict everything approximately and perfectly well. If I have a double pendulum swing back to the end of the first part of the second pendulum attached.
+[pic]
+You just watch the trajectories that go out here. You would see that a very similar path of the trajectory at this point might end up going into very different futures later on. 
+
+
+Another typical example the people have studied is what they call the so-called Lorenz Attractor. It's a simple differential equation with just a cubic term. And the idea that you get in some parameter space, it's the following. You see the particles just moving around in this kind of orbit here or acquisition of the different equations moving around in this orbit. You see that it starts spiralling around this one point here. And then at some case, for some reasons, we will go over and spiral towards a different point. And then for some reason, we go back and spout about this point again. It's extremely hard to predict what in the next orbit it will stay on this side of it to go over to the other side. What people say is that the uncertainty in the forecast increases exponentially with the elapsed time.
+[pic]
+And you will see a lot of literature where people look at different systems and say they try to extract the exponent, and if it's finite, you have chaotic dynamics. If it's zero, you have regular dynamics. And this is the way people now believe that a simple classical system can thermalise, because if I cannot later on say what a particle will be, then I kind of lose the information about the initial state. What if I say, okay, the particle is now here, here you cannot really say, where was it 100 orbits before. That information is not practically accessible anymore. Ad after some point in time, the system can be anywhere in parameter space. Well, I should be a bit more precise. Of course, you have tons of quantities. The one quantity, as this is an isolated quantum system, always conserved is energy. And now we are suddenly doing thermodynamics because we're not suddenly saying that, OK, the only thing that's conserved over time is energy and everything else because of this exotic time dynamics gets erased. Then if I want to make a prediction of how what can I say about the state far in the future? What I can say that a very good approximation is what we call the microeconomic an ensemble being a particle
+is of equal probability at any point in space based where it has to save energy than an initial stage. Everything was erased, except for the initial energy. And that's what we mean, the thermalisation. And that's how we get the microcanonical ensemble and then, you know, from statistical physics how you can go on to further and further from canonical and so on. This is the key step printing if you want microscopic to statistical physics to thermodynamics. OK. And this is well understood, and it's a fascinating story, but it's kind of just there. And as I said before, thermalisation loses a lot of information about the initial state, except for a few conserved quantities like particle number, energy, momentum of the system. 
+
+
+The key point for having something like this is you always need to have a non-linear differential equation. Because in the linear equation, you have superposition of solutions, which means you can always say, well, if I'm over here or there on initial stage, it must be over the on the final stage. I can't have this exponential growth of uncertainty. And it's also well understood from classical dynamics, classical dynamical chaos. The typical system where you would expect chaotic dynamics and thermalisation is the ideal gas. Now in one day, if you want this system situation can be different if you have so many particles in
 the road that they can really only move in one direction and they are all identical.
 Then you realise that you have many, many more kinds of quantities,
 because the only way how you can exchange was what can happen in a collision between
