@@ -17,30 +17,10 @@ And you will see a lot of literature where people look at different systems and 
 is of equal probability at any point in space based where it has to save energy than an initial stage. Everything was erased, except for the initial energy. And that's what we mean, the thermalisation. And that's how we get the microcanonical ensemble and then, you know, from statistical physics how you can go on to further and further from canonical and so on. This is the key step printing if you want microscopic to statistical physics to thermodynamics. OK. And this is well understood, and it's a fascinating story, but it's  just there. And as I said before, thermalisation loses a lot of information about the initial state, except for a few conserved quantities particle number, energy, momentum of the system.
 
 
-The key point for having something this is you always need to have a non-linear differential equation. Because in the linear equation, you have superposition of solutions, which means you can always say, well, if I'm over here or there on initial stage, it must be over the on the final stage. I can't have this exponential growth of uncertainty. And it's also well understood from classical dynamics, classical dynamical chaos. The typical system where you would expect chaotic dynamics and thermalisation is the ideal gas. Now in one day, if you want this system situation can be different if you have so many particles in
-the road that they can really only move in one direction and they are all identical.
-Then you realise that you have many, many more kinds of quantities,
-because the only way how you can exchange was what can happen in a collision between
-two identical particles is that they exchange their momentum but not redistributed.
-if one particle is very slow, one part goes very fast. Afterwards, the other particle will be very fast and the first one will be very slow,
-but it will not be the case that they cannot have equal velocities afterwards.
-Right, that's impossible.
-And that's what you get with Newton Cradle here, we really get all of the energy will always be in one bite at the time.
-it's strictly speaking, if there would not be friction or anything. A perfectly periodic dynamic would not firmness.
-And this is what people call integral dynamics.
-Integral just really means that you can integrate the differential equation if you get like, say, maybe an analytic solution for what it looks like,
-its regular dynamics look chaotic but regular, and it's called integral and there's no firm reservation in you.
-And what people are saying, which you can mathematically prove is you can show that these systems are integral
-because they have a high number of indicators of motion sort of conserved quantities.
-you can show that the occupation of two different momentum classes,
-how many projects are moving with a given velocity and how many particles are west, that one doing a collision is not changing.
-it's an integral of motion. It's something that stays constant.
-And then, you know, from when you started first doing Kepler's laws, you know how you could solve them by saying,
-Well, OK, I have this three degrees of freedom, but I have my three conserved quantities and different.
-I can integrate it up. And I just got a regular dynamics because it's the only dynamics compatible with those conserved quantities.
-If you don't have as many conserved quantities, you have degrees of freedom, which you tend to have in this  system,
-then this and that mix is constrained so much as can't formalised and that's how you get classical integral motion.
-And it's a typical thing that you have in one day and almost never higher up in higher dimensions.
+The key point for having something this is you always need to have a non-linear differential equation. Because in the linear equation, you have superposition of solutions, which means you can always say, well, if I'm over here or there on initial stage, it must be over the on the final stage. I can't have this exponential growth of uncertainty. And it's also well understood from classical dynamics, classical dynamical chaos. The typical system where you would expect chaotic dynamics and thermalisation is the ideal gas. And that's what you get with Newton Cradle here, all of the energy will always be in one ball at the time, strictly speaking, if there would not be friction or anything. 
+[pic]
+A perfectly periodic dynamic would not thermalise. And this is what people call integrable dynamics. Integrable just really means that you can integrate the differential equation if you get like, say, maybe an analytic solution for what it looks like. Its regular dynamics look chaotic but regular, and it's called integrable and there's no thermalisation. And what people are saying, which you can mathematically prove is you can show that these systems are integrable because they have a high number of indicators of motion sort of conserved quantities. You can show that the occupation of two different momentum classes, how many particles are moving with a given velocity and how many particles are at rest, is not changing during a collision. It's an integral of motion. It's something that stays constant. And then, you know, from when you started first doing Kepler's laws, you know how you could solve them by saying, OK, I have these three degrees of freedom, but I have my three conserved quantities and different. I can integrate it up. And I just got a regular dynamics because it's the only dynamics compatible with those conserved quantities. If you don't have as many conserved quantities, you have degrees of freedom, which you tend to have in this kind of system, then this and that mix is constrained so much as can't thermalise and that's how you get classical integral motion. And it's a typical thing that you have in 1D and almost never in higher dimensions. 
+
 But if you do, particles are  colliding colliding in two dimensions.
 The picture is that what if they really hard on it's a collision, they just exchange their momentum.
 But if ever glancing incidents, then they cannot go off in this direction.
