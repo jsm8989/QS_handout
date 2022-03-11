@@ -84,7 +84,8 @@ newlines = replace_word("Oh", "", strlist=newlines)
 newlines = replace_word("caution", "Gaussian", strlist=newlines)
 newlines = replace_word("week", "weak", strlist=newlines)
 newlines = replace_word("Crown State", "ground state", strlist=newlines)
-
+newlines = replace_word("feminisation", "thermalisation", strlist=newlines)
+newlines = replace_word("kind of", "", strlist=newlines)
 
 
 
