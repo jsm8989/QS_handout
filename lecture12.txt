@@ -1,0 +1,1179 @@
+
+OK, I guess most people are finished so we can slowly get started.
+2:11
+And quick reminder where we ended up last week, we said, OK, the effects of magnetic fields are very interesting.
+2:16
+They're relevant, for instance, the quantum hall effect, spin hall effect, topological insulators and many, many other things.
+2:23
+And these topological protected events are very important.
+2:30
+The problem we have of cold atoms is that we don't directly coupled to a magnetic field in the same way that
+2:34
+you would do if you would have a charge because you're not charged so you don't have to laurence force.
+2:39
+And then you have tolerance for so you have no classical mechanical effect and also you don't have know how to form phase.
+2:43
+And that means that it's very hard to simulate those effects.
+2:49
+And the idea how you do it is you use like berry phases, which we introduced last week and quickly went through it again and payouts phase,
+2:52
+as you would see later today, to simulate the effect of the of boom phase.
+2:58
+Because if you do that, then you basically simulate the whole effect of the magnetic field on the Hamiltonian,
+3:02
+which means that everything else also follows from that. So.
+3:07
+We spent quite some time last on Tuesday discussing the very face,
+3:14
+and we said that the idea is that if I have an isolated state, so no degeneracy is nothing simple system.
+3:18
+That's not often the tone of the first day to time zero being an aching state of Hamiltonian.
+3:23
+And then I moved my Hamiltonian around the parameter space, so I slowly changed Hamiltonian in time.
+3:29
+This could, for instance, mean that I slowly change like the fields of the parameters of a laser field,
+3:33
+or I slowly change to magnetic field disturbances or as we would see later on.
+3:38
+If I have a block with a quasi momentum, I will force slowly change the quasi momentum,
+3:42
+so move the particle around in the preowned zone and to form a closed loop.
+3:47
+I come back to the original state that basically because I was adiabatic, the only thing I've picked up is a face factor.
+3:52
+And this face factor we saw has two parts at Anamika Phase, which is just the injection of the energy over time.
+3:57
+And this berry phase of geometric phase, and we say the geometric phases of face that does not depend on time,
+4:03
+it does not depend on evolution speaker, which would go around a certain loop,
+4:09
+but it is fully determined by the geometry of this path that you've take to where you've been in parameter space.
+4:12
+And then we saw that you can express this in the form of, say, it's the gradient in parameter space of the wave function.
+4:18
+So it's basically asking if a change is parameter and Hamiltonian versus the magnetic field.
+4:24
+How does the EIGEN statement that I mean evolves and then projected back onto the state to take it as?
+4:28
+And then I take the ring into the vector and then it could be kind of the ring integral of the vector along this line of the closed form.
+4:35
+And that's how I get back to a face scalar. So it's independent of the evolution of speed.
+4:43
+And then we said that is the part that you put you in the indiquant sorry gradient upside.
+4:48
+It's called the Bury Connexion, and the cut of that is something that's called the berry curvature.
+4:53
+And we would see that this is analogous to like the magnetic vector connexion and the magnetic field.
+4:59
+And one thing that's important to say here is why do we make this emphasis about going around a closed loop?
+5:06
+Why is this place picked or not defined for any kind of thing? And the answer is that you have a greater freedom in quantum mechanics, civility,
+5:13
+bigotry, but you have an ongoing feud at the story is actually very simple.
+5:19
+It's just fancy language.
+5:23
+If you haven't Hamiltonian where anything I can sort of do Hamiltonian to epsilon energy epsilon, then if you multiply the state end of a phase III.
+5:25
+Just a number, then, of course, that one is also an icon state of the Hamiltonian,
+5:33
+because number two, when you commute with just a number, you can just put it through.
+5:36
+So whatever you define and as you can state or you eat you, the ICAI end, as you can state, that's fully up to you.
+5:41
+Doesn't change anything in the physics, it's just a face factor.
+5:47
+It needs to be just a face factor, because we say Oregon State needs to be normalised. But that's the only thing there was about it.
+5:51
+And this is called a you want freedom because the group of numbers of the from Italy icon what Christ will be number.
+5:56
+That's the one group, the rotations along the circle, if you want.
+6:03
+And that's basically just the gay treatment you have to.
+6:08
+So this makes sense, you can choose whatever basis you want, you can choose the can function in multiple factors and suggest that I can function.
+6:12
+But this, of course, means that if I say, let's start at this stage here and then move to another point in parameter space and ask,
+6:18
+what is the perspective that I have here? Well, that's the totally arbitrary, because that depends on what definition I choose.
+6:25
+For that point, I put it way function. I can always make this face, but it gets to an evolution here.
+6:32
+Zero, by just saying, OK, let me just change the definition of my way function or my basis date accordingly.
+6:36
+That adjust end up of a positive parameter in front of it. You can. You could always do that.
+6:42
+So this is an open path. And therefore we say that this phase of evolution is Professor Gates dependent quantity.
+6:46
+If you change like, say, the definition of your initial state by multiple factor of the final state,
+6:53
+then you change the very face it would get along this path. And this age dependent quantities, they are not observable.
+6:58
+They just think if you wanted something some magical artefact because you can gauge the move where you can make them zero.
+7:04
+So all of this is for nothing.
+7:10
+Well, no, because if you take a path, that's a closed path where you start at this one point, go a closed loop and come back to the same point.
+7:12
+Then it turns out you get a independent quantity.
+7:20
+Because if he wanted to change the gauge by, say, change the initial state, you get an icon from changing the initial state,
+7:24
+but you also, on the other hand, get you to the minus IQ from also changing the final state if you initiate the final state at the same.
+7:30
+It's not too independent face factors that you can change.
+7:37
+It's the same face with the here and there, and it's you looking at the difference between the two changing.
+7:40
+It doesn't do anything, so it's a well-defined quantity. It's the same thing as if you would say that if you think of Democratic Victor,
+7:45
+potentially it's age dependent property, so you can change a lot how it looks.
+7:51
+But just adding like this, gradient terms to it.
+7:55
+However, to call off that the magnetic field, that's a gauge independent, real physical property that you can measure in the lab and all of that.
+7:58
+And that's an element of reality. So the same thing you have here, the face you get along an open path is gauge dependent,
+8:05
+so not observable because you can always change it by just changing definitions of your states.
+8:11
+But the face along a closed loop that's independent, that's observable and well-defined.
+8:17
+There's nothing you can do to change that because it's the same end point, a starting point.
+8:22
+And also, it also make sense on a very intuitive physical level because you have to realise that the face of a wave function is not an observable.
+8:28
+How would you do an experiment where you measure the face of a wave function? The answer is you cannot you can never measure your face.
+8:38
+The only measure like density to measure something is one minus one. You measure a particle is there or not there.
+8:44
+So you can never measure a face factor. However, what you can always do is you can make it into premature, right?
+8:50
+We split a wave into two parts. Combine them and interfere them.
+8:55
+And then, of course, the web interface between these two parts, the relative phase between two parts.
+9:00
+That's a very well-defined quantity that of the light goes left or right.
+9:05
+So if you just picture your interferometer in the easiest possible way, and it could probably also already use one of Matis plots here.
+9:09
+But it's just making you want if you just say, OK, I have my my light coming in.
+9:19
+Let's think about life is the easiest. There's a beam splitter. I make a machine at the front door.
+9:28
+There's the second beams that are here and I ask how much light comes out here and how much light comes out there.
+9:33
+And then you know that this one is proportional to cosine squared off the pace that I pick up along the slope to do the relative
+9:38
+pace between this path minus this puff and to face this path minus this puff is the same face as the face of this path,
+9:44
+plus this path in reverse. So it's actually. The face of a closed loop.
+9:52
+So whenever you can think of something being an interferometer, we really split something and we combine it.
+9:59
+It turns out that's always kind of a closed loop, so it's also like a physically observable faith factor.
+10:04
+So this buffer medical staff totally makes sense with what you intuitively think about what can be measured and what not.
+10:09
+It makes perfect sense. OK.
+10:14
+OK. And yet here's a guy in the heat that we had last time where we said that the
+10:23
+very face is a real face that can be measured like the heart of warm face,
+10:29
+and we say that this very connexion is the same estimate, getting back the potential that the berry curvature is the same as the magnetic field.
+10:33
+In some sense, this is a special case of this general phenomena. This is a special case of the magnetic field and we base here.
+10:39
+This is like an arbitrary parameter spaces. It could, for instance, be quasi momentum space in the letters.
+10:45
+And that's kind of what we're going to look at because we want to combine artificial gauge fields a lot of the time with lattices.
+10:51
+So what are the consequences of this if we now say we have to spend torture, we can calculate in advance to acquire this bury connexion.
+10:59
+It turns out if you do the semi classical theory of transport, you know what you normally have like in condensed metaphysics.
+11:08
+You would say, OK, I have the effect the force of an electric field. That's the absolute that's the point is to force it, act on it.
+11:14
+And they have the presence of a magnetic field. Then they get this cross to endure.
+11:21
+And it turns out if you do the same analysis, it is actually done. The Cooper here in TeamGroup 10 years ago.
+11:25
+Now, it turns out that if you do this, you do the same to me.
+11:31
+Classical analysis you get the following part you get the point that if I have an
+11:34
+external force acting on a particle that changes the momentum of the particle, that's novel.
+11:38
+And if I look at the weird space velocity of the particle harvest of particle moving, I get the first term.
+11:42
+We just do dispersion relation, which is the normal transport, anomalous transport, the epsilon decay, the cool velocity of the particle.
+11:46
+And I got an animal a second term,
+11:53
+which is K Dot cross-border cliff does that vector and the berry phase at the berry curvature at this point in case basis.
+11:55
+So what this means is that if you have particles and you have, say, a food looks bad and you have a band structure,
+12:03
+you do have positive, say berry curvature, the band structure, then you will get that the particles will move at the very company.
+12:11
+You see that direction, you will move along something.
+12:18
+Dot Cross said the cross product is in there, which basically means that if I have a plot, if I have a force in one direction.
+12:20
+I, of course, get this movement here, which is along this direction is a block of isolation moving up and down.
+12:28
+But I also get a sideways movement because it this cross-border issue.
+12:33
+And that's exactly the same thing as you have in the classical hall effect,
+12:37
+where you would say that we have a magnetic field in this direction and the particles moving in that direction could have force pushing me sideways.
+12:40
+So you have a movement dot moving me sideways.
+12:46
+And it turns out that you can calculate this if you calculate it for a third band and for many, many, many oscillations,
+12:52
+the first time will average out because you have these block oscillations to go up and down and up and down the first of an average to zero.
+12:57
+But the second term, we're not average to zero.
+13:04
+To the second term, we'll give you something that's proportional to the integral of the berry curvature over the whole prevenzione.
+13:06
+If you have a footprint that's obvious and that turns out to be a number which will come back to the next slide.
+13:13
+So if you have something that's topological and trivial and you sort of force on it in this direction,
+13:20
+you will get a response that the whole system moves sideways, like in the hall effect.
+13:25
+OK. And then you can go to an mathematical story of this and you can say, well.
+13:31
+What can I do, I can do the following the following thing Let's first start with this picture up here.
+13:37
+This is a Prius on wheels qualities, and let's say we start with a parameter particle somewhere in the Prius when
+13:41
+we start here and then we move the particle along this loop parameter space.
+13:47
+So we exert forces on the particle accelerator for us to be accelerated along like a soccer direction.
+13:51
+And then we come back to the same point and we can calculate we'll get a very face.
+13:57
+But you can calculate of to ring and equal off the back of the above Tiberi connexion around this area.
+14:01
+So you can calculate this one where it's just at the antiquities to ring and taken over this little ring and you calculate the very face.
+14:07
+Equivalent to using a stroke serum, you could, of course, also say, well,
+14:14
+that's the the surface area of the integral of the area inside here of the berry curvature.
+14:17
+That's kind of been close to this. That's the same calculations you do put it on a form effect.
+14:22
+You can calculate the vector potential along the trajectory, or you can calculate the magnetic flux enclosed by the thing.
+14:27
+So here, the integral of the berry curvature we call the very flux, and it's again the berry flux and close in this area gives me the very first.
+14:32
+And the conceptual interesting step is to say, well, let's make this bigger and bigger and bigger,
+14:40
+such that this path at some point and closes the footprint on. Like this?
+14:45
+Then the reality along longest war zone is basically the same as calculating the berry curvature over the whole prehensile.
+14:52
+So is exactly the calculation we also saw in the previous slide when we say, OK.
+14:58
+And you have to like take the very curvature averaged over the whole prism because all of the states are occupied.
+15:02
+And now there's a cute mathematical mathematical point, which is really cute.
+15:08
+It's the point is that when you think of the zone, you no think of it as as quick as a square.
+15:12
+But you noted, actually, it's a Taurus.
+15:17
+Because the reason this can block isolations, if you're if your momentum is only defined modulo the reciprocal little spectre,
+15:20
+then if you add out this part one,
+15:27
+the less gives you just to the average of the presence of these two edges of the zone that actually do the same line.
+15:29
+Once you get to one, it's like, what is operation? You end up on the air and on the other side, so they're connected on this side.
+15:36
+And these two lines appear, they're connected on the other side. So that basically means that this area here.
+15:42
+It's just like the surface of a Taurus.
+15:48
+It has no boundary because the prions on its periodic test may be the easiest way of saying it can't have a boundary prions on its periodic.
+15:50
+And it has the topology of a Taurus because you see two different directions X and Y.
+15:57
+And if you have this picture, you can then say, OK, well, how does such a curfew look on the tourist?
+16:05
+Well, it's kind of like a deformed circle somewhere on the surface of the tourist. That makes sense.
+16:09
+But if I want to go all around the boundaries of this, what do I do? Well, I start with the tourist.
+16:14
+And let me maybe make another throwing for this.
+16:19
+And whenever I have not tried a talk for a long time, I go to therapy one woman the first try but and see where we are.
+16:31
+So this is our tourist. No, it's OK, it's recognisable.
+16:36
+So let me start at some point this point, say, and then go once around the tourist ones about the tourism direction.
+16:41
+So if we say I start here and then I go once around the tourist in one direction, so I go here and I would come back to essentially the same point.
+16:47
+But let me stop just before that point just to make clear what's happening. So that was this line.
+16:57
+Now let's say I go this line here, I go up to I go to one spot direction to tourists again,
+17:01
+almost a full rotation, which basically means I go along this axis.
+17:06
+I go up here, come back down to the back side, come back up here, go to this point.
+17:09
+Now I'm up here, now I go back, so I go back in the direction that I originally went here.
+17:15
+But in the opposite directions, I basically kind of following a line parallel to this first line back around the tourists and this direction.
+17:19
+To hear. And then I go back, I unwind by going back around the tourism, this case,
+17:27
+that's how I close the loop so you can see how this whole surface here is now.
+17:32
+Stretched throughout the surface of the Taurus. And now.
+17:37
+You have to take the appropriate curvature, which is the very curvature. You can say, well,
+17:45
+I have few room to be discussed on Tuesday and know that this integral of the berry
+17:48
+curvature over this whole area must be quantised must be mindful of two particles penny.
+17:52
+You can also say, well, actually, what you're doing here is you're kind of like never really moving, why doing moving, moving around?
+17:58
+The whole thing is like doing nothing. So because you come back to the same point, which basically means that again,
+18:03
+for the way function to be like self-consistent to be have only one value.
+18:09
+It must be a multiple of two pie like the same argument we have of what vortices?
+18:15
+So there's both mathematical arguments, proofs and unintuitive arguments why this faced possibly multiple of two.
+18:19
+And then you can just say, Well, okay, did I take this integral and I divide it by two PI, then I get I must get a positive integer here.
+18:25
+I must say I must get an integer here.
+18:32
+The number of zero one two three minus one minus two must be something like this because it must the face must be multiple of two points.
+18:34
+And this number is not quite the first number of such a manifold.
+18:41
+So we have got to convince ourselves that this number, which is just the interior of the berry curvature, must be an integer.
+18:47
+And then there was the so-called the famous Tkay and gang thought as promoted in Youth Nightingale in 30 years ago, 40 years ago, in 1982,
+18:54
+the paper came out and this is one of the papers that followed has got the Nobel prise for it was two years ago,
+19:02
+two years ago or last year because they could prove that the high conductance must be given by exactly.
+19:07
+Is away available H.H. times this show?
+19:15
+No. And this is kind of funny.
+19:19
+This is kind of like really telling us, know what you think about this transverse movement.
+19:24
+If you like do this in the appropriate units, what you realise is if I take the whole cloud and then move at once,
+19:28
+I want to pourrions on in one direction and I think about what a cloud ends up in real space.
+19:32
+It basically tells us that must have hopped one letter side to the left.
+19:37
+But to the right, you cannot have hope, like hovered at the site because then that would be stupid because the politics is going to be at the minimum,
+19:41
+but at the maximum of the potential of it can't be fanatically makes a lot of sense that these steps must be quantised.
+19:47
+If I go once I want the prayers on One Direction, I must do an integer number of steps to the left or to the right.
+19:53
+And that's exactly topological protect a transport move exactly one charge around the system doing one cycle.
+19:58
+Or I say my whole conductive, whole conductance must be precisely quantised with these values.
+20:04
+And now suddenly the thing that we discussed when we discussed the horrific where we said, OK, why is this number not changing?
+20:10
+Why must it be one or two and going to be one plus something if I put this order in or temperature or anything?
+20:15
+Now it makes sense because the underlying structure is that it must be quantised for these mathematical reasons.
+20:21
+OK, so here's the here's the hall effect again. So this is the equation we saw last time.
+20:28
+What is not a China? No, understand better what it is. It's the China number is the integral over the berry curvature of the food.
+20:33
+We for a given bed. And then the case was to this precisely quantised potatoes you.
+20:39
+Good. And as I said, this is what we want to like a first demonstration of called items.
+20:46
+And at the end of the lecture today, you will see that we've achieved this or less.
+20:51
+And then the next goal for the next decade, so to speak, is this one.
+20:56
+Combining this of strong interactions are getting to the fraction of quantum hall effect. So.
+20:59
+One other good way of thinking about this, which is a very neat way to think about it, is to say, OK, if I have this whole conductance,
+21:05
+I have this kind of like topological to protect a transport where the particles move around the edge and all of those kind of things.
+21:12
+I can think of them also in a different way. I can think of some of them. See, we classically by having these what we call it, skipping orbits.
+21:18
+So you noted that we have an electron and have a magnetic field.
+21:24
+Then the election, we move on a little circle Typekit in orbit, and then you can ask what happens if I have such a Typekit on orbit?
+21:27
+Not in the middle of the material, but at the edge of the material where you say, for instance, the vacuum on upper insulator.
+21:33
+Then you kind of would say, OK, well, the particle would be on this orbit.
+21:38
+He hit the boundary and then it would bounce off, reflect off the boundary if it's elastic,
+21:42
+conserve energy, but it can go off in any direction, whatever you want.
+21:46
+However, the key thing is because once a speck in the material, it will start to curve again because of the magnetic field.
+21:50
+So whatever direction it goes on, it will turn around and bounce back against the wall.
+21:56
+So it is orbits must skip along the wall.
+22:00
+And then you can think of the magnetic field giving you one set of direction, it's orbiting in one way, not the other way.
+22:03
+And that basically means that all of those particles up here, they are moving to the right.
+22:08
+And that's a very peculiar thing, because what this means is that you must have a protected transport here where
+22:14
+you can't have a diffusive transport because there can't be backscatter. So if I have a particle of what we call this etched channel,
+22:19
+so on the edge here that moves to the right and you say the purity nobody would say is a beauty channel
+22:24
+can can make you scatter backwards into a backwards channel where you go instead of K with minus K.
+22:30
+And normally you always have this K minus K symmetry.
+22:37
+And that means that it gives you damping of your transmit because the parties are not taking part in the main transport anymore.
+22:39
+Now, in this case, because all of the particles really have to do this kind of skipping of it, they must go back to the right.
+22:46
+So and even if you if you calculate this now, indeed, you will see that he has to wait and spend.
+22:52
+He is the conduction band of the pilot material. And then here is one edge mode that pushes the gap.
+22:56
+This is the most living. He accepted the edge and you can see that there's only one mode, and it's kind of like always pointing to the right.
+23:01
+So the only case I was positive in this case, which means it always has a positive velocity to the right.
+23:07
+So there's only particles moving in one direction, not in the other direction.
+23:12
+And that's also the explanation for when you go back to the hall resistance that if you look at the longitudinal resistance.
+23:16
+Which points to a need to apply in the X direction to drive this currently extraction.
+23:23
+You would see that this longitudinally resistance is actually zero wherever we have these plateaus where we have this past all at once for us.
+23:27
+We have zero resistance, which basically means that there is no backscatter scattering.
+23:33
+There's no make transport, no diffusion. The particles that we detect moving through ballistically through the system.
+23:37
+And it turns out they're moving to the edges.
+23:42
+And the key thing that we have here for us to take away message for this one is that all of those things, the churn number itself,
+23:46
+all of those things tell us that in order to have any of those effects, you need to break time reversal symmetry.
+23:54
+Time reversal symmetry implies that if I have a mode of momentum going in one direction,
+24:00
+I also must have the mode before the mind is going the opposite direction, so we have to break that.
+24:04
+And the way you practise and all of these systems is by applying the magnetic field,
+24:09
+because the magnetic field is the one field that is not symmetric because it get
+24:13
+a few turns into minus a magnetic field if you reverse the direction of time. And that also intuitively makes sense.
+24:17
+If you think about electric fields, you have a particle sitting here that creates a magnetic field.
+24:22
+If you change direction of time, the particles are still sitting here. So the electric fields do the same.
+24:27
+But even if you have whatever magnetic field, you must have a currency of a particle moving for you.
+24:31
+Electrons flowing upwards the creative accounting field in this direction say if you change the direction of time,
+24:36
+you change the velocity of the particles and hence you change the direction of the magnetic field.
+24:42
+So the magnetic field is the one thing that like is and the time of us goes from B to minus B.
+24:47
+And if you calculate the berry curvature, which we haven't done yet, but if you would calculate it,
+24:53
+you would see that time inversion symmetry means that if I go from K to minus K.
+24:58
+I must also change in direction of the berry curvature,
+25:04
+so be goes to minus B and then if a integrate of a presence of a positive and negative K, the integral must be zero.
+25:06
+So time reversal symmetry directly implies that the challenger must be zero. It also makes sense on a classical level.
+25:13
+What I'm saying is if the particles are accelerated before fast in this direction and then I'm saying they're moving sideways.
+25:20
+That takes time, reversal symmetry, because why are we moving this direction and not this direction, something my practise left wide symmetry?
+25:26
+And that's the problem. Time reversal symmetry. So what we actually need to do, and it's a good way of thinking,
+25:32
+is we need to practically reversal symmetry if you want to be able to find actual number if you want to enable this artificial gadgets.
+25:38
+So we need to figure a way of how can we interact with code atoms in such a way that breaks time reversal symmetry?
+25:45
+And that's now for the last half an hour, looking at a few methods of how this has been done in the experiment,
+25:50
+how this can be done, how this can be implemented. So one method is to use position dependent West states.
+25:56
+So the idea is that you use several High-Performance states of your item, so that only items in the one one state,
+26:04
+but also the one zero to one minus one state and then you couple them of laser fields.
+26:10
+So the topic of geometry that people have looked at, this was pioneered by Minutest also already seven years ago now is to say we have a b c and then
+26:16
+we have these two laser beams coming in from two directions and they cover the internal state.
+26:24
+And then we calculate the twist states. The EIGEN states will do the calculation also on the programme, sir.
+26:29
+And you see that these laser fields have slightly different frequencies on my girl and omega plus omega.
+26:33
+And if you now calculate what happens, I need to think about the three Asian states of rubidium, so we have every good one in this case.
+26:39
+So we have MF plus one zero and minus one and those three states,
+26:46
+they have different energies because of the Z1 splitting Omegas that this desirement splitting, we apply of ordinary magnetic field externally.
+26:50
+This will not give rise to any loans for us on something because the particles are charged,
+26:58
+but just provided Zeeman effect, which means that these three energies, these two states have different energies.
+27:02
+And then we can copy them 52 days, a few hours of one photo from the plaque and one photo from Vietnam.
+27:07
+And what's kind of crucial is that if you apply a significant magnetic field,
+27:12
+you not only get the linear Zeeman effect, you also get the first, the second or a quadratic Zeeman effect,
+27:16
+which basically means that if these laser fields a little bit, the retuning starter epsilon delta here, they have opposite signs on these two sides.
+27:21
+So we have to continue. And now I get by having them in the presence of these laser fields.
+27:29
+It's a three level system I can calculate. I can states the so-called red state, and they will all depend on the rabi frequency.
+27:36
+So the intensity of the laser light and on the shooting of the laser light and those parameters, they cannot be spatially dependent.
+27:42
+So you see how we're getting back to this kind of berry phase type Hamiltonians,
+27:49
+where we said that the parameters of the Anatolian depend on where you are.
+27:52
+So you get position dependent West states and the position dependent effect. So if you do this.
+27:56
+You can say, for instance, if I have a geometry like this, you can say, well, actually I can write down my wave function is a position of three terms.
+28:03
+The particle can be in state zero. This one and have momentum.
+28:10
+So we only care about the momentum in the X direction here.
+28:15
+This is this direction, because that's where the two laser beams have different momentum, different kicks.
+28:17
+I can also say the particle absorbs like a photo from the one beam emits a photo
+28:22
+and into the other beam and thereby changes its changes its Mastcam-Z state.
+28:25
+These states have different energy, so only the one way also changed. My magnetic energy is resonant.
+28:30
+So that must be happening. So I go from zero to the state one and I get like a kick off to kill, or I can go to minus one and get a kick of minus two.
+28:35
+So these are the three basic states we now have to play with, and we can execute it,
+28:45
+we can calculate the states what we get of those and you can you will do this with help on the problems propensity.
+28:49
+So if you have this kind of situation and agree to a position of two different momentum and a different spin state.
+28:55
+And you do time of light in the appropriate way, you get a picture like this. So it is this time of light together with stronger imaging.
+29:01
+So if you radiant during time of light along this direction.
+29:07
+So to interpret this, we basically have like three clouds, we have a cloud of momentum,
+29:12
+zero economic momentum minus two in a cloud of momentum, plus two. This should be these three components.
+29:15
+And the other imaging tells us that, oh, actually the one in the middle is also the one with spin projection zero.
+29:21
+So like it should be this one and the one up here with momentum plus two is the one with Webster in-state minus and state minus one.
+29:27
+As it should be, these things like on the diagonal line as it should be, because it's only these kind of transitions that are being done.
+29:36
+OK, and now you calculated it, which you do numerically to three, but remember, Tony,
+29:43
+that you can't calculate numerically what you see here is always everything expressed in units of cakes.
+29:48
+So off the momentum of the zero component. And then you know that if I take this, the plus one component has its momentum shifted by scale.
+29:54
+So if you take the correct parabola here, that's the unperturbed uncoupled state zero, which is like a parabola centred around momentum zero.
+30:02
+The parameters for the first eight plus one is shifted by two cail to this side,
+30:11
+and the one for the other one is you have to buy minus took to that side.
+30:16
+And then crucially, these three parabolas live at slightly different energies.
+30:20
+That's because two different tunings that we have here in the two laser beams, in the laser beams.
+30:24
+So you see that this one parabola is slightly lower than this parabola.
+30:28
+OK, if you know how to put on the coupling terms between the Robin transitions put on the Omega,
+30:33
+what you get is you get this crossing again turns into divided crossing at the states,
+30:38
+repel each other like they always do, and you get curves like the red curve down here, the queen curve up here and a blue crop up here.
+30:42
+And the main point here is, I mean, intuitively,
+30:50
+it makes sense that the curve looks like this at this curve is always repelled from the lowest states by this coupling,
+30:53
+and it's intuitive that this one has a minimum not at zero, but shifted to the right because this state is slower than that state.
+30:58
+OK. And that's all of the magic that you need, because you can go on and say,
+31:05
+let me write down an effective Hamiltonian that describes this part down here to this relation and effective low energy Hamiltonian.
+31:11
+So what I do is I just write this as a parameter around its minimum.
+31:18
+So I write this as a form of power squared k max minus came in squared over two Instagram stars and effective models,
+31:22
+just taking care of all of the factors. So I just have to say it's a shift, a parabola K minus Cayman.
+31:29
+Which I cannot interpret as K minus Q Times a quote unquote.
+31:36
+So I'm saying I've not created an artificial gauge field. That means that have shifted the minimum of the property to a finite momentum.
+31:40
+Because that's exactly what you think of when you do this canonical part of looking at the moment a magnetic field,
+31:47
+you say it's K minus Q a absolute squared.
+31:53
+So this shift here is the effect of an artificial creation.
+31:59
+So voila, we have now created an artificial gaits field, so we have created an artificial vector potential for particles in the slowest west state.
+32:04
+That's pretty cool. But it's, of course, purely mathematical at this point, it doesn't have a physical consequence because, as you know,
+32:13
+the gauge fields are dependent, so just having created something a constant gauge of it doesn't do anything.
+32:19
+It just means that a different mathematical description.
+32:25
+What you need to do in order to get real magnetic field is you need to make sure that you also have a kernel of this thing.
+32:29
+If Ace constantly is filled, so you need to add a spatial dependence to a.
+32:36
+So you need to have different West states at different points. And the way to do this is not to add this little thing to your setup.
+32:40
+So basically what you're doing here is you create a gradient in the ordinary magnetic field that you put in for these images.
+32:48
+You make you feel stronger at some places than other places. And basically what this does is it creates a spatially varying bit unique.
+32:54
+So you retuning how different is to three parameters are shifted that depends on the position where you are.
+33:01
+It's one position it would be the same at one position, it would be very strongly shifted.
+33:07
+And that basically means you have spatially varying trust states. So you have is basically burying vector potential.
+33:10
+And they can actually be simulate and calculate this vector potential and can say OK as a function of the position,
+33:17
+why we just this position along which they have this magnetic field gradient, the vector potential at some point is zero.
+33:21
+That's what this parameter is centred in the middle.
+33:27
+That's where, like all of the Zeeman chips are the same and all of the three states that have the same energy.
+33:29
+And then you go to the One Direction.
+33:34
+This minimum becomes what we call this the minimum shift to the left, to the right, and you go higher up and the boom shifts in the other direction.
+33:36
+So this is not something that should create an artificial an artificial magnetic field,
+33:44
+because if you have two cities gradient in there to one zero, you would expect a magnetic field.
+33:48
+And if they do the same time of light imaging, they did before. And lo and behold. You can see vortices appearing in this cloud.
+33:53
+And as we said before we were talking about a rotating system, the vortices,
+34:01
+our smoking gun of the simulating magnetic field because they show you that this magnetic
+34:05
+flux is piercing through and you get this rotation about the local magnetic field.
+34:08
+So, yeah, they have made it they have created an artificial magnetic field by doing this.
+34:14
+It's a little bit of a tour de force to get there, but I wanted you to understand the structure.
+34:20
+That's why I went about this in quite a bit of detail. What they can also do is they can also change this magnetic field in time by, for instance,
+34:24
+changing this gradient in time or by, for instance, switching on and off the lasers or changing the rugby frequency.
+34:33
+And then they get a type of derivative of the spectre potential.
+34:39
+And this time derivative, of course, gets Watson artificial electric field and then a subsequent paper,
+34:41
+if measured as it could confirm that this actually works exactly as you would expect from as textbook.
+34:46
+And again, like Cooper and John Daly, but they then said, OK, can we make this stronger?
+34:52
+Because the problem that you have here is the the dynamic range of your vector potential is
+34:57
+kind of limited because here you only look at the one minute here you only have a minima.
+35:02
+There's not that much how you can change it, so you can't create very strong magnetic fields.
+35:06
+So they asked can equate stronger magnetic fields, and the answer is yes, you can very, very strong ones if you like,
+35:11
+put in like interfering letters beams that kind of create these gradients of your optical potentials and very,
+35:16
+very small length to and then because of lambda over to so you can do very, very strong fields in this case.
+35:22
+And if they calculate the band structure in this kind of what they call optical flux letters,
+35:27
+you can actually see that the band structure of this one has a density of states down here, and it's one very, very sharp, lowest level.
+35:31
+And that's what you expect for energy. Bottom them whole systems because you expect that you have very, very sharp Landau levels, lambda quantisation,
+35:37
+where all of these little Typekit and orbits, they have the same energy because they just a different positions.
+35:45
+But it's the same state, same orbit, and therefore they all have the same energy.
+35:48
+You get this massive degeneracy and the lowest level. So on the theory side, this works.
+35:52
+On the practical side, though, there's a problem with this approach, because normally when you think about what we do with Typekit troops,
+35:59
+you say we live off the fact that the deeper potential is like intensity of a delta.
+36:04
+Why this kind of thing we get this kind of thing where you depends like intensity of our data's clear.
+36:09
+So we say that normally if you just like, make this one,
+36:14
+we get the inevitable scattering if you just go for a very strong retuning and a very strong electric field.
+36:17
+The problem with these Raymond rate, which you corrected, I chipped, is that they also look like one, would that just quit?
+36:22
+Which basically means that the tuning doesn't help anymore, and you get a significant heating rate from those covering it just.
+36:29
+So it's not really practical for many ethical items.
+36:35
+People are now trying to do this for atoms like strontium, for instance, where you have states,
+36:39
+where you have very, very narrow lines that you should be able to do this with like less heating with.
+36:44
+But this is one way of doing it, another way of doing artificial foods is to say, can I do periodic modulations?
+36:49
+Can I take my system and shake it, say clockwise?
+36:57
+Because shaking it clockwise is, of course, the time it was a partner of shaking it counterclockwise.
+37:00
+So we're shaking it in this circular manner. I directly break time reversal symmetry.
+37:05
+Right and the left hand. So I practise cemetery by hand, by shaking it, and then I should see similar effect.
+37:11
+And the easiest way to see it is to say, let's take, say, a graphene Typekit at us,
+37:16
+and let's say we do something where we switch on the different tunnelling elements at different times.
+37:21
+So for the first third of the cycle, we only have this tunnelling on for the second part of the second.
+37:25
+We have this tunnelling on and for the last part of the cycle, you have this tunnelling on.
+37:29
+And of course, if you have this tunnelling on, we also have this one on and this one on.
+37:34
+So all of the ones that are horizontal and all of the ones that are kind of like upper left and then all of the ones in the upper right.
+37:37
+And if you do this and if you think of a state at the Edge, say you have to sequence, you say, OK, well,
+37:43
+it once just goes down this way, but it can't really go any other way because have a ton of things off.
+37:48
+And then the next point I switch on the horizontal tunnelling, it can only go there. It cannot go any other way because they are off.
+37:53
+And then I have to ones in this direction. You can go and you go up there.
+37:59
+There's no other way you can see that this one must also in the sequence, follow kind of like a skipping orbit type thing just around the edge.
+38:01
+So the mutilation breaks time and symmetry. Fundamentally speaking, it's because one to three is clockwise and three two one is counterclockwise.
+38:10
+And they're not identical. And they are time reversal patterns of itself. So if I take a one day system, just check it left right.
+38:18
+That's a sinusoidal modulation. The point is to time you and symmetric what?
+38:26
+But if I take something in 2-D, where do it kind of like in a circular fashion that does break time reversal symmetry?
+38:30
+So that's something that people have tried and indeed where they could see first effects.
+38:37
+This, by the way, goes back to Duncan Haldane, who also got the Nobel prise for the Typekit holding model,
+38:41
+which is basically to say Can I have your numbers and quantisation without a big external magnetic field?
+38:48
+And what he could show is that if you take graphene type lattices with like, complex nearest neighbour hopping,
+38:53
+so hopping from here to here, then you can come up with something that look, that looks like you have got Fluxus.
+38:58
+We have not got getting fields pointing in and out of the sphere at different points of the Unitel, such as the average magnetic field to zero.
+39:04
+But you can still have bands with Panopto numbers. And.
+39:10
+This model was actually realised in cold atoms in the group of two men where they basically said,
+39:16
+OK, we create letters in slightly more complicated fashion with interfering laser beam.
+39:22
+So again, we have laser beams going back onto the camera and back in there.
+39:26
+And because we have the same frequency now going into directions, we get like interesting cross terms,
+39:30
+which gives rise to this kind of like a structure that we need here. And then we can do the shaking.
+39:34
+But just like really physically shaking the pizza mirrors,
+39:39
+putting the mirrors on pizzas and move their positions because it creates the whole light field wide,
+39:42
+when you think of an interfering electric field, you'll always have like a note at the Mirror.
+39:47
+So if you move the mirror, the whole light filled with two notes and notes shifts around in space.
+39:51
+And by this, they could actually, like, try to like, get a structure like you what you had there,
+39:57
+and they could basically show that you get hold to if they could measure how it and the one direction or in the other direction.
+40:01
+This was done over these close to 10 years ago, and they could observe all troops, but they were very small and they were not quantised.
+40:08
+So it was not an integer quantum hall effect, if you want, but it was like a simulation of the classical hall effect.
+40:15
+And this was basically where things are regarding free space and regarding weak lattices.
+40:23
+There was another direction which is maybe more fruitful, which is like going into deep lattices and going to type binding models.
+40:30
+And that's what we're going to talk about next. How can I create artificial gauge fields in a tight binding model?
+40:36
+So the idea here is now let's look at the last phase factor that we have to discuss payouts faces.
+40:42
+Pilot phases is basically just saying, let me take and let us let us craft.
+40:49
+Let me take Hopkins and if we make some of those Hopkins complex.
+40:54
+So the wait on my Hamiltonian, I would just say this example, for instance, to hopping in the vertical direction.
+40:59
+Just that is just the same. But if I think about the hopping in a horizontal direction again, the AKP takes you to the AK to India.
+41:04
+So I get like different phases, phases, my way function.
+41:12
+When I just hop around, I just take a complex hopping elements like an extra face factor whenever I hop from one side to the next.
+41:17
+And if I do this, this kind of like face it to acquire, if I want one cat fights, if I one minus my two in this case.
+41:24
+This simulates the effect of a magnetic flux, because this is exactly the same as the hand of boom face.
+41:32
+If you have a charged particle, if you would have a magnetic flux encapsulated in this unit, so.
+41:38
+So you just need to make your shopping complex and you need to make your shopping complex in a way that's basically dependent.
+41:46
+So do you have like especially repentant backed up potential and then you can get like a magnetic field or an effective magnetic field out of this?
+41:52
+Does anyone has an idea how we would do this? How can you make your shopping complex?
+42:01
+What it's maybe a hard question to ask, because the answer is maybe not so obvious.
+42:16
+Before we get to that, just quickly something about my colleague Unités.
+42:21
+If you have no office where you like a quiet office fi going around one placard, then this face pie can in principle, be anything.
+42:26
+It doesn't need to be liked. It doesn't need to be related to Feyenoord, the magnetic flux quantum, which would be a perspective to pay.
+42:33
+However, what you can always we can almost always do is you can say that's created because the so-called magnetic units,
+42:42
+which is a super containing several unit cells, just caters to between things.
+42:47
+Such tough luck that the flux to this whole magnetic unit cell is just a multiple of two PI.
+42:52
+If you, for instance, would say, if I have a flux of PI over two and this and paper two in every cell,
+42:57
+and if I go to four four units out, I go, they're going to pay.
+43:03
+And this is not saying like I have a super lettuce with like four letter sides pursued by lettuce,
+43:07
+which then tells me they now expect that there's one band that originally had with split into force up bands.
+43:13
+So basically, what get you in this case is I get that split into end magnetics happens and all generality,
+43:21
+and they would be subject to some of the Chernov as well as this happens would be zero.
+43:26
+So it's kind of interesting to look at all of those happens and see how many
+43:30
+you have and what kind of configuration and how many assumptions you have.
+43:34
+We virtually just depend on this factor fi, how much pace you pick up per unit.
+43:38
+So when you hop around. If it's pie, then you just have, like, say, two units, do you expect to bend if it's a pie of a two,
+43:43
+you expect four units, so you expect for bands and so on. And then one of the first person to look at this systematically removed data,
+43:50
+and then he came up with this kind of plot that was kind of one of the first fractal structures showing up in physics.
+43:57
+And it's now famous, hopefully the butterfly and probably some of you will have seen this picture somewhere on the internet at one point or the other.
+44:03
+I see a few people nodding, but not too many. OK, so what do you got here?
+44:11
+What you brought here is the plot,
+44:15
+the energy spectrum in a normalised form and applauded as a function of the flux Phi Phi and units of fine not can go from zero to one.
+44:16
+If you look at zero, the very edgy you get like one line going from up here to down there, that's one single event.
+44:25
+That's the bet that you have about the absence of magnetic flux.
+44:32
+If you look at the next obvious points here, point of one third this year you see three lines, you see this line here,
+44:35
+the line here in the middle and the line up here because you have three bands,
+44:41
+you see, there's no three bands separated by band gaps, three nice bands.
+44:44
+What you also will see is that away from these simple fractions, like one half, one third and so on.
+44:48
+Stuff looks pretty, pretty complicated and pretty pretty fractal. And that's by design.
+44:53
+Because if I take say, for instance, any irrational flux where a fight over Panopto stock just a rational number, then it could end going to infinity.
+44:58
+I have infinitely many points of view, many bands. And yeah, so it's really a fractal.
+45:06
+If I go to something with whatever, 17 over seventy nine and a half seventy nine bands.
+45:10
+That becomes very, very complicated. So we have this factor energy structure.
+45:16
+You might be asking if I look at one half, I see it as one banshee in the middle.
+45:19
+Well, actually, it's two bands, it's one band going from down here to appear in the middle and another band from here to there.
+45:24
+There's no guarantee that these bands must be separated by band caps.
+45:29
+They can be touching, but still, we know it's two bands because we know there's two solutions for each quasi momentum.
+45:32
+And it looks a bit like a butterfly, that's what they call it, hopefully this butterfly. OK.
+45:40
+Now back to how can we implement these payouts faces? The way it was done and this was done, they're in a whole series of experiments for many,
+45:46
+Heidelberg was the main person and this is to say, well, if we want to do complex hopping,
+45:53
+say along the extraction, the first thing we have to do is we have to stop this real hopping, to bear hopping, to bear tunnelling in the X direction.
+45:58
+And the easiest way of doing that is to say, let's do that as such that we have a delta here that you need from,
+46:05
+let's say, to let the site that's much bigger than the original. So that and tunnelling can't happen because the energies don't match.
+46:10
+So then you end up with basically like hopping along the y direction, but no hopping along the.
+46:17
+And then what you can do is something to be called laser assisted hopping or laser induced hopping or Ramon assisted tunnelling,
+46:23
+which is basically saying let's put into extra laser beams one here, one there.
+46:29
+And it's put him in such that the edit, the frequency difference between these two laser beams is exactly delta.
+46:34
+Which is basically saying, if I observe a photon from one laser beam and emitted into the other laser beam, I gain or lose an energy of data.
+46:41
+And if that data is exactly the same as this data here, then this now restores the tunnelling.
+46:47
+So I can do a laser assisted tunnelling, whereby if swabbing a and from one laser emitting another laser, I go from one little site to the next.
+46:53
+That's the area. And then you can ask, OK, what happens now to the face pictures?
+47:01
+What do I get faces? Well, if I absorb and amid a photo, they're always absorbing images, also the face of the laser beam.
+47:07
+So to face it, I get by doing so depends on what the face into the eye of this laser beam and that laser beam is at a position of right doing this.
+47:13
+And because Italy ICAC's of the one that Italy likewise, if the other one, of course, battery dependent.
+47:23
+The crucial point is that the face factor I get out of this is basically dependent.
+47:29
+So if I jump here and then maybe go up some direction, why didn't we jump back or we get another face up here from the laser beams?
+47:32
+Then it got down here, so if it didn't go for a loop, I would have acquired a face while going through this.
+47:40
+That's the main idea. And you can basically just take geometry and calculate if I have a given key vectors of my lasers, hear this case.
+47:47
+They're kind of like orthogonal, but they don't have to be.
+47:54
+I can put them in any kind of angle and I can calculate just from this angle and the key vectors.
+47:56
+What is the magnetic fox that will be simulating?
+48:00
+Because that tells me what is the difference, the difference in the face vectors of the different popping elements at the different points?
+48:03
+Strictly speaking, because we now have to start and not being on zero.
+48:14
+This whole Hamiltonian this whole time depends why, because we have to each acre x minus omega T,
+48:17
+we have a tiny bit of omega one minus omega two times T, and they're so strictly speaking.
+48:23
+It is also like a special case of this kind of flukey engineering of this kind of Truven Hamiltonian.
+48:27
+And you don't have to have to face up to two laser beams. We just kind of like also shaking in a certain way.
+48:33
+So you can also think about it in this way.
+48:37
+But very often people say, OK, let's only consider the resulting effect of time independent Hamiltonian, which people don't quite know.
+48:39
+Harper hopefully the Hamiltonian, which is the Hamiltonian where you just say,
+48:45
+let's put complex toppings on all of the toppings in one direction and then have those peas basically dependent.
+48:49
+And that's exactly the way that they diagonals. When you got this plot to move to the butterfly, they showed you on a previously.
+48:56
+So what can you do with this? The first example that you can do is people did something where they said, Okay,
+49:04
+let's take a super letters and the X in the right direction so that we have
+49:08
+like little placards and just like no time and coupling between the placards. So we just put particles on like a of foresight letters.
+49:11
+And if you put particles on a superposition of these two sites initially say here we can measure all the particles are of super lattice techniques
+49:18
+and we can look at the time evolution of the particles so we can look at the expectation value of X and Y of the particle as a function of time.
+49:25
+And this plot here shows you, like many, many measurements and like clue to right is kind of like off the dots.
+49:33
+It's kind of like the way time progresses.
+49:39
+And I guess the main thing to say here is this is something that also gets around like this in the time, in the time or at fashion.
+49:41
+So you really see that it starts off field that is really going clockwise. It's like a little Typekit in motion.
+49:48
+It's really like the particles kind of doing Typekit and motion on this little side block at.
+49:54
+So it really shows you one of the main effects that we would expect from coal that from from the magnetic field, you do see cycles in orbit.
+49:58
+You can do the next thing which they then did was to say, OK, let's connect many of these little black heads up together to one dimensional stripes.
+50:07
+And what they could show then by looking at the flow of the particles and the currents of the particles,
+50:14
+they could show the analogue to what you normally have in a superconductor device.
+50:18
+No effect would actually get like a surface current to kind of counteract the external magnetic field.
+50:21
+So they could show here that because of these pacemakers you get,
+50:26
+you get something where particles are flowing upwards on the right hand side and downwards on the left hand side.
+50:29
+The cable covered so current, it has like a corollary to it it's going counterclockwise direction, but not the clockwise direction or vice versa.
+50:34
+And then the latest experiment in this one,
+50:43
+and this is the last experiment I want to show it is to say we can try to measure the high response so we can try to say, let's take a cloud.
+50:46
+Put a force in one direction to take a cloud with this kind of pilot's phases,
+50:54
+with this laser system stopping going on now at an additional force in one direction to
+50:58
+push the particles in one direction and then measure up a cloud move sideways measures,
+51:03
+if ever there is an animator's velocity. So the external fast and I do have an optical gradient,
+51:07
+so they put like a big laser beam somewhere where the clouds are sitting on the edge of the laser beam,
+51:14
+so they see an intensity gradient so that I can potentially see force pushing
+51:18
+them in one direction and then they measure what happens in the other direction.
+51:21
+They now do the pilots paces again, but they do them in a slightly different scheme for technical reasons,
+51:27
+and they get like a face off to PI over four. So they get like that for the two sides now do one of doing one of those magnetic units out,
+51:31
+which basically means that they are now in this situation and the hopefully the butterfly.
+51:40
+There's four bands one band down here, 20 in the middle of which touch yet at this point and another band up here.
+51:44
+We noted a number of the some of the numbers must be zero.
+51:50
+That's what we get on with the butterfly.
+51:54
+But we also know that we can have a situation where if you go to the right parameters, the lowest band would have a higher number of one.
+51:56
+The upper bands would also have a minimum of plus one,
+52:03
+and the two bands in the middle of attaching have a combined channel of minus one to make all of this viable.
+52:06
+And then they had to get a lot of ideas into it from how do I go from a non topological
+52:11
+Hamiltonian into a topological system in such a way that they end up only in this lowest band?
+52:16
+That's a big problem, actually, if I have a non topological system,
+52:21
+how do I make a topological with all the populating all four of those bands and therefore not having any effect?
+52:25
+But they managed to do this, they managed to put all of the particles in this lowest band at the time to with zero.
+52:31
+And this now is my final slide. Hence I'm rushing a little bit.
+52:36
+What they look at now is they say we look at the differential shift where the particles,
+52:41
+if I put a in is that direction move to the left or to the right.
+52:46
+There's two plots in here one place with the force and the plus that direction one force in the minus direction.
+52:50
+And you can see that in the one case, the drift in one direction. In the other case, they drift in the other direction.
+52:56
+So here you see, this is like differential density measurements.
+53:01
+So you take two.
+53:06
+Density measurements, one before, one after, and you look at the difference between them, you see that if you do this and this kind of case,
+53:07
+you see those like blue,
+53:13
+red and you have a case he does where plumes of the particles are moving a little bit to the left or a little bit to the right.
+53:15
+And you can see as a function of time how many observations you do, you can see that initially there was a straight line here initially.
+53:21
+They are moving initially you see a shift, you see this block to that. You would expect this whole trip that you would expect.
+53:28
+What you also see is that, well, that kind of stops after a while after 120 milliseconds, the particles are not moving anymore.
+53:34
+The answer for that is that for longer times, dispensary population.
+53:41
+Because when you try a system, when you shake a system to give if a proven system in the Iraqi case,
+53:46
+then what you also have you allow the system to absorb energy from the drive and go to other states.
+53:52
+So that means that the system is not confined to the lowest energy band anymore,
+53:56
+but can be redistributed to all of the energy bands and with mapping techniques with time of flight, they control it.
+53:59
+That's what's happening.
+54:04
+So they can show that they expect nothing to happen here anymore because the system now isn't equipped with equal mix of all four bands.
+54:06
+But for the small part, down here, you can do a fit, and if you do a fit,
+54:13
+you get something where to expect extract is zero point nine, nine, seven or above or five.
+54:18
+So it's very, very, very compatible with the theoretical value of one.
+54:24
+So this can be seen as like, yes, this is like a first observation of the integer quantum hall effect in atoms.
+54:28
+It has a lot of caveats, I should say it's not in full glory, right, because it's not like a steady state that stays forever.
+54:36
+It's a transient effect. It's only there for like the first couple of milliseconds before it gets away.
+54:42
+But it shows that it can be done in principle.
+54:47
+So this was 2015, so six, seven years ago, and people have now put a lot of time in understanding of limitations.
+54:49
+How can we do this in a way to not have this bad redistribution later on?
+54:55
+How can we extend this to a longer times? Because if you want to go to the fractional quantum hall, you want to combine this with strong interactions.
+54:59
+We need to have the system being alive and being topological for like a half a second because of the interactions.
+55:07
+Everything is more fragile and go slower.
+55:12
+But I think it just shows you that this is maybe it will end quantum simulations are far from at the end of what they can do.
+55:16
+They are still pretty exciting things that will come up in the next couple of years, going to what fractional quantum hall on this side,
+55:23
+going towards like the antiferromagnetic spin liquids and other interesting quantum states and quantum magnetism.
+55:29
+There's many, many developments that are currently underway. Lots of things are going to come.
+55:34
+OK. And this stunt is the official end of the course.
+55:39
+Thank you very much.
+55:43
