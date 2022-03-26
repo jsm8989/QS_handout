@@ -18,48 +18,20 @@ But what you have to avoid is now the interference between the two beams. If you
 [pic]
 And it just looks good. 
 
-OK, so this is  the main workhorse for a lot of the physics that we're going to look at. You can also do that with different lattice systems. You can, for instance, say let's take three beams in a plane. If you have a three-fold rotation symmetry in the system, you can use identical frequencies so that they are all interfering in plane out of plane polarisation. And then you can get, for instance, the honeycomb lattice or the two are angular lattice.
-And one thing that we not doing, for instance, of my crew at the moment, is we're saying, OK,
-it's not from these  structures and to this one in a biometric patient with $\lambda to $\lambda, and then you can create, for instance, the cargo.
-Let us. there's a lot of things how you can create letter structures with code items.
-There's many, many ways of doing this. It's a very flexible system. What's very nice about this is that these protections are always very, very clean,
-they have almost no disorder and then they're very, very close to perfect.
-And when you think about that, it makes sense when you think about this and furious based.
-Normally when you project down, the potential, there might be a little bit of disorder here,
-something changing here and then you get like, it is a potential. Now what we're doing is that we are if you think in case basis,
-we are only coming in with two vectors, one laser beam from here, one laser beam from there.
-And therefore, these took because the only thing that they can do is sign.
-Because we're  restricting ourselves in case basis and say we only come in with two discrete vectors.
-We must have a perfectly periodic potential because we just don't have enough freedom to do anything else.
-And that's a big benefit of the system. OK.
-how do we know the items in there and in principal can just stop here and say, well, it's a periodic potential.
-we have lost fuel and we have clockwise. We have a band structure with energy gaps.
-All of the things you know and love from condensed matter physics are there and therefore we cannot go on if you already know the description.
-Let me just highlight a few points about this,
-because there's a few things in there because we are thinking of creating the lattice, so to speak, in momentum space.
-There's a neat way and I need intuition how you can think about this.
-This gives you novel insights compared to how you think about in  matter physics.
-Let's start from the clinic's bedsite bedsite to say we have lost fear.
-if we have a probability potential, then all of the EIGEN functions for electrons or any particles in the air will be of the following form.
-Normally in free space, I would have just applied way to the ICAC's.
-And, you know, if I have a periodic potential, I would have a plot of the form here, which is equally Ikhwan.
-a plane wave, but that's an modulated by a function you of arm, which is a periodic function of the same period as the potential.
-You all would have seen this, and I guess. So.
-We call this function five. The whole I state, we call it the Bloch wave, and we often call you of the periodic part of it, the Bloch function.
-And bit of Gaussian, different offers use different conventions.
-Sometimes people quite a Bloch away of quite the whole thing, a Bloch function amongst collectors all over the place.
-Key thing is that if you have the full thing, it's an iron basis, it's an iron basis, because if I choose a different quasi momentum cube,
-we're talking about what is this that it would get because of this term, I get no formal function.
-The two of us do not necessarily need to be a lot for excuse.
-OK. because we have a band structure will have a band index and disappear,
-and we'll talk about quantum cue and momentum, and we'll discuss in a minute why that makes sense.
-just to like, make the connexion again, to connect matter physics was very important,
-one is matter physics is, of course, the reciprocal lattice vectors which you can get in.
-One is just to pay over with these two lattice constant. And in our case, is lambda over two.
-over two here we cannot shift a pie from the two pie to here.
-And then we say to pay over lambda, that's just K to convict of light.
-we see that the reciprocal lattice vector is just two times K. Two times two photons,
-the photon wave vector and definitely momentum space picture the reciprocal lattice momentum HBK is to say
+OK, so this is  the main workhorse for a lot of the physics that we're going to look at. You can also do that with different lattice systems. You can, for instance, say let's take three beams in a plane. If you have a three-fold rotation symmetry in the system, you can use identical frequencies so that they are all interfering in plane out of plane polarisation. And then you can get, for instance, the honeycomb lattice or the triangular lattice. And one thing that we are doing in my group at the moment, is we're saying, from these structures you can create, for instance, the Kagome lattice. There's many, many ways of doing this. It's a very flexible system. What's very nice about this is that these protections are always very, very clean, they have almost no disorder and then they're very, very close to perfect. And when you think about that, it makes sense when you think about this in Fourier space. Normally when you project down the potential, there might be a little bit of disorder here, something changing here and then you get like, it is a potential. Now what we're doing is that we are if you think in k-space, we are only coming in with two vectors, one laser beam from here, one laser beam from there.
+[pic]
+And therefore, because we're  restricting ourselves in k-space and say we only come in with two discrete vectors, we must have a perfectly periodic potential because we just don't have enough freedom to do anything else. And that's a big benefit of the system. 
+
+OK. How do we know the items in there and in principle can just stop here and say, well, it's a periodic potential. We have a band structure with energy gaps. All of the things you know and love from condensed matter physics are there and therefore we can go on if you already know the description. Let me just highlight a few points about this, because there's a few things in there. There's a neat intuition how you can think about this. This gives you novel insights compared to how you think about in condensed matter physics.
+
+If we have a probability potential, then all of the eigenfunctions for electrons or any particles in the air will be of the following form. 
+[eqn, pic]
+Normally in free space, I would have just applied [way to the ICAC's. And, you know, if I have a periodic potential, I would have a plot of the form here, which is equally Ikhwan. a plane wave,] but that's an modulated by a function you of arm, which is a periodic function of the same period as the potential. You all would have seen this, and we call this function $\phi$. The whole I state, we call it the Bloch wave, and we often call the periodic part of it, the Bloch function. Key thing is that if you have the full thing, it's an eigenbasis, because if I choose a different quasi momentum $q$,
+[we're talking about what is this that it would get because of this term, I get no formal function.
+The two of us do not necessarily need to be a lot for excuse.]
+Because we have a band structure we will have a band index, and we'll talk about quantum cue and momentum, and we'll discuss in a minute why that makes sense. To make the connection again, to condensed matter physics of course, the reciprocal lattice vectors which you can get in. One is just $2\pi$ with these two lattice constant, which in our case, is $\lambda/2$. Here we cannot shift a $\pi$ from the $2\pi$ to here. And then we say $2\pi/\lambda$, is just te k-vector of the light. We see that the reciprocal lattice vector is just $2k$. Two times two photons, the photon wave vector and definitely momentum space picture the reciprocal lattice momentum HBK is to say
+
+
 to a million times that's the natural scale for the reciprocal lattice vectors in an optical lattice.
 There's a nice intuition where we have a talk here, and that intuition comes from thinking about all of this momentum space.
 But I think this intuition is very important, so I want to spend a little bit of time on that one.
