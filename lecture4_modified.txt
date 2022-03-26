@@ -1,66 +1,22 @@
 
 Welcome back, everyone. Lecture number four of the quantum simulation class. Today we're going to start talking about optical lattices.
 
-Let's start with what is an optical lattice and how do we create an optical lattice. We already talked about how the dipole effect can create a potential, we now just have to talk about how we can create a periodic intensity distribution for the light because that wouldn't directly be seen as a periodic potential for the atoms. The easiest way of doing it is actually pretty straightforward. You take two plane waves with the same frequency, with wavevecors K and -K, so one laser coming from here and another laser identical frequency coming from there. And then, of course, you have the two plane waves, which means you get sinusoidal standing wave electric field.
+Let's start with what is an optical lattice and how do we create an optical lattice. We already talked about how the dipole effect can create a potential, we now just have to talk about how we can create a periodic intensity distribution for the light because that wouldn't directly be seen as a periodic potential for the atoms. The easiest way of doing it is actually pretty straightforward. You take two plane waves with the same frequency, with wavevecors $k$ and $-k$, so one laser coming from here and another laser identical frequency coming from there. And then, of course, you have the two plane waves, which means you get sinusoidal standing wave electric field.
+[eqn,pic]
+The easiest way of doing it is to take my laser beam, focus down onto my atoms, and then just shortly behind the atoms, a few millimetres part, I put a mirror and the whole thing gets reflected. The electric field is Cosine, which means that the intensity is cosine squared and the dipole effect is proportional to the intensity, so we see the potential form $\cos^2(kx)$.
+The way we typically write this down is as long as we have the cos squared case that and then we have a plus or minus sign in front and V_0 which for us is always positive. And then if we have a blue detuned lattice (so that the lattice potential is positive), then you want zero potential line down here
+[pic]
+and we get the positive sign. And if we have the negative sign, we have red-detuned lattice (attractive). We typically give it in units of the recoil energy that becomes a natural unit for us. The recoil energy $E_{rec} = p^2/(2m)$ is the kinetic energy that a particle has, but it initially was at rest and then it absorbs the momentum kick of one photon, $p=\hbar k$. And this is the typical energy scale we will always use, talking about lattice depth in terms of recoil energy, and that means it, of course, depends on the wavelength of the laser and it depends on the mass of the atom. If you have different atoms in your system, they would see different depths of lattices in this appropriate unit. 
 
-The easiest way of doing it is to take my laser beam, focus down onto my atoms, and then just shortly behind the atoms, a few millimetres part, I put a mirror and the whole thing gets reflected. The electric feud is Cosine, which means that the intensity is cosine squared and the dipole effect is proportional to the intensity, so we see the potential form cos^2(kx). The way we typically write this down is as long as we have the cos squared case that and then we have a plus or minus sign in front and V_0 which for us is always positive.
+OK. Let us consider at $\lambda/2$. That typically means for us a couple of hundred nanometres 250 to 600 nanometres are the typical values. And that's again, the big difference to a system where the lattice constants are order of angstroms, but this is three orders of magnitude bigger. And that means that it's much, much easier to observe to manipulate and things happen much, much slower. We can do more than just a simple standing wave if we can, for instance, make a chromatic lattice where we have two different laser wavelengths and you get this potential plus that potential.
+[pic]
+And these are true super lattices and depending on how strong these lasers are and their relative phase, you can change things dynamically during the ramp up. One type of lattice that's interesting is the lattice of some symmetric double well. We have one weak barrier, two identical cases and then the big barrier.
+[pic]
+And then again, this just means you have two wells and one and this is mathematically speaking, the Su-Schrieffer-Heeger model where you have one tunnelling another, tunnelling one another again. And these models are interesting. You might have seen them in TQM because they give simplest examples of non-trivial topology. You don't need to know the details just to say, okay, you can do things like this. And then you can, of course, also if you just shift the smaller lattice with respect to the $\lambda$ lattice a little bit, you've got a symmetry in there. You can add to one well, it's always deeper than the other. And that's very nice for many things, because you can, for instance, load atoms in there. Say I first load just one atom, put it in long wavelength lattice, and then I ramp up the short wavelength that this will start to split this big well into a double well. And they do it in an asymmetric fashion. I can make sure the particles are always sitting on the left side. And if I then say only go to the $\lambda$ lattice, switch off the $2\lambda$, then I'm in this lattice with particles only starting on every other site. If we have artificially created the charge density wave and can see it will dissolve over time, what would it do? It's a very important observable later on. There's a lot of things that you can do with. If you want to go to more than one dimension, if you, for instance, want to create a simple cubic lattice in three dimensions, you want to have the interference always between the beam going forward and the beam being reflected in this direction. 
+[pic]
+But what you have to avoid is now the interference between the two beams. If you also have this beam at this beam being coherent, you also get interference between those. And that's not what you want in a simple cubic potential. You just have to play a few tricks. One way to avoid this cross interference is to say, let's use orthogonal polarisations. If the one is stuck in that direction, the other one is the direction that it can't interfere. That turns out not to work very well in practise because you never get polarisations perfectly orthogonal, what works very well in practise is to say if I just have small frequency offsets between them, just say 10 megahertz frequency offset, which is easy to do in the lab, then you get an interference term which oscillates with 10 megahertz so much, much, much faster than the atoms can follow. And they only see the average potential and the cosine averages down to zero. You don't have this term, then. That's how you create a square lattice in 2D or a simple cubic lattice in 3D. In cartoon language, if I just take one laser beam, I just get my dipole trap, one attractive potential. If I put a mirror, I get a 1D lattice in this direction, you can see it still has transverse shape of the single laser beam, but longitudinally you now have this periodic potential of the lattice. If you take problems in the plane, pairwise interferences, you get that the checkerboard type thing.
 
-And then if we have a blue detuned lattice (so that the lattice potential is positive),
-then you want zero potential line down here* and we get the positive sign.
-And if we have the negative sign, we have red-detuned lattice (attractive).
 
-We typically give in units of the recoil energy that becomes a natural unit for us. The recoil energy E_{rec} is the kinetic energy that a particle has, but it initially was addressed and then it absorbs the momentum kick of one photon. E_{rec} = p^2/(2m) where p=\hbar ks
-And this is the week the typical energy scare will always use, who would always talk about letter steps and we call energy,
-and that means it's as we call energy, of course, depends on so it depends on the wavelength of the laser and it depends on the mass of the atom.
-if you have different atoms in your system, they would see different depths of lattices in this appropriate unit.
-OK. Let us facing this lambda over to.
-East anyway, because if a cosine squared the period of the fingers lambda over to half the wavelength,
-and that typically means for us a couple of hundred nanometres 250 to 600 nanometres are the typical values.
-And that's again, the big difference to our system where the let us constants in all of angstrom,
-but he is much, much, much bigger five orders of magnitude bigger, also three orders of magnitude bigger.
-And that means that it's much, much easier to observe to manipulate and things happen much, much slower.
-we can do more than just a simple, a simple standing way if we can, for instance,
-take by chromatic letters by chromatic true colours where we have let us laser off wavelengths blunder and then other wonderful reference to London.
-you get this potential plus that potential.
-And these are true super lattices and depending on how strong these lasers are and they're ready to face, which means how do they sit well,
-as if to each other, you can change things dynamically during the ramp up and you can, but two very different lattices.
-one type of lattice that's interesting is the letters of some symmetric double world.
-we have one week barrier two identical cases and then the big barrier.
-And then again, here, w-well, just means you have two worlds and one and this is mathematically speaking,
-these four Hegar model becomes a model where you have one tunnelling another, tunnelling one another again.
-And these models are interesting. You might have seen them in TQM because they the simple topological models.
-You don't need to know the details just to say, okay, you can do things this.
-And then you can, of course, also if you just shift the London letters with respect to the tool and the letters a little bit,
-you've got a cemetery in there. You can add to to one well, it's always deeper than the upper.
-And that's very nice for many things, because you can, for instance, if load atoms.
-In there, so I say a first load atoms, just one atom, put it aside and the long wavelength letters,
-and then I ramp up the short wavelength that this will start to splits this big well into a double well.
-And they do it in an asymmetric fashion. I can make sure the particles are always sitting on the left side.
-And if I then say only go to the London, let the switch off to to London,
-then I'm in touch, let this with particles only starting on every other side.
-if artificially created the charge density wave and can see it's an iron state will dissolve over time, what would it do?
-It's a very important observable later on. there's a lot of things that you can do with.
-If you want to let go to more than one dimension, if you, for instance, want to create a simple cubic lattice in three dimensions,
-then you want to write down the letters potentially this Vex letters that letter
-step the next direction times cosine squared x plus b by plus visit and so on.
-And.
-In order to create this now, you want to have the interference always between the beam going forward and the beam being reflected in this direction.
-But what you have to avoid is now the interference between the two beams.
-if you also have this beam at this beam being coherent, you also get interference between those.
-And that's not what you want in a simple cubic potential. you just have to play a little bit of tricks.
-one way to avoid this cross interference is to say, let's use a fork and polarisations.
-if the one is stuck in that direction, the other one is the direction that it can't interfere.
-That turns out not to work very well in practise because you never get polarisations perfectly orthogonal,
-what works very well in practise is to say if I just have small frequency offsets between the views just say 10 megahertz frequency offset,
-which is easy to do in the lab, then you get interference term.
-But this interference oscillates with 10 megahertz so much, much, much faster than the atoms can follow.
-And they only see the average potential and the cosine average is down to zero.
-you don't have this term, then. that's how you create a square lettuce and 2D or a simple cubic lattice in 3D.
-in cartoon language, if I just take one laser focus at home, I just get my Typekit truck one attractive potential.
-If I put a mirror, he's going to get a little reflective case.
-Then I get a one that mentioned letters in this direction you can see in a transfer it still has the shape of the of that you get from,
-the single laser beam, but longitudinally you now have this periodic potential of the lettuce.
-If you take problems in the plane, pairwise interferences, you get that the checkerboard type thing.
 And if you get the thing in 3-D, then you get that ahead on the first flight.
 strictly speaking, this isn't every potential line of the three dimensional potential.
 And it just looks good. OK, so this is kind of the main workhorse for a lot of the physics that we're going to look at.
