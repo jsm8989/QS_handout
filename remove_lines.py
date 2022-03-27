@@ -86,6 +86,12 @@ newlines = replace_word("week", "weak", strlist=newlines)
 newlines = replace_word("Crown State", "ground state", strlist=newlines)
 newlines = replace_word("feminisation", "thermalisation", strlist=newlines)
 newlines = replace_word("kind of", "", strlist=newlines)
+newlines = replace_word("lettuce", "lattice", strlist=newlines)
+newlines = replace_word("letters", "lattice", strlist=newlines)
+newlines = replace_word("London", "$\lambda", strlist=newlines)
+newlines = replace_word("HBK", "$\hbar k$", strlist=newlines)
+newlines = replace_word("cue", "$q$", strlist=newlines)
+newlines = replace_word("Harvard", "Hubbard", strlist=newlines)
 
 
 
