@@ -1,0 +1,441 @@
+
+Welcome back, everyone. Lecture number four of the quantum simulation class. Today we're going to start talking about optical lattices.
+
+Let's start with what is an optical lattice and how do we create an optical lattice. We already talked about how the dipole effect can create a potential, we now just have to talk about how we can create a periodic intensity distribution for the light because that wouldn't directly be seen as a periodic potential for the atoms. The easiest way of doing it is actually pretty straightforward. You take two plane waves with the same frequency, with wavevecors $k$ and $-k$, so one laser coming from here and another laser identical frequency coming from there. And then, of course, you have the two plane waves, which means you get sinusoidal standing wave electric field.
+[eqn,pic]
+The easiest way of doing it is to take my laser beam, focus down onto my atoms, and then just shortly behind the atoms, a few millimetres part, I put a mirror and the whole thing gets reflected. The electric field is Cosine, which means that the intensity is cosine squared and the dipole effect is proportional to the intensity, so we see the potential form $\cos^2(kx)$.
+The way we typically write this down is as long as we have the cos squared case that and then we have a plus or minus sign in front and V_0 which for us is always positive. And then if we have a blue detuned lattice (so that the lattice potential is positive), then you want zero potential line down here
+[pic]
+and we get the positive sign. And if we have the negative sign, we have red-detuned lattice (attractive). We typically give it in units of the recoil energy that becomes a natural unit for us. The recoil energy $E_{rec} = p^2/(2m)$ is the kinetic energy that a particle has, but it initially was at rest and then it absorbs the momentum kick of one photon, $p=\hbar k$. And this is the typical energy scale we will always use, talking about lattice depth in terms of recoil energy, and that means it, of course, depends on the wavelength of the laser and it depends on the mass of the atom. If you have different atoms in your system, they would see different depths of lattices in this appropriate unit.
+
+OK. Let us consiter at $\lambda/2$. That typically means for us a couple of hundred nanometres 250 to 600 nanometres are the typical values. And that's again, the big difference to a system where the lattice constants are order of angstroms, but this is three orders of magnitude bigger. And that means that it's much, much easier to observe to manipulate and things happen much, much slower. We can do more than just a simple standing wave if we can, for instance, make a chromatic lattice where we have two different laser wavelengths and you get this potential plus that potential.
+[pic]
+And these are true super lattices and depending on how strong these lasers are and their relative phase, you can change things dynamically during the ramp up. One type of lattice that's interesting is the lattice of some symmetric double well. We have one weak barrier, two identical cases and then the big barrier.
+[pic]
+And then again, this just means you have two wells and one and this is mathematically speaking, the Su-Schrieffer-Heeger model where you have one tunnelling another, tunnelling one another again. And these models are interesting. You might have seen them in TQM because they give simplest examples of non-trivial topology. You don't need to know the details just to say, okay, you can do things this. And then you can, of course, also if you just shift the smaller lattice with respect to the $\lambda$ lattice a little bit, you've got a symmetry in there. You can add to one well, it's always deeper than the other. And that's very nice for many things, because you can, for instance, load atoms in there. Say I first load just one atom, put it in long wavelength lattice, and then I ramp up the short wavelength that this will start to split this big well into a double well. And they do it in an asymmetric fashion. I can make sure the particles are always sitting on the left site. And if I then say only go to the $\lambda$ lattice, switch off the $2\lambda$, then I'm in this lattice with particles only starting on every other site. If we have artificially created the charge density wave and can see it will dissolve over time, what would it do? It's a very important observable later on. There's a lot of things that you can do with. If you want to go to more than one dimension, if you, for instance, want to create a simple cubic lattice in three dimensions, you want to have the interference always between the beam going forward and the beam being reflected in this direction.
+[pic]
+But what you have to avoid is now the interference between the two beams. If you also have this beam at this beam being coherent, you also get interference between those. And that's not what you want in a simple cubic potential. You just have to play a few tricks. One way to avoid this cross interference is to say, let's use orthogonal polarisations. If the one is stuck in that direction, the other one is the direction that it can't interfere. That turns out not to work very well in practise because you never get polarisations perfectly orthogonal, what works very well in practise is to say if I just have small frequency offsets between them, just say 10 megahertz frequency offset, which is easy to do in the lab, then you get an interference term which oscillates with 10 megahertz so much, much, much faster than the atoms can follow. And they only see the average potential and the cosine averages down to zero. You don't have this term, then. That's how you create a square lattice in 2D or a simple cubic lattice in 3D. In cartoon language, if I just take one laser beam, I just get my dipole trap, one attractive potential. If I put a mirror, I get a 1D lattice in this direction, you can see it still has transverse shape of the single laser beam, but longitudinally you now have this periodic potential of the lattice. If you take problems in the plane, pairwise interferences, you get the checkerboard type thing. And if you get the thing in 3-D, then you get that ahead on the first flight. Strictly speaking, this isn't every potential line of the three dimensional potential.
+[pic]
+And it just looks good.
+
+OK, so this is the main workhorse for a lot of the physics that we're going to look at. You can also do that with different lattice systems. You can, for instance, say let's take three beams in a plane. If you have a three-fold rotation symmetry in the system, you can use identical frequencies so that they are all interfering in plane out of plane polarisation. And then you can get, for instance, the honeycomb lattice or the triangular lattice. And one thing that we are doing in my group at the moment, is we're saying, from these structures you can create, for instance, the Kagome lattice. There's many, many ways of doing this. It's a very flexible system. What's very nice about this is that these protections are always very, very clean, they have almost no disorder and then they're very, very close to perfect. And when you think about that, it makes sense when you think about this in Fourier space. Normally when you project down the potential, there might be a little bit of disorder here, something changing here and then you get like, it is a potential. Now what we're doing is that we are if you think in k-space, we are only coming in with two vectors, one laser beam from here, one laser beam from there.
+[pic]
+And therefore, because we're restricting ourselves in k-space and say we only come in with two discrete vectors, we must have a perfectly periodic potential because we just don't have enough freedom to do anything else. And that's a big benefit of the system.
+
+OK. How do we know the items in there and in principle can just stop here and say, well, it's a periodic potential. We have a band structure with energy gaps. All of the things you know and love from condensed matter physics are there and therefore we can go on if you already know the description. Let me just highlight a few points about this, because there's a few things in there. There's a neat intuition how you can think about this. This gives you novel insights compared to how you think about in condensed matter physics.
+
+If we have such a potential, then all of the eigenfunctions for electrons or any particles in there will be of the following form.
+[eqn, pic]
+Normally in free space, I would have just applied BCs. And, you know, if I have a periodic potential, I would have a plot of the form here, but that's modulated by a function $U(r)$, which is a periodic function of the same period as the potential. You all would have seen this, and we call this function $\phi$. The whole I state, we call it the Bloch wave, and we often call the periodic part of it, the Bloch function. Key thing is that if you have the full thing, it's an eigenbasis. Because we have a band structure we will have a band index, and we'll talk about quasimomentum $q$, and we'll discuss in a minute why that makes sense. To make the connection again, to condensed matter physics of course, the reciprocal lattice vectors which you can get in. One is just $2\pi$ with these two lattice constant, which in our case, is $\lambda/2$. Here we cannot shift a $\pi$ from the $2\pi$ to here. And then we say $2\pi/\lambda$, is just the k-vector of the light. We see that the reciprocal lattice vector is just $2k$. That intuition comes from thinking about all of this momentum space. But I think this intuition is very important, so I want to spend a little bit of time on that one.
+
+If I think of an optical lattice in momentum space, let me start by thinking of an atom in the ground state with some real space momentum. And then I have two laser beams coming with $k$ and $-k$. Now if you would absorb a photon from the one beam, it would go into the excited state and have momentum plus $\hbar k$ because it absorbed this photons momentum. And then the excited state, which through stimulated emission going back to the state but emits the photon into the other beam, which has momentum $-k$, it would end up back with momentum $ p +2 \hbar k$. OK. What we basically have here, this is the two-photone process of stimulated absorption from one beam, followed by stimulated emission into the other beam and that changes the atoms momentum by $2 \hbar k$. That's the fundamental process when you think about what happens with an atom in these laser fields. And it's a very neat way of thinking about optical lattice starting from momentum space. And then later on ask what does this mean in real space?
+
+For this to work, it requires coherence between the two beams because it's a coherent two-photon process,vwhich basically means that the two beams have more or less the same frequency. In order to suppress single photon absorption, so we don't want an atom to really go into this excited state and then do a spontaneous emission and go somewhere else, what we just do is we take large detunings, typically more than 20nm, to just suppress them. We think back of what we discussed, last two lectures ago. The potential is the form of intensity over detuning. But these spontaneous emission rates, it's intensity of detuning squared. just go for a large detuning, more than 20 nanometres. Crank up the intensity. Use a powerful laser and you get a nice conservative potential. And that's how it looks.
+
+The light field is not homogeneous, and that means I have two components in it in the k-space, and therefore I can also shuffle photons from the one beam into the air and thereby change the atomic momentum by $2k$. This is the intuition and building on this intuition, we can do the calculations and the calculations are typically done numerically and they're actually done relatively straightforward. You would see the calculation you would do that on the first problem set, which will go online later today. The way what you do is you say, well, OK, if I start with some momentum, initially, that only does create a momentum movement of the form, plus other times to make where there's an integer can be reached. What I say, I start with this momentum, but I can only do jumps of $2\hbar k$. We're going to go to a few discrete points here and a few discrete points there. What this means is that, OK, first of all, it means that momentum is now not conserved, so momentum is not a good quantum number anymore. However, the momentum modulo $2 \hbar k$ is conserved because you only have this discrete steps, and that is why we later on have this quasi momentum $q$, which is exactly just the momentum. What do you do to $\hbar k$? With just to momentum projected back into the first pre-Euros or to make the connexion of clients matter again?
+We come on the next slide. If you have this structure, we have these two discrete things that basically you can write on your Hamiltonian as a matrix.
+You can say what is the energy of a particle for a given L, so with this extra momentum, it's just the kinetic energy.
+And you have the process of scattering one photon from here to here, which changes oh by one.
+you get a matrix, which has a diagonal form.
+We have the kinetic energies on the diagonal and some coupling terms on the first of the elements and zero everywhere else.
+And that's the matrix that you would set up, and you would see some guidance on how to do this step by step on the problem said it's easy.
+And then you have this matrix and you can diagonals this number with. Or what not?
+And in principle, you would say, well, I can't do this because Al is an entity, so it's infinitely big.
+But it turns out in practise it's easy to truncate this, for instance, with being less than 10.
+That's typically sufficient for the lowest two bands because the order.
+But this is L I have a kinetic energy which goes a squared is 100 times higher than for the first order.
+these things are high energy and therefore. You would see this in the problems of.
+this is a way of doing it. And if you do this, then you just calculate the states for everybody and you get floods this.
+this is the band structure of an optical let us calculate an American. And let's start by looking at this plot up here.
+We're not equals zero, you recall. Which basically means there was no lattice.
+This is free space we just assume are going to have to periodicity or you can think of this as a very, very, very, very weak lattice.
+Basically, the line in here, this is just, you know, the free space probe centred around momentum zero.
+However, because of photo in here could scatter like.
+One pair of photons, it could go to the momentum, plus two $\hbar k$.
+Which basically means we have the same free space, and I also said that around two. And we have the same problem also centred around minus two, which.
+it is the same discussion that you have done a couple of times and matter physics.
+We are now thinking about it slightly differently because we are saying, OK, it's not the consequence of the periodicity that it must be this.
+It's we are saying it's a consequence of that. You have these discrete jumps in momentum space because of the photons.
+It's the same physics. It's just a weird space picture because it's the momentum space picture.
+And he will check second and see if everybody's comfortable with this picture and getting real space momentum space together cover,
+it can be confusing when you think about it for the first time. But it should clear up very quickly.
+Any questions? OK, then let's go on and let's say we now go from zero letter steps to a weak, let's say two weaks.
+Then you do the same thing that you do for a quasi free electron. You can say what?
+I have this parabola here and that probability I have a weak coupling between them, which means that they are.
+These two things are coupled and the crossing turns into an avoided crossing.
+A couple you can see here that this parabola here is pushed down. If you have a problem, there is pushed up.
+You see, that's how you get the bend and you get the bent gaps in the same way as you happen to cross if we elect one model.
+You'll also have banquettes up here, but because they're are already very, very weak.
+And then if you go into a deeper lattice, the bank gets just get bigger, the bank gets pushed down a different bank,
+it's flatter and flatter and then also the bank of up here becomes visible until the next bank becomes very clear.
+And also, this banker becomes a. this is really how you go from a weak to a strong lattice.
+You see that how did dispersion relation forms? You've seen these cartoons and many condensed matter systems.
+And they always say it's the result of a band structure calculation.
+You cannot do the bounds of the calculation for yourself because it's only that one coupling to them.
+It's very easy to do.
+what you see also from this picture is that the whole thing is periodic review period of two $\hbar k$, as it should be coming from the periodicity.
+Mathematically speaking, if we had spaces, periodic mental space must also be periodic so we can restrict my whole description to a certain window
+momentum space in which was the first zone where we say the quantum $q$ runs from minus K to K.
+we just consiter the path from here up to here, and we know that the higher part will be periodic.
+we go from the extended zone scheme to the compact normal zone scheme that you see in the kindness matter physics.
+And the physical intuition behind this is that momentum, as I said, is not a concern, no, but momentum module to market is a concert.
+No, because let this can only just change in momentum kicks.
+Q would just just be modular to educate this within here in this window is a conserved quantity.
+And voila, we have a couple of waves. We have the iconic images, we have the band structure, we have everything.
+Well, so far, we've only looked mostly looked at the energies. The next team will now be to look later on at the weights themselves.
+First, one more thing.
+What you probably pursue is always the dispersion relation of the lowest band, and it's always normalised that it always goes from zero to one.
+Of course, for a deeper let as it becomes flatter, flatter, flatter, you will zoom into it.
+we just normalise goes from zero to one. And what you can see here is you can see the change of the shape, the blue curve.
+This let the step zero, so that's a prerogative, the free space. The red curve is five.
+And the Black Line is 100, we go to a very, very deep lattice.
+And what you can see is that it takes this one very peculiar shape, which is basically just given away minus cosine pi over Cuba de Cuba.
+Okay? this is just a cosine function with the minimum in the middle and the maximum here at plus minus plus minus K.
+And at the moment, we just say we see this, we can fit it, it comes out of the band of calculation.
+There is a deep explanation of why it must be the cause and the they really get to refuse let.
+Very often we do calculations when we think about stuff and in cold atoms.
+We talk about the so-called tight binding, which was just a regime that starts at roughly five, we call it.
+It's characterised by here that we can say that it's permanent.
+Lowest point is really given by this call centre and nothing else constant call centre in.
+And minus two is the tunnelling. We'll get to that in a few slides when we talk about.
+what you see here is and this regime, the gap, the difference between red and blue is much, much, much bigger than the bandwidth.
+all of the physics we don't have in the lowest band and we can ignore everything up here because we say that's far away and we don't get to.
+that's not exactly a single event model the Hubbard model that we've seen in the past that we see in the first lecture.
+And basically where we're now going to do this.
+This the rest of them, in any part of this lecture and the next lecture is to see how can we get from all of those pictures,
+we derive the Hubbard model to where we are today.
+We are going to do the how about model kinetic energy? we're going to see this tight binding hopping term.
+And the next lecture will start by looking at the interaction term that comes from and how that can be described.
+And then we start looking at the phases of the of model. OK.
+let us above five, we call we say we ended up finding which we can use to type binding approximation with see that later.
+And there we have this dispersion relation. And we just have to think about a single band because it's a big band.
+Good next thing. NATO states the bloc, how do they look, how should I think about a plot with.
+Do I have a visual way of thinking about an intuition of what the plot actually is, how it looks like?
+And it turns out it is a very nice way of thinking about this, which basically comes again from this fact that,
+OK, Typekit is not just I call this a plane wave to people in space.
+And we say that this one is coupled by the letter's potential only to these primes, which is plus minus two.
+And they again, only coupled to that plus minus two, which came more so this.
+This creates structure of the discrete plot in momentum space that we get from having only this discrete K vector and
+lattice that one is going to guide us because what that one is going to tell us that you can take your Bloch with.
+You can also write this as a superposition of plane waves. It can only be the plain wave of momentum que plus air times two.
+Right.
+I can think of a shock wave as being a plane wave without a higher order plane waves of two four six, it became more momentum being mixed in.
+And what did they need is I need to know the coefficients. How much of each plane wave is in a given Bloch with?
+And those coefficients you diabetic get out of your day, analyzation of the Evertonian in the previous light.
+And you can calculate the numerically very easily. And here's how they look.
+this is not a coefficient squared. 20, the population of the different blog waves, let's start with this one is cubic with zero.
+in the middle of the zone where the question went to the yellow and the red curfew is always the the lowest plot,
+the lowest play we've the with a fundamental being just about you.
+And then the blue ones is Q plus two K and the blue dashed line you only see
+here is Q minus two K and then the black ones is a Q plus minus pocket.
+what you basically series is a function of the lattice that it lattice to step zero by Bloch away as I played with.
+That makes sense, because if that is the zero,
+basically there's no let us dare sort of Bloch the plane are the 18 states of which basically the 18 states of a non-existing let us.
+Then let us get steeper. You can see that this function comes down.
+we have less and less and less population at the clock as a plane waiting for momentum zero.
+And we have an increasing population in both the plus first and minus first or so, two plus and minus two.
+the deeper lattice becomes, the more we mix those things in. And then the black line stay very, very low.
+They come a little bit up here, 20 weak, obviously deep lattice. There's a little bit of that, but not much.
+I can basically think of my black wave just as a plain wave of a bit of an ethnic feature of the higher order terms.
+And this is in the middle of the zone.
+If I go half halfway to the site of the hill, also halfway between zero and one between the middle and the edge of the green zone.
+Same story I get maybe a bit more decay of the current wave.
+And they get now in the cemetery to they get more of the solid line versus the dashed line, which makes sense of a move towards plus one half.
+I get give you more of the minus three half compared to the plus five half because that's a lower kinetic energy.
+Makes sense. And then the second order terms also slightly more important.
+What I can see here, if I go very, very close to the edge of the zone, that's where, the quasi free energy electoral model,
+quasi free electron model would have said that you get hybridisation away because you have this crossing,
+which any small coupling with between avoided crossing. You can see that you can see that very quickly jumped on from one to point five.
+And the other one, that minus first order comes off. Because I really have this point, the plastic.
+It's in resonant, the transition from plus to minus K is from a state with the same kinetic energy to the same intensity kinetic energy.
+David hybridise to a 50 50 situation very, very quickly.
+It's very, very quickly, it's not instantly, because I'm not at K, I'm 99 percent OK to make the plot myself.
+OK. at Let the steps the Bloch with almost coincide with the plane waves and the people at the steps,
+the admixture of the two plus plus minus two, which make things become significant.
+Good. now we can start doing many body physics, we have no basis, we have to Bloch waves and we can ask what will?
+ABC do when a loaded into a letter. What do you think?
+I haven't gone into acting you'd be easy and I loaded into an optical lattice.
+What would you think? Everybody staring at me like, nobody's thinking, OK.
+So. This plot is the one that explains everything.
+If I think of ABC and free space. It's condensation into the lowest energy state, so the lowest momentum state.
+the B.C. women over macroscopic occupation of all of the particles down here at zero momentum at a minimum of two parabola.
+They will now start to crank up lattice.
+Basically, what happens is that there's dispersion relation to parabola turns into this tight binding band into this cosine shape,
+but the minimum stay zero zero.
+basically the only thing that happens is that the plane wave in which all of the atoms have condensed into it slowly turn into a Bloch wave,
+which basically means that all of the atoms now get an admixture of this plus minus two $\hbar k$ peaks and nothing else.
+I still have a b c. It's no it's still a condensation in the state of lowest kinetic energy.
+It's just that that state is another plane wave, but a Bloch with. And that's how I can describe this, b c a t zero non interacting.
+It's condensation that quick with zero. basically, if I have an atoms.
+I put all of those atoms in the shock wave and lower spent with momentum zero.
+And in second quantum notation, I write this data saying I start with the vacuum state and then they act with the operator a not zero,
+which is to create an operator for goes on in this Bloch with.
+And because we're only talking about law spent now and then,
+if I have a particle to operate with this one and eight times to put in a particles in that busy way function.
+And then I have to put this picture in front of it for normalisation.
+OK, so that's a standard second quarter annotation that you probably have seen in previous lectures.
+OK. how can I check with what is really happening, how can I see this in the picture?
+And the answer is I just use time of picture again. Time of flight pictures, imaging, we talked about, I think, last.
+Last lecture or last weak,
+and we said that basically what you get is you get to see the velocity distribution and momentum distribution of the particles in free space.
+what you now, you know, in the lattice, you know, his phase. what you have to do to is not time of flight.
+You know, the only switch of your travel to tell the whole thing together. You also instantly switch off your lattice.
+And you can think about what happens if I instantly switch off my lattice.
+Well, I take these states that I have and I suddenly project them to the states of the new Hamiltonian.
+I take my Bloch waves refugee each Bloch wave onto plane waves.
+if I have a Bloch where if that consisted of different plane waves,
+diagnose the state that the estimates are would be it would be a superposition of those plane with and each of
+those being raised would of course move according to its own velocity and would separate out the time of flight.
+And again, we will only get this discrete classes of momentum, because only this these classes of fermenter are part of the Bloch with.
+basically, the picture is in momentum space. I have a ABC, so everything is occupying one quarter momentum.
+With zero Typekit. And then there's a time of flight and then look at the weird space momentum that I get after time of night.
+I would expect a series of sharp peaks. PB, q q minus two K minus four K plus two K plus 4K.
+And indeed, this is one of the most famous experiments and code items ever done, it was done basically 20 years ago.
+But it said, OK, let's take time off pictures of ABC loaded into an optical lattice as a function of the latter steps.
+this has led us to zero. We just have a busy time of night, you get your sharp central peak.
+There is no time component to you because they have pretty close to zero.
+And then say no increased let us state and for good purposes, it's not done in one day.
+It's done over two lattice. But the same it happens in the x direction also happens in the direction.
+it's the same physics. You can see the satellite peaks, your period.
+those are the peaks at +2 h back plus minus two in the direction of the same thing in the direction.
+And now if you if you look at them further. If you look at them forever,
+if you increase your lattice that were associated with lattice that these satellite picks get stronger and stronger and stronger.
+you can now also see, a second order piece appearing here,
+which are atoms that are excited both to $\hbar k$ and the extent to which became the direction.
+They also exist here. They're just so weak that you don't see them.
+it's exactly the picture to be said that the deeper my lattice becomes, the stronger the ethics of this high up waste becomes.
+And I can see this as the satellite pics coming up. And if you have the results of your calculation, you can say, OK,
+that the population that you see is directly proportional to the CO2 create the coefficient of the Bloch wave that you've calculated.
+OK, so that's what we have, we have these very sharpies. And there is now a different way of thinking about this.
+We have long time of flight, I said before that when you have long term flight,
+you look at momentum space and that's a little bit thinking about Fraunhofer refraction and optics.
+another way of thinking about this, and this is confusing you, but helping you.
+Another way of thinking about this is by thinking about this as the interference of weight. You have little metre wave starting on each letter site.
+They are spread out, become big, they all overlap and they will all interfere.
+And because these methods are all coherent, they all come from the same B.S., they have the same phase at each point in the BBC.
+Originally we have this long range phase coherence, the off the air and long range order we discussed last time.
+That means that it's basically a multi slit in the formula.
+Like I said, creating havoc, creating with many, many slits, and they all do the same laser light, so to speak,
+and therefore you get when you look far away and the Fraunhofer limit you get differential diffraction pattern.
+And the front of reflection pattern is exactly a series of sharp peaks, but it.
+But just what exactly is given by the victor of your underlying crit? you momentum space.
+It's a time of long time flight is the same as front of refraction.
+And the fact that you start with the ABC is to say many slits illuminated with a coherent light.
+These are all different pictures, the old saying, OK, I can look look at these effects,
+the momentum space, this custom there or I can look at them in real space, dictate this custom there.
+And it's a mental.
+Important mental part to get those picture together that you're comfortable saying, OK, this happens and we it's based is the same thing.
+Just see the momentum space. The second important part, because then you get very versatile later on and saying, OK, well,
+this aspect is easy to understand if we embrace this aspect is easy to understand momentum space.
+If you go back and forth as you need. OK.
+Another thing is what happens if I don't have a B.S.,
+if I say have a former state run into any political committee, much smarter than the bank, so the only the spent?
+Well, what we expect is that when you think about the quality of distribution, you expect that you don't have to be code zero.
+But you expect that if your temperature is above the critical temperature, you expect that this broadens up and looks a little Gaussian.
+And then if it gets much hotter, it gets even hotter.
+And then it's not perfectly gostin anymore,
+but look slightly different because the underlying dispersion relation is not not just a private island, it's a coastline.
+therefore it looks different, but it's the same statistical physics principles and how I occupy those.
+And if he knows what time of flight?
+The particle in each of those plot waves would still undergo the same projection onto all of the plane waves as it does,
+which basically means they get copies of this brought up in the middle of all of the other points.
+OK. that's how I can think about this. the sharpness of the peaks that I get.
+In this time of flight picture really tells me something about the coherence length of the method after the heavens let us.
+In the same way as when you do the friction experiment in optics, you do thermal light,
+sources say if there's a finite coherence length in the light source, I will only see a certain sharpness of the peaks.
+The sharper the peaks, the longer coherence length I must have.
+Which is ultimately just a principle, if millimetre wave is quietly spread out over a large distance that the X is very big,
+then the momentum space can be very small.
+It's always wave mechanics going back and forth between momentum and furious based momentum, and we need spaces always in the end just to.
+OK, so this is going to be important intuition.
+We are going to calculate how such a picture will look of interference term and all of that and to lectures from now.
+we get a bit more quantitative. But I wanted to start with a quantitative intuition because then it's easy to follow the calculation.
+OK. Now we have a nice basis, we can discuss a lot of the stuff that we want to discuss in momentum space using the Bloch waves.
+All looking very, very good. Let's do something more, let's take a different basis.
+Let's talk about a one year basis.
+Why do we need have a basis if we take if you have to deduct bases is often inconvenient because it's bases momentum space.
+If I have interactions between the particles which will come next lecture, they're typically local contact interactions.
+they're easy to describe in real space particles interact with, they're close to each other and those are too far away from each other.
+Describing this momentum, space would be pretty hot. it's easy to describe this momentum space.
+Also, we have to think about a trap. Say our back is not infinitely big, but it lifts up.
+The tiny trap is a structure and we'll space again. Very hard to describe.
+Harder to describe momentum space. it's very important for us to have a basis where we can describe all of the physics.
+In real space, instead of a momentum space and that base, this is going to be the one year basis.
+With her about one year functions before. I hope most people would have.
+OK, so what is the venue function? And a simple mathematical level, I would say I take the plot waves of a given band and they do a Fourier transform.
+It's a discreet for it and so on, because we have a finite sized system and give it is critical as we went to India.
+If I take an infinitely big system, it will be the integral of a.
+And by doing that, I get a new function of free transform function, which is the value function.
+And when you think about what happens when you normally do this, when you normally say, OK,
+let me take a plane wave and truly transform it to fruition, some of that one is delta.
+Might as low as it can be in frequency space, so it can do the opposite?
+OK, let me take something that's very pretty localised, a plane wave in momentum space.
+And then the transom of that is a delta where you can read space. What you do in fit view is that gives you the the field apparatus.
+What we're doing here is, no, we're saying, OK, we want to do the same thing,
+but we don't want to end up with a database's because we don't want to have to little particles.
+It's localised to a point.
+We want to have the particles localised to something with pre-order a letter site and we want them to still be in the lowest band.
+in some sense of a make a cartoon, you. If.
+Not. This is my lattice potential.
+If you take all of the plane weights or all of the weights and all of the bands together, and you fruit transformed and you get a delta function.
+But this function would be very, very sharp. We have very high kinetic energy, so it wouldn't be so sharp.
+that's not a good model for describing the low energy physics because the low energy physics only lives in the lowest bend.
+whatever what you want is, you want that function that lives mostly on this little site.
+And that function is just confined out of the lowest point. what you do is now you say, OK, I think in the event structure,
+I have my band some event gaps and I think all of the ways that we have available in the lowest band.
+all of the plot ways for a given index in a given band.
+And then it will fully transform just of those. But then I get the most localised function that it can build out of the Bloch waves in one single bit.
+they asked what positions of the Blochs in a given bed.
+you see, they carry an index and they have the value function for the first event of any function for the second parent and so on.
+We typically amidst the end and just think about the lowest point, but that's the structure.
+And the value function. W end of set minus that is localised on the latter site that I.
+it's always a superposition of all of those plane waves, but the phase factors depend on which site I choose.
+And definitely is constructive interference. I wrote this letter site by site at the site.
+And it's just in the phases, because, of course, if the latter has a discrete translation and variance that every letter site looks the same,
+the venue functions must look the same on every site to just. OK.
+does it have on your conscience? They form an awful on the basis of the food single particle, but space.
+And that's maybe a conceptual thing. Normally when you have free space, you would say all plane ways to cover a few bases of all but space,
+it is quite possible state a single particle can be. Going from the plane race to the Bloch waves is a basis transformation,
+which means all plot waves, all bands together also form a full hip space.
+You can discuss anything you want to express, any state you want and all of the plot with all the ends taken together.
+And then if you take Blochs out of this, each bend individually, transform, bend each bend individually to form,
+plus it's to one you states you can get off a normal basis, which you can use to discuss everything you do with space places.
+Looks fine, if you take all of these bands together, you can take all of the plot,
+all of the funniest states on the Givealittle site and make a data function out of them.
+Sum of all of the bad.
+However, you can also say that we only take care of the lowest band because that's where the physics lifts that I'm interested in.
+And then you get this one year basis and it's very convenient basis to.
+Just for the experts, we're looking for a dynamic limit to some turns to an asset that's already.
+You will hear a lot talk about gauged choices and gauge what the optimal choices most function, what this means is that.
+If ever if ever a Bloch away from you in. I can multiply that by phase, I fire.
+And it's a Bloch away, if it's still a solution of the same, I have to say, remember Tony, you have to say Michael Energy.
+even I choose different phase factors do different ways, and everyone who functions in this vote on transform that are more or less well organised.
+in the high dimensional system, if you want to do this once insite a triangle,
+you have to take the white gaze choice, which means the choice of. Face facts with different Bloch weights in order to get.
+The most lucrative new functions that you can. We do the calculations only in one day, we don't care.
+We do care, but it's easy because if you just take all of the ways to be real, that's an optimal choice of body.
+it's easy for us just saying, if you ever run across this in high dimension, let us be warned.
+here today, look, if I take a Bloch away, if I can transform easily, numerically.
+And this is what I get, what we have here is and create lattice potential again for different lattice,
+steps and the value functions are plotted in blue and the resulting density of any function that they just create is in red.
+what you see is interesting, you see if I go for very deep lattice.
+Like this one, because I can basically approximate the lowest part of this, let asite as an harmonic oscillator.
+And then, you know, what can I say? It looks it would just be a. But how many goes across the.
+And indeed, if you look at the density distribution here, it's basically just a single garden and nothing special to it.
+You see, it's a perfectly Gaussian because it has a little bit of a WinCo on the next letter size, but that's pretty small if you just look at the.
+If you just look at the density, what's interesting is that if you go for a weakend that is five we call or three we call,
+you see that this weak on the neighbouring sites, they become bigger. It becomes significant.
+And one places, you see, it's actually pretty oscillating function.
+It's the localised and one letter site, but it has quite a significant site lobes on neighbouring sites.
+And this site looks are important. I can approximate my value function with a Gaussian for very deep, let us be careful because.
+Even though the overlap between the cost of the value function is very,
+very high because say the point is that the value functions by definition are often normal functioning of normal basis,
+where the different positions are not often orthogonal to each other.
+But it's an important distance difference and the fact that I have this little negative things here on the site and the site loops.
+That's exactly what makes them what makes them orthogonal foreigner because they gives seem a positive contribution and a negative contribution,
+which then cancels the overlap overlapping.
+If the electrons would adjust positive, then you just have to modify two positive numbers at every point and integrate over that.
+You can never get to zero because you never have anything negative to compensate the positive parts.
+we need functions that also we get negative.
+And the second thing is important that if I take this as an approximation here and I use that to calculate the tunnelling elements.
+They are typically massive. even though the value of the function itself is correct to 99 percent,
+the tunnelling elements that get out of it are off by a factor of 10 or more. a lot of like.
+Analytical papers in the past 10, 15 years ago or 20 years ago, they said, OK,
+let's try to do everything analytical and try to like, take some approximations to make things simple.
+And they took this course an approximation, for instance, quality of new functions.
+And then they got totally off results because it's a good approximation, you are just care about the shape.
+But it is a very bad approximation of I care about the tunnelling element. therefore, if you want to, like,
+know the tunnelling elements where real the way we do it is that we really have to assimilate these fancy functions correctly.
+if we now have a new basis. We can, of course, express the Hamiltonians in this new basis.
+We now have two spaces of one of functions where the lattice, the state, I mean, that is the it's a it's a wave function centred on site.
+I often let us. The letter cites member Tony will always be 100 100 Matrix and the seven Tony will have two elements.
+Two types of elements would have diagonal elements y equals G defined components of the material and bits of the onsite energy.
+What is the energy of an ATM on site living on site, and then it would have off elements, right?
+And that's going to be the tunnelling tunnelling from one site to another. The overlap between those two things.
+the site energy Epsilon, I is constant and homogeneous lattice from homogeneous means discrete translations,
+symmetry of it at the site looks the same. it got to be a constant. it's often omitted.
+But sometimes you need it when you have a trip or something you needed at the tunnelling element.
+You can calculate you can just say, OK, it's the expectation value of money,
+a function of this site, Hamiltonian in the middle of your function, and that's integral over it.
+You would do in America because you have your value functions only numerically, but it could be taken away for you and you get this tumbling matrix.
+Again, if I have an homogeneous lattice, the tunnelling elements must also be homogeneous, which means T depends freely on what I is and what it is.
+It can only depend on the distance I minus G or hopping one to the left or two to the right.
+That would be different, but if I hop from here to here or from here to here must be the same if that this is homogeneous.
+And then. We can do the same thing that you do in kindness, matter physics, we say, to start to think about the type binding limit,
+the tight binding approximation basically means that I say all of those tunnelling elements are zero, except for the nearest neighbours.
+this is pretty deep.
+I will have a tunnelling from one site to the neighbouring site, but tunnelling to further sites would be very, very, very small.
+And it turns out that if you write down you Hamiltonian in this tight binding limit.
+In the one year basis.
+I say I have a set of letter sites that I can only tell from one site to the neighbouring site for one site to the neighbouring site.
+If you take this and you analyse this, you ask where the identities of the system.
+You get exactly a cosine shaped dispersion relation. once you tight binding, the dispersion relation must be a cause.
+therefore, what people do in practise is they look at their dispersion relation. Say how much closer does it look?
+If it looks a perfect cosine, genotype binding approximation would be good.
+If it looks very different from a cosine, then it cannot yet be in type binding that will have to consiter longer range hopping and so on.
+OK. , yeah, and these tunnel links, they are in the kind which are people typically call them for tunnelling and code literature.
+Very often it's called for tunnelling j because you need something and T is taken for time, so we just don't have enough lattice.
+you see, sometimes Taiwan, sometimes T, sometimes j, it's always the same thing.
+It's the nearest neighbour tunnelling into that binding model.
+Right, and here's now what it looks like. This is just a numerical calculation.
+If I take the nearest neighbour tunnelling from a any functions, that's the proper line down here.
+And you see that it decreases swiftly if I go from a three weak old lattice to lattice.
+You see that the next nearest neighbour tunnelling, so two letter sites further away is the yellow line, which is sizeable of over very weak lattice.
+But at around five, we call it becomes put it towards a small fraction of the purple one.
+And then you see the next two next to nearest neighbour of three sites is pretty small over here, and it's totally reachable up there.
+what you see from this is that about five we call you can collect the yellow part and you can say, well, it's all just the nearest neighbour to.
+And. The dispersion relation, as you would have done in tight binding limit, went ahead, the form of minus 20.
+Cosine. Pie. Q, Okay.
+And this minus 20 means, of course, that the coastline can go from minus one to one means that the bandwidth of a tight binding band the bandwidth.
+Should be 14. if you if you write down your Evertonian, you in the value basis, you diagonals,
+look at the ideologies they go from minus two to two plus to 40 years to bentworth.
+And. If I now plot in blue here, just a band of the lowest band from the band structure,
+I'm sorry, the band to the lowest from the band structure divided by four.
+what would be the tunnelling that I ever just like? Take the whip of the band and divide it by four?
+What would be the prediction for the tunnelling? I get the blue line. You see the blue line at the proper line up here dislikes more differences.
+But starting from, say, here, they perfectly overlap. is the dispersion relation that really is justified by person.
+all of these things hang together, and we have a very good description of them.
+And what's annoying for purists is that because of dispersion relations are cosine and not just a parabola.
+Many of the tweaks quotient equation and so on that you would normally use in free
+space to do analytic calculations don't work because it's cosine and not x squared.
+Which means that very many things you can't do really, really good analytical theory, you have to go to numerical models.
+But even to get the band structure correctly. You've got to get to get this numerical simulation.
+If you want to look this up and quite a lot more detail on what happens really on the mathematical site.
+This is called the Morphew equation before us, but your differential equations,
+you can see it as a tons and tons of mathematical literature about what you can do in a particular and for it.
+there's a lot that can be done. We tend to not cooperate just with numerically.
+And then once you have this curve, you have everything that you need to know. OK.
+the fact that now. This one becomes exponentially suppressed,
+almost four different that means that we can play with a lot of things we can, for instance, play with dimensionality.
+We can, for instance, say if we take a three dimensional lattice and make all of the three directions very deep,
+then you can think of this as something where you don't have tunnelling and you really have a three dimensional array of isolated sites.
+If you put one particle there, it's pretty boring.
+But if you put two particles on there, you can start to play with them into molecules and do funny things with them.
+Not so much a quantum simulation, but for other things precision molecular physics.
+Where we very often do is we say, OK, let's take two lattices very deep. But let's have one, let us direction this direction, the weaker that is.
+Because then what you get is you get a lot of hopping in this direction and almost no hopping between these things.
+this is what we call one dimensional systems where you have these one dimensional
+tubes and you get the physics of one dimensional along this direction.
+And because you're really in the lowest band of lattice, you really only have one state on each of the letter sites.
+And if you really perfectly in the one situation, if you don't have to bother with transverse exhortations.
+You cannot lower, too, and you got a system or you cannot lower all three and you get a few kinematic in 3D system.
+there's a lot of playing with the mentioned that it is coming from this. OK.
+And. Even I just write down this type binding Hamiltonian in second quantised form, and we'll look at this again next weak.
+You know what? Let me stop here and before I rush to this and we do it again next weak, anyway.
+Let me stop here and have this last slide. Coming up next weak.
+OK. Any questions up to you? Or.
+Mm hmm. Mm-Hmm. Shouldn't all the.
+Good. That's a good question.
+I would have to. , yes, OK. Because. Not all of these tunnelling can be must be positive.
+Sometimes things can be negative,
+so they say I got the minimum energy you want to have staggered phases plus minus plus minus plus minus plus minus.
+And that means that you cannot maximise all of those terms at the same time.
+But if you want to have the positive energy case or the lowest possible energy for the for the nearest neighbour tunnelling,
+you have the same phase everywhere.
+But that means that in the contribution that you get from the second term, if it's if it's negative, it's the opposite site will be of the other site.
+that means it's not just adding a positive number, a positive and negative numbers, and that gets us to the effect.
+OK. what we will do this afternoon is we will update will upload the first problem set
+with an idea that the first problem set will then be handed in sometime next weak.
+And we will also then take the time to send an email to everybody who is registered to register for the supervision groups.
+if you want to take us for reasons that you're not yet registered for, this cause us do it now because we need to email this this afternoon.
+OK, thank you all. See you on Tuesday.
