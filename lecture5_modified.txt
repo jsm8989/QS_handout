@@ -1,9 +1,6 @@
-Hello and welcome to lecture five of the party's nomination course.
-Today's topic is both on lettuces, which means you were first weak herb,
-a few things from lettuce, from electron and before about plock waves and vanua functions.
-And then we would talk about how we can introduce the interactions between both zones,
-intradermal Tonin to be got, which would then be the full Borsa Habad Hamiltonian.
-And then we will look at the Queen state phase diagram of this Hamiltonian Edward see the
+Hello and welcome to lecture five of the quantum simulation course. Today's topic is both on lattices, and then we would talk about how we can introduce the interactions between both zones, which would then be the full Bose-Hubbard Hamiltonian. nd then we will look at the ground state phase diagram of this Hamiltonian.
+
+Edward see the
 first modern undulated transition from a platonic superfluid into abels only quat insulator.
 OK, let's get started. We start with a quick reminder of Bloched waste from last weak, basically because our lattice potentiates are periodic.
 The blog theorem applies and all of the states will be Bloched. Wavves will have a Bandz to act.
