@@ -24,56 +24,15 @@ And therefore, because we're  restricting ourselves in k-space and say we only c
 
 OK. How do we know the items in there and in principle can just stop here and say, well, it's a periodic potential. We have a band structure with energy gaps. All of the things you know and love from condensed matter physics are there and therefore we can go on if you already know the description. Let me just highlight a few points about this, because there's a few things in there. There's a neat intuition how you can think about this. This gives you novel insights compared to how you think about in condensed matter physics.
 
-If we have a probability potential, then all of the eigenfunctions for electrons or any particles in the air will be of the following form. 
+If we have such a potential, then all of the eigenfunctions for electrons or any particles in there will be of the following form. 
 [eqn, pic]
-Normally in free space, I would have just applied [way to the ICAC's. And, you know, if I have a periodic potential, I would have a plot of the form here, which is equally Ikhwan. a plane wave,] but that's an modulated by a function you of arm, which is a periodic function of the same period as the potential. You all would have seen this, and we call this function $\phi$. The whole I state, we call it the Bloch wave, and we often call the periodic part of it, the Bloch function. Key thing is that if you have the full thing, it's an eigenbasis, because if I choose a different quasi momentum $q$,
-[we're talking about what is this that it would get because of this term, I get no formal function.
-The two of us do not necessarily need to be a lot for excuse.]
-Because we have a band structure we will have a band index, and we'll talk about quantum cue and momentum, and we'll discuss in a minute why that makes sense. To make the connection again, to condensed matter physics of course, the reciprocal lattice vectors which you can get in. One is just $2\pi$ with these two lattice constant, which in our case, is $\lambda/2$. Here we cannot shift a $\pi$ from the $2\pi$ to here. And then we say $2\pi/\lambda$, is just te k-vector of the light. We see that the reciprocal lattice vector is just $2k$. Two times two photons, the photon wave vector and definitely momentum space picture the reciprocal lattice momentum HBK is to say
+Normally in free space, I would have just applied BCs. And, you know, if I have a periodic potential, I would have a plot of the form here, but that's  modulated by a function $U(r)$, which is a periodic function of the same period as the potential. You all would have seen this, and we call this function $\phi$. The whole I state, we call it the Bloch wave, and we often call the periodic part of it, the Bloch function. Key thing is that if you have the full thing, it's an eigenbasis. Because we have a band structure we will have a band index, and we'll talk about quasimomentum $q$, and we'll discuss in a minute why that makes sense. To make the connection again, to condensed matter physics of course, the reciprocal lattice vectors which you can get in. One is just $2\pi$ with these two lattice constant, which in our case, is $\lambda/2$. Here we cannot shift a $\pi$ from the $2\pi$ to here. And then we say $2\pi/\lambda$, is just the k-vector of the light. We see that the reciprocal lattice vector is just $2k$. That intuition comes from thinking about all of this momentum space. But I think this intuition is very important, so I want to spend a little bit of time on that one.
 
+If I think of an optical lattice in momentum space, let me start by thinking of an atom in the ground state with some real space momentum. And then I have two laser beams coming with $k$ and $-k$. Now if you would absorb a photon from the one beam, it would go into the excited state and have momentum plus $\hbar k$ because it absorbed this photons momentum. And then the excited state, which through stimulated emission going back to the state but emits the photon into the other beam, which has momentum $-k$, it would end up back with momentum $ p +2 \hbar k$. OK. What we basically have here, this is the two-photone process of stimulated absorption from one beam, followed by stimulated emission into the other beam and that changes the atoms momentum by $2 \hbar k$. That's the fundamental process when you think about what happens with an atom in these laser fields. And it's a very neat way of thinking about optical lattice starting from momentum space. And then later on ask what does this mean in real space? 
 
-to a million times that's the natural scale for the reciprocal lattice vectors in an optical lattice.
-There's a nice intuition where we have a talk here, and that intuition comes from thinking about all of this momentum space.
-But I think this intuition is very important, so I want to spend a little bit of time on that one.
-if I think of an optical lattice in momentum space, let me start by thinking of an atom in the ground state with some weird space momentum.
-And then I have two laser beams coming with Kate and. Now if you would absorb a potent from the one beam,
-it would go into the excited state and have momentum plus parking because it absorbed this photons momentum.
-And if then the excited state, which was stimulated emission going back to the state but emits the photon into the other beam,
-which has we went to minus K, it would end up back into it ferment and p plus two h HBK.
-OK. what we basically have here, we have to put this, this is the mental processes to vote process of stimulated absorption from one beam,
-followed by stimulated emission into the other beam and that changes the items were mentioned by two HBK.
-that's the fundamental process. When you think about what happens with an atom in these laser fields.
-Good momentum space. And it's a very neat way of thinking about optical lattice starting from momentum space and think about the momentum space.
-And then later on ask What does this mean in build space?
-It's  different from where you do things in this matter, you always start with limited space and you say it's periodic and we need space,
-and then only later on you say, OK before we transform it, this is my picture momentum space.
-here you have this very neat interpretation directing momentum space to kick, start get.
-For this to work, it requires coherence between the two beams because it's a coherent 240Nm process,
-which basically means that the two beams have more or less the same frequency. In order to suppress single photon absorption,
-so we don't want an atom to really go into this excited state and then do a spontaneous emission and go somewhere else.
-What we just do is we take large tunings, typically more than 20 metres, to just suppress them.
-we think back of what we discussed, last two lectures ago.
-The type of potential this is the form of the type of potential case intensity over retuning.
-But these spontaneous emission rates, it's intensity of retuning squared.
-just go for a launch tuning. More than 20 nanometres. Crank up the intensity.
-Use a powerful laser and you get a nice conservative potential. And that's how it looks.
-Momentum space. I'm thinking about a diaper trip. I only get a light shift from a 240mm process way of absorb.
-On here and back into this, because that theme is excellent and this  240Nm loop going up and coming
-back down gives me just a phaselift that just gives me my excuse me,
-my optical diaper potential and to the lattice.
-The light field is not homogeneous, and that means I have two components in it in the case base,
-and therefore I can also shuffle photons from the one beam into the air and thereby change the atomic atom's momentum by to.
-OK. So. This is the intuition and building on this intuition,
-we can do the calculations and the calculations are typically done numerically and they're actually done relatively straightforward.
-You would see the calculation you would do that on the first problem set, which will go online later today.
-the way what you do is you say, well, OK, if I start with some momentum, initially,
-that only does create a momentum movement of the form, plus other times to make where there's an integer can be reached.
-What I say, I start with this momentum, but I can only do jumps of 2H bucket.
-we're going to go to a few discrete points here and a few discrete points do.
-What this means is that, OK, first of all, it means that momentum is now not conserved because just changes momentum,
-so momentum is not a good quantum number anymore. However, the momentum modulo two HBK is conserved because you only have this discrete steps,
-and that is why we later on have this quasi momentum cue, which is exactly just the momentum.
-What do you do to HBK? With just to momentum projected back into the first pre-Euros or to make the connexion of clients matter again?
+For this to work, it requires coherence between the two beams because it's a coherent two-photon process,vwhich basically means that the two beams have more or less the same frequency. In order to suppress single photon absorption, so we don't want an atom to really go into this excited state and then do a spontaneous emission and go somewhere else, what we just do is we take large detunings, typically more than 20nm, to just suppress them. We think back of what we discussed, last two lectures ago. The potential is the form of intensity over detuning. But these spontaneous emission rates, it's intensity of detuning squared. So just go for a large detuning, more than 20 nanometres. Crank up the intensity. Use a powerful laser and you get a nice conservative potential. And that's how it looks. 
+
+The light field is not homogeneous, and that means I have two components in it in the k-space, and therefore I can also shuffle photons from the one beam into the air and thereby change the atomic momentum by $2k$. This is the intuition and building on this intuition, we can do the calculations and the calculations are typically done numerically and they're actually done relatively straightforward. You would see the calculation you would do that on the first problem set, which will go online later today. The way what you do is you say, well, OK, if I start with some momentum, initially, that only does create a momentum movement of the form, plus other times to make where there's an integer can be reached. What I say, I start with this momentum, but I can only do jumps of $2\hbar k$. We're going to go to a few discrete points here and a few discrete points there. What this means is that, OK, first of all, it means that momentum is now not conserved, so momentum is not a good quantum number anymore. However, the momentum modulo $2 \hbar k$ is conserved because you only have this discrete steps, and that is why we later on have this quasi momentum $q$, which is exactly just the momentum. What do you do to HBK? With just to momentum projected back into the first pre-Euros or to make the connexion of clients matter again?
 We come on the next slide. If you have this structure, we have these two discrete things that basically you can write on your Hamiltonian as a matrix.
 You can say what is the energy of a particle for a given L, so with this extra momentum, it's just the kinetic energy.
 And you have the process of scattering one photon from here to here, which changes oh by one.
