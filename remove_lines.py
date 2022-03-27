@@ -92,7 +92,8 @@ newlines = replace_word("London", "$\lambda", strlist=newlines)
 newlines = replace_word("HBK", "$\hbar k$", strlist=newlines)
 newlines = replace_word("cue", "$q$", strlist=newlines)
 newlines = replace_word("Harvard", "Hubbard", strlist=newlines)
-
+newlines = replace_word("ABC", "a BEC", strlist=newlines)
+newlines = replace_word("B.C", "BEC", strlist=newlines)
 
 
 
