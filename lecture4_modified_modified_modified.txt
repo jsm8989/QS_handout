@@ -32,132 +32,25 @@ If I think of an optical lattice in momentum space, let me start by thinking of 
 
 For this to work, it requires coherence between the two beams because it's a coherent two-photon process,vwhich basically means that the two beams have more or less the same frequency. In order to suppress single photon absorption, so we don't want an atom to really go into this excited state and then do a spontaneous emission and go somewhere else, what we just do is we take large detunings, typically more than 20nm, to just suppress them. We think back of what we discussed, last two lectures ago. The potential is the form of intensity over detuning. But these spontaneous emission rates, it's intensity of detuning squared. just go for a large detuning, more than 20 nanometres. Crank up the intensity. Use a powerful laser and you get a nice conservative potential. And that's how it looks.
 
-The light field is not homogeneous, and that means I have two components in it in the k-space, and therefore I can also shuffle photons from the one beam into the air and thereby change the atomic momentum by $2k$. This is the intuition and building on this intuition, we can do the calculations and the calculations are typically done numerically and they're actually done relatively straightforward. You would see the calculation you would do that on the first problem set, which will go online later today. The way what you do is you say, well, OK, if I start with some momentum, initially, that only does create a momentum movement of the form, plus other times to make where there's an integer can be reached. What I say, I start with this momentum, but I can only do jumps of $2\hbar k$. We're going to go to a few discrete points here and a few discrete points there. What this means is that, OK, first of all, it means that momentum is now not conserved, so momentum is not a good quantum number anymore. However, the momentum modulo $2 \hbar k$ is conserved because you only have this discrete steps, and that is why we later on have this quasi momentum $q$, which is exactly just the momentum. What do you do to $\hbar k$? With just to momentum projected back into the first pre-Euros or to make the connexion of clients matter again?
-We come on the next slide. If you have this structure, we have these two discrete things that basically you can write on your Hamiltonian as a matrix.
-You can say what is the energy of a particle for a given L, so with this extra momentum, it's just the kinetic energy.
-And you have the process of scattering one photon from here to here, which changes oh by one.
-you get a matrix, which has a diagonal form.
-We have the kinetic energies on the diagonal and some coupling terms on the first of the elements and zero everywhere else.
-And that's the matrix that you would set up, and you would see some guidance on how to do this step by step on the problem said it's easy.
-And then you have this matrix and you can diagonals this number with. Or what not?
-And in principle, you would say, well, I can't do this because Al is an entity, so it's infinitely big.
-But it turns out in practise it's easy to truncate this, for instance, with being less than 10.
-That's typically sufficient for the lowest two bands because the order.
-But this is L I have a kinetic energy which goes a squared is 100 times higher than for the first order.
-these things are high energy and therefore. You would see this in the problems of.
-this is a way of doing it. And if you do this, then you just calculate the states for everybody and you get floods this.
-this is the band structure of an optical let us calculate an American. And let's start by looking at this plot up here.
-We're not equals zero, you recall. Which basically means there was no lattice.
-This is free space we just assume are going to have to periodicity or you can think of this as a very, very, very, very weak lattice.
-Basically, the line in here, this is just, you know, the free space probe centred around momentum zero.
-However, because of photo in here could scatter like.
-One pair of photons, it could go to the momentum, plus two $\hbar k$.
-Which basically means we have the same free space, and I also said that around two. And we have the same problem also centred around minus two, which.
-it is the same discussion that you have done a couple of times and matter physics.
-We are now thinking about it slightly differently because we are saying, OK, it's not the consequence of the periodicity that it must be this.
-It's we are saying it's a consequence of that. You have these discrete jumps in momentum space because of the photons.
-It's the same physics. It's just a weird space picture because it's the momentum space picture.
-And he will check second and see if everybody's comfortable with this picture and getting real space momentum space together cover,
-it can be confusing when you think about it for the first time. But it should clear up very quickly.
-Any questions? OK, then let's go on and let's say we now go from zero letter steps to a weak, let's say two weaks.
-Then you do the same thing that you do for a quasi free electron. You can say what?
-I have this parabola here and that probability I have a weak coupling between them, which means that they are.
-These two things are coupled and the crossing turns into an avoided crossing.
-A couple you can see here that this parabola here is pushed down. If you have a problem, there is pushed up.
-You see, that's how you get the bend and you get the bent gaps in the same way as you happen to cross if we elect one model.
-You'll also have banquettes up here, but because they're are already very, very weak.
-And then if you go into a deeper lattice, the bank gets just get bigger, the bank gets pushed down a different bank,
-it's flatter and flatter and then also the bank of up here becomes visible until the next bank becomes very clear.
-And also, this banker becomes a. this is really how you go from a weak to a strong lattice.
-You see that how did dispersion relation forms? You've seen these cartoons and many condensed matter systems.
-And they always say it's the result of a band structure calculation.
-You cannot do the bounds of the calculation for yourself because it's only that one coupling to them.
-It's very easy to do.
-what you see also from this picture is that the whole thing is periodic review period of two $\hbar k$, as it should be coming from the periodicity.
-Mathematically speaking, if we had spaces, periodic mental space must also be periodic so we can restrict my whole description to a certain window
-momentum space in which was the first zone where we say the quantum $q$ runs from minus K to K.
-we just consiter the path from here up to here, and we know that the higher part will be periodic.
-we go from the extended zone scheme to the compact normal zone scheme that you see in the kindness matter physics.
-And the physical intuition behind this is that momentum, as I said, is not a concern, no, but momentum module to market is a concert.
-No, because let this can only just change in momentum kicks.
-Q would just just be modular to educate this within here in this window is a conserved quantity.
-And voila, we have a couple of waves. We have the iconic images, we have the band structure, we have everything.
-Well, so far, we've only looked mostly looked at the energies. The next team will now be to look later on at the weights themselves.
-First, one more thing.
-What you probably pursue is always the dispersion relation of the lowest band, and it's always normalised that it always goes from zero to one.
-Of course, for a deeper let as it becomes flatter, flatter, flatter, you will zoom into it.
-we just normalise goes from zero to one. And what you can see here is you can see the change of the shape, the blue curve.
-This let the step zero, so that's a prerogative, the free space. The red curve is five.
-And the Black Line is 100, we go to a very, very deep lattice.
-And what you can see is that it takes this one very peculiar shape, which is basically just given away minus cosine pi over Cuba de Cuba.
-Okay? this is just a cosine function with the minimum in the middle and the maximum here at plus minus plus minus K.
-And at the moment, we just say we see this, we can fit it, it comes out of the band of calculation.
-There is a deep explanation of why it must be the cause and the they really get to refuse let.
-Very often we do calculations when we think about stuff and in cold atoms.
-We talk about the so-called tight binding, which was just a regime that starts at roughly five, we call it.
-It's characterised by here that we can say that it's permanent.
-Lowest point is really given by this call centre and nothing else constant call centre in.
-And minus two is the tunnelling. We'll get to that in a few slides when we talk about.
-what you see here is and this regime, the gap, the difference between red and blue is much, much, much bigger than the bandwidth.
-all of the physics we don't have in the lowest band and we can ignore everything up here because we say that's far away and we don't get to.
-that's not exactly a single event model the Hubbard model that we've seen in the past that we see in the first lecture.
-And basically where we're now going to do this.
-This the rest of them, in any part of this lecture and the next lecture is to see how can we get from all of those pictures,
-we derive the Hubbard model to where we are today.
-We are going to do the how about model kinetic energy? we're going to see this tight binding hopping term.
-And the next lecture will start by looking at the interaction term that comes from and how that can be described.
-And then we start looking at the phases of the of model. OK.
-let us above five, we call we say we ended up finding which we can use to type binding approximation with see that later.
-And there we have this dispersion relation. And we just have to think about a single band because it's a big band.
-Good next thing. NATO states the bloc, how do they look, how should I think about a plot with.
-Do I have a visual way of thinking about an intuition of what the plot actually is, how it looks like?
-And it turns out it is a very nice way of thinking about this, which basically comes again from this fact that,
-OK, Typekit is not just I call this a plane wave to people in space.
-And we say that this one is coupled by the letter's potential only to these primes, which is plus minus two.
-And they again, only coupled to that plus minus two, which came more so this.
-This creates structure of the discrete plot in momentum space that we get from having only this discrete K vector and
-lattice that one is going to guide us because what that one is going to tell us that you can take your Bloch with.
-You can also write this as a superposition of plane waves. It can only be the plain wave of momentum que plus air times two.
-Right.
-I can think of a shock wave as being a plane wave without a higher order plane waves of two four six, it became more momentum being mixed in.
-And what did they need is I need to know the coefficients. How much of each plane wave is in a given Bloch with?
-And those coefficients you diabetic get out of your day, analyzation of the Evertonian in the previous light.
-And you can calculate the numerically very easily. And here's how they look.
-this is not a coefficient squared. 20, the population of the different blog waves, let's start with this one is cubic with zero.
-in the middle of the zone where the question went to the yellow and the red curfew is always the the lowest plot,
-the lowest play we've the with a fundamental being just about you.
-And then the blue ones is Q plus two K and the blue dashed line you only see
-here is Q minus two K and then the black ones is a Q plus minus pocket.
-what you basically series is a function of the lattice that it lattice to step zero by Bloch away as I played with.
-That makes sense, because if that is the zero,
-basically there's no let us dare sort of Bloch the plane are the 18 states of which basically the 18 states of a non-existing let us.
-Then let us get steeper. You can see that this function comes down.
-we have less and less and less population at the clock as a plane waiting for momentum zero.
-And we have an increasing population in both the plus first and minus first or so, two plus and minus two.
-the deeper lattice becomes, the more we mix those things in. And then the black line stay very, very low.
-They come a little bit up here, 20 weak, obviously deep lattice. There's a little bit of that, but not much.
-I can basically think of my black wave just as a plain wave of a bit of an ethnic feature of the higher order terms.
-And this is in the middle of the zone.
-If I go half halfway to the site of the hill, also halfway between zero and one between the middle and the edge of the green zone.
-Same story I get maybe a bit more decay of the current wave.
-And they get now in the cemetery to they get more of the solid line versus the dashed line, which makes sense of a move towards plus one half.
-I get give you more of the minus three half compared to the plus five half because that's a lower kinetic energy.
-Makes sense. And then the second order terms also slightly more important.
-What I can see here, if I go very, very close to the edge of the zone, that's where, the quasi free energy electoral model,
-quasi free electron model would have said that you get hybridisation away because you have this crossing,
-which any small coupling with between avoided crossing. You can see that you can see that very quickly jumped on from one to point five.
-And the other one, that minus first order comes off. Because I really have this point, the plastic.
-It's in resonant, the transition from plus to minus K is from a state with the same kinetic energy to the same intensity kinetic energy.
-David hybridise to a 50 50 situation very, very quickly.
-It's very, very quickly, it's not instantly, because I'm not at K, I'm 99 percent OK to make the plot myself.
-OK. at Let the steps the Bloch with almost coincide with the plane waves and the people at the steps,
-the admixture of the two plus plus minus two, which make things become significant.
-Good. now we can start doing many body physics, we have no basis, we have to Bloch waves and we can ask what will?
-ABC do when a loaded into a letter. What do you think?
-I haven't gone into acting you'd be easy and I loaded into an optical lattice.
-What would you think? Everybody staring at me like, nobody's thinking, OK.
-So. This plot is the one that explains everything.
-If I think of ABC and free space. It's condensation into the lowest energy state, so the lowest momentum state.
+The light field is not homogeneous, and that means I have two components in it in the k-space, and therefore I can also shuffle photons from the one beam into the air and thereby change the atomic momentum by $2k$. This is the intuition and building on this intuition, we can do the calculations and the calculations are typically done numerically and they're actually done relatively straightforward. You would see the calculation you would do that on the first problem set, which will go online later today. The way what you do is you say, well, OK, if I start with some momentum, initially, that only does create a momentum movement of the form, plus other times to make where there's an integer can be reached. What I say, I start with this momentum, but I can only do jumps of $2\hbar k$. We're going to go to a few discrete points here and a few discrete points there. What this means is that, OK, first of all, it means that momentum is now not conserved, so momentum is not a good quantum number anymore. However, the momentum modulo $2 \hbar k$ is conserved because you only have this discrete steps, and that is why we later on have this quasi momentum $q$, which is exactly just the momentum. What do you do to $\hbar k$? It's just the momentum projected back into the first Brillouin zone, to make the connexion of condensed matter again. We come on the next slide. If you have this structure, we have these two discrete things that basically you can write down your Hamiltonian as a matrix. You can say what is the energy of a particle for a given $L$, so with this extra momentum, it's just the kinetic energy. And you have the process of scattering one photon from here to here, which changes by one. You get a matrix, which has a diagonal form. We have the kinetic energies on the diagonal and some coupling terms on the first of the elements and zero everywhere else. And that's the matrix that you would set up, and you would see some guidance on how to do this step by step on the problem sheet. 
+
+Any questions? OK, then let's go on and let's say we now go from zero lattice depth to a weak lattice. Then you do the same thing that you do for a quasi free electron. You can say that I have this parabola here and that probability I have a weak coupling between them, which means that these two things are coupled and the crossing turns into an avoided crossing. You can see here that this parabola here is pushed down. If you have a problem, there is pushed up.
+[pic]
+You see, that's how you get the band and you get the band gaps in the same way as you happen to cross the free electron model. You'll also have band gaps  up here, but because they're are already very, very weak. And then if you go into a deeper lattice, the band gaps just get bigger, the band gets pushed down, it's flatter and flatter and then also the band of up here becomes visible until the next band becomes very clear. You see that how did dispersion relation forms? You've seen these cartoons in many condensed matter systems. And they always say it's the result of a band structure calculation. You cannot do the bounds of the calculation for yourself because it's only that one coupling term. It's very easy to do. What you see also from this picture is that the whole thing is periodic with a period of $2\hbar k$, as it should be coming from the periodicity. Mathematically speaking, if real space is periodic then momentum space must also be periodic so we can restrict my whole description to a certain window of momentum space in which was the first zone where we say the $q$ runs from $-k$ to $k$. We just consider the path from here up to here, and we know that the higher part will be periodic. We go from the extended zone scheme to the compact normal zone scheme that you see in the condensed matter physics. And the physical intuition behind this is that momentum, as I said, is not conserved, but momentum modulo $2\hbar k$ is. No, because let this can only just change in momentum kicks. And voila, we have a couple of waves. We have the iconic images, we have the band structure, we have everything. Well, so far, we've only looked mostly looked at the energies. The next team will now be to look later on at the waves themselves.
+
+First, one more thing. What you probably pursue is always the dispersion relation of the lowest band, and it's always normalised that it always goes from zero to one. Of course, for a deeper lattice it becomes flatter, flatter, flatter, you will zoom into it. We just normalise goes from zero to one. And what you can see here is you can see the change of the shape, the blue curve. This let the step zero, so that's a prerogative, the free space. The red curve is five.
+[pic]
+And the Black Line is 100, we go to a very, very deep lattice. And what you can see is that it takes this one very peculiar shape, which is basically just given away 
+[minus cosine pi over Cuba de Cuba.]
+We talk about the so-called tight binding, which was just a regime that starts at roughly five, we call it. It's characterised by here that we can say that it's permanent. Lowest point is really given by this centre and nothing else constant. And minus two is the tunnelling. 
+
+The remaining part of this lecture and the next lecture is to see how can we get from all of those pictures, we derive the Hubbard model to where we are today. We are going to do the Hubbard model kinetic energy, we're going to see this tight binding hopping term. And the next lecture will start by looking at the interaction term, where that comes from and how that can be described. And then we start looking at the phases of the of model. OK. I can think of a Bloch wave as being a plane wave without a higher order plane waves of two four six, it became more momentum being mixed in. And what I need to know is the coefficients. How much of each plane wave is in a given Bloch wave? And those coefficients you get out of your analyzation of the Hamiltonian in the previous slide. And you can calculate the numerically very easily. And here's how they look.
+[pic/eqn]
+What I can see here, if I go very, very close to the edge of the zone, that's where, the quasi free electron model would have said that you get hybridisation away because you have this crossing, which any small coupling with between avoided crossing. You can see that you can see that very quickly jumped on from one to point five. And the other one, that minus first order comes off. It's in resonance, the transition from plus to minus $k$ is from a state with the same kinetic energy to the same intensity kinetic energy. 
+
+Good. Now we can start doing many body physics, we have a basis, we have the Bloch waves and we can ask what will a BEC do when a loaded into a lattice. What do you think? If I have noninteracting BEC and I loaded into an optical lattice. What would you think? Everybody staring at me like, nobody's thinking, OK. So. This plot is the one that explains everything.
+[pic]
+If I think of a BEC and free space. It's condensation into the lowest energy state, so the lowest momentum state.
 the B.C. women over macroscopic occupation of all of the particles down here at zero momentum at a minimum of two parabola.
 They will now start to crank up lattice.
 Basically, what happens is that there's dispersion relation to parabola turns into this tight binding band into this cosine shape,
