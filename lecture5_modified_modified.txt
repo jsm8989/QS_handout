@@ -12,82 +12,22 @@ And if we wouldn't if it would be in a different band, then it would be the Wann
 
 And the last step that we did in the last lecture was to say no, that we have to as basis of maximally localised orbital so of the wavefunction that describe a particle sitting on one lattice site in the lowest band, and we can then write down the Hamiltonian for such a particle. 
 [a dagger]
-creates the particle Wannier state onsite. And then the Hamiltonian fundamentally describes the two terms. We have the kinetic energy, which is basically saying the particles moving around. And we say particles move from site $j$ to site $i$. The summation is just over pairs of nearest neighbours, because we are in a so-called tight-binding regime where particles can only hop from one site to its neighbouring site. We also said that in a homogeneous system, the second term is unimportant because it's the same energy, irrespective of where the particles are. And the last term is just a total particle number times the chemical potential. 
-This is the term that you get Insec in the current canonical ensemble to look at how many particles you would actually happen to the system.
-And we'll talk about more about this term in the next lecture or so.
-And then the only thing that we need is the tunnelling term. It's basically saying, OK, how likely is it or how fast is it?
-What is the rate for particles going from one site to the next?
-And that's basically given a typical overlap into quaffed away function on site ie insite a plus one.
-And you Hamiltonian in the middle. And this is not a full Hamiltonian to describe single particles in a in the lowest band of an optical lattice.
-It is a slightly heard, Tony, that you would want to look at if you would want to describe, quote,
-direct condensation of non interacting particles in a dubious sea of balls Enns in an optical lattice.
-And the next challenge will be to look into it was InterAction's into this Hamiltonian ethem to disarm Etonian.
-Becan oscilloscope that we can also see where interacting particles.
-And if we add those, then we end up with the full Boza Hubbard model.
-What you can see now here on this plot is the molecular potential between two atoms.
-you basically see the potential energy V as a function of the distance between two particles, between the two at between two atoms.
-And these molecular potentials, they're obviously pretty complicated. And that gives rise to the richness of molecular physics.
-we no need to find a very simplified description of this that we can use to study anybody physics.
-For this, it's important to think a little bit about these potentials. On the one hand, for long businesses here,
-you have a fund of arts interactions into know attractive potential to form one over minus one or two to six out of the six,
-because this is an induced type, would open interaction at last distance, large distances, because the atoms are both electrically neutral.
-They have no permanent Dipo moment. you don't have any electrostatic interaction, you don't have any dipole dipole interaction.
-the next time you get this an induced over doper, one of our art after the six and the potential comes down here, it gets actually very, very deep.
-this case, he was one electron. What so does we need, as Khail, of binding energies of wheely bond molecules that you have in we life?
-It's not the energies we work at all. Add we've Otakon atoms. these kids is much, much, much bigger than what we are.
-The minimum distance of this potential here, what the distance of the minimum is Tipitina out of 10 angstrom.
-a few nanometres at most. And then we have a very a fast rising potential on the insite, which is the exchange interaction.
-It's more distances. Simply said, if the atoms get very, very close to each other, the electron clouds, the electron cloud start to overlap.
-And then both the poley principle and also the culum interaction between the electrons means
-that there must be a very strong participant to actually 020 Clouds don't wants to overlap.
-The crucial thing to see here is that this typically distances here is typical distances.
-They are very, very small.
-And in fact, the range of this potential sort of range from here to here to potential is really important, is typically much, much,
-much smaller than both to deploy wavelengths of the particles because the particles are very slow,
-because we are very cold temperatures, which means that deploy where is very hot, very high.
-And they're also much, much smaller than the typical distance between the particles.
-basically, if you want all of our physics happens on, say, this  scale.
-But then the interactions case is much, much, much, much shorter.
-And that gives rise to a very, very strong simplification that will make a lot of Yusoff,
-which is basically saying that we can be the wheel potential by an effective contact potential.
-the particles only interact if they are at the same position.
-our effective potential as a function of AH is just a parameter G times dardar.
-particles only interact where they are at the same point. It's a contact interaction.
-It's an approximation. Do we know the direction is much, much more varied?
-Has a medium range travelled from the bottom and so on. But it's a very good approximation because typically we in a situation with a particle,
-has never explored these details of the potential because there are  inherent resolution.
-They deploy wavelength and also the distance, the typical distance is much, much, much coarse and bigger than the scale of this potential.
-And that, of course, makes life much, much easier because he's death potential potentials there much easier to deal with.
-Up to 50. This is perimeter as Giese parameterised in the form of four pi h past create over M times of Prometa A where A is the scattering length.
-And in the future we mostly talk about different regimes, meaning different scattering things positive, negative and so on if A is positive.
-We're talking about to be positive in direction because then the effect of potential is
-positive and yet items have to pay an extra energy when they come very close to each other.
-If it's negative, we have an attractive interaction, which typically August leads to an instability for BEC., but it would be important for for me.
-typical parameters. If I take a typical BEC. take for instance, Rubidium, 87, one of the easiest atoms to condensate.
-I have a scattering length on the order of 100, a not so typical wages.
-Tenths of a not hundreds of knots is the typical range and a knot is half an angstrom, more or less.
-It's borrus radius. Have power, the other thing that's very important and very powerful for cold atoms is that very often we can goondas,
-a so-called Feshbach resonances allow us to Judah's about changing the magnetic field.
-we just apply a different magnetic field and we can get a different a.
-The effects, stem cell molecular physics, and I'm not going to go into details here for the sake of time, but you can think of this very often,
-that the magnetic field is just a joining up with which you can join the sign and the strength of the interaction.
-you can have not interacting atoms with parts of attractive, strongly interacting,
-weakly interacting atoms just by dialling one of the athletic future.
-It doesn't work for all that was bedrocks for many cases. And of course, quantum simulation experiments, not typically a concentration of those atoms.
-Like, for instance, potassium atoms where you have nice paper resonances where you can really tune the interaction at will.
-OK. how can we not take this and introduce this into our Hamiltonian, which we have written down in second quantise plantation?
-If I take the general case off a generic to particle interaction term, Whiton in terms of the field operators,
-so the operators site Dega and BPCI that create and destroy a particle position are prime.
-They're basically a generic term they would have to write down is to following interaction.
-Energy is given by half the integral of all of space for position particle one.
-And all of space for a position of particle two. And then I have my two particles.
-A position are prime and are and similar to what we did in the description of the tunnelling term.
-What we do is we effectively destroy the particles at these two positions and then we create the particles.
-Now in this case at the same positions. this term if you want.
-they go up. they Upsite's site is  filtering out. You really have two particles at these two positions.
-If yes, then. Okay. And they put the particle spec there. If not, did the whole term zero.
-And it doesn't give us something. And then it basically tells us the potential that you multiply.
-This is the interaction potentially B minus our prime.
+creates the particle Wannier state onsite. And then the Hamiltonian fundamentally describes the two terms. We have the kinetic energy, which is basically saying the particles moving around. And we say particles move from site $j$ to site $i$. The summation is just over pairs of nearest neighbours, because we are in a so-called tight-binding regime where particles can only hop from one site to its neighbouring site. We also said that in a homogeneous system, the second term is unimportant because it's the same energy, irrespective of where the particles are. And the last term is just a total particle number times the chemical potential. This is the term that you get in the canonical ensemble to look at how many particles you have affects the system. And we'll talk more about this term in the next lecture or so. And then the only thing that we need is the tunnelling term. It's basically saying, OK, how likely is it or how fast is it? What is the rate for particles going from one site to the next? 
+[eqn, eqn]
+And this is not a full Hamiltonian to describe single particles in the lowest band of an optical lattice. And the next challenge will be to look into interactions in this Hamiltonian. And if we add those, then we end up with the full Bose-Hubbard model. What you can see now here on this plot is the molecular potential between two atoms. You basically see the potential energy $V$ as a function of the distance between two particles. And these molecular potentials, they're obviously pretty complicated. And that gives rise to the richness of molecular physics. We now need to find a very simplified description of this that we can use to study manybody physics. For this, it's important to think a little bit about these potentials. 
+[pic] 
+On the one hand, for long distances here, you have a Van der Waals interaction
+[eqn]
+because this is an induced dipole interaction at large distances, because the atoms are both electrically neutral. The minimum distance of this potential here, what the distance of the minimum is on the order of 10 angstrom. A few nanometres at most. And then we have a very a fast rising potential on the inside, which is the exchange interaction at small distances. Simply said, if the atoms get very, very close to each other, the electron clouds start to overlap. And then both the Pauli principle and also the Coulomb interaction between the electrons means that there must be a very strong repulsion. The crucial thing to see here is the typical distances are very, very small. And in fact, the range of this potential is really important, is typically much, much, much smaller than both the de Broglie wavelengths of the particles (because the particles are very slow, because we are very cold temperatures) and the typical distance between the particles. Basically, if you want all of our physics happens on this scale. But then the interactions length is much, much, much, much shorter. And that gives rise to a very, very strong simplification which is basically saying that we can replace the real potential by an effective contact potential. The particles only interact if they are at the same position. 
+[eqn]
+And in the future we mostly talk about different regimes, meaning different scattering lengths are positive, negative and so on. If I take a typical BEC, for instance, Rubidium 87, one of the easiest atoms to condensate. I have a scattering length on the order of 100 Angstrom, and the Bohr radius $a_0$ is half an angstrom, more or less.
+
+The other thing that's very important and very powerful for cold atoms is that very often we can use so-called Feshbach resonances allow us to 
+[Judah's about changing the magnetic field.]
+We just apply a different magnetic field and we can get a different a. The effects are important in molecular physics, and I'm not going to go into details here for the sake of time, but you can think of this very often, that the magnetic field is just a joining up with which you can join the sign and the strength of the interaction. You can have not interacting atoms with parts of attractive, strongly interacting, weakly interacting atoms just by dialling one of the features. It doesn't work for all that was bedrocks for many cases. And of course, quantum simulation experiments, not typically a concentration of those atoms. Like, for instance, potassium atoms where you have nice resonances where you can really tune the interaction at will. 
+
+OK. How can we now take this and introduce this into our Hamiltonian, which we have written down in second quantised notation. If I take the general case of a generic two-particle interaction term, the energy is given by half the integral over all of space for position particle one, and all of space for a position of particle two. And then I have my two particles. What we do is we effectively destroy the particles at these two positions and then we create the particles. Now in this case at the same positions. 
+[eqn]
 if I have two particles at distance are the positions are and are prime, then their interaction energy is given by the potential V.
 At distance R minus one. And this term, of course, can be pretty complicated and can be pretty unwieldy, too, to use.
 But we can simplify it a lot because we can say, okay. We go to this effective potential.
