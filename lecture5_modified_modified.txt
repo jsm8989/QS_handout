@@ -1,0 +1,586 @@
+Hello and welcome to lecture five of the $q$uantum simulation course. Today's to$p$ic is both on lattices, and then we would talk about how we can introduce the interactions between both zones, which would then be the full Bose-Hubbard Hamiltonian. And then we will look at the ground state $p$hase diagram of this Hamiltonian. And we see the first transition from a su$p$erfluid into a Mott insulator.
+
+OK, let's get started. We start with a $q$uick reminder of Bloch waves from last weak, basically because our lattice $p$otentials are $p$eriodic. The Bloch theorem a$p$$p$lies and all of the states will be Bloch waves. We'll have energy ga$p$s in the same way as solid-state $p$hysics. And the easiest way to think about these Bloch waves and to think about how we can re$p$resent them is to start by looking at the $p$hotons again, and to say that the new thing in the lattice is that an atom with momentum $$p$$ can absorb a $p$hoton from the left beam, changing momentum by $\hbar k$ basically. Then the overall state is given as a su$p$er$p$osition of $p$lane waves, and the only task that remains, which you are doing in the $p$roblem set, is the calculation of these coefficients in front of this.
+[e$q$n]
+And this has very im$p$ortant conse$q$uences and the very intuitive way of thinking about the system, because when we do time of flight, when we say, okay, how do we take a measured momentum of a $p$article. We basically do this by this time of flight imaging where we switch off suddenly the lattice, which basically means we $p$roject our Bloch wave, we've ac$q$uired momentum $$q$$ onto the constituent $p$lane waves. And that means we would see for each Bloch wave a set of $p$eaks at discrete $p$oints after time of flight. And then we said, okay, we'll also want to move over to a bunch of functions because we said very often it's inconvenient to have momentum s$p$ace re$p$resentation, because the interactions are local, because the real s$p$ace $p$otentials, tra$p$s and other things that we might want to add, are local. We will want to have a real-s$p$ace re$p$resentation. And here was told in your office last weak that all of you have seen these Wannier functions before.
+I should maybe say a few more words about them. The first thing is, again, the reminder that the money functions are defined as a discrete $p$hoto,
+some of the ways and we're basically doing this just in a given event.
+we say if we take the Bloch away, it's fine. You end invent no end.
+Do we get the Bunya function in this band? we don't take all of them, just the ones in one Bloch with one Bloch.
+And he's Vanney functions at a localised around two sites that I and I can make one money function on every little site.
+But $p$utting in different that ICAO, which didn't show u$p$ as different arguments in this com$p$lex ex$p$onents here.
+The bodily functions are. In the $p$ermanent Amik limit to some here turns into an ine$q$ual.
+And it was something that was not clear to everyone. the reason for this sim$p$ly is that very often if you do a numerical calculation,
+you will only say, I don't want to make calculated infinitely large lattice.
+I want to calculate the lattice would say a hundred lattice sites, which is  down in the big box, $p$otentially.
+This means it makes sense to only have one hand Bunyah functions.
+That asite, one to 100 and that that means if you do the IT before it transform also, you would only have Bloch waves at this $q$uick, crazy moment.
+You can think of a $p$article in a box.
+The ground state will have a one momentum K and the more at the minus K, you can't fit all u$p$$p$ercase in there because you have this box.
+And the same thing, of course we means through if you have a lattice.
+If the lattice lives in a finite box, you only have discrete momentum states that are $p$ossible.
+these $$q$$s here are discrete and then you have a sum over discrete moment.
+And in the firm academic limit. if your box becomes infinitely big.
+you go from the box into frees$p$ace. Just kee$p$ lattice $p$otential there.
+Then this turns into a continuous distribution. And you go from the sum to an integral.
+And the last thing that I was making a $p$oint about, which I think is very im$p$ortant,
+is to say that the Wannier functions to Bloch Wavves from an offer moral basis of the food single $p$article Herberts s$p$ace.
+That basically means that he can take whatever $p$hysical situation you have. You can describe this all in $p$lain waves.
+It's a valid basis, but it's a very inconvenient basis because momentum is not conserved.
+You can describe it in Bloch waves, which is maybe for many things better left a better basis because the $q$uantum momentum is conserved.
+And the band index very often is conserved because very often you don't have situations. We have Interbrand scattering.
+And then if you can like, was $q$uickly served to a single event, you can also very often does $q$uite everything in this.
+Baz's of vanua functions just a different basis to Euston. It's also a com$p$lete Baz's because you have these nice $p$ro$p$erties that these
+are the most local functions that you can do that would be missing at.
+if he'd go away from all of the maybe more abstract definitions you can really think of,
+a bit of a Bunya function is to save a half a atom in the lowest band,
+and that atom is localised on one that the site I that this is in, this one you from the atom isn't this Wannier function centre.
+And this lattice said if the atom was to be formed on that little site, then it would be the vanua function centred around this little site.
+And if we wouldn't if it would be in a different band, then it would be the bunya function of two different bent, which would have a different look.
+If you think of relatively dee$p$ lattice, you can think of this one as a harmonic tra$p$.
+Each lattice site isn't harmonic tra$p$$p$ed.
+And then the lowest Wannier function becomes a gorshin and the first Yehya excited vanua functions become the excited states of the harmonic oscillator.
+And for those wants that are maybe a bit more mathematical minded, here's another way how you can think about this.
+If you say I want to have a local ice $p$article with s$p$ace now outsite of the lattice in frees$p$ace,
+you would say the most localised to I can write down is the Delta function,
+Delta X minus X, not to lift the $p$article would be localised at the $p$oint X not.
+And you know that you can ex$p$ress this as an even su$p$er$p$osition of all of the $p$lane waves each of the X.
+Now, the same thing is true, you should look to the Baz's transformation from the $p$lane ways into the Bloch ways,
+because we said that the $p$lock ways are often on the basis of all of foubert s$p$ace.
+the same way as the $p$lane weighs. I can ex$p$ect the same thing. The data function I can ex$p$ress as a sum of all of the $p$lot ways.
+This should be X minus X, not not set changes in Slate and some or all of the bands and.
+Because this is to say, S$p$encer had saved them both s$p$ace. Then this one does.
+And now if you now say that he was tricked us now to a single band.
+there's no sum over all of the bands in here anymore. And just looking at one single and then you can think of this as, say,
+I have less momenta at my dis$p$osal because many of the $p$lane waves are known what they are, many of the $p$lot ways.
+I'm not there because they live in different bands,
+which means that I have less momentum states so they can $p$lay with less basis states of which I can make a localist function.
+The function would be less localised.
+It we'd be still to be localised around a single lattice site, but it would not be as localised as a delta function.
+And the function I get is then the Wannier function. And the last ste$p$ that we did in the last lecture was to say no,
+that we have to as Baz's of maximally localist orbital so of the way function that describe a $p$article sitting on one,
+let the site in the lowest bend or in bent. And we can then write down the Hamiltonian because such a $p$article.
+a dego creates the $p$article Vanya state onsite. And we have Tro$p$$p$ to the end because we're not only thinking about the lowest band.
+And then if you went down Hamiltonian, the Hamiltonian fundamentally describes the two terms.
+we have to kinetic energy, which is basically saying the $p$articles moving around.
+And we say $p$articles move from site J to site eye by being destroyed insite J and B were created insite.
+That's just the language to be used here.
+The language of this $p$rosodic annihilation creation a$p$$p$aratus and the crickets here, I mean, at the summation is just of our $p$eers,
+of nearest neighbours, because we are in a so-called tight,
+binding regime of $p$articles can only ho$p$e from one site to its stivic in neighbouring site.
+We also said that in a more ingenious system,
+the second term is unim$p$ortant because it's  the same energy, irres$p$ective of word of $p$articles are.
+And the last term years, just a total $p$article number times the chemical $p$otential.
+this is the term that you get Insec in the current canonical ensemble to look at how many $p$articles you would actually ha$p$$p$en to the system.
+And we'll talk about more about this term in the next lecture or so.
+And then the only thing that we need is the tunnelling term. It's basically saying, OK, how likely is it or how fast is it?
+What is the rate for $p$articles going from one site to the next?
+And that's basically given a ty$p$ical overla$p$ into $q$uaffed away function on site ie insite a $p$lus one.
+And you Hamiltonian in the middle. And this is not a full Hamiltonian to describe single $p$articles in a in the lowest band of an o$p$tical lattice.
+It is a slightly heard, Tony, that you would want to look at if you would want to describe, $q$uote,
+direct condensation of non interacting $p$articles in a dubious sea of balls Enns in an o$p$tical lattice.
+And the next challenge will be to look into it was InterAction's into this Hamiltonian ethem to disarm Etonian.
+Becan oscillosco$p$e that we can also see where interacting $p$articles.
+And if we add those, then we end u$p$ with the full Boza Hubbard model.
+What you can see now here on this $p$lot is the molecular $p$otential between two atoms.
+you basically see the $p$otential energy V as a function of the distance between two $p$articles, between the two at between two atoms.
+And these molecular $p$otentials, they're obviously $p$retty com$p$licated. And that gives rise to the richness of molecular $p$hysics.
+we no need to find a very sim$p$lified descri$p$tion of this that we can use to study anybody $p$hysics.
+For this, it's im$p$ortant to think a little bit about these $p$otentials. On the one hand, for long businesses here,
+you have a fund of arts interactions into know attractive $p$otential to form one over minus one or two to six out of the six,
+because this is an induced ty$p$e, would o$p$en interaction at last distance, large distances, because the atoms are both electrically neutral.
+They have no $p$ermanent Di$p$o moment. you don't have any electrostatic interaction, you don't have any di$p$ole di$p$ole interaction.
+the next time you get this an induced over do$p$er, one of our art after the six and the $p$otential comes down here, it gets actually very, very dee$p$.
+this case, he was one electron. What so does we need, as Khail, of binding energies of wheely bond molecules that you have in we life?
+It's not the energies we work at all. Add we've Otakon atoms. these kids is much, much, much bigger than what we are.
+The minimum distance of this $p$otential here, what the distance of the minimum is Ti$p$itina out of 10 angstrom.
+a few nanometres at most. And then we have a very a fast rising $p$otential on the insite, which is the exchange interaction.
+It's more distances. Sim$p$ly said, if the atoms get very, very close to each other, the electron clouds, the electron cloud start to overla$p$.
+And then both the $p$oley $p$rinci$p$le and also the culum interaction between the electrons means
+that there must be a very strong $p$artici$p$ant to actually 020 Clouds don't wants to overla$p$.
+The crucial thing to see here is that this ty$p$ically distances here is ty$p$ical distances.
+They are very, very small.
+And in fact, the range of this $p$otential sort of range from here to here to $p$otential is really im$p$ortant, is ty$p$ically much, much,
+much smaller than both to de$p$loy wavelengths of the $p$articles because the $p$articles are very slow,
+because we are very cold tem$p$eratures, which means that de$p$loy where is very hot, very high.
+And they're also much, much smaller than the ty$p$ical distance between the $p$articles.
+basically, if you want all of our $p$hysics ha$p$$p$ens on, say, this  scale.
+But then the interactions case is much, much, much, much shorter.
+And that gives rise to a very, very strong sim$p$lification that will make a lot of Yusoff,
+which is basically saying that we can be the wheel $p$otential by an effective contact $p$otential.
+the $p$articles only interact if they are at the same $p$osition.
+our effective $p$otential as a function of AH is just a $p$arameter G times dardar.
+$p$articles only interact where they are at the same $p$oint. It's a contact interaction.
+It's an a$p$$p$roximation. Do we know the direction is much, much more varied?
+Has a medium range travelled from the bottom and so on. But it's a very good a$p$$p$roximation because ty$p$ically we in a situation with a $p$article,
+has never ex$p$lored these details of the $p$otential because there are  inherent resolution.
+They de$p$loy wavelength and also the distance, the ty$p$ical distance is much, much, much coarse and bigger than the scale of this $p$otential.
+And that, of course, makes life much, much easier because he's death $p$otential $p$otentials there much easier to deal with.
+U$p$ to 50. This is $p$erimeter as Giese $p$arameterised in the form of four $p$i h $p$ast create over M times of Prometa A where A is the scattering length.
+And in the future we mostly talk about different regimes, meaning different scattering things $p$ositive, negative and so on if A is $p$ositive.
+We're talking about to be $p$ositive in direction because then the effect of $p$otential is
+$p$ositive and yet items have to $p$ay an extra energy when they come very close to each other.
+If it's negative, we have an attractive interaction, which ty$p$ically August leads to an instability for BEC., but it would be im$p$ortant for for me.
+ty$p$ical $p$arameters. If I take a ty$p$ical BEC. take for instance, Rubidium, 87, one of the easiest atoms to condensate.
+I have a scattering length on the order of 100, a not so ty$p$ical wages.
+Tenths of a not hundreds of knots is the ty$p$ical range and a knot is half an angstrom, more or less.
+It's borrus radius. Have $p$ower, the other thing that's very im$p$ortant and very $p$owerful for cold atoms is that very often we can goondas,
+a so-called Feshbach resonances allow us to Judah's about changing the magnetic field.
+we just a$p$$p$ly a different magnetic field and we can get a different a.
+The effects, stem cell molecular $p$hysics, and I'm not going to go into details here for the sake of time, but you can think of this very often,
+that the magnetic field is just a joining u$p$ with which you can join the sign and the strength of the interaction.
+you can have not interacting atoms with $p$arts of attractive, strongly interacting,
+weakly interacting atoms just by dialling one of the athletic future.
+It doesn't work for all that was bedrocks for many cases. And of course, $q$uantum simulation ex$p$eriments, not ty$p$ically a concentration of those atoms.
+Like, for instance, $p$otassium atoms where you have nice $p$a$p$er resonances where you can really tune the interaction at will.
+OK. how can we not take this and introduce this into our Hamiltonian, which we have written down in second $q$uantise $p$lantation?
+If I take the general case off a generic to $p$article interaction term, Whiton in terms of the field o$p$erators,
+so the o$p$erators site Dega and BPCI that create and destroy a $p$article $p$osition are $p$rime.
+They're basically a generic term they would have to write down is to following interaction.
+Energy is given by half the integral of all of s$p$ace for $p$osition $p$article one.
+And all of s$p$ace for a $p$osition of $p$article two. And then I have my two $p$articles.
+A $p$osition are $p$rime and are and similar to what we did in the descri$p$tion of the tunnelling term.
+What we do is we effectively destroy the $p$articles at these two $p$ositions and then we create the $p$articles.
+Now in this case at the same $p$ositions. this term if you want.
+they go u$p$. they U$p$site's site is  filtering out. You really have two $p$articles at these two $p$ositions.
+If yes, then. Okay. And they $p$ut the $p$article s$p$ec there. If not, did the whole term zero.
+And it doesn't give us something. And then it basically tells us the $p$otential that you multi$p$ly.
+This is the interaction $p$otentially B minus our $p$rime.
+if I have two $p$articles at distance are the $p$ositions are and are $p$rime, then their interaction energy is given by the $p$otential V.
+At distance R minus one. And this term, of course, can be $p$retty com$p$licated and can be $p$retty unwieldy, too, to use.
+But we can sim$p$lify it a lot because we can say, okay. We go to this effective $p$otential.
+We say we use as contact $p$otential G times to do function on minus our $p$rime, no F with everything in 3D.
+And then, of course, sim$p$lifies things a lot because that basically kurds' one of those anti$q$uity integral over our $p$rime.
+And we're basically left with G halftimes integral over R.
+Dega u$p$site. Dega u$p$site u$p$site. it basically says only when two $p$articles are at the same $p$osition are then they would have an interaction
+and mgg doing Hardisty because they have to o$p$erate this year and definitely have  two $p$ossibilities.
+How I can have these two $p$articles. it cancels out of I have this interesting stu$p$idity argument.
+OK. And now we want to, like, describe this  generic interaction term in our bases of any functions that we have justified.
+let's do this and let's take the city emulation of annihilation o$p$erative sigh and write this one in terms of Ste$p$hania basis.
+basically saying destroying a $p$articular $p$osition ah is the same as destroying a $p$article is a $p$osition of all of those Wanya functions.
+A.I.M. weighted by the Bunya function at this $p$otential.
+we're basically saying, Hugh, I think of a $p$arty, it is $q$uite a $p$arty, but it's  a data function of all.
+And as I said before, the Vimy functions are full, com$p$lete, often on the basis who I can ex$p$ress everything.
+Also, the data function as is what $p$osition of all of those functions. we can do this and we get a term that's $q$uite a bit more unwieldy again,
+because now we have to say we still have our integral and we have to ade$q$uate of U$p$sidaisy U$p$sidaisy U$p$site's CI a.
+Each of those terms. they go. And so we've ex$p$ressed as a sum of all of those Vanney function.
+we have no  fourfold some over four eyes and four ends.
+We have our creation annihilation a$p$$p$aratus here and we have to vanua the $p$rotocol for Bunyah functions.
+And this term is, of course, $p$retty unwieldy, and the main $p$oint to see from this term is that because you have different ends in here,
+because you have a different you have one inde$p$endent and inde$p$endent I for each of the four o$p$erators that you have to $p$ut in.
+It tells us that the directions can, in $p$rinci$p$le, cou$p$le of different bands and let the science.
+Which in $p$rinci$p$le makes sense, what if I have only a function on one,
+let the site and the manufacturer in the second bend and the same, the other site is VantagePoint is o$p$en u$p$.
+They live on the same s$p$ace. in $p$rinci$p$le, I can due to the interactions,
+have $p$articles going from the one bad into the other bent getting destroyed and the one bunyah function and being
+recreated in the other one you function are of those terms are more $p$ossible in this  interaction term.
+I can also say that in $p$rinci$p$le I can have an interaction between atoms on neighbouring Letha site, because if you look at the vanua functions,
+the blood of them, they always have the small extra site lobes, the small rabidity of the $p$article also being on the next Letha site.
+here's the unwieldy term again. And now we sim$p$lify it again because we say we take a$p$$p$roximation if we retain the biggest term
+only and the biggest term is the one where all of the eyes are the same and the ends are the same.
+And in addition, we assume that only $p$articles are the $p$articles are all in the lowest band, that only the lowest band is occu$p$ied.
+And then we can basically say, okay, well, instead of having all of those songs over for Ice and four forehands, we only have one sum over I.
+And we only get I Dega, a dagger eight toy, a Heidegger, Heidegger,
+a I and then the integral over the vanua function in the lowest banded indicator, but is zero onsite.
+I took the $p$ower for absolute Wannier of the Wannier of the Wannier function to the fourth $p$ower of the Wannier.
+Because Johann fixator com$p$lex conjugate times do not com$p$lex conjugate, which basically gives me u$p$set.
+They just $q$uit and they have to su$p$$p$ort a two time. I get the absolute Wannier integrated to the fourth $p$ower.
+And this is no neat, because if we know half the $p$oints that all of the vanua functions around all of Letha sites ie are the same,
+it sim$p$lifies even further because we can basically and say which read the site to look at.
+Doesn't matter. And you can define a new constant which will call you, which is just g. times to anti$q$uity.
+Are over the bunya function of a one budney function to the fourth $p$oor.
+And then the last thing that we want to deal with this, this O$p$erators' Euro$p$e is a dagger, a dagger AA.
+And for this, we just have to remember that a and a dagger ome$p$razole nick o$p$erators.
+we after was only commutation relation. The commutator a dagger e$q$uals one, which is if you work it out as a dagger minus a dagger, a e$q$uals one.
+you can say that a dagger a you can write as a dagger minus one.
+If you take this, you can go to this $p$roduct that we had here, a dagger, a dagger, A.
+That's the $p$roduct we have u$p$ here. We can take it.
+We want to like, change the order of this middle $p$air here, a dagger able to change this into a a dagger.
+Then we know from the line that both to begin to minus one. in total, we have this extra term, a dagger, a it's just a dagger.
+And this A and the minus one here in the middle as the second term.
+And this is convenient because a dog or a is nothing else.
+And the number of Reutter N. a dog or a dog or a the first one here.
+This just ends $q$ueered so it can basically white this now as ends $q$ueered minus end or end times and minus one.
+Which means in total, if I take this interaction, energy and did is not the final result,
+if we need the interaction energy for bosun's and an o$p$tical lattice is given by you over to you is a constant,
+which is basically given by this thing. It de$p$ends on your vanua function to tided of any function is confined.
+The bigger the vanua function in the Middle East and the bigger the $p$ower of the money function is that a bigger integral becomes.
+And on G-suit, therefore on the interaction constant a on discovering links to a source, just a $p$arameter you is just a $p$arameter for us.
+You over to time, sum over I and I and I minus one.
+And this is now a very sim$p$le result. It makes sense to think about it a little bit.
+And I is the number of atoms on that asite, I and what it basically tells us that each of the atoms on Letha site,
+I will interact with the N minus one other atoms and at the site.
+if you want, you have N times and minus one and two action terms in here.
+Now, because the $p$articles are indistinguishable. The interaction of $p$articles, one with three and three or if one is the same thing.
+we basically did some double counting in here and all combinations ha$p$$p$en to all combinations are showing u$p$ twice in the sun,
+which basically means we have one half year in front to com$p$ensate for that.
+if we have one $p$article on here, we got a one time zero low interaction as it should.
+If we have two $p$articles, we have two times one. we get two in here divided by these two cases.
+One. we haven't two action. And you so used into action, energy of two $p$articles on the left site.
+And then you can calculate what ha$p$$p$ens for three $p$articles, four $p$articulates and so on.
+And just for those of you who worked on the Atomic, an o$p$tical $p$hysics course,
+you basically have seen something with interaction, energy and minefield just goes and s$q$uared.
+you made what might want to know, how does this $p$lay out with this end times and minus one we have here?
+And the answer is very sim$p$le. If you have many, many $p$articles in the same mode, dear, you were talking about it.
+You see with thousands or hundreds, thousands of $p$articles to have this much bigger than one.
+You basically get that End-Time and minus one is basically the same as N and you find that the interaction energy just goes and s$q$uared.
+for large m the ends $q$uia term that you half of the cost DSG e$q$uation is correct.
+But if you really, really go down to very small numbers and remember it's an o$p$erator.
+it is really the $p$rojection of the $p$article numbers that you get.
+Then the $q$uantised nature of the $p$article number is im$p$ortant.
+If I say I have a half a $p$article and let's decide on one $p$article and let the site then ends, create would be one.
+But if I have one $p$article, there's nothing for it to interact with. we need to have something where four e$q$uals one, the total to X energy zero.
+And that's is just given by this end times and minus one.
+The next ste$p$ now for us is to sim$p$ly combine all of those resources that we have and fully write down the four Boza Harbour to Latonia.
+here we have it. The first term is to kinetic energy that it actually arrived last lecture and looked at earlier this lecture.
+The second term is the interaction, energy that we have just arrived.
+The third term is the local $p$otential energy, which is relevant only if and only if the onset energy de$p$ends on eye.
+So, for instance, if you have a tra$p$ or have a su$p$er that this would be high, low, high, low, high, low.
+But we can very often neglected. And the last term is new times and chemica $p$otential times total at a number which is only relevant in a crank.
+Michael Ensemble and I talk about this again a bit later. When is this the valid Hamiltonian to describe our system?
+Whereas a cou$p$le of things that we need, but they're actually very moderate and they're easy to achieve.
+The first one is we need a reasonably dee$p$ lattice.
+we need to be in this tight binding limit, which basically just means that lattice ste$p$ needs to be at least five we call,
+which is easy to achieve and we just do regime $p$eo$p$le normally broken. The second one is we need to have not too strong interactions because remember,
+we made this a$p$$p$roximation that we took out all of those terms with cou$p$le different $p$aths.
+We were basically saying we just looking at the biggest terms and the one is just a good a$p$$p$roximation.
+If the scattering length A is much smaller than let us constant.
+That is constant, ty$p$ically is a cou$p$le of hundred nanometres. If I think about rubidium, what it's getting left is Neudorf 10 nanometres.
+That's a very good a$p$$p$roximation or e$q$uivalently, e$q$uivalently, I can also say that my,
+you know, interaction, energy, you hear, should be much, much smaller than the bandcam$p$.
+And ty$p$ically, if I'm say about five, we call it six, we call. That's also very well fulfilled.
+this is defined. basically what this means is that both re$q$uirements are ty$p$ically fulfilled with vertical atoms and
+o$p$tical lattices a day for wheely faithful or accurate im$p$lementations of the Boza HUBBARTH model.
+And later on, the Fermi, but not limited affirmance.
+And it's a very neat situations, a very different situation from Sonnet's, because in solids, these are only ideally highly idealised models.
+And therefore, it was very hard to ask, OK,
+if the $p$redictions of these models to not describe the $p$hysics moves here to be a solid isn't just a wrong model,
+or if we just solved the model in the wrong way here because we really faithfully im$p$lement that model, we can answer that $q$uestion.
+now let's look at the crown states of this model. Let's ask you to take off.
+This was a Hubbard model and neglect the last term here.
+I forget about that one that I would say that I have a fixed feeling. I also don't have to worry about this term.
+What would be the $q$ueen status of this model? And very often $q$uantum mechanics, you know, have two o$p$$p$osite terms.
+You have the kinetic energy term ante interaction. And it's a term and you can ask yourself which term will dominate?
+And well, if you go into different regimes, you will get different answers.
+If you first start in the case where you are zero. an interaction energy is zero and T is $p$ositive.
+this is not interacting limit. And there we already know what the $q$uantitate will be to cross.
+It would be a su$p$erfluid. It would be it was Einstein condensate. In this case, we only have kinetic energy.
+if we have an abels ons, they will all go into the kuiken.
+Zero Bloch wave. The lowest Bloch wave. we basically half the ex$p$ression for the lowest Bloch wave to the end of an eighth $p$ower.
+we $p$ut all atoms into the single $p$article Chron state. And the second $q$uantise notation, the $p$roc wave of go zero,
+whereas the $p$hase factors vectors can be just within as a discrete sum of all of the Bunya states.
+This is if you want a discrete Fuyu transform from the Bunya states back into the waves.
+we are now ex$p$ressing the Bloch wave as the sum of all of the various states.
+And we o$p$erate with this one to be an eighth $p$ower onto the vacuum state,
+which basically means we take a $p$articles and $p$ut each $p$article into the single $p$article $q$uantity.
+that state is then a delocalised state where every $p$articles  delocalised over the whole lattice.
+And if you look at that state in various descri$p$tions, you will find that the state is a su$p$er forward state.
+It has long range Aurora off there and along which order because it is A, B, C state and its $p$hase coherent,
+which basically means that you think of the $p$hase and on which $p$hase order an image measured a fluke of $p$hase of the way function to one.
+And I can $p$redict where it's it's everywhere else.
+now we take all of those conce$p$ts from the $p$hase transitions lecture long which order $p$hase coherence off date and language.
+And they all a$p$$p$ly to this. Beezy. If we know two ex$p$eriments, if we measure this B.S. in lattice, what do we get?
+Well, if we measure in momentum s$p$ace, we get a momentum distribution. It looks this.
+We have the ty$p$ical B.S. $p$eak of zero momentum and we have the satellite $p$eaks that we discussed in the last lecture,
+$p$lus two and minus two, $\hbar k$ in both the X as well in the Y direction and some higher order terms.
+And that's a conse$q$uence because we now don't have condensation in $p$lane waste, but condensation of longways.
+If we were to look and we can do this with a microsco$p$e, $q$uantum gas microsco$p$e locally and ask how many atoms to essy on each lattice site,
+you will get something that will look very it is ordered because each $p$article, each atoms delocalised over the whole lattice.
+Then they will do a measurement and a $p$rojector $p$article numbers down to a $p$rojector $p$article
+down to individual lattice size because they measure how many $p$articles I find here.
+Each $p$article, which will be $p$rojected down into one, let the site arbitrarily.
+And that means that it will have various different atom number two that can measure in different lattice sites just by Chi$p$ by chance.
+Some will seem em$p$ty. Some moves him with one. Ednas two. It is three atoms we will see in a few slides.
+It actually will follow a $p$ersona in distribution.
+If I take the u$p$$p$er limit, if I take the limit of infinitely stronger $p$arts of a direction, which basically means I take, you know, to be $p$ositive.
+if a $p$ositive, re$p$ulsive energy and I take the kinetic energy to be zero teakwood zero, which means a very, very dee$p$ lattice.
+Then we will be in a state and we'll call a modern insulating state. now if if you want to, like, minimise your Connecticut, your energy.
+Only energy, you have to minimise the interaction and energy, which basically means you just have to go out of each other's way.
+You should never $p$ut more than one $p$article on the lattice site. if I have in total as many $p$articles as I have lattice sites.
+I am filling one, then basically what I get is a state where I $p$ut exactly one $p$article into each lattice site and that's it.
+the White House down. I take one $p$article, a dagger, and $p$ut it on and $p$ut one $p$article on site.
+I o$p$erating with a dagger, o$p$erating in a vacuum, as usual, filling in.
+And in this case, it's the filling factor.
+If we have any good one you can forget about, it just means that you $p$ut a one $p$article in each lattice signed in Protocol four.
+I means that you $p$ut Notah $p$articles one insite one one. And so two, one and two and three wanted to add four and so on.
+The state that you now get if you look at that state in weird s$p$ace,
+you would find exactly one $p$article and each lattice sent because that's what you did by Hot almost behind you.
+Put them one in each lattice. And that's the state.
+If you have this comment about filling us with $q$ualities, you have as many $p$articles as you have lattice sites.
+That's the $q$uantity that you will get. If you look at that state in momentum s$p$ace, the calculator's next lecture.
+But intuitively s$p$eaking, because each $p$article is more localised to an individual, that site very localist need s$p$ace.
+It must be very delocalised the momentum s$p$ace because each $p$article now wheely
+sits in one of those VNU orbitals and the $p$osition of all of the Bloch waves.
+That basically means that all of the Bloch waves are e$q$ually occu$p$ied.
+And you get a very $p$rivate element and distribution, as I said, with calculators in detail in the next lecture.
+the state we get now is and insulating standards an insulator because the $p$articles are localised.
+There's no conductance they cannot conduct. For instance, a $p$article currently cannot conduct energy.
+The state is also incom$p$ressible. The su$p$erfoods state is very com$p$ressible because you can always $p$ut more items in.
+This date is very incom$p$ressible. It's a ca$p$$p$ed state because if you no want to $p$ut another $p$article in here in this state,
+it this $p$article will necessarily have to sit on to$p$ of an already existing $p$article.
+that will have to $p$ay this extra interaction energy you. And that means it's very ex$p$ensive to $p$ut another $p$article.
+India doesn't excitation ga$p$. We'll see it in a minute.
+And the state is different and com$p$ressible. And because all $p$articles are now localised, we need each $p$article is localised to its own set site.
+And there's no long Wenche $p$hase coherence.
+they matter where field and left hand site now has nothing to do with tomatoey fields on the hand site.
+the $p$icture for this state is viewed at each ethem as localised to a single site.
+And this date can only exist for commentor at filling.
+Which means if the number of atoms divided by the number of lattice sites is an integer one at de$p$oliticise two Etna's $p$oliticised three,
+four, five and so on. If you have, say, one $p$oint two atoms $p$oliticised,
+then you will always have a few excess $p$articles on to$p$ of this modern sitting background
+and they are free to move around because they $p$ay the same into action energy everywhere.
+And then the whole state will turn into a su$p$erfluid. What I should at this $p$oint $p$oint out that so far we've only discussed we didn't limits.
+We've only discussed limit were either we have known and interacting $p$articles into which
+energy zero or we are strictly localised $p$articles where the kinetic energy is you.
+And it worked. We will see in the next few slides a next lecture that actually these two states I.D. two $p$hases,
+mountains $p$hase and su$p$erfluid $p$hase Dennet only belet in these two limits.
+They really connect all the way u$p$ to some $p$oint in the middle where we have a $q$uantum $p$hase transition from a su$p$erfluid into a modern insulator.
+Well, I should also say there's a warning that the descri$p$tions, e$q$uations, if you will, Don,
+here saying, OK, this is the su$p$erfluid state and this is the modern silhouetting state.
+These e$q$uations, these weigh functions, they are only embedded in these limits.
+if I take a mild insulator and I $p$ut in some kinetic energy, the state fundamentally will we mean a mild insulator.
+But the way function would be far more com$p$licated than the sim$p$le way functionally will down here.
+it is way function is only develo$p$ed in the limit, and this way function is only valid in the non interacting limit.
+And this date does not insulate the transition in the Boso Hubbard model was for
+the first time observed in an ex$p$eriment close to 20 years ago by Marcus Kayna.
+Tim and Esslinger Eumundi the $p$lot to tensioned others.
+And that was really the starting $p$oint for this whole business of $q$uantum simulators.
+And this $p$a$p$er read did had the first observation of this is also the first $p$a$p$er that we look at in DeJohn Club on Foresty.
+let's start to describe these states a bit more, $q$uote, $q$uantitatively and try to understand them a little bit more.
+And let's start with this smart insulator in this $p$eculiar limit will be a $p$ositive interaction, energy.
+But the kinetic energy is zero. That limit is ty$p$ically called the atomic limit to its limit.
+Rattier zero. You as $p$ositive. you have a T. If you want this limit of you, what you going to infinity?
+Because in this case, the full Hamiltonian that we have is just interaction, energy you over to some over I and items times and I'm minus one,
+the interaction, energy and the chemical $p$otential to our minus mbewe times.
+And so now we should think a little bit more about what this term actually means.
+And what is this new draught? Like I mentioned a cou$p$le of times, you in this case is the chemical $p$otential.
+we're thinking in the crank canonical ensemble and we're saying that new is the derivative of total energy.
+With res$p$ect to $p$article number, we are Teagle zero, which makes life easy.
+Otherwise you would have to say that this is under the condition of constant entro$p$y.
+you would have seen this term in the Firmament Statistical Physics lecture last year.
+And as a reminder, it's  telling you how much energy will the state gain if you add another $p$article?
+the way you can think about this is you can think about this if you have a cou$p$le of subsystems.
+And then there is like, say, more $p$articles that you want to $p$ut into the subsystem.
+You can ask each subsystem how much energy you would you need to take u$p$ in order to take u$p$ this extra $p$article.
+And then the $p$article will go wherever it's the chea$p$est for it to go to, wherever the chemical $p$otential of that subsystem is the lowest.
+A slightly sim$p$lifies flies, a slightly sim$p$lified but rather good analogy is to say if I have a better
+we have a certain voltage here and I $p$ut two leads into my system,
+will the better we try electrons into the system or not? Well, if the voltage to chemical $p$otential of the battery is higher than that of the system,
+it will drive more $p$articles in there until the chemical $p$otential of my system is as big as the one off my bedroom.
+this will be im$p$ortant later on when you want to this good $p$arty, good say over a tri$p$ or it can be very convenient to we now,
+it's just a convenient $p$arameter for us to see how the item number behaves in certain limits.
+let's make a little truth table for this direction and ask what is the
+intersection energy that we have for different $p$article numbers to table this year?
+And you can always calculate it yourself.
+If an eye is zero, zero times minus one, goes zeros into an energy zero, as you would ex$p$ect, no $p$articles, no interaction, energy.
+If you have one $p$article, one minus zero gives zero to no interaction, energy for a single $p$article.
+If you have two $p$articles. Two minus two, minus one gets once we have two times one, you have to divide it by this one half year,
+you get in total factor of two and then year to S.A.G. increases forever.
+They have three $p$articles. I have three $p$oint three times two.
+in total, six divided by two gives me three. And it also is intuitive because I have three $p$articles.
+One, two, three. I have three $p$airs of $p$articles that can interact.
+I have three $p$airwise interactions. I $p$aid three times the energy.
+And then if you're four $p$articles, four times three, it's twelve. Divided by two gives me six.
+you can see how it into each energy increases.
+What you can also see is that each ste$p$ u$p$ from here to here is one from here to here as to from here to here is three.
+two ste$p$s always get one bigger. now $p$lot the ex$p$ected average density for this Hamiltonian.
+It only has the interaction energy in it as a function of the chemical $p$otential.
+you ask which $p$article? No n will minimise the total energy, including the chemical $p$otential term.
+And here's New York. This is PRODAN units of new over you. a chemical $p$otentially in units of you.
+Then you would see that for a negative chemical $p$otential, the minimum is always at zero.
+Because of every negative chemical $p$otential, this term here is $p$ositive.
+we just have to total and a total the total minimum of this term in order to get the minimum term.
+If I have if I'm between zero and one so small and $p$ositive, I have a small negative term here.
+if I end is bigger than zero, if I $p$ut a $p$article in there, this term becomes negative.
+If this term, Mr. Zero, the whole thing wins. The minimum was there.
+And I have one $p$article on each lattice signed and then its chemical $p$otential going through you.
+There's exactly at this ste$p$ here I go from one to two and it's now chea$p$er, better for me to have two $p$articles in the game in the system,
+because then New Times two is bigger than the interaction term here and the total thing has its minimum to.
+you can see that the average $p$article number will increase from zero to one.
+It's chemical $p$otential. Zero. We've stayed in that one until I reach chemical $p$otential of one you.
+And then it would jum$p$ u$p$ to energy to density to. And then it's you.
+Because two to three and so on. if you think again about this $p$oint of how easily you can $p$ut in more $p$articles.
+Well, if my chemical $p$otential is negative, I don't want to $p$ut $p$articles anywhere. If my chemical $p$otential becomes $p$ositive.
+the better, he says, I want to $p$ut $p$articles in the system. The system eagerly absorbs the first $p$article.
+That's fine because the first $p$article doesn't cost any energy,
+but it will not acce$p$t the second $p$article because then you would have to $p$ay into action and you so
+only have the chemical $p$otential to change in total energy $p$er $p$article number is bigger than you.
+Then it makes sense to absorb the second $p$article Padian to each energy you and go to an e$q$ual to.
+And then only if chemical $p$otential goes to two. I can't ste$p$ off to you going u$p$ from you to three, you and I increase my density again by one.
+here's basically the same thing that I have said just now written down.
+this $p$lot of density is a function of chemical $p$otential. Now consists of shar$p$ ste$p$s.
+Because where he was zero chu$p$ ste$p$s, that final tem$p$erature will be moved off and incom$p$ressible Patos in between.
+incom$p$ressible, I mean, 20 com$p$ris ability is the derivative any new.
+the change in density is a function of changing chemical $p$otential.
+And if I have a flat line here, that means my density does not change when I change my chemical $p$otential.
+That remains constant. That's the insulating incom$p$ressible A that you would ex$p$ect.
+if you're in a state with any e$q$ual one where the average ETA member is one and you have this ty$p$e of Hamiltonian u$p$ here,
+then you're in this modern sedating state. if you ask what's the $p$robability of finding one $p$article on the Letha site?
+That's exactly one. That's a trivial $p$lot on this slide, but this year to contrast with the $p$lot on the su$p$erfluid slide in a few minutes.
+Another thing we can ask about this modern intellectual new atomic limit is we can ask about the excitations s$p$ectrum.
+Will it have? Will it be Ke$p$ler's? it can have very chea$p$ excitations? Or will it be ca$p$$p$ed?
+Do we have to $p$ay a certain amount of energy to create an excitation? If you think about the state, think of any good one.
+You have exactly one atom at the site sitting here and now you want to do anything of that.
+Say you want to change the state in any way.
+Then you realise that the lowest energy version you can do as you take one $p$article at moving and all of its neighbour.
+That's the smallest excitation you can do. And this excitation will cost the energy you, because now you suddenly have one that really occu$p$ied.
+Let the sites see one thing in the air where you have two items on it at the site doubly occu$p$ied.
+you $p$ay next iteration and G.U.
+what we say is that there's excitation creates one double occu$p$ancy, the double occu$p$ied let the site and a hole.
+an em$p$ty Letha site. And $p$eo$p$le also sometimes call us a Do$p$$p$ler on hold on $p$ower.
+Du$p$lantis, O.W. Occu$p$y that the site and the whole honesty em$p$ty at the site.
+And because they are  close to each other, it's a $p$air of that. the excitation s$p$ectrum is ga$p$$p$ed.
+The lowest excitation you can do is costing energy. You.
+How do we describe these dates? How can we describe these dates and second $q$uantise notation, that's actually rather sim$p$le.
+We take the states and each lattice site and we can describe them as FOK states.
+That's number states. we say to state, well, we have an Athans on a lattice site.
+I'm just talking about the single lattice site again. I can write the Fox State N as the state where I with to vacuum.
+And then just $p$ut n $p$articles into the state. I o$p$erate with the creation of Paretta, a dagger to the $p$ower of N.
+And then I have this $q$uote. And factorial here to kee$p$ the $p$henomenalist.
+And again, I do this mostly in order to have the com$p$arison to the state we get for the su$p$erfluid state in the fusillades.
+if I go on, I have my Fox date, the Fox dates are the existence of no o$p$erator.
+Fox did end u$p$ number o$p$erating and o$p$erating on that. Just give it a number.
+And that's what we im$p$licitly used all the time. When you when we look at calculating the two energies.
+And if I extra ventilation o$p$erator a on the state and then I get the state and minus one, which is clear, we have an in front.
+You've seen this already and one B $q$uantum mechanics. If I ask about dustu$p$s, Foxtail carry any $p$hase information, so does this Fox.
+Is this Fox then able to interfere of anything? And the answer is no.
+The Fox states cannot interfere of anything because they carry no $p$hase information whatsoever.
+basically the ex$p$ectation Wannier of PSI in such a fox did say as the field o$p$erator is zero.
+Even though the ex$p$ectation Wannier of size $q$ueered in the fox, it is non-zero.
+For those of you that no $p$hase to $p$hase based re$p$resentations, s$p$eaking of functions and so on,
+the Fox state is a state that's  a little ring around zero, so it has no $p$referred direction.
+the ex$p$ectation that you outsite this direction and this direction and this direction is zero.
+But the ex$p$ectation Wannier of Time S$q$uare, the distance from the origin that is non-zero because you're in the swing with a certain radius.
+If not, that's not clear to you yet. Then don't very that will become more clear when you look at when we look at the next state on the next slide.
+And now the mod insulator India atomic limit.
+And again, I'm stressing in the atomic limit out of this, it will be more com$p$licated, is just described by a $p$roduct of local Foxton.
+it I say $p$roduct of all at the sites I be $p$ut and atoms on each set asite.
+OK. After now having discussed, some $p$ro$p$erties of this strongly interacting limit Gatemouth,
+limit the Fox dates and to insulate us, dear, we noticed cause a little more than not indirectly limit.
+Look at the few $p$ro$p$erties of this one. Certainly not a can case.
+The way function is already set is that each atom is in the same state.
+If a macrosco$p$ic occu$p$ation of a single $p$article can state of the Bloch.
+And if you now ask again about the local distribution of $p$article numbers,
+you realise that each of the end $p$articles has an e$q$ual chance to be found in any of the
+lattice sites because the Bloch waves are se$p$arate out evenly over the whole system.
+basically the chance of each $p$article to be found in each and every lattice site is the same.
+Which then means that local ETA number follows a multinomial distribution. This is basically a generalisation of the binomial distribution.
+if you would have an $p$article's, you would se$p$arate them out of a two lattice sites.
+Then you would have a binomial distribution.
+And that would $p$redict you how likely it would give you the $p$rediction of how likely it would be to find how many atoms on each of the lattice sites.
+If you not have to, but many of them, it's sort of a binomial you can imagine normal distribution.
+This one looks, of course, a bit more com$p$licated.
+But the same thing, the same thing a$p$$p$lies to the binomial distribution that you have seen in the ex$p$erimental methods course already in one bean.
+That's the $p$oint that this can be sim$p$lified to a $p$roduct of $p$recise distributions on each lattice site.
+Suki s$p$eaking. That's true in a Crenn canonical Osogbo, where a total at a number does not need to be conserved.
+But it's not so matter. It's not so im$p$ortant at this stage.
+What's im$p$ortant is that we really ex$p$ect a distribution that looks this.
+Now it's a $p$ersona in distribution on each lattice site.
+if you have an average at a number of one, it, you know, su$p$erfluid state, you have a high $p$robability of finding one atom.
+But you have e$q$ually high $p$robability of finding zero atoms on another site.
+And that's com$p$ensated for by a smaller $p$robability of finding two, three, four or even more atoms on this Letha site.
+we get this local atom number fluctuations, everybody I've seen on the introduction slide.
+The next thing is that it's obvious that not working case, the system must have ke$p$t this ex$p$ectation.
+it cannot be ke$p$t. But it must be ke$p$t less, because the reason is that each $p$article, it sits in a single $p$article crown state.
+But the single $p$article, Crozet, has a continuous dis$p$ersion relation. E$p$son of Q this minus Corzo dis$p$ersion.
+We have 90 lattice. basically it can take any of the $p$articles indices and create an excitation.
+We're just creating an excitation weaksite. This $p$article was modified to a small fine momentum because it is $p$ersonal relation.
+It continues disfigures Ke$p$ler's. And for the ex$p$erts that have done the AOP, the AQ GOP lecture Rozario on last term.
+If I take weakend directions, the form of this dis$p$ersed relation changes.
+It goes into the bubble. You are forming its thoughts of linear. But the excitations nonetheless remain gutless.
+These excitations, I can then think of collective exhortations density waves of Honan's, but still they are gutless.
+Okay. The other thing how I can describe his $p$ersona distribution's how I can describe this would you know me?
+The distribution is to realise that the Muji normal distribution will affect the rise into local coherence states Cohu in states UFS Unity,
+A.P. lecture. And they're basically given by a su$p$er $p$osition of the Fox states and.
+Mandela characterised by an com$p$lex number Orfa, so the cohu coherent state with coming summer offers given by each of the miners.
+I offer absolute various $q$uite a to as a $p$refecture. And then the sum of all fox dates.
+And you could see to infinity of IFR to the end. Normalised in this way.
+Times the Fox state and. it is Cohu and states have been introduced as the Igen states of DNA relation o$p$erator,
+which basically means if I take your nation on the state of war, I just get four times over.
+they just like. Re$p$roduce themselves under the annihilation o$p$erator.
+And these dates are very crucial in $p$ersons' $q$uantum o$p$tics because they are the state's.
+Were large am$p$litude over that corres$p$ond to Cohu and classical Lightfields am$p$litude,
+often absent Wannier Phifer and the $p$hase $p$hy, which is the argument of over.
+this com$p$lex number of unknowingly really encode something that classically
+corres$p$onds to the MP Tudeh of a classical field and the $p$hase of a classical field.
+they are the crucial states that make the connexions between $q$uantised Lightfields, for instance, and classical electrical fuse.
+We would say have a well-defined $p$hase and they are also crucial for us.
+If you think of metal with o$p$tics, if you think of the $p$ieces because they are Notah states that locally have a $p$hase.
+If you calculate their number distribution, that's something that's easy to calculate.
+You ask, what's the $p$robability of finding any $p$articles in such a coherent state?
+And these are all calculations that you've done last year.
+You'll realise it's the overla$p$ into e$q$ual between the e$q$uivalent state over and the Fox state, an absolute make a.
+And you basically get the debt. Turns out to be a $p$ersona distribution where the average $p$article number really
+ex$p$ected $p$article number for a state al$p$ha is just given by absolute Wannier.
+Foskett am$p$litude does the intensity if you want.
+Im$p$ortant $p$oint for us now is that you can now calculate the ex$p$ectation Wannier in the clearance date of the insulation o$p$erator,
+BPCI, the field o$p$erator. That one is non-zero. As we said already, u$p$ here in the discrete version, it's not zero.
+And that means at launch $p$ure B.S. at Duigan zero,
+which can be described as a $p$roduct of this local human states with a constant $p$hase to $p$hase is the same
+everywhere because of long range order really shows u$p$ that these u$p$ these correlate u$p$site deg u$p$site J.
+In this s$p$ecies, date is not zero and it becomes inde$p$endent of IFJ because the $p$hases are not a $p$osition, it's not $p$osition de$p$endent.
+we really have off there along language order. what this means is that, as I said before, the su$p$erfluid state is a ordered state.
+It's a state with a$p$$p$roximately this $p$hasey $q$ueer freedoms $p$roblem.
+We have one s$p$ontaneously chosen $p$hase that we will see and hear.
+now we can have a better understanding of the two limits, the non into acting limit and the atomic limit, and we can now ask.
+Can you also say something about the about the whole $p$hase diagram in between?
+And the answer is yes, we can, because we can start by saying that the su$p$erfluid has a broken symmetry.
+We just discussed it. It has this order, $p$ragmatism of their language or outlaw.
+Wait a month. And today that does not have a broken symmetry,
+which means that these two limits have been this must be se$p$arated by a $q$uantum a $p$hase $p$osition at some critical $p$oint.
+You a C critical eulogy. It cannot be a cross over.
+Because we go from a $p$hase that has no $p$roblem symmetry into something, it has broken symmetry.
+there must be a $p$hase transition in between. And Jay, here is what was t a few slides ago.
+As I said before, T and J are we can the same thing for us. We will use them in the same manner and go back and forth between them.
+let's make a few $p$lots. Let's make us catch the first catch I want to make is the X axis is always U of a J.
+it's the way to between interaction, energy, you add to kinetic energy J.
+Or what was t a few slides ago. And we know that we have these two limits.
+You were J being very large. That's the atomic limit. We have to limit of you being zero.
+you j being zero. That means that this is the non interacting limit.
+And we now say that somewhere in between there will be this critical you for J
+where we have a $p$hase $p$osition from the su$p$erfluid into the mud until later.
+And the first thing I can $p$lot is the excitation energy. I can say, what is the size of the ga$p$?
+The lowest excitation energy. If the system is gaffed, then for a large U of a J.
+Over here I would have an interaction. Energy on your order. If you. And this extra energy, there's this ga$p$.
+We clear create this ga$p$ with decay down to zero anti$q$uity. Good $p$oint.
+use to find it here. But lowest excitation that we can do.
+Become Kar$p$lus. It must become gas. That's because we have discussed before that the su$p$erfluid is Ke$p$ner's.
+all of a year to get to zero. the lowest excitation energy must be zero.
+But here, if we go into the modern insulator and this resume, then it can become finite and it would go u$p$ this.
+And for very large you of a J, we just caillat the interactions care you. we have to interactions, can you over here and in here,
+it must change in a more com$p$licated manner because it must vanish over here where we have to get this su$p$erfluid.
+All of this we can just say from thinking about what we know about from these
+limits and from the $p$oint that there must be a $p$hase submission in between. The other thing we can $p$lot is not as auto $p$erimeter.
+We can $p$lot the limit of iron. I'm A.J. going to infinity off this coveted u$p$site.
+I dig u$p$site, Jane. And we know that in the unordered $p$hase, in the mountain set, it is with zero.
+And then it would come u$p$ here. In the su$p$erfluid site, again, we know that the other $p$arameter must be zero, but this financial year.
+We know that this would be a continuous $p$hase transition. basically, it works to zero at this $p$oint.
+And this is now what we call a $q$uantum $p$hase transition, which is driven by $q$uantum fluctuations and not from the fluctuations.
+To talk about this later. It just means for us now that it ha$p$$p$ens in the ground state.
+It's TEAC with your. And how does this look and ex$p$eriment?
+Well, that's mostly something that you would see in the journal club this weak where we can talk about this also in more detail.
+But here is that the main $p$lot of what they got. This is to BEC. In the absence of the lattice Desierto of life $p$ictures, you see the ty$p$ical VCP.
+And then if you increased lattice that if you load this into a lattice, you see the satellite $p$ics coming u$p$.
+And we talked about last time about that the satellite $p$eaks become stronger for a dee$p$er
+lattices sim$p$ly because the $p$lock wave now has more mixtures of the higher order $p$lane weighs.
+But then here, between you and gee, something funny ha$p$$p$ens because we see it now, the character of the stage really changes a lot.
+We see it see that these shar$p$ $p$eaks really fully go away. And we seem to have a very incoherent state.
+And that's the $p$hase transition from the su$p$erfluid into the modern insulator with a $p$hase.
+Coherence is lost. Yes. No $p$hase coherence in the system anymore. The $p$hase is not long winch ordered anymore.
+And everything is ha$p$$p$ening just on the local scale. And then in a very dee$p$ let us where we dee$p$ in the mud insulator, we will have a much insulated,
+as we describe mostly by $p$article sitting on thing and let the sites.
+this is just the food transform of any vanua functions that you will get here.
+And we discussed these $p$ictures in Maldito Next lecture.
+we observe a reversible $p$hase transition, so we observe to be can go into a dee$p$ lattice from here to here, goes away and comes back.
+We discussed this more and let us in the journal club. And it will have made a s$p$ecific let us test the reasons we did.
+The reasons are given here. The reason is that for larger vnu dee$p$er.
+Let us seise the interaction as you increase as moderately. Not too im$p$ortant.
+But the tunnelling t decreases almost ex$p$onentially. Remember the $p$lot to be signed last lecture.
+that basically means that you of a t when you have a J.
+If I want to be back it it decreases almost ex$p$onentially with increasing lattice ste$p$$p$ed.
+And that means that in the dee$p$ lattice I ex$p$ect to Martin's lattice,
+one of the weaker lattice I ex$p$ect the su$p$erfluid from by changing lattice ste$p$ that can go from the one case to the other case.
+And the transition that you can see here is really smoothed out.
+It's not as shar$p$ as he would have thought. Maybe from the sim$p$ler calculations, because you're not in the big homogeneous system,
+you're in homogeneous system due to the tra$p$ that we were discussing.
+Also more in a few lectures. And the last $p$icture for today is basically how we just a $p$hase diagram look,
