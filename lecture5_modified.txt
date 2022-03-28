@@ -1,30 +1,8 @@
-Hello and welcome to lecture five of the quantum simulation course. Today's topic is both on lattices, and then we would talk about how we can introduce the interactions between both zones, which would then be the full Bose-Hubbard Hamiltonian. nd then we will look at the ground state phase diagram of this Hamiltonian.
+Hello and welcome to lecture five of the quantum simulation course. Today's topic is both on lattices, and then we would talk about how we can introduce the interactions between both zones, which would then be the full Bose-Hubbard Hamiltonian. And then we will look at the ground state phase diagram of this Hamiltonian. And we see the first transition from a superfluid into a Mott insulator. 
 
-Edward see the
-first modern undulated transition from a platonic superfluid into abels only quat insulator.
-OK, let's get started. We start with a quick reminder of Bloched waste from last weak, basically because our lattice potentiates are periodic.
-The blog theorem applies and all of the states will be Bloched. Wavves will have a Bandz to act.
-We'll have energy gaps in the same way as a solid-state physics. And the easiest way to think about these Bloched ways and to think about how we
-can represent them is by starting by looking at the phone on photons again.
-And to say that the new thing in the lattice is that an atom with momentum p can absorb a photo from the left beam emitted into the beam.
-Endeavour changes momentum to HBK. basically. For every instalment and Peter, a discreet reminder.
-Other times to HBK were adamant that that can be reached.
-we see because we have processes to change momentum, plane waves, the typical momentum IKing states.
-Not against days of this Hamiltonian anymore. But there's only a few discrete momentum that are mixed this.
-And therefore we can say that the new Asian states,
-the Bloch ways can be expressed as a super position off those plane ways of torment, tormentors based by.
-Exactly to each book.
-And then the only task that remains, which you are doing in the problem set, is the calculation of these coefficients in front of this.
-And this has very important consequences and the very intuitive way of thinking about the system, because when we do time of flight, when we say,
-okay, how do we take a measured acquires momentum of a particle puzzlement and cures, then the remaining Panopto momentum that remains constant.
-We basically do this by this time of flight imaging where we switch off suddenly the lattice,
-which basically means we project our Bloch wave, we've acquired momentum Kubek onto the constituent plane waves.
-And that means we would see for each Bloch with a set of peaks at this discrete points after time of flight.
-he's got a Bloch. And then we said, okay, we'll also we'll want to, like,
-move over to a bunch of functions because we said very often it's inconvenient to have momentum,
-space representation, because the interactions are local,
-because the weird space potentiates a trap's and other things that we might want to add are local.
-we will want to have a wheelbase representation. And here was told in your office last weak that all of you have seen these venue functions before.
+OK, let's get started. We start with a quick reminder of Bloch waves from last week, basically because our lattice potentials are periodic. The Bloch theorem applies and all of the states will be Bloch waves. We'll have energy gaps in the same way as solid-state physics. And the easiest way to think about these Bloch waves and to think about how we can represent them is to start by looking at the photons again, and to say that the new thing in the lattice is that an atom with momentum $p$ can absorb a photon from the left beam, changing momentum by $\hbar k$ basically. Then the overall state is given as a superposition of plane waves, and the only task that remains, which you are doing in the problem set, is the calculation of these coefficients in front of this. 
+[eqn]
+And this has very important consequences and the very intuitive way of thinking about the system, because when we do time of flight, when we say, okay, how do we take a measured momentum of a particle. We basically do this by this time of flight imaging where we switch off suddenly the lattice, which basically means we project our Bloch wave, we've acquired momentum $q$ onto the constituent plane waves. And that means we would see for each Bloch wave a set of peaks at discrete points after time of flight. And then we said, okay, we'll also want to move over to a bunch of functions because we said very often it's inconvenient to have momentum space representation, because the interactions are local, because the real space potentials, traps and other things that we might want to add, are local. We will want to have a real-space representation. And here was told in your office last weak that all of you have seen these Wannier functions before.
 I should maybe say a few more words about them. The first thing is, again, the reminder that the money functions are defined as a discrete photo,
 some of the ways and we're basically doing this just in a given event.
 we say if we take the Bloch away, it's fine. You end invent no end.
