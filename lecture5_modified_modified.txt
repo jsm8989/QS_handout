@@ -4,62 +4,16 @@ OK, let's get started. We start with a quick reminder of Bloch waves from last w
 [eqn]
 And this has very important consequences and the very intuitive way of thinking about the system, because when we do time of flight, when we say, okay, how do we take a measured momentum of a particle. We basically do this by this time of flight imaging where we switch off suddenly the lattice, which basically means we project our Bloch wave, we've acquired momentum $q$ onto the constituent plane waves. And that means we would see for each Bloch wave a set of peaks at discrete points after time of flight. And then we said, okay, we'll also want to move over to a bunch of functions because we said very often it's inconvenient to have momentum space representation, because the interactions are local, because the real space potentials, traps and other things that we might want to add, are local. We will want to have a real-space representation. And all of you have seen these Wannier functions before. I should maybe say a few more words about them. The first thing is, again, the reminder that the Wannier functions are defined as a discrete sum of the waves and we're basically doing this just in a given event. Do we get the Wannier function in this band? We don't take all of them, just the ones in one Bloch wave. And these Wannier functions are localised around two sites. In the permanent atomic limit to some here turns into an inegral, which is not clear to everyone. The reason for this simply is that very often if you do a numerical calculation, you will only say, I don't want to calculate an infinitely large lattice, I want to calculate the lattice with say a hundred lattice sites, which is down in the big box potential. This means it makes sense to only have one hundred Wannier functions. 
 
-You can think of a particle in a box. The ground state will have a one momentum K and the more at the minus K, you can't fit all uppercase in there because you have this box.
-And the same thing, of course we means through if you have a lattice.
-If the lattice lives in a finite box, you only have discrete momentum states that are possible.
-these $q$s here are discrete and then you have a sum over discrete moment.
-And in the firm academic limit. if your box becomes infinitely big.
-you go from the box into freespace. Just keep lattice potential there.
-Then this turns into a continuous distribution. And you go from the sum to an integral.
-And the last thing that I was making a point about, which I think is very important,
-is to say that the Wannier functions to Bloch Wavves from an offer moral basis of the food single particle Herberts space.
-That basically means that he can take whatever physical situation you have. You can describe this all in plain waves.
-It's a valid basis, but it's a very inconvenient basis because momentum is not conserved.
-You can describe it in Bloch waves, which is maybe for many things better left a better basis because the quantum momentum is conserved.
-And the band index very often is conserved because very often you don't have situations. We have Interbrand scattering.
-And then if you can like, was quickly served to a single event, you can also very often does quite everything in this.
-Baz's of vanua functions just a different basis to Euston. It's also a complete Baz's because you have these nice properties that these
-are the most local functions that you can do that would be missing at.
-if he'd go away from all of the maybe more abstract definitions you can really think of,
-a bit of a Bunya function is to save a half a atom in the lowest band,
-and that atom is localised on one that the site I that this is in, this one you from the atom isn't this Wannier function centre.
-And this lattice said if the atom was to be formed on that little site, then it would be the vanua function centred around this little site.
-And if we wouldn't if it would be in a different band, then it would be the bunya function of two different bent, which would have a different look.
-If you think of relatively deep lattice, you can think of this one as a harmonic trap.
-Each lattice site isn't harmonic trapped.
-And then the lowest Wannier function becomes a gorshin and the first Yehya excited vanua functions become the excited states of the harmonic oscillator.
-And for those wants that are maybe a bit more mathematical minded, here's another way how you can think about this.
-If you say I want to have a local ice particle with space now outsite of the lattice in freespace,
-you would say the most localised to I can write down is the Delta function,
-Delta X minus X, not to lift the particle would be localised at the point X not.
-And you know that you can express this as an even superposition of all of the plane waves each of the X.
-Now, the same thing is true, you should look to the Baz's transformation from the plane ways into the Bloch ways,
-because we said that the plock ways are often on the basis of all of foubert space.
-the same way as the plane weighs. I can expect the same thing. The data function I can express as a sum of all of the plot ways.
-This should be X minus X, not not set changes in Slate and some or all of the bands and.
-Because this is to say, Spencer had saved them both space. Then this one does.
-And now if you now say that he was tricked us now to a single band.
-there's no sum over all of the bands in here anymore. And just looking at one single and then you can think of this as, say,
-I have less momenta at my disposal because many of the plane waves are known what they are, many of the plot ways.
-I'm not there because they live in different bands,
-which means that I have less momentum states so they can play with less basis states of which I can make a localist function.
-The function would be less localised.
-It we'd be still to be localised around a single lattice site, but it would not be as localised as a delta function.
-And the function I get is then the Wannier function. And the last step that we did in the last lecture was to say no,
-that we have to as Baz's of maximally localist orbital so of the way function that describe a particle sitting on one,
-let the site in the lowest bend or in bent. And we can then write down the Hamiltonian because such a particle.
-a dego creates the particle Vanya state onsite. And we have Tropp to the end because we're not only thinking about the lowest band.
-And then if you went down Hamiltonian, the Hamiltonian fundamentally describes the two terms.
-we have to kinetic energy, which is basically saying the particles moving around.
-And we say particles move from site J to site eye by being destroyed insite J and B were created insite.
-That's just the language to be used here.
-The language of this prosodic annihilation creation apparatus and the crickets here, I mean, at the summation is just of our peers,
-of nearest neighbours, because we are in a so-called tight,
-binding regime of particles can only hope from one site to its stivic in neighbouring site.
-We also said that in a more ingenious system,
-the second term is unimportant because it's  the same energy, irrespective of word of particles are.
-And the last term years, just a total particle number times the chemical potential.
-this is the term that you get Insec in the current canonical ensemble to look at how many particles you would actually happen to the system.
+You can think of a particle in a box. The ground state will have one momentum $k$ and another at $-k$, you can't fit all others in there because you have this box. And the same thing, of course remains true if you have a lattice. If the lattice lives in a finite box, you only have discrete momentum states that are possible. These $q$ here are discrete and then you have a sum over discrete momenta. And in the thermodynamic limit, if your box becomes infinitely big, you go from the box into freespace. Just keep lattice potential there. Then this turns into a continuous distribution. And you go from the sum to an integral. And the last thing that I was making a point about, which I think is very important, is to say that the Wannier functions form an orthonormal basis of the full single-particle Hilbert space. That basically means that whatever physical situation you have, you can describe this all in plain waves. It's a valid basis, but it's a very inconvenient basis because momentum is not conserved. You can describe it in Bloch waves, which is maybe for many things a better basis because the quasimomentum is conserved. And the band index very often is conserved because very often you don't have situations with interband scattering. You can also very often do everything in this basis of Wannier functions. It's also a complete basis because you have these nice properties that these are the most local functions. 
+
+If we go away from all of the maybe more abstract definitions you can really think of, a Wannier function as having half an atom in the lowest band, and that atom is localised on one lattice site $i$ that this is in, this one you from the atom is this Wannier function centre. And this lattice said if the atom was to be formed on that lattice site, then it would be the Wannier function centred around this lattice site.
+[pic]
+And if we wouldn't if it would be in a different band, then it would be the Wannier function of two different bands, which would have a different look. If you think of relatively deep lattice, where each lattice site is a harmonic trap, then the lowest Wannier function becomes a Gaussian and the first excited Wannier functions become the excited states of the harmonic oscillator. And for those that are maybe a bit more mathematical minded, here's another way how you can think about this. If you say I want to have a localised particle with space now outside of the lattice in freespace, you would say the most localised to I can write down is the Delta function, $\delta(x-x'). And you know that you can express this as an even superposition of all of the plane waves each of the $x$. Now, the same thing is true, you should look to the basis transformation from the plane waves into the Bloch waves, because we said that the Bloch waves are often the basis of the full Hilbert space, the same way as the plane waves. I can expect the same thing. The delta function I can express as a sum of all of the Bloch waves. And now if you now say that this has restricted us now to a single band, there's no sum over all of the bands in here anymore. And just looking at one single and then you can think of this as, say, I have less momenta at my disposal because many of the plane waves are known what they are, many of the Bloch waves are not there because they live in different bands, which means that I have less momentum states so they can play with less basis states of which I can make a localised function. The function would be less localised. It would still be localised around a single lattice site, but it would not be as localised as a delta function. And the function I get is then the Wannier function. 
+
+And the last step that we did in the last lecture was to say no, that we have to as basis of maximally localised orbital so of the wavefunction that describe a particle sitting on one lattice site in the lowest band, and we can then write down the Hamiltonian for such a particle. 
+[a dagger]
+creates the particle Wannier state onsite. And then the Hamiltonian fundamentally describes the two terms. We have the kinetic energy, which is basically saying the particles moving around. And we say particles move from site $j$ to site $i$. The summation is just over pairs of nearest neighbours, because we are in a so-called tight-binding regime where particles can only hop from one site to its neighbouring site. We also said that in a homogeneous system, the second term is unimportant because it's the same energy, irrespective of where the particles are. And the last term is just a total particle number times the chemical potential. 
+This is the term that you get Insec in the current canonical ensemble to look at how many particles you would actually happen to the system.
 And we'll talk about more about this term in the next lecture or so.
 And then the only thing that we need is the tunnelling term. It's basically saying, OK, how likely is it or how fast is it?
 What is the rate for particles going from one site to the next?
