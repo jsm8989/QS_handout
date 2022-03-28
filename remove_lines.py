@@ -97,8 +97,8 @@ newlines = replace_word("B.C", "BEC", strlist=newlines)
 newlines = replace_word("value", "Wannier", strlist=newlines)
 newlines = replace_word("letter", "lattice", strlist=newlines)
 newlines = replace_word("venue", "Wannier", strlist=newlines)
-newlines = replace_word("q", "$q$", strlist=newlines)
-newlines = replace_word("p", "$p$", strlist=newlines)
+newlines = replace_word(" q ", " $q$ ", strlist=newlines)
+newlines = replace_word(" p ", " $p$ ", strlist=newlines)
 
 
 
