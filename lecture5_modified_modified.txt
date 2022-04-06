@@ -22,32 +22,21 @@ because this is an induced dipole interaction at large distances, because the at
 [eqn]
 And in the future we mostly talk about different regimes, meaning different scattering lengths are positive, negative and so on. If I take a typical BEC, for instance, Rubidium 87, one of the easiest atoms to condensate. I have a scattering length on the order of 100 Angstrom, and the Bohr radius $a_0$ is half an angstrom, more or less.
 
-The other thing that's very important and very powerful for cold atoms is that very often we can use so-called Feshbach resonances allow us to 
-[Judah's about changing the magnetic field.]
-We just apply a different magnetic field and we can get a different a. The effects are important in molecular physics, and I'm not going to go into details here for the sake of time, but you can think of this very often, that the magnetic field is just a joining up with which you can join the sign and the strength of the interaction. You can have not interacting atoms with parts of attractive, strongly interacting, weakly interacting atoms just by dialling one of the features. It doesn't work for all that was bedrocks for many cases. And of course, quantum simulation experiments, not typically a concentration of those atoms. Like, for instance, potassium atoms where you have nice resonances where you can really tune the interaction at will. 
+The other thing that's very important and very powerful for cold atoms is that very often we can use so-called Feshbach resonances to tune this $a$ by changing the magnetic field. We just apply a different magnetic field and we can get a different $a$ (scattering length). The effects are important in molecular physics, and I'm not going to go into details here for the sake of time, but you can think of this very often, that the magnetic field is just a joining up with which you can join the sign and the strength of the interaction. You can have not interacting atoms with parts of attractive, strongly interacting, weakly interacting atoms just by dialling one of the features. It doesn't work for all atoms but for many cases. Like, for instance, potassium atoms where you have nice resonances where you can really tune the interaction at will. 
 
-OK. How can we now take this and introduce this into our Hamiltonian, which we have written down in second quantised notation. If I take the general case of a generic two-particle interaction term, the energy is given by half the integral over all of space for position particle one, and all of space for a position of particle two. And then I have my two particles. What we do is we effectively destroy the particles at these two positions and then we create the particles. Now in this case at the same positions. 
+OK. How can we now take this and introduce this into our Hamiltonian, which we have written down in second quantised notation. If I take the general case of a generic two-particle interaction term, the energy is given by half the integral over all of space for the position of particle one, and all of space for a position of particle two. And then I have my two particles. What we do is we effectively destroy the particles at these two positions and then we create the particles. Now in this case at the same positions. 
 [eqn]
-if I have two particles at distance are the positions are and are prime, then their interaction energy is given by the potential V.
-At distance R minus one. And this term, of course, can be pretty complicated and can be pretty unwieldy, too, to use.
-But we can simplify it a lot because we can say, okay. We go to this effective potential.
-We say we use as contact potential G times to do function on minus our prime, no F with everything in 3D.
-And then, of course, simplifies things a lot because that basically kurds' one of those antiquity integral over our prime.
-And we're basically left with G halftimes integral over R.
-Dega upsite. Dega upsite upsite. it basically says only when two particles are at the same position are then they would have an interaction
-and mgg doing Hardisty because they have to operate this year and definitely have  two possibilities.
-How I can have these two particles. it cancels out of I have this interesting stupidity argument.
-OK. And now we want to, like, describe this  generic interaction term in our bases of any functions that we have justified.
-let's do this and let's take the city emulation of annihilation operative sigh and write this one in terms of Stephania basis.
-basically saying destroying a particular position ah is the same as destroying a particle is a position of all of those Wanya functions.
-A.I.M. weighted by the Bunya function at this potential.
-we're basically saying, Hugh, I think of a party, it is quite a party, but it's  a data function of all.
-And as I said before, the Vimy functions are full, complete, often on the basis who I can express everything.
-Also, the data function as is what position of all of those functions. we can do this and we get a term that's quite a bit more unwieldy again,
-because now we have to say we still have our integral and we have to adequate of Upsidaisy Upsidaisy Upsite's CI a.
-Each of those terms. they go. And so we've expressed as a sum of all of those Vanney function.
-we have no  fourfold some over four eyes and four ends.
-We have our creation annihilation apparatus here and we have to vanua the protocol for Bunyah functions.
+if I have two particles at the positions $r$ and $r'$, then their interaction energy is given by the potential $V(r-r')$. And this term, of course, can be pretty complicated and can be pretty unwieldy, too, to use. But we can simplify it a lot because we can say, okay, we go to this effective potential.
+[eqn]
+We say we use a contact potential $g\delta^3 (r-r')$ in 3D, which simplifies things a lot because that basically removes one of those integrals over $r'$. And we're basically left with 
+[eqn: G halftimes integral over R Dega upsite. Dega upsite upsite.]
+it basically says only when two particles are at the same position would they have an interaction energy $g$. The half is there because they have two operators and therefore can have two possibilities of how I can have these two particles. It cancels out if I have this indistinguishibility argument.
+
+
+OK. And now we want to describe this generic interaction term in our bases of Wannier functions. You're basically saying, destroying a particle at position $r$ is the same as destroying a particle in a superposition of all of those $a_{i,n}$ weighted by the Wannier function at this potential. 
+[eqn]
+And as I said before, the Wannier functions are a full, complete, orthonormal basis which can express everything. Also, the $\delta$-function as a superposition of all of those Wannier functions. We can do this and we get a term that's quite a bit more unwieldy again, because now we still have our integral over $\psi^+ \psi^+ \psi \psi$, and each of those terms have been expressed as a sum of all of those Wannier functions with the creation annihilation operators.
+[eqn]
 And this term is, of course, pretty unwieldy, and the main point to see from this term is that because you have different ends in here,
 because you have a different you have one independent and independent I for each of the four operators that you have to put in.
 It tells us that the directions can, in principle, couple of different bands and let the science.
