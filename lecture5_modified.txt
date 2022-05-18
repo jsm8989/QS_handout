@@ -1,263 +1,65 @@
-Hello and welcome to lecture five of the quantum simulation course. Today's topic is both on lattices, and then we would talk about how we can introduce the interactions between both zones, which would then be the full Bose-Hubbard Hamiltonian. And then we will look at the ground state phase diagram of this Hamiltonian. And we see the first transition from a superfluid into a Mott insulator. 
+Hello and welcome to lecture five of the quantum simulation course. Today's topic is both on lattices, and then we would talk about how we can introduce the interactions between both zones, which would then be the full Bose-Hubbard Hamiltonian. And then we will look at the ground state phase diagram of this Hamiltonian. And we see the first transition from a superfluid into a Mott insulator.
 
-OK, let's get started. We start with a quick reminder of Bloch waves from last week, basically because our lattice potentials are periodic. The Bloch theorem applies and all of the states will be Bloch waves. We'll have energy gaps in the same way as solid-state physics. And the easiest way to think about these Bloch waves and to think about how we can represent them is to start by looking at the photons again, and to say that the new thing in the lattice is that an atom with momentum $p$ can absorb a photon from the left beam, changing momentum by $\hbar k$ basically. Then the overall state is given as a superposition of plane waves, and the only task that remains, which you are doing in the problem set, is the calculation of these coefficients in front of this. 
+OK, let's get started. We start with a quick reminder of Bloch waves from last weak, basically because our lattice potentials are periodic. The Bloch theorem applies and all of the states will be Bloch waves. We'll have energy gaps in the same way as solid-state physics. And the easiest way to think about these Bloch waves and to think about how we can represent them is to start by looking at the photons again, and to say that the new thing in the lattice is that an atom with momentum $p$ can absorb a photon from the left beam, changing momentum by $\hbar k$ basically. Then the overall state is given as a superposition of plane waves, and the only task that remains, which you are doing in the problem set, is the calculation of these coefficients in front of this.
 [eqn]
-And this has very important consequences and the very intuitive way of thinking about the system, because when we do time of flight, when we say, okay, how do we take a measured momentum of a particle. We basically do this by this time of flight imaging where we switch off suddenly the lattice, which basically means we project our Bloch wave, we've acquired momentum $q$ onto the constituent plane waves. And that means we would see for each Bloch wave a set of peaks at discrete points after time of flight. And then we said, okay, we'll also want to move over to a bunch of functions because we said very often it's inconvenient to have momentum space representation, because the interactions are local, because the real space potentials, traps and other things that we might want to add, are local. We will want to have a real-space representation. And here was told in your office last weak that all of you have seen these Wannier functions before.
-I should maybe say a few more words about them. The first thing is, again, the reminder that the money functions are defined as a discrete photo,
-some of the ways and we're basically doing this just in a given event.
-we say if we take the Bloch away, it's fine. You end invent no end.
-Do we get the Bunya function in this band? we don't take all of them, just the ones in one Bloch with one Bloch.
-And he's Vanney functions at a localised around two sites that I and I can make one money function on every little site.
-But putting in different that ICAO, which didn't show up as different arguments in this complex exponents here.
-The bodily functions are. In the permanent Amik limit to some here turns into an inequal.
-And it was something that was not clear to everyone. the reason for this simply is that very often if you do a numerical calculation,
-you will only say, I don't want to make calculated infinitely large lattice.
-I want to calculate the lattice would say a hundred letter sites, which is kind of down in the big box, potentially.
-This means it makes sense to only have one hand Bunyah functions.
-That asite, one to 100 and that that means if you do the IT before it transform also, you would only have Bloch waves at this quick, crazy moment.
-You can think of a particle in a box.
-The ground state will have a one momentum K and the more at the minus K, you can't fit all uppercase in there because you have this box.
-And the same thing, of course we means through if you have a lattice.
-If the lattice lives in a finite box, you only have discrete momentum states that are possible.
-these cues here are discrete and then you have a sum over discrete moment.
-And in the firm academic limit. if your box becomes infinitely big.
-you go from the box into freespace. Just keep lattice potential there.
-Then this turns into a continuous distribution. And you go from the sum to an integral.
-And the last thing that I was making a point about, which I think is very important,
-is to say that the value functions to Bloch Wavves from an offer moral basis of the food single particle Herberts space.
-That basically means that he can take whatever physical situation you have. You can describe this all in plain waves.
-It's a valid basis, but it's a very inconvenient basis because momentum is not conserved.
-You can describe it in Bloch waves, which is maybe for many things better left a better basis because the quantum momentum is conserved.
-And the band index very often is conserved because very often you don't have situations. We have Interbrand scattering.
-And then if you can like, was quickly served to a single event, you can also very often does quite everything in this.
-Baz's of vanua functions just a different basis to Euston. It's also a complete Baz's because you have these nice properties that these
-are the most local functions that you can do that would be missing at.
-if he'd go away from all of the maybe more abstract definitions you can really think of,
-a bit of a Bunya function is to save a half a atom in the lowest band,
-and that atom is localised on one that the site I that this is in, this one you from the atom isn't this value function centre.
-And this letter said if the atom was to be formed on that little site, then it would be the vanua function centred around this little site.
-And if we wouldn't if it would be in a different band, then it would be the bunya function of two different bent, which would have a different look.
-If you think of relatively deep lattice, you can think of this one as a harmonic trap.
-Each letter site isn't harmonic trapped.
-And then the lowest value function becomes a gorshin and the first Yehya excited vanua functions become the excited states of the harmonic oscillator.
-And for those wants that are maybe a bit more mathematical minded, here's another way how you can think about this.
-If you say I want to have a local ice particle with space now outsite of the lattice in freespace,
-you would say the most localised to I can write down is the Delta function,
-Delta X minus X, not to lift the particle would be localised at the point X not.
-And you know that you can express this as an even superposition of all of the plane waves each of the X.
-Now, the same thing is true, you should look to the Baz's transformation from the plane ways into the Bloch ways,
-because we said that the plock ways are often on the basis of all of foubert space.
-the same way as the plane weighs. I can expect the same thing. The data function I can express as a sum of all of the plot ways.
-This should be X minus X, not not set changes in Slate and some or all of the bands and.
-Because this is to say, Spencer had saved them both space. Then this one does.
-And now if you now say that he was tricked us now to a single band.
-there's no sum over all of the bands in here anymore. And just looking at one single and then you can think of this as, say,
-I have less momenta at my disposal because many of the plane waves are known what they are, many of the plot ways.
-I'm not there because they live in different bands,
-which means that I have less momentum states so they can play with less basis states of which I can make a localist function.
-The function would be less localised.
-It we'd be still to be localised around a single letter site, but it would not be as localised as a delta function.
-And the function I get is then the venue function. And the last step that we did in the last lecture was to say no,
-that we have to as Baz's of maximally localist orbital so of the way function that describe a particle sitting on one,
-let the site in the lowest bend or in bent. And we can then write down the Hamiltonian because such a particle.
-a dego creates the particle Vanya state onsite. And we have Tropp to the end because we're not only thinking about the lowest band.
-And then if you went down Hamiltonian, the Hamiltonian fundamentally describes the two terms.
-we have to kinetic energy, which is basically saying the particles moving around.
-And we say particles move from site J to site eye by being destroyed insite J and B were created insite.
-That's just the language to be used here.
-The language of this prosodic annihilation creation apparatus and the crickets here, I mean, at the summation is just of our peers,
-of nearest neighbours, because we are in a so-called tight,
-binding regime of particles can only hope from one site to its stivic in neighbouring site.
-We also said that in a more ingenious system,
-the second term is unimportant because it's kind of the same energy, irrespective of word of particles are.
-And the last term years, just a total particle number times the chemical potential.
-this is the term that you get Insec in the current canonical ensemble to look at how many particles you would actually happen to the system.
-And we'll talk about more about this term in the next lecture or so.
-And then the only thing that we need is the tunnelling term. It's basically saying, OK, how likely is it or how fast is it?
-What is the rate for particles going from one site to the next?
-And that's basically given a typical overlap into quaffed away function on site ie insite a plus one.
-And you Hamiltonian in the middle. And this is not a full Hamiltonian to describe single particles in a in the lowest band of an optical lattice.
-It is a slightly heard, Tony, that you would want to look at if you would want to describe, quote,
-direct condensation of non interacting particles in a dubious sea of balls Enns in an optical lattice.
-And the next challenge will be to look into it was InterAction's into this Hamiltonian ethem to disarm Etonian.
-Becan oscilloscope that we can also see where interacting particles.
-And if we add those, then we end up with the full Boza Hubbard model.
-What you can see now here on this plot is the molecular potential between two atoms.
-you basically see the potential energy V as a function of the distance between two particles, between the two at between two atoms.
-And these molecular potentials, they're obviously pretty complicated. And that gives rise to the richness of molecular physics.
-we no need to find a very simplified description of this that we can use to study anybody physics.
-For this, it's important to think a little bit about these potentials. On the one hand, for long businesses here,
-you have a fund of arts interactions into know attractive potential to form one over minus one or two to six out of the six,
-because this is an induced type, would open interaction at last distance, large distances, because the atoms are both electrically neutral.
-They have no permanent Dipo moment. you don't have any electrostatic interaction, you don't have any dipole dipole interaction.
-the next time you get this an induced over doper, one of our art after the six and the potential comes down here, it gets actually very, very deep.
-this case, he was one electron. What so does we need, as Khail, of binding energies of wheely bond molecules that you have in we life?
-It's not the energies we work at all. Add we've Otakon atoms. these kids is much, much, much bigger than what we are.
-The minimum distance of this potential here, what the distance of the minimum is Tipitina out of 10 angstrom.
-a few nanometres at most. And then we have a very a fast rising potential on the insite, which is the exchange interaction.
-It's more distances. Simply said, if the atoms get very, very close to each other, the electron clouds, the electron cloud start to overlap.
-And then both the poley principle and also the culum interaction between the electrons means
-that there must be a very strong participant to actually 020 Clouds don't wants to overlap.
-The crucial thing to see here is that this typically distances here is typical distances.
-They are very, very small.
-And in fact, the range of this potential sort of range from here to here to potential is really important, is typically much, much,
-much smaller than both to deploy wavelengths of the particles because the particles are very slow,
-because we are very cold temperatures, which means that deploy where is very hot, very high.
-And they're also much, much smaller than the typical distance between the particles.
-basically, if you want all of our physics happens on, say, this kind of scale.
-But then the interactions case is much, much, much, much shorter.
-And that gives rise to a very, very strong simplification that will make a lot of Yusoff,
-which is basically saying that we can be the wheel potential by an effective contact potential.
-the particles only interact if they are at the same position.
-our effective potential as a function of AH is just a parameter G times dardar.
-particles only interact where they are at the same point. It's a contact interaction.
-It's an approximation. Do we know the direction is much, much more varied?
-Has a medium range travelled from the bottom and so on. But it's a very good approximation because typically we in a situation with a particle,
-has never explored these details of the potential because there are kind of inherent resolution.
-They deploy wavelength and also the distance, the typical distance is much, much, much coarse and bigger than the scale of this potential.
-And that, of course, makes life much, much easier because he's death potential potentials there much easier to deal with.
-Up to 50. This is perimeter as Giese parameterised in the form of four pi h past create over M times of Prometa A where A is the scattering length.
-And in the future we mostly talk about different regimes, meaning different scattering things positive, negative and so on if A is positive.
-We're talking about to be positive in direction because then the effect of potential is
-positive and yet items have to pay an extra energy when they come very close to each other.
-If it's negative, we have an attractive interaction, which typically August leads to an instability for B.C., but it would be important for for me.
-typical parameters. If I take a typical B.C. take for instance, Rubidium, 87, one of the easiest atoms to condensate.
-I have a scattering length on the order of 100, a not so typical wages.
-Tenths of a not hundreds of knots is the typical range and a knot is half an angstrom, more or less.
-It's borrus radius. Have power, the other thing that's very important and very powerful for cold atoms is that very often we can goondas,
-a so-called Feshbach resonances allow us to Judah's about changing the magnetic field.
-we just apply a different magnetic field and we can get a different a.
-The effects, stem cell molecular physics, and I'm not going to go into details here for the sake of time, but you can think of this very often,
-that the magnetic field is just a joining up with which you can join the sign and the strength of the interaction.
-you can have not interacting atoms with parts of attractive, strongly interacting,
-weakly interacting atoms just by dialling one of the athletic future.
-It doesn't work for all that was bedrocks for many cases. And of course, quantum simulation experiments, not typically a concentration of those atoms.
-Like, for instance, potassium atoms where you have nice paper resonances where you can really tune the interaction at will.
-OK. how can we not take this and introduce this into our Hamiltonian, which we have written down in second quantise plantation?
-If I take the general case off a generic to particle interaction term, Whiton in terms of the field operators,
-so the operators site Dega and BPCI that create and destroy a particle position are prime.
-They're basically a generic term they would have to write down is to following interaction.
-Energy is given by half the integral of all of space for position particle one.
-And all of space for a position of particle two. And then I have my two particles.
-A position are prime and are and similar to what we did in the description of the tunnelling term.
-What we do is we effectively destroy the particles at these two positions and then we create the particles.
-Now in this case at the same positions. this term if you want.
-they go up. they Upsite's site is kind of filtering out. You really have two particles at these two positions.
-If yes, then. Okay. And they put the particle spec there. If not, did the whole term zero.
-And it doesn't give us something. And then it basically tells us the potential that you multiply.
-This is the interaction potentially B minus our prime.
-if I have two particles at distance are the positions are and are prime, then their interaction energy is given by the potential V.
-At distance R minus one. And this term, of course, can be pretty complicated and can be pretty unwieldy, too, to use.
-But we can simplify it a lot because we can say, okay. We go to this effective potential.
-We say we use as contact potential G times to do function on minus our prime, no F with everything in 3D.
-And then, of course, simplifies things a lot because that basically kurds' one of those antiquity integral over our prime.
-And we're basically left with G halftimes integral over R.
-Dega upsite. Dega upsite upsite. it basically says only when two particles are at the same position are then they would have an interaction
-and mgg doing Hardisty because they have to operate this year and definitely have kind of two possibilities.
-How I can have these two particles. it cancels out of I have this interesting stupidity argument.
-OK. And now we want to, like, describe this kind of generic interaction term in our bases of any functions that we have justified.
-let's do this and let's take the city emulation of annihilation operative sigh and write this one in terms of Stephania basis.
-basically saying destroying a particular position ah is the same as destroying a particle is a position of all of those Wanya functions.
-A.I.M. weighted by the Bunya function at this potential.
-we're basically saying, Hugh, I think of a party, it is quite a party, but it's kind of a data function of all.
-And as I said before, the Vimy functions are full, complete, often on the basis who I can express everything.
-Also, the data function as is what position of all of those functions. we can do this and we get a term that's quite a bit more unwieldy again,
-because now we have to say we still have our integral and we have to adequate of Upsidaisy Upsidaisy Upsite's CI a.
-Each of those terms. they go. And so we've expressed as a sum of all of those Vanney function.
-we have no kind of fourfold some over four eyes and four ends.
-We have our creation annihilation apparatus here and we have to vanua the protocol for Bunyah functions.
-And this term is, of course, pretty unwieldy, and the main point to see from this term is that because you have different ends in here,
-because you have a different you have one independent and independent I for each of the four operators that you have to put in.
-It tells us that the directions can, in principle, couple of different bands and let the science.
-Which in principle makes sense, what if I have only a function on one,
-let the site and the manufacturer in the second bend and the same, the other site is VantagePoint is open up.
-They live on the same space. in principle, I can due to the interactions,
-have particles going from the one bad into the other bent getting destroyed and the one bunyah function and being
-recreated in the other one you function are of those terms are more possible in this kind of interaction term.
-I can also say that in principle I can have an interaction between atoms on neighbouring Letha site, because if you look at the vanua functions,
-the blood of them, they always have the small extra site lobes, the small rabidity of the particle also being on the next Letha site.
-here's the unwieldy term again. And now we simplify it again because we say we take approximation if we retain the biggest term
-only and the biggest term is the one where all of the eyes are the same and the ends are the same.
-And in addition, we assume that only particles are the particles are all in the lowest band, that only the lowest band is occupied.
-And then we can basically say, okay, well, instead of having all of those songs over for Ice and four forehands, we only have one sum over I.
-And we only get I Dega, a dagger eight toy, a Heidegger, Heidegger,
-a I and then the integral over the vanua function in the lowest banded indicator, but is zero onsite.
-I took the power for absolute value of the value of the value function to the fourth power of the value.
-Because Johann fixator complex conjugate times do not complex conjugate, which basically gives me upset.
-They just quit and they have to support a two time. I get the absolute value integrated to the fourth power.
-And this is no neat, because if we know half the points that all of the vanua functions around all of Letha sites ie are the same,
-it simplifies even further because we can basically and say which read the site to look at.
-Doesn't matter. And you can define a new constant which will call you, which is just g. times to antiquity.
-Are over the bunya function of a one budney function to the fourth poor.
-And then the last thing that we want to deal with this, this Operators' Europe is a dagger, a dagger AA.
-And for this, we just have to remember that a and a dagger omeprazole nick operators.
-we after was only commutation relation. The commutator a dagger equals one, which is if you work it out as a dagger minus a dagger, a equals one.
-you can say that a dagger a you can write as a dagger minus one.
-If you take this, you can go to this product that we had here, a dagger, a dagger, A.
-That's the product we have up here. We can take it.
-We want to like, change the order of this middle pair here, a dagger able to change this into a a dagger.
-Then we know from the line that both to begin to minus one. in total, we have this extra term, a dagger, a it's just a dagger.
-And this A and the minus one here in the middle as the second term.
-And this is convenient because a dog or a is nothing else.
-And the number of Reutter N. a dog or a dog or a the first one here.
-This just ends queered so it can basically white this now as ends queered minus end or end times and minus one.
-Which means in total, if I take this interaction, energy and did is not the final result,
-if we need the interaction energy for bosun's and an optical lattice is given by you over to you is a constant,
-which is basically given by this thing. It depends on your vanua function to tided of any function is confined.
-The bigger the vanua function in the Middle East and the bigger the power of the money function is that a bigger integral becomes.
-And on G-suit, therefore on the interaction constant a on discovering links to a source, just a parameter you is just a parameter for us.
-You over to time, sum over I and I and I minus one.
-And this is now a very simple result. It makes sense to think about it a little bit.
-And I is the number of atoms on that asite, I and what it basically tells us that each of the atoms on Letha site,
-I will interact with the N minus one other atoms and at the site.
-if you want, you have N times and minus one and two action terms in here.
-Now, because the particles are indistinguishable. The interaction of particles, one with three and three or if one is the same thing.
-we basically did some double counting in here and all combinations happen to all combinations are showing up twice in the sun,
-which basically means we have one half year in front to compensate for that.
-if we have one particle on here, we got a one time zero low interaction as it should.
-If we have two particles, we have two times one. we get two in here divided by these two cases.
-One. we haven't two action. And you so used into action, energy of two particles on the left site.
-And then you can calculate what happens for three particles, four particulates and so on.
-And just for those of you who worked on the Atomic, an optical physics course,
-you basically have seen something with interaction, energy and minefield just goes and squared.
-you made what might want to know, how does this play out with this end times and minus one we have here?
-And the answer is very simple. If you have many, many particles in the same mode, dear, you were talking about it.
-You see with thousands or hundreds, thousands of particles to have this much bigger than one.
-You basically get that End-Time and minus one is basically the same as N and you find that the interaction energy just goes and squared.
-for large m the ends quia term that you half of the cost DSG equation is correct.
-But if you really, really go down to very small numbers and remember it's an operator.
-it is really the projection of the particle numbers that you get.
-Then the quantised nature of the particle number is important.
-If I say I have a half a particle and let's decide on one particle and let the site then ends, create would be one.
-But if I have one particle, there's nothing for it to interact with. we need to have something where four equals one, the total to X energy zero.
-And that's is just given by this end times and minus one.
-The next step now for us is to simply combine all of those resources that we have and fully write down the four Boza Harbour to Latonia.
-here we have it. The first term is to kinetic energy that it actually arrived last lecture and looked at earlier this lecture.
-The second term is the interaction, energy that we have just arrived.
-The third term is the local potential energy, which is relevant only if and only if the onset energy depends on eye.
-So, for instance, if you have a trap or have a super that this would be high, low, high, low, high, low.
-But we can very often neglected. And the last term is new times and chemica potential times total at a number which is only relevant in a crank.
-Michael Ensemble and I talk about this again a bit later. When is this the valid Hamiltonian to describe our system?
-Whereas a couple of things that we need, but they're actually very moderate and they're easy to achieve.
-The first one is we need a reasonably deep lattice.
-we need to be in this tight binding limit, which basically just means that letter step needs to be at least five we call,
-which is easy to achieve and we just do regime people normally broken. The second one is we need to have not too strong interactions because remember,
-we made this approximation that we took out all of those terms with couple different paths.
-We were basically saying we just looking at the biggest terms and the one is just a good approximation.
-If the scattering length A is much smaller than let us constant.
-That is constant, typically is a couple of hundred nanometres. If I think about rubidium, what it's getting left is Neudorf 10 nanometres.
-That's a very good approximation or equivalently, equivalently, I can also say that my,
-you know, interaction, energy, you hear, should be much, much smaller than the bandcamp.
-And typically, if I'm say about five, we call it six, we call. That's also very well fulfilled.
-this is defined. basically what this means is that both requirements are typically fulfilled with vertical atoms and
-optical lettuces a day for wheely faithful or accurate implementations of the Boza HUBBARTH model.
-And later on, the Fermi, but not limited affirmance.
-And it's a very neat situations, a very different situation from Sonnet's, because in solids, these are only ideally highly idealised models.
-And therefore, it was very hard to ask, OK,
-if the predictions of these models to not describe the physics moves here to be a solid isn't just a wrong model,
-or if we just solved the model in the wrong way here because we really faithfully implement that model, we can answer that question.
-now let's look at the crown states of this model. Let's ask you to take off.
-This was a Harvard model and neglect the last term here.
+And this has very important consequences and the very intuitive way of thinking about the system, because when we do time of flight, when we say, okay, how do we take a measured momentum of a particle. We basically do this by this time of flight imaging where we switch off suddenly the lattice, which basically means we project our Bloch wave, we've acquired momentum $q$ onto the constituent plane waves. And that means we would see for each Bloch wave a set of peaks at discrete points after time of flight. And then we said, okay, we'll also want to move over to a bunch of functions because we said very often it's inconvenient to have momentum space representation, because the interactions are local, because the real space potentials, traps and other things that we might want to add, are local. We will want to have a real-space representation. And all of you have seen these Wannier functions before. I should maybe say a few more words about them. The first thing is, again, the reminder that the Wannier functions are defined as a discrete sum of the waves and we're basically doing this just in a given event. Do we get the Wannier function in this band? We don't take all of them, just the ones in one Bloch wave. And these Wannier functions are localised around two sites. In the permanent atomic limit to some here turns into an inegral, which is not clear to everyone. The reason for this simply is that very often if you do a numerical calculation, you will only say, I don't want to calculate an infinitely large lattice, I want to calculate the lattice with say a hundred lattice sites, which is down in the big box potential. This means it makes sense to only have one hundred Wannier functions.
+
+You can think of a particle in a box. The ground state will have one momentum $k$ and another at $-k$, you can't fit all others in there because you have this box. And the same thing, of course remains true if you have a lattice. If the lattice lives in a finite box, you only have discrete momentum states that are possible. These $q$ here are discrete and then you have a sum over discrete momenta. And in the thermodynamic limit, if your box becomes infinitely big, you go from the box into freespace. Just keep lattice potential there. Then this turns into a continuous distribution. And you go from the sum to an integral. And the last thing that I was making a point about, which I think is very important, is to say that the Wannier functions form an orthonormal basis of the full single-particle Hilbert space. That basically means that whatever physical situation you have, you can describe this all in plain waves. It's a valid basis, but it's a very inconvenient basis because momentum is not conserved. You can describe it in Bloch waves, which is maybe for many things a better basis because the quasimomentum is conserved. And the band index very often is conserved because very often you don't have situations with interband scattering. You can also very often do everything in this basis of Wannier functions. It's also a complete basis because you have these nice properties that these are the most local functions.
+
+If we go away from all of the maybe more abstract definitions you can really think of, a Wannier function as having half an atom in the lowest band, and that atom is localised on one lattice site $i$ that this is in, this one you from the atom is this Wannier function centre. And this lattice said if the atom was to be formed on that lattice site, then it would be the Wannier function centred around this lattice site.
+[pic]
+And if we wouldn't if it would be in a different band, then it would be the Wannier function of two different bands, which would have a different look. If you think of relatively deep lattice, where each lattice site is a harmonic trap, then the lowest Wannier function becomes a Gaussian and the first excited Wannier functions become the excited states of the harmonic oscillator. And for those that are maybe a bit more mathematical minded, here's another way how you can think about this. If you say I want to have a localised particle with space now outsite of the lattice in freespace, you would say the most localised to I can write down is the Delta function, $\delta(x-x'). And you know that you can express this as an even superposition of all of the plane waves each of the $x$. Now, the same thing is true, you should look to the basis transformation from the plane waves into the Bloch waves, because we said that the Bloch waves are often the basis of the full Hilbert space, the same way as the plane waves. I can expect the same thing. The delta function I can express as a sum of all of the Bloch waves. And now if you now say that this has restricted us now to a single band, there's no sum over all of the bands in here anymore. And just looking at one single and then you can think of this as, say, I have less momenta at my disposal because many of the plane waves are known what they are, many of the Bloch waves are not there because they live in different bands, which means that I have less momentum states so they can play with less basis states of which I can make a localised function. The function would be less localised. It would still be localised around a single lattice site, but it would not be as localised as a delta function. And the function I get is then the Wannier function.
+
+And the last step that we did in the last lecture was to say no, that we have to as basis of maximally localised orbital so of the wavefunction that describe a particle sitting on one lattice site in the lowest band, and we can then write down the Hamiltonian for such a particle.
+[a dagger]
+creates the particle Wannier state onsite. And then the Hamiltonian fundamentally describes the two terms. We have the kinetic energy, which is basically saying the particles moving around. And we say particles move from site $j$ to site $i$. The summation is just over pairs of nearest neighbours, because we are in a so-called tight-binding regime where particles can only hop from one site to its neighbouring site. We also said that in a homogeneous system, the second term is unimportant because it's the same energy, irrespective of where the particles are. And the last term is just a total particle number times the chemical potential. This is the term that you get in the canonical ensemble to look at how many particles you have affects the system. And we'll talk more about this term in the next lecture or so. And then the only thing that we need is the tunnelling term. It's basically saying, OK, how likely is it or how fast is it? What is the rate for particles going from one site to the next?
+[eqn, eqn]
+And this is not a full Hamiltonian to describe single particles in the lowest band of an optical lattice. And the next challenge will be to look into interactions in this Hamiltonian. And if we add those, then we end up with the full Bose-Hubbard model. What you can see now here on this plot is the molecular potential between two atoms. You basically see the potential energy $V$ as a function of the distance between two particles. And these molecular potentials, they're obviously pretty complicated. And that gives rise to the richness of molecular physics. We now need to find a very simplified description of this that we can use to study manybody physics. For this, it's important to think a little bit about these potentials.
+[pic]
+On the one hand, for long distances here, you have a Van der Waals interaction
+[eqn]
+because this is an induced dipole interaction at large distances, because the atoms are both electrically neutral. The minimum distance of this potential here, what the distance of the minimum is on the order of 10 angstrom. A few nanometres at most. And then we have a very a fast rising potential on the insite, which is the exchange interaction at small distances. Simply said, if the atoms get very, very close to each other, the electron clouds start to overlap. And then both the Pauli principle and also the Coulomb interaction between the electrons means that there must be a very strong repulsion. The crucial thing to see here is the typical distances are very, very small. And in fact, the range of this potential is really important, is typically much, much, much smaller than both the de Broglie wavelengths of the particles (because the particles are very slow, because we are very cold temperatures) and the typical distance between the particles. Basically, if you want all of our physics happens on this scale. But then the interactions length is much, much, much, much shorter. And that gives rise to a very, very strong simplification which is basically saying that we can replace the real potential by an effective contact potential. The particles only interact if they are at the same position.
+[eqn]
+And in the future we mostly talk about different regimes, meaning different scattering lengths are positive, negative and so on. If I take a typical BEC, for instance, Rubidium 87, one of the easiest atoms to condensate. I have a scattering length on the order of 100 Angstrom, and the Bohr radius $a_0$ is half an angstrom, more or less.
+
+The other thing that's very important and very powerful for cold atoms is that very often we can use so-called Feshbach resonances to tune this $a$ by changing the magnetic field. We just apply a different magnetic field and we can get a different $a$ (scattering length). The effects are important in molecular physics, and I'm not going to go into details here for the sake of time, but you can think of this very often, that the magnetic field is just a joining up with which you can join the sign and the strength of the interaction. You can have not interacting atoms with parts of attractive, strongly interacting, weakly interacting atoms just by dialling one of the features. It doesn't work for all atoms but for many cases. Like, for instance, potassium atoms where you have nice resonances where you can really tune the interaction at will.
+
+OK. How can we now take this and introduce this into our Hamiltonian, which we have written down in second quantised notation. If I take the general case of a generic two-particle interaction term, the energy is given by half the integral over all of space for the position of particle one, and all of space for a position of particle two. And then I have my two particles. What we do is we effectively destroy the particles at these two positions and then we create the particles. Now in this case at the same positions.
+[eqn]
+if I have two particles at the positions $r$ and $r'$, then their interaction energy is given by the potential $V(r-r')$. And this term, of course, can be pretty complicated and can be pretty unwieldy, too, to use. But we can simplify it a lot because we can say, okay, we go to this effective potential.
+[eqn]
+We say we use a contact potential $g\delta^3 (r-r')$ in 3D, which simplifies things a lot because that basically removes one of those integrals over $r'$. And we're basically left with
+[eqn: G halftimes integral over R Dega upsite. Dega upsite upsite.]
+it basically says only when two particles are at the same position would they have an interaction energy $g$. The half is there because they have two operators and therefore can have two possibilities of how I can have these two particles. It cancels out if I have this indistinguishibility argument.
+
+
+OK. And now we want to describe this generic interaction term in our bases of Wannier functions. You're basically saying, destroying a particle at position $r$ is the same as destroying a particle in a superposition of all of those $a_{i,n}$ weighted by the Wannier function at this potential.
+[eqn]
+And as I said before, the Wannier functions are a full, complete, orthonormal basis which can express everything. Also, the $\delta$-function as a superposition of all of those Wannier functions. We can do this and we get a term that's quite a bit more unwieldy again, because now we still have our integral over $\psi^+ \psi^+ \psi \psi$, and each of those terms have been expressed as a sum of all of those Wannier functions with the creation annihilation operators.
+[eqn]
+And this term is, of course, pretty unwieldy, and the main point to see from this term is that because you have different $n$ in here, because you have one independent $n$ and independent $r_i$ for each of the four operators that you have to put in. It tells us that the interactions can, in principle, couple different bands and lattice sites.
+
+Here's the unwieldy term again. And now we simplify it again because we retain the biggest term only, and the biggest term is the one where all of the $i$s are the same and the $n$s are the same. In addition, we assume that the particles are all in the lowest band, that only the lowest band is occupied. And then we can basically say, okay, well, instead of having all of those sums over $i$ and $n$, we only have one sum over $i$.
+[eqn]
+And this is now neat, because if we now have the points that all of the Wannier functions around all of lattice sites are the same, it simplifies even further because we can basically and say which lattice site to look at doesn't matter, and you can define a new constant $U=g\int d^3 \vec{r} |w_0(\vec{r}|^4$. And then the last thing that we want to deal with this,
+[eqns]
+And for this, we just have to remember that $a$ and $a \dagger$ are bosonic operators. The commutator equals one. I can basically white this now as
+[eqn]
+which means in total, the interaction energy for bosons in an optical lattice is given by
+[eqn]
+It depends on your Wannier function; the bigger it is in the middle, the bigger the integral becomes. And this is now a very simple result. It makes sense to think about it a little bit. $n_i$ is the number of atoms on site $i$ and what it basically tells us is that each of the atoms on lattice site $i$ will interact with the $n-1$ other atoms and at the site. Now, because the particles are indistinguishable, the interaction of particles 1 with 3 and 3 or 1 is the same thing, so we have a $1/2$ for double counting.
+
+You might want to know, how does this play out for thousands of particles? And the answer is very simple. If you have many, many particles in the same mode, you basically get that the interaction energy just goes as $n^2$ which is consistent with the Gross-Pitaevskii equation. But if you go down to very small numbers, remember it's an operator; it is really the projection of the particle numbers that you get. Then the quantised nature of the particle number is important.
+
+The next step now for us is to simply combine all of those resutls that we have and write down the full Bose-Hubbard Hamiltonian. here we have it:
+[eqn]
+The first term is the kinetic energy (derived last lecture). The second term is the interaction energy that we have just derived. The third term is the local potential energy, which is relevant if and only if the on-site energy depends on $i$. So, for instance, if you have a trap. But it can very often be neglected. And the last term is the chemical potential times total particle number which is only relevant in a grand canonical ensemble and I talk about this again a bit later.
+
+When is this the valid Hamiltonian to describe our system? Firstly we need a reasonably deep lattice. We need to be in this tight binding limit, which basically just means that lattice depth needs to be at least $5E_r$, which is easy to achieve. The second one is we need to have not too strong interactions because remember, we made this approximation that we took out all of those terms which couple different bands. We were basically just looking at the biggest terms and the one is a good approximation if the scattering length $a$ is much smaller than the lattice constant (typically a couple of hundred nanometres), or equivalently I can also say that the interaction energy should be much, much smaller than the bandgap.
+
+Basically what this means is that both requirements are typically fulfilled with ultracold atoms and therefore optical lattices are accurate implementations of the Bose-Hubbard model (and later on, the Fermi-Hubbard).
+
+Now let's look at the ground states of this model. This was a Hubbard model and neglect the last term here.
 I forget about that one that I would say that I have a fixed feeling. I also don't have to worry about this term.
 What would be the queen status of this model? And very often quantum mechanics, you know, have two opposite terms.
 You have the kinetic energy term ante interaction. And it's a term and you can ask yourself which term will dominate?
@@ -268,12 +70,12 @@ It would be a superfluid. It would be it was Einstein condensate. In this case, 
 if we have an abels ons, they will all go into the kuiken.
 Zero Bloch wave. The lowest Bloch wave. we basically half the expression for the lowest Bloch wave to the end of an eighth power.
 we put all atoms into the single particle Chron state. And the second quantise notation, the proc wave of go zero,
-whereas the phase factors vectors can be just within as a discrete sum of all of the Bunya states.
-This is if you want a discrete Fuyu transform from the Bunya states back into the waves.
+whereas the phase factors vectors can be just within as a discrete sum of all of the Wannier states.
+This is if you want a discrete Fuyu transform from the Wannier states back into the waves.
 we are now expressing the Bloch wave as the sum of all of the various states.
 And we operate with this one to be an eighth power onto the vacuum state,
 which basically means we take a particles and put each particle into the single particle quantity.
-that state is then a delocalised state where every particles kind of delocalised over the whole lattice.
+that state is then a delocalised state where every particles delocalised over the whole lattice.
 And if you look at that state in various descriptions, you will find that the state is a super forward state.
 It has long range Aurora off there and along which order because it is A, B, C state and its phase coherent,
 which basically means that you think of the phase and on which phase order an image measured a fluke of phase of the way function to one.
@@ -282,31 +84,31 @@ now we take all of those concepts from the phase transitions lecture long which 
 And they all apply to this. Beezy. If we know two experiments, if we measure this B.S. in lattice, what do we get?
 Well, if we measure in momentum space, we get a momentum distribution. It looks this.
 We have the typical B.S. peak of zero momentum and we have the satellite peaks that we discussed in the last lecture,
-plus two and minus two, HBK in both the X as well in the Y direction and some higher order terms.
+plus two and minus two, $\hbar k$ in both the X as well in the Y direction and some higher order terms.
 And that's a consequence because we now don't have condensation in plane waste, but condensation of longways.
-If we were to look and we can do this with a microscope, quantum gas microscope locally and ask how many atoms to essy on each letter site,
+If we were to look and we can do this with a microscope, quantum gas microscope locally and ask how many atoms to essy on each lattice site,
 you will get something that will look very it is ordered because each particle, each atoms delocalised over the whole lattice.
 Then they will do a measurement and a projector particle numbers down to a projector particle
-down to individual letter size because they measure how many particles I find here.
+down to individual lattice size because they measure how many particles I find here.
 Each particle, which will be projected down into one, let the site arbitrarily.
-And that means that it will have various different atom number two that can measure in different letter sites just by Chip by chance.
+And that means that it will have various different atom number two that can measure in different lattice sites just by Chip by chance.
 Some will seem empty. Some moves him with one. Ednas two. It is three atoms we will see in a few slides.
 It actually will follow a persona in distribution.
 If I take the upper limit, if I take the limit of infinitely stronger parts of a direction, which basically means I take, you know, to be positive.
 if a positive, repulsive energy and I take the kinetic energy to be zero teakwood zero, which means a very, very deep lattice.
 Then we will be in a state and we'll call a modern insulating state. now if if you want to, like, minimise your Connecticut, your energy.
 Only energy, you have to minimise the interaction and energy, which basically means you just have to go out of each other's way.
-You should never put more than one particle on the letter site. if I have in total as many particles as I have letter sites.
-I am filling one, then basically what I get is a state where I put exactly one particle into each letter site and that's it.
+You should never put more than one particle on the lattice site. if I have in total as many particles as I have lattice sites.
+I am filling one, then basically what I get is a state where I put exactly one particle into each lattice site and that's it.
 the White House down. I take one particle, a dagger, and put it on and put one particle on site.
 I operating with a dagger, operating in a vacuum, as usual, filling in.
 And in this case, it's the filling factor.
-If we have any good one you can forget about, it just means that you put a one particle in each letter signed in Protocol four.
+If we have any good one you can forget about, it just means that you put a one particle in each lattice signed in Protocol four.
 I means that you put Notah particles one insite one one. And so two, one and two and three wanted to add four and so on.
 The state that you now get if you look at that state in weird space,
-you would find exactly one particle and each letter sent because that's what you did by Hot almost behind you.
-Put them one in each letter. And that's the state.
-If you have this comment about filling us with qualities, you have as many particles as you have letter sites.
+you would find exactly one particle and each lattice sent because that's what you did by Hot almost behind you.
+Put them one in each lattice. And that's the state.
+If you have this comment about filling us with qualities, you have as many particles as you have lattice sites.
 That's the quantity that you will get. If you look at that state in momentum space, the calculator's next lecture.
 But intuitively speaking, because each particle is more localised to an individual, that site very localist need space.
 It must be very delocalised the momentum space because each particle now wheely
@@ -325,7 +127,7 @@ And there's no long Wenche phase coherence.
 they matter where field and left hand site now has nothing to do with tomatoey fields on the hand site.
 the picture for this state is viewed at each ethem as localised to a single site.
 And this date can only exist for commentor at filling.
-Which means if the number of atoms divided by the number of letter sites is an integer one at depoliticise two Etna's politicised three,
+Which means if the number of atoms divided by the number of lattice sites is an integer one at depoliticise two Etna's politicised three,
 four, five and so on. If you have, say, one point two atoms politicised,
 then you will always have a few excess particles on top of this modern sitting background
 and they are free to move around because they pay the same into action energy everywhere.
@@ -358,7 +160,7 @@ we're thinking in the crank canonical ensemble and we're saying that new is the 
 With respect to particle number, we are Teagle zero, which makes life easy.
 Otherwise you would have to say that this is under the condition of constant entropy.
 you would have seen this term in the Firmament Statistical Physics lecture last year.
-And as a reminder, it's kind of telling you how much energy will the state gain if you add another particle?
+And as a reminder, it's telling you how much energy will the state gain if you add another particle?
 the way you can think about this is you can think about this if you have a couple of subsystems.
 And then there is like, say, more particles that you want to put into the subsystem.
 You can ask each subsystem how much energy you would you need to take up in order to take up this extra particle.
@@ -393,7 +195,7 @@ we just have to total and a total the total minimum of this term in order to get
 If I have if I'm between zero and one so small and positive, I have a small negative term here.
 if I end is bigger than zero, if I put a particle in there, this term becomes negative.
 If this term, Mr. Zero, the whole thing wins. The minimum was there.
-And I have one particle on each letter signed and then its chemical potential going through you.
+And I have one particle on each lattice signed and then its chemical potential going through you.
 There's exactly at this step here I go from one to two and it's now cheaper, better for me to have two particles in the game in the system,
 because then New Times two is bigger than the interaction term here and the total thing has its minimum to.
 you can see that the average particle number will increase from zero to one.
@@ -415,7 +217,7 @@ the change in density is a function of changing chemical potential.
 And if I have a flat line here, that means my density does not change when I change my chemical potential.
 That remains constant. That's the insulating incompressible A that you would expect.
 if you're in a state with any equal one where the average ETA member is one and you have this type of Hamiltonian up here,
-then you're in this modern sedating state. if you ask what's the probability of finding one particle on the Letha site?
+then you're in this modern sedating state. if you ask what's the probability of finding one particle on the lattice site?
 That's exactly one. That's a trivial plot on this slide, but this year to contrast with the plot on the superfluid slide in a few minutes.
 Another thing we can ask about this modern intellectual new atomic limit is we can ask about the excitations spectrum.
 Will it have? Will it be Kepler's? it can have very cheap excitations? Or will it be capped?
@@ -427,14 +229,14 @@ That's the smallest excitation you can do. And this excitation will cost the ene
 Let the sites see one thing in the air where you have two items on it at the site doubly occupied.
 you pay next iteration and G.U.
 what we say is that there's excitation creates one double occupancy, the double occupied let the site and a hole.
-an empty Letha site. And people also sometimes call us a Doppler on hold on power.
+an empty lattice site. And people also sometimes call us a Doppler on hold on power.
 Duplantis, O.W. Occupy that the site and the whole honesty empty at the site.
-And because they are kind of close to each other, it's a pair of that. the excitation spectrum is gapped.
+And because they are close to each other, it's a pair of that. the excitation spectrum is gapped.
 The lowest excitation you can do is costing energy. You.
 How do we describe these dates? How can we describe these dates and second quantise notation, that's actually rather simple.
-We take the states and each letter site and we can describe them as FOK states.
-That's number states. we say to state, well, we have an Athans on a letter site.
-I'm just talking about the single letter site again. I can write the Fox State N as the state where I with to vacuum.
+We take the states and each lattice site and we can describe them as FOK states.
+That's number states. we say to state, well, we have an Athans on a lattice site.
+I'm just talking about the single lattice site again. I can write the Fox State N as the state where I with to vacuum.
 And then just put n particles into the state. I operate with the creation of Paretta, a dagger to the power of N.
 And then I have this quote. And factorial here to keep the phenomenalist.
 And again, I do this mostly in order to have the comparison to the state we get for the superfluid state in the fusillades.
@@ -445,12 +247,12 @@ And if I extra ventilation operator a on the state and then I get the state and 
 You've seen this already and one B quantum mechanics. If I ask about dustups, Foxtail carry any phase information, so does this Fox.
 Is this Fox then able to interfere of anything? And the answer is no.
 The Fox states cannot interfere of anything because they carry no phase information whatsoever.
-basically the expectation value of PSI in such a fox did say as the field operator is zero.
-Even though the expectation value of size queered in the fox, it is non-zero.
+basically the expectation Wannier of PSI in such a fox did say as the field operator is zero.
+Even though the expectation Wannier of size queered in the fox, it is non-zero.
 For those of you that no phase to phase based representations, speaking of functions and so on,
-the Fox state is a state that's kind of a little ring around zero, so it has no preferred direction.
+the Fox state is a state that's a little ring around zero, so it has no preferred direction.
 the expectation that you outsite this direction and this direction and this direction is zero.
-But the expectation value of Time Square, the distance from the origin that is non-zero because you're in the swing with a certain radius.
+But the expectation Wannier of Time Square, the distance from the origin that is non-zero because you're in the swing with a certain radius.
 If not, that's not clear to you yet. Then don't very that will become more clear when you look at when we look at the next state on the next slide.
 And now the mod insulator India atomic limit.
 And again, I'm stressing in the atomic limit out of this, it will be more complicated, is just described by a product of local Foxton.
@@ -462,23 +264,23 @@ The way function is already set is that each atom is in the same state.
 If a macroscopic occupation of a single particle can state of the Bloch.
 And if you now ask again about the local distribution of particle numbers,
 you realise that each of the end particles has an equal chance to be found in any of the
-letter sites because the Bloch waves are separate out evenly over the whole system.
-basically the chance of each particle to be found in each and every letter site is the same.
+lattice sites because the Bloch waves are separate out evenly over the whole system.
+basically the chance of each particle to be found in each and every lattice site is the same.
 Which then means that local ETA number follows a multinomial distribution. This is basically a generalisation of the binomial distribution.
-if you would have an particle's, you would separate them out of a two letter sites.
+if you would have an particle's, you would separate them out of a two lattice sites.
 Then you would have a binomial distribution.
-And that would predict you how likely it would give you the prediction of how likely it would be to find how many atoms on each of the letter sites.
+And that would predict you how likely it would give you the prediction of how likely it would be to find how many atoms on each of the lattice sites.
 If you not have to, but many of them, it's sort of a binomial you can imagine normal distribution.
 This one looks, of course, a bit more complicated.
 But the same thing, the same thing applies to the binomial distribution that you have seen in the experimental methods course already in one bean.
-That's the point that this can be simplified to a product of precise distributions on each letter site.
+That's the point that this can be simplified to a product of precise distributions on each lattice site.
 Suki speaking. That's true in a Crenn canonical Osogbo, where a total at a number does not need to be conserved.
 But it's not so matter. It's not so important at this stage.
 What's important is that we really expect a distribution that looks this.
-Now it's a persona in distribution on each letter site.
+Now it's a persona in distribution on each lattice site.
 if you have an average at a number of one, it, you know, superfluid state, you have a high probability of finding one atom.
 But you have equally high probability of finding zero atoms on another site.
-And that's compensated for by a smaller probability of finding two, three, four or even more atoms on this Letha site.
+And that's compensated for by a smaller probability of finding two, three, four or even more atoms on this lattice site.
 we get this local atom number fluctuations, everybody I've seen on the introduction slide.
 The next thing is that it's obvious that not working case, the system must have kept this expectation.
 it cannot be kept. But it must be kept less, because the reason is that each particle, it sits in a single particle crown state.
@@ -500,7 +302,7 @@ which basically means if I take your nation on the state of war, I just get four
 they just like. Reproduce themselves under the annihilation operator.
 And these dates are very crucial in persons' quantum optics because they are the state's.
 Were large amplitude over that correspond to Cohu and classical Lightfields amplitude,
-often absent value Phifer and the phase phy, which is the argument of over.
+often absent Wannier Phifer and the phase phy, which is the argument of over.
 this complex number of unknowingly really encode something that classically
 corresponds to the MP Tudeh of a classical field and the phase of a classical field.
 they are the crucial states that make the connexions between quantised Lightfields, for instance, and classical electrical fuse.
@@ -511,9 +313,9 @@ You ask, what's the probability of finding any particles in such a coherent stat
 And these are all calculations that you've done last year.
 You'll realise it's the overlap into equal between the equivalent state over and the Fox state, an absolute make a.
 And you basically get the debt. Turns out to be a persona distribution where the average particle number really
-expected particle number for a state alpha is just given by absolute value.
+expected particle number for a state alpha is just given by absolute Wannier.
 Foskett amplitude does the intensity if you want.
-Important point for us now is that you can now calculate the expectation value in the clearance date of the insulation operator,
+Important point for us now is that you can now calculate the expectation Wannier in the clearance date of the insulation operator,
 BPCI, the field operator. That one is non-zero. As we said already, up here in the discrete version, it's not zero.
 And that means at launch pure B.S. at Duigan zero,
 which can be described as a product of this local human states with a constant phase to phase is the same
@@ -559,17 +361,17 @@ And this is now what we call a quantum phase transition, which is driven by quan
 To talk about this later. It just means for us now that it happens in the ground state.
 It's TEAC with your. And how does this look and experiment?
 Well, that's mostly something that you would see in the journal club this weak where we can talk about this also in more detail.
-But here is that the main plot of what they got. This is to B.C. In the absence of the lattice Desierto of life pictures, you see the typical VCP.
+But here is that the main plot of what they got. This is to BEC. In the absence of the lattice Desierto of life pictures, you see the typical VCP.
 And then if you increased lattice that if you load this into a lattice, you see the satellite pics coming up.
 And we talked about last time about that the satellite peaks become stronger for a deeper
-lettuces simply because the plock wave now has more mixtures of the higher order plane weighs.
+lattices simply because the plock wave now has more mixtures of the higher order plane weighs.
 But then here, between you and gee, something funny happens because we see it now, the character of the stage really changes a lot.
 We see it see that these sharp peaks really fully go away. And we seem to have a very incoherent state.
 And that's the phase transition from the superfluid into the modern insulator with a phase.
 Coherence is lost. Yes. No phase coherence in the system anymore. The phase is not long winch ordered anymore.
 And everything is happening just on the local scale. And then in a very deep let us where we deep in the mud insulator, we will have a much insulated,
 as we describe mostly by particle sitting on thing and let the sites.
-this is just the food transform of any vanua functions that you will get here.
+this is just the food transform of any Wannier functions that you will get here.
 And we discussed these pictures in Maldito Next lecture.
 we observe a reversible phase transition, so we observe to be can go into a deep lattice from here to here, goes away and comes back.
 We discussed this more and let us in the journal club. And it will have made a specific let us test the reasons we did.
@@ -577,8 +379,8 @@ The reasons are given here. The reason is that for larger vnu deeper.
 Let us seise the interaction as you increase as moderately. Not too important.
 But the tunnelling t decreases almost exponentially. Remember the plot to be signed last lecture.
 that basically means that you of a t when you have a J.
-If I want to be back it it decreases almost exponentially with increasing letter stepped.
-And that means that in the deep lattice I expect to Martin's letter,
+If I want to be back it it decreases almost exponentially with increasing lattice stepped.
+And that means that in the deep lattice I expect to Martin's lattice,
 one of the weaker lattice I expect the superfluid from by changing lattice step that can go from the one case to the other case.
 And the transition that you can see here is really smoothed out.
 It's not as sharp as he would have thought. Maybe from the simpler calculations, because you're not in the big homogeneous system,
