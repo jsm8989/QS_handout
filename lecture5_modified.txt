@@ -59,330 +59,58 @@ When is this the valid Hamiltonian to describe our system? Firstly we need a rea
 
 Basically what this means is that both requirements are typically fulfilled with ultracold atoms and therefore optical lattices are accurate implementations of the Bose-Hubbard model (and later on, the Fermi-Hubbard).
 
-Now let's look at the ground states of this model. This was a Hubbard model and neglect the last term here.
-I forget about that one that I would say that I have a fixed feeling. I also don't have to worry about this term.
-What would be the queen status of this model? And very often quantum mechanics, you know, have two opposite terms.
-You have the kinetic energy term ante interaction. And it's a term and you can ask yourself which term will dominate?
-And well, if you go into different regimes, you will get different answers.
-If you first start in the case where you are zero. an interaction energy is zero and T is positive.
-this is not interacting limit. And there we already know what the quantitate will be to cross.
-It would be a superfluid. It would be it was Einstein condensate. In this case, we only have kinetic energy.
-if we have an abels ons, they will all go into the kuiken.
-Zero Bloch wave. The lowest Bloch wave. we basically half the expression for the lowest Bloch wave to the end of an eighth power.
-we put all atoms into the single particle Chron state. And the second quantise notation, the proc wave of go zero,
-whereas the phase factors vectors can be just within as a discrete sum of all of the Wannier states.
-This is if you want a discrete Fuyu transform from the Wannier states back into the waves.
-we are now expressing the Bloch wave as the sum of all of the various states.
-And we operate with this one to be an eighth power onto the vacuum state,
-which basically means we take a particles and put each particle into the single particle quantity.
-that state is then a delocalised state where every particles delocalised over the whole lattice.
-And if you look at that state in various descriptions, you will find that the state is a super forward state.
-It has long range Aurora off there and along which order because it is A, B, C state and its phase coherent,
-which basically means that you think of the phase and on which phase order an image measured a fluke of phase of the way function to one.
-And I can predict where it's it's everywhere else.
-now we take all of those concepts from the phase transitions lecture long which order phase coherence off date and language.
-And they all apply to this. Beezy. If we know two experiments, if we measure this B.S. in lattice, what do we get?
-Well, if we measure in momentum space, we get a momentum distribution. It looks this.
-We have the typical B.S. peak of zero momentum and we have the satellite peaks that we discussed in the last lecture,
-plus two and minus two, $\hbar k$ in both the X as well in the Y direction and some higher order terms.
-And that's a consequence because we now don't have condensation in plane waste, but condensation of longways.
-If we were to look and we can do this with a microscope, quantum gas microscope locally and ask how many atoms to essy on each lattice site,
-you will get something that will look very it is ordered because each particle, each atoms delocalised over the whole lattice.
-Then they will do a measurement and a projector particle numbers down to a projector particle
-down to individual lattice size because they measure how many particles I find here.
-Each particle, which will be projected down into one, let the site arbitrarily.
-And that means that it will have various different atom number two that can measure in different lattice sites just by Chip by chance.
-Some will seem empty. Some moves him with one. Ednas two. It is three atoms we will see in a few slides.
-It actually will follow a persona in distribution.
-If I take the upper limit, if I take the limit of infinitely stronger parts of a direction, which basically means I take, you know, to be positive.
-if a positive, repulsive energy and I take the kinetic energy to be zero teakwood zero, which means a very, very deep lattice.
-Then we will be in a state and we'll call a modern insulating state. now if if you want to, like, minimise your Connecticut, your energy.
-Only energy, you have to minimise the interaction and energy, which basically means you just have to go out of each other's way.
-You should never put more than one particle on the lattice site. if I have in total as many particles as I have lattice sites.
-I am filling one, then basically what I get is a state where I put exactly one particle into each lattice site and that's it.
-the White House down. I take one particle, a dagger, and put it on and put one particle on site.
-I operating with a dagger, operating in a vacuum, as usual, filling in.
-And in this case, it's the filling factor.
-If we have any good one you can forget about, it just means that you put a one particle in each lattice signed in Protocol four.
-I means that you put Notah particles one insite one one. And so two, one and two and three wanted to add four and so on.
-The state that you now get if you look at that state in weird space,
-you would find exactly one particle and each lattice sent because that's what you did by Hot almost behind you.
-Put them one in each lattice. And that's the state.
-If you have this comment about filling us with qualities, you have as many particles as you have lattice sites.
-That's the quantity that you will get. If you look at that state in momentum space, the calculator's next lecture.
-But intuitively speaking, because each particle is more localised to an individual, that site very localist need space.
-It must be very delocalised the momentum space because each particle now wheely
-sits in one of those VNU orbitals and the position of all of the Bloch waves.
-That basically means that all of the Bloch waves are equally occupied.
-And you get a very private element and distribution, as I said, with calculators in detail in the next lecture.
-the state we get now is and insulating standards an insulator because the particles are localised.
-There's no conductance they cannot conduct. For instance, a particle currently cannot conduct energy.
-The state is also incompressible. The superfoods state is very compressible because you can always put more items in.
-This date is very incompressible. It's a capped state because if you no want to put another particle in here in this state,
-it this particle will necessarily have to sit on top of an already existing particle.
-that will have to pay this extra interaction energy you. And that means it's very expensive to put another particle.
-India doesn't excitation gap. We'll see it in a minute.
-And the state is different and compressible. And because all particles are now localised, we need each particle is localised to its own set site.
-And there's no long Wenche phase coherence.
-they matter where field and left hand site now has nothing to do with tomatoey fields on the hand site.
-the picture for this state is viewed at each ethem as localised to a single site.
-And this date can only exist for commentor at filling.
-Which means if the number of atoms divided by the number of lattice sites is an integer one at depoliticise two Etna's politicised three,
-four, five and so on. If you have, say, one point two atoms politicised,
-then you will always have a few excess particles on top of this modern sitting background
-and they are free to move around because they pay the same into action energy everywhere.
-And then the whole state will turn into a superfluid. What I should at this point point out that so far we've only discussed we didn't limits.
-We've only discussed limit were either we have known and interacting particles into which
-energy zero or we are strictly localised particles where the kinetic energy is you.
-And it worked. We will see in the next few slides a next lecture that actually these two states I.D. two phases,
-mountains phase and superfluid phase Dennet only belet in these two limits.
-They really connect all the way up to some point in the middle where we have a quantum phase transition from a superfluid into a modern insulator.
-Well, I should also say there's a warning that the descriptions, equations, if you will, Don,
-here saying, OK, this is the superfluid state and this is the modern silhouetting state.
-These equations, these weigh functions, they are only embedded in these limits.
-if I take a mild insulator and I put in some kinetic energy, the state fundamentally will we mean a mild insulator.
-But the way function would be far more complicated than the simple way functionally will down here.
-it is way function is only developed in the limit, and this way function is only valid in the non interacting limit.
-And this date does not insulate the transition in the Boso Hubbard model was for
-the first time observed in an experiment close to 20 years ago by Marcus Kayna.
-Tim and Esslinger Eumundi the plot to tensioned others.
-And that was really the starting point for this whole business of quantum simulators.
-And this paper read did had the first observation of this is also the first paper that we look at in DeJohn Club on Foresty.
-let's start to describe these states a bit more, quote, quantitatively and try to understand them a little bit more.
-And let's start with this smart insulator in this peculiar limit will be a positive interaction, energy.
-But the kinetic energy is zero. That limit is typically called the atomic limit to its limit.
-Rattier zero. You as positive. you have a T. If you want this limit of you, what you going to infinity?
-Because in this case, the full Hamiltonian that we have is just interaction, energy you over to some over I and items times and I'm minus one,
-the interaction, energy and the chemical potential to our minus mbewe times.
-And so now we should think a little bit more about what this term actually means.
-And what is this new draught? Like I mentioned a couple of times, you in this case is the chemical potential.
-we're thinking in the crank canonical ensemble and we're saying that new is the derivative of total energy.
-With respect to particle number, we are Teagle zero, which makes life easy.
-Otherwise you would have to say that this is under the condition of constant entropy.
-you would have seen this term in the Firmament Statistical Physics lecture last year.
-And as a reminder, it's telling you how much energy will the state gain if you add another particle?
-the way you can think about this is you can think about this if you have a couple of subsystems.
-And then there is like, say, more particles that you want to put into the subsystem.
-You can ask each subsystem how much energy you would you need to take up in order to take up this extra particle.
-And then the particle will go wherever it's the cheapest for it to go to, wherever the chemical potential of that subsystem is the lowest.
-A slightly simplifies flies, a slightly simplified but rather good analogy is to say if I have a better
-we have a certain voltage here and I put two leads into my system,
-will the better we try electrons into the system or not? Well, if the voltage to chemical potential of the battery is higher than that of the system,
-it will drive more particles in there until the chemical potential of my system is as big as the one off my bedroom.
-this will be important later on when you want to this good party, good say over a trip or it can be very convenient to we now,
-it's just a convenient parameter for us to see how the item number behaves in certain limits.
-let's make a little truth table for this direction and ask what is the
-intersection energy that we have for different particle numbers to table this year?
-And you can always calculate it yourself.
-If an eye is zero, zero times minus one, goes zeros into an energy zero, as you would expect, no particles, no interaction, energy.
-If you have one particle, one minus zero gives zero to no interaction, energy for a single particle.
-If you have two particles. Two minus two, minus one gets once we have two times one, you have to divide it by this one half year,
-you get in total factor of two and then year to S.A.G. increases forever.
-They have three particles. I have three point three times two.
-in total, six divided by two gives me three. And it also is intuitive because I have three particles.
-One, two, three. I have three pairs of particles that can interact.
-I have three pairwise interactions. I paid three times the energy.
-And then if you're four particles, four times three, it's twelve. Divided by two gives me six.
-you can see how it into each energy increases.
-What you can also see is that each step up from here to here is one from here to here as to from here to here is three.
-two steps always get one bigger. now plot the expected average density for this Hamiltonian.
-It only has the interaction energy in it as a function of the chemical potential.
-you ask which particle? No n will minimise the total energy, including the chemical potential term.
-And here's New York. This is PRODAN units of new over you. a chemical potentially in units of you.
-Then you would see that for a negative chemical potential, the minimum is always at zero.
-Because of every negative chemical potential, this term here is positive.
-we just have to total and a total the total minimum of this term in order to get the minimum term.
-If I have if I'm between zero and one so small and positive, I have a small negative term here.
-if I end is bigger than zero, if I put a particle in there, this term becomes negative.
-If this term, Mr. Zero, the whole thing wins. The minimum was there.
-And I have one particle on each lattice signed and then its chemical potential going through you.
-There's exactly at this step here I go from one to two and it's now cheaper, better for me to have two particles in the game in the system,
-because then New Times two is bigger than the interaction term here and the total thing has its minimum to.
-you can see that the average particle number will increase from zero to one.
-It's chemical potential. Zero. We've stayed in that one until I reach chemical potential of one you.
-And then it would jump up to energy to density to. And then it's you.
-Because two to three and so on. if you think again about this point of how easily you can put in more particles.
-Well, if my chemical potential is negative, I don't want to put particles anywhere. If my chemical potential becomes positive.
-the better, he says, I want to put particles in the system. The system eagerly absorbs the first particle.
-That's fine because the first particle doesn't cost any energy,
-but it will not accept the second particle because then you would have to pay into action and you so
-only have the chemical potential to change in total energy per particle number is bigger than you.
-Then it makes sense to absorb the second particle Padian to each energy you and go to an equal to.
-And then only if chemical potential goes to two. I can't step off to you going up from you to three, you and I increase my density again by one.
-here's basically the same thing that I have said just now written down.
-this plot of density is a function of chemical potential. Now consists of sharp steps.
-Because where he was zero chup steps, that final temperature will be moved off and incompressible Patos in between.
-incompressible, I mean, 20 compris ability is the derivative any new.
-the change in density is a function of changing chemical potential.
-And if I have a flat line here, that means my density does not change when I change my chemical potential.
-That remains constant. That's the insulating incompressible A that you would expect.
-if you're in a state with any equal one where the average ETA member is one and you have this type of Hamiltonian up here,
-then you're in this modern sedating state. if you ask what's the probability of finding one particle on the lattice site?
-That's exactly one. That's a trivial plot on this slide, but this year to contrast with the plot on the superfluid slide in a few minutes.
-Another thing we can ask about this modern intellectual new atomic limit is we can ask about the excitations spectrum.
-Will it have? Will it be Kepler's? it can have very cheap excitations? Or will it be capped?
-Do we have to pay a certain amount of energy to create an excitation? If you think about the state, think of any good one.
-You have exactly one atom at the site sitting here and now you want to do anything of that.
-Say you want to change the state in any way.
-Then you realise that the lowest energy version you can do as you take one particle at moving and all of its neighbour.
-That's the smallest excitation you can do. And this excitation will cost the energy you, because now you suddenly have one that really occupied.
-Let the sites see one thing in the air where you have two items on it at the site doubly occupied.
-you pay next iteration and G.U.
-what we say is that there's excitation creates one double occupancy, the double occupied let the site and a hole.
-an empty lattice site. And people also sometimes call us a Doppler on hold on power.
-Duplantis, O.W. Occupy that the site and the whole honesty empty at the site.
-And because they are close to each other, it's a pair of that. the excitation spectrum is gapped.
-The lowest excitation you can do is costing energy. You.
-How do we describe these dates? How can we describe these dates and second quantise notation, that's actually rather simple.
-We take the states and each lattice site and we can describe them as FOK states.
-That's number states. we say to state, well, we have an Athans on a lattice site.
-I'm just talking about the single lattice site again. I can write the Fox State N as the state where I with to vacuum.
-And then just put n particles into the state. I operate with the creation of Paretta, a dagger to the power of N.
-And then I have this quote. And factorial here to keep the phenomenalist.
-And again, I do this mostly in order to have the comparison to the state we get for the superfluid state in the fusillades.
-if I go on, I have my Fox date, the Fox dates are the existence of no operator.
-Fox did end up number operating and operating on that. Just give it a number.
-And that's what we implicitly used all the time. When you when we look at calculating the two energies.
-And if I extra ventilation operator a on the state and then I get the state and minus one, which is clear, we have an in front.
-You've seen this already and one B quantum mechanics. If I ask about dustups, Foxtail carry any phase information, so does this Fox.
-Is this Fox then able to interfere of anything? And the answer is no.
-The Fox states cannot interfere of anything because they carry no phase information whatsoever.
-basically the expectation Wannier of PSI in such a fox did say as the field operator is zero.
-Even though the expectation Wannier of size queered in the fox, it is non-zero.
-For those of you that no phase to phase based representations, speaking of functions and so on,
-the Fox state is a state that's a little ring around zero, so it has no preferred direction.
-the expectation that you outsite this direction and this direction and this direction is zero.
-But the expectation Wannier of Time Square, the distance from the origin that is non-zero because you're in the swing with a certain radius.
-If not, that's not clear to you yet. Then don't very that will become more clear when you look at when we look at the next state on the next slide.
-And now the mod insulator India atomic limit.
-And again, I'm stressing in the atomic limit out of this, it will be more complicated, is just described by a product of local Foxton.
-it I say product of all at the sites I be put and atoms on each set asite.
-OK. After now having discussed, some properties of this strongly interacting limit Gatemouth,
-limit the Fox dates and to insulate us, dear, we noticed cause a little more than not indirectly limit.
-Look at the few properties of this one. Certainly not a can case.
-The way function is already set is that each atom is in the same state.
-If a macroscopic occupation of a single particle can state of the Bloch.
-And if you now ask again about the local distribution of particle numbers,
-you realise that each of the end particles has an equal chance to be found in any of the
-lattice sites because the Bloch waves are separate out evenly over the whole system.
-basically the chance of each particle to be found in each and every lattice site is the same.
-Which then means that local ETA number follows a multinomial distribution. This is basically a generalisation of the binomial distribution.
-if you would have an particle's, you would separate them out of a two lattice sites.
-Then you would have a binomial distribution.
-And that would predict you how likely it would give you the prediction of how likely it would be to find how many atoms on each of the lattice sites.
-If you not have to, but many of them, it's sort of a binomial you can imagine normal distribution.
-This one looks, of course, a bit more complicated.
-But the same thing, the same thing applies to the binomial distribution that you have seen in the experimental methods course already in one bean.
-That's the point that this can be simplified to a product of precise distributions on each lattice site.
-Suki speaking. That's true in a Crenn canonical Osogbo, where a total at a number does not need to be conserved.
-But it's not so matter. It's not so important at this stage.
-What's important is that we really expect a distribution that looks this.
-Now it's a persona in distribution on each lattice site.
-if you have an average at a number of one, it, you know, superfluid state, you have a high probability of finding one atom.
-But you have equally high probability of finding zero atoms on another site.
-And that's compensated for by a smaller probability of finding two, three, four or even more atoms on this lattice site.
-we get this local atom number fluctuations, everybody I've seen on the introduction slide.
-The next thing is that it's obvious that not working case, the system must have kept this expectation.
-it cannot be kept. But it must be kept less, because the reason is that each particle, it sits in a single particle crown state.
-But the single particle, Crozet, has a continuous dispersion relation. Epson of Q this minus Corzo dispersion.
-We have 90 lattice. basically it can take any of the particles indices and create an excitation.
-We're just creating an excitation weaksite. This particle was modified to a small fine momentum because it is personal relation.
-It continues disfigures Kepler's. And for the experts that have done the AOP, the AQ GOP lecture Rozario on last term.
-If I take weakend directions, the form of this dispersed relation changes.
-It goes into the bubble. You are forming its thoughts of linear. But the excitations nonetheless remain gutless.
-These excitations, I can then think of collective exhortations density waves of Honan's, but still they are gutless.
-Okay. The other thing how I can describe his persona distribution's how I can describe this would you know me?
-The distribution is to realise that the Muji normal distribution will affect the rise into local coherence states Cohu in states UFS Unity,
-A.P. lecture. And they're basically given by a super position of the Fox states and.
-Mandela characterised by an complex number Orfa, so the cohu coherent state with coming summer offers given by each of the miners.
-I offer absolute various quite a to as a prefecture. And then the sum of all fox dates.
-And you could see to infinity of IFR to the end. Normalised in this way.
-Times the Fox state and. it is Cohu and states have been introduced as the Igen states of DNA relation operator,
-which basically means if I take your nation on the state of war, I just get four times over.
-they just like. Reproduce themselves under the annihilation operator.
-And these dates are very crucial in persons' quantum optics because they are the state's.
-Were large amplitude over that correspond to Cohu and classical Lightfields amplitude,
-often absent Wannier Phifer and the phase phy, which is the argument of over.
-this complex number of unknowingly really encode something that classically
-corresponds to the MP Tudeh of a classical field and the phase of a classical field.
-they are the crucial states that make the connexions between quantised Lightfields, for instance, and classical electrical fuse.
-We would say have a well-defined phase and they are also crucial for us.
-If you think of metal with optics, if you think of the pieces because they are Notah states that locally have a phase.
-If you calculate their number distribution, that's something that's easy to calculate.
-You ask, what's the probability of finding any particles in such a coherent state?
-And these are all calculations that you've done last year.
-You'll realise it's the overlap into equal between the equivalent state over and the Fox state, an absolute make a.
-And you basically get the debt. Turns out to be a persona distribution where the average particle number really
-expected particle number for a state alpha is just given by absolute Wannier.
-Foskett amplitude does the intensity if you want.
-Important point for us now is that you can now calculate the expectation Wannier in the clearance date of the insulation operator,
-BPCI, the field operator. That one is non-zero. As we said already, up here in the discrete version, it's not zero.
-And that means at launch pure B.S. at Duigan zero,
-which can be described as a product of this local human states with a constant phase to phase is the same
-everywhere because of long range order really shows up that these up these correlate upsite deg upsite J.
-In this species, date is not zero and it becomes independent of IFJ because the phases are not a position, it's not position dependent.
-we really have off there along language order. what this means is that, as I said before, the superfluid state is a ordered state.
-It's a state with approximately this phasey queer freedoms problem.
-We have one spontaneously chosen phase that we will see and hear.
-now we can have a better understanding of the two limits, the non into acting limit and the atomic limit, and we can now ask.
-Can you also say something about the about the whole phase diagram in between?
-And the answer is yes, we can, because we can start by saying that the superfluid has a broken symmetry.
-We just discussed it. It has this order, pragmatism of their language or outlaw.
-Wait a month. And today that does not have a broken symmetry,
-which means that these two limits have been this must be separated by a quantum a phase position at some critical point.
-You a C critical eulogy. It cannot be a cross over.
-Because we go from a phase that has no problem symmetry into something, it has broken symmetry.
-there must be a phase transition in between. And Jay, here is what was t a few slides ago.
-As I said before, T and J are we can the same thing for us. We will use them in the same manner and go back and forth between them.
-let's make a few plots. Let's make us catch the first catch I want to make is the X axis is always U of a J.
-it's the way to between interaction, energy, you add to kinetic energy J.
-Or what was t a few slides ago. And we know that we have these two limits.
-You were J being very large. That's the atomic limit. We have to limit of you being zero.
-you j being zero. That means that this is the non interacting limit.
-And we now say that somewhere in between there will be this critical you for J
-where we have a phase position from the superfluid into the mud until later.
-And the first thing I can plot is the excitation energy. I can say, what is the size of the gap?
-The lowest excitation energy. If the system is gaffed, then for a large U of a J.
-Over here I would have an interaction. Energy on your order. If you. And this extra energy, there's this gap.
-We clear create this gap with decay down to zero antiquity. Good point.
-use to find it here. But lowest excitation that we can do.
-Become Karplus. It must become gas. That's because we have discussed before that the superfluid is Kepner's.
-all of a year to get to zero. the lowest excitation energy must be zero.
-But here, if we go into the modern insulator and this resume, then it can become finite and it would go up this.
-And for very large you of a J, we just caillat the interactions care you. we have to interactions, can you over here and in here,
-it must change in a more complicated manner because it must vanish over here where we have to get this superfluid.
-All of this we can just say from thinking about what we know about from these
-limits and from the point that there must be a phase submission in between. The other thing we can plot is not as auto perimeter.
-We can plot the limit of iron. I'm A.J. going to infinity off this coveted upsite.
-I dig upsite, Jane. And we know that in the unordered phase, in the mountain set, it is with zero.
-And then it would come up here. In the superfluid site, again, we know that the other parameter must be zero, but this financial year.
-We know that this would be a continuous phase transition. basically, it works to zero at this point.
-And this is now what we call a quantum phase transition, which is driven by quantum fluctuations and not from the fluctuations.
-To talk about this later. It just means for us now that it happens in the ground state.
-It's TEAC with your. And how does this look and experiment?
-Well, that's mostly something that you would see in the journal club this weak where we can talk about this also in more detail.
-But here is that the main plot of what they got. This is to BEC. In the absence of the lattice Desierto of life pictures, you see the typical VCP.
-And then if you increased lattice that if you load this into a lattice, you see the satellite pics coming up.
-And we talked about last time about that the satellite peaks become stronger for a deeper
-lattices simply because the plock wave now has more mixtures of the higher order plane weighs.
-But then here, between you and gee, something funny happens because we see it now, the character of the stage really changes a lot.
-We see it see that these sharp peaks really fully go away. And we seem to have a very incoherent state.
-And that's the phase transition from the superfluid into the modern insulator with a phase.
-Coherence is lost. Yes. No phase coherence in the system anymore. The phase is not long winch ordered anymore.
-And everything is happening just on the local scale. And then in a very deep let us where we deep in the mud insulator, we will have a much insulated,
-as we describe mostly by particle sitting on thing and let the sites.
-this is just the food transform of any Wannier functions that you will get here.
-And we discussed these pictures in Maldito Next lecture.
-we observe a reversible phase transition, so we observe to be can go into a deep lattice from here to here, goes away and comes back.
-We discussed this more and let us in the journal club. And it will have made a specific let us test the reasons we did.
-The reasons are given here. The reason is that for larger vnu deeper.
-Let us seise the interaction as you increase as moderately. Not too important.
-But the tunnelling t decreases almost exponentially. Remember the plot to be signed last lecture.
-that basically means that you of a t when you have a J.
-If I want to be back it it decreases almost exponentially with increasing lattice stepped.
-And that means that in the deep lattice I expect to Martin's lattice,
-one of the weaker lattice I expect the superfluid from by changing lattice step that can go from the one case to the other case.
-And the transition that you can see here is really smoothed out.
-It's not as sharp as he would have thought. Maybe from the simpler calculations, because you're not in the big homogeneous system,
-you're in homogeneous system due to the trap that we were discussing.
-Also more in a few lectures. And the last picture for today is basically how we just a phase diagram look,
+Now let's look at the ground states of this model. Let's take a BH model and neglect the last term here, and say that I have a fixed filling. And very often in quantum mechanics, you know, have two opposite terms. You have the kinetic energy term and the interaction, and you can ask yourself which term will dominate? And well, if you go into different regimes, you will get different answers. If you first start in the case where the interaction energy is zero and $t>0$, this is the noninteracting limit. And there we already know it would be a superfluid. It would be a BEC. In this case, we only have kinetic energy. 
+[eqn]
+And if you look at that state in various descriptions, you will find that the state is a superfluid state. It has off-diagonal long range order because it is a BEC state and it is phase coherent. Now we take all of those concepts from the phase transitions lecture (long range order, phase coherence, ODLRO) and they all apply to this BEC. If we now do experiments, if we measure this BEC in a lattice, what do we get? Well, if we measure in momentum space, we get a momentum distribution. It looks like this.
+[pic]
+We have the typical BEC peak of zero momentum and we have the satellite peaks that we discussed in the last lecture, $\pm 2\hbar k$ in both the $x$ as well as in the $y$ direction, and some higher order terms. And that's a consequence because we now don't have condensation in plane waves, but condensation of Bloch waves. If we were to look, and we can do this with a quantum gas microscope, locally and ask how many atoms do I see on each lattice site, you will get something that will look very disordered because each particle, each atom is delocalised over the whole lattice. It actually will follow a poissonian distribution. 
+
+If I take the other limit, if I take the limit of infinitely strong repuslive interaction $U>0, t=0$ then we will be in a Mott Insulating state. Now if if you want to minimise your energy, you have to minimise the interaction energy, which basically means you just have to go out of each other's way. You should never put more than one particle on the lattice site. If I have in total as many particles as I have lattice sites, I am filling one, then basically what I get is a state where I put exactly one particle into each lattice site and that's it.
+[eqn]
+where $n$ in this case, it's the filling factor. If we have any $n=1$ it just means that you put one particle in each lattice site. If you have this "commensurate filling", you have as many particles as you have lattice sites, that's the ground state that you will get. If you look at that state in momentum space (next lecture) because each particle is localised to an individual site in real space, you get a very broad momentum distribution. The state is insulating because the particles are localised so they cannot conduct. The state is also incompressible. The superfluid state is very compressible because you can always put more atoms in. This state is very incompressible. It's a gapped state because if you now want to put another particle in this state, this particle will necessarily have to sit on top of an already existing particle, so will have to pay this extra interaction energy. And because all particles are now localised, there's no long range phase coherence. The matter wave field and left hand side now has nothing to do with the matter wave fields on the right hand site. The picture for this state is that each atom as localised to a single site. And this state can only exist for commensurate filling, which means the number of atoms divided by the number of lattice sites is an integer.
+[pic, eqn]
+If you have, say, one point two atoms per site, then you will always have a few excess particles on top of this MI background, and they are free to move around because they pay the same interaction energy everywhere. And then the whole state will turn into a superfluid. 
+
+What I should point out is that so far we've only discussed the limits. We've only discussed the limit where either we have noninteracting particles or we are strictly localised particles where the kinetic energy is zero. We will see in that these are only valid in these two limits; they really connect all the way up to some point in the middle where we have a quantum phase transition from a superfluid into a Mott insulator. if I take a MI and I put in some kinetic energy, the state fundamentally will remain a MI, but the wave function would be far more complicated than the simple one here. The transition in the BH model was for the first time observed in an experiment close to 20 years ago by Marcus Greiner, Tilman Esslinger, Immanuel Bloch and others. And that was really the starting point for this whole business of quantum simulators. And this paper is also the first paper that we look at in the journal club. 
+
+Let's start to describe these states a bit more quantitatively and try to understand them a little bit more. And let's start with this MI in the limit of a positive interaction energy but the kinetic energy is zero. That limit is typically called the "atomic limit". In this case, the full Hamiltonian that we have is just interaction energy 
+[eqn]
+And so now we should think a little bit more about what this chemical potential term actually means. We're thinking in the grand canonical ensemble and we're saying that $\mu = \partial E / \partial N$ at $T=0$ (or constant entropy). It's telling you how much energy will the state gain if you add another particle? A slightly simplified but rather good analogy is to say, if I have a battery with a certain voltage here and I put two leads into my system, will it try to give electrons into the system or not? Well, if the voltage or chemical potential of the battery is higher than that of the system, it will drive more particles in there until the chemical potential of my system is as big as the one off my battery. It's a convenient parameter for us to see how the atom number behaves in certain limits. Let's make a little truth table for this interaction term and ask what is the interaction energy that we have for different particle numbers? 
+[table, pic]
+Here's basically the same thing that I have said just now written down. This plot of density as a function of chemical potential now consists of sharp steps. If you're in a state with $n=1$ and you have this type of Hamiltonian up here, then you're in this MI state, and you ask what's the probability of finding one particle on the lattice site? That's exactly one. 
+
+Another thing we can ask about this MI in the atomic limit is we can ask about the excitation spectrum. Will it be gapless, so it can have very cheap excitations? Or will it be gapped, so we have to pay a certain amount of energy to create an excitation? If you think about the $n=1$ state, and you want to change the state in any way, then you realise that the lowest energy version you can do is take one particle at moving and all of its neighbour. That's the smallest excitation you can do. And this excitation will cost energy $U$, because now you suddenly have one that's doubly occupied. What we say is that this excitation creates one double occupancy, the double occupied site, and a hole: a \textbf{doublon-holon pair}.
+
+How do we describe these states? In second quantised notation, that's actually rather simple. We take the states and each lattice site and we can describe them as Fock states (number states). 
+[eqns]
+The Fock states cannot interfere with anything because they carry no phase information whatsoever. Basically the expectation value of the field operator $\langle\psi \rangle = 0$, even though the expectation value $\langle \psi^2 \rangle$ is non-zero. 
+
+And now the MI in the atomic limit. Again, I'm stressing in the atomic limit; out of this, it will be more complicated; is just described by a product of local Fock states. It is the product of all sites.
+
+
+Let's now look at the few properties of the noninteracting limit. The wave function is that each atom is in the same state, with a macroscopic occupation of a single particle ground state of the Bloch wave. And if you now ask again about the local distribution of particle numbers, you realise that each of the $n$ particles has an equal chance to be found in any of the lattice sites because the Bloch waves are spread out evenly over the whole system. This then means that local atom number follows a multinomial distribution. This is basically a generalisation of the binomial distribution. If you would have $n$ particles and spread them out over two lattice sites, then you would have a binomial distribution. And that would predict you how likely it would be to find how many atoms on each of the lattice sites. If you have many sites, it's sort of a binomial you can imagine normal distribution. This one looks, of course, a bit more complicated. The point is that this can be simplified to a product of Poisson distributions on each lattice site. Strictly speaking, that's true in a grand canonical ensemble, where a total atom number does not need to be conserved. 
+[pic]
+But it's not so important at this stage. What's important is that we really expect a distribution that looks this. Now it's a poissonian distribution on each lattice site. If you have an average atom number of one in a superfluid state, you have a high probability of finding one atom. But you have equally high probability of finding zero atoms on another site. And that's compensated for by a smaller probability of finding two, three, four or even more atoms on this lattice site. 
+
+The next thing is that it's obvious that in the noninteracting case, the system must have gapless excitation. The reason is that each particle, sits in a single particle ground state, but the single particle ground state has a continuous dispersion relation $\epsilon (q)$. Basically I can take any of the particles in the BECs and create an excitation, where this particle was modified to a small finite momentum. Because the dispersion is continuous, these are gapless. And for the experts that have done the AOP course wit Zoran last term, this is like the Bogoliubov spectrum. 
+[eqn]
+These excitations, I can then think of collective exhortations like density waves or phonons, but still they are gapless. 
+
+Okay. The other way I can describe his poissonian distributions is to realise that the multinomial distribution will factorise into local coherent states. And they're basically given by a superposition of the Fock states, characterised by an complex number $\alpha$,
+[eqn]
+where the coherent states have been introduced as the eigenstates of the annihilation operator. And these states are very crucial in, for instance, quantum optics because they are the states that correspond to coherent classical light fields. So this complex number $\alpha$ encodes something that classically corresponds to the amplitude and the phase of a classical field. They are also crucial for us, if you think of matter-wave optics, because they are states that locally have a phase. If you calculate their number distribution, that's something that's easy to calculate, you ask, what's the probability of finding any particles in such a coherent state? And these are all calculations that you've done last year. 
+[eqn]
+Turns out to be a poissonian distribution where the average particle number for a state alpha is just given by 
+[eqn]
+[ODLRO eqn]
+we really have ODLRO. What this means is that, as I said before, the superfluid state is a ordered state. It's a state with a broken symmetry, this phase DOF is broken. 
+
+Now we can have a better understanding of the two limits, we can now ask whether you can also say something about the whole phase diagram in between? And the answer is yes, we can, because we can start by saying that the superfluid has a broken symmetry. We just discussed that it has this order, and the MI does not have a broken symmetry, which means that these two limits have been this must be separated by a quantum phase position at some critical point $(U/J)_C$ and it cannot be a cross over. 
+[pic]
+And the first thing I can plot is the excitation energy. I can say, what is the size of the gap, the lowest excitation energy? If the system is gapped, then for a large $U/J$ I would have an interaction energy on the order of $U$. This gap will decay down to zero at the critical point. But the lowest excitation that we can do becomes gapless, as previously discussed. The lowest excitation energy must be zero. And for very large $U/J$, we just scale like $U$. Closer to the critical point it must change in a more complicated manner because it must vanish in the gapless superfluid. All of this we can just say by thinking about what we know about from these
+limits and that there must be a phase submission in between. 
+
+The other thing we can plot is the order parameter. 
+[pic] 
+We can plot the limit of $r_i - r_j$ going to infinity. We know that in the unordered phase, in the MI it is zero. And then it would come up in the superfluid side.
+We know that this would be a continuous phase transition. And this is now what we call a quantum phase transition, which is driven by quantum fluctuations and not thermal fluctuations. It just means for us now that it happens in the ground state at $T=0$. And how does this look in experiment? Well, that's mostly something that you would see in the journal club this week where we can talk about this also in more detail. 
