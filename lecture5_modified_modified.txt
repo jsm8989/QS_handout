@@ -37,98 +37,29 @@ OK. And now we want to describe this generic interaction term in our bases of Wa
 [eqn]
 And as I said before, the Wannier functions are a full, complete, orthonormal basis which can express everything. Also, the $\delta$-function as a superposition of all of those Wannier functions. We can do this and we get a term that's quite a bit more unwieldy again, because now we still have our integral over $\psi^+ \psi^+ \psi \psi$, and each of those terms have been expressed as a sum of all of those Wannier functions with the creation annihilation operators.
 [eqn]
-And this term is, of course, pretty unwieldy, and the main point to see from this term is that because you have different ends in here,
-because you have a different you have one independent and independent I for each of the four operators that you have to put in.
-It tells us that the directions can, in principle, couple of different bands and let the science.
-Which in principle makes sense, what if I have only a function on one,
-let the site and the manufacturer in the second bend and the same, the other site is VantagePoint is open up.
-They live on the same space. in principle, I can due to the interactions,
-have particles going from the one bad into the other bent getting destroyed and the one bunyah function and being
-recreated in the other one you function are of those terms are more possible in this  interaction term.
-I can also say that in principle I can have an interaction between atoms on neighbouring Letha site, because if you look at the vanua functions,
-the blood of them, they always have the small extra site lobes, the small rabidity of the particle also being on the next Letha site.
-here's the unwieldy term again. And now we simplify it again because we say we take approximation if we retain the biggest term
-only and the biggest term is the one where all of the eyes are the same and the ends are the same.
-And in addition, we assume that only particles are the particles are all in the lowest band, that only the lowest band is occupied.
-And then we can basically say, okay, well, instead of having all of those songs over for Ice and four forehands, we only have one sum over I.
-And we only get I Dega, a dagger eight toy, a Heidegger, Heidegger,
-a I and then the integral over the vanua function in the lowest banded indicator, but is zero onsite.
-I took the power for absolute Wannier of the Wannier of the Wannier function to the fourth power of the Wannier.
-Because Johann fixator complex conjugate times do not complex conjugate, which basically gives me upset.
-They just quit and they have to support a two time. I get the absolute Wannier integrated to the fourth power.
-And this is no neat, because if we know half the points that all of the vanua functions around all of Letha sites ie are the same,
-it simplifies even further because we can basically and say which read the site to look at.
-Doesn't matter. And you can define a new constant which will call you, which is just g. times to antiquity.
-Are over the bunya function of a one budney function to the fourth poor.
-And then the last thing that we want to deal with this, this Operators' Europe is a dagger, a dagger AA.
-And for this, we just have to remember that a and a dagger omeprazole nick operators.
-we after was only commutation relation. The commutator a dagger equals one, which is if you work it out as a dagger minus a dagger, a equals one.
-you can say that a dagger a you can write as a dagger minus one.
-If you take this, you can go to this product that we had here, a dagger, a dagger, A.
-That's the product we have up here. We can take it.
-We want to like, change the order of this middle pair here, a dagger able to change this into a a dagger.
-Then we know from the line that both to begin to minus one. in total, we have this extra term, a dagger, a it's just a dagger.
-And this A and the minus one here in the middle as the second term.
-And this is convenient because a dog or a is nothing else.
-And the number of Reutter N. a dog or a dog or a the first one here.
-This just ends queered so it can basically white this now as ends queered minus end or end times and minus one.
-Which means in total, if I take this interaction, energy and did is not the final result,
-if we need the interaction energy for bosun's and an optical lattice is given by you over to you is a constant,
-which is basically given by this thing. It depends on your vanua function to tided of any function is confined.
-The bigger the vanua function in the Middle East and the bigger the power of the money function is that a bigger integral becomes.
-And on G-suit, therefore on the interaction constant a on discovering links to a source, just a parameter you is just a parameter for us.
-You over to time, sum over I and I and I minus one.
-And this is now a very simple result. It makes sense to think about it a little bit.
-And I is the number of atoms on that asite, I and what it basically tells us that each of the atoms on Letha site,
-I will interact with the N minus one other atoms and at the site.
-if you want, you have N times and minus one and two action terms in here.
-Now, because the particles are indistinguishable. The interaction of particles, one with three and three or if one is the same thing.
-we basically did some double counting in here and all combinations happen to all combinations are showing up twice in the sun,
-which basically means we have one half year in front to compensate for that.
-if we have one particle on here, we got a one time zero low interaction as it should.
-If we have two particles, we have two times one. we get two in here divided by these two cases.
-One. we haven't two action. And you so used into action, energy of two particles on the left site.
-And then you can calculate what happens for three particles, four particulates and so on.
-And just for those of you who worked on the Atomic, an optical physics course,
-you basically have seen something with interaction, energy and minefield just goes and squared.
-you made what might want to know, how does this play out with this end times and minus one we have here?
-And the answer is very simple. If you have many, many particles in the same mode, dear, you were talking about it.
-You see with thousands or hundreds, thousands of particles to have this much bigger than one.
-You basically get that End-Time and minus one is basically the same as N and you find that the interaction energy just goes and squared.
-for large m the ends quia term that you half of the cost DSG equation is correct.
-But if you really, really go down to very small numbers and remember it's an operator.
-it is really the projection of the particle numbers that you get.
-Then the quantised nature of the particle number is important.
-If I say I have a half a particle and let's decide on one particle and let the site then ends, create would be one.
-But if I have one particle, there's nothing for it to interact with. we need to have something where four equals one, the total to X energy zero.
-And that's is just given by this end times and minus one.
-The next step now for us is to simply combine all of those resources that we have and fully write down the four Boza Harbour to Latonia.
-here we have it. The first term is to kinetic energy that it actually arrived last lecture and looked at earlier this lecture.
-The second term is the interaction, energy that we have just arrived.
-The third term is the local potential energy, which is relevant only if and only if the onset energy depends on eye.
-So, for instance, if you have a trap or have a super that this would be high, low, high, low, high, low.
-But we can very often neglected. And the last term is new times and chemica potential times total at a number which is only relevant in a crank.
-Michael Ensemble and I talk about this again a bit later. When is this the valid Hamiltonian to describe our system?
-Whereas a couple of things that we need, but they're actually very moderate and they're easy to achieve.
-The first one is we need a reasonably deep lattice.
-we need to be in this tight binding limit, which basically just means that lattice step needs to be at least five we call,
-which is easy to achieve and we just do regime people normally broken. The second one is we need to have not too strong interactions because remember,
-we made this approximation that we took out all of those terms with couple different paths.
-We were basically saying we just looking at the biggest terms and the one is just a good approximation.
-If the scattering length A is much smaller than let us constant.
-That is constant, typically is a couple of hundred nanometres. If I think about rubidium, what it's getting left is Neudorf 10 nanometres.
-That's a very good approximation or equivalently, equivalently, I can also say that my,
-you know, interaction, energy, you hear, should be much, much smaller than the bandcamp.
-And typically, if I'm say about five, we call it six, we call. That's also very well fulfilled.
-this is defined. basically what this means is that both requirements are typically fulfilled with vertical atoms and
-optical lattices a day for wheely faithful or accurate implementations of the Boza HUBBARTH model.
-And later on, the Fermi, but not limited affirmance.
-And it's a very neat situations, a very different situation from Sonnet's, because in solids, these are only ideally highly idealised models.
-And therefore, it was very hard to ask, OK,
-if the predictions of these models to not describe the physics moves here to be a solid isn't just a wrong model,
-or if we just solved the model in the wrong way here because we really faithfully implement that model, we can answer that question.
-now let's look at the crown states of this model. Let's ask you to take off.
-This was a Hubbard model and neglect the last term here.
+And this term is, of course, pretty unwieldy, and the main point to see from this term is that because you have different $n$ in here, because you have one independent $n$ and independent $r_i$ for each of the four operators that you have to put in. It tells us that the interactions can, in principle, couple different bands and lattice sites. 
+
+Here's the unwieldy term again. And now we simplify it again because we retain the biggest term only, and the biggest term is the one where all of the $i$s are the same and the $n$s are the same. In addition, we assume that the particles are all in the lowest band, that only the lowest band is occupied. And then we can basically say, okay, well, instead of having all of those sums over $i$ and $n$, we only have one sum over $i$. 
+[eqn]
+And this is now neat, because if we now have the points that all of the Wannier functions around all of lattice sites are the same, it simplifies even further because we can basically and say which lattice site to look at doesn't matter, and you can define a new constant $U=g\int d^3 \vec{r} |w_0(\vec{r}|^4$. And then the last thing that we want to deal with this, 
+[eqns]
+And for this, we just have to remember that $a$ and $a \dagger$ are bosonic operators. The commutator equals one. So I can basically white this now as 
+[eqn]
+which means in total, the interaction energy for bosons in an optical lattice is given by 
+[eqn]
+It depends on your Wannier function; the bigger it is in the middle, the bigger the integral becomes. And this is now a very simple result. It makes sense to think about it a little bit. $n_i$ is the number of atoms on site $i$ and what it basically tells us is that each of the atoms on lattice site $i$ will interact with the $n-1$ other atoms and at the site. Now, because the particles are indistinguishable, the interaction of particles 1 with 3 and 3 or 1 is the same thing, so we have a $1/2$ for double counting.
+
+You might want to know, how does this play out for thousands of particles? And the answer is very simple. If you have many, many particles in the same mode, you basically get that the interaction energy just goes as $n^2$ which is consistent with the Gross-Pitaevskii equation. But if you go down to very small numbers, remember it's an operator; it is really the projection of the particle numbers that you get. Then the quantised nature of the particle number is important. 
+
+The next step now for us is to simply combine all of those resutls that we have and write down the full Bose-Hubbard Hamiltonian. So here we have it:
+[eqn]
+The first term is the kinetic energy (derived last lecture). The second term is the interaction energy that we have just derived. The third term is the local potential energy, which is relevant if and only if the on-site energy depends on $i$. So, for instance, if you have a trap. But it can very often be neglected. And the last term is the chemical potential times total particle number which is only relevant in a grand canonical ensemble and I talk about this again a bit later. 
+
+When is this the valid Hamiltonian to describe our system? Firstly we need a reasonably deep lattice. We need to be in this tight binding limit, which basically just means that lattice depth needs to be at least $5E_r$, which is easy to achieve. The second one is we need to have not too strong interactions because remember, we made this approximation that we took out all of those terms which couple different bands. We were basically just looking at the biggest terms and the one is a good approximation if the scattering length $a$ is much smaller than the lattice constant (typically a couple of hundred nanometres), or equivalently I can also say that the interaction energy should be much, much smaller than the bandgap. 
+
+Basically what this means is that both requirements are typically fulfilled with ultracold atoms and therefore optical lattices are accurate implementations of the Bose-Hubbard model (and later on, the Fermi-Hubbard).
+
+Now let's look at the ground states of this model. This was a Hubbard model and neglect the last term here.
 I forget about that one that I would say that I have a fixed feeling. I also don't have to worry about this term.
 What would be the queen status of this model? And very often quantum mechanics, you know, have two opposite terms.
 You have the kinetic energy term ante interaction. And it's a term and you can ask yourself which term will dominate?
