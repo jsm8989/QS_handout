@@ -101,6 +101,11 @@ newlines = replace_word(" q ", " $q$ ", strlist=newlines)
 newlines = replace_word(" p ", " $p$ ", strlist=newlines)
 newlines = replace_word(" K ", " $k$ ", strlist=newlines)
 newlines = replace_word(" minus K", " $-k$", strlist=newlines)
+newlines = replace_word("Bunya", "Wannier", strlist=newlines)
+newlines = replace_word("vanua", "Wannier", strlist=newlines)
+newlines = replace_word("Letha", "lattice", strlist=newlines)
+newlines = replace_word("crown states", "ground states", strlist=newlines)
+
 
 
 
