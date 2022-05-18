@@ -94,7 +94,7 @@ newlines = replace_word("cue", "$q$", strlist=newlines)
 newlines = replace_word("Harvard", "Hubbard", strlist=newlines)
 newlines = replace_word("ABC", "a BEC", strlist=newlines)
 newlines = replace_word("B.C", "BEC", strlist=newlines)
-newlines = replace_word("value", "Wannier", strlist=newlines)
+newlines = replace_word("value function", "Wannier function", strlist=newlines)
 newlines = replace_word("letter", "lattice", strlist=newlines)
 newlines = replace_word("venue", "Wannier", strlist=newlines)
 newlines = replace_word(" q ", " $q$ ", strlist=newlines)
@@ -105,6 +105,10 @@ newlines = replace_word("Bunya", "Wannier", strlist=newlines)
 newlines = replace_word("vanua", "Wannier", strlist=newlines)
 newlines = replace_word("Letha", "lattice", strlist=newlines)
 newlines = replace_word("crown states", "ground states", strlist=newlines)
+newlines = replace_word("modern insulator", "MI", strlist=newlines)
+newlines = replace_word("mild insulator", "MI", strlist=newlines)
+newlines = replace_word("way function", "wavefunction", strlist=newlines)
+
 
 
 

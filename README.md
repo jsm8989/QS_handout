@@ -26,7 +26,8 @@
 - 2 hours 5/3/22
 - 2 hours 27/3/22
 - 1 hour 28/3/22
-
+- 3 hours 18/5/22
+- 
 
 ### Thoughts
 - wondering whether producing a coherent transcript is an efficient way to go? 
