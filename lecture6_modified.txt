@@ -1,225 +1,36 @@
-Hello and welcome back. For electron number six in the quantum simulation course today, we are continuing with boatswain's and lattices.
-We're going to look at this phase diagram of the bulls, a Hubbard model in more detail.
-We're going to calculate some critical interaction, strength. And then in the end, also look at how this can actually be measured.
-In the experiment. So, Boza, how about Amazonian?
-We arrived last lecture.
-We said that we have two important tourism data, first term estie kinetic energy tears is the tunnelling rate or hopping rate of nozzle called J.
-And it's due at the speed with which particles can hop from one lattice site to the next, and then hopping is only between nearest neighbours.
-only from one lattice site to its direct neighbour in the various dimensions.
-The interaction term is a purely on site interaction, so particles only interact if there's more than one particle on the same lattice site.
-And if you have any particles on it, let the site. Each of those particles can interact with an eye minus one partners.
-And in total, you have a factor of one half in here because every pair you  double count because every pair shows up ones here,
-every atom shows up, one's here and one's there.
-therefore, your double counting or pairs are counted twice interconnectors with this picture of one half.
-For the first part of this lecture,
-we can't ignore the onsite energies which are only relevant if you have a trapped system will come back to that at the end.
-And we note that we can control the overall density of the particles with the chemical potential by working in the current canonical ensemble.
-What we discussed last time was that we have two different types of Chron states.
-And as a reminder, if we are in the limit of having no interactions with you, we could zero.
-We have a superfluid state and the superfluid state in this limit can be described as
-just saying is it was Einstein condensate of all particles condensing on an eight atoms,
-condensing into Cuke zero zero quasi elemental mode of the lowest band.
-And that basically means that each particle can be described as being in a position of all of the sites.
-A dagar create a particle on the site. And each particle isn't this super position of being spread out of all.
-Let the sites. And if we have any particles, we do it this way. This means if I look at this in momentums space,
-I get sharp peaks because all of the particle acidity requires momentum and we see the high order peaks.
-If I look in weird space to the local particle,
-no has a proud distribution because every particle by chance wouldn't be projected onto one of the lattice sites and different by chance,
-you will find one, two or three particles on this lattice site.
-And last time we discussed how you can describe this with local coherent states and how you get a persona, no distribution.
-that's the superfluid regime. And each Artemus delocalised over the whole lattice, the other regime upper phase, Mr. Mod insulator phase.
-And again, this expression is only about it. If the limit were tears tweetie zero and he was positive.
-The so-called atomic limit where he has no kinetic energy whatsoever.
-And then we are saying, if I have on average one particle politicised, I will get a state that is a product of Fox.
-States were put exactly one atom on each lattice site and only on it at the site.
-I put what, two for one particle,
-the one that the site and then Abdullah's with every lattice sites were put one or n small and particles in each lattice site.
-It's a product of fox dates and that means that particles never meet for any one of these particles never meet.
-There's no interaction, energy and really minimises this interaction. Energy debt status, insulating.
-It's a gap state. And we will see later on why the particles being localised also means that the momentum distribution is very, very broad.
-The state is capped, it's incompressible and there's no phase coherence.
-this limit, you would say that each atom is localised to a single lattice asite.
-And we also noticed that the multiphase can only exist at commensurate filling.
-if this number is more than the density, so the ratio of atom numbers overlap, number of lattice sites is an integer, one, two, three and so on.
-And we also said that these two regimes are not connected by some  crossover.
-But there is really a phase transition between them. there is some critical you.
-You watch a critical or you pretty critical were you have a sudden jump from the superfluid state into the mid-state.
-What I should say is that the expressions that we see here, the way from sincere in here, they are really only valid at the point of view.
-We could zero into teak with zero. they are only better than these limits. In general, the physics is much more complex.
-The wavefunction is so complex, it has no way of weighting it down in a closed form.
-And if you want to do a precise calculation, you have to results to heavyweight metrics, like, for instance, quantum on the cartel methods.
-Intuitively speaking, we will see this later in this lecture.
-The point that an atom is really pinned to its own let the site only that is really only true.
-It is atomic limit, which has no tunnelling. What we would see later is that if you have a little bit of tunnelling,
-there's always a small probability of that particle having hopped onto its neighbour and we can calculate this one in first order perturbation fuel.
-the particles would spread out a little bit. Also in the model insulator, but they still we mean it's potentially localised.
-And this localisation only goes away at the phase transition when they are go into a superfluid state.
-And we will see this later on in today's lecture. let's think about this phase diagram.
-Think about the point that we have these two phases, superfluid and what insulator.
-And we note that the molten Slater only exists for comments with Philae.
-if you want to draw a phase diagram and approximate paste diagram, you could come up or you would come up with a diagram this.
-We have two axis here, the one Xerces Kinetic Energy now given by team hopping element.
-We do everything and orders a few units of use to you of you here.
-And on the other axis while we apply this to chemica potential. how likely it is or how the external potential is pushing atoms into this.
-it controls the filling of the atoms. And what you can see is that on the hand site, for large kinetic energies,
-everything is in a superfluid phase while you decided lines there to phase boundaries.
-And then here to the left of those space boundaries, we do have MIs.
-here we have two what insulator we're filling one the no means one modulated lobe of the modern integrated with filling two, three, four and so on.
-We can think about first, maybe about the limits T being zero.
-That's the limit that we've discussed in detail. Last lecture where we said, okay, I have a positive chemical potential.
-I can minimise my kinetic, my free energy by putting particles in the system.
-the density will rise, but it will only rise up to the point of density one, an equal one insulator where particles will never meet.
-I have no interaction energy to pay.
-I cannot put particles on top of each other in this regime because my chemical potential is less than due to interaction energy unit.
-I would have to pay to put two particles in the same. That the site is, of course.
-Change is exactly at this point to a new equals you. And then suddenly the minimum winfree energy is for density to.
-Because now suddenly if I put in one particle, I have to pay into each energy one you.
-But again, the chemical potential of the chemical potential is bigger than you.
-Then of course I want to put into particles. And similarly here I have to step up to three to step up to four.
-As we discussed last weak, the superfluid, as I said, can exist at all densities.
-But the modern selecter only at this discrete commensal once. that's where we get this discrete steps here.
-Density one, jumping up to density to jumping up to density three and so on.
-And these numbers, one, two, three are the average density of the atoms parasite.
-These dashed lines here, over here, they now just, you know, the evolution of what a constant density would do.
-which  chemical potentially gets wise to a constant density?
-if we think about it here, we can have density one one point two, one point four, one point five,
-one point six and all of that all the way up to two and then from two to three to whatever the continuum of densities that we can have here.
-But if you now move towards the mode insulators, and that's  what these lines here indicate.
-If I'm really at density one, I will go straight into remote insulator at this point.
-But if I say I am at density one, point two, what if I am at density one point?
-Why can't we form a much insulator? Because I have 20 percent too many atoms or it or two little atoms.
-I will have to follow this line bending upwards and I will have to  avoid them with insulator and add some add up.
-end up somewhere here.
-This little sliver of the first diagram, because I'm pinned at density one, point two, I can't form a modern circuit, so I have to end up here.
-out of this area are you. If you want gets  squeezed into this little part of the phase.
-Tarquin.
-Of course, if the system, though, has a chance of, absorbing more atoms or getting rid of excess atoms because it's connected to a reservoir,
-as you would really expect it to be at a crankin, I think an ensemble. Then, of course,
-this means that the system will now either go into the nuclear Wal-Mart insulator or and it put
-too much insulator and the mismatch and at the numbers will be made up with the reservoir.
-let's try to understand a little bit more the shape of this, why do we have these domes here?
-Why are they looking this? Well, the argument you can make is that if you think that you is much, much bigger than teak.
-we are very close to this line. T is very, very small but finite.
-And you assumed it, you know, sits exactly at J times you, which is an integer.
-we've been talking exactly about the point here. Rimu equals you.
-Or you could say to you, if we say we said exactly at this point, then of course there's a degeneracy.
-And if we energy because both end bar being J plus one or in by being J is possible.
-Right. You the minimum is two atoms precise. You'd if anyone was three atoms parasite.
-But exactly at this point here between the two regenerate, you can have either two or three atoms politicised.
-And then it's very plausible that if I'm sitting exactly at this point, that orebody,
-a small tunnelling, can  mixed it two and three sites and we'll have an effect.
-it's  plausible that the pace boundaries will have to evolve this.
-that very close to this point here. But it was states that generate I will get a big effect even if a small tunnelling.
-And it will go into the superfluid phase. Why do I say I'm sitting somewhere here where everything's solid?
-He wants to be too atoms politicised, a little bit of tunnelling, but not have such a pronounced effect.
-that  fact tells us to reasoning. Why would we expect these  Loeb's structure where it starts off this?
-Another thing that we can see is that the lobes get smaller or bigger and so do any good one, though, extends all the way up to here.
-But yeah, and it could true lobe is already smaller. The three one is smaller, the forward is even smaller and so on.
-But we can also understand this intuitively by saying that we have ozone's, we have Bosnich tunnelling and that means we have was only enhancement.
-that means there already half three or four or five poison's on the lattice site. For them to tunnel is easier than hopping goes faster.
-And again, a smaller tunnelling can have a bigger effect. Pythonic enhancement you probably have seen before.
-If not, do we minder is that you know, think of this term a Heidegger, A.J., that if I think of AJ operating on, say,
-a Fox state n then I get this square would have end times to Fox State with N minus one in this queer would
-of N beings that the effect of the whole thing is bigger for larger and that's platonic enhancement.
-OK, the last question we can ask. And that's the question we should ask now for the next two slides is where is this
-point here exactly in the Y direction is probably straightforward to think about that.
-It would be in the vicinity of New U. Equals you over to so  in the middle of the slope.
-But the question is, where is this critical U of a T. what is the critical parameter?
-At which point do we expect this one to change from what insulator into superfluid?
-And in order to answer this, we don't have to do a little bit of theory. And we'll do this in the easiest possible way.
-We would use an approximation that's called mean food, fuel.
-if you think about this fundamentally, the problem you have is say you want to understand what's going on in this lattice.
-But this lattice site is, of course, coupled with the tunnel couplings to its neighbours.
-you can't really solve the problem for this one provide having solve the problems with the neighbouring sites beforehand,
-because we really need to know how many items are there? Are you likely to hop onto the sacred site or not?
-You need to notice so no site can be swiped individually. And that is, as I said already, India introduction.
-That is what makes them anybody problem heart. You cannot, like, take out one little part of the system and solve that.
-You have to solve the whole system in one go.
-But you can now say, if I have quite a few of those neighbours, I can make an approximation where we place all of those couplings,
-former given site to all of its surroundings by an average or an effective
-interaction off this temple at the site with  what we call immune feud.
- the average of all of the lattice sites around it.
-pictorials pictorially speaking, we are saying we go from a situation up here, one left asite cobber,
-to operate the sites to the situation of one let the site cover to  an average mean feud.
-And this is a very strong simplification because it reduces the many body problem into an effective one body or single site problem.
-I should say that is, of course, much, much easier to deal with. What we need to do then is we need to find the value of this minefield.
-And it needs to be found serve consistently. we  saying, OK, whatever we get for this little site.
-If we take that many, many times average over debt for the surroundings.
-This is supposed to give us back them in future. is it a self-consistent calculations?
-Have consistency is very important here. And that's something we're going to do.
-It's an approximate scheme because you only have these four neighbours in this case and these are not infinitely many.
-there will be fluctuations around the average and these evacuations are important. And we told him away in this  thing.
-very often these furies only become exact in the limit of infinitely many neighbours.
-infinitely many dimensions. we can't really expect from this that put 3-D where we have six neighbours in a super cubic lattice.
-It should be better than INTUITY. And that would be even better than in one day, because on one day we only have two neighbours.
-And the fluctuations would be very, very important. Okay, let's try to do this calculation.
-As I said, it's very approximate, but therefore it's also easy to handle and even me as an experimentalist can present it.
-the idea, the starting point is to save. I take a quantum mechanical operator, a I can  replace that by its mean value,
-its expectation value, plus the remaining part, the fluctuations. take an observable and say it's mean value plus fluctuations.
-What we're going to do here is we're going to say, let's take our B.S. and describe our B.S. as a product of local coherent states.
-the operator we're looking at is the annihilation operator I onsite AI.
-And then we're going to say, well, if that's what we can describe this one as a coherent state.
-Were you in states last lecture we used to parameter over.
-Now we call up cyber is the same thing.
-the expectation value of A.I. and as you would see, also no problem, said the Cohu in states of the Eigen states of A.I.
-if have a coherent state over. Then there's expectation value is just far.
-And we just got up. And then of course, there's the remaining part, the fluctuations.
-Dodaro. And what we can do is just to simplify things as we assume that we have a homogeneous system.
-we assume that all lattice sites are the same.
-And we're assuming that if there is a mean feud, if there is something happening, then it's going to be condensation into the zero momentum mode.
-The problem at hand and we're talking about the soup of root and rotten sort of transition. That's, of course, obviously a very reasonable assumption.
-And if we say it's Kubic with zero, then as I already said on the previous slide, I a shortened equation there.
-Then basically the Kuga zero mode is to equals what position of all of the
-Wannierh states with the same phase factor because Kuzio would affect us equally,
-ICU X or one. And that basically means that the expectation value of all of the ice on it and that
-the sites will be the same in this homogeneous system and colonisation of Kukan zero,
-we just quoted the expectation value. everything becomes independent. The pie which simplifies things.
-Again. Please note that if we do this calculation and his calculation tells us that the self-consistent minefield we get is finite.
-the exploitation by site, if the value of science bigger than zero, then this Darity implies long range order of day a language.
-Because if we now look at Sady to accommodate as a Heidegger, A.J., they would just become a site stop sign.
-having this mean futurity means long you order in his mean food situation.
-The only thing that we can have is no order at all or full on which order will let the
-sites are doing the same thing because of the simplifications that we've made up here.
-so far, everything just has been a restatement of things that are through in a slightly different language.
-Now the approximation part comes in this line where we say, okay, we can now try to technik take some fluctuations.
-in particular, what we want to do is we want to declare terms on the order of dirt or Aido to be so turned to that,
-the small fluctuations of board of both operators multiplied with each other.
-what we're basically saying is if I take an operator minus its expectation
-about two times the protocol from other operator minus expectation value, I would set that to zero.
-This is  a form of thing that we're doing.
-We're not saying we neglecting all the fluctuations that would be too harsh and would mean that we would never get something.
-But we're saying we neglecting the product of fluctuations. if you want to be a connecting term in the order of one over X, quit.
-what this means is that if we take a product of Operators' eight times B, we can now we place this within the following way where we say,
-okay, we replace a word with expectation value or we replace B with an expectation value because we now have to type two terms here,
-which are both on the order of eight times B, we subtract off to compensate for this A minus D,
-expect the product of the expectation values of A times B.
-In our complex concrete situation here, what we're doing is we're saying, OK, we take the tunnelling term,
-we just the one that couplets different, let the sites and different means that all this the a coupled and be decouple it by saying a Heidegger,
-A.J., we white Eivor,
-we take the Heidegger and we replace it by Psystar or we take DHEA and replace it by design and then we subtract off minus plus square.
-If you want to see this line, you can directly just say, okay, take this definition, pluck this definition into the product A Heidegger,
-A.J., and then use this condition, are saying we neglected terms it dislike or traffic in the fluctuations.
-This is called the decoupling approximation and decoupling approximation is important because now what you see here is that the hand site,
-the sites, I and J are not directly couples. Nothing covert sites are in J anymore.
-It's just that both the sites I cuppers to mean at the site J.
-Also copies to me. I do not die would be covered here here on the left hand site.
-they are decoupled. Hence the name. up here that's the same equation.
-Again, just a copy.
-And if we now say we take this one and go with this one into the Bulls Hubbard Hamiltonian and we would place all appearances of a digger, A.J.,
-and the boys abutment or any kinetic energy with these things on the hand site,
-then we can, like, cruise together to terms depending on Rober independent IJA.
-And then we realised that we get a total Hamiltonians immune photometer,
-one which is not just a sum over terms that depend on a single at the site and each of these terms.
-Ajai is then given by minus T time set. Roset is the coordination number.
-To talk more about this in a second, Psystar a I plus bpci a Heidegger says basically saying from his two terms,
-I have once this to read it doesn't I. And once disturbed it doesn't I.
-it's a two couplings to mean feud. Then I have to act.
-Substract off this part to you. I get the minus ts it.
-A plus teaser because you can avoid minus hiden Hamiltonian sized upsite.
-And we have the interaction term which is already local insight I. And we have to chemic a potential term onsite.
-I. because we do this averaging of all of the newest neighbours, Egypt is coming to an Yose neighbour, we'll do the same thing.
-It's the coming to the bean field. we just have to ask, how many newest neighbours do we have?
-And that's the coordination number. Did we get zatz many of these terms here and here?
+Hello and welcome back. We are continuing with bosons in lattices. We're going to look at this phase diagram of the Bose Hubbard model in more detail. We're going to calculate some critical interaction strength. And then in the end, also look at how this can actually be measured.
+
+In the BH Hamiltonian, we said that the first term is the kinetic energy, where $t$ is the tunnelling rate or hopping rate (also called $J$), and it's the speed with which particles can hop from one lattice site to the next, and then hopping is only between nearest neighbours. The interaction term is a purely on site interaction, so particles only interact if there's more than one particle on the same lattice site. And if you have $n$ particles on it, each of those particles can interact with $n-1$ partners. And in total, you have a factor of one half in here because of double counting.
+
+For the first part of this lecture, we can ignore the onsite energies which are only relevant if you have a trapped system; will come back to that at the end. And we note that we can control the overall density of the particles with the chemical potential by working in the grand canonical ensemble. What we discussed last time was that we have two different types of ground states. And as a reminder, if we are in the limit of having no interactions with $U=0$, we have a superfluid state and the superfluid state in this limit can be described as just saying is it a BEC, condensing into the $q=0$ quasi-momentum mode of the lowest band. And that basically means that each particle can be described as being in a superposition of all of the sites. This means if I look at this in momentum space, I get sharp peaks because all of the particles acquire momentum and we see the high order peaks. If I look in real space, the local particle number has a broad distribution because every particle by chance would be projected onto one of the lattice sites, and by chance you will find one, two or three particles on this lattice site. And last time we discussed how you can describe this with local coherent states and how you get a poissonian distribution. That's the superfluid regime. And each atom is delocalised over the whole lattice.
+
+The other phase, is the Mott insulator phase. And again, this expression is only about it, in the limit were $t=0$ and $U>0$. The so-called atomic limit where it has no kinetic energy whatsoever. And then we are saying, if I have on average one particle per lattice site, I will get a state that is a product of Fock states where put exactly one atom on each lattice site. And we also said that these two regimes are not connected by some crossover, but there is really a phase transition between them. There is some critical $U_C$ where you have a sudden jump from the superfluid state into the MI state. What I should say is that the expressions that we see here, are really only valid in the limits above, and if you want to do a precise calculation, you have to resort to heavyweight metrics like, for instance, quantum Monte Carlo methods. Let's think about this phase diagram. Think about the point that we have these two phases, superfluid and Mott insulator. And we note that the MI only exists for commensurate filling. If you want to draw an approximate phase diagram, you would come up with a diagram like this.
+[pic]
+We can think about first, maybe about the limits $t=0$. That's the limit that we've discussed in detail last lecture where we said, okay, I have a positive chemical potential. I can minimise my free energy by putting particles in the system. The density will rise, but it will only rise up to the point of density one, an $n=1$ insulator where particles will never meet. I have no interaction energy to pay. I cannot put particles on top of each other in this regime because my chemical potential is less than the interaction energy unit. I would have to pay to put two particles in the same site. Of course changes exactly at this point to a $\mu=U$, and then suddenly the minimum free energy is for $n=2$. Because now suddenly if I put in one particle, I have to pay into each energy one $U$. But again, the chemical potential is bigger than $U$. Then of course I want to put into particles. And similarly here I have to step up to three to step up to four. As we discussed last weak, the superfluid can exist at all densities. But the MI only at this discrete commensurate ones. These dashed lines show the evolution of what a constant density would do. 
+
+Which chemical potential gives rise to a constant density? If we think about the first line, we can have $n=1, 1.2, 1.4, 1.5...2$ and then from 2 to 3 to whatever the continuum of densities that we can have in the second. But if you now move towards the Mott insulators, and that's  what these lines here indicate, then if I'm really at density one, I will go straight into the Mott insulator there. But if I say I am at density 1.2, why can't we form a Mott insulator? Because I have 20 percent too many atoms I will have to follow this line bending upwards and I will have to avoid the insulator and end up somewhere in between the lobes. Of course if the system has a chance of absorbing more atoms or getting rid of excess atoms because it's connected to a reservoir, as you would really expect it to be in a grand canonical ensemble, then the system will now either go into the $n=1$ or $n=2$ Mott insulator and the numbers will be made up with the reservoir. 
+
+Let's try to understand a little bit more the shape of this, why do we have these domes here? Well, the argument you can make is that if $U>>t$ we are very close to the y-axis. We've been talking exactly about the point here, where $\mu = U$. Or you could have $\mu =2U$, if we said exactly at this point in between the lobes, then of course there's a degeneracy in the free energy because both $\bar{n}=J+1$ or $\bar{n}=J$ is possible. The same holds between two higher lobes. I will get a big effect even with a small tunnelling. And it will go into the superfluid phase. Why do I say I'm sitting somewhere here where everything's solid? 
+
+Why would we expect these lobe structures where it starts off this? Another thing that we can see is that the lobes get smaller as we go higher up the y-axis. We can understand this intuitively by saying that we have Bosonic tunnelling and that means we have \textbf{bosonic enhancement}. That means if there are already three or four or five bosons on the lattice site, hopping goes faster. And again, a smaller tunnelling can have a bigger effect. Think of the first term in the Hamiltonian operating on, say, $|n\rangle$ and you can see it.
+
+OK, the last question we can ask is where is the tip of the lobe. It would be in the vicinity of $\mu = U/2$ so in the middle of the slope. But the question is, where is this critical $U/t$. At which point do we expect this one to change from Mott insulator into superfluid? And in order to answer this, we have to do a little bit of theory. And we'll do this in the easiest possible way. We will use mean field theory. If you think about this fundamentally, the problem you have is say you want to understand what's going on in this lattice. But this lattice site is, of course, coupled with the tunnel couplings to its neighbours. You can't really solve the problem for this one without having solve the problems with the neighbouring sites beforehand, because we really need to know how many atoms are there? Are you likely to hop onto the next site or not? So no site can be solved individually. And that is, as I said already, what makes the manybody problem hard. But you can now say, if I have quite a few of those neighbours, I can make an approximation where we place all of those couplings from a given site to all of its surroundings by an average or an effective interaction with  what we call the mean field. Pictorially speaking, we are going from the left to the right image 
+[left pic, mean field right pic]
+And this is a very strong simplification because it reduces the many body problem into an effective one body or single site problem. I should say that is, of course, much, much easier to deal with. What we need to do then is we need to find the value of this mean-field. And it needs to be found self-consistently. It's an approximate scheme because you only have these four neighbours in this case and these are not infinitely many. There will be fluctuations around the average and these fluctuations are important. Very often these theories only become exact in the limit of infinitely many neighbours, in infinitely many dimensions. In 3-D where we have six neighbours in a simple cubic lattice, it should be better than in 2D, and that would be even better than in 1D, because in 1D we only have two neighbours, and the fluctuations would be very, very important. 
+
+Okay, let's try to do this calculation. As I said, it's very approximate, but therefore it's also easy to handle and even me as an experimentalist can present it. The starting point is to say if I take a quantum mechanical operator, a I can replace that by its expectation value plus the remaining fluctuations. Let's take our BEC and describe it as a product of local coherent states.
+[eqn]
+The operator we're looking at is the annihilation operator. And then we're going to say, well, if we can describe this one as a coherent state, the expectation value $\langle a_i \rangle $ is no problem. And then of course, there's the remaining part, the fluctuations.
+[eqn]
+And what we can do is just to simplify things as we assume that we have a homogeneous system. And we're assuming that if there is a mean field, if there is something happening, then it's going to be condensation into the zero momentum mode. That's, of course, obviously a very reasonable assumption. And if we say it's $q=0$, then
+[eqn]
+Please note that if we do this calculation and it tells us that the self-consistent meanfield we get is finite, then this implies ODLRO. The only thing that we can have is no order at all or full long range order where all sites are doing the same thing because of the simplifications that we've made. So far, everything just has been a restatement of things in a slightly different language. Now the approximation part comes in this line where we say, okay, we can now try to take some fluctuations, in particular, what we want to do is we want to declare terms on the order of fluctuations squared
+[eqn]
+What we're basically saying is if I take two times an operator minus expectation value, I would set that to zero. This is a formal thing that we're doing. We're not saying we neglecting all the fluctuations that would be too harsh and would mean that we would never get something. But we're saying we neglecting the product of fluctuations. 
+[eqn]
+This is called the \textbf{decoupling approximation} and is important because now what you see here is that the sites, I and J are not directly coupled. Nothing covert sites are in J anymore. It's just that both the sites I couple to the mean at the site J. And if we now say we take this one and go with this one into the Bose Hubbard Hamiltonian 
+[eqn]
+We just have to ask, how many nearest neighbours do we have? And that's the coordination number. Did we get zatz many of these terms here and here?
 if I have a cubic lattice, then I have two neighbours would use number of dimensions.
 I think of the two, these queer lattice, then I have four neighbours.
 If I think of the cubic lattice in 3D, then I have six neighbours and the X and the Y end in the Z direction.
