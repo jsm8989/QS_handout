@@ -30,55 +30,16 @@ What we're basically saying is if I take two times an operator minus expectation
 [eqn]
 This is called the \textbf{decoupling approximation} and is important because now what you see here is that the sites, I and J are not directly coupled. Nothing covert sites are in J anymore. It's just that both the sites I couple to the mean at the site J. And if we now say we take this one and go with this one into the Bose Hubbard Hamiltonian 
 [eqn]
-We just have to ask, how many nearest neighbours do we have? And that's the coordination number. Did we get zatz many of these terms here and here?
-if I have a cubic lattice, then I have two neighbours would use number of dimensions.
-I think of the two, these queer lattice, then I have four neighbours.
-If I think of the cubic lattice in 3D, then I have six neighbours and the X and the Y end in the Z direction.
-And if I think of the one day lattice, I only have two neighbours.
-And the key thing is that even though his expression was longer than expressions we had before,
-for Hamiltonian, this is now a purely local problem of a single site which is uncoupled to amino average feud.
-definite, the complexity of this one is far, far, far we used.
-And we only have to understand what goes on in Mifune and what goes on in a single site.
-And because this. the goal of this calculation will not always be to say, let's find the concept of this,
-so let's find that value of site, that valuable to mean feud that minimises does mean feed energy.
-the expectation value of this mean for Hamiltonian up here, which basically because this is a sum of identical term,
-just means to say we need to find that way of BPCI that minimises the expectation value of this guy.
-And it's something to be can do. In order to do this,
-we realised that we are mostly interested in the phase transition and the fascination superfluid to modern Solara is a continuous paced transition,
-which means that the expectation, value or absolute value of CI would be very small, close to the transition.
-On the mod site, there would be zero. And another piece he the superfluid said it would start to take off from zero.
-we're  interested in this position point where we are asking Web site
-changes from being zero to being on zero because we know it would be small.
-It's a continuous phase transition. there's no big jump. It would be smaller, continuous evolution.
-We can do the following. We can say we tend to expand the infinite energy as a function of BPCI.
-this expectation really appear around the pipe site equals zero. And this is now coming back to what we discussed about taste transitions.
-If we do this in a Taylor expansion, we know that we'll get a constant term plus eight times PSI squared plus B Times cited a fourth asset values.
-Both we understand that it cannot be linear or Kubic terms because the symmetry of 10 Latonia.
-And we also well, it's not shown here, but we will always be positive.
-the main player would be this a.
-And the question of whether it is a positive or negative so we can make the same plots as we did in the second or third lecture.
-We were talking about vestment that we realise that if A is positive, we basically get something that's a parabola down here.
-Dead turns over into the exit, a funnel. But it's going up this and has a minimum at the middle, while if A is negative.
-There's a study cited a follow out here, but it's not so important.
-Very close to zero, close to zero. The quadratic term dominates.
-And if A is negative with a parabola that opens to below, which basically means we get something where we have a minimum here or here.
-in one situation, the plus situation, does the modern Salvator say zero?
-There is no mean feud, meaning there is no superfluid, there is no off there along with order.
-Why do you ever case there is a mean. There is of taking a which order. And this is the superfluid phase.
-And if we were asking about if we're thinking about what is the super size?
-I didn't say this, but SCI is obviously a complex parameter and they've just plotted it here as a weird part of SCI.
-If I want to also plot the compter for complex plane with the weird part of SCI and imaginary part of SCI,
-then this becomes this typical Mexican head potential us from Pereiro were if you start in a mud insulator, but you are into superfluid regime.
-you on the situation at a minimum is not a zero. This is an unstable situation.
-You will accept this continuous symmetry breaking and you can be either here or there at any point around this weak.
-And spontaneous symmetry was broken here. Is the symmetry of the argument the phase of the of Piramida?
-Because that one is the one that is  connected to the cemetery that we discussed earlier.
-And it can be spontaneously broken by going from the mountains related to the
-superfluid and it's there spontaneously phase off to BEC. to be discussed,
-to be looked at, interference between two species where we said, okay, we see the fringes, but the fringes and every shot at a random position.
-That's because the symmetry breaking is indeed spontaneous, i.e. random.
-And obviously, the phase transition happens exactly at the point where a zero.
-the only thing left to do is to calculate this does point of order as a equal zero.
+We just have to ask, how many nearest neighbours do we have? And that's the coordination number. And the key thing is that even though this expression was longer than expressions we had before for the Hamiltonian, this is now a purely local problem of a single site which is coupled to a mean average field. The complexity is far, far, reduced. We realised that we are mostly interested in the phase transition, and from superfluid to MI is a continuous phase transition, which means that the expectation value would be very small, close to the transition. On the Mott side, there would be zero. And on the superfluid side it would start to take off from zero. We're  interested in this position where it changes from being zero to being nonzero. 
+[eqn]
+We can do the following. We can expand the free energy as a function of $|\psi|$. We know that we'll get 
+[eqn]
+and there cannot be linear or cubic terms because the symmetry of the lattice. And it's not shown here, but $b$ will always be positive, so the question of whether $a$ is positive or negative is important. If $a>0$, we basically get something that's a parabola down here, 
+[pic]
+while if $a<0$ we get the sombrero potential. In the plus situation, there is no mean field, meaning there is no superfluid, there is no ODLRO. With the other case there is a mean field, there is ODLRO, and this is the superfluid phase. You will accept this continuous symmetry breaking and you can be either here or there at any point around this ring. The symmetry is the phase of $\psi$ and it can be spontaneously broken by going from the MI to the
+superfluid.
+
+The only thing left to do is to calculate this does point of order as a equal zero.
 And this can be done easily, numerically, or it can even be done in second order.
 Perturbation few. And the answer is that if you do this at the tip of the Motlop, at any good one, you get a value that you overset.
 T must be five point eighty. now we understand we're at a critical point would in this very approximate mean few, few.
