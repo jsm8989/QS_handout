@@ -39,65 +39,24 @@ and there cannot be linear or cubic terms because the symmetry of the lattice. A
 while if $a<0$ we get the sombrero potential. In the plus situation, there is no mean field, meaning there is no superfluid, there is no ODLRO. With the other case there is a mean field, there is ODLRO, and this is the superfluid phase. You will accept this continuous symmetry breaking and you can be either here or there at any point around this ring. The symmetry is the phase of $\psi$ and it can be spontaneously broken by going from the MI to the
 superfluid.
 
-The only thing left to do is to calculate this does point of order as a equal zero.
-And this can be done easily, numerically, or it can even be done in second order.
-Perturbation few. And the answer is that if you do this at the tip of the Motlop, at any good one, you get a value that you overset.
-T must be five point eighty. now we understand we're at a critical point would in this very approximate mean few, few.
-the question now is this five point eight three is, of course, independent of dimensioned,
-because the only effect of dimensionality is to control those parameters that year.
-But the question is, is this through? Is it okay to neglect all of the other things and to just look at this mean fit for you?
-And as already alluded to. It's okay. And high dimensions, but very much not okay in low dimensions.
-what you see here is to mean fewer predictions. this is justice, five point eight three multiplied by two and one the case for.
-Into two decades and six in 3D case. we get values in the order of twelve.
-Twenty three and 35. And there is no ways of doing this calculations.
-Exactly. without using the method approximation.
-And they are all heavyweight numerics that are far beyond what we can discuss interest in this lecture.
-Just give you the names. This is a density Matrix Humanisation group. And in 2002, we did the best way of doing it is Quantum onto Kadal.
-And then we can look at the results. We can compare the numbers and we see it in 3D.
-We're basically pretty good. the correct result is twenty nine point four. The result we got is 35.
-that's correct, within 15 percent, which is pretty good.
-If we go to 2D, we get seventeen to twenty three. That's a bigger discrepancy, but also not too bad maybe.
-But if we go to one, these things are very different because we get almost twelve and mean feud.
-But the reality is much, much closer to zero. We only get three point something. what's going on here?
-Well, what's going on here is that means you fear is always pretty good in 3D and it's even better in higher dimensions.
-And it will typically, in almost all cases, overestimate the audit phase and or the audit phase.
-It favours the audit phases. if people do more in-depth analysis later on, they typically first look at the minford analysis.
-If they mean that really tells you that there is not going to be any phased and any audit phased and it's unlikely but not impossible to find one.
-But typically, you have to then look at all of the pieces you find in me. If you didn't ask ROBERI wienie.
-Correct. If you like. Yeah. Introduce quantum fluctuations and take quantum fluctuations into account.
-Just to recap, what we did is we said instead of having all of those discrete nearest neighbours, we  take an average of all of them.
-And we assume that that average no, we're not fluctuate anymore, but we'd be one precise number, which were quite a mean feat.
-But in reality, of course, if I take the average of four numbers and the numbers change and the average with the fluctuate around.
-I'd have to take this into account. And this is a quantum fluctuations that I neglected in the immediate future, but unpartnered the exact few.
-And I'll give an example, what  fluctuations are in a few slides for the experts?
-Not relevant for us mostly, but for the experts in one district speaking.
-You never have a proper order parameter expectation that your PSI will always be zero.
-You don't really get long range order. You only get cuonzo language orders.
-you get something. What is correlation functions? I dig up J.
-Dukane. I'm not exponentially but appropriately.
-And that means that the phase transitions will be of a particular type, the so-called cost poly's type.
-If that's if this doesn't mean anything to you, then don't worry. It's just the experts.
-Okay,
-so now we have as good an understanding of word Espace Transitional Cure's and how we should think about this in homogeneous lattices as who we need.
-But now, of course, many experiments are not done in big homogeneous lattice.
-Dehradun Trap. the next step will be to say, how can I think about the system in a trap and how can I think about what's going on there?
-Because I don't have this big homogeneous piece. I'd have a potential underlying harmonic trap that keeps all of the atoms together.
-And that means that the situation might be very different and well.
-We typically ignore it. what we typically do is we do something called the local density approximation,
-where we are saying in principle, I have my underlying harmonic trap.
-And I should think of this one being as  a couple hundred, let the site say so.
-It isn't top of this stairs that let us potential that I have, not one here.
-And then you can ask, what can I learn from the homogeneous system and use it for the enormous genius system?
-And the answer is that I can say take back this area off the trap where a potential is more or less constant than
-say that we place this overall potential here just with a potential of a box with a constant potential insite.
-we just say that in here and in this little box, we assume that the tripping potential is going to be constant.
-And then you as well, we are assuming that the trapping potential in you, which, of course, is the problem parameter.
-We just approximate this one to be a constant. Same in this box.
-Same in every box. we  approximate our in homogeneous system by a sequence of boxes.
+The only thing left to do is to calculate this does point of order as $a=0$. And this can be done easily numerically, or it can even be done in second order perturbation theory. And the answer is that if you do this at the tip of the $n=1$ Mott lobe, you get a value $U/zt=5.83$. So now we understand where the critical point would be in this very approximate mean field theory. This five point eight three is, of course, independent of dimension because the only effect of dimensionality is to control $z$. But the question is, is this true? Is it okay to neglect all of the other things and to just look at this mean field theory?
+[pic - table]
+And as already alluded to, it's okay in high dimensions, but very much not okay in low dimensions. Well, what's going on here is that MFT is always pretty good in 3D and it's even better in higher dimensions. And it will typically, in almost all cases, overestimate the ordered phase - It favours the ordered phases. If people do more in-depth analysis later on, they typically first look at the mean field analysis, and if this tells you that there is not going to be any ordered phase it's unlikely but not impossible to find one. You have to then take quantum fluctuations into account. 
+[eqn]
+Not relevant for us mostly, but for the experts in 1D strictly speaking you never have a proper order parameter;
+[expectation that your PSI will always be zero]
+You don't really get long range order. You only get quasi long range orders, and that means that the phase transitions will be of a particular type, the so-called Kosterlitz-Thouless type.
+
+
+Local density approximation
+Of course, many experiments are not done in big homogeneous lattice, but in an underlying harmonic trap that keeps all of the atoms together. And that means that the situation might be very different. What we typically do is we do something called the \textbf{local density approximation}, where we are saying in principle, I have my underlying harmonic trap, 
+[pic]
+And then you can ask, what can I learn from the homogeneous system and use it for the inhomogeneous system? And the answer is that I can say take this area of the trap where a potential is more or less constant, we just say that in here and in this little box, we assume that the trapping potential is going to be constant. And then $\mu$ as well, which, of course, is the problem parameter. We approximate our inhomogeneous system by a sequence of such boxes.
+[eqn - LDA]
 What a system is internally always homogeneous. And then we can ask even a half a bunch of particles in this overall harmonic trap.
 How will these particles distribute themselves over those boxes? Will you all go into this box?
 Or will it  fill up the first three or four boxes? What will they do?
-And because we're doing the calculation already in the crankin Oklahoma,
+And because we're doing the calculation already in the 
 it's actually rather easy to take this into account because we're basically saying,
 well, each box will be filled up of its own chemical potential and the chemical potentially in a given box or in a given position.
 We can as quote as it can. A central chemical potential unit, which is the controls of Ofili, minus two potential at this point.
