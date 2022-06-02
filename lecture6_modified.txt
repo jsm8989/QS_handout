@@ -39,378 +39,70 @@ and there cannot be linear or cubic terms because the symmetry of the lattice. A
 while if $a<0$ we get the sombrero potential. In the plus situation, there is no mean field, meaning there is no superfluid, there is no ODLRO. With the other case there is a mean field, there is ODLRO, and this is the superfluid phase. You will accept this continuous symmetry breaking and you can be either here or there at any point around this ring. The symmetry is the phase of $\psi$ and it can be spontaneously broken by going from the MI to the
 superfluid.
 
-The only thing left to do is to calculate this does point of order as a equal zero.
-And this can be done easily, numerically, or it can even be done in second order.
-Perturbation few. And the answer is that if you do this at the tip of the Motlop, at any good one, you get a value that you overset.
-T must be five point eighty. now we understand we're at a critical point would in this very approximate mean few, few.
-the question now is this five point eight three is, of course, independent of dimensioned,
-because the only effect of dimensionality is to control those parameters that year.
-But the question is, is this through? Is it okay to neglect all of the other things and to just look at this mean fit for you?
-And as already alluded to. It's okay. And high dimensions, but very much not okay in low dimensions.
-what you see here is to mean fewer predictions. this is justice, five point eight three multiplied by two and one the case for.
-Into two decades and six in 3D case. we get values in the order of twelve.
-Twenty three and 35. And there is no ways of doing this calculations.
-Exactly. without using the method approximation.
-And they are all heavyweight numerics that are far beyond what we can discuss interest in this lecture.
-Just give you the names. This is a density Matrix Humanisation group. And in 2002, we did the best way of doing it is Quantum onto Kadal.
-And then we can look at the results. We can compare the numbers and we see it in 3D.
-We're basically pretty good. the correct result is twenty nine point four. The result we got is 35.
-that's correct, within 15 percent, which is pretty good.
-If we go to 2D, we get seventeen to twenty three. That's a bigger discrepancy, but also not too bad maybe.
-But if we go to one, these things are very different because we get almost twelve and mean feud.
-But the reality is much, much closer to zero. We only get three point something. what's going on here?
-Well, what's going on here is that means you fear is always pretty good in 3D and it's even better in higher dimensions.
-And it will typically, in almost all cases, overestimate the audit phase and or the audit phase.
-It favours the audit phases. if people do more in-depth analysis later on, they typically first look at the minford analysis.
-If they mean that really tells you that there is not going to be any phased and any audit phased and it's unlikely but not impossible to find one.
-But typically, you have to then look at all of the pieces you find in me. If you didn't ask ROBERI wienie.
-Correct. If you like. Yeah. Introduce quantum fluctuations and take quantum fluctuations into account.
-Just to recap, what we did is we said instead of having all of those discrete nearest neighbours, we  take an average of all of them.
-And we assume that that average no, we're not fluctuate anymore, but we'd be one precise number, which were quite a mean feat.
-But in reality, of course, if I take the average of four numbers and the numbers change and the average with the fluctuate around.
-I'd have to take this into account. And this is a quantum fluctuations that I neglected in the immediate future, but unpartnered the exact few.
-And I'll give an example, what  fluctuations are in a few slides for the experts?
-Not relevant for us mostly, but for the experts in one district speaking.
-You never have a proper order parameter expectation that your PSI will always be zero.
-You don't really get long range order. You only get cuonzo language orders.
-you get something. What is correlation functions? I dig up J.
-Dukane. I'm not exponentially but appropriately.
-And that means that the phase transitions will be of a particular type, the so-called cost poly's type.
-If that's if this doesn't mean anything to you, then don't worry. It's just the experts.
-Okay,
-so now we have as good an understanding of word Espace Transitional Cure's and how we should think about this in homogeneous lattices as who we need.
-But now, of course, many experiments are not done in big homogeneous lattice.
-Dehradun Trap. the next step will be to say, how can I think about the system in a trap and how can I think about what's going on there?
-Because I don't have this big homogeneous piece. I'd have a potential underlying harmonic trap that keeps all of the atoms together.
-And that means that the situation might be very different and well.
-We typically ignore it. what we typically do is we do something called the local density approximation,
-where we are saying in principle, I have my underlying harmonic trap.
-And I should think of this one being as  a couple hundred, let the site say so.
-It isn't top of this stairs that let us potential that I have, not one here.
-And then you can ask, what can I learn from the homogeneous system and use it for the enormous genius system?
-And the answer is that I can say take back this area off the trap where a potential is more or less constant than
-say that we place this overall potential here just with a potential of a box with a constant potential insite.
-we just say that in here and in this little box, we assume that the tripping potential is going to be constant.
-And then you as well, we are assuming that the trapping potential in you, which, of course, is the problem parameter.
-We just approximate this one to be a constant. Same in this box.
-Same in every box. we  approximate our in homogeneous system by a sequence of boxes.
-What a system is internally always homogeneous. And then we can ask even a half a bunch of particles in this overall harmonic trap.
-How will these particles distribute themselves over those boxes? Will you all go into this box?
-Or will it  fill up the first three or four boxes? What will they do?
-And because we're doing the calculation already in the crankin Oklahoma,
-it's actually rather easy to take this into account because we're basically saying,
-well, each box will be filled up of its own chemical potential and the chemical potentially in a given box or in a given position.
-We can as quote as it can. A central chemical potential unit, which is the controls of Ofili, minus two potential at this point.
- you really saying that because this box is higher up here,
-it will have a lower chemical potential, so therefore less particles will go.
-We want to go into this box and then in equilibrium, what you get is you get that you have the same chemical potential everywhere.
-It's Roger trapped in the particles have  arranged themselves in such a way that they minimise the total energy.
-As a quick reminder, what again is the chemica potential in a Quinkan Nergal ensemble?
-It's defined as the derivative of the total energy with respect to partic a number at constant entropy.
-This constant entry path is not that important for us because a team with zero.
-just represents the energy required to add another particle.
-if I have a chemical potential of three and it would cost me just the energy of two to edit of a particle to the system,
-then there would be a particle going in. And another. And another. And another.
-And another and another until the cost of putting in the next particle will be three.
-My chemical potential. Then this would stop.
-maybe a good analogy of this is we need to think of this one as like, say, a a rock landscape think of puddles in the road.
-But a potential is deeper, probably steeper. You would have more water on to the water level in the end would be the same level everywhere.
-Now, of course, it's not the density of you're talking about years when you were talking about the energy per particle that we have in this case.
-if we start devolve to political stone here CNBC, but then we say no, we have a positive interaction.
-Then the chemical potential would have to rise a lot in the middle here because the energy of a particle requires a lot by the interaction.
-And suddenly it makes sense to this city because particles more broadly let them spread out to the particles.
-Up here, we're peignoir potential energy. But in all of the particles in the middle here, we would reduce their interaction, energy.
-And that means totally speaking.
-This system saves energy and totally speaking the system that minimises the kinetic and the chemical potential that will have to have everywhere.
-And it  equalises the chemical potential everywhere. This is exactly the same thinking as you have in physics, chemistry, where you would say,
-okay, I have a reaction action, reflect different reaction, partners and so on.
-And then I provide the chemical, potentially one chemical potentially for each of those we action partners, the products and the things that go in.
-And then I also get a chemical equilibrium, which will tell me you have the same chemical potential everywhere.
-And that will determine how many of the particles I say I have from the molecules.
-How many are free atoms and so on. here will tell us how many particles you can find in each box.
-The way you calculate this in practise and the way you cut in practise, you get to know your central chemical potential.
-The way you do this is you say there's no organisation constraint because you save.
-And I'll take my local density, which is basically given by the local chemical potentials.
-Klauber chemical potential minus local potential. I take this density and integrate this density over the whole trip.
-Then of course I need to get the correct for particle number. this basically determines me or not.
-those parameters are permitted to be, don't know, apriori. But by knowing how many particles we'll have,
-totally moving the total particle number and knowing the trapping potential and knowing our equation of state,
-which is the function of new, then we can calculate what is you notice.
-this picture is, of course, very simple in a sense, because you never have to softy in Virginia's system.
-You just need a good solution for a homogeneous system.
-And then you basically just say, okay, I know ever which this one over my trip and they end up where I want.
-It's quantitatively correct.
-If the trapping if Trevis big enough so that the potential is only slowly varying and if I have the phases for final correlation things.
-very often it is okay for us in cases where it's not okay.
-We have to think more. But these are where. what does this mean for the situation that we have now with bosun's in an optical lattice?
-And this is basically something that gives rise to the following set of diagrams
-and to the famous wedding cake structure of photons in an optical lattice.
-what we said about the chemical potential is we say that the chemical potential at a given
-point in Trepp is the central chemical potentially minus the dropping potential at this point.
-you're not minus V of X, which means when I go back to his phase, diagrammed disasters mean food,
-pasto equipment we had before he left his meatloaf's and equal one and equal to an equal three.
-And the superfluid phases out here as a function of chemical potential and kinetic energy.
-Then if we have a certain you're not, say, in the centre of the trip, we might be at this position.
-this is the point. We have to situation. We have in the centre of the trip. We are somewhere and you Enuka one and it two Motlop.
-Now, if we move to get to the edge of the trip, if you move outsite,
-we move up in the typically harmonic potential, which means you move down in local chemical potential.
-This this party of XY goes up, which means that the chemical potential goes down.
-Which basically means to be stopped off. In the end it could rumold insulator. But then beneath that, we go into a superfluid phase.
-Hue of density to density continues decreasing until we reach density one and then we enter into the next mod phase,
-then one mod phase and then out here again we go into a superfluid her phase.
-this basically means if I look at this in two days from the top, I would expect that in the centre of the trap for this set of parameters,
-I haven't any good too much later, which is then surrounded by is to off a shell with density varying from two to one,
-which isn't surrounded by any one but insulating shell.
-And then again, it's surrounded by a superfluid wing with the density going from zero from one to zero.
-in this superfluid choksi, the density would be continuously very well in the mud.
-Schertz there incompressible. The density does not change of a change to chemical potential, which means that the density in here would be constant.
-And here, some simple plots in this simple mean, few fearing the Chodas in three dimensions.
-X and Y other positions in space and the Z axis here is the density and you
-would get a situation if you start off at a very large you a T or a very small T,
-you basically start of summer see around here and if you start in the middle you would have an equal three.
-You have only a very small area where you have a superfluid, the next moppet or a small area of superfluid, the next moch plateau and out.
-you basically see that  almost steps would very suddenly jump from zero to one.
-This is the angle one from zero to tooted is Jericho 2.0 and then from two to three.
-And you see this as very much. And what insulating plateau? Because you here have an extended region.
-We have a constant density. And because the chemical potential is changing,
-this means you have an incompressible region where the density does not directly depend on the chemical potential.
-Even our star to increase kinetic energy. I go to a bigger jail where you are big a tuba, you then you see.
-Okay, as you would expect from here, the first thing that notes is the frequency plateau.
-we know not here, but we start now here and you see the kids and it would super to us.
-Now three pillows are melting. It becomes continuous. We have a superfluid there.
-The two and one states are still there. But the superfluid chugs in between get a little bit wider.
-And then if we look further, we see the okay, if we go for a small,
-you go to the mountains that are fully goes away and you basically just have this invert the problem or
-that you really know from composer Einstein condensate from your time in an optical physics lecture here,
-you basically just have something that is Puti superfluid, but you have no modern Modeselektor anymore.
-And now for the Journal Club, this is the picture that we will look there.
-This is  such a transition. We start with A, B, C. How about lattice?
-We increased the lattice stepped. here we are fully in the superfluid regime.
-And then in the deep lattice here were because the lattice is deep, tunnelling is very small and definitely a fully deep in the modern sorting regime.
-Here we have this MI. And then here in between, we have this point where the peaks out.
-You stay sharp. there seems to still be long which are in the system.
-But there seems to be less atoms in that language, or most of the atoms seem to be this  Quast type structure in the middle.
-And that's basically the regime where you now have the coexisting of different phases.
-So, for instance, the any good one system, the outsite constant, can already be modern insulating.
-But the inner core where the densities are higher could still be a superfluid.
-And so you have to coexisting of different phases in the trap because of the homogeneity.
-On the next slide are now going to show you a little bit how we can try to calculate this  pictures.
-Also, theoretically, how we can analyse them in a better way and how we get quantitative information about the physics from these  pictures.
-for this, let's not to think about the time of flight from a let us again, but thinking about it in a different way.
-Last time we said, okay. Think about the individual particles and say they have a certain velocity and then they fly
-with this velocity and that's where we can see the particles and after time of flight.
-Now we take a very different approach. We're thinking about this really in the future reticle approach if you want.
-We're saying basically think of this as much as that system. here's my lattice.
-And I have, like, little worth packets of metal with little weight packets on each lattice site.
-And even I take off switch off the lattice that these wav packets will now spread out in free space.
-I have this Gaussian with packets of money function waste packets that will now spread out and they would start to overlap.
-And if there's no phase coherence between all of these different things.
-all of these waste coming from the different lattice sites cannot interfere, then they're basically just get a total density.
-We just the some of the density coming from the individual lattice set because we just this broad envelope.
-And that's what I would expect in a deep mud insulator where there's no correlations, no coherence between lattice science.
-If I'm on the other site or the other hand, in a superfluid regime,
-why half of diagonal on which order Bendit basically means is I have all of those little
-illuminated with one coherent source and one of these little waste can in the future.
-And then I get interference and I get something that's  a diffraction experiment.
-You can really think of this as a multi slit. And the typical thing that you think about then is to save, I think, of long term afloat.
-This becomes another one to Fraunhofer effect.
-I can say that  there there would be an envelope dissolve overall envelope will be the diffraction coming off from a single slit.
-the food and some of the signal lit. And then this interview is between all of the slits which cause wise,
-if they are periodic based, isn't that this is to this ultimately series of dotcoms.
-we now think about our pictures again. We can say, okay, this is a superfluid.
-It has often a long tomorrow. we have this interference and therefore we see the sharp peaks here.
-And the sharpness of the peaks directly tells us something about how many lattice sites must have been coherent, if coherent.
-If these peaks are very sharp and witty means we have a coherence over very long distance.
-On the other hand, in the MI, I have no coherence. I have no interference.
-And I have no peaks. And I basically just see this  envelope.
-And this we can now also calculate analytically and for this we use the feud apparatus,
-SIPI Dagger MSP for Momentum states the field operate as a momentum space.
-And that's, of course, given by a free transform of the field operators and wheelbase.
-does it if you liberate this abuse base.
-This is actually I $p$ times R, which is a free transform into quote, a ball of space and memorisation constant.
-The next step, the first step that we can now do is we can say, OK,
-let's take these field operators with space and truncate them to the lowest band and express them in the basis of the lowest point,
-namely the Wannier function. we can say that the field operator meatspace particular position are truncated
-to lowest band is a super position of all of the funniest dates and lowest band.
-Like the value of a function as their amplitude.
-And we cannot simply plug this into his expression here, so we we this one with this  structure.
-And then the next step we can do is we can just change the indexing. We can say we do find a new coordinate prime, which is given by our minus I.
-And then it would change the position here. And the point that we have up here and we get something now where we basically have the.
-The W store. The complex fight, the complex, can you get to Wannierh functions?
-No, just depending on Prime. And here we had the all before. We now have an odd prime class.
-All right. And the other thing we did is, no, we took this some and took it out of the antiflu, put it to.
-This is all simple and valid to do, and if you not have done this, you can now see that.
-OK, well, I can now take this picture here, Pizzuti our prime plus our eye and split it up into two parts.
-Would have P times I plot times to the P times are prime.
-And you realise that the our eye part can be taken out of the inequal because it doesn't depend on the equation very.
-Which is no upright. it can take the array apart out you guessed minutes exponentially prefecture.
-There can also take the a dagger from here out of the antiquity because it also doesn't depend on the upper one.
-And then I see something interesting because I now see that everything that remains in the integral only depends on our prime.
-But that's not dependent. Let the site are anymore. And if I stare at this expression with his expression,
-basically is is it's just a photons transform of a Wannier function and the one you function unifor, you transform it.
-And that's the integral together of the prefect and from the future.
-I can write the whole thing in a compact form of saying it's the sum over all at the sites I experience.
-And it would a $p$ r i over h bar a Heidegger Times to fully transform over one year function.
-Used the same expression again up here, we're from some of the money function and to some of right.
-And this is now the fifth operator in momentum space. What we're measuring is, of course, the density momentum space.
-if we collect kinetic fluctuations because we're measuring many, many particles at the same time, we just see the expectation value.
-Sipi dig up site by site. And this expectation value, we can of course, calculate because we have this guy.
-Different. Also complex. Can you get near and take away the data?
-[INAUDIBLE] be awesome to fill up Regio itself in relation operator.
-And if you pluck both things in, what we get is the following simple expression we get from this Wannier function here.
-We transform there off. We get the full year transform.
-they just quit and we get a term with those two indices, IJA one eye from upsite eggar and the other J from this site.
-And we have done the expectation values. Sorry, the creation dilation operators, they all go into this expectation values.
-We can put them in here. Expectation value of a Heidegger A.J. and then the prefect knows the exponential.
-They go into this for you to the IP over H bar are minus Arjay.
-And this is already our final result. This is the thing we need. It basically tells us that the momentum distribution that we can measure is
-given by a tiny envelope with just a free transform of the Wannier function times,
-a structure factor which depends on the state and the lattice, because these commentators,
-a dagger, A.J., he's off dependent on the expectation value of these correlates.
-They, of course, depend on the many body state that we have in here. this is the only way for anybody stake enters into this,
-because rights to all of these oscillating terms and then they are all summed up football at the sites and multiplied with this money envelope.
-if I have something worth have a until later and it's something that you will calculate, we'll see later.
-Were all of those things go away because we don't have these commentators? Then we would only die because he does Vanya envelope.
-If you think of the Wannierh function in the deep lattice as being akin to a Gaussian,
-then the fruit on some of that is also very prokosch to a mental space. this looks a two dimensional gorshin as it should.
-If you have something where you have off the annual long one tomorrow, the structure factor is very non-trivial.
-And it basically gives rise to these delta peaks you would expect from the front Hilferty fraction of a normal diffraction grating.
-And they think it's basically wise of the structure within this envelope. here's a one, the cartoon to just make it clear.
-This is our Wannierh envelope. And then we've enough that the structure factor is wise to these sharp peaks.
-Same thing as you have in Condit's matter physics. This was pretty quick on the theory site,
-but it's actually straight forward and the calculations just take a little bit of time going back and forth over these two or three,
-two or three slides. And will you make sure you understand how you get from one step to the next?
-It should not be too difficult. If there's problems, we can discuss them in the office.
-what can we do with this now? What you see here is absorption images from an experiment 50 years ago, 2005.
-This is Pollock,
-BEC. In '88 we call deep lattice and then they go into a deeper lattice were to BEC. use this cross over region BEC. plus insulator.
-And then you go deep in the mountains, Sumatra and very deep in the mountains.
-And then we can try to analyse these pictures a bit more quantitative, you know.
-And one thing one observably could use is to use so-called visibility.
-You're basically saying if I take this picture, I just calculate a number of atoms that I have in this little white box.
-And they also calculate the number of atoms.
-they have this little black box and then they just compare these two to decorate visibility, white minus black, divided by white plus black.
-The key thing for the key reason for doing it this way is to say that it gets with gets
-width of this value envelope because the Wannier envelope is more this notation is symmetric.
-by comparing two points here and here on the circle,
-you would have diffraction maximum and we would not have any fraction maximum basically that we could get rid of the effect of the value envelope.
-we expect to phase transition in this case to be somewhere between the first and the second picture.
-for any good one, the first edition should have meant twelve point five weaks or so before the second picture.
-But for any good two and any good three, it should happen after the second picture. the second picture is exactly this intermediate situation.
-We are a part of the system as modern insulating part of the system, the superfluid.
-I think here, if they extract these visibilities as a function of lattice steps, they decay down here.
-we have high visibility into superfluid with humidity case down to zero deep in the mud insulator and the different colours, black and white.
-You just mean different experimental situations and they are offset vertically.
-Just for clarity, it becomes even more interesting if I take this data and plot them now on the lock lock plot,
-because then you can see that there's decay of the visibility in the. My insulator actually follows a very simple power law in particular.
-It follows a power law that in a case one over you.
-Divisibility case is a poll one over you. And that's not something that we can try to understand again analytically.
-We can try to understand where does this come from? Where's it this particular poll?
-our task for the next slide, next two slides is going to be to understand this poll.
-Why does the visibility decay one over you in order to make progress on this?
-atomic limit and equal zero means that the wavefunction is, is product of FOX states will be put exactly one particle at each lattice signed.
-The thing about reporter KFOX states then the expectation value of a high degree, A.J., would just be just a total.
-You can see this in detail on a broken set. The second problem said. But it's also easy to see that if I is not the same as J.
-I took a particle out of the state here with the particle. In some other point, I get a different particle Fox states.
-the overlap in Tequilla zero and different expectation value vanishes. If I equals J.
-I take a particle out, put it back into the same state. I have not changed anything.
-this equals to one. And with this one, the the torture factor from the previous slide or two slides ago is actually what was simply to calculate,
-because if we take this expectation rageous a Heidegger, A.J., and replace this with Dr. IJA.
-Then they realised that the only term surviving into some other ones were our eye equals RJ to this one is zero.
-this whole term is a constant. the whole structure factor is a constant, which of course means that invisibility vanishes.
-You equals zero because we have the same  density, the same value of the structure factor everywhere.
-If we now go one step further and say, let's take perturbation, you Iran's atomic limit.
-we assume that unity is launch, which means T is finite but small.
-And we do perturbation few in Ts starting from the above atomic limit.
-what we petition the Anatolian we say the H not is the interaction Hamiltonian.
-That's the limit that we perturb around. And to perturbation is the hopping term A Heidegger,
-A.J. some of all of them with T parameter T know the kinetic energy that the hopping parameter being the small parameter.
-you can take the standard expression for the first other perturbation fury.
-And you can say that in first order, the state is the same state as it was in 04.
-Auto parts of the quires a crack at it. It requires an admixture of all of our many body states,
-K and W of the mixtures I was given by the overlap stickwork k h was the perturbation Hamiltonian,
-the concepts I know not, and and divide it by, you know, minack the energy difference between the Chron state and this new state.
-if you know, just plug in this expression here for each one in there, we end up with this expression.
-We have to k.k the projector k k here for each one.
-We got this a Heidegger A.J. with the summer by James Chron state here.
-And the denominator. This is the same expression here on the next slide.
-And now we can see that this one is a little bit would be nicer if some would give
-all states $k$ orses inhibits space and it only all states except for the cross state.
-But luckily we can extend the sum to include the Chron state because simply to cross the state.
-If I think about this, with this being the crown state for not a dig of IJA, if will be zero for the same argument that we said before,
-because it take a particle out of a Fox state, put it into a different Fox state,
-then have different Fox states and the overlap into equal vanishes identically.
-And that means that I can now extend to some to run over the whole Herberts base.
-And that means that then I have to Sumburgh projectors onto the old Herberts base here.
-And if I project them to the whole Hubert's base, that's just the identity operator. nothing happens and I can take this away.
-And then I and then the next thing I need to know is what is this value?
-The denominator is not minus. Okay, well, the answer is that, of course, if I operate with a Heidegger A.J. on, say,
-protocol FOX with one particle and each lattice site then with the AJ will do is it would take a particle number down to zero.
-A.J., I wouldn't take the neighbouring particle number up to two.
-I have one Daptone India, which means that the energy will be increased by one factor of you,
-which basically means that you're not $-k$eek would just be minus you.
-If I Bloch design, I get a rather complex thriver compact expression for the wavefunction and first little perturbation fury.
-It's just a one of the atomic limits to the protocol. Fox states plus T over you.
-The T comes from here. The one over you comes from here. Times this ethnics just you are off of the form.
-Some of our nearest neighbours, A.I. Deger, AJ Fi and this is a pretty important wizard.
-But this was a means is it means that if I have some finite tunnelling,
-not all particles would be pinned onto individual sites, but we get an at mixture of higher order terms of the following form.
-fine art here is  the wavefunction one one one one one.
-But then we get this ethnics just plus t over you.
-Were all of these products, a dagger, a JDA would always have taken a particle out of one site, putting it onto a neighbouring site.
-The square brackets, you mean some of the your neighbours only. But we have all possible commutations of those.
-which means you have all possible put positions were added to consent at zero.
-Can be if either site of the room with many, many, many of those terms.
-And this is now our anybody chron state in the limit of most Taum who puts it into action but small but finite tunnelling.
-it's  the soup where the Kronstadt we had before. One particle politicised.
-It requires this cohu and admixture of all possible newest neighbour, Doubilet Hall on.
-whenever you have two sites, you would say, OK, a dominant contribution is one particle.
-Precisely, but there's always a small admixture of having one dockland hold on power in here.
-And what this means is that look at it, the number has acquired.
-Now quantum fluctuations, because the terms till you the two positive Muthoni in kinetic energy and potential energy do not commute.
-If you have both of them present this crosswise to quantum fluctuations. even if you're very close to an extreme state of the one term,
+The only thing left to do is to calculate this does point of order as $a=0$. And this can be done easily numerically, or it can even be done in second order perturbation theory. And the answer is that if you do this at the tip of the $n=1$ Mott lobe, you get a value $U/zt=5.83$. So now we understand where the critical point would be in this very approximate mean field theory. This five point eight three is, of course, independent of dimension because the only effect of dimensionality is to control $z$. But the question is, is this true? Is it okay to neglect all of the other things and to just look at this mean field theory?
+[pic - table]
+And as already alluded to, it's okay in high dimensions, but very much not okay in low dimensions. Well, what's going on here is that MFT is always pretty good in 3D and it's even better in higher dimensions. And it will typically, in almost all cases, overestimate the ordered phase - It favours the ordered phases. If people do more in-depth analysis later on, they typically first look at the mean field analysis, and if this tells you that there is not going to be any ordered phase it's unlikely but not impossible to find one. You have to then take quantum fluctuations into account. 
+[eqn]
+Not relevant for us mostly, but for the experts in 1D strictly speaking you never have a proper order parameter;
+[expectation that your PSI will always be zero]
+You don't really get long range order. You only get quasi long range orders, and that means that the phase transitions will be of a particular type, the so-called Kosterlitz-Thouless type.
+
+
+Local density approximation
+Of course, many experiments are not done in big homogeneous lattice, but in an underlying harmonic trap that keeps all of the atoms together. And that means that the situation might be very different. What we typically do is we do something called the \textbf{local density approximation}, where we are saying in principle, I have my underlying harmonic trap, 
+[pic]
+And then you can ask, what can I learn from the homogeneous system and use it for the inhomogeneous system? And the answer is that I can say take this area of the trap where a potential is more or less constant, we just say that in here and in this little box, we assume that the trapping potential is going to be constant. And then $\mu$ as well, which, of course, is the problem parameter. We approximate our inhomogeneous system by a sequence of such boxes.
+[eqn - LDA]
+And then we can ask, if I now have a bunch of particles in this overall harmonic trap, how will these particles distribute themselves over those boxes? And because we're doing the calculation already in the grand canonical ensemble, it's actually rather easy to take this into account, because we're basically saying each box will be filled up with its own chemical potential and the chemical potential in a given box (in a given position) is given as above.
+[eqn]
+So you're really saying that because this box is higher up here, it will have a lower chemical potential, so therefore less particles will want to go into this box; and then in equilibrium, what you get is you get that you have the same chemical potential everywhere and the particles have  arranged themselves in such a way that they minimise the total energy. 
+
+As a quick reminder, what again is the chemical potential in a grand canonical ensemble? It's defined as the derivative of the total energy with respect to particle number at constant entropy. 
+[eqn for mu and normalisation] 
+I take this density and integrate this density over the whole trip. Then of course I need to get the correct for particle number. This basically determines $\mu_0$. This picture is, of course, very simple in a sense, because you never have to solve the inhomogeneous system. You just need a good solution for a homogeneous system. And then you basically just say, okay, I know ever which this one over my trap and they end up where I want. Very often it is okay for us.
+
+What does this mean for the situation that we have now with bosons in an optical lattice? And this is basically something that gives rise to the following set of diagrams and to the famous wedding cake structure of photons in an optical lattice.
+[pic]
+What we said about the chemical potential is we say that the chemical potential at a given point in trap is the central chemical potential minus the trapping potential at this point. Going back to the phase diagram, then if we have a certain $\mu_0$, say, in the centre of the trap, we might be at this position. This basically means if I look at this in 2D from the top, I would expect that in the centre of the trap for this set of parameters, I have an $n=2$ MI, which is then surrounded by a SF shell with density varying from two to one, which is surrounded by $n=1$ Mott insulating shell. And then again, it's surrounded by a superfluid wing with the density going from zero from one to zero.
+[pic - 3D cakes]
+Okay, as you would expect from here, the first thing that melts is the $n=3$ plateau. And then if we look further, we see if we go for a small $U/t$ the MI fully goes away and you basically just have this inverted parabola that you really know from BECs. 
+
+On the next slide are now going to show you a little bit how we can try to calculate these pictures theoretically, how we can analyse them in a better way and how we get quantitative information about the physics from these pictures. 
+[tof images]
+For this, let's think about the time of flight from a let us again, but thinking about it in a different way. Last time we said, think about the individual particles and say they have a certain velocity and then they fly with this velocity and that's where we can see the particles and after time of flight. Now we take a very different approach. We're thinking about this really in the theoretical approach if you want. Here's my lattice. And I have, like, little matter wave packets on each lattice site. And if I switch off the lattice that these wav packets will now spread out in free space, and they would start to overlap. And if there's no phase coherence between all of these different things, all of these waves coming from the different lattice sites cannot interfere, then they're basically just get a total density. We just the some of the density coming from the individual lattice site because we just this broad envelope. And that's what I would expect in a deep Mott insulator where there's no correlations, no coherence between lattice sites. If I'm on the other hand, in a superfluid regime with ODLRO, I get interference and I get something that's a diffraction experiment. You can really think of this as a multi slit. And the typical thing that you think about then is to have a long time of flight, then this becomes Fraunhofer diffraction. We have this interference and therefore we see the sharp peaks here. And the sharpness of the peaks directly tells us something about how many lattice sites must have been coherent; if these peaks are very sharp it means we have a coherence over very long distance. On the other hand, in the MI, I have no coherence, I have no interference, and I have no peaks. And I basically just see this envelope.
+[pic - enevelope]
+
+And this we can now also calculate analytically and for this we use the field operators in momentum space, 
+[eqn - derivation.]
+Let's take these field operators in real space and truncate them to the lowest band, and express them in the Wannier basis.  And then the next step we can do is we can just change the indexing. We can say we define a new coordinate 
+$$r' = r-r_i$$
+And the other thing we did is we took this sum and took it out of the integral.
+[result]
+This expression involves the FT of the Wannier function, so we can write in the compact form
+[form]
+using the field operator in momentum space. What we're measuring is, of course, the density momentum space. Because we're measuring many, many particles at the same time, we just see the expectation value. And if you plug both things in, what we get is the following simple expression 
+[eqn]
+And this is already our final result. It basically tells us that the momentum distribution that we can measure is given by a tiny envelope with just a Fourier transform of the Wannier function, times a structure factor which depends on the state and the lattice. If you think of the Wannier function in the deep lattice as being akin to a Gaussian, then this looks a two dimensional Gaussian as it should. If you have something where you have ODLRO, the structure factor is very non-trivial. And it basically gives rise to these delta peaks you would expect.
+
+[experimental slide - visibility $v=(w-b)/(w+b)$]
+Just for clarity, it becomes even more interesting if I take this data and plot them now on the log-log plot, because then you can see that there's decay of the visibility in the Mott insulator actually follows a very simple power law;
+[eqn]
+And that's something that we can try to understand again analytically.
+
+In the atomic limit and $n=1$ the wavefunction is a product of Fock states and 
+[eqn - $\langle a^\dagger_i a_j \rangle = \delta_{ij}$]
+Also, the whole structure factor is a constant, which of course means that the visibility vanishes. If we now go one step further and take perturbation theory around the atomic limit, we assume that $U/t$ is large but finite. 
+[eqn - PT derivation]
+And now we can see that this one is a little bit nicer if the sum would give all states $k$ over the Hilbert space. This can be done, so 
+[eqn - resolution of identity]
+And then the next thing I need to know is what is this value of the denominator? I have one doublon in there, which means that the energy will be increased by one factor of $U$, then we get the result
+[eqn - \phi_1 and the following line]
+It means that if I have some finite tunnelling, not all particles would be pinned onto individual sites, but we get an admixture of higher order terms. Whenever you have two sites, you would say, OK, a dominant contribution is one particle per site, but there's always a small admixture of having one doublon-holon in here. And what this means is that the local atom number has acquired quantum fluctuations. Even if you're very close to an extreme state of the one term,
 it would be prudent a little bit by the of her term because that term doesn't compute with the first time.
-It is prawning up with the distribution. That's called quantum fluctuations. in a concrete example.
-Interaction term would say you want to have exactly one particle at the site.
-That's it. And then you would measure everywhere. One would never measure anything else.
-And you would not have fluctuations in the particle number. But because of the presence of the non-competing particle Hamiltonian, the kinetic energy,
-you get a small admixture of having no particle there or two particles.
-the local at number has acquired quantum fluctuations.
-And it turns out if you now plug this into divisibility calculation, you get the divisibility actually decays.
-Executive scare's executor of the spectra to divisibility with $k$ executive the Spectre T over you.
-we now have we covered this power law of one over you that we've promised on the previous slide.
-this turns out that this first order processes are the dominant processes at various Malti.
-You can now go on and say what happens if I do second order perturbation fury. If I assume higher orders and t then you get two types of things.
-You first of all, get at mixtures of two of those. And second order of two of those Dockland Holum pairs.
-We have up a whole appear here and at the same time a different Holum P here.
-Or you can have a process where one dockland one, how long could could have gone to hops away.
-the particle that not only hop to its nearest neighbour but its next to nearest neighbour.
-And that's a very useful picture to think about how devolution from a deep mud insulator close to the superfluid behaves.
-what plot you. This is not just a cartoon is I plot the correlation length that we expect from such a system as the function of Ubaydi.
-we estimate insulator BCU small jails munchy.
-This is getting close to the atomic limit. And here's the critical value where we go from the inserted into the superfluid.
-We just assumed everything that happens at density one to have to deal with this.
-If we talk about oxidation functions again, we would say that the typically exponential decay of decorrelation in Exeter.
-And then we can ask, what do we get? Well, if we are deep into Fox, deep in.
-And what insulator? Close to the atomic limit, we would say that we have these Fox states.
-Political fox states, one particle parenticide. And it means if I think of the correlate as a Heidegger, A.J., there's are zero for all.
-I'm unable to G.S., as we just discussed. does correlation. Length is basically zero.
-It basically tells us that the colation function is dair finite. Even on the same point.
-But everything goes away to zero. If I mean different lattice. If I now do first or perturbation theory.
-We said that we get this nearest neighbour correlations.
-We have this small probability of having a party that would hold on power on two newest neighbours, a neighbouring miticides.
-we get something, but it's exponentially case two, very steep but not infinitely steep.
-we got a finite, small correlation linked. Which is less than one lattice site.
-But still find it. And then if he x a go to bigger Hocking's, you would expect that this correlation gets bigger.
-Because now we can also have next to nearest neighbour. Particle next newest neighbour, Dublin, Holland, pairs next to nearest next.
-Next to the next two nearest neighbours and so on. As we go approach to phase transition, this one will increase and increase further.
-It will in fact actually diverge at the phase transition. that fascination can also be thought of.
-Bound unbound condition. Sorry. And I'm finding unbinding last way confined unconfined transition of discipline.
-Holum Pierce keeping them insulated.
-Dublin Hurum Peer's exist, but they're  bound to each other not only in close distances from each other and they never go into the superfluid.
-There's still a correlation. Length diverges and they can rober one freely and we get long range correlations.
-Long Wenche order and we get this. Yeah, it. I mean infinity.
-And the universal language, even the issue of critical physics is, of course, the new regime around this space condition to be discussed before.
-And let me basically stop at this point in the next lecture.
-I will also show you two examples of how this one can actually be measured, how this newest neighbour correlation functions can be measured,
-and how they actually show us that this is not just pure fury, but these things really exist in practise.
+This broadening of the distribution is called quantum fluctuations. 
+
+In a concrete example: the interaction term would say you want to have exactly one particle at the site. That's it. And then you would measure everywhere one and would never measure anything else. And you would not have fluctuations in the particle number. But because of the presence of the non-commuting part of the Hamiltonian, the kinetic energy, you get a small admixture of having no particle there or two particles. The local atom number has acquired quantum fluctuations. And it turns out if you now plug this into the visibility calculation, you get the visibility actually decays. 
+[eqn]
+
+
+[last slide - sketch of correlation function, BH model at n=1, text is messy - maybe include image of whole slide ecluding title. Mention of 2PT].
