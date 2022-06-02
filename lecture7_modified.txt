@@ -31,29 +31,12 @@ And as you change the potential, those modes get softened out and this doesn't l
 [pic] 
 The key feature there is this offset in the frequency and this can be plotted. From SF towards the Mott insulator the frequency of that offset decreases, and this corresponds to the softening of those modes that we saw in the previous sketch. The other side is just the regular Mott insulator. We would expect the potential to be capped anyway, but we wouldn't necessarily expect that in the superfluid. This is just an indication of an optical lattice system that is being used to recreate the physics more traditionally associated with high energy physics.
 
-Let's spend the next half hour or so talking about the thermodynamics of a cold atom system, more specifically an optical lattice system. And here we'll be trying to address the main question of how you actually define the temperature of.
-A system of cold atoms in an optical lattice. So.
-Let's jump back to a comparison with solid state physics, the .
-First or most obvious linked system that we often try to simulate.
-in solid state, you will have a system that is in contact with some experimental apparatus.
-You can have heat exchange particle exchange with some external reservoir.
-And so it makes sense to describe this in terms of the grand canonical ensemble where
-you have your chemical potential and your temperature defined by your environment.
-This is very different and called out some systems, so.
-We know that we have our cold atoms in in a vacuum chamber trapped in a lattice of in a laser lattice.
-And we can't have experiments assemble contact with the experimental apparatus.
-We actively avoid that. When you take the sequence step by step, there are different a few different stages.
-let's take the cooling process of actively cooling.
-I'm sorry about cooling that. And this can be described as semi-open.
-you in evaporating away your high energy atoms, you are decreasing the atom number and you're decreasing the entropy of your system.
-that's  open stage of your cold atom experiment.
-And once you've loaded into a lattice, your system is closed and you have that.
-Well, assuming that you've done everything and you don't have terrible losses and you're asking, no, your entry should should stay constant.
-at first glance, it's very difficult to see how we would define the temperature because we don't have an environment,
-we don't have an external temperature to relate this team. let's look at that latest loading stage and a little bit more detail.
-the various parameters that we might be able to define and let's take them one by
-one and think about whether they are conserved or not during that legislating process.
-energy is not conserved.
+Let's spend the next half hour or so talking about the thermodynamics of a cold atom system, more specifically an optical lattice system. And here we'll be trying to address the main question of how you actually define the temperature of a system of cold atoms in an optical lattice. So let's jump back to a comparison with solid state physics. In the solid state, you will have a system that is in contact with some experimental apparatus, so you can have heat exchange and particle exchange with some external reservoir. And so it makes sense to describe this in terms of the grand canonical ensemble where you have your chemical potential and your temperature defined by your environment. This is very different to cold atom systems, where we have our cold atoms in a vacuum chamber trapped in a laser lattice. And we can't have atoms in contact with the experimental apparatus. We actively avoid that. When you take the sequence step by step, there are a few different stages. Let's take evaporative cooling, which can be described as semi-open. You are evaporating away your high energy atoms, you are decreasing the atom number and you're decreasing the entropy of your system. That's the open stage of your cold atom experiment. And once you've loaded into a lattice, your system is closed and assuming that you've done everything right and you don't have terrible losses, your entropy and number should should stay constant. At first glance, it's very difficult to see how we would define the temperature because we don't have an environment, we don't have an external temperature to relate this to. 
+
+let's look at that latest loading stage in a little bit more detail. The various parameters that we might be able to define and let's take them one by one and think about whether they are conserved or not during that loading process. 
+
+\begin{itemize}
+Energy is not conserved.
 You can do work on your system.
 The optical lattice system is a little bit more complicated, but if we just take the simple example of a harmonic oscillator,
 we know that if we make that harmonic oscillator tighter or or weaker, we're going to change the separation between the energy levels.
@@ -62,220 +45,60 @@ Temperature will also be affected. By the form of the trapping potential.
 And. The are number assuming that you're doing things well and you're not you don't have losses and the outcome number should be conserved.
 But once again, because the energy is changing, the chemical potential is not conserved.
 That leaves us one quantity that we're pinning all of our hopes on to. And that is the entropy.
-And the entropy can be conserved. It's not necessarily in order to conserve entropy.
-You need your transformation to be a diabetic, so you need it to be very, very slow.
-And we should remember. That let's let's assume that we've made a nice adiabatic transformation into our optical lattice once with a.
-From the second verse from the second law thermodynamics, we can't decrease that entropy further.
-whatever entropy we go into our optical lattice with, we can make it worse.
-We can we can increase the entropy, but we won't be able to decrease that entropy.
-we have to do as much work as possible to decrease the entropy before loading.
-And also to make sure that we're not adding more entropy in during that loading process.
-And this is always a conflict. In just experimentally, because.
-You want to if you want to be adiabatic, you want to load as slowly as possible,
-but then that's going to to run this conflict with the finite lifetime of the atoms in the trap and any heating or noise effects that you might have,
-which will heat the atoms up. that's always going to be a bit of a compromise.
-But if you design your your sequence as carefully as possible,
-you can assume that the entropy is going to be roughly the same in the optical lattice
-as it was in the harmonic trap before lattice loading or at least very similar.
-And so it's this knowledge of the entropy that we will use to define the temperature of the lattice.
-let's think about how to do that, because there's a bit of a conceptual trick to this.
-if we just take a whole system,
-a whole closed system that would be described by the microeconomic ensemble where you're conserving the atom, no entropy and the energy.
-But. If we take out some small part of the system and just say this is some small sub system that is equilibrated with.
-The rest of your system, so the the majority of the system acts a reservoir, and we just have this small subsystem,
-and then we can start to describe this in the grand canonical ensemble and define the chemical potential and the temperature.
-The only problem is we have no idea what the temperature is of the the main system that we're using as a reservoir.
-let's split this up further into lots of smaller subsystems.
-And for each of these, we can measure locally the awesome Oops, we the atom density as a function of new A.
-And also the local entropy.
-And by integrating these over the entire system, we can then extract the actual number and entropy and for just experimentally for that system,
-and then we can work out what combination of chemical potential and temperature
-are needed to obtain those measured values so we can use that measurement then to.
-To get a temperature for our system. And this can be applied to in homogeneous systems as well as homogeneous systems.
-And you might already spotted this trick of splitting everything into subsystems looks
-a little bit the local density approximation that you learnt about previously,
-where you've defined your chemical potential locally as your  central chemical potential.
-With an offset determined by the potential that the underlying potential of the system.
-while your chemical potential will depend on the position in the trap, the the temperature doesn't.
-So. That is how we go about finding the temperature.
-But let's talk a little bit more take a little digression into talking about entropy and how entropy is defined in a cold atom system.
-So. It's very convenient to, or some would argue, more correct to work in terms of the von Neumann entropy,
-which allows you to express the entropy in terms of your many body.
-Um, you have anybody descriptions of any body density matrix.
-And that's really handy because you can diagnose your identity matrix and your entropy takes this very nice form,
-which allows you to get any  intuitive picture of what's going on.
-to see that will take a couple of examples. The first is a pure state at zero temperature, not pure state.
-Rogue One one. First element of our identity matrix will be one.
-And so the ground state T equals zero, every other diagonal element will be zero.
-And so HP will be zero, and this  makes sense when you think about the state as well, you would expect that entropy to be zero.
-We take the opposite limit. We want to maximise our entropy now, and we do that by making our state as mixed as possible,
-so assigning an equal probability to any of the different possible.
-And he's a different possible states in our system, which then gives us a diagonal density matrix elements will all be the same and
-they will all be won over and when is the dimensionality of our Hilbert space?
-this will maximise our entropy and this.
-As as his look and is known as the entropy capacity, the the greatest entropy that can be associated with that system.
-Just to put some typical experimental numbers to that.
-If we've got 10 to five atoms in our system, our entropy roughly scale as Boltzmann constant times the number of of atoms,
-which gives us a very, very large and associated Hilbert space, so often quite simple examples.
-This isn't a calculation that you would run by hand, but it does give a quite nice.
-Picture of what's going on. It's important to remember that this entropy isn't a direct observable of our system.
-And so we have to make some of the experimental measurements that we discussed before.
-OK, so that was our entropy, and let's quickly take a look at what the density matrix will look for a thermal state.
-So. This is purely thermal. Don't need to worry about those of Fermi statistics.
-We just need to worry about and statistics, and so density matrix elements will be scaled as each of the minus.
-Um. And it's important to remember that most density matrices that you could write down will
-not just describe a small state this because you require that Boltzmann type scaling.
-And an interesting question is raised here.
-Which is that we know that time evolution. In quantum mechanics, this unitary.
-Which implies if you start off with that perfect ship of state that we saw in the last slide, that state should stay pure.
-Always. And something interesting to think about that you'll cover later on is how can we think of a poor state?
- yeah, a few states are realising and say something to think about for future lectures.
-let's look back. At some measurements that can be made here,
-so we've already said that if we want to measure the temperature or define the temperature of an optical lattice, we need to.
-Make some measurements of the. If the number,
-density and the entropy of of the system and trace that back to find the temperature that you would expect would give those measured values.
-And we've got an example here. And as with all of these, it's been cut off from the slides, but you have it in the lecture notes,
-and it's a good idea to look through some of these papers as well and repercussions and really digest what they're trying to show.
-What we have here is a comparison of the temperatures that are being extracted
-from an experiment with the temperatures that are the best fit from simulations.
-the top pro here is.
-The time of flight back to time flight images from as you increase the temperature of a cloud that's being lowered into the trap.
-This looks a lot the superfluid too insulated pictures that you've been looking at before.
-It's not. This is just superfluid turning into thermal state,
-and the temperatures that are written in the top panels are the temperatures that are that are associated with.
-That person we mentioned before, so measuring the temperature and the entropy before loading.
-And. Thinking about how that entropy will change during loading and mapping that back to find the temperature of the optical system.
-The next row down is a quantum Monte Carlo simulation of of that system.
-And. Many, many of these simulations will have been run and the one that provides the best fit to the experimental data selected and said,
-OK, this is the one that describes our system. The best bit is the temperature that we have simulated based on this data.
-And you can see that on this lower clock here.
-This is just cut through the data and you can see that you have very good agreement even on some of these quite small scale features here,
-some small deviations. It's not completely perfect, but it's a fairly good description.
-And if you look at the temperature that's extracted from those simulations.
-It's again, it's it's a fairly close agreement with the temperature that was extracted experimentally.
-And. That. Not only does it nicely illustrate extracting a temperature from.
-From from your measurements, it also gives some confidence in the assertions that the entropy.
-Is preserved fairly well, not perfectly, but fairly well during that loading process.
-say to some quite nice reassurance.
-Of. Everything that I've claimed without evidence so far.
-OK. And. This can all be studied,
-remember that a lot of the simplifications that will make for these systems is to consiter a zero temperature system that we can look
-now at the finite temperature now that we've known now that we know how to define the temperature and look at the finite temperature.
-Both have a phase diagram and you can see that we have some critical temperature associated
-with this  boundary between the superfluid and a normal and normal fluid,
-and that will vary with this ratio.
-But we always care about this ratio. You have a J and this will this critical temperature will keep decreasing.
-Until we reach our quantum critical point, which marks the phase and just transition between superfluid and Mott insulator.
-Which then will look and look very much the pictures that you've seen before of that superfluid insulator transition.
-yes, it is worth highlighting that that critical temperature will vanish at the quantum critical point.
-I'm. And you can. Also,
-compare this with the well you can you can plot this critical temperature directly
-as well and compare that with once again comparing it with the simulations,
-and you see that there's. A fairly good agreement. Between the experimental data and the simulations for this process.
-OK, I'm. So. One final part of the  main discussion here is once again looking at that quantum gas microscope,
-so back to single site resolved imaging and in our optical lattice.
-And. You can actually get a fairly good idea of the entropy of the system.
-this is and as in the average of the atom density in.
-In a scintillating system so plotted as a function of the radio distance from the centre
-and the yellow line here is an end equals one Mott insulator so you can see the density.
-It's fairly stable at the density of one, you go into this superfluid shell and then have zero density.
-exactly as you'd expect, the Red Line is an equal to Mott insulator exactly as before parity measurements.
-you have apparently zero density in centre is actually an equals to superfluid region.
-And equals one, I'm back down to zero.
-And you can also look at the fluctuations in, um, in that density, which gives a fairly good idea of the entropy of the system.
-And you can see that where the density is very low, you have very low fluctuations, as you would expect, but these fluctuations from a peak.
-Wherever the density goes to how filling, and that makes sense as well, because.
-When you have this halfling region is  an equal probability of having either occupied or not occupied.
-the fluctuations there, we would expect will be very strong.
-And this is consistent between the end equals one on the inequality whenever we get this whole feeling and the fluctuations will peak.
-And. This can be this radio distance can be mapped onto a chemical potential and exactly the same data plotted, so it's just taking this.
-Slice that you've seen before. Down the down the chemical potential.
-And you can see that there's this very nice overlap, then between the data for the end equals two in and equals one mott insulators.
-And what's again, this peak in fluctuations at this halfling region?
-And. We know that we're in the deep, flattest limit,
-so we don't have correlations between a lot of sites and so that we know that the entropy that we're measuring is just a local entropy.
-And it is governed by this the statistics of the occupation of each site.
-But. This data also shows something quite interesting,
-which is that the entropy she something I forgot to highlight here was that while the entropy peaks at this half filling.
-The entropy is lowest or very low during insite those insulating regions.
-So. And we can argue that the entropy is actively pushed away from the insulating regions into the superfluid regions,
-and this  makes sense as well because we know that.
-A system will want to minimise the energy cost associated with with the entropy and in the Mott insulator.
-There's a high energy cost associated with with putting entropy into that backup system,
-but in superfluid that energy cost is much lower, so all of the entropy will be pushed into the superfluid and.
-It's that final point there that actually this can cause heating of the superfluid shell.
-it's actually a little bit debateable whether we should really be saying that these regions here are actually a superfluid.
-Or are they normal fluid because they've been heated by this entropy redistribution?
-OK. But. One last quite cute.
-Examples show to the end, but do you have any questions? On the summer genomics part.
-OK. Excellent. again, not examiner.
-This is just a curiosity, and it's quite exciting,
-this is work that is actually going on in some of the labs downstairs as we
-speak and trying to create negative absolute temperatures in an optical lattice.
-I'm. We've seen that the optical lattice system.
-But can we were in the optical system, we can use the speech to find the temperature?
-Now let's look at what happens. When?
-When we play around a bit with the energy and the entropy in the system, so we know that we have the relation.
-When I was a teen year by the E! So.
-If you are increasing the energy of your system, you would expect to increase the entropy, increase the temperature.
-let's look at this example here where we've got a very low energy system, very low temperature, all of the atoms occupying.
-That the lowest energy levels in the system. And so the entropy is going to be very low indeed.
-This is all governed by Boltzmann statistics in a site.
-I'm. Let's add some more energy to our system, and higher and higher energy levels will start to be occupied.
-This will increase the entropy of our system. And.
-Again, all make sense here you are occupying those states, according to polls and statistics.
-You just increasing the disorder in the system as you increase the temperature and increase the energy of the system.
-Now, this could go on forever. let's put a lid on our system.
-And we say that we maximise the temperature when.
-All of our states are. Equally occupied.
-Let's do that. Think about that exponential that requires a temperature of infinity.
-And. We don't need to stop that.
-we carry on adding energy to our system, and we start to see that we start to decrease our entropy once again, so exact mirror of what we had here.
-We're increasing our energy, preferentially occupying the states at to the higher energy levels of the system, decreasing our entropy again.
-Now, if we are decreasing our entropy by increasing our energy, that implies that our temperature is negative.
-And we can get two negative zero temperature again, and by increasing our energy so further until just the highest energy levels are occupied.
-And. this leads to some quite interesting consequences, so we  say that.
+And the entropy can be conserved. 
+\end{itemize}
+
+In order to conserve entropy, ou need your transformation to be adiabatic, so you need it to be very, very slow. Let's let's assume that we've made a nice adiabatic transformation into our optical lattice; once we're there, by the second law thermodynamics, we can't decrease that entropy further. Whatever entropy we go into our optical lattice with, we can only make it worse. And this is always a conflict experimentally, because if you want to be adiabatic, you want to load as slowly as possible, but then that's going to conflict with the finite lifetime of the atoms in the trap and any heating or noise effects that you might have, which will heat the atoms up. But if you design your your sequence as carefully as possible, you can assume that the entropy is going to be roughly the same in the optical lattice as it was in the harmonic trap before lattice loading, or at least very similar. And so it's this knowledge of the entropy that we will use to define the temperature of the lattice. 
+
+Let's think about how to do that, because there's a bit of a conceptual trick to this. If we just take a whole system, a whole closed system that would be described by the microcanonical ensemble where you're conserving $N, S, U$. But if we take out some small part of the system and just say this is some small sub system that is equilibrated with the rest of your system, so the the majority of the system acts a reservoir, and we just have this small subsystem, and then we can start to describe this in the grand canonical ensemble and define the chemical potential and the temperature. The only problem is we have no idea what the temperature is of the the main system that we're using as a reservoir. Let's split this up further into lots of smaller subsystems. And for each of these, we can measure locally the atom density as a function of $\mu, T$ and also the local entropy. And by integrating these over the entire system, we can then extract the atom number and entropy experimentally for that system, and then we can work out what combination of chemical potential and temperature are needed to obtain those measured values.
+[eqn - solving self-consistently]
+We can use that measurement then to get a temperature for our system. And this can be applied to inhomogeneous systems as well as homogeneous systems. And you might already spotted this trick of splitting everything into subsystems looks a little bit like the local density approximation that you learnt about previously, where you've defined your chemical potential locally as your central chemical potential with an offset determined by the potential that the underlying potential of the system. While your chemical potential will depend on the position in the trap, the temperature doesn't. 
+
+So that is how we go about finding the temperature. But let's take a little digression into talking about entropy and how entropy is defined in a cold atom system. It's very convenient, or some would argue more correct, to work in terms of the von Neumann entropy, 
+[eqn - S_{vn}]
+which allows you to express the entropy in terms of your many body density matrix. And that's really handy because you can diagonalise it to give this very nice form, 
+[eqn]
+which allows you to get an intuitive picture of what's going on. To see that will take a couple of examples. The first is a pure state at zero temperature. $\rho_{11}=1$ and every other diagonal element will be zero. And so $S=0$, and this  makes sense when you think about the state as well, you would expect that entropy to be zero. 
+
+In the opposite limit, e want to maximise our entropy now, and we do that by making our state as mixed as possible, so assigning an equal probability to any of the different possible states in our system, which then gives us a diagonal density matrix where elements will all be the same and they will all be $\rho_{ii}=1/N_H$ where $N_H$ is the dimensionality of our Hilbert space. This will maximise our entropy and gives $S=k_B \log(N_H)$ which is known as the \textbf{entropy capacity}, the greatest entropy that can be associated with that system. Just to put some typical experimental numbers to that. If we've got $10^5$ atoms in our system, our entropy roughly scale as Boltzmann constant times the number of atoms,
+which gives us a very, very large and associated Hilbert space. This isn't a calculation that you would run by hand, but it does give a quite nice picture of what's going on. It's important to remember that this entropy isn't a direct observable of our system. And so we have to make some of the experimental measurements that we discussed before. 
+
+OK, so that was our entropy, and let's quickly take a look at what the density matrix will look like for a thermal state.
+[eqn]
+This is purely thermal. Don't need to worry about Bose or Fermi statistics. We just need to worry about Boltzmann statistics, and so the density matrix elements will be scaled as $$\rho_{nn} = \frac{1}{Z}e^{-E_n/K_BT}$$. And it's important to remember that most density matrices that you could write down will not just describe a small state this because you require that Boltzmann type scaling. And an interesting question is raised here, which is that we know that time evolution in quantum mechanics is unitary, which implies if you start off with that perfect pure state that we saw in the last slide, that state should stay pure always. 
+
+So let's look back at some measurements that can be made here. We've already said that if we want to measure the temperature or define the temperature of an optical lattice, we need to make some measurements of the number density and the entropy of the system and trace that back to find the temperature that you would expect would give those measured values. And we've got an example here. And as with all of these, it's been cut off from the slides, you have it in the lecture notes, and it's a good idea to look through some of these papers as well and repercussions and really digest what they're trying to show. What we have here is a comparison of the temperatures that are being extracted from an experiment with the temperatures that are the best fit from simulations. The top row here is the time of flight images as you increase the temperature of a cloud that's being lowered into the trap. 
+[pic]
+This looks a lot like the superfluid to insulator pictures that you've been looking at before. It's not. This is just superfluid turning into thermal state, and the temperatures that are written in the top panels are the temperatures that are that are associated with that state. The next row down is a quantum Monte Carlo simulation of of that system. Many, many of these simulations will have been run and the one that provides the best fit to the experimental data selected and said, OK, this is the one that describes our system. This is the temperature that we have simulated based on this data. And you can see that on this lower plot. This is just cut through the data and you can see that you have very good agreement even on some of these quite small scale features here, some small deviations. It's not completely perfect, but it's a fairly good description. And if you look at the temperature that's extracted from those simulations, it's a fairly close agreement with the temperature that was extracted experimentally. Not only does it nicely illustrate extracting a temperature from your measurements, it also gives some confidence in the assertions that the entropy is preserved fairly well, not perfectly, but fairly well during that loading process. 
+
+This can all be studied, at the finite temperature now that we've known now that we know how to define the temperature. In the BH phase diagram you can see that we have some critical temperature associated with this  boundary between the superfluid and a normal fluid, and that will vary with this ratio $U/J$ until we reach our quantum critical point, which marks the phase transition between superfluid and Mott insulator. Yes, it is worth highlighting that that critical temperature will vanish at the quantum critical point. 
+[pic, x2]
+Also, you can you can plot this critical temperature directly as well and compare that with once again comparing it with the simulations, and you see that there's a fairly good agreement between the experimental data and the simulations for this process.
+
+
+One final part of the main discussion here is once again looking at that quantum gas microscope, so back to single site resolved imaging and in our optical lattice. You can actually get a fairly good idea of the entropy of the system. 
+[pic - plot of atom density in MI system as function of radial distance from centre]
+The yellow line here is an $n=1$ Mott insulator so you can see the density, It's fairly stable at the density of one, you go into this superfluid shell and then have zero density exactly as you'd expect. The Red Line is an $n=2$ Mott insulator exactly as before parity measurements mean you have apparently zero density in centre is actually $n=2$ superfluid region. And you can also look at the fluctuations in that density, which gives a fairly good idea of the entropy of the system. And you can see that where the density is very low, you have very low fluctuations, as you would expect, but these fluctuations from a peak wherever the density goes to half filling, and that makes sense as well, because in this region is an equal probability of being either occupied or not occupied. The fluctuations there, we would expect will be very strong. And this is consistent between the $n=1$ and the $n=2$. This can be this radial distance can be mapped onto a chemical potential and exactly the same data plotted, so it's just taking this slice that you've seen before down the down the chemical potential.
+[pic - bottom left]
+And you can see that there's this very nice overlap, then between the data for the $n=1,2$ mott insulators. And once again, this peak in fluctuations at this hal filling region. We know that we're in the deep lattice limit, so we don't have correlations between a lot of sites and so that we know that the entropy that we're measuring is just a local entropy. And it is governed by this the statistics of the occupation of each site. While the entropy peaks at this half filling, the entropy is lowest or very low inside those insulating regions. So we can argue that the entropy is actively pushed away from the insulating regions into the superfluid regions, and this makes sense as well because we know that a system will want to minimise the energy cost associated with with the entropy, and in the Mott insulator there's a high energy cost associated with with putting entropy into that system, but in superfluid that energy cost is much lower, so all of the entropy will be pushed into the superfluid. This can cause heating of the superfluid shell, so it's actually a little bit debateable whether we should really be saying that these regions here are actually a superfluid or are they normal fluid because they've been heated by this entropy redistribution? 
+
+One last quite cute example for the end (non-examinable), and it's quite exciting. This is work that is actually going on in some of the labs downstairs as we speak: trying to create negative absolute temperatures in an optical lattice. We've seen that in the optical lattice system we can use the entropy to find the temperature. Now let's look at what happens when we play around a bit with the energy and the entropy in the system. We have the relation
+$$1/T=\partial S/\partial E$$
+so increasing the energy of your system, you would expect to increase the entropy, increase the temperature. Let's look at this example here [left] where we've got a very low energy system, very low temperature, all of the atoms occupying the lowest energy levels in the system. And so the entropy is going to be very low indeed. This is all governed by Boltzmann statistics in a site.
+[pic - evolution to show -T]
+Let's add some more energy to our system, and higher and higher energy levels will start to be occupied. This will increase the entropy of our system. Again, all make sense here you are occupying those states, according to Boltzmann statistics. You just increasing the disorder in the system as you increase the temperature and increase the energy of the system. Now, this could go on forever, so let's put a lid on our system. And we say that we maximise the temperature when all of our states are equally occupied. Think about that exponential that requires a temperature of infinity. And we don't need to stop there. We carry on adding energy to our system, and see that we start to decrease our entropy once again, so exact mirror of what we had here. We're increasing our energy, preferentially occupying the states at to the higher energy levels of the system, decreasing our entropy again. Now, if we are decreasing our entropy by increasing our energy, \textbf{that implies that our temperature is negative}. And we can get to negative zero temperature again, and by increasing our energy so further until just the highest energy levels are occupied. This leads to some quite interesting consequences:
+
+\begin{itemize}
 Negative temperatures are actually hotter than positive temperatures,
 if we put them in thermal context and heat is going to flow from the picture on the to the picture to the left of it.
 our negative temperatures are hotter than positive temperatures and.
-Because we're going to see. Yes, that was it.
-And we've got this strange discontinuity at the centre at this plus minus infinite temperature, and that one at least could be resolved when.
-And remember that typically, instead of working with temperature, you're actually working with beta, which is the inverse of temperature.
-that results at least that strange discontinuity there.
-Um. But. This isn't something that we see in everyday life.
-And that is because in everyday life, our energy scales are bounded from below.
-To achieve this, we need a Hamiltonian that is bounded from above.
-And this is what we get from band structure and knots, colitis or at least on the kinetic energy, so band structure provides,
-if we've got large enough band gap, our kinetic energy will be bounded from both above and below.
-But we have three times and I both have a Hamiltonian.
-let's think about each of those because our interaction and potential energies are currently bounded from below.
-what we can do is increase our of strength so that we're ramping into a really deep Mott insulator.
-Atoms of pins to individual lattice sites, kinetic energy already has bound from above and below.
-We don't have to worry about that, our interaction and our potential energies we can reverse.
-again, using a magnetic field to sweep the interaction energy, reversing the sign of the confinement to put enough about on the potential energy.
-Lower the latter steps again. And our atoms are in a negative temperature state.
-This has been demonstrated experimentally in.
-Some lattices already in 2013, and this is experimental data that shows can in time of flight that a different region
-of the band structure is being occupied consistent with the stable occupation of.
-All the negative temperatures state, and we're trying to do that.
-Right now in some more interesting places, downsize as we speak, so stay tuned to hear more about that.
-Yeah, that's everything for today. Anyone has any last questions.
-Speak now. When you reverse the confinement, right, you can really quickly.
-OK. just give us a really good question.
-we do still have the underlying lattice. we were reversing the sign of the underlying.
-Harmonic confinement, so turning that from  this picture.
-To this one that the atoms themselves are at least still confined in the optical lattice wells, so it's.
-Fairly stable, so we there are limits to how long we could hold them for.
-And there's a lot of. Discussion amongst people who are very passionate about family dynamics as well, about  the limitations on.
-And if this couldn't exist, if it was in equilibrium with the outsite world, if it was in contact with the outsite world and.
-But as as a closed system, that negative temperature state is stable.
-And if. I say this, if you're here for one B physics, you actually showed the negative temperature states should exist.
-By thinking about. Yeah, I feel this is just a very quick exercise for you to go through if you're interested.
-we know that we've got the probability of state on station just from counting.
-If you take some small energy away from this, you get this form.
-And from there, you can show that the temperature of your systems.
-It looks this. And if you plot this, you see that you can get a negative temperature.
-if you haven't been through that calculation or you haven't seen it recently, it's just a nice, simple two level system picture of.
-Everything we've said here. OK.
-Which case, and that's one of the questions we should probably clear the room.
-But thank you so much.
+
+And we've got this strange discontinuity at the centre at this plus minus infinite temperature, and that one at least could be resolved when. And remember that typically, instead of working with temperature, you're actually working with beta, which is the inverse of temperature, so that resolves at least that strange discontinuity there. 
+
+This isn't something that we see in everyday life. And that is because in everyday life, our energy scales are bounded from below. To achieve this, we need a Hamiltonian that is bounded from above. And this is what we get from band structure and knots, colitis or at least on the kinetic energy, so band structure provides, if we've got large enough band gap, our kinetic energy will be bounded from both above and below. 
+
+\end{itemize}
+
+But we have three terms in our BH Hamiltonian. Let's think about each of those because our interaction and potential energies are currently bounded from below. What we can do is increase our lattice strength so that we're ramping into a really deep Mott insulator. Atoms are pinned to individual lattice sites, kinetic energy already has bound from above and below, so we don't have to worry about that, our interaction and our potential energies we can reverse. Again, using a magnetic field to sweep the interaction energy, reversing the sign of the confinement to put an upper bound on the potential energy. Lower the lattice depth again. And our atoms are in a negative temperature state. This has been demonstrated experimentally in some lattices already in 2013, and this is experimental data 
+[pic]
+that shows in time of flight that a different region of the band structure is being occupied consistent with the stable occupation of all the negative temperatures state, and we're trying to do that right now in some more interesting lattices, so stay tuned to hear more about that.
