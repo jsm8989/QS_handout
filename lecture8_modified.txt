@@ -1,143 +1,32 @@
+So, yeah, welcome back to the quantum simulation class and we today will be moving on from bosons, looking at fermions and how the different Fermi statistics can let us study quantum magnetism. 
 
-Now that we have all the technical problems, we can probably get started.
-So, yeah, welcome back to the quantum simulation class and we today will be moving on from photons,
-looking at fermions and how the different Fermi statistics can.
-Hello. And let us study quantum magnetism. let's start with a recap of what we've seen about fermions before.
-thousands, we can call fermions down and perform very similar sets of analysis.
-if we've got here the plot of the optical density of the Fermi cloud and you can see that it is slightly different from the
-Gaussian fit that you might expect to see if it was the same Fermi cloud because you are now fitting with Fermi direct statistics.
-Remember that the difference between one of the differences between fermions and bosons,
-and we'll look at this again later, is that from statistics of fermions obey the Pauli exclusion principle.
-with fermions, you're filling up sequential energy levels up to the top of the fantasy.
-And with fermions, we also often want to look at different spin states,
-and we can separate those spin states out by applying a magnetic field gradient
-during that period of time of flight and image those and analyse them separately.
-But that image of the office of the optical density up here.
-Looks a little bit closer to a Gaussian fit than we would actually expect from Fermi direct statistics.
-And that is largely due to the homogeneity of the trap.
-remember, there's that underlying trapping potential that underlies. Any any cold atom system.
-Almost you have to work quite hard to get rid of it.
-one one thing that we can do to actually extract more useful or more meaningful data from analysing immune system
-is to play a trick that really boils down to making the local density approximation just in an experimental way.
-what you can do here is selectively only image the central portion of the track,
-and you do this by applying to hollow beans, to the cloud, to your atom cloud where.
-Those beams contain resonant light that will optically pump the atoms from, let's say, in this example from this.
-My seven half state, I'm sorry, nine how state into the seven half state and this removes removes the atoms from the main imaging
-transition from the imaging cycle so that you are only able to image this blue central core here.
-That experience is a much more homogeneous trap.
-you just removing all of the atoms from the edges from that really homogeneous region,
-from your analysis and you get a density measurement that looks this so much more as you'd expect from Fermi statistics.
-The density has this plateau at a feeling of one before falling off as you reach the.
-The age of the firm you see at the Fermi momentum and the insect that just shows the contrast between.
-The much more Gaussian looking. Density when you don't perform this trick and the  more reliable for me on analysis when you do.
-And one of the pieces of information that we can extract from this analysis is again to look at the entropy of the Fermi gas.
-And this is the entropy per particle that is plotted against the reduced temperature,
-so the temperature divided by the Fermi temperature of the system and in red.
-Here we have the this is all numerics.
-We have the result that you obtain for a harmonic trap.
-And in blue is the Sommerfeld expansion, which should be familiar from government statistical courses.
-And it's just here that that entropy per particle is proportional to your reduced temperature.
-And you can see already from that plot that let's zoom in.
-This has a reasonably good agreement at very low temperatures, so up to about this reduced temperature of around point one,
-that's a linear approximation is is a reasonable one to make.
-And these are temperatures that are experimentally achievable.
-The typical limits that you can reach an experiment the best have been achieved have reduced temperature point zero four.
-you have to do a lot of work to cool your atoms down until you can operate in this limit.
-But it is. It is achievable and.
-As you can see from.
-From the plot that this will and from the Sommerfeld extension itself, this will give an article of approximately Bolton's consent divided by two.
-that was a quick recap of some of the things you have seen already about farming systems, maybe a couple of new things as well.
-But let's think about actually putting fermions in an optical lattice. And to do this,
-we'll have a reminder of the second quantisation picture where we use creation and deny creation
-annihilation operators on the two sites labelled by IMJ to describe to describe the atoms in that lattice.
-And. We've seen those once before. That's what you've been studying all term.
-And you know that photons have these computation relations so that.
-Your Bosnich states on some site, I will all be Fox states with some particle number between zero and infinity.
-And. We also know just by looking at the at these computation relations that if we want to put.
-Atoms on neighbouring sites or different sites of the lattice.
-And we want to put an atom first on site j and then on site ISO,
-each first creation operators acting on the vacuum that will be exactly the same as putting an atom first on site and then on site J.
-we know that photons are symmetric with respect to particle interchange.
-But that's not true for me. with fermions, we have these anti mutations and.
-By exactly the same sets of algebra, we know.
-That if we put an item on site today and then Site II, that will be that the negative of placing an item on Site I and then Site J.
-And. this tells us that a wave function is A. symmetric and that the the order in which you apply these operators matters.
-And this makes defining your basis a lot more complicated because as part of defining the basis,
-you have to define the order in which these operators are applied.
-And there is one other. Very important consequence of this, and that is the exclusion principle.
-if we look at this in the language of second quantisation, we can say that placing an atom on.
-Or placing two items on site, I is just the creation operator on site, I squared.
-placing one item at an acting on the vacuum on site, I second item and then on site I.
-But we know from these antique commutation relations that that must be the negative
-of itself and that therefore this creation of practise squad must be zero.
-that's just. Phrasing in the language of second quantisation.
-What we already know. Complicit, an exclusion principle, which is that our density can be either zero or one on a given lattice light.
-It cannot be, too we. Cannot place two identical fermions in the same quantum state.
-I on on the same lattice site if we're working with a single band model.
-I'm. And we know from what you've seen with both ons that.
-And those those contact interactions, those on site interactions only occur if two atoms occupy the same site.
-again, we know that if we've got two identical fermions, they can't occupy the same site, therefore they cannot interact via contact interactions.
-And. This gives us really quite an uninteresting system until we remember that we can
-use different spin states to allow two particles to occupy the same lattice light.
-this then gives us a firm model, which looks a lot the both of the Hamiltonian.
-But takes into account the effect of spin, so in this Hamiltonian, the spin is described by this sigma.
-And we have three times again. the hopping term of.
-The destruction of an item from site eye and the creation of an atom insite J.
-But then this is going to have that spin dependence. we need to also sum over the spin states available in our system.
-Likewise for the. Total item number and chemical potential.
-We need some over both seven states because we can we can vary those separately.
-And then our interaction time.
-This one just looks a little bit different to the other two terms in the Hamiltonian because we know that we cannot have,
-say, two spins occupying the same sites.
-if we want to consiter the same site, we have to consiter opposite spins so we don't need some over the spins in that term.
-And we know that for each lattice site, we have four possible states that could correspond to this,
-so we could have zero items in the latter site can have one atom a spin up.
-that's just this creation operator on the on the spin up.
-Likewise, spin down or we can have two items per site, one spin up, one spin down.
-And similarly to the language that we've been using for the post on case, we would call that a double on.
-And yes, just  a site note on.
-The history was that this was the original hybrid model that was was invented to describe what insulators.
-actually, I guess we just got a little bit out of step in terms of what was achieved experimentally and.
-Between those on some fermions and  the way that people tend to present.
-The two systems. OK, so just before we launch into.
-The possible phases that we can get, let's have a quick recap of the four different parameters that we can use to describe our system,
-so we'll just take for the take the example of a 3D simple cubic lattice.
-And we know that for one type binding lattice, we'll have a kinetic energy range minus two to two.
-the 3-D that extends out to minus 60 to 60 or so total.
-Range of 12 to. And.
-We want to describe once again the density, and this is just the expectation value of the application of.
-Some given that a site.
-And we know that to do that, we have to account for both the occupation of husbands and down spins, which tells us about our feeling factor.
-And this is where things get a little bit confusing for fermions, because if you have a feeling factor of one.
-And so any clues, one you could call that unity feeling that makes sense, you have one one particle.
-But you have one particle on a site on which you could have two particles, you could have spin up and spin down.
-But one particle on that latter site, you could also describe that as her feeling because of the possible options.
-Half of them are filled. that's just one thing to.
-Just keep in the back of your mind and remember that slightly strange terminology.
-You can also find the double and fraction, and that is just the fraction of atoms that occupy occupied sites.
-note that this is expressed as a fraction of the total atom number, not a fraction of the total lattice sites.
-And so you could have, say, sites around the edges if you're consitering a harmonic trap,
-say that have very low occupation and that would skew your statistics.
-you consiter the fraction of the total atom number where we consiter twice the number of.
-Belongs in the system, so that double occupation once cleaned up, one's been down on a single site divided by the total atom number.
-And. Um. This should give us all of the background that we need to consiter the possible phases of the Fermi model,
-actually, before I jump straight into that, do you have any questions on anything that we've said so far?
-Excellent. So, yeah, let's look at the family phase diagram,
-so we'll consiter in the first instance the non-interactive case where the interaction time you is zero.
-And we also have, in this first example, a temperature of zero.
-And this means that we have completely free fermions filling up the Fermi C one energy level as time.
-let's consiter adding atoms to the system. Start off with an equal zero.
-And this is just the vacuum. We have no particles. We have an empty lattice.
-But as we start to add particles and.
-We get a metallic state, so we know that.
-As we add particles up to this total occupancy level, they're not interacting so they can occupy the air,
-we can have one particle per site, we can have two particles per site, zero because there's no cost associated with any double occupation.
-And so this is a metallic compressible state.
-It is a conducting gap to state because we can always add more particles and we're just then raising the level of the Fermi S. to do that.
-And then we hit and equals. And that is the limit of the allowed states in our system because we can take one spin up, one spin down on each site.
-Once we've exhausted those states. There are none left that we can populate.
-that becomes a band insulator and it becomes completely incompatible state and an insulating state
-because there's nothing you can do to to that system to force more atoms to occupy the same sites.
+Let's start with a recap of what we've seen about fermions before. We can cool fermions down and perform very similar sets of analysis. We've got here the plot of the optical density of the Fermi cloud and you can see that it is slightly different from the Gaussian fit that you might expect to see because you are now fitting with Fermi direct statistics.
+[pic]
+Remember that one of the differences between fermions and bosons, is that fermions obey the Pauli exclusion principle. With fermions, you're filling up sequential energy levels up to the top of the Fermi sea. And with fermions, we also often want to look at different spin states, and we can separate those spin states out by applying a magnetic field gradient during that period of time of flight and image those and analyse them separately. But that image of the optical density looks a little bit closer to a Gaussian fit than we would actually expect from Fermi Dirac statistics, and that is largely due to the inhomogeneity of the trap. One one thing that we can do to actually extract more useful or more meaningful data from analysing a Fermion system is to play a trick that really boils down to making the local density approximation just in an experimental way. 
+[pic- whole second slide]
+What you can do here is selectively only image the central portion of the trap, and you do this by applying two hollow beams to your atom cloud, where those beams contain resonant light that will optically pump the atoms from, let's say, the $9/2$ state into the $7/2$ state and this removes the atoms from the main imaging cycle so that you are only able to image this blue central core here, that experiences a much more homogeneous trap, and you get a density measurement that looks like the image on the right, so much more as you'd expect from Fermi statistics. The density has this plateau at a filling of one before falling off as you reach the edge of the Fermi sea.
+
+And one of the pieces of information that we can extract from this analysis is again to look at the entropy of the Fermi gas. 
+[pic]
+And this is the entropy per particle that is plotted against the \textbf{reduced temperature}, so the temperature divided by the Fermi temperature of the system. In red we have (this is all numerics) the result that you obtain for a harmonic trap, and in blue is the Sommerfeld expansion, which should be familiar from thermal-statistical courses. And it's just here that that entropy per particle is proportional to your reduced temperature. And you can see already from that plot that this has a reasonably good agreement at very low temperatures, so up to about this reduced temperature of around %0.1$, that's a linear approximation is a reasonable one to make. And these are temperatures that are experimentally achievable. From the plot and from the Sommerfeld extension itself, this will give an entropy per particle of approximately $k_B/2$.
+
+
+Let's think about actually putting fermions in an optical lattice. And to do this, we'll have a reminder of the second quantisation picture where we use creation and annihilation operators on the two sites to describe the atoms in that lattice. 
+[eqns - bosonic comms relations]
+But with fermions, we have these anticommutations and by exactly the same sets of algebra, we know that 
+[eqns - fermionic anticomm]
+And this tells us that a wave function is antisymmetric and that the the order in which you apply these operators matters. And this makes defining your basis a lot more complicated because as part of defining the basis, you have to define the order in which these operators are applied. And there is one other important consequence of this, and that is the exclusion principle. If we look at this in the language of second quantisation, we can say that placing two atoms on site $i$ is just $(c_i^\dagger)^2$. But we know from these anticommutation relations that that must be the negative of itself and that therefore $(c_i^\dagger)^2=0$. Our density can be either zero or one on a given lattice site, it cannot be 2. And we know from what you've seen with bosons that those on site interactions only occur if two atoms occupy the same site. Again, we know that if we've got two identical fermions, they can't occupy the same site, therefore they cannot interact via contact interactions. This gives us really quite an uninteresting system until we remember that we can use different spin states to allow two particles to occupy the same lattice site. This then gives us our \textbf{Fermi-Hubbard model} 
+[eqn]
+which looks a lot the BH Hamiltonian but takes into account the effect of spin. In this Hamiltonian, the spin is described by $\sigma$. And we have three terms again: the hopping term is going to have that spin dependence; likewise for the total atom number and chemical potential; and then our interaction term, which just looks a little bit different to the other two terms in the Hamiltonian because we know that we cannot have, say, two spins occupying the same sites. If we want to consider the same site, we have to consider opposite spins so we don't need to sum over the spins in that term. And we know that for each lattice site, we have four possible states that could correspond to this, so we could have zero atoms in the site, can have one atom a spin up, spin down or we can have two spin-paired atoms per site. And similarly to the language that we've been using for the boson case, we would call that a doublon. Note: this was the original Hubbard model in 1963.
+
+OK, so just before we launch into the possible phases that we can get, let's have a quick recap of the four different parameters that we can use to describe our system. So we'll just take the example of a 3D simple cubic lattice. And we know that for a 1D tight-binding lattice, we'll have a kinetic energy range $-2t<\epsilon < 2t$, in 3-D that extends out to $-6t<\epsilon < 6t$. We want to describe once again the density, and this is just the expectation value of the occupation of a given site. And to do that, we have to account for both the occupation of up and down spins, which tells us about our filling factor. And this is where things get a little bit confusing for fermions, because if you have a filling factor $n=1$ you could call that unity filling; that makes sense, you have one one particle, but you have one particle on a site on which you could have two particles, you could have spin up and spin down. But one particle on that latter site, you could also describe that as half-feeling because of the possible options. 
+[eqns - half-filling]
+Half of them are filled. That's just one thing to keep in the back of your mind and remember that slightly strange terminology. You can also find the doublon fraction, 
+[eqn - doublon fraction]
+and that is just the fraction of atoms that occupy sites. Note that this is expressed as a fraction of the total atom number, not a fraction of the total lattice sites. And so you could have, say, sites around the edges if you're considering a harmonic trap has very low occupation and that would skew your statistics. 
+
+This should give us all of the background that we need to consider the possible phases of the Fermi-Hubbard model. So we'll consider in the first instance the non-interactive case where $U=0$. And we also have, in this first example, $T=0$ so we have completely free fermions filling up the Fermi sea one energy level as time. Let's consider adding atoms to the system. Start off with $n=0$. And this is just the vacuum. We have no particles. We have an empty lattice. But as we start to add particles, we get a metallic state, so we know that as we add particles up to this total occupancy level, they're not interacting so we can have one particle per site, we can have two particles per site, zero because there's no cost associated with any double occupation. And so this is a metallic compressible state with $\kappa = \partial n / \partial \mu > 0$. It is a conducting, gapless state because we can always add more particles and we're just then raising the level of the Fermi sea. And then we hit $n=2$. And that is the limit of the allowed states in our system because we can take one spin up, one spin down on each site, and once we've exhausted those states there are none left that we can populate. That becomes a band insulator and it becomes completely incompressible state and an insulating state because there's nothing you can do to that system to force more atoms to occupy the same sites. 
+
 And we can sketch this out, so.
 As we if we look at the occupation as a function of the chemical potential start off, you said here in the vacuum,
 and then as soon as we reach the kinetic energy range of the range of kinetic energies that we have available in our systems, it's minus 60 to 60.
