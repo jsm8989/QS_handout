@@ -44,54 +44,14 @@ We've seen the metallic phase, we've seen that we can get a MI phase; let's comp
 And for a given spin state, whether that's up or down, we can have a safe position of left and hand sites and.
 The resultant wave function will be proportional to the product of these two positions. And if we expand that out, we see that we have these four options, having both spin up and spin down on the left hand site, spin up and spin down on the hand site or one of each spin on each to the left and hand sites. If we extend that out to a full lattice system rather than just a double well we just have Bloch waves localised across the entire lattice. 
 
-But let's add some interactions in now, because this is going to change the way that the system will respond quite a lot.
-And because as we've seen before, if we have non-zero, repulsive interactions, then the.
-Double occupation is going to be suppressed by the existence of those interactions we saw before that, that gives us a Mott insulator.
-And if we take this example again of our simple double world potential.
-Then that. That state will only have.
-Your double expenses is not a lot of people, so we lose that, we lose those two terms and we'll just have the possibility to have spin down on spin.
-he's been down on the left site, spin off on the site and vice versa.
-And. This means that if we measure spin down on the left hand site, we know that there is a spin up on the hand site.
-this is a strongly correlated entangled state. And.
-And again, we can expand this out into an entire lattice.
-And we'll see that we'll get some  ordering of spin up and spin down on different lattice sites and the rest of the next half hour will be.
-Looking at how how the spin up and spin down states are likely to be ordered within the optical lattice.
-Because, yeah, the the key difference here that we have to the business case is the spin
-degree of freedom that because of the firm statistics this exclusion principle.
-That makes a big difference in how the sites can be occupied. So.
-Everything we've just said can be summarised in this plot. we have a.
-Density and. Plotted as a function of our chemical potential, and if we start in this region of an zero to one.
-That is the metallic state that we described. this correlated metal where?
-We don't have any double occupancy. We have neighbouring sites.
-With or we distribute our different spins amongst different lattice sites.
-But there is some correlation between them. As soon as we reach unity, filling all that, that half filling.
-We get this not insulating  plateau here, because we know that as soon as we add more particles into our system,
-we're going to have to start having double occupancy as soon as we start having double occupancy.
-We pay some energy cost. And so I guess opens and we reach our most insulating state and that Mott insulator lasts until we reach.
-The next available kinetic energy range available to our system so that you minus 60 is where we now have the kinetic energy available in our system.
-To. Overcome that energy cost associated with the interaction, so that lets us have.
-, that was the plateau. These lattice have.
-Another correlated metal.
-But now that corrugated metal is contained, some Dublin's between equals one and equals to it again, it's metallic conducting and compressible.
-Until we reach. Until we reach any close to which is the case that we've seen before.
-No possible available sites or no sites that are available to occupy, so we reach our and insulator.
-And one important note is that this is, of course, a simplification. Especially around that halfling region.
-There are a lot of interesting phases that can emerge.
-Yeah. The system becomes quite unstable and you can, for instance, get D-Wave superconducting sites.
-it gives a bit of an idea of why it's interesting.
-Well, one of the reasons that it's interesting to study the phases in the Fermi hybrid model
-because we can get a lot of insight into interesting and potentially useful states.
-OK, so. We also want to think about the entropy.
-And we looked at this last time and we saw that.
-The entropy of our system is proportional to the log of the dimensionality of, I hope it space.
-And we know that we have for a year, if we've got a single lattice site,
-we have four possible configurations that if zero occupancy spin up, spin down or spin up and spin down.
-the maximum entropy capacity of our system is always going to be proportional to log for.
-But then. We have to consiter the different and the different limits of energy scales.
-again, if we if we consiter this halfling case and we consiter zero interaction, so you equals zero.
-As we saw before, there is no cost associated with double occupancy.
-And so at this halfling point, you have an equal probability of occupying any of those four combinations.
-So. No, no atoms or a pair of ATMs, that .
+But let's add some interactions in now, because this is going to change the way that the system will respond quite a lot. As we've seen before, if we have non-zero, repulsive interactions, then the double occupation is going to be suppressed by the existence of those interactions. We saw before that gives us a Mott insulator. And if we take this example again of our simple double well potential, then that double occupancy is not allowed anymore, so we lose those two terms and we'll just have the possibility to have spin down on the left site, spin up on the right site and vice versa. This means that if we measure spin down on the left hand site, we know that there is a spin up on the hand site; this is a strongly correlated entangled state. And again, we can expand this out into an entire lattice. And we'll see that we'll get some ordering of spin up and spin down on different lattice sites and the rest of the next half hour will be looking at how the spin up and spin down states are likely to be ordered within the optical lattice.
+[eqns - tidy up Metal vs MI slide]
+
+Everything we've just said can be summarised in this plot. 
+[pic]
+If we start in this region $0<n<1$, that is the metallic state that we described. We distribute our different spins amongst different lattice sites, but there is some correlation between them. As soon as we reach unity filling, we get this Mott insulating  plateau here, because we know that as soon as we add more particles into our system, we're going to have to start having double occupancy; as soon as we start having double occupancy, we pay some energy cost. And so a gap opens and we reach our Mott insulating state. And that Mott insulator lasts until we reach the next kinetic energy range available to our system, $U-6t$, to overcome that energy cost associated with the interaction, so that lets us have another correlated metal, but now that corrugated metal contains some doublons $1<n<2$. Until we reach $n=2$ which is the case that we've seen before of the band insulator. And one important note is that this is, of course, a simplification. Especially around that half filling region. There are a lot of interesting phases that can emerge. The system becomes quite unstable and you can, for instance, get D-Wave superconducting sites. It gives a bit of an idea of why it's interesting.
+
+OK, so. We also want to think about the entropy. And we looked at this last time and we saw that the entropy of our system is proportional to $\log \text{dim}(H) $. And we know that if we've got a single lattice site, we have four possible configurations. But then we have to consider the different limits of energy scales. Again, if we if we consiter this half-filling case and we consiter $U=0$, there is no cost associated with double occupancy and so you have an equal probability of occupying any of those four combinations. So. No, no atoms or a pair of ATMs, that .
 Paired up just in terms of the number of sites and the number of particles that you need to accommodate or a single item.
 Are all equally profitable, so we reached that maximum entropy of KP lock for.
 But if we have. A large, repulsive interaction.
