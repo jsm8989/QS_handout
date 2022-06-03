@@ -27,64 +27,24 @@ and that is just the fraction of atoms that occupy sites. Note that this is expr
 
 This should give us all of the background that we need to consider the possible phases of the Fermi-Hubbard model. So we'll consider in the first instance the non-interactive case where $U=0$. And we also have, in this first example, $T=0$ so we have completely free fermions filling up the Fermi sea one energy level as time. Let's consider adding atoms to the system. Start off with $n=0$. And this is just the vacuum. We have no particles. We have an empty lattice. But as we start to add particles, we get a metallic state, so we know that as we add particles up to this total occupancy level, they're not interacting so we can have one particle per site, we can have two particles per site, zero because there's no cost associated with any double occupation. And so this is a metallic compressible state with $\kappa = \partial n / \partial \mu > 0$. It is a conducting, gapless state because we can always add more particles and we're just then raising the level of the Fermi sea. And then we hit $n=2$. And that is the limit of the allowed states in our system because we can take one spin up, one spin down on each site, and once we've exhausted those states there are none left that we can populate. That becomes a band insulator and it becomes completely incompressible state and an insulating state because there's nothing you can do to that system to force more atoms to occupy the same sites. 
 
-And we can sketch this out, so.
-As we if we look at the occupation as a function of the chemical potential start off, you said here in the vacuum,
-and then as soon as we reach the kinetic energy range of the range of kinetic energies that we have available in our systems, it's minus 60 to 60.
-We're able to start populating that lattice, adding in more and more atoms per a site up to that band insulator point of two.
-And we get half filling for chemical potential of zero.
-And um, yes, so then up to a plateau, we can't we can't increase anymore because there are no states we can occupy.
-And we can think about the job alone fraction here, remember that this is the specific case of non-interactive of the specific non-interactive case.
-if we look at the double infraction and we can say that the expectation value
-or this correlate here and I up and down is actually just a product state,
-though those particles don't see each other, there are no correlations between them, which gives us a double and fraction of an over two.
-In this. In this system. And again, we can plot this, and so it's just a nice linear relationship between the Dublin faction and.
-. And identity. But now let's consiter the case of strong interactions and in the first instance, strong attractive interactions.
-you is negative and the magnitude of you is much larger than both the hopping term and the thermal energies available in the system.
-we don't have enough thermal energy to be able to overcome the effects of the interactions.
-And here we know that all of the particles in our system for formed uplands because.
-We can we can lower our energy by having two particles occupying the same site.
-as soon as you add here, if you start off with one particle in your system, you add another one.
-The energetically favourable configuration is for those two to occupy the same sites.
-You add in third, fourth and and they always pair up.
-you have a double fraction of one. But in the opposite case.
-You have the exact opposite effect. There is a strong energy cost associated with double occupancy of a single site.
-particles will try to sink the Occupy sites as far as they can and up to a filling factor of one.
-And that means that are, um, double and fraction will be zero.
-Greater than one. They have no choice. They have to start occupying sites because.
-There are no no unoccupied sites that they can occupy. And so then we would.
-Yeah, have have some non-zero double infraction there.
-And we can express this in terms of the relationship between the number of atoms and the number of occupied lattice sites.
-To get. This relationship, this two minus two over in relationship in.
-Double infraction. And we can represent this.
-As shown in this plot here, so US equals zero, the non-interactive case is the black line here.
-And as you said before, this is going to be this linear increase in the double infraction as you increase the filling factor and.
-You is a. Large and negative.
-And again, this this both in this case,
-there's going to be no dependence on the filling factor because you're always going to want to double occupancy.
-But for the Red Line this year, because infinity is a bit more of an interesting line because up to that half filling point you.
-I have no dependence on the filling factor, they're just going to simply occupy sites.
-Until then, as soon as you have to start, things that, double infraction is going to increase.
-And. this gets us to quite interesting.
-Regimes. When, again, when we have any calls to, we're going to have abandon ship later and purely around insulator Dublin's.
-But for this health failing case and. We're going to get a Mott insulator with with no problems at all,
-at zero temperature because we know that as soon as we want to create a double on it,
-we're going to have to pay some energy cost associated with that.
-we're going to create more insulating phase. And.
-In the atomic limits of this very low or zero T and tunnelling T, then that must insulator is again just the product of local Fox states.
-Exactly as we've seen it before. Where?
-You can have an occupation of equals one. again, that whole feeling.
-let's let's compare, we've we've seen the metallic phase, we've seen that we can get a more intimate phase.
-Let's compare the two. again, use equal to zero, but this time to use is.
-The huffing is potentially small, but but non-zero, and we get this uncorrelated metal case that we've seen before.
-And let's take the example of the potential to illustrate this.
-So. We can have particle a particle on the left or the left or the site in this double well.
+And we can sketch this out, 
+[pic - sketch]
+so if we look at the occupation as a function of the chemical potential you start off in the vacuum, and then as soon as we reach the range of kinetic energies that we have available in our systems $-6t<\epsilon<6t$ we're able to start populating that lattice, adding in more and more atoms per a site up to that band insulator point of $n=2$. And we get half filling for chemical potential of zero. And we can think about the doublon fraction here, remember that this is the specific case of non-interacting particles. If we look at the doublon fraction we can say that the expectation value
+[eqn]
+is actually just a product state, those particles don't see each other, there are no correlations between them, which gives us a doublon fraction of $n/2$ in this system. And again, we can plot this, and so it's just a nice linear relationship between the doublon faction and the density. 
+
+But now let's consider the case of strong interactions and in the first instance, strong attractive interactions, $U<0, |U|>>k_BT$. We don't have enough thermal energy to be able to overcome the effects of the interactions. And here we know that all of the particles in our system for form doublons because we can we can lower our energy by having two particles occupying the same site. As soon as you add here, if you start off with one particle in your system, you add another one. The energetically favourable configuration is for those two to occupy the same sites. You add in third, fourth and and they always pair up, so you have a doublon fraction of one. But in the opposite case, you have the exact opposite effect. There is a strong energy cost associated with double occupancy of a single site, so particles will try to singly occupy sites as far as they can and up to a filling factor of one. And that means that our doublon fraction will be zero. For $n\ge1$, they have no choice. They have to start occupying sites because there are no unoccupied sites that they can occupy. And so then we would have some non-zero doublon fraction there. And we can express this in terms of the relationship between the number of atoms and the number of occupied lattice sites. 
+[eqn - D_{U=\infty}=\frac{}{}]
+As shown in this plot here, 
+[pic - top right]
+So we get a band insulator for $n=2$, and a MT for $n=1$ which has no doublons in the atomic limit. 
+
+We've seen the metallic phase, we've seen that we can get a MI phase; let's compare the two. For $U=0, t>0$ we have Bloch waves which imply an uncorrelated metal. And let's take the example of a double well potential to illustrate this. We can have particle a particle on the left or the left or the site in this double well.
+[eqn - double well state]
 And for a given spin state, whether that's up or down, we can have a safe position of left and hand sites and.
-The resultant wave function will be proportional to the product of these two positions.
-And if we expand that out, we see that we have these four options. having both spin up and spin down on the left hand site,
-spin up and spin down on the hand site or one of each spin on each to the left and hand sites.
-And. If we extend that out to a full a full lattice system rather than just a double well again in this year equals zero limit,
-we just have Bloch waves localised across.
-Across the entire lattice. But let's add some interactions in now, because this is going to change the way that the system will respond quite a lot.
+The resultant wave function will be proportional to the product of these two positions. And if we expand that out, we see that we have these four options, having both spin up and spin down on the left hand site, spin up and spin down on the hand site or one of each spin on each to the left and hand sites. If we extend that out to a full lattice system rather than just a double well we just have Bloch waves localised across the entire lattice. 
+
+But let's add some interactions in now, because this is going to change the way that the system will respond quite a lot.
 And because as we've seen before, if we have non-zero, repulsive interactions, then the.
 Double occupation is going to be suppressed by the existence of those interactions we saw before that, that gives us a Mott insulator.
 And if we take this example again of our simple double world potential.
