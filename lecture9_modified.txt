@@ -1,16 +1,4 @@
-
-OK, we're recording. welcome back. Lecture number nine today we are I mean,
-last weak you looked at quantum thermodynamics asking what happens at final temperatures and then you looked at the Fermi Hubbard model.
-fermions and optical lattices, we're basically going to continue.
-Rift isn't going towards quantum magnetism, so we're going to see what is the magnetic structure that we can expect.
-What has been observed so far?
-And then also in the second half, seeing what other possibilities that people could look at in the next couple of years.
-There's a lot of interesting things happening there.
-to start with, you said last weak that there is the firm insulator, so you have to firmly how about model you get similar to the Bosnia case,
-just that you have no need to have two different spin states of the fermions in order to have interactions.
-Otherwise, probably Bloching means there is no interactions.
-And that, of course, means that you have to take a very, totally new thing because you have a mechanism to play with.
-if you take the atomic limit, the easiest case you will positive is essentially zero.
+So you have the Fermi Hubbard model you get similar to the bosonic case, just that you need to have two different spin states of the fermions in order to have interactions. Otherwise, Pauli blocking means there is no interactions. And that, of course, means that you have a very, totally new thing because you have magnetism to play with. If you take the atomic limit, $U>0, t=0, U>>k_BT$. 
 And we are also saying that you is much, much, much bigger than K-beauty.
 we now have to talk also about temperature in a slightly different way because
 we now have to say there's different hierarchies of temperature scales.
