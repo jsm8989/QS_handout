@@ -1,19 +1,4 @@
-So you have the Fermi Hubbard model you get similar to the bosonic case, just that you need to have two different spin states of the fermions in order to have interactions. Otherwise, Pauli blocking means there is no interactions. And that, of course, means that you have a very, totally new thing because you have magnetism to play with. If you take the atomic limit, $U>0, t=0, U>>k_BT$. 
-And we are also saying that you is much, much, much bigger than K-beauty.
-we now have to talk also about temperature in a slightly different way because
-we now have to say there's different hierarchies of temperature scales.
-the first thing we say is that you is much, much, much bigger than K-beauty, and we would say a density one we get a product of.
-It's if it was on a case. You don't have enough time and energy to produce a.
-Putting two particles on one site, and if you don't have the energy for that,
-then at any one you must have this protocol fox, that is the only possible solution.
-that's very similar to what we did in the Bosnian case, when it was only case,
-we were done at this point we were say, OK, well, you have one, both on the lighter site, and that's it.
-Now if the fermions, we have this huge degeneracy of the spins because we can have all  different spin patterns in here.
-Up, up, up, up, up, down, down, down and down and everything in between. you have these all of these many spin combinations.
-Now, I should say that, of course, you can also do similar things to both the Hubbard model,
-if you take the Bozo Hubbard model and you load to spin of photons into a lattice,
-you get the same  degeneracy, you get the same  physics. We talk about the differences a bit later on.
-But for both on the easiest case you can do is just put one party in every little site and then you have to have a model already by Hermione's.
+So you have the Fermi Hubbard model you get similar to the bosonic case, just that you need to have two different spin states of the fermions in order to have interactions. Otherwise, Pauli blocking means there is no interactions. And that, of course, means that you have a very, totally new thing because you have magnetism to play with. If you take the atomic limit, $U>0, t=0, U>>k_BT$, we now have to talk also about temperature in a slightly different way because we now have to say there's different hierarchies of temperature scales. In this case you don't have enough time and energy to put two particles on one site, then at any one you must have this product of Fock states, that is the only possible solution. That's very similar to what we did in the Bosonic case. Now with the fermions, we have this huge degeneracy of the spins because we can have all different spin patterns in here. But for both on the easiest case you can do is just put one party in every little site and then you have to have a model already by Hermione's.
 If you were to have just one spin state, then you just have basically a boring band insulator.
 OK, so if you do this, how many possible combinations of states do you have?
 Well, the answer is simple, but it's you have a factor of two for each lattice site because you can put a spin up or it's been down there,
