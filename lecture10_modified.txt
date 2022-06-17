@@ -1,59 +1,8 @@
-OK. Good morning, welcome back. electron number 10.
-Last time we talked about, what the last couple of weaks we talked about,
-interesting phases you can have superfluid mott insulators and then last time about quantum magnetism mechanical phases.
-Now today is again a very big change because today we're talking about how a system
-can actually reach firm equilibrium in something we've always been taken for granted.
-We've always been saying, Okay, you put it gas in there and it will have a temperature of so-and-so.
-And it would be a bit described by a former state. And we swept under the rug, how can it get there and can it actually even fertilise?
-And what does humanisation actually really mean? that's going to be the topic of today.
-it's  a connexion. It's  a bit away from that quartette.
-And specifically, it's a connexion really to statistical mechanics and thermodynamics.
-How does thermodynamics actually work here? And so what is thermalisation?
-Well, if you start with hemodynamics, you say it's just an empirical fact,
-it's an observation that if I take a generic classical in anybody's system, it will, if left alone, evolve into a firmer state.
-the classic the the two classical examples would be to say, if I have a system where all of the particles are dressed,
-they get balls and they just inject some energy, one very fast, big coming from the right.
-Then obviously, before it starts colliding, it's a very non-formal state. It's not a box makes a bolt, an institution or anything.
-It's one particle being really fast enough to pass the other particles being addressed.
-That's a pretty non-equilibrium situation. But then you know that if you calculate now the conditions or you just observe what happens after many,
-many collisions in the yard were things that reflected what they conduct. As this tribute, you can describe the evolution.
-You can describe the distribution of velocities that you get very, very well with an ideal gas law.
-it looks really just a firm against. Another example from thermodynamics is the dual expansion.
-you start with a gas on one site of a container,
-with this one being close to the pressure of being the volume here and obviously the density on the other site is empty.
-There's a vacuum, there's nothing there. now you know that if you now open up this connexion and the gas will expand,
-that will fill the full volume and you would have a different  pressure everywhere and the different temperature.
-And you also know from family dynamics that was told that this process is irreversible.
-you cannot just say, , particle, so please go back and close the gate again.
-And if you go from here to here, this irreversible possibility is seen by an increase in entropy,
-some creative calculated in classical thermodynamics.
-the idea is that this process of thermalisation is something that happens and it's irreversible.
-if you open up the gate,
-you have a very non equilibrium situation because you if one big homogeneous volume with a much higher pressure here than you have here.
-the system will try to equilibrium particles which flow from here to here.
-And by doing so in this very violent non-diabetic, non quasi static fashion, it will create entropy,
-which means if you come in with a piston and push the particles back or back to the other site and close to five again,
-you will find out that you have a higher temperature near the end and the higher presitent you had before.
-Because you've created entropy, you've created this order in the system. And once it's in there, it can't get out.
-That's the second law of thermodynamics. that's what you all know from permanent that this is nothing new.
-The new part is not a question of, OK, how does this happen microscopically?
-How can a system go from a state with a low entropy to a state of a higher and what's going on there?
-And the answer the people now believe is the answer is the answer of dynamical chaos.
-I should maybe stress one important point here. Everything we're doing now is you always talking now about isolated systems,
-so we're talking about a system has no firm connexions to the outsite world.
-Because what you normally do is when you, for instance, take a  sweater system,
-you say, I take my little rope and I put it in the choir start then which you say,
-well, it's in from a contact of a big firm reservoir and then it will by exchanging energy and information,
-all of that and entanglement with the reservoir. It will equally point at the same temperature anywhere as ever has.
-normally you never really much think about the process of thermalisation itself,
-because you just say my system approach is in contact with a big firm, a reservoir and it gets the temperature from there.
-And it's very nice in many situations, but it's an intellectual it's a very interesting question, what happens in isolation?
-And the question is, of course, also very relevant for cosmologists, because you would argue that, well,
-if I start, if I think of the Big Bang at the start of the universe coming from nothing out of the Big Bang,
-it has to equilibrium as a closed, isolated quantum system in a sense because there is nothing outsite the window of the liquid qualified with.
-how can such a system happen?
-And it turns out the answer is dynamic of chaos and chaos, chaotic dynamics, this dynamics where the presitent determines the future.
-But the approximate presitent does not approximately determine the future. That's a weird sentence that it's past us step by step.
+Last time we talked about interesting phases you can have: superfluid, mott insulators and then last time about quantum magnetism phases. Now today is again a very big change because today we're talking about how a system can actually reach thermal equilibrium; it's something we've always taken for granted. We've always been saying, Okay, you put gas in there and it will have a temperature of so-and-so. And it would be described by a thermal state. And we swept under the rug, how can it get there and can it actually even thermalise? And what does thermalisation actually really mean? that's going to be the topic of today. How does thermodynamics actually work here? And so what is thermalisation? Well, if you start with thermodynamics, you say it's just an empirical fact, it's an observation that if I take a generic classical manybody system, it will, if left alone, evolve into a thermal state. The two classical examples would be to say, if I have a system where all of the particles are dressed, billiard balls and they just inject some energy, one very fast ball from the right.
+Then obviously, before it starts colliding, it's a very non-thermal state. That's a pretty non-equilibrium situation. But then you know that if you calculate now the collisions or you just observe what happens after many, many collisions. You can describe the distribution of velocities that you get very, very well with an ideal gas law. Another example from thermodynamics is the Joule expansion. The idea is that this process of thermalisation is something that happens and it's irreversible. The new part is a question of, OK, how does this happen microscopically? How can a system go from a state with a low entropy to a state of a higher and what's going on there? And the answer the people now believe is the answer of dynamical chaos. I should maybe stress one important point here. Everything we're doing now is you always talking now about isolated systems, so we're talking about a system has no thermal connections to the outsite world. Because what you normally do is when you, for instance, take a condensed matter system, you say, I take my little probe and I put it in the system then which you say, well, it's in from a contact of a big thermal reservoir and then it will by exchanging energy and information, all of that and entanglement with the reservoir. It will equally point at the same temperature anywhere as ever has. Normally you never really much think about the process of thermalisation itself, because you just say my system approach is in contact with a big thermal reservoir and it gets the temperature from there. And it's very nice in many situations, but it's an intellectual it's a very interesting question, what happens in isolation? And the question is, of course, also very relevant for cosmologists, because you would argue that, well, if I think of the Big Bang at the start of the universe coming from nothing out of the Big Bang, it has to equilibrium as a closed, isolated quantum system in a sense because there is nothing outsite. How can such a system happen? And it turns out the answer is \textbf{dynamical chaos} and chaos, this dynamics where the present determines the future, but the approximate present does not approximately determine the future. See for example the double pendulum, Lorentz attractor, butterfly effect etc. 
+
+\begin{comment}
+That's a weird sentence that it's past us step by step.
 The first thing is to say, well, this is classical physics, classical dynamics.
 Newton's laws apply. if I know my initial state, it's just mechanics.
 I can calculate what would be the state at any time later on the property.
@@ -91,86 +40,15 @@ very much depends on where you are you in this land that night. a very small dif
 It's a fork in the road. You go this way, you go that way. And that's something that people call, uh, uh, say.
 What people say is that the uncertainty in the forecast increases exponentially with the elapsed time.
 if I have this differentiated question, I'm here, I can say, yes, you most likely end up there, dear, dear, dear, dear.
-But Ray, will you be after two rotations? You can't say anything, really, because the uncertainty grows exponentially.
-And the way it grows is we've been surprised at the exponent, the financial dynamics this quarter, the of exponent.
-And you will see a lot of literature where people look at different systems and say they try to extract the  exponent,
-and if it's finite, you have chaotic dynamics. If it's zero, you have regular dynamics.
-And this is the way people now believe that a simple classical system can formalise,
-because if I cannot really later on say what a particle will be if we limit uncertainty grows exponentially,
-then I  lose the information about the initial state. What if I say, okay, the particle particles snow here, here you cannot really say,
-where was it 100 orbits before you can really say it wasn't in this area?
-Wasn't this light? Was the initial state of particles here all the particles there,
-if you think big of this jewel expansion after you have this comet state and the two chambers were identical,
-you cannot say what a particle initially you are left or on the way, such as information about initial state is erased.
-It's gone. It's not practically accessible anymore.
-And that's what people mean, got big time dynamics to redirect, sweep out the whole parameter space.
-And after some point in time, the system can be anywhere in parameter space.
-Well, I should be a bit more precise. Of course, you have tons of quantities, the one quantity, this is an isolated quantum system.
-Again, it's important to isolate is always conserve this energy.
-And now we are suddenly doing thermodynamics because we're not suddenly saying that, OK, well.
-The only thing that's conserved over time is energy and everything else because of this exotic time dynamics gets erased.
-Then if I want to make a prediction of how what can I say about the state? Far in the future.
-What I can say that a very good approximation is what we call the microeconomic an ensemble being a particle
-is of equal probability at any point in space based where it has to save energy than an initial stage.
-everything was erased, except for the initial for for the energy.
-And that's what we mean, the thermalisation. And that's how we get the microcontroller sample and then, you know,
-from statistical physics how you can go on to further and further from canonical crank, canonical and so on.
-I think this is the key step of saying where you go from microscopic loss, you have dynamical chaos.
-You go to Hubbard economics into thermodynamics. This is the key step printing if you want microscopic to statistical physics to thermodynamics.
-OK. And this is well understood, and it's it's a fascinating story, but it's  it's there.
-And as I said before, Feminisation reasons a lot of information about the initial state,
-except for a few conserved quantities a particle, no energy to the momentum of the system.
-In some cases here, of course not quite because it's. A moment of concern, but in general, often it is OK.
-The key point. For having something this is you always need to have a non-linear differential equation,
-if you are differential equations linear, you can't have that.
-Because in the linear equation, you know, you have to superposition of solutions, which means you can always say,
-well, if I'm over here or there on initial stage, it must be over the on the final stage.
-I can't have this exponential growth of uncertainty. I can only have that you have an engineer within the system.
-And it's also well understood from classical dynamics, classical dynamical chaos.
-And now that's OK, and just to say that also in classical cases, you don't always get it, you get it, in some cases put on in all cases.
-the jury system is a typical system where you would expect chaotic dynamics and thermalisation and you would expect to have the ideal gas.
-Now in one day, if you want this system situation can be different if you have so many particles in
-the road that they can really only move in one direction and they are all identical.
-Then you realise that you have many, many more kinds of quantities,
-because the only way how you can exchange was what can happen in a collision between
-two identical particles is that they exchange their momentum but not redistributed.
-if one particle is very slow, one part goes very fast. Afterwards, the other particle will be very fast and the first one will be very slow,
-but it will not be the case that they cannot have equal velocities afterwards.
-Right, that's impossible.
-And that's what you get with Newton Cradle here, we really get all of the energy will always be in one bite at the time.
-it's strictly speaking, if there would not be friction or anything. A perfectly periodic dynamic would not firmness.
-And this is what people call integral dynamics.
-Integral just really means that you can integrate the differential equation if you get like, say, maybe an analytic solution for what it looks like,
-its regular dynamics look chaotic but regular, and it's called integral and there's no firm reservation in you.
-And what people are saying, which you can mathematically prove is you can show that these systems are integral
-because they have a high number of indicators of motion sort of conserved quantities.
-you can show that the occupation of two different momentum classes,
-how many projects are moving with a given velocity and how many particles are west, that one doing a collision is not changing.
-it's an integral of motion. It's something that stays constant.
-And then, you know, from when you started first doing Kepler's laws, you know how you could solve them by saying,
-Well, OK, I have this three degrees of freedom, but I have my three conserved quantities and different.
-I can integrate it up. And I just got a regular dynamics because it's the only dynamics compatible with those conserved quantities.
-If you don't have as many conserved quantities, you have degrees of freedom, which you tend to have in this  system,
-then this and that mix is constrained so much as can't formalised and that's how you get classical integral motion.
-And it's a typical thing that you have in one day and almost never higher up in higher dimensions.
-But if you do, particles are  colliding colliding in two dimensions.
-The picture is that what if they really hard on it's a collision, they just exchange their momentum.
-But if ever glancing incidents, then they cannot go off in this direction.
-So, for instance, say the same velocities or whatnot, so you can redistribute the absolute amount of momentum between particles.
-OK. And now we finally go over to quantum and ask, can we do the same  understanding for quantum systems?
-What's happening with a quantum system? Can the quantum system formulas?
-And again, I'm stressing that we are talking about isolated systems where there's no exchange, you have an environment.
-There is no external noise. There's no heat exchange and classical human dynamic terms.
-You can still do work on the system, so you could still say a quantum system, so it could be in a and it can compress the piston.
-But there should not be any thermal exchange between the particles into one.
-Which means in our case, of course, we can make our traps stronger or weaker change, let us step and things this,
-but there's no heat exchange because we just interacting with a classical field that has no entropy.
-OK, so. Well, you can do this analysis in one line, and you can say thermalisation is impossible because the shooting equation is a linear equation.
-dynamical chaos cannot take place because it's a linear differential equation.
-we should go home. There is no thermalisation of quantum mechanics. The problem is, of course, that this can't be the full story, because in the end,
-even the stuff that we describe as classical, it's just an approximation. Everything is quantum in the end.
-And we do see formalisation. what's going on? And the answer is we have to think hard about what we actually mean with thermalisation and
-whether we should really think about whether or a picture of humanisation is the one.
+But Ray, will you be after two rotations? 
+\end{comment}
+
+You can't say anything, really, because the uncertainty grows exponentially. And the way it grows is we've been surprised at the exponent, the dynamics this quarter, the of exponent. And you will see a lot of literature where people look at different systems and say they try to extract the exponent, and if it's finite, you have chaotic dynamics. If it's zero, you have regular dynamics. And this is the way people now believe that a simple classical system can thermalise, because if I cannot really later on say what a particle will be if we limit uncertainty grows exponentially, then I  lose the information about the initial state. What if I say, okay, the particle now here, here you cannot really say, where was it 100 orbits before you can really say it wasn't in this area? It's not practically accessible anymore. And that's what people mean by ergodic time dynamics, to really sweep out the whole parameter space. And after some point in time, the system can be anywhere in parameter space. Well, I should be a bit more precise. Of course, you have tons of quantities, the one quantity, this is an isolated quantum system. Again, it's important to isolate is always conserve this energy. And now we are suddenly doing thermodynamics because we're not suddenly saying that, OK, well. The only thing that's conserved over time is energy and everything else because of this ergodic time dynamics gets erased. Then if I want to make a prediction of how what can I say about the state far in the future? What I can say that a very good approximation is what we call the microcanonical ensemble being a particle is of equal probability at any point in space based where it has to save energy than an initial stage. Everything was erased, except for the for the energy. And that's what we mean, the thermalisation energy. And that's how we get the microcanonical ensemble and then, you know, from statistical physics how you can go on to further and further from canonical crank, canonical and so on. 
+
+The key point for having something this is you always need to have a non-linear differential equation, because in the linear equation, you know, you have to superposition of solutions, which means you can always say, well, if I'm over here or there on initial stage, it must be over there on the final stage. I can't have this exponential growth of uncertainty. And it's also well understood from classical dynamics, classical dynamical chaos. And now that's OK, and just to say that also in classical cases, you don't always get it, you get it, in some cases but not in all cases. For example, a 2D system can have chaotic dynamics and will tend to an ideal gas; but a 1D system is \textbf{integrable} and so there is no thermalisation.  Integrable just really means that you can integrate the differential equation if you get like, say, maybe an analytic solution for what it looks like, its regular dynamics look chaotic but regular. And what people are saying, which you can mathematically prove is you can show that these systems are integral because they have a high number of indicators of motion sort of conserved quantities. You can show that the occupation of two different momentum classes, how many projects are moving with a given velocity and how many particles are west, that one doing a collision is not changing. it's an integral of motion. It's something that stays constant. And then, you know, from when you started first doing Kepler's laws, you know how you could solve them by saying, Well, OK, I have this three degrees of freedom, but I have my three conserved quantities and different. I can integrate it up. And I just got a regular dynamics because it's the only dynamics compatible with those conserved quantities. If you have as many conserved quantities as you have degrees of freedom, which you tend to have in this  system, then this and that mix is constrained so much as can't thermalise and that's how you get classical integral motion. And it's a typical thing that you have in one day and almost never higher up in higher dimensions. But if you do, particles are colliding in two dimensions. The picture is that what if they really hard on it's a collision, they just exchange their momentum. But if ever glancing incidents, then they cannot go off in this direction. 
+
+OK. And now we finally go over to quantum and ask, can we do the same understanding for quantum systems? And again, I'm stressing that we are talking about isolated systems where there's no exchange with an environment, no external noise, no heat exchange. You can still do work on the system, so you could still say a quantum system, so it could be in a and it can compress the piston. But there should not be any thermal exchange between the particles into one. Which means in our case, of course, we can make our traps stronger or weaker change, lattice depth and things like this, but there's no heat exchange because we just interacting with a classical field that has no entropy. OK, so. Well, you can do this analysis in one line, and you can say thermalisation is impossible because the Schrodinger equation is a linear equation. The problem is, of course, that this can't be the full story, because in the end, even the stuff that we describe as classical, it's just an approximation. Everything is quantum in the end. And we do see thermalisation. What's going on? And the answer is we have to think hard about what we actually mean with thermalisation and whether we should really think about whether our picture of thermalisation is the one. 
+
 let's start looking into this. let's say I start from a pure state of zero, it's time to equals zero.
 And I do unitary time evolution. It's a closed system.
 it's just Hamiltonian time evolutionary and you know, it's the matrix exponential of them in Italy.
