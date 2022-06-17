@@ -254,36 +254,18 @@ we would to have one lecture on this party's transformation and look at this in 
 but we don't have the time, so we have to move on. 
 \end{comment}
 
-For the last two minutes, let's look at alternatives if we cannot have antiferromagnetic order.
-And there's a few reasons why you could have this, the first reason this lower dimensions in one deep.
-There's a fear in cause the moment of darkness for room,
-which says that if I have a long range ordered phase in higher dimensions, that's connected to a continuous between.
-Then in one, this would be absent. I will not have long ordered states because quantum fluctuations with there's two other language or.
-Now, mind you about two things, the first thing is that. It's important that we hear talk about continuous cemeteries.
-if you look, for instance, the Ising model,
-I think model can be the antiferromagnetic you ordered in one because the Ising model only breaks a discrete symmetry, not a continuous symmetry.
-Why the Heisenberg model cannot be antiferromagnetic,
-the one that mentioned it may not have long range order will only have quassel on which order which would decay than 80,
-apparently because of this effect.
-And the intuitive point is that if I have a single effect in one gene, it  Blochs communication between the two halves.
-They have an infinitely long one detained. It's so unlikely to have a system of any of those Blochages and defects that it will
-always have some defects over long ranges will always have decaying populations,
-and these  fluctuations are defects enough in one dimension to destroy district language or.
-That's the essence of the movement back in the field.
-But that's  the most interesting part, the most interesting part is not what happens in higher dimensions.
-for instance, if I take A. from a cat in two dimensions, what's the current state?
-And I start to daub it to say, Okay, let's take one spin out to spin out.
-It's a few defects and there are a few holes in there, but there's no spin. What would happen?
-And, well, the answer tells us that in quantum in simulations of the Hubbard model Monte Carlo simulations,
-people have seen that you get into very different phases and also in your height you see materials to culprit.
-We know that this doping induces this way wave superconductivity.
-the system goes out in quantum magnet and being a superconductor, a very massive change,
-just taking out a few particles or putting in a few extra particles. That's very interesting.
-And the last part that can, of course, quantify magnetism is frustration.
-So, for instance, if I have a wire triangular lattice with the triangle spin up here, spin down there, what shall I put you?
-This frustration also gives rise to more complex dates.
-And then the cogman lattice, for instance, that can give rise to like, yeah, very different states.
-what can these states be? How can they look some classic that states definitely discussed for a long time?
+For the last two minutes, let's look at alternatives if we cannot have antiferromagnetic order. And there's a few reasons why you could have this, the first reason this lower dimensions. in 1D, the \textbf{Mermin-Wagner theorem} says that if I have a long range ordered phase in higher dimensions, that's connected to a continuous symmetry, then in one dimension, this would be absent. I will not have long ordered states because quantum fluctuations will destroy the long range order. Now, to remind you about two things, the first thing is that we talk about continuous symmetries. If you look at, for instance, the Ising model, can be the antiferromagnetic you ordered in one because the Ising model only breaks a discrete symmetry, not a continuous symmetry. And the intuitive point is that if I have a single defect in one chain, it  blocks communication between the two halves. But the most interesting partis what happens in higher dimensions. In quantum simulations of the Hubbard model, people have seen that you get into very different phases and also in your height you see materials to culprit. We know that this doping induces this D-wave superconductivity. That's very interesting. And the last part that can, of course, quantify magnetism is frustration. So, for instance, if I have a triangular lattice with the triangle spin up here, spin down there, what shall I put here? 
+[fig - frustration]
+This frustration also gives rise to more complex states.
+
+What can these states be? 
+\begin{itemize}
+\item Valence bond solids (VBS states)
+\item Spin liquids (for example, resonating valence bond states)
+\end{itemize}
+
+\begin{comment}
+How can they look some classic that states definitely discussed for a long time?
 The first one is the so-called VBS. states of surveillance upon solid.
 The idea here is that you always take a to neighbouring spins and they form a spins of aliens,
 want to spin it in these things that are arranged in the periodic fashion that breaks the symmetry of the underlying lattice?
@@ -310,6 +292,16 @@ And then you can calculate the energy for this, and you can ask, can maybe those
 And can they don't give rise to superconductivity? And it's one of the stories behind this IPB fury.
 There's lots of things in here which are very interesting that we cannot discuss forever because we don't have time.
 I hope it's OK for overrun by two minutes today because I still have two slides to show just to show what can be done.
+\end{comment}
+
+Other additional things:
+\begin{itemize}
+\item Quantum Ising model 
+\item CLassical XY model
+\item Spinor gases
+\end{itemize}
+
+\begin{comment}
 Also, 50 systems that have a context. you can also take other models of what the mechanism and them of cold atoms.
 we now go away from the Fermi about model. That was the Heisenberg model.
 One thing that we can do is we can do something Quantum Ising model. the Ising model is that asset is typically a classical model.
@@ -387,3 +379,4 @@ OK. A bit longer than I should have done, but we got food for it in the end.
 Thank you very much. I'll upload the next problem sets today or tomorrow.
 And then there's also instructions on when the next join clap, what happened and how I think we're going.
 Thanks a lot, Seront.
+\end{comment}
