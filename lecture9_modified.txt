@@ -1,312 +1,36 @@
-So you have the Fermi Hubbard model you get similar to the bosonic case, just that you need to have two different spin states of the fermions in order to have interactions. Otherwise, Pauli blocking means there is no interactions. And that, of course, means that you have a very, totally new thing because you have magnetism to play with. If you take the atomic limit, $U>0, t=0, U>>k_BT$, we now have to talk also about temperature in a slightly different way because we now have to say there's different hierarchies of temperature scales. In this case you don't have enough time and energy to put two particles on one site, then at any one you must have this product of Fock states, that is the only possible solution. That's very similar to what we did in the Bosonic case. Now with the fermions, we have this huge degeneracy of the spins because we can have all different spin patterns in here. But for both on the easiest case you can do is just put one party in every little site and then you have to have a model already by Hermione's.
-If you were to have just one spin state, then you just have basically a boring band insulator.
-OK, so if you do this, how many possible combinations of states do you have?
-Well, the answer is simple, but it's you have a factor of two for each lattice site because you can put a spin up or it's been down there,
-so you get in total two, three and other combinations.
-Which means that the entropy capacity, the maximum entropy that you can put on each lattice site, if you want to think about it.
-And just some of the Nemec terms is locked to and this has been a.
-there's no new and entropy scale of lock, two per particle lock to Panetta's site, which is the maximum entropy you can still adjust in the speeds.
-And then the question you can ask and in the atomic limit, all of those configurations are totally degenerate because.
-There is no talking, no communication between the different lattice, so they're all, strictly speaking, absolutely degenerate.
-Any final. It's more about finality, but of course, practise degeneracy and you can ask which of this configuration will be the quantity.
-Or maybe it will be something totally different, and which Hamiltonian will describe this low energy spin physics?
-And that's what we're going to develop today and going to see that this is going to be the Heisenberg model.
-the first intuition that we can start is by saying, well, OK,
-let's do second order perturbation, fury and then teeth we did also with the Bosnia case,
-because we can say that the Heisenberg uncertainty principle means that if we can localise the particles that allowed them to spread out,
-a little bit of the neighbour that will lower the kinetic energy.
-And in the process you have in mind, as you say, okay, what if I have two particles and two lattice sites that's been down here has been a PSA.
-Then by tunnelling, one can hop on top of the upper.
-Now that processes of constituent by an energy union, so you won't do this, you won't want to do this,
-but if you think of the Second Order preservation group, you can go to this intermediate state,
-which is determined by you and go back to the original state. you calculate the energy shift that you get.
-It's a function of the as a consequence of this, and you would say that the structure to get this,
-you take a sum of all of the states and that the Crown states that you can reach for one hopping element.
-That's the very discreet divided by the intermediate tuning.
-And then you realise you get many, many, many terms. But they all have the same structure.
-They are proportional to teeth quit because this is always going one hopping.
-I have to go with one T to the other site and back. That gives me a T squared.
-There is no square with of two or something here because it's fermions, so no bosonic enhancement entity tunings.
-All of these energy differences will all be because they are something where you start with atoms,
-a neighbouring site and one atom somewhere in this chain. Think of an infinite chain. It could be this atom hopping on top of its neighbour.
-Or it could be that atom popping on top of its neighbour could happen anywhere.
-But it happens exactly once because we're just doing second order.
-And that means that the energy to create is just exactly you because it's always wanting to actually to get into the game.
-this whole thing was collected squared over you. And then you can ask how many of these processes are possible?
-And is that something that distinguishes different configurations?
-And the answer is yes, because if you have a configuration where you have two identical spins on neighbouring that sites,
-then the principle of business. in a sense, the the ruling in this case is not you, because the particles do not pay you when you come here.
-It's the band gap to the next band because if this particle wants to hop on to let us have it as what is one party principle dictates,
-it has to go to the first excited state in that little. And that's a very big energy to be elected.
-And we say this just doesn't happen.
-all of the Fox states what the combination of FOX dates, all it's been configurations have the same energy and atomic limit.
-Which means that the Crown said it's more about parity with that state. It has its largest energy shift, 32 here.
-the Crown state will be the one that maximises the number of pairs of orthogonal spins on neighbouring lattice sites.
-And what this means is this is going to favour antiferromagnetic or. Ferromagnetic say, all been up here and all spins down there,
-which mean that only at the end of does one pair a tunnel if antiferromagnetic auto up, down, up, down, up, down, up, down.
-Then I can hop everywhere, so the state will be the one with the strongest of the strongest energy ships,
-so that will be the crowds did so that second hypothesis that becomes really
-clear from just thinking about this one in second order perturbation theory. OK.
-And the next thing I should say is that everything I thought I talked so far is a lie.
-It's an oversimplification because what we are saying here is we will be picking a direction.
-We say, OK, there is just a spin up and it's been done. And that's  the language that you use for the Ising model.
-And that's not adequate to you to see this. Let's go back and look at the from.
-How about not look and look at the symmetry of the firm? How about modelling?
-what I'm writing done from you, I have a model here in the sense in standard form where we say, okay, we have the whupping term C.J. Degrassi I,
-particularly from one site to the next, and you see that these operators now have an index sigma,
-which is the speed index, so it can be spin up spin on the basis of the spin on it.
-And the same thing that I have here in the interaction term, and I at times and I don't have the protocol of the two political numbers.
-The interesting thing is, now if I say spin up and spin down, we know that they are a conflict, a basis of the sea to space,
-spending one spin what you can say spin up and down, but you could also say it's been left, spin right, spin front and back.
-You can  take any two states of Faulkner states on the sphere and use them as a basis.
-Nothing will change. what you can do here is if this if this these parameters of the strategy does not depend on sigma,
-then you can just go in and say, let's do a business change that we place up and down by spin left and spin right.
-If you do this, if Crank is through you, you it to some of these two terms for two weak must become standard, some of the two terms for these terms.
-Which intuitively makes sense of a spin up particle, and it's been on particle if they hop tunnel in the same way,
-then the Koreans superposition of up and down what also happened exactly the same way.
-I could also write it down its native hopping terms for spin and spin left.
-And the second term here means that we need two particles that can be on the same lighter site to interact,
-so it must be something where I have one spin and you spin, it could be spin up and spin down.
-But if I take spin left and spin right, they also a falconer that would also work.
-what you see is that this whole. You can take any of them on the basis of the spin one half Hilbert space.
-And you do not change the form of the Hamiltonian. the firm, how about model?
-Is symmetric is invariant under any  change of basis for less than one half state where I pick up down or left or wrong back.
-I mean, ultimately, that just means I change my coordinate system, do I say this is up or do I say this is up?
-And of course, I don't have gravity. There is nothing in the magnetic field. There's nothing distinguishing to the states.
-Hence, all of that must be possible. therefore, it makes sense for me.
-How about model describing? This must be what we call CO2 symmetric. it does not change at all, whatever basis I pick on the issue to skew.
-OK. You can think of the point that because if I don't have a magnetic field, if I don't have anything external breaking symmetries,
-then what I point out is that access is random could be an equipment in any direction.
-And this note has profound consequences. This is the consequence when I write things down, in this form, up, down, up,
-down and down and all of these cartoons, they are strictly speaking wrong and identity of.
-The other cartoons that are correct for the Ising model,
-I think models the model where we say does that direction is especially directing and it's been can only point up or down,
-but it cannot point in any other direction. That's the Ising model can only point up or down.
-But in the model that we have here. And we have a different cemetery also.
-It also means we have a different cemetery that's been broken. When you look at the four Americans on antiferromagnetic.
-If you take the Ising model, it breaks, it's a two symmetry, the two is the group of the two numbers plus one minus one.
-With basically this means that the first spin can spin up or spin down.
-the discreet symmetry, it's the one or the other.
-Now what we have here is we have to ask you to cemetery, which is basically a cemetery of pointing anywhere on this sphere.
-the first spin can point in any direction. It's a magnet, they could all have a domain all pointing up.
-But I think we'll all be in the domain, pointing 45 degrees to the left or any other direction.
-That's why the same services rotation symmetry in the property. we have a different symmetry breaking.
-And if we have a different symmetry being broken, the continuous symmetry in this case,
-that means that universality class of such a transition and many other things will be different.
-Have we noticed already this must be different just by noting that we make a difference in between?
-a lot of thinking can go into this lot of knowledge can be extracted without ever solving the problem,
-just by saying, OK, we know what's different compared to other models and the fun fact,
-and this is now getting very interesting, very interesting states coming up and it's getting incredibly complicated incredibly quickly
-is that you cannot extend the symmetries of the firm model to more than two species.
-If you think about this, no, not in terms of it's been pointing somewhere in space.
-But you think about this on if you have these two spin states, which means you have to have a foreign component of our atoms.
-We can also choose three high-performing components or four or five and so on.
-And normally, what you don't get is you get a not very symmetric model because normally what you get is if you say, I have been state.
-I will typically get that the interaction between my two spin states depends on which spin states I have.
-it might be the state one and say to interact strongly, but two and three act quickly and to be informed to make even weak or whatnot.
-And then of course, that means that we have a problem about cemeteries and it's a very specific problem.
-However, you cannot have the situation where the interaction does not depend on the spin states, but in all identical.
-And this, turns out, is something that you get, for instance, with things strontium or terbium,
-where you have a two or two electrons, because then very often what you get is that each electrons go into a spin singlet.
-you have no electronic spin, which means the spin sets of the atoms, if they talking about this, just a nuclear spin.
-And because the nuclear nucleus doesn't really take part in all of these  electronic exchange reactions,
-it means that whatever spin states the nuclear has, it doesn't change.
-The physics doesn't change the collision of physics and therefore you get to the interaction is the same independent of the spin state.
-And that's what people don't call it end symmetric model.
-And if you look at those models, you can't think of them just as has been pointing in the direction,
-they have a more complex representation to more complicated modules and we're not talking more about them in too much detail.
-But for instance, if you have an as you fall model, you can realise that you can have an entropy capacity of four of look four per lattice
-site because you have to possibly forecast the configuration from what insulator?
-I could have stayed one day yesterday, Tuesday twisted for. OK, so what is now?
-An appropriate Hamiltonian to describe the exchange interaction that we had on the previous slide,
-the second on a process of hopping back and forth. What  interaction would give us if we if if we say we're just living in this in
-the most insulated space of one party controlled outsite of one's been politicised? What is the spin model that comes out of this?
-And it turns out the spin model that comes out of this is the Heisenberg model. the Heisenberg model is the model of just by the tone.
-We have an interaction strength and then some of our nearest neighbours, as I say, is killer product SJ.
-these you can think of of of spins, little magnetic moments pointing in the direction.
-And the Heisenberg model tells you that you have a strong interaction when they are 
-parallel or minus two one minute A. Parallel or interaction is zero when you orthogonal pointing,
-also pointing 90 degrees to each other because it's just as Kayla product you.
-You can write down these spin operators just in terms of the polling matrices with you in relation to creation operators of the fermions.
-You probably have seen this in advanced quantum physics. The good thing about this model is that because you just have this killer product here,
-it means it has this issue to submit many respects that symmetry because there is nothing in there that points out the direction.
-The only thing that's relevant is  a direction between two spins.
-If you make the connexion to the Heisenberg, to the Hubbard model,
-you can formally show that the Heisenberg model is the low energy limit of this hubbard model for an equal one and you much, much bigger than you.
-if I say I really take this,
-how about model and a take out to be charge exhortations to a take out the possibility of creating a dominant hold on here
-because you are so big that it would have needed need it and they really only look at what to dispense to relative to each other,
-then end up with the Heisenberg model. And it turns out that the stakes change the energy scale in here is actually given by 40s.
-Quit over you. that it's good of you,
-you can directly see from the second of activation fuel that we had with the factor of four comes out of diverse content arguments.
-And here again, there's a million different conventions.
-People sometimes write under Heisenberg model of putting a two in front of the exchange or four in front of the exchange.
-And then of course, they don't have a for here if they have it there. Where you put it, where you put your prefect.
-This convention. OK.
-in this metal context, if you look at consumer assistance, they would typically call this exchange just as they typically call say,
-this is the day we exchange the hopping from one party to the next and second order perturbation for you.
-They would call this the exchange process.
-People in Connecticut started calling Jay Z, A.J. because they say they use Jay already for the better hobby,
-which  creative people are quite small t, but because quote atoms do everything time,
-dependence, multiuse time, so they didn't wanna use the floppy. just again, different conventions.
-The cemetery to be looked at so far,
-it was pretty clear that you get minimum energy here when the two particles are orthogonal spin up and down because that's when they can localise,
-which basically means that this term you must be positive. if I get a minus sign from here, then I get the lowering of the energy.
-you see that this really promotes antiferromagnetic or. Positive js, antiferromagnetic.
-Negative, Jay is also common in conscious matter physics, and that's when you get electromagnetic systems.
-When it's been one to a line, there will be a negative J Typekit.
-It turns out and cold atoms, if you do the same  analysis that we did before the second order perturbation fury on the previous slide.
-But you do it with bosonic particles.
-Then whenever you have two parties of the same speed next to each other, you get them was only an enhancement of the tunnelling.
-And hence the even bigger energy shift. it turns out if you look at bosons, you also get ferromagnetic auto, but antiferromagnetic.
-It's really this flip between bosons and fermions, where you can, have the same particles hopping in the same at the site or not.
-In the one case, it's impossible, partly forbidden. And it was only case that's actually enhanced if there was only enhancement of tunnelling.
-That gives you the same model, but different factors, different physics.
-So, yeah, as I said, CSG is invariant on rotation because it's only the relative that is important, which means it's the easiest possible term.
-It's compatible as you symmetry and intuitive to second order.
-Perturbation of argument also requires that it's been so locally Antipolo. we will not go through the formal proof.
-This is a formal, low energy limit, but I hope I motivated where it makes sense that this is the model.
-OK. this model, even though is again very deceptively simple,
-can only be solved analytically in one dimension in 2D and 3D, there's no analytic solution for it.
-You  fact maybe why is that, why is this so complicated?
-Why do we not just put in a trial wavefunction up, down, up, down, up, down, up, down and get it.
-And the answer is, OK, I get to the answer in a minute.
-Just to say, if I go to higher dimensions and think about simple cubic lattices of square lattice, cubic litres,
-hypercube criticism, higher dimensions and possible exchanges, you have a fermions than the quantity.
-State will always show antiferromagnetic long range order.
-when I say long, when you order, you do everything OK, looking back from we talked about phase transitions.
-We need to this cost what is the order parameter? And the other parameter in this case is this little beast, which is quite a stigmatisation.
-it's the sum of all that asite, one of an endless just normalisation, as I thought of the spin vectors to be discussed before,
-and they are staggered, which means they have a prefect of PHI, which is basically just minus one to the number two the Power X. What explains why?
-I said I. that's basically a prefecture that  rotates every of us, but.
-it gives you this matrix of plus minus plus minus plus minus.
-And that one is basically telling us that now the state maximise us, this is not a state where all spins are pointing in the same direction.
-But this is maximised by the spins pointing in alternating directions.
-Up, down, up, down, up, down, up, down. What are some of the ice itself with varnish?
-But because I multiply every second, I have minus one. I  rotate the dance into ups and then I send them up and I get something finite.
-to stick up marketisation, you can think of astronomical consiteration for a fair amount, but for the other case.
-It is staggering. multiplying it with this checkerboard pattern of plus or minus ones into that basically does the trick
-of rotating every other spin such that it rotates and antiferromagnetic into a firm magnet and vice versa.
-OK, so just to stack up magnetisation and in your phase the expectation value of this sticker,
-mechanisation is non-zero while in the paramagnetic unordered phase it is zero.
-the antiferromagnetic, even though we don't have the magnetisation becoming on zero or we have is the up decision becoming until.
-Very analogous to what you have of affirmative. OK.
-And now he has to. Here's why things become so complicated.
-If you now think about the classical Ising model, where you would only have the asset as that term, so when you is that components are interacting.
-That is pretty simple to maximise that,
-to maximise this product asset a set you just take with a sticker on an that direction that maximises this term and you get a local state,
-got a local sticker mechanisation of one of.
-Each local spin state will be fully Mexx, it will be fully fully polarised.
-This won't be fully up that can be fully down, fully up, fully down, and that just maximises this stuff.
-But now let me go back to the Heisenberg model and say something that maybe didn't see on the last slide.
-If I take this, oops. Come on. Speed up.
-If I take the Heisenberg model and ride it out in components wide just to scale a product is that as x x x x plus as y as Y plus a set asset.
-what you have to think about is that what you want to do is now you want to maximise or minimise the sum of all of those three terms.
-you want to maximise that, because if you are different,
-you think of her method and you realise that the problem that you get is that if you say you have to.
-Do we have to do here, we have to, because this is positive, we have to minimise it.
-we have to minimise this and say we take a staggered ordering we take.
-Positive net negative said positive, that's negative, said, and you realise that, OK, this really minimises this.
-I always get minus one zero. But if you think of this when you think about what does this do to us in this way, this way?
-What if I take this point of this, this this, this rotate into the spaces to see what is excess weight does?
-I will say that is nothing to these terms.
-maybe I can find something I can find a state that minimises the sum of these three terms even better by saying,
-let's not try to just minimise this term,
-but let's try to spread the life of all three terms and try to minimise the sum of all of three of these terms at the same time.
-And if you try to do this by hand, you go crazy, it's  whatever you try, it gets better for one time, it gets worse for the upper term.
-this is why this model is not solvable in higher dimensions. What you can do is you can just say, Okay, let's try to solve this numerically.
-Let's use Quantum Monte Carlo and see what is the prediction. What will be the the perfect state?
-And the state is so complicated, it's so much entanglement, and it's that it's not easy to write it down.
-even if you get an answer from Quantum Monte Carlo, it's so many times and they're so complicated that you can't easily write it down.
-But you can say is that if you include this in this way as white terms.
-You get something where the stigmatisation is far less than this one half that you would expect from the IOC model.
-But if I take a year career that doesn't do Quantum Monte Carlo, I get it.
-I get something to take up my position on your off point two three one in the Golden State.
-Instead of point five, it's quite a bit we used to look at magnetic moments are smaller, so the state is not that much spread out and ordered,
-as you would have thought from the classical state, but therefore it really minimises the sum of all three Thompson Evertonian.
-And this is this idea also was discussed last weak, I hope the idea of quantum fluctuations.
-Quinn Infatuations is a very fancy term, and when I heard it for the first time as a student.
-For the first two years, I didn't really understand what people meant with it.
-On one level, you understand that people say, well, because it's quantum and it's not just one number, it fluctuates around this number.
-I  intuitively makes sense, but then you say, Well, OK, I want to see what this means more formal.
-Well, it was very not clear to me. The way it becomes clear to me is by releasing Cave, I take the sum of different terms which do not compute.
-And you know that the spin operators don't commute, right, so you can say I take a if if you spin operators don't commute and you can't
-take one model or one under said minimises all three times at the same time.
-If you try to minimise one term, you do very badly with the other terms.
-And if you like, minimise another time, you do very badly with the first time. if you try to, like, minimise all three of them at the same time,
-do some of the three at the same time, then you get a very complicated wave function to dust it.
-But then very often you can't really write it down, you just look at it numerically and you see, OK, well, this is what it does.
-quantum fluctuations, he just means that you have terms and you have a tone in that do not commute.
-you can't find the solution that, minimises everything at the same time.
-you have to find a compromise between them and his compromise seem to be a pretty complicated way from.
-At the same time, you have something that you have something that is already in the business model
-because you have the Mott insulator and the atomic limit to put the states. That's the one that minimises the interaction of energy.
-It's tricky zero because there's no dominant. At the same time,
-you have put everything just in the queue with zero lock wave that minimises kinetic
-energy because the kinetic energy of each particle as many those part of the boundary.
-But if you now say, I want to like, minimise the sum of these two terms.
-In the middle, then you get very complicated wavefunctions and you get to phase tension and all of that stuff.
-And these are typically where, frankly, you can't write down that you cannot calculate analytically.
-We have to like, use American. OK, so here we see that the Heisenberg model is very complicated, and we see that we get this,
-but maybe intuitive but hard to predict answer of what the local magnetisation look at second will be.
-OK, so what this means is we have a phase transition in the middle.
-Because we have asymmetry that's broken, we have not a parameter, it becomes non-zero.
-we have this transition of where we start off at, say, higher temperature still very small compared to you,
-where if is insulator entropy in the system dispensed to whatever they want to run the pattern of spins?
-And then as we carry that one down,
-there would be a phase transition of proper phase transition from the unordered mode insulator to the antiferromagnetic.
-And at this phase transition, there is a  spontaneous symmetry breaking and sue to spin rotation symmetry, it spontaneously broke.
-The same thing, with the Fermement you could have down at the transition.
-The system suddenly spontaneously decided to form a domain in plus that direction or the plus x direction or whatnot.
-And here it's the same thing happening the the axis of the state mechanisation
-is going to be chosen spontaneously because a spontaneous symmetry breaking.
-If we are at large you of we have a critical temperature for when this process happens,
-which we don't know, we can't really calculate it will see numerically what happens on the next slide.
-But what we do know is that in this regime for large you, you can be neglectful in Holland.
-It must scale with the exchange energy so that Danielle's temperature reduces critical temperature.
-Must change that T squared over you.
-This we know why, because we know the whole logistical often atonement, which is only to exchange kids case this.
-We also know that the. Heisenberg model will not be valid if you go for weaker and weaker interactions, because at that point,
-then the whole impasse becomes important and you would go back to T.J. model or
-more complicated models when he entered the full blown how about Model two calculators?
-OK. Questions up to here. I thought about the dagger.
-Mm-Hmm. Is there any way into the picture as to how many?
-Like. Or, you know, that really picture what the physical picture of the.
-Mm-Hmm. I mean that the physics of OK, if I take.
-If you forget about it, if you think about the normal marketisation, think about the paramagnetic.
-What if you there was no external magnetic field during high temperature of a permanent, which means that all spins fluctuate independently.
-If you now measure a local spin, it could be up or it could be down.
-There's no symmetry programme, which means that if you look at the expectation value of what you get half the time,
-you will get to pick up half the time you think it's been done. the expectation that you have to make in that case is zero.
-If you go through the phase transition into the free market.
-Then you in a big domain, say maybe in the domain, we're all Spencer pointing upwards.
-And then that state, then the expectation value of any local spin.
-Will not be zero anymore, but will be spin up. the point what happens at the phase this is that this expectation value of the accusation was zero.
-And then it starts to become non-zero. it's the order parameter of the transition.
-Because all of the spins in a firm and try to a line in the same direction. Now in an antiferromagnetic don't have that right.
-But you have any antiferromagnetic is that the spins want to align in a another way and in the opposite direction,
-sort of having the state opposite directions. if the first spin is here, the next spin want to be there, they're there, they are there and so on.
-how can I make a useful quantity of that?
-Because if you look at any spin, it could still be spin up or spin doctor, but look, it's been spin correlations.
-They bring correlations.
-I would say, OK, well, if the correlations have been negative, if this one is more spin up and that's where we must bend down and so on.
-try to get a quantity that can average over a big sample and see where it becomes non-zero.
-What I do is I would take this antiferromagnetic into empowerment, so if I take every spin and rotated.
-That it comes from here to there, the next one, I keep the same,
-the first one I can rotate the  take my from and rotated into a fragment and then I can see whether the magnetisation is non-zero or not.
-And this rotating the spins while rotating the spins is nothing else.
-If I take a vector and I have to go to get to minus that vector, so I have to multiply it by minus one.
-And then I want to multiply every up a vector I can just talk about pattern, I want to multiply this vector with this one, this one, this one.
-If you think about this 2-D pattern,
-they're going check about all of the white spaces you want to keep the flex spaces you want to multiply by minus one.
-The function that does that is minus one to the power X plus y.
-If you can't see it, you just throw out for a four by four thing.
-You can see that, OK, well, if the two numbers are even, that means the court rose or even lower us and so on.
-And then I get the minus one. that's exactly what this is doing. This is a stag at minus one.
+So you have the Fermi Hubbard model you get similar to the bosonic case, just that you need to have two different spin states of the fermions in order to have interactions. Otherwise, Pauli blocking means there is no interactions. And that, of course, means that you have a very, totally new thing because you have magnetism to play with. If you take the atomic limit, $U>0, t=0, U>>k_BT$, we now have to talk also about temperature in a slightly different way because we now have to say there's different hierarchies of temperature scales. In this case you don't have enough time and energy to put two particles on one site, then at any one you must have this product of Fock states, that is the only possible solution. That's very similar to what we did in the Bosonic case. Now with the fermions, we have this huge degeneracy of the spins because we can have all different spin patterns in here. But for bosons the easiest case you can do is just put one party in every little site and then you have to have a model already; but for fermions, if you were to have just one spin state, then you just have basically a boring band insulator. 
+
+OK, so if you do this, how many possible combinations of states do you have? Well, the answer is simple, and you have a factor of two for each lattice site because you can put a spin up or down there, so you get in total two, three and other combinations. Which means that the entropy capacity, the maximum entropy that you can put on each lattice site, is $\log 2$ per particle. And then the question you can ask and in the atomic limit, all of those configurations are totally degenerate because there is no communication between the different lattice, so they're all, strictly speaking, absolutely degenerate. Any finite $t$ will break this degeneracy and you can ask which of this configuration will be the ground state. Or maybe it will be something totally different, and which Hamiltonian will describe this low energy spin physics? And that's what we're going to develop today and going to see that this is going to be the Heisenberg model. 
+
+The first intuition that we can start is by saying, let's do second order perturbation theory in $t$, like we did also with the bosonic case, because we can say that the Heisenberg uncertainty principle means that if we can delocalise the particles a little bit, that will lower the kinetic energy. And in the process you have in mind, as you say, okay, what if I have two particles and two lattice sites (spin up here and down there), then by tunnelling, one can hop on top of the other. Now that process is of course detuned by an energy $U$, so you you won't want to do this, but if you think of the Second Order perturbation you can go to this intermediate state, which is determined by $U$ and go back to the original state. Calculate the energy shift that you get
+[eqn - 2PT]
+as a consequence of this. And then you realise you get many, many, many terms. But they all have the same structure.
+They are proportional to $t^2$ because this is always going one hopping. There is no$ \sqrt{2}$ or something here because it's fermions, so no bosonic enhancement. All of these energy differences will all be because they are something where you start with atoms, a neighbouring site and one atom somewhere in this chain. Think of an infinite chain. It could be this atom hopping on top of its neighbour. Or it could be that atom popping on top of its neighbour could happen anywhere. But it happens exactly once because we're just doing second order. And that means that the energy to create is just exactly $U$, so this whole thing was collected squared over you. 
+
+And then you can ask how many of these processes are possible? And is that something that distinguishes different configurations? And the answer is yes, because if you have a configuration where you have two identical spins on neighbouring sites, then the Pauli principle forbids this. In a sense, the detuning in this case is not $U$, it's the band gap to the next band because if this particle wants to hop on it has to go to the first excited state in that site. And that's a very big energy. And we say this just doesn't happen. The ground state will be the one that maximises the number of pairs of orthogonal spins on neighbouring lattice sites. And what this means is this is going to favour antiferromagnetic order. 
+
+And the next thing I should say is that everything I thought I talked so far is an oversimplification because what we are picking a direction. And that's  the language that you use for the Ising model. And that's not adequate to you to see this. Let's go back and look at the FH model and look at the symmetry. 
+[eqn - fh hamiltonian]
+You see that these operators now have an index sigma, which is the spin index, so it can be spin up spin on the basis of the spin on it. The interesting thing is, now if I say spin up and spin down, we know that they are a conflict, a basis of the $SU(2)$ space, but you could also say it's been left, spin right, spin front and back. You can  take any two orthogonal states on the sphere and use them as a basis. Nothing will change. What you can do here is if these parameters of the strategy does not depend on sigma, then you can just go in and say, let's do a basis change that we replace up and down by spin left and spin right. If you do this, some of these two terms for two weak must become standard, some of the two terms for these terms. Which intuitively makes sense of a spin up particle, and it's been on particle if they hop tunnel in the same way, then the coherent superposition of up and down what also happened exactly the same way. I could also write it down its native hopping terms for spin and spin left. And the second term here means that we need two particles that can be on the same site to interact, so it must be something where I have one spin and you spin, it could be spin up and spin down. But if I take spin left and spin right, they also be orthogonal. You can take any of them on the basis of the spin one half Hilbert space, and you do not change the form of the Hamiltonian. The FH model is $SU(2)$ symmetric. 
+
+OK. You can think of the point that because if I don't have a magnetic field, if I don't have anything external breaking symmetries, then what I point out is that axis is random could be an equipment in any direction. And this has profound consequences. This is the consequence when I write things down, in this form, up, down, up, down and down and all of these cartoons, they are strictly speaking wrong. The other cartoons that are correct for the Ising model, where we say the $z$ direction is special and it's spin can only point up or down, but it cannot point in any other direction. That's the Ising model can only point up or down. But in the model that we have here we have a different cemetery also. It also means we have a different cemetery that's been broken. The first spin can point in any direction. It's like a ferromagnet, they could all have a domain all pointing up. But I think we'll all be in the domain, pointing 45 degrees to the left or any other direction. And if we have a different symmetry being broken, the continuous symmetry in this case, that means that universality class of such a transition and many other things will be different. A lot of thinking can go into this lot of knowledge can be extracted without ever solving the problem, just by saying, OK, we know what's different compared to other models and the fun fact, and this is now getting incredibly complicated incredibly quickly, is that you cannot extend the symmetries of the FH model to more than two species. But you think about this on if you have these two spin states, which means you have to have a foreign component of our atoms. We can also choose three hyperfine components or four or five and so on. And normally, what you don't get is you get a not very symmetric model because normally what you get is if you say, I have been state. I will typically get that the interaction between my two spin states depends on which spin states I have. And then of course, that means that we have a problem about cemeteries and it's a very specific problem. However, you can also have the situation where the interaction does not depend on the spin states, but in all identical. And this, turns out, is something that you get, for instance, with things strontium or ytterbium, where you have a two outer electrons, because then very often what you get is that each electrons go into a spin singlet. You have no electronic spin, which means the spin sets of the atoms, if they talking about this, just a nuclear spin. And because the nucleus doesn't really take part in all of these  electronic exchange reactions, it means that whatever spin states the nucleus has, it doesn't change. Therefore you get to the interaction is the same independent of the spin state. And that's what people call an $SU(N)$ symmetric model. And if you look at those models, you can't think of them just as has a spin pointing in the direction, they have a more complex representation and we're not talking more about them in too much detail.
+
+OK, so what is now an appropriate Hamiltonian to describe the exchange interaction that we had on the previous slide, the second order process of hopping back and forth. What kind of interaction would give us if we say we're just living in this in the Mott insulated space of one particle per site? And it turns out the spin model that comes out of this is the Heisenberg model. 
+[eqn - Heisenberg plus pauli decomposition] 
+The good thing about this model is that because you just have this scalar product here, it means it respects that $SU(2)$ symmetry because there is nothing in there that points out the direction. The only thing that's relevant is  a direction between two spins. If you make the connexion to the Hubbard model, you can formally show that the Heisenberg model is the low energy limit of this hubbard model for $n=1$ and $U>>t$. And it turns out that $J_{ex} = 4t^2/U$. And here again, there's a million different conventions. In the condensed matter context, they would typically call this exchange just as they typically call $J$, this is the day we exchange the hopping from one party to the next and second order perturbation theory. They would call this the exchange process. People in cold atoms started calling $J_{ex}$ because they say they use $J$ already for the bare hopping, which condensed matter people call $t$, which is inconvenient for cold atom people who work with time-dependent stuff. Positive $J$ gives antiferromagnetic order; Negative $J$ is also common in condensed matter physics, and that's when you get ferromagnetic systems.
+
+OK. This model, even though is again very deceptively simple, can only be solved analytically in one dimension. Just to say, if I go to higher dimensions and think about simple cubic lattices and possible exchanges, you have a fermions than the ground State will always show antiferromagnetic long range order. The other parameter in this case is this little beast, which is the staggered magnetisation.
+[eqn - m_s, define \phi_i]
+This is maximised by the spins pointing in alternating directions. You can think of this as the analogue of normal magnetisation for the ferromagnetic case. Here's why things become so complicated. If you now think about the classical Ising model, it is pretty simple to maximise that, you get a local staggered magnetisation of one half. If I take the Heisenberg model and ride it out in components, what you have to think about is that what you want to do is now you want to maximise or minimise the sum of all of those three terms. You realise that the problem that you get is that if you say you have to minimise it. Maybe I can find a state that minimises the sum of these three terms even better by saying, let's not try to just minimise just one term, but try to minimise the sum of all of three of these terms at the same time. And if you try to do this by hand, you go crazy. This is why this model is not solvable in higher dimensions. What you can do is you can just say, Okay, let's try to solve this numerically. Let's use Quantum Monte Carlo and see what is the prediction. What will be the the perfect state? And the state is so complicated, it's so much entanglement, and it's that it's not easy to write it down. Even if you get an answer from Quantum Monte Carlo, it's so many times and they're so complicated that you can't easily write it down. But you can say is that if you include other terms, you get something where the staggered magnetisation is far less than this one half that you would expect from the Ising model. But if I take a 2d square lattice into Quantum Monte Carlo, I get $|m_s|\approx 0.31$ in the ground State, so the state is not that much spread out and ordered, as you would have thought from the classical state, but therefore it really minimises the sum of all three terms in the Hamiltonian. And this is this idea also was discussed last week, I hope the idea of quantum fluctuations. The way it becomes clear to me is by releasing, I take the sum of different terms which do not commute. And you know that the spin operators don't commute, right, so you can't take one ansatz that minimises all three times at the same time. So you have to find a compromise between them and his compromise seem to be a pretty complicated form. 
+
+OK, so here we see that the Heisenberg model is very complicated, and we see that we get this, maybe intuitive but hard to predict answer of what the local staggered magnetisation will be. OK, so what this means is we have a phase transition in the middle, because we have asymmetry that's broken, we have an order parameter, it becomes non-zero. we have this transition of where we start off at, say, higher temperature still very small compared to $U$, where if is insulator entropy in the system dispensed to whatever they want to run the pattern of spins? And then as we cool that one down,
+there would be a proper phase transition from the unordered Mott insulator to the antiferromagnetic state. And at this phase transition, there is a  spontaneous symmetry breaking and $SU(2)$ spin rotation symmetry, it spontaneously broke. If we are at large $U/t$ we have a critical temperature for when this process happens, which we don't know, we can't really calculate it will see numerically what happens on the next slide. But what we do know is that in this regime for large $U$, you can be neglect doublon-holons, it must scale with the exchange energy so that the \textbf{Ne'el temperature} must change as $t^2/U$. This we know why, because we know the whole energy scale goes like this. We also know that the Heisenberg model will not be valid if you go for weaker and weaker interactions, because at that point doublon-holon pairs becomes important and you would go back to more complicated models.
+
+
 OK. here is now some quantum Monte Carlo data.
-This is no data where it just went on and say, OK, let's do this,
-put forth this data 10 years old so people can nowadays do a bit better, but still it's pretty good.
-And what they say is in  the caller, you do something simulated annealing.
+[fig - slide]
+\begin{comment}
+This is where they just went on brute force and is about 10 years old so people can nowadays do a bit better, but still it's pretty good. And what they say is in  the caller, you do something simulated annealing.
 we start off a very high temperature and  artificially cool the system down and see what the energy and the parameters are that you get.
 And then they get plots this. what you do, what you do here is there is two parameters and here it is a length.
 this is a two by two system, so Ali could six means six by six brackets.
@@ -398,16 +122,13 @@ to have in order to just get into the antiferromagnetic is a your off point for 
 less than this look to which is point seven, which you would expect because point seven is the maximum speed entropy.
 And you have to go below that point for here is the critical value we would say the antiferromagnetic start.
 that's what all of these magic numbers that we sometimes quote say, quantum technologies like, that's how they come about, where they come from.
-OK. now let's do some experiments just to see what can be done about all of this.
-Can this be seen in the lab? And this super exchange process, so the process of particles hopping from one site to the next.
-Also exist with bosons, so it was first observe opposants because that was easier.
-I should say that people call a super exchanging cold atoms and the  smarter people say, , you're crazy, this is not just direct exchange.
-What we call it super exchange is when you have, for instance, the corporate structure.
-We have copper, oxygen, copper and it's a fourth 4-4-2 process because you have these two spins on the copper site,
-they always have to hop via the oxygen site to get to the next copper sets and total to their two packs on total four for this super exchange,
-not normal exchange. But because you wouldn't take these  systems and just look at the capacity and the effect of how about model,
-we say on the level of a model, it's a dabiq exchange. maybe we call it super exchange for that.
-Doesn't matter too much. what they did here is they said like, OK, if I have a double world.
+\end{comment}
+
+
+OK. Now let's look at some experiments just to see what can be done about all of this. Can this be seen in the lab? And this super exchange process, so the process of particles hopping from one site to the next, also exists with bosons. I should say that people call a superexchange in cold atoms and the CM people say, you're crazy, this is just direct exchange. What we call superexchange is a fourth order process. 
+[fig - slide x3. Note also details on spin resolved readout]
+\being{comment}
+what they did here is they said like, OK, if I have a double world.
 Two lattice sites, one left, one right, and I can turn them slightly at slightly different energies, for instance,
 then they can have the configuration they have spin up and left spin on the hand site and then by hopping events, J.
 This particle can happen to that site or that particular problem to that site.
@@ -455,9 +176,12 @@ but the one to the left is to the tilt on it and the one on the is the opposite 
 all of these little ones we do phase with respect to each other. And that would explain this effect.
 Strictly speaking, of course, that's not proven. It's just that it's very likely that it would happen.
 people accept that that's the likely explanation. OK.
-And then for the years now, we are just this was five years ago.
-People have seen this antiferromagnetic directly in we live with a continuous microscope.
-we've discussed this before where we saw they said, OK,
+\end{comment}
+
+And then for the Fermions now, we this was five years ago.
+[fig - Greiner slide]
+People have seen this antiferromagnet directly with a quantum gas microscope. 
+\begin{comment}
 what they do is they look at fermions under the microscope so they can really see them individually and each lattice site.
 And then if they remove one spin, so they say only look at the spin up atoms, they do see this checkerboard pattern here.
 And then reconstruction also shows as nicely. And there's a couple of things that should be said about this.
@@ -489,8 +213,12 @@ Is a lucky shot, they will not get this quality in every shot. Because remember 
 Sometimes you get lucky, antiferromagnetic, staggered this we did on desert direction, but next to it, it might be this or that, but this.
 And if you take many shots, then some of the shots will be very where it's more or less in line with the direction.
 And then you will really get something because you measurement phases. Does that phase?
-OK. he has now finally done just for completeness, the mud in the phase diagram of the frame.
-How about at half filling? And as concentrated on the hand site, there's a temperature.
+\end{comment}
+
+OK. Just for completeness, here if the FHM phase diagram at half filling. The true phase transitions are shown by the black lines, whereas you can see at higher temperatures you only get a crossover. Note we have not at all discussed what happens on the attractive side, but they are mapped to one another by the Lieb-Mattis transformation.
+[fig - phase diagram]
+\begin{comment}
+And as concentrated on the hand site, there's a temperature.
 This is the entire ActionScript. what happens at high temperature is that you have a normal state, which is the metal.
 We can really think of this as like, OK, it's just a pharmacy with thermal excitations on top of it.
 And then as you increase the interaction strengthen, you becomes at some point you become much bigger than captain if you go in this direction.
@@ -523,7 +251,10 @@ We come from very big, loosely bound cooper pairs to very tightly bound on types
 In the same way as you would say, here we go from a spin density wave antiferromagnetic to a Heisenberg antiferromagnetic.
 And if you would have liked to lecture us more,
 we would to have one lecture on this party's transformation and look at this in a bit more detail because it's fun,
-but we don't have the time, so we have to move on. For the last two minutes, let's look at alternatives if we cannot have antiferromagnetic or.
+but we don't have the time, so we have to move on. 
+\end{comment}
+
+For the last two minutes, let's look at alternatives if we cannot have antiferromagnetic order.
 And there's a few reasons why you could have this, the first reason this lower dimensions in one deep.
 There's a fear in cause the moment of darkness for room,
 which says that if I have a long range ordered phase in higher dimensions, that's connected to a continuous between.
