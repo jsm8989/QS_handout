@@ -50,20 +50,15 @@ OK. And now we finally go over to quantum and ask, can we do the same understand
 
 Let's start looking into this. let's say I start from a pure state at $t=0$. And I do unitary time evolution. It's a closed system. 
 [eqn]
-The key thing is to say, well, this state will remain a pure state. You have exponentially many conserved quantities and you manage better than them. it's a huge number. in classical sense, you would say, OK, now have a system of sorts source of so many conserved quantities that are conceptualisation because
-the occupation of each state literally stays constant over time because the American states.
-basically. And isolate the quantum system can therefore never dated.
-You cannot say there is any  closed system dynamics where you start of
-a pure state of time to zero and it goes into a thermal density matrix.
-And I'm assuming everybody's familiar with the language of density matrices and firmer density matrices.
-I see people nodding, that's good. So, so that can't happen on a global scale.
-The cost of shooting a question is that you? Now, the key insight in the toy model, if you want, is to say, OK, this is about the global system.
-What can happen to subsystems? And let's look at the toy model that say we just thought of a pure state of two spins spin it left to spin it a right.
-Let me start with an entangled state up, down plus down up.
-Do you have the position of the one speed being up, the ever being down plus the opposite one?
-this is the office of your state is a purely functional.
-But even now, just looking at the state on the left hand, on the left hand system, so I take the partial trace of the system on the hand site.
-The remaining density makes for the left hand system looks a mixed state half half.
+The key thing is to say, well, this state will remain a pure state. You have exponentially many conserved quantities in the many-body dynamics. In classical sense, you would say, OK, now have a system with many conserved quantities that I can't have thermalisation. Therefore an isolated quantum system can never thermalise. That can't happen on a global scale. 
+
+Now, the key insight in the toy model, if you want, is to say, OK, what can happen to subsystems? And let's look at the toy model that say we just thought of a pure state of two spins. Let me start with an entangled state 
+[up, down plus down up.]
+But even now, just looking at the state on the left hand system, so I take the partial trace and the remaining density matrix for the left hand system looks a mixed state.
+[eqn]
+Hence the subsystems can potentially thermalise!
+
+\begin{comment}
 And if you don't know what the past which raises, they're sitting down here, which you can see,
 but which is in the notes where you can find a web page, which explains it very nicely.
 the idea is to say, OK, intuitively speaking, I have this bipartite system, just not left system on the right.
@@ -83,11 +78,11 @@ But that's  an important insight for us, because maybe subsystems. Ten families.
 maybe if I have a big plug of system of a million particles and whenever I only measure
 the left half of the half or the middle half or whatever sub selectron of particles,
 they might look a firmer state.
-maybe the system globally doesn't formalise, but each part locally looks it has formalised and then all of the pureness, if you want,
-is in this many body entanglement between all of the parts of the system,
-which I can never really measure because you can measure a million auto correlation function.
-If you have a million particles.
-And that's the spirit that stayed here, and we're going to look at this idea in the next couple of slides and a bit more detail.
+\end{comment}
+
+So maybe the system globally doesn't thermalise, but each part locally looks thermalised and then all of the pureness, if you want, is in this many body entanglement between all of the parts of the system, which I can never really measure because you can't measure all the autocorrelation functions.
+
+\begin{comment}
 Just to say what is what is this sudden crunch,
 because this is a typical protocol that people look at this, the word quenching comes from material signs.
 And it means the rapid cooling of a rock piece and water. you take your hot iron, for instance,
@@ -103,7 +98,10 @@ That's irreversible, and that's where entropy can increase.
 sudden crunch just means we suddenly project onto a new Hamiltonian and then we know that classically speaking,
 you can have irreversible dynamics that produces entropy.
 And then we can look at what else this  is a set up to talk about depression as a it's a nice test that people are studying a lot.
-We can see what does this do on the quantum site? OK, so let's try to do some calculations here.
+We can see what does this do on the quantum site? 
+\end{comment}
+
+OK, so let's try to do some calculations here.
 We start off with an island state size zero, which could be the iron state of the Hamiltonian h0.
 we started in the concept of Hamiltonian because that's a nice, pure state that we can create approximately created in a lab.
 And then let's say a time check with zero, which suddenly changed Hamiltonian to eight one.
