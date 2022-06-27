@@ -151,10 +151,11 @@ What we would to do is we would to simulate the effects of a magnetic field firs
 
 Let's first look a little bit at what this does before and then we look at how we can simulate it. If you think about the charged particles in the magnetic fields, there's two main ways of thinking. The first one is very classically mechanical is to say there is the Lorentz force $F=q(v \x B)$. If I were charged particle magnetic field and I'm moving in this direction, I get a sideways force that deflects me. And that's of course, the foundation of the cyclotron objects that have electrons in the magnetic field. They will have cyclotron protections around this micromotions. It's also the basis of the Hall effect where the particles pile up on one site of a conductor. tTis is a mechanical effect where you really need the presence of the field if at the position of the particles, there is no magnetic field. There is, however, also a second effect that you have seen in past, in part II electrodynamics and optics. That's the Aharonov-Bohm effect. That's the effect of saying there's a direct coupling between the charge and the vector potential itself. The idea is that if I take a very long, thin solenoid which produces a magnetic field on the inside and of course, the magnetic field lines are close to it, it will come back somehow the other way around. But if I take the approximation of making the solenoid infinitely thin, then the energy field of the outsite goes to zero because the field lines would simply spread over infinitely large areas. And therefore, I have to say magnetic flux in all of the plane compared to the little part in the insite so it can neglect the outer field. And the idea is now that due to this term $qA$ in the Hamiltonian, an electron wave packet split into two parts sent, one left around and one right around this flux here, would pick up an additional phase factor which is given directly by the Aharonov-Bohm phase $\phi_{\AB} = (q/\hbar)\int \int B dS$. And people can make this experiment, you can take electrons have an electron beam, which reflected two points, and you measure the relative phase between the two electron parts here, and you measure that as a function of the magnetic flux to your coil in the middle. You can see it's the phase where you change a sinusoidal with the applied flux. The key thing about this formula is that it's proportional to the magnetic flux and through this enclosed area. But it doesn't care about where the flux is. This is a non-local effect, even if the flux is only in the middle and the particles are well outsite, so they never encountered a flux directly, so they would never have a Lorentz force. Nonetheless, they see this vector potential. And there's a whole bunch of literature in the foundations of quantum mechanics of saying, is it really correct to consider it a non-local interaction or should we look at this in a different way? And it turns out you can ask these questions in the local way, but it's much, much more complicated. It's much, much easier to say there is this vector potential and it has this non-local effect. It's an approximation in the sense, but it's standard. This is what we can do here and now the idea is that this phase, as I said, can be done even if the flux vanishes everywhere along the path. And that's if you want one of the physical motivations of defining the vector potentialy in the first place.
 
-Now you also know which we'll see on the next slide, I guess slide after next.
-Is that the vector potential is depend. we cannot say that this is the vector position,
-you can measure it so you cannot match the vector potential at some point because it depends on the gauge.
-But you can measure the closed loop of the vector potential, and that's how a form phased as close to pentacle is then a gauge independent quantity.
+Now you also know that the vector potential is gauge-depend. We cannot say that this is the vector potential, you can measure it. But you can measure the closed loop of the vector potential, and that's how the AB phase is then a gauge-independent quantity. 
+
+Recap: gauge freedom of vector potential.
+
+\begin{comment}
 And there's a crucial distinction, which becomes clear in 20 minutes or so. OK, so what is this mean that I just talked about?
 Well, you know, that director potentially the magnetic field depends on the vector potential by just being by using the card of the call operator.
 And you know, the electric field depends on the vector potentially using its tiny derivative.
@@ -172,29 +173,17 @@ Add more interesting and more complicated than chemical disputes, and there is n
 And people have  seen the microscopic fundamental little effect,
 but we're still quite a bit away from doing a full fledged simulation of those things.
 Maybe another five years, maybe another decade. OK.
-the challenge that we have, the problem that we have is that we have cold atoms, they carry no charge AQ or zero,
-which means that all of these expressions, they're nice and funny, but they all zero because there's no charge.
-how can we simulate these effects? What can we do? And he had year in fancy language is to say, Well, you need to use synthetic fuels.
-You need to do something synthetic, something artificial, that X acts a gate, you put those particles synthetic foods, artificial gauge food.
-That's the idea. In reality, what it means is to say, well, we know that if I have a field, my magnetic field somewhere,
-I have to say how to form phase two, the quantum particle picks up when it goes around us.
-I can't have this directly, but I can have other phases, the berry phase of the payouts phase.
-I explained what they on in the future and the next slide.
-And we can use them to simulate the effect of this.
-if we can generate our interactions in such a way that they give rise to these  phase factors,
-then we simulate the effect of this magnetic field and the way we do it.
-We called it a synthetic agent. that's the idea.
-historically, the first idea of doing this was to start off with the mechanical thought was to say, Well, I have this Lawrence Falls,
-which is proportional to queue times v Crosby and this v Crosby is  an interesting structure that we have to reproduce.
-One way of reducing that is to say, well, we have to create your task force where we have and times v cross omega.
-Omega is the director of rotation. maybe if we take our quantum guess, put it in the container and spin that container,
-spin it up to certain angular velocity that would simulate the same quantum gas sitting statically somewhere in the presence of a magnetic field.
-And it turns out, lo and behold, this was very successful.
-And in 2004, two three four people showed us what, I suppose only confirm any quantum guesses.
-Actually, I think for bosons, already ninety nine and the key hallmark feature they could observe was observing
-vorticity that you could observe with the quantum gas when you expanded it.
-In terms of light shows many of those holds the regular hexagonal pattern of holds the vortices.
-it is what is still the same  vortices as you have them in type two superconductors for those that are aware of them.
+\end{comment}
+
+The problem that we have is that we have cold atoms, they carry no charge, $q=0$. So how can we simulate these effects? In fancy language, you need to use synthetic fields. In reality, what it means is to say, well, we know that if I have a field, my magnetic field somewhere, I have this AB phase that the quantum particle picks up when it goes around. I can't have this directly, but I can have other phases, such as \textbf{Berry phase} or \textbf{Peierls phase}. If we can generate our interactions in such a way that they give rise to these phase factors,
+then we simulate the effect of this magnetic field.
+
+
+The first idea of doing this was to start off mechanically, where the Coriolis force $F_c = m(v \x \omega)$ has the same form as the Lorentz force. Maybe if we take our quantum gas, put it in the container and spin that container, spin it up to certain angular velocity that would simulate the same quantum gas sitting statically somewhere in the presence of a magnetic field. And it turns out, lo and behold, this was very successful. The key hallmark feature they could observe was observing vorticity that you could observe with the quantum gas when you expanded it in time of flight
+[fig - image of vorticity in spinning gas]
+These vortices are the same as in type two superconductors.
+
+\begin{comment}
 If another way of them, it's due to the fact that the whole wavefunction is a quantum mechanical wave function.
 And if it's a quantum mechanical wave function, it must be well-defined at every point,
 which means that if I have some  rotation, I would normally expect that because the particles are moving along this line,
@@ -211,27 +200,15 @@ so the phase is not well-defined, but it's not a problem.
 we have set the quantum gas into rotation, which is exactly the if you want the response you would expect in the cyclotron orbit.
 And that would be a sign that you have not  if you want implemented this coyote is possible.
 you have similar to the magnetic field, so big success where people then it is to say, OK,
-let's look at how many vortices do we get in the quantum system as a function of how fast we spin it?
-And it turns out into something that one could calculate, but we don't do it here that for Lomac feeds a low orbit,
-low spinning rotations, you know what is he speaks to consiter still sitting, still still the lowest energy state.
-Then you get one vortex and you get more vortices and then you get a turbulent pattern, something complicated and then you get no more atoms.
-If you spin it too fast, it just doesn't work.
-The particles basically spill out because you only have to Coriolis force yourself to centrifugal force.
-And it turns out the point where you get many, many vortices is very close to the point where the centrifugal force is just overwhelming a trap.
-if you look at what is the magnetic flux that you can simulate, so how many mechanics flux quanta can you put in?
-How many vortices can you put in per atom number?
-This is a very, very small number, and it's far too small to enter the regime that people might be interested in,
-namely the Quantum Hall, which we have two quantum hall effect where you need to have one flux quantum per particle.
-it's a nice approach, but it doesn't really work for big systems.
-Maybe if you go down to smaller systems that you put three or four particles in a trap,
-then you can maybe do a quantum simulation of the institute. What the what effect with this very, very, very small system?
-And people are trying that because it's interesting in its own right, but it doesn't help you help us if you want to go on with the big ideas.
-OK. this is  the introduction of artificial foods, what we want to do.
-And I tell you in the next lecture quite a few ways how we actually do it.
-Now I want to step. A little bit and talk a bit more mathematical about geometry and topology,
-because these are concepts that we need to understand what's really going on.
-the first one that we should talk about is if we have a surphase. Then we should talk we can talk about curvature.
-What is the curvature of the surphase? And the main unit for this one is got some curvature, which is the product of the two principle curvature.
+\end{comment}
+
+
+Let's look at how many vortices do we get in the quantum system as a function of how fast we spin it. And it turns out into something that one could calculate, but we don't do it here, that for low spinning rotations, you know what is he speaks to consiter still sitting, still still the lowest energy state. Then you get one vortex and you get more vortices and then you get a turbulent pattern, something complicated and then you get no more atoms. If you spin it too fast, it just doesn't work. The particles basically spill out because you only have to Coriolis force yourself to centrifugal force. And it turns out the point where you get many, many vortices is very close to the point where the centrifugal force is just overwhelming a trap. If you look at what is the magnetic flux that you can simulate, so how many magnetic flux quanta can you put in? How many vortices can you put in per atom number? This is a very, very small number, and it's far too small to enter the regime that people might be interested in, namely the Quantum Hall regime, where you need to have one flux quantum per particle. It's a nice approach, but it doesn't really work for big systems. Maybe if you go down to smaller systems that you put three or four particles in a trap, then you can maybe do a quantum simulation of that. 
+
+\subsubsection{Geometry and topology}
+What is the curvature of the surface? And the main unit for this one is \textbf{Gaussian curvature}, which is the product of the two principle curvatures, $K=\kappa_1 \kappa_2$. And this is a local property that can be continuously deformed.
+[fig?]
+\begin{comment}
 if you have, a one dimensional line, it have  a curvature this positive or negative.
 And that's what we call the principal curvature of that line.
 If you have a two dimensional surphase, what you call the Gaussian curve, which is the product of these two coverages.
@@ -247,29 +224,13 @@ I ask, how is the surphase curved at this point is covered this way or that way?
 Or a subtle point? Or is it flat? That's what I'm asking. It's a local property.
 And the point is that I can now take this local property and continuously deform it.
 If you like, take your orange and you squeeze it. Then the curvature changes at every point.
-Do you expect it? No, this is just there.
-Two contrasted with topology topology is the study of properties of space that are preserved under such deformations and the continuous deformations.
-cluing, bending and stretching a surphase, but not tearing it apart, not cutting it.
-Not gluing it together. And then you probably all have seen this cartoon many, many times where you can say that about logically speaking,
-though not the lack of coffee is the same thing because you can continuously transform the one into the other.
-You see that the key feature here is that both have one hole and to hold a number
-of holes as to conserve quantity that does not change doing this dynamics.
-And because I said no cheering, no clueing, you can't really change the number of votes,
-so the number of votes here is a global property that you cannot change in that way.
-It's a protected property. And that's what we call a topological property, a topology.
-The other example of this one is the one I gave in the very beginning. It's the movie.
-You take this one dimensional slip of paper and you clue it together.
-You can a do it directly or can you first have, like, rotated it or rotated it twice included together?
-And then once you have done this, you can take the fee, you can stretch it. You can do whatever you want to crumble it up this number.
-In this case, a plus minus one rosette. How many holes do I have for how often have I turned the thing?
-This number can never change afterwards again. And this number of symptomatically quantised it must be one or two four zero.
-It cannot be 1.5. But if I think of gluing this together, I have turned it by turning it twice.
-But I cannot have half turned it in. Just doesn't. It doesn't sense.
-Doesn't make sense.
-examples of those things would be churn numbers, which will explain a lot of things in the economy effect and topological insulators.
-And we'll see that in the next slide. these two things are connected.
-They they're connected geometry and topology are connected in the colours of the surphases.
-But in the case of these classical surphases by the gospel theorem, the mathematical theorem of the digital are so important.
+\end{comment}
+
+This is contrasted with topology. Topology is the study of properties of space that are preserved under continuous deformations. And then you probably all have seen this cartoon many, many times where you can say that topologically speaking, a doughnut and mug of coffee is the same thing because you can continuously transform the one into the other. You see that the key feature here is that both have one hole and the number of holes is a conserved quantity that does not change during this dynamics. And that's what we call a topological property. The other example of this one is the one I gave in the very beginning, the Moebius strip. Again, the topological invariants take discrete values. 
+
+These two things are connected in the case of these classical surphases by the Gauss-Bonnet theorem, $$\frac{1}{2\pi}\int_M K dA = 2(1-\nu)$$ where $\nu \in \N_0$ is called the genus and is the topological invariant. 
+
+\begin{comment}
 The point is what they've shown is that if I take a two dimensional manifold,
 so two dimensional surphase think that's closed so it doesn't have any boundary.
 it's  closed onto itself a doughnut or a sphere or anything that.
@@ -288,16 +249,15 @@ I do whatever I want to it as long as it continues and no cheering and accruing,
 If I'm in one class, I stay in one class. It's a topological protected property.
 Any  local defamation that I do here cannot change the topological property because it's  a global property.
 that's how the protection comes about. And this is not OK, a funny piece of mathematics.
-The question is, what does this mean in physics? And the first time it really shows up in physics is the integer quantum monolithic.
-I guess you are familiar with the setup. You have a two dimensional conductor superconductor.
-You have a magnetic field pointing in that direction.
-You send the current through here and you measure a voltage in the transverse direction to hold voltage.
-And we  know from the what we discussed in the beginning that because of tolerance for all
-of the particles are going this way to sort of currents flowing and have this magnetic fields,
-they will be drifting off to the site so they will pile up on this site.
-I have more eloquence here than a few, so I got an electric field in this direction. That's the whole what they can measure.
-And the question is not how is what is the relation between hall voltage and the current that through and the magnetic field?
-And that is the day that the famous resigned from quitting.
+\end{comment}
+
+The question is, what does this mean in physics? And the first time it really shows up in physics is the integer quantum Hall effect. I guess you are familiar with the setup. You have a two dimensional super/conductor. You have a magnetic field pointing in that direction. 
+[fig - setup]
+You send the current through here and you measure a voltage in the transverse direction, the Hall voltage. And we know from the what we discussed in the beginning that because of tolerance for all of the particles are going this way to sort of currents flowing and have this magnetic fields, they will be drifting off to the site so they will pile up on this site. I have more electrons here so I got an electric field in this direction. That's the Hall voltage they can measure. And the question is not how is what is the relation between hall voltage and the current that through and the magnetic field? And that is the famous result from von Klitzing (1980) as seen in the figure. CLearly, the Hall conductance is quantised, even for a disordered system, and so can be written as $\sigma_{xy} = n_c e^2/h, n_c \in \N_0$.
+[fig - steps]
+
+\being{comment}
+igned from quitting.
 what you see here is this hard resistance.
 it's the alteration of the heart high voltage over the current resentful resistance as a function of the magnetic field in Tesla.
 And this is the transverse one, the one that we should first look at.
@@ -312,25 +272,12 @@ So, yes, there's not the inverse of the hall, resistance to conductance is quant
 It's quantised in units of squared over. just the constants, times and C and in that no.
 And that's exactly that, that will be quite a churn number.
 And this is one of those topological invariant 6.1 mathematical reasons why this number can only be zero, one or two or three.
-And that's not physically speaking, extremely surprising at first, and so that's where the main fascination of this whole topic comes from.
-No, you would say, OK, I send particulates to it his way. Something happens to them.
-Some of them end up on this site. I got a voltage here. That's fine.
-But now normally you would save and or change my material a little bit.
-Increase the magnetic field a little bit or whatever I do, I change parameters a little bit.
-You would expect that the voltage would also change a little bit. It might be a very small change, but could be a change.
-And this is  the first time that I see something where I can recall all of the parameters I can swap out,
-the one gallium arsenide to another one reflects slightly different doping configurations with more disorder of less disorder with more temperature,
-less temperature, and know this number was precisely put. No change that we can detect.
-And people have measured this number of many, many digits of precision, and it's really, really, really pissed.
-And that's extremely surprising, because all of the physics quantities that we normally have to wheel numbers.
-It could be 1.5 for to be 1.5 or one, and any small change to do here will have a change here, but you're not.
-It's precisely hard quantised. And that's a big, dirty, heart hot many buddy system.
-Well, if you could sort of room temperature, but it's not zero temperature.
-And mathematically, we understand it by saying, well,
-we know that these  numbers that are politically protected numbers, they can only have value zero, one, two or three.
-It's inconceivable that a surphase has 1.5 hold today.
-It's inconceivable that this thing has like. They give one point five, it can be one or two.
-And then because it's quantised, it has a certain resilience to it.
+\end{comment}
+
+And that's physically speaking, extremely surprising at first, and so that's where the main fascination of this whole topic comes from. Now, you would say, OK, I send particles through, something happens to them, some of them end up on this site, I get a voltage here. That's fine. Increase the magnetic field a little bit or whatever I do, I change parameters a little bit, you would expect that the voltage would also change a little bit. It might be a very small change, but could be a change. And this is the first time that I see something where I can recall all of the parameters I can swap out, the one gallium arsenide to another one reflects slightly different doping configurations with more disorder of less disorder with more temperature, less temperature, and know this number was precisely put. No change that we can detect. And people have measured this number of many, many digits of precision. And that's extremely surprising, because all of the physics quantities that we normally have are real numbers. But here it's precisely hard quantised. And mathematically, we understand it by saying, well, we know that these  numbers that are topologically protected numbers, they can only have value zero, one, two or three. It's inconceivable that a surface has 1.5 holes. This leads naturally to the ideas of topological insulators, anyonic excitations and the fractional quantum hall effect.
+
+\begin{comment}
+e to it.
 If I change parameters a little bit, there is nothing it can do. It stays exactly the same until I change it too much.
 Then it jumps to the next discrete value. And that's the result of a logically protected quantities.
 And just many of those. If I don't have an external magnetic field, but I just have the spin orbit coupling in the material,
@@ -348,6 +295,8 @@ in this direction, the holy grail is going to be to observe fractional quantum h
 And we're not there yet. We're till the end of the course next weak, we'll make it to the end of the integer quantum.
 What effect? That's what has been achieved in the experiment. The fractional quantum dot effect.
 Not yet. OK. this is the interesting part about why what topology is interesting and what topological protection actually means in practise.
+\end{comment}
+
 Now, let's go back a little bit and talk about ways how we can, like, create these  phases that we want to use instead of trying to form phase.
 And this is not a big introduction leading up to the concept of the very phase. the people that have seen it to be familiar to you.
 First, let's talk about what is a geometric phase with a geometric phase, actually even what is determined.
