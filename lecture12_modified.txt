@@ -1,6 +1,4 @@
-
-OK, I guess most people are finished so we can slowly get started.
-And quick reminder where we ended up last weak, we said, OK, the effects of magnetic fields are very interesting.
+And quick reminder where we ended up last week, we said, OK, the effects of magnetic fields are very interesting.
 They're relevant, for instance, the quantum hall effect, spin hall effect, topological insulators and many, many other things.
 And these topological protected events are very important.
 The problem we have of cold atoms is that we don't directly coupled to a magnetic field in the same way that
