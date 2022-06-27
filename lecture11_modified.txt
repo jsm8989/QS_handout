@@ -297,32 +297,11 @@ What effect? That's what has been achieved in the experiment. The fractional qua
 Not yet. OK. this is the interesting part about why what topology is interesting and what topological protection actually means in practise.
 \end{comment}
 
-Now, let's go back a little bit and talk about ways how we can, like, create these  phases that we want to use instead of trying to form phase.
-And this is not a big introduction leading up to the concept of the very phase. the people that have seen it to be familiar to you.
-First, let's talk about what is a geometric phase with a geometric phase, actually even what is determined.
-And the simplest answer is if it takes something called power to transport, which we all have seen in your relativity class.
-you basically take a vector two vector here they do transport it along a line and you transport it, touch it locally.
-It always keeps the same. The same angle relative to the line that you transported long to you transport in
-the parallel manner along the line that if you do this on a flat surphase here,
-you transport it this way, this way, this way and you end up of the same back that you had. the dramatic phase in this case is zero.
-But if you do this on a curved surphase, say the surphase of a sphere and you see here,
-initially, my vector is pointing in the direction of the North Pole.
-I move it up along this line and you can see how it transforms into this vector.
-And then I go siteways down here again. I keep this angle here, constant all the time.
-And then they go back along this line. You can see the director they end up with is not the initial vector.
-It's a vector that's rotated by 90 degrees in this case.
-And you can see that in this case, the angle of rotation is zero. In this case, it's 90 degrees.
-And it turns out that the phase that you get here, what it actually does is it measures the antiquated course and curvature to wonder,
-defined earlier and closed by this chosen closed path.
-And the phase that you get here does only depend on the geometry of the path that you've taken.
-It does not depend on how fast or slow you went along this path, as we knew the geometric phase just depends on the geometry.
-It's independent of the speed with which you go to it. OK.
-And now let's jump to the real Hamiltonian and see where such a dramatic phase can show up in the time of.
-And that's going to be the very phase that's going to be one of the main things that we use to stimulate magnetic fields.
-what we have is we have an Hamiltonian age that depends on a whole bunch of parameters are.
-it could be that can happen, Tony, that depends on the whatever you let us step to is trying to find directions.
-If it's a magnetic field, be exposed by a couple of parameters, we just wait it very generally here.
-And those parameters are on principle time dependent so we can change those parameters in time.
+Now, let's go back a little bit and talk about ways how we can create these phases that we want to use instead of AB phase. And this is a big introduction leading up to the concept of the Berry phase. First, let's talk about what is a geometric phase. And the simplest answer is if it takes something called parallel transport, which we all have seen in your relativity class, you basically take a vector here then do transport it along a line.
+[fig - flat vs curved manifold]
+On a curved surface, you can see the direction they end up with is not the initial vector. It's a vector that's rotated by 90 degrees in this case. And it turns out that the phase that you get here, what it actually does is it measures the integrated Gaussian curvature enclosed by this chosen closed path. And the phase that you get here does only depend on the geometry of the path that you've taken. It does not depend on how fast or slow you went along this path. This is what we mean by the geometric phase.
+
+And now let's jump to the real Hamiltonian and see where such a geometric phase can show up in the time evolution. What we have is we have an Hamiltonian $H$ that depends on a whole bunch of parameters $R(t)$. And those parameters are on principle time dependent so we can change those parameters in time.
 we cannot, for instance, change strength and the direction of the magnetic field.
 Or if we think about having atoms in the laser field, we can change the tuning of the laser field and the Robbi frequency and time.
 I just on here, but I mean, after just to simplify rotation.
