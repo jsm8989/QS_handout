@@ -91,7 +91,7 @@ how can we do some experiments on just how we think about this? So.
 
 OK. Why do we care about this? Well, I already said it. If you have the stability of this localisation and the presence of interactions, you have nonergodic behaviour. You have the potential for long time dynamics. You don't have thermalisation. Statistical mechanics doesn't apply. It's a very different game. And it's, of course, also interesting for quantum computers. Normally your big problem is you put your qubit in an environment, there's always environment and then some information will leak into the environment and just go away and go into this facility and it's lost. But if your environment, if you qubit as many very localised, you don't get this information, spread it as information dilution. You go into the scrambling of quantum information. Even it leaks out and little bit of would stay local. You have much, much more time to recover it. We already said that MBL will require perfect isolation from the environment because everything we've been discussing with her close quantum systems. As soon as I have some coupling to a an environment, then of course I will get thermalised by the environment, whatever I do.
 
-
+\begin{comment}
 How can we do an experiment on this? This was the first experiment actually that was done by us.
 You start with disabilities techniques. You put particles only your the even that decides to put them in, even solids, your attach to empty.
 And then you just let the system evolve on the tunnelling and the hole. How about Hamiltonian?
@@ -107,30 +107,14 @@ And this we take as a strong indication or proof of localisation because we just
 And of course, the criticism is always, well, you waited a thousand times.
 Maybe it's just slow and would have decayed after a million times. And that is the criticism where you have to say, Well, that's a fair criticism.
 We can make theoretical arguments why it might or might not apply. But of course, we cannot measure four million tunnelling times yet.
-if you want to look at this quantitatively, you can, for instance, look at the imbalance, which is just the contrast,
-a number of atoms and even sites minus the number of atoms on all sites normalised to total at number.
-And then just a detail how you do it as an experiment is that you don't really create an arbitrary potential.
-You use something that's called an OK re-entry model, so you superimpose to encourage that.
-your main lattice is a wavelength of 552 that the blue one and the red up here is an incumbent with at a different wavelength,
-which is just a very weak modulation on what happens to the mean that is.
-if you want to create a hubot model, what is and modulated in a sinusoidal fashion,
-but in a sign of sort of special what is no is near irrational number. It has a consequence,
-it has the consequence that it was very interesting that the localisation transition now does not happen at zero
-India and that some cases are said for any arbitrary weakness or everything is localised because this is not really as,
-but something slightly different. It happens at a critical point. Details don't matter too much.
-But the key thing is that we can now look at exotic and look than in the same experiment.
-And that's great. what you do here is this is a balance measured as a function of time.
-Evolution, time go. It starts off at once a very high up here.
-And then if you see if you take out of OJ zero, which means you have none of this quasi periodic meditation on it,
-then this imbalance quickly shuts down to two zero oscillates around and basically zero.
-that's essentially aquatic time dynamics. If you go for Delta eight, on the other hand, so very strong of this disorder, you would say,
-OK, well, basically why particles can't move much because it's too disordered. And basically, the imbalance stays at a very high value of 0.6.
-this is great, this shows us that the politics now are localised. They can't move.
-And then also, you can see a tree is just on the localised site.
-You can see it is localised in valence stays non-zero, but it's less big and it also you can see it as a longer dynamics going on.
-Sort of settling down into the steady state takes longer all as you would expect.
-And this was not interacting systems, you can see the aggressive of broken. Sorry.
-Apologies for that. This was not a direct deposit, costs were there, we have A. Localisation, there is nothing new, nothing interesting.
+\end{comment}
+
+Experimentally, you can for example prepare an initial state as shown at the top of the figure, dividing the lattice sites up by parity. After free evolution you can look at the charge density waves to determine whether localisation has occured.
+[figure - slide]
+It is useful to define the imbalance $$I = \frac{N_e-N_o}{N_e+N_o}$$ as a measure of contrast. 
+if you want to look at this quantitatively, you can, for instance, look at the imbalance, which is just the contrast. And then an experimental detail is that you don't really create an arbitrary potential. You use something that's called an Aubry-Andr\'e model, so you superimpose two incommensurate lattices. It has the consequence that the localisation transition now does not happen at zero but at a critical point. 
+
+\begin{comment}
 The relevant part here is the monitoring particles. They reached a steady state you see very, very fast after, say, 10 tunnelling times.
 we could say, let's just look at, say, a factor of three longer 30 tunnelling times and just not plot what we get at Ferdinand
 cuddling times as a function of the disorder strength and as a function of the directed.
@@ -160,64 +144,13 @@ OK. This was the last part of Feminisation, just to show that thermodynamics is 
 but not all powerful, the estates that maybe do not families.
 And now we can jump over to the or maybe ask us to ask questions on this part before I move over to the final part of the of the course.
 Looks no questions. OK, then let's move over and change gears completely for the last part of the course.
-This is not about artificial food. And it's a very fancy term.
-Let's break it down and get more pedestrian and say what we would to do is we would to simulate the effects of a magnetic field first.
-You know that if you take your. Classical Hamiltonian and Hamiltonian for a charged particle in the presence of an electromagnetic field,
-the Hamiltonian is $p$ minus Q times A will Q is the charge of the particles A to vector
-potential of the electromagnetic field plus Q Times five or fi is to scale up potential.
-if you want to assimilate particles in the wild, you want to assimilate them interacting with electric and magnetic fields and.
-I mean, it's this magnetic field can be an external magnetic field, just given by an external magnet style.
-It can also be something internal to the material this, and spin orbit coupling is also a consequence of a variety of this.
-What a vector potential is and a billion. It depends on the spin of the particles that still spin orbit coupling effects,
-which we also would to simulate because they are relevant and  matter systems.
-And ultimately, of course, you would to also have a quantum theory for this field to vector potentially itself.
-you would them to go to the economic theories which are if you used that,
-I used to this quite high energy physics and fundamental interactions and so on,
-and doing quantum simulations of quantum dynamics would be something very, very great.
-But we are still a little bit way, a little bit off of that.
-at the moment, we just say simply be certain we want to simulate the effect of a classical magnetic field that's just externally given by,
-say, a coil or a magnet. scale up potential.
-We know how to simulate them, for instance, optical potential. That's how we do it.
-But Steve, to potentially see you, this one is a challenge.
-It's harder to simulate. let's first look a little bit at what this does before and then we look at how we can simulate it.
-if you think about the charged particles in the magnetic fields, there's two main ways of thinking.
-The first one is very classically mechanical is to say this to Lawrence us, right?
-Q Times v Crosby. If I were charged particle magnetic field and I'm moving in this direction, I get a siteways force that deflects me.
-And that's of course, the foundation of the cyclotron objects that have electrons in the magnetic field.
-They will have cyclotron protections around this micro motions. And the second thing is,
-it's also the basis of the hall effect and  matter physics where the
-particles pile up on one site of a conductor and hence give rise to this hot effect.
-this is a mechanical effect where you really need the presence of the field if at the position of the particles, there is no magnetic field.
-You don't have this Typekit effect. There is, however, also a second effect that you have seen in past two elected mix and optics.
-That's the uniform effect.
-That's the effect of saying there's a direct coupling as we see previously between the charge and the vector potential itself.
-the idea is that if I take a very long, thin solenoid which produces a magnetic field on the insite and of course,
-the magnetic field lines are close to it, it will come back somehow the other way around.
-But if I take the approximation of making the solenoid infinitely thin,
-then the energy field of the outsite goes to zero because the feed lines would simply spread over infinitely large areas.
-And therefore, I have to say magnetic flux in all of the plane compared to the little part in the insite
-so it can neglect the outer Podsednik only have a magnetic flux in the insite of this.
-Quite that's the approximation. And the idea is now that due to this term, queue times a Hamiltonian.
-Even it takes a an electron wave packet split into two parts sent, one left around and one around this flux here,
-I would pick up an additional phase factor which is given directly hand of boom phase, which is given by the magnetic flux Indian Coast area.
-And people can make this experiment, you can take electrons have an electron beam, which reflected two points,
-and you measure the ready to phase between the two electron parts here,
-and you measure that as a function of the magnetic flux to your card in the middle. And you can see the phase changing.
-You can see it's the phase where you change a sinusoidal with the applied acrylic flux.
-it really. Follows this formula. The key thing about this formula is that it's proportional to the magnetic flux and through this enclosed area.
-But it doesn't care about where the flux is.
-this is a non-local effect that really, even if the flux is only in the middle and the particles are well outsite,
-so they never encountered a flux directly, so they would never have a Lawrence force. Nonetheless, they see this description the vector potential.
-And there's a whole bunch of literature in the foundations of quantum mechanics of saying,
-is it really correct to discrepancies in non-local direction or should we look at this in a different way?
-And it turns out you can ask these questions in the local way, but it's much, much more complicated.
-It's much, much easier to say there is this vector potential and it has this non-local effect.
-It's an approximation in the sense, but it's standard in very, very good.
-this is what we can do here and now the idea is that this phase, as I said, can be done even if the fuse vanishes everywhere along the path.
-And that's  if you want one of the physical motivations of defining the spectre potentially in the first place,
-because you can say that the Face ID I get is basically give them a ring and the quote when I integrate along this path,
-the circle and integrates the vector potential along the circle.
-the vector potential is a part of physical reality, it has direct physical consequences.
+\end{comment}
+
+\subsection{Artifical gauge fields}
+What we would to do is we would to simulate the effects of a magnetic field first. You know that if you take your classical Hamiltonian for a charged particle in the presence of an electromagnetic field, the Hamiltonian is $H=(p-qA)^2/2m + q\phi$. This magnetic field can be an external magnetic field, just given by an external magnet. It can also be something internal to the material like spin orbit coupling. And ultimately, of course, you would want to also have a quantum theory for this gauge field $A$, like the dynamical gauge theories which are used a lot in quite high energy physics and fundamental interactions and so on, and doing quantum simulations of quantum chromodynamics would be something very, very great. But we are still a little bit off of that. At the moment, we just say we want to simulate the effect of a classical magnetic field that's just externally given by, say, a coil or a magnet. We know how to simulate scalar potentials, for instance, optically. But the vector potential is harder to simulate. 
+
+Let's first look a little bit at what this does before and then we look at how we can simulate it. If you think about the charged particles in the magnetic fields, there's two main ways of thinking. The first one is very classically mechanical is to say there is the Lorentz force $F=q(v \x B)$. If I were charged particle magnetic field and I'm moving in this direction, I get a sideways force that deflects me. And that's of course, the foundation of the cyclotron objects that have electrons in the magnetic field. They will have cyclotron protections around this micromotions. It's also the basis of the Hall effect where the particles pile up on one site of a conductor. tTis is a mechanical effect where you really need the presence of the field if at the position of the particles, there is no magnetic field. There is, however, also a second effect that you have seen in past, in part II electrodynamics and optics. That's the Aharonov-Bohm effect. That's the effect of saying there's a direct coupling between the charge and the vector potential itself. The idea is that if I take a very long, thin solenoid which produces a magnetic field on the inside and of course, the magnetic field lines are close to it, it will come back somehow the other way around. But if I take the approximation of making the solenoid infinitely thin, then the energy field of the outsite goes to zero because the field lines would simply spread over infinitely large areas. And therefore, I have to say magnetic flux in all of the plane compared to the little part in the insite so it can neglect the outer field. And the idea is now that due to this term $qA$ in the Hamiltonian, an electron wave packet split into two parts sent, one left around and one right around this flux here, would pick up an additional phase factor which is given directly by the Aharonov-Bohm phase $\phi_{\AB} = (q/\hbar)\int \int B dS$. And people can make this experiment, you can take electrons have an electron beam, which reflected two points, and you measure the relative phase between the two electron parts here, and you measure that as a function of the magnetic flux to your coil in the middle. You can see it's the phase where you change a sinusoidal with the applied flux. The key thing about this formula is that it's proportional to the magnetic flux and through this enclosed area. But it doesn't care about where the flux is. This is a non-local effect, even if the flux is only in the middle and the particles are well outsite, so they never encountered a flux directly, so they would never have a Lorentz force. Nonetheless, they see this vector potential. And there's a whole bunch of literature in the foundations of quantum mechanics of saying, is it really correct to consider it a non-local interaction or should we look at this in a different way? And it turns out you can ask these questions in the local way, but it's much, much more complicated. It's much, much easier to say there is this vector potential and it has this non-local effect. It's an approximation in the sense, but it's standard. This is what we can do here and now the idea is that this phase, as I said, can be done even if the flux vanishes everywhere along the path. And that's if you want one of the physical motivations of defining the vector potentialy in the first place.
+
 Now you also know which we'll see on the next slide, I guess slide after next.
 Is that the vector potential is depend. we cannot say that this is the vector position,
 you can measure it so you cannot match the vector potential at some point because it depends on the gauge.
