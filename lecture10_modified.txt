@@ -246,32 +246,11 @@ one political observer would think the momentum of this project to the next part
 If you project them all out, you measure them all out.
 You get a perfectly firm answer, even though in reality, it's one complicated and tangled, pure wavefunction of all of the particles.
 that's the idea, it's very, very powerful.
-And the point is, if I want to prove that it's not a formal state, but it's really a pure state still and political system,
-I have to measure these and political correlations to prove that in any political way, functions of the pure.
-people are nowadays measuring something six other population functions or 10 for accommodation functions, and they feel very smart about it.
-But they're doing this in a system of tens of thousands of particles.
-we have infinitely far away from being ever able to measure at 10 and auto correlation function,
-just the amount of statistics you would need would be crazy. And this basically means for us that.
-We just ignore these high order correlations, we just see all of these high order correlations in a farming system,
-we can just ignore them because they're not accessible and they don't do anything for us.
-we know that we can go to the point of saying that the thermalisation of the
-whole system is philosophically one it stays if you wave function at all time.
-But it is a hugely simplifying and extremely useful approximation. Because it does not lead to any false prediction for possible measurement.
-It would only give you the one predictions if you want to really measure and particle correlation functions,
-which you never, ever would be able to do, so you can ignore the point.
-And that's the story, and the story has, of course, many, many funny consequences.
-The first consequences that we always talk about humanisation and of course, quantum system, we talk about the system electing to affirm its state,
-we measuring our B.S., we're measuring its temperature and so on, and we say, Yeah,
-this is a of state, even though we strictly speaking, no, that it can't really be.
-But we know that for anything we ever might care about, that's what it is.
-if you part of a quantum system, say, universe. But you only can, look at your local environment.
-Then that might very well just look a foreign environment, even though the universe as a whole is in a pure state.
-everything looks it's just hanging together and would just work fine.
-Now, of course, we have all of this  theory is correct for the whole universe,
-but the point of describing the universe a society moved away from it in its to begin with.
-We don't know. And the point is, what this suggests is that also we have no way of finding out.
-Whatever the universe started to have entropy or start the pure because we can only observe a small part of it.
-There's not really a chance for us of ever finding out. At least according to these arguments.
+\end{comment}
+
+And the point is, if I want to prove that it's not a thermal state, but it's really a pure state still, I have to measure these autocorrelations to prove that the wavefunctions are pure. People are nowadays measuring something like sixth order correlation functions, and they feel very smart about it. But they're doing this in a system of tens of thousands of particles. But the ETH is a hugely simplifying and extremely useful approximation. Because it does not lead to any false prediction for possible measurement. It would only give you the wrong predictions if you want to really measure particle correlation functions, which you never, ever would be able to do, so you can ignore the point. And that's the story, and the story has, of course, many, many funny consequences. The first consequences that we always talk about is the system relaxing to its thermal state, even though we strictly speaking know that it can't really be. But we know that for anything we ever might care about, that's what it is. You can only look at your local environment. Then that might very well just look a foreign environment, even though the universe as a whole is in a pure state. 
+
+\begin{comment}
 OK, so let's look at this now numerically in the last ten minutes.
 we have the same system as before, it's the same treaty system as before.
 What they are doing is they say, OK, we look at the momentum distribution.
@@ -314,8 +293,12 @@ And if you see that it does not show feminising behaviour and also it just viola
 people are getting gaining more and more trust and saying, well, we should.
 We get more and more believe that it is the truth that it's really a valid hypothesis that it works.
 But as far as I know, there's no way of mathematically proved this at the moment, so it remains an hypothesis.
-the picture that he didn't have is, uh, thermalisation in the classical state,
-because the thermalisation and the quantum mechanics is the very different cartoon.
+\end{comment}
+
+Thermalisation in the classical state and in quantum mechanics is the very different cartoon.
+[fig 2 -  ETH slide from paper]
+
+\begin{comment}
 the cartoon, it's like, OK, well, we have a configuration space, it can be, look, whatever.
 And we have a hyper plane in the air of constant energy. if you now say I take a classical system, I think about,
 I think about what happens when the classical system started at one point on my parameter space.
@@ -355,6 +338,8 @@ but a million random numbers, then you would say that all of those things differ
 If they were all in phase, the time and energy phase, they would never we phase because of all of these different increments with frequencies.
 then you get the point of where you really say it is this chaotic and you have this idea of the coherence is just going to get the former state.
 OK. that's the picture, that's the picture of how people think about these  states and quantum mechanics.
+
+
 And now let me.
 Yeah, just show a few things, so people have done some experiments in this direction, and I go very quickly, but they're just there for illustration.
 one thing it can do is you can say, OK, if I have a system initially with very low entanglement of the lines,
@@ -401,6 +386,8 @@ well, OK, it takes a little bit, but it essentially stays pure.
 globally, they can show that the system of whatever in six lattice sites here stays globally pure, but locally it looks from.
 it shows exactly on this very small, microscopic scale the physics that we have discussed.
 entanglements between the subsystems and the subsequent system then appears locally feasible, even though it's close you.
+
+
 OK. Of a quick. OK, let me let me.
 Let me actually stop the beach, skip this one, and just a very quickly say this part here.
 this is Nick. This is an experiment that we actually needed. Uh. More than 10 years ago now we said, OK, let's take another call.
@@ -480,3 +467,4 @@ we'll have if you want an extended office or beforehand where you can just ask
 any  questions you have and we can discuss any of problems that you might have.
 And that shouldn't prepare you very well for the exam and everything. OK, thank you very much.
 See you next weak.
+\end{comment}
