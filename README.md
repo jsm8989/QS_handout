@@ -29,6 +29,7 @@
 - 3 hours 18/5/22
 - 3 hours 19/5/22
 - 2 hours 2/6/22
+- 2 hours 17/6/22
 - 3 hours 27/6/22
 
 ### Thoughts
