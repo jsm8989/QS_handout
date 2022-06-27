@@ -101,38 +101,15 @@ And then we can look at what else this  is a set up to talk about depression as 
 We can see what does this do on the quantum site? 
 \end{comment}
 
-OK, so let's try to do some calculations here.
-We start off with an island state size zero, which could be the iron state of the Hamiltonian h0.
-we started in the concept of Hamiltonian because that's a nice, pure state that we can create approximately created in a lab.
-And then let's say a time check with zero, which suddenly changed Hamiltonian to eight one.
-one example, if you can think of, which is a good example, is to say, well, OK,
-let me have a paramagnetic let me have the magnetic field pointing in that direction.
-all of the spins are pointing no more or less than this, that that requires a pure state.
-And now what I can do is I can suddenly instantly switch the direction off to make it feel to be in the.
-You know that if you would do it slowly, if you would slowly rotating magnetic field,
-the pure spins, it would just rotate rivet it and that would be it.
-But now suddenly, if you have two spins pointing in this direction, suddenly in this direction.
-They will not turn this white, if you look at the classical mechanics,
-they will start the process around this magnetic field that will start to process
-and they will collide why they're doing that and they will permit that in a way.
-And then I have a lot of energy because they are not in the iron state of the system, but because they are now perpendicular to it.
-They have a lot of energy and that energy has to stay in the system. Like a typical crunch we could do in items is to say we just suddenly jump,
-let us go for a weak from a weak, let us into a very strong leaders or vice versa.
-Well, any questions this? what we do to analyse this is take this initial state and we express it again, conceptually,
-you can't really do this in practise often in the island state basis of each one.
-you write this one as a position of all of the island states of the new Hamiltonian, and these are states.
-I would have epsilon. You write it just as a squat position of efficiency, I.
-Conceptually easy. And then you say, OK, well, how does this, by the way, function or evolve in time?
-Pantheons, who is conceptually, again, very easy because these states saying I can state.
-they just acquire Facebook to each buy abstinent items to your bar,
-which basically means you can say the only thing that happens is that these  coefficients are evolving in time.
-They should basically say that this one in the next couple of slides is really following one major paper from 2008.
-It's one of the few theory papers that made it into nature because it's really such a great insight.
-And if you want to read up on this, you can just read up on this paper, which explains things, and it's quite a good thing to.
-we know that this state, because it's obviously going to be a pure state, remains pure, so it can't allies globally.
-But let's not focus on the way, frankly, that's what was in the stuff we can actually measure.
-We can't measure every function, what we can measure observable. here's our time in a function that we just arrived in the previous light.
-Nothing too fancy about it. And let's say let's look at the prediction for an observable eight could be the density could be the momentum.
+OK, so let's try to do some calculations here. We start off with an eigenstate $|\psi (0) \rangle$ of $H_0$ and suddenly change to $H_1$ at $t=0$. 
+One example is to say, let me have a paramagnet and the magnetic field pointing in that direction; all of the spins are pointing more or less in the same direction, so that requires a pure state. And now what I can do is I can suddenly instantly switch the direction. You know that if you would do it slowly, the pure spins would just rotate with it and that would be it. But now suddenly, if you have two spins pointing in this direction, suddenly in this direction. They will start the precess around this magnetic field. And then I have a lot of energy because they are not in the eigenstate of the system, but because they are now perpendicular to it. They have a lot of energy and that energy has to stay in the system. Another typical quench we could do in cold atoms is to say we just suddenly jump lattice depth from a weak lattice into a very strong one or vice versa.
+
+What we do to analyse this is take this initial state and we express it in the basis of $H_1$ eigenstates $$|\psi (0) \rangle = \sum_i c_i |\psi_i \rangle $$ each with energy $\epsilon_i$. And then you say, OK, well, how does this wavefunction evolve in time? And the answer is conceptually, again, very easy because these states just acquire phase according to the Schrodinger equation, $$|\psi (t) \rangle = \sum_i c_i e^{-i\epsilon_i t/\hbar}|\psi_i \rangle$$ which basically means you can say the only thing that happens is that these coefficients are evolving in time. This is really following one major paper \textbf{Nature 452, 854 (2008)}. We know that this state, because it's obviously going to be a pure state, remains pure, so it can't thermalise globally. But let's focus on the stuff we can actually measure, the observable $A$, which has the expectation value
+$$\langle A \rangle = \langle \psi(t) | A | \psi(t) \rangle = \sum_{i,j} c_i^* c_j e^{-i(\epsilon_j-\epsilon_i)t/\hbar}A_{ij}$$ for matrix element $A_{ij}$. The off-diagonal terms vanish when taking the long-time average, so $$\bar{\langle A \rangle} = \sum_i |c_i|^2 A_{ii}$$ if you assume a system where $\langle A \rangle(t)$ has to reach a steady state. The key interpretation here is that if the expectation value of the observable reaches a constant value after a long time, then that value must be $\bar{\langle A \rangle}$. 
+[fig - sketch] 
+
+\begin{comment}
+And let's say let's look at the prediction for an observable eight could be the density could be the momentum.
 Density could be the spin, the magnetisation any observable. And then we know that the expectation value of this obstacle.
 what you get after averaging over many, many measurements you can write down this,
 it's the the sandwich bit with the time of all state left and to the right.
@@ -166,11 +143,13 @@ if I assume that the system is firm and I think it's reaching a steady state,
 then it can predict that steady state just using this diagonal form, not the whole phone.
 the interpretation is that if the system, which is a city state where it is necessary,
 must be a constant, then the consent value I get must be identical to the long term average.
+
 And that's simply facile thinking a lot, and it actually turns out to be a very interesting and very complex insight as we into slides.
-people call this the diagonal ensemble. Which is basically saying that if I take a steady state, this must be true for all of them.
-if the system really goes into a formal, steady state, all of the efforts that I want to predict,
-everything I can predict about what I can measure on the system would only depend on this diagonal ensemble.
-if I think of my density matrix of time T equals zero, which you can calculate even for a pure statewide.
+\end{comment}
+
+People call this the \textbf{diagonal ensemble}. Which is basically saying that if I take a steady state, this must be true for all of them. Everything I can measure on the system would only depend on this diagonal ensemble. 
+
+\begin{comment}
 Capsule items site looks then if I wanted to calculate anything, it happens in the steady state.
 I can forget about all of the octagon elements I just use to diagonal elements. And that's what people call it, diagonal also on the.
 Just saying take the take the density matrix of time to zero after the crunch.
@@ -187,6 +166,11 @@ which basically means that all of those different parts, you will not have indep
 Kind of all, stay in unison and you have this periodic structure and then you have to something that does not paralyse.
 OK. now we said the only thing that we said is that there's a big simplification because you if you do families,
 you can like, you should be able to predict everything using the signals of the.
+\end{comment}
+
+In the paper they consider a numerical example of 5 hard-core bosons in a 2D lattice, initially split into 2 sections, then allowing hopping between the sections at $t=0$. They found that the relevant observables relax fast to the microcanonical prediction (used here due to finite system size), which can be considered as "thermalisation". 
+
+\begin{comment}
 now what they did in this paper is they said, OK, let's look at some numerical example.
 Let's try to calculate this. And I said if that did, of course, calculating stuff for a big many buddy system dynamics is totally unfeasible.
 And definitely had to get take the small, the biggest system they could do and hope that it's still a small system,
@@ -241,34 +225,13 @@ OK. And the differences between a micro canonical, the canonical and so on, but 
 you've seen in family dynamics that if you go to the infinite systems has limit,
 you get the equivalence of assault and the prediction of mycophenolate non-canonical become the same.
 But that's only true in the family dynamic limit. the fact that it's not through here is totally fine just stems from the final size of the system.
-OK. Now. Big step, saying, OK, this was an observation we could see that this was happening.
-The system is apparently the system is apparently formalising,
-and after some time we can see the diagnosis predicts the same thing as the marketing of.
-And then you can go in very deeply and you can ask, why is that what is the fundamental reason for why, which is why it should be this?
-And then you can think of, OK, there might be I mean, I might have fancy,
-I might have a very complicated structure with many Asian states being occupied and maybe there's some selectron.
-Would it be occupied in exactly such a way that the different contributions add up to give me the answer?
-But then you think of it further and say, well, that's pretty, that's pretty weird, because if I start to throw it,
-I can bite down very different initial states that all have the same energy and they will have different occupations of the different island states.
-What they would have a different occupation of the different states, but they all  must verbalise to the same state.
-that's pretty, pretty weird. How could that be?
-It can't really be in the structure of these coefficients because I can tune them, I can make very different coefficients.
-And different people came up with an hypothesis saying what actually could be the other way around.
-Maybe all of the many body aiding states of the system, maybe each individual island state looks already a permanent island.
-If each state looks the microeconomic ensemble, then whatever prefectures I put in front of them, I will get the same answer in front of.
-And this is a hypothesis that was first formulated in current form by Deutsche and specifically sort of three years ago.
-And this goes under the name of the ageing state thermalisation hypothesis.
-And the hypothesis, and mathematically speaking, is that if I take in many steps, I look at the expectation value a I of a few body observable.
-I'm not looking at the full system or looking at a part of the system, see a few particles.
-Of a few body observable, eight in an ageing state of Epsilon Epsilon Energy Epsilon, I have a mytilene of a large interacting many buddy system,
-two thinking about the system that we would expect to formalise a large system
-of many interacting particles and that peak on one of the I can say that.
-Then the hypothesis is that this expectation value equals to from an average meaning the microkernel, the prediction.
-And the parliament state at the same energy.
-That's basically saying that the prediction of each state for the expectation value of each of the observable in each state will look the same,
-in the in the Michael Clarke ensemble. each state individually looks at the former state.
-And then, of course, A. Random mixture of agencies would also look a farm state because you're just mixing many of the same things.
-this is a an hypothesis, and this needs to be tested in every system.
+\end{comment}
+
+
+OK, this was an observation we could see that this was happening. The system is apparently the system is apparently thermalising, and after some time we can see the diagonal ensemble predicts the same thing as the microcanonical ensemble. And then you can go in very deeply and you can ask, why is that? And this leads us to the \textbf{eigenstate thermalisation hypothesis} (ETH). The idea is that if I take in many steps, I look at the expectation value $A_{ii}$ of a few-body observable in an eigenstate of the hamiltonian of a large interacting many body system, and it should equal the thermal average at the same energy, $${\langle \psi_i |A|\psi_i \rangle}=\langleA\rangle_{therm}(\epsilon_i).$$
+That's basically saying that the prediction for the expectation value of each observable in the eigenstate will look the same in the microcanonical ensemble. Each state individually looks like a thermal state. This is a hypothesis, and this needs to be tested in every system. 
+
+\begin{comment}
 And. This is written very generically by saying if you very observable.
 What's conceptually and very good point is to say, well, a special example is to reduce density matrix of a small subsystem.
 basically, what this thing says is that if I take a small subsystem.
