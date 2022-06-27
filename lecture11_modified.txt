@@ -1,4 +1,4 @@
-
+\begin{comment}
 Let's get started with lecturer 11 second to last lecture.
 quickly, we view some things about thermalisation just for five minutes or two minutes
 to then talk for ten minutes about something that is not thermalisation,
@@ -52,73 +52,16 @@ The conserve quantities of the whole system will turn chaotic and verbalising.
 in the many very sense, being into quibble seems to be a very special point,
 a very special fragile point that you add anything generic to the Hamiltonian,
 even if it's small, it would kill that effect and trying to diffuse it again.
-However, the question is, is there also a robust alternative to formalisation to systems always when the generic want to formalise?
-Or can there be more general thousands of exceptions where a system does not? One does not verbalise even in the long run.
-And the answer is localisation. And this is a way of localisation that was predicted by Andersen and explained away in 1958.
-And the story is that a single particle the this sort potentially can become localised by the disorder.
-It's called Anderson localisation. And this is a wave effect. Is this not the classical localisation?
-I mean, there's a classical effect as the classical effect to say, if I take a bowl and I put it down in this lowest deli,
-then the pub, which does not have the energy to overcome any of the barriers. it's stuck in that valley forever.
-This is not what we're talking about. We're talking about what's the classical limit?
-If you wanted to quantum effect this more subtle, the quantum effect is saying What think about what you didn't want the quantum mechanics.
-Think about a step in the potential and think about a quantum wave coming in.
-Then you know, what happens at the step is that some part of the wave function will be transmitted
-in some part of the wavefunction will be reflected that you can calculate it.
-And now the next step is conceptually rather simple, but has surprising consequences.
-Let's just say I have many steps and steps up and steps down.
-And because we just ordered these happen at random positions. at random positions, I have to step up or step down.
-And then you can calculate, of course, what happens at every step you can always say, OK, what is the wave function coming in?
-Some part gets reflected, some part gets transmitted. And that's that.
-The story is now that if you want to ask how much of this comes out at the end, then you would say,
-Well, I have to take all of those empty tweets coming from all of those multiple reflections,
-all of those past where I say, OK, I got straight through or I got reflected here and reflected there and go out where I got reflected here,
-then reflected there again and go out. I have to take the sum of all of those possibilities of of those amplitudes and
-because the positions of these steps up and step stones are consitered to be random.
-Well, what I get is I get many, many empty tweets here and they will all have random phases.
-And if I have known how many complex numbers we've run in phases, they will average down to zero.
-Which basically means that this random the potential step up and step down will
-localise the particles to the particles will not be able to get to the hand site.
-And for this argument, we only said that you get, some part of the wave function, be reflected and being transmitted.
-We did not say how much of it. even if these steps are arbitrarily small.
-You always get whatever, one per mile of the wave function being reflected or one to 10 to the minus five being reflected at each step.
-But if you have enough steps, say tentative five steps. Still, the argument holds and you will not get anything through here.
-what this means, Anderson showed this mathematically, is that in one dimension,
-arbitrarily small or localised, all of the EIGEN states it all of the energies.
-Because even if your potential is very, very small, the effect is weak in the sense that you get only little of the wave function being reflected.
-But then if you just make the sum of more and more and more terms, at some point you get back to everything being localised.
-it's a quantum mechanical interference effect.
-It's not the classical ball just being trapped in the lowest minimum, it's an effect of the wave scattering all the time.
-But all of those steps and things in the potential. OK.
-this was known since the 50s, and this is, of course,
-the single political effect because we're just not talking about the wavefunction of a single particle so far.
-Yes, it's the very funny stuff. It's just pointed at the biggest paper.
-Yeah.  yeah. OK. I mean, this is not just a simple example, but all of the steps up in September are the same.
-Yes, I mean, the same argument that I made here also happens.
-You read it. Every of these little wiggles, some part of the way fans would be reflected, some would be transmitted.
-The argument is the same. Yes. OK.
-the question then is and that was a question, it was debated for a long, long time or is still debated.
-Does this localisation so wife and interacting system at finite energy?
-And many people, when it first, and that's not when you opened up the possibility in the first paper and said,
-this will this needs to be looked at could be possible. For decades, people were pretty convinced that, no, this cannot survive.
-And one of the arguments they gave was an argument that comes from a spectroscopy where there was something called conditionally phasing.
-The fact is that, OK, I have this  a complicated path that my particle takes.
-But if the particle on the time collides with another particle that gives you a random Faceshift.
-that  kills the coherence. they would say, well,
-lot of interference terms might go away if you have collisions in the system
-and that turns any coherent quantum evolution into diffusive slower dynamics.
-It's an argument. Another argument was to say, well, if I think about I can also think about this localisation in terms of resonances,
-I can say there's little orbital here and other orbital there,
-and I can't really hop from here to here because this little orbital will now have slightly different energies and then have energy mismatch.
-And therefore I can't hop from here to there. And that's what localises me.
-The same story in a different picture, in a picture of localised states, not of plane waves.
-And then the argument would be to say that, well, if I have no collisions between particles,
-I suddenly have an exponentially larger space to consiter quite soon, as if interactions between the particles.
-After that, consiter not only one particle, but consiter what all of the particles do to get this exponential scaling in the number of atoms.
-And this exponential scaling means that space is much, much denser. Many, many, many more states, exponentially more states.
-it's much more likely they will always find the resonance. I will always find that, OK, I have to go up a little bit here.
-But if another particle goes down a little bit down on the other site that they collide by doing this, total energy is the concept.
-we have much, much more freedom due.
-nonetheless, in 2005, two big papers, this is one of them came out that on the theory site said that actually,
+\end{comment}
+
+The question today is, is there also a robust alternative to thermalisation? And the answer is \textbf{many-body localisation} (MBL). And this is a way of localisation that was predicted by Anderson and explained away in 1958. And the story is that a single particle in a disordered potential can become localised by the disorder. It's called \textbf{Anderson localisation}. And this is a wave effect. It is not the classical localisation. I mean, there's a classical effect as the classical effect to say, if I take a bowl and I put it down in this lowest point, which does not have the energy to overcome any of the barriers, it's stuck in that valley forever. This is not what we're talking about. We're talking about what's the classical limit? Think about a step in the potential and think about a quantum wave coming in. Then you know, what happens at the step is that some part of the wave function will be transmitted in some part of the wavefunction will be reflected that you can calculate it. And now the next step is conceptually rather simple, but has surprising consequences. Let's just say I have many steps and steps up and steps down. And these happen at random positions. And then you can calculate, of course, what happens at every step you can always say, OK, what is the wave function coming in? Some part gets reflected, some part gets transmitted. And that's that. The story is now that if you want to ask how much of this comes out at the end, then you would say, I have to take the sum of all of those possibilities of those amplitudes, and because the positions of these steps up and down are considered to be random they will all have random phases. And if I have known how many complex numbers with random phases, they will average down to zero. Which basically means that this random potential will localise the particles. And for this argument, we only said that you get some part of the wavefunction being reflected and being transmitted. We did not say how much of it. Even if these steps are arbitrarily small. What this means is that in one dimension, arbitrarily small disorder will localise all of the eigenstates at all of the energies. Because even if your potential is very, very small, the effect is weak in the sense that you get only little of the wave function being reflected. But then if you just make the sum of more and more and more terms, at some point you get back to everything being localised. It's a quantum mechanical interference effect. It's not the classical ball just being trapped in the lowest minimum, it's an effect of the wave scattering all the time. But all of those steps and things in the potential. OK. This was known since the 50s, and this is, of course, the single particle effect because we're just talking about the wavefunction of a single particle so far. 
+
+The question then is, does this localisation survive in interacting systems at finite energy? For decades, people were pretty convinced that, no, this cannot survive. And one of the arguments they gave was an argument that comes from a spectroscopy where there was something called \textbf{collisional dephasing}. The fact is that, OK, I have this  a complicated path that my particle takes. But if the particle on the time collides with another particle that gives you a random phaseshift, that kills the coherence. Another argument was to say, well, if I think about I can also think about this localisation in terms of resonances, I can say there's little orbital here and other orbital there, and I can't really hop from here to here because this little orbital will now have slightly different energies and then have energy mismatch. And therefore I can't hop from here to there. And that's what localises me. The same story in a different picture, in a picture of localised states, not of plane waves. And then the argument would be to say that if I have collisions between particles, I suddenly have an \textbf{exponentially larger Hilbert space} to consider. So it's much more likely they will always find the resonance. I will always find that, OK, I have to go up a little bit here. But if another particle goes down a little bit down on the other site that they collide by doing this, total energy is the concept. We have much, much more freedom.
+
+Nonetheless, it has essentially been agreed to be theoretically possible since 2005 (Basko, Aleiner + Altschuler). 
+
+\begin{comment}
+, two big papers, this is one of them came out that on the theory site said that actually,
 if you do the vation fury and we sum this to all orders the court,
 surely you could sum it up of all of the infinite orders it chose from anybody localisation.
 it shows that you have a localised phase even in the presence of interactions.
@@ -144,19 +87,11 @@ And that, of course, something that nobody can do.
 There's also many theories that say, no, this is not true, this is an artefact of how you do your calculation.
 We believe this the phase is fundamentally stable, so it's still an interesting debate.
 how can we do some experiments on just how we think about this? So.
-OK. Why do we care about this? Well, I already said it.
-If you have the stability of this localisation and the presence of interactions, you have no negative behaviour.
-you have the potential for an awful long time dynamics. You don't have thermalisation.
-Statistical mechanics doesn't apply. It's a very different game. And it's, of course, also interesting for quantum computers.
-Normally your big problem is you put your qubit in an environment,
-there's always environment and then you hear so information will leak into the environment and just go away and go into this facility and it's lost.
-But if your environment, if you qubit as many very localised, you don't get this information, spread it as information dilution.
-You go into the scrambling of quantum information. Even it leaks out and little bit of would stay local.
-you have much, much more time to recover it and get it back into your cupboard. it would also be of interest doing doing this for this purpose.
-we already said that Mbele will require perfect isolation from the environment
-because everything we've been discussing with her close quantum systems.
-As soon as I have some coupling to a an environment, then of course I will.
-I will get firm advice by the environment, whatever I do. therefore, this is important.
+\end{comment}
+
+OK. Why do we care about this? Well, I already said it. If you have the stability of this localisation and the presence of interactions, you have nonergodic behaviour. You have the potential for long time dynamics. You don't have thermalisation. Statistical mechanics doesn't apply. It's a very different game. And it's, of course, also interesting for quantum computers. Normally your big problem is you put your qubit in an environment, there's always environment and then some information will leak into the environment and just go away and go into this facility and it's lost. But if your environment, if you qubit as many very localised, you don't get this information, spread it as information dilution. You go into the scrambling of quantum information. Even it leaks out and little bit of would stay local. You have much, much more time to recover it. We already said that MBL will require perfect isolation from the environment because everything we've been discussing with her close quantum systems. As soon as I have some coupling to a an environment, then of course I will get thermalised by the environment, whatever I do.
+
+
 How can we do an experiment on this? This was the first experiment actually that was done by us.
 You start with disabilities techniques. You put particles only your the even that decides to put them in, even solids, your attach to empty.
 And then you just let the system evolve on the tunnelling and the hole. How about Hamiltonian?
