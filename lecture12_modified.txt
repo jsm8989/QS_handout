@@ -142,22 +142,10 @@ There's only particles moving in one direction, not in the other direction. And 
 
 
 One method is to use position dependent dressed states. The idea is that you use several hyperfine states of your atom, so that only atoms in the $|F, m_F \rangle = |1,1 \rangle$ state, but also the $|1,0 \rangle$ and $|1,-1 \rangle$ state and then you couple them with laser fields. The typical geometry that people have looked at, is to say we have a BEC and then we have these two laser beams coming in from two directions and they couple the internal states. And then we calculate the dressed states, eigenstates, etc. And you see that these laser fields have slightly different frequencies $\omega_L, \omega_L+\Detla \omega_L$. And if you now calculate what happens, I need to think about the three eigenstates of rubidium, which have different energies because of the Zeeman splitting, and we apply of ordinary magnetic field externally. This will not give rise to any Lorentz force or something because the particles are uncharged. And what's  crucial is that if you apply a significant magnetic field, you not only get the linear Zeeman effect, you also get the second order (quadratic) Zeeman effect, which basically means that if I detune these laser fields a little bit, the respective detunings have opposite signs. 
-we have to continue. And now I get by having them in the presence of these laser fields.
-It's a three level system I can calculate. I can states the so-called red state, and they will all depend on the rabi frequency.
-the intensity of the laser light and on the shooting of the laser light and those parameters, they cannot be spatially dependent.
-you see how we're getting back to this  berry phase type Hamiltonians,
-where we said that the parameters of the Anatolian depend on where you are.
-you get position dependent West states and the position dependent effect. if you do this.
-You can say, for instance, if I have a geometry this, you can say, well, actually I can write down my wave function is a position of three terms.
-The particle can be in state zero. This one and have momentum.
-we only care about the momentum in the X direction here.
-This is this direction, because that's where the two laser beams have different momentum, different kicks.
-I can also say the particle absorbs a photo from the one beam emits a photo
-and into the other beam and thereby changes its changes its Mastcam-Z state.
-These states have different energy, so only the one way also changed. My magnetic energy is resonant.
-that must be happening. I go from zero to the state one and I get a kick off to kill, or I can go to minus one and get a kick of minus two.
-these are the three basic states we now have to play with, and we can execute it,
-we can calculate the states what we get of those and you can you will do this with help on the problems propensity.
+[fig - dressed state slide]
+And now it's a three level system I can calculate the so-called dressed state, and they will all depend on the rabi frequency and on the detuning of the laser light, and those parameters they can now be spatially dependent. You see how we're getting back to this berry phase type Hamiltonians, where we said that the parameters of the Hamiltonian depend on where you are. You can say, for instance, if I have a geometry like this, you can say, well, actually I can write down my wave function as a superposition of three terms, $\psi(k_x) = \alpha | -1, k_x-2k_l \rangle + \beta | 0,k_x \rangle + \gamma | +1, k_x+2k_l \rangle $. These are the three basis states we now have to play with, and we can calculate the states what we get of those and you can you will do this with help on the problems sheet.
+
+\begin{comment}
 if you have this  situation and agree to a position of two different momentum and a different spin state.
 And you do time of light in the appropriate way, you get a picture this. it is this time of light together with stronger imaging.
 if you radiant during time of light along this direction.
@@ -187,20 +175,12 @@ what I do is I just write this as a parameter around its minimum.
 I write this as a form of power squared k max minus came in squared over two Instagram stars and effective models,
 just taking care of all of the factors. I just have to say it's a shift, a parabola $k$ minus Cayman.
 Which I cannot interpret as $k$ minus Q Times a quote unquote.
-I'm saying I've not created an artificial gauge field. That means that have shifted the minimum of the property to a finite momentum.
-Because that's exactly what you think of when you do this canonical part of looking at the moment a magnetic field,
-you say it's $k$ minus Q a absolute squared.
-this shift here is the effect of an artificial creation.
-voila, we have now created an artificial gaits field, so we have created an artificial vector potential for particles in the slowest west state.
-That's pretty cool. But it's, of course, purely mathematical at this point, it doesn't have a physical consequence because, as you know,
-the gauge fields are dependent, so just having created something a constant gauge of it doesn't do anything.
-It just means that a different mathematical description.
-What you need to do in order to get real magnetic field is you need to make sure that you also have a kernel of this thing.
-If Ace constantly is filled, so you need to add a spatial dependence to a.
-you need to have different West states at different points. And the way to do this is not to add this little thing to your setup.
-basically what you're doing here is you create a gradient in the ordinary magnetic field that you put in for these images.
-You make you feel stronger at some places than other places. And basically what this does is it creates a spatially varying bit unique.
-you retuning how different is to three parameters are shifted that depends on the position where you are.
+\end{comment}
+
+From the dispersion relation we can write the effective 1D Hamiltonian in the parabolic form $H_x \approx \hbar^2 (k_x-k_{min})^2/2m^*$ where we can write $k_{min}=qA$ to make comparison to the artificial gauge field $A$ for particles in the lowest dressed state. I'm saying I've now created an artificial gauge field. That means that have shifted the minimum of the parabola to a finite momentum. Because that's exactly what you think of when you do this canonical part of looking at the moment a magnetic field. This shift here is the effect of an artificial gauge field. But it's, of course, purely mathematical at this point, it doesn't have a physical consequence because, as you know, the gauge fields are gauge-dependent, so just having created a constant gauge field it doesn't do anything. What you need to do in order to get real magnetic field is you need to make sure that you also have a curl of this thing, so you need to add a spatial dependence to $A$. You need to have different dressed states at different points. 
+
+\begin{comment}
+Basically what you're doing here is you create a gradient in the ordinary magnetic field that you put in for these images. You make you feel stronger at some places than other places. And basically what this does is it creates a spatially varying bit unique. you retuning how different is to three parameters are shifted that depends on the position where you are.
 It's one position it would be the same at one position, it would be very strongly shifted.
 And that basically means you have spatially varying trust states. you have is basically burying vector potential.
 And they can actually be simulate and calculate this vector potential and can say OK as a function of the position,
@@ -211,24 +191,14 @@ And then you go to the One Direction.
 This minimum becomes what we call this the minimum shift to the left, to the right, and you go higher up and the boom shifts in the other direction.
 this is not something that should create an artificial an artificial magnetic field,
 because if you have two cities gradient in there to one zero, you would expect a magnetic field.
-And if they do the same time of light imaging, they did before. And lo and behold. You can see vortices appearing in this cloud.
-And as we said before we were talking about a rotating system, the vortices,
-our smoking gun of the simulating magnetic field because they show you that this magnetic
-flux is piercing through and you get this rotation about the local magnetic field.
-So, yeah, they have made it they have created an artificial magnetic field by doing this.
-It's a little bit of a tour de force to get there, but I wanted you to understand the structure.
-That's why I went about this in quite a bit of detail. What they can also do is they can also change this magnetic field in time by, for instance,
-changing this gradient in time or by, for instance, switching on and off the lasers or changing the rugby frequency.
-And then they get a type of derivative of the spectre potential.
-And this time derivative, of course, gets Watson artificial electric field and then a subsequent paper,
-if measured as it could confirm that this actually works exactly as you would expect from as textbook.
-And again, Cooper and John Daly, but they then said, OK, can we make this stronger?
-Because the problem that you have here is the the dynamic range of your vector potential is
- limited because here you only look at the one minute here you only have a minima.
-There's not that much how you can change it, so you can't create very strong magnetic fields.
-they asked can equate stronger magnetic fields, and the answer is yes, you can very, very strong ones if you like,
-put in interfering lattice beams that  create these gradients of your optical potentials and very,
-very small length to and then because of lambda over to so you can do very, very strong fields in this case.
+\end{comment}
+
+And if they do the same time of flight imaging as before, you can see vortices appearing in this cloud. And as we said before we were talking about a rotating system, the vortices, our smoking gun of the simulating magnetic field because they show you that this magnetic flux is piercing through and you get this rotation about the local magnetic field. So, yeah, they have made it, they have created an artificial magnetic field by doing this. It's a little bit of a tour de force to get there, but I wanted you to understand the structure. That's why I went about this in quite a bit of detail. 
+
+What they can also do is they can also change this magnetic field in time by, for instance, changing this gradient in time or by, for instance, switching on and off the lasers or changing the Rabi frequency. And then they get a time derivative of the vector potential. And this time derivative, of course, gets artificial electric field and then a subsequent paper, measured as it could confirm that this actually works exactly as you would expect from as textbook. And they then said, OK, can we make this stronger? Because the problem that you have here is the the dynamic range of your vector potential is limited because here you only look at the one minute here you only have a minima. There's not that much how you can change it, so you can't create very strong magnetic fields. And the answer is yes, you can very, very strong ones if you like, see the \textbf{optical flux lattice}, which works fine in theory but practically for a two-level system you get significant heating rate for large detunings.
+
+\begin{comment}
+put in interfering lattice beams that create these gradients of your optical potentials and very, very small length to and then because of lambda over to so you can do very, very strong fields in this case.
 And if they calculate the band structure in this  what they call optical flux lattice,
 you can actually see that the band structure of this one has a density of states down here, and it's one very, very sharp, lowest level.
 And that's what you expect for energy. Bottom them whole systems because you expect that you have very, very sharp Landau levels, lambda quantisation,
@@ -243,30 +213,16 @@ we get the inevitable scattering if you just go for a very strong retuning and a
 The problem with these Raymond rate, which you corrected, I chipped, is that they also look one, would that just quit?
 Which basically means that the tuning doesn't help anymore, and you get a significant heating rate from those covering it just.
 it's not really practical for many ethical items.
-People are now trying to do this for atoms strontium, for instance, where you have states,
+People are now trying to do this for atoms strontium, for instance, where you have clock states,
 where you have very, very narrow lines that you should be able to do this with less heating with.
-But this is one way of doing it, another way of doing artificial foods is to say, can I do periodic modulations?
-Can I take my system and shake it, say clockwise?
-Because shaking it clockwise is, of course, the time it was a partner of shaking it counterclockwise.
-we're shaking it in this circular manner. I directly break time reversal symmetry.
-Right and the left hand. I practise cemetery by hand, by shaking it, and then I should see similar effect.
-And the easiest way to see it is to say, let's take, say, a graphene Typekit at us,
-and let's say we do something where we switch on the different tunnelling elements at different times.
-for the first third of the cycle, we only have this tunnelling on for the second part of the second.
-We have this tunnelling on and for the last part of the cycle, you have this tunnelling on.
-And of course, if you have this tunnelling on, we also have this one on and this one on.
-all of the ones that are horizontal and all of the ones that are  upper left and then all of the ones in the upper right.
-And if you do this and if you think of a state at the Edge, say you have to sequence, you say, OK, well,
-it once just goes down this way, but it can't really go any other way because have a ton of things off.
-And then the next point I switch on the horizontal tunnelling, it can only go there. It cannot go any other way because they are off.
-And then I have to ones in this direction. You can go and you go up there.
-There's no other way you can see that this one must also in the sequence, follow  a skipping orbit type thing just around the edge.
-the mutilation breaks time and symmetry. Fundamentally speaking, it's because one to three is clockwise and three two one is counterclockwise.
-And they're not identical. And they are time reversal patterns of itself. if I take a one day system, just check it left right.
-That's a sinusoidal modulation. The point is to time you and symmetric what?
-But if I take something in 2-D, where do it  in a circular fashion that does break time reversal symmetry?
-that's something that people have tried and indeed where they could see first effects.
-This, by the way, goes back to Duncan Haldane, who also got the Nobel prise for the Typekit holding model,
+\end{comment}
+
+But this is one way of doing it, another way of doing artificial fields is to say, can I do periodic modulations? Can I take my system and shake it, say clockwise? Because shaking it clockwise is, of course, the time reversal partner of shaking it counterclockwise. We're shaking it in this circular manner. I directly break time reversal symmetry. And the easiest way to see it is to say, let's take, say, a graphene lattice, and let's say we do something where we switch on the different tunnelling elements at different times. For the first third of the cycle, we only have this tunnelling on for the second part of the cycle we have this tunnelling on and for the last part of the cycle, you have this tunnelling on.
+[fig - tunneling scheme with sketch]
+You can see that this one must also in the sequence, follow  a skipping orbit type thing just around the edge. This breaks time and symmetry. Fundamentally speaking, it's because one to three is clockwise and three two one is counterclockwise. And they're not identical. And they are time reversal patterns of itself. if I take a 1D system, just check it left right. That's a sinusoidal modulation. But if I take something in 2-D, where do it in a circular fashion that does break time reversal symmetry? That's something that people have tried and indeed where they could see first effects. This, by the way, goes back to Duncan Haldane, and was experimentally realised using cold atoms in the Esslinger group.
+
+\begin{comment}
+, who also got the Nobel prise for the Typekit holding model,
 which is basically to say Can I have your numbers and quantisation without a big external magnetic field?
 And what he could show is that if you take graphene type lattices with like, complex nearest neighbour hopping,
 so hopping from here to here, then you can come up with something that look, that looks you have got Fluxus.
@@ -285,12 +241,9 @@ And by this, they could actually, like, try to like, get a structure you what yo
 and they could basically show that you get hold to if they could measure how it and the one direction or in the other direction.
 This was done over these close to 10 years ago, and they could observe all troops, but they were very small and they were not quantised.
 it was not an integer quantum hall effect, if you want, but it was a simulation of the classical hall effect.
-And this was basically where things are regarding free space and regarding weak lattices.
-There was another direction which is maybe more fruitful, which is going into deep lattices and going to type binding models.
-And that's what we're going to talk about next. How can I create artificial gauge fields in a tight binding model?
-the idea here is now let's look at the last phase factor that we have to discuss payouts phases.
-Pilot phases is basically just saying, let me take and let us let us craft.
-Let me take Hopkins and if we make some of those Hopkins complex.
+\end{comment}
+
+And this was basically where things are regarding free space and regarding weak lattices. There was another direction which is maybe more fruitful, which is going into deep lattices and going to tight-binding models. And that's what we're going to talk about next. How can I create artificial gauge fields in a tight binding model? The idea here is now let's look at the last phase factor that we have to discuss, Peierls phases. This is basically just saying, let me take and let us let us craft. Let me take Hopkins and if we make some of those Hopkins complex.
 the wait on my Hamiltonian, I would just say this example, for instance, to hopping in the vertical direction.
 Just that is just the same. But if I think about the hopping in a horizontal direction again, the AKP takes you to the AK to India.
 I get different phases, phases, my wavefunction.
