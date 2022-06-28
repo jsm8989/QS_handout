@@ -292,30 +292,18 @@ They can be touching, but still, we know it's two bands because we know there's 
 And it looks a bit a butterfly, that's what they call it, hopefully this butterfly. OK.
 \end{comment}
 
-Now back to how can we implement these payouts phases? The way it was done and this was done, they're in a whole series of experiments for many,
-Heidelberg was the main person and this is to say, well, if we want to do complex hopping,
-say along the extraction, the first thing we have to do is we have to stop this real hopping, to bear hopping, to bear tunnelling in the X direction.
-And the easiest way of doing that is to say, let's do that as such that we have a delta here that you need from,
-let's say, to let the site that's much bigger than the original. that and tunnelling can't happen because the energies don't match.
-then you end up with basically hopping along the y direction, but no hopping along the.
-And then what you can do is something to be called laser assisted hopping or laser induced hopping or Ramon assisted tunnelling,
-which is basically saying let's put into extra laser beams one here, one there.
-And it's put him in such that the edit, the frequency difference between these two laser beams is exactly delta.
-Which is basically saying, if I observe a photon from one laser beam and emitted into the other laser beam, I gain or lose an energy of data.
-And if that data is exactly the same as this data here, then this now restores the tunnelling.
-I can do a laser assisted tunnelling, whereby if swabbing a and from one laser emitting another laser, I go from one little site to the next.
-That's the area. And then you can ask, OK, what happens now to the phase pictures?
-What do I get phases? Well, if I absorb and amid a photo, they're always absorbing images, also the phase of the laser beam.
-to phase it, I get by doing so depends on what the phase into the eye of this laser beam and that laser beam is at a position of doing this.
-And because Italy ICAC's of the one that Italy likewise, if the other one, of course, battery dependent.
-The crucial point is that the phase factor I get out of this is basically dependent.
+Now back to how can we implement these Peierls phases? The way it was done and this was done, they're in a whole series of experiments for Monika Aidelsburger, was to say if we want to do complex hopping, say along the x-direction, the first thing we have to do is we have to stop this real hopping, the "bear tunnelling" in the X direction. And the easiest way of doing that is to say, let's do that as such that we have a delta here that you need from, let's say, to let the site that's much bigger than the original $J$ so that tunnelling can't happen because the energies don't match. Then you end up with basically hopping along the y-direction, but no hopping along the x. And then what you can do is something to be called laser assisted hopping or laser induced hopping or \textbf{Raman assisted tunnelling}, which is basically saying let's put into extra laser beams one here, one there. And it's put him in such that the frequency difference between these two laser beams is exactly delta, $\omega_1 - \omega_2 = \Delta$. Which is basically saying, if I absorb a photon from one laser beam and emitted into the other laser beam, I gain or lose an energy of $\Delta$. And if that $\Delta$ is exactly the same as this one here, then this now restores the tunnelling. I can do a laser assisted tunnelling, whereby if swabbing a and from one laser emitting another laser, I go from one lattice site to the next. And then you can ask, OK, what happens now to the phase? The crucial point is that the phase factor I get out of this is spatially dependent. Strictly speaking, the Hamiltonian is time-dependent, but often people only consider the effective time-indepdent version which is known as the \textbf{Harper-Hofstadter Hamiltonian}. 
+
+Examples they were able to show: chiral currents, Hall response, magentic band structure, in-situ differential drift. 
+
+\begin{comment}
 if I jump here and then maybe go up some direction, why didn't we jump back or we get another phase up here from the laser beams?
 Then it got down here, so if it didn't go for a loop, I would have acquired a phase while going through this.
 That's the main idea. And you can basically just take geometry and calculate if I have a given key vectors of my lasers, hear this case.
 They're  orthogonal, but they don't have to be.
 I can put them in any  angle and I can calculate just from this angle and the key vectors.
 What is the magnetic fox that will be simulating?
-Because that tells me what is the difference, the difference in the phase vectors of the different popping elements at the different points?
+Because that tells me what is the difference, the difference in the phase vectors of the different poppin elements at the different points?
 Strictly speaking, because we now have to start and not being on zero.
 This whole Hamiltonian this whole time depends why, because we have to each acre x minus omega T,
 we have a tiny bit of omega one minus omega two times T, and they're so strictly speaking.
@@ -399,9 +387,6 @@ How can we do this in a way to not have this bad redistribution later on?
 How can we extend this to a longer times? Because if you want to go to the fractional quantum hall, you want to combine this with strong interactions.
 We need to have the system being alive and being topological for a half a second because of the interactions.
 Everything is more fragile and go slower.
-But I think it just shows you that this is maybe it will end quantum simulations are far from at the end of what they can do.
-They are still pretty exciting things that will come up in the next couple of years, going to what fractional quantum hall on this site,
-going towards the antiferromagnetic spin liquids and other interesting quantum states and quantum magnetism.
-There's many, many developments that are currently underway. Lots of things are going to come.
-OK. And this stunt is the official end of the course.
-Thank you very much.
+\end{comment}
+
+But I think it just shows you that quantum simulations are far from at the end of what they can do. They are still pretty exciting things that will come up in the next couple of years, going towards fractional quantum hall effect, going towards the antiferromagnetic spin liquids and other interesting quantum states and quantum magnetism. There's many, many developments that are currently underway. Lots of things are going to come. OK. And this is the official end of the course. Thank you very much.
