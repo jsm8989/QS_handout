@@ -78,35 +78,10 @@ if you have something that's topological and trivial and you sort of force on it
 you will get a response that the whole system moves siteways, in the hall effect.
 \end{comment}
 
-OK. And then you can go to an mathematical story of this. Let's say we start with a parameter particle somewhere in the Brillouin zone. We start here and then we move the particle along this loop in parameter space. We exert forces on the particle for it to be accelerated along a circular direction.
+OK. And then you can go to an mathematical story of this. Let's say we start with a parameter particle somewhere in the Brillouin zone. We start here and then we move the particle along this loop in parameter space. We exert forces on the particle for it to be accelerated along a circular direction. And then we come back to the same point and we can calculate we'll get a Berry phase. By Stokes theorem you can calculate it either using the connection or the curvature. Here, the integral of the berry curvature we call the Berry flux, and it's again the berry flux enclosed in this area that gives me the Berry phase. And the conceptual interesting step is to say, well, let's make this bigger and bigger and bigger, such that this path at some point encloses the full Brillouoin zone. And now there's a cute mathematical mathematical point. It's the point is that when you think of the BZ, you think of it as a square. But actually, it's a torus, because of the periodicity of Bloch ocillations. It has no boundary because the BZ is periodic. And if you have this picture, you can then say, OK, well, how does such a curve look on the torus? Well, it's  a deformed circle somewhere on the surface of the torus. 
 
-
-And then we come back to the same point and we can calculate we'll get a very phase.
-But you can calculate of to ring and equal off the back of the above Tiberi connexion around this area.
-you can calculate this one where it's just at the antiquities to ring and taken over this little ring and you calculate the very phase.
-Equivalent to using a stroke serum, you could, of course, also say, well,
-that's the the surphase area of the integral of the area insite here of the berry curvature.
-That's  been close to this. That's the same calculations you do put it on a form effect.
-You can calculate the vector potential along the trajectory, or you can calculate the magnetic flux enclosed by the thing.
-here, the integral of the berry curvature we call the very flux, and it's again the berry flux and close in this area gives me the very first.
-And the conceptual interesting step is to say, well, let's make this bigger and bigger and bigger,
-such that this path at some point and closes the footprint on. Like this?
-Then the reality along longest war zone is basically the same as calculating the berry curvature over the whole prehensile.
-is exactly the calculation we also saw in the previous slide when we say, OK.
-And you have to take the very curvature averaged over the whole prism because all of the states are occupied.
-And now there's a cute mathematical mathematical point, which is really cute.
-It's the point is that when you think of the zone, you no think of it as as quick as a square.
-But you noted, actually, it's a Taurus.
-Because the reason this can Bloch isolations, if you're if your momentum is only defined modulo the reciprocal little spectre,
-then if you add out this part one,
-the less gives you just to the average of the presence of these two edges of the zone that actually do the same line.
-Once you get to one, it's like, what is operation? You end up on the air and on the other site, so they're connected on this site.
-And these two lines appear, they're connected on the other site. that basically means that this area here.
-It's just the surphase of a Taurus.
-It has no boundary because the prions on its periodic test may be the easiest way of saying it can't have a boundary prions on its periodic.
-And it has the topology of a Taurus because you see two different directions X and Y.
-And if you have this picture, you can then say, OK, well, how does such a curfew look on the tourist?
-Well, it's  a deformed circle somewhere on the surphase of the tourist. That makes sense.
+\begin{comment}
+That makes sense.
 But if I want to go all around the boundaries of this, what do I do? Well, I start with the tourist.
 And let me maybe make another throwing for this.
 And whenever I have not tried a talk for a long time, I go to therapy one woman the first try but and see where we are.
@@ -152,85 +127,21 @@ Or I say my whole conductive, whole conductance must be precisely quantised with
 And now suddenly the thing that we discussed when we discussed the horrific where we said, OK, why is this number not changing?
 Why must it be one or two and going to be one plus something if I put this order in or temperature or anything?
 Now it makes sense because the underlying structure is that it must be quantised for these mathematical reasons.
-OK, so here's the here's the hall effect again. this is the equation we saw last time.
-What is not a China? No, understand better what it is. It's the China number is the integral over the berry curvature of the food.
+
+OK, so here's the here's the Hall effect again. This is the equation we saw last time. No, understand better what it is. It's the China number is the integral over the berry curvature of the food.
 We for a given bed. And then the case was to this precisely quantised potatoes you.
 Good. And as I said, this is what we want to a first demonstration of called items.
 And at the end of the lecture today, you will see that we've achieved this or less.
 And then the next goal for the next decade, so to speak, is this one.
 Combining this of strong interactions are getting to the fraction of quantum hall effect. So.
-One other good way of thinking about this, which is a very neat way to think about it, is to say, OK, if I have this whole conductance,
-I have this  topological to protect a transport where the particles move around the edge and all of those  things.
-I can think of them also in a different way. I can think of some of them. See, we classically by having these what we call it, skipping orbits.
-you noted that we have an electron and have a magnetic field.
-Then the electron, we move on a little circle Typekit in orbit, and then you can ask what happens if I have such a Typekit on orbit?
-Not in the middle of the material, but at the edge of the material where you say, for instance, the vacuum on upper insulator.
-Then you  would say, OK, well, the particle would be on this orbit.
-He hit the boundary and then it would bounce off, reflect off the boundary if it's elastic,
-conserve energy, but it can go off in any direction, whatever you want.
-However, the key thing is because once a speck in the material, it will start to curve again because of the magnetic field.
-whatever direction it goes on, it will turn around and bounce back against the wall.
-it is orbits must skip along the wall.
-And then you can think of the magnetic field giving you one set of direction, it's orbiting in one way, not the other way.
-And that basically means that all of those particles up here, they are moving to the right.
-And that's a very peculiar thing, because what this means is that you must have a protected transport here where
-you can't have a diffusive transport because there can't be backscatter. if I have a particle of what we call this etched channel,
-so on the edge here that moves to the and you say the purity nobody would say is a beauty channel
-can can make you scatter backwards into a backwards channel where you go instead of $k$ with $-k$.
-And normally you always have this $k$ minus $k$ symmetry.
-And that means that it gives you damping of your transmit because the parties are not taking part in the main transport anymore.
-Now, in this case, because all of the particles really have to do this  skipping of it, they must go back to the right.
-and even if you if you calculate this now, indeed, you will see that he has to wait and spend.
-He is the conduction band of the pilot material. And then here is one edge mode that pushes the gap.
-This is the most living. He accepted the edge and you can see that there's only one mode, and it's  always pointing to the right.
-the only case I was positive in this case, which means it always has a positive velocity to the right.
-there's only particles moving in one direction, not in the other direction.
-And that's also the explanation for when you go back to the hall resistance that if you look at the longitudinal resistance.
-Which points to a need to apply in the X direction to drive this currently extraction.
-You would see that this longitudinally resistance is actually zero wherever we have these plateaus where we have this past all at once for us.
-We have zero resistance, which basically means that there is no backscatter scattering.
-There's no make transport, no diffusion. The particles that we detect moving through ballistically through the system.
-And it turns out they're moving to the edges.
-And the key thing that we have here for us to take away message for this one is that all of those things, the churn number itself,
-all of those things tell us that in order to have any of those effects, you need to break time reversal symmetry.
-Time reversal symmetry implies that if I have a mode of momentum going in one direction,
-I also must have the mode before the mind is going the opposite direction, so we have to break that.
-And the way you practise and all of these systems is by applying the magnetic field,
-because the magnetic field is the one field that is not symmetric because it get
-a few turns into minus a magnetic field if you reverse the direction of time. And that also intuitively makes sense.
-If you think about electric fields, you have a particle sitting here that creates a magnetic field.
-If you change direction of time, the particles are still sitting here. the electric fields do the same.
-But even if you have whatever magnetic field, you must have a currency of a particle moving for you.
-Electrons flowing upwards the creative accounting field in this direction say if you change the direction of time,
-you change the velocity of the particles and hence you change the direction of the magnetic field.
-the magnetic field is the one thing that is and the time of us goes from B to minus B.
-And if you calculate the berry curvature, which we haven't done yet, but if you would calculate it,
-you would see that time inversion symmetry means that if I go from $k$ to $-k$.
-I must also change in direction of the berry curvature,
-so be goes to minus B and then if a integrate of a presence of a positive and negative K, the integral must be zero.
-time reversal symmetry directly implies that the challenger must be zero. It also makes sense on a classical level.
-What I'm saying is if the particles are accelerated before fast in this direction and then I'm saying they're moving siteways.
-That takes time, reversal symmetry, because why are we moving this direction and not this direction, something my practise left wide symmetry?
-And that's the problem. Time reversal symmetry. what we actually need to do, and it's a good way of thinking,
-is we need to practically reversal symmetry if you want to be able to find actual number if you want to enable this artificial gadgets.
-we need to figure a way of how can we interact with code atoms in such a way that breaks time reversal symmetry?
-And that's now for the last half an hour, looking at a few methods of how this has been done in the experiment,
-how this can be done, how this can be implemented. one method is to use position dependent West states.
-the idea is that you use several High-Performance states of your item, so that only items in the one one state,
-but also the one zero to one minus one state and then you couple them of laser fields.
-the topic of geometry that people have looked at, this was pioneered by Minutest also already seven years ago now is to say we have a b c and then
-we have these two laser beams coming in from two directions and they cover the internal state.
-And then we calculate the twist states. The EIGEN states will do the calculation also on the programme, sir.
-And you see that these laser fields have slightly different frequencies on my girl and omega plus omega.
-And if you now calculate what happens, I need to think about the three Asian states of rubidium, so we have every good one in this case.
-we have MF plus one zero and minus one and those three states,
-they have different energies because of the Z1 splitting Omegas that this desirement splitting, we apply of ordinary magnetic field externally.
-This will not give rise to any loans for us on something because the particles are charged,
-but just provided Zeeman effect, which means that these three energies, these two states have different energies.
-And then we can copy them 52 days, a few hours of one photo from the plaque and one photo from Vietnam.
-And what's  crucial is that if you apply a significant magnetic field,
-you not only get the linear Zeeman effect, you also get the first, the second or a quadratic Zeeman effect,
-which basically means that if these laser fields a little bit, the retuning starter epsilon delta here, they have opposite signs on these two sites.
+\end{comment}
+
+One other good way of thinking about this, which is a very neat way to think about it, is to say, OK, if I have this Hall conductance, I have this topologically protected transport where the particles move around the edge and all of those  things. I can think of them also in a different way. Classically by having these what we call it, skipping orbits. You note that we have an electron and have a magnetic field. Then the electron will move on little cyclotron orbits, and then you can ask what happens if I have such an orbit? Not in the middle of the material, but at the edge of the material where you say, for instance, the vacuum or another insulator. Then you  would say, OK, well, the particle would be on this orbit, hit the boundary and then it would bounce off, reflect off the boundary if it's elastic, conserve energy, but it can go off in any direction, whatever you want. However, the key thing is because once back in the material, it will start to curve again because of the magnetic field. Whatever direction it goes on, it will turn around and bounce back against the wall. Its orbits must skip along the wall. And then you can think of the magnetic field giving you one set of direction, it's orbiting in one way, not the other way. And that basically means that all of those particles up here, they are moving to the right. And that's a very peculiar thing, because what this means is that you must have a protected transport here where you can't have a diffusive transport because there can't be backscatterring. If I have a particle of what we call this edge channel, so on the edge here that moves to right, and you would say there is an impurity. Normally you would say is impurity channel can make you scatter backwards into a backwards channel where you go instead of $k$ with $-k$. And normally you always have this $k,-k$ symmetry. And that means that it gives you damping of your transport because the parties are not taking part in the main transport anymore. Now, in this case, because all of the particles really have to do this skipping orbit, they must go back to the right. And even if you calculate this now, indeed, you will see that here is the valence band and the conduction band of the pilot material, and then here is one edge mode that bridges the gap, which is always pointing to the right. 
+[fig - breaking time rev sym slide]
+There's only particles moving in one direction, not in the other direction. And that's also the explanation for when you go back to the Hall resistance that if you look at the longitudinal resistance, which points to the X direction, you would see that this longitudinal resistance is actually zero wherever we have these plateaus where we have this past all at once for us. We have zero resistance, which basically means that there is no backscattering. There's no bulk transport, no diffusion. The particles that we detect moving through ballistically through the system. And it turns out they're moving through the edges. And the key thing that we have here for us to take away message for this one is that all of those things, the Chern number itself, all of those things tell us that in order to have any of those effects, you need to break time reversal symmetry. Time reversal symmetry implies that if I have a mode of momentum going in one direction, I also must have the mode going the opposite direction, so we have to break that. And the way you practise and all of these systems is by applying the magnetic field, because the magnetic field is the one field that is not symmetric because it get a few turns into minus a magnetic field if you reverse the direction of time. And that also intuitively makes sense. If you think about electric fields, you have a particle sitting here that creates a magnetic field. If you change direction of time, the particles are still sitting here. the electric fields do the same. But even if you have whatever magnetic field, you must have a current or a particle moving for you. And if you calculate the berry curvature, which we haven't done yet, but if you would calculate it, you would see that time inversion symmetry means that if I go from $k$ to $-k$, I must also change in direction of the berry curvature, ie $b_b(k)=-B_B(-k) \implies n_c=0 $. Time reversal symmetry directly implies that the chern number must be zero. It also makes sense on a classical level. What I'm saying is if the particles are accelerated before fast in this direction and then I'm saying they're moving siteways, that takes time reversal symmetry, because why are we moving this direction and not this direction? And that's the problem. Time reversal symmetry. we need to figure a way of how can we interact with cold atoms in such a way that breaks time reversal symmetry?
+
+
+One method is to use position dependent dressed states. The idea is that you use several hyperfine states of your atom, so that only atoms in the $|F, m_F \rangle = |1,1 \rangle$ state, but also the $|1,0 \rangle$ and $|1,-1 \rangle$ state and then you couple them with laser fields. The typical geometry that people have looked at, is to say we have a BEC and then we have these two laser beams coming in from two directions and they couple the internal states. And then we calculate the dressed states, eigenstates, etc. And you see that these laser fields have slightly different frequencies $\omega_L, \omega_L+\Detla \omega_L$. And if you now calculate what happens, I need to think about the three eigenstates of rubidium, which have different energies because of the Zeeman splitting, and we apply of ordinary magnetic field externally. This will not give rise to any Lorentz force or something because the particles are uncharged. And what's  crucial is that if you apply a significant magnetic field, you not only get the linear Zeeman effect, you also get the second order (quadratic) Zeeman effect, which basically means that if I detune these laser fields a little bit, the respective detunings have opposite signs. 
 we have to continue. And now I get by having them in the presence of these laser fields.
 It's a three level system I can calculate. I can states the so-called red state, and they will all depend on the rabi frequency.
 the intensity of the laser light and on the shooting of the laser light and those parameters, they cannot be spatially dependent.
