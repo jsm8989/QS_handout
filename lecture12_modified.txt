@@ -243,18 +243,13 @@ This was done over these close to 10 years ago, and they could observe all troop
 it was not an integer quantum hall effect, if you want, but it was a simulation of the classical hall effect.
 \end{comment}
 
-And this was basically where things are regarding free space and regarding weak lattices. There was another direction which is maybe more fruitful, which is going into deep lattices and going to tight-binding models. And that's what we're going to talk about next. How can I create artificial gauge fields in a tight binding model? The idea here is now let's look at the last phase factor that we have to discuss, Peierls phases. This is basically just saying, let me take and let us let us craft. Let me take Hopkins and if we make some of those Hopkins complex.
-the wait on my Hamiltonian, I would just say this example, for instance, to hopping in the vertical direction.
-Just that is just the same. But if I think about the hopping in a horizontal direction again, the AKP takes you to the AK to India.
-I get different phases, phases, my wavefunction.
-When I just hop around, I just take a complex hopping elements an extra phase factor whenever I hop from one site to the next.
-And if I do this, this  phase it to acquire, if I want one cat fights, if I one minus my two in this case.
-This simulates the effect of a magnetic flux, because this is exactly the same as the hand of boom phase.
-If you have a charged particle, if you would have a magnetic flux encapsulated in this unit, so.
-you just need to make your shopping complex and you need to make your shopping complex in a way that's basically dependent.
-do you have especially repentant backed up potential and then you can get a magnetic field or an effective magnetic field out of this?
-Does anyone has an idea how we would do this? How can you make your shopping complex?
-What it's maybe a hard question to ask, because the answer is maybe not so obvious.
+And this was basically where things are regarding free space and regarding weak lattices. There was another direction which is maybe more fruitful, which is going into deep lattices and going to tight-binding models. And that's what we're going to talk about next. How can I create artificial gauge fields in a tight binding model? The idea here is now let's look at the last phase factor that we have to discuss, Peierls phases. This is basically just saying, let me take a lattice, and make some of those hoppings complex. So the Hamiltonian becomes $$H=-J\sum_{m,n} e^{in\phi} a^\dagger_{m+1,n}a_{m,n} + a^\dagger_{m,n+1}a_{m,n} + \h.\c.$$ And if I do this, this phase that I acquire simulates the effect of a magnetic flux, because this is exactly the same as the AB phase if you have a charged particle, if you would have a magnetic flux encapsulated in this unit. So you just need to make your hopping complex and you need to make your hopping complex in a way that's spatially dependent. 
+
+Magnetic unit cells: super-cell containing several lattice unit cells such that the flux through each magentic unit cell is an integer number of magnetic flux quanta $\phi_0$. So each band will split into $N$ magnetic sub-bands with $\sum_i n_{c_i}=0$.
+
+
+\begin{comment}
+Does anyone has an idea how we would do this? How can you make your hopping complex? What it's maybe a hard question to ask, because the answer is maybe not so obvious.
 Before we get to that, just quickly something about my colleague Unités.
 If you have no office where you a quiet office fi going around one placard, then this phase pie can in principle, be anything.
 It doesn't need to be liked. It doesn't need to be related to Feyenoord, the magnetic flux quantum, which would be a perspective to pay.
@@ -271,11 +266,13 @@ it's  interesting to look at all of those happens and see how many
 you have and what  configuration and how many assumptions you have.
 We virtually just depend on this factor fi, how much pace you pick up per unit.
 when you hop around. If it's pie, then you just have, like, say, two units, do you expect to bend if it's a pie of a two,
-you expect four units, so you expect for bands and so on. And then one of the first person to look at this systematically removed data,
-and then he came up with this  plot that was  one of the first fractal structures showing up in physics.
-And it's now famous, hopefully the butterfly and probably some of you will have seen this picture somewhere on the internet at one point or the other.
-I see a few people nodding, but not too many. OK, so what do you got here?
-What you brought here is the plot,
+you expect four units, so you expect for bands and so on. 
+\end{comment}
+
+And then one of the first person to look at this systematically was Hofstadter, of butterfly fame, which was one of the first fractal structures showing up in physics.
+[fig - butterfly]
+
+\begin{comment}
 the energy spectrum in a normalised form and applauded as a function of the flux Phi Phi and units of fine not can go from zero to one.
 If you look at zero, the very edgy you get one line going from up here to down there, that's one single event.
 That's the bet that you have about the absence of magnetic flux.
@@ -293,6 +290,8 @@ Well, actually, it's two bands, it's one band going from down here to appear in 
 There's no guarantee that these bands must be separated by band caps.
 They can be touching, but still, we know it's two bands because we know there's two solutions for each quasi momentum.
 And it looks a bit a butterfly, that's what they call it, hopefully this butterfly. OK.
+\end{comment}
+
 Now back to how can we implement these payouts phases? The way it was done and this was done, they're in a whole series of experiments for many,
 Heidelberg was the main person and this is to say, well, if we want to do complex hopping,
 say along the extraction, the first thing we have to do is we have to stop this real hopping, to bear hopping, to bear tunnelling in the X direction.
