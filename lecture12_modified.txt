@@ -1,15 +1,8 @@
-And quick reminder where we ended up last week, we said, OK, the effects of magnetic fields are very interesting.
-They're relevant, for instance, the quantum hall effect, spin hall effect, topological insulators and many, many other things.
-And these topological protected events are very important.
-The problem we have of cold atoms is that we don't directly coupled to a magnetic field in the same way that
-you would do if you would have a charge because you're not charged so you don't have to laurence force.
-And then you have tolerance for so you have no classical mechanical effect and also you don't have know how to form phase.
-And that means that it's very hard to simulate those effects.
-And the idea how you do it is you use berry phases, which we introduced last weak and quickly went through it again and payouts phase,
-as you would see later today, to simulate the effect of the of boom phase.
-Because if you do that, then you basically simulate the whole effect of the magnetic field on the Hamiltonian,
-which means that everything else also follows from that. So.
-We spent quite some time last on Tuesday discussing the very phase,
+And quick reminder where we ended up last week, we said, OK, the effects of magnetic fields are very interesting. They're relevant, for instance, the quantum hall effect, spin hall effect, topological insulators and many, many other things. And these topological protected events are very important. The problem we have with cold atoms is that we don't directly coupled to a magnetic field in the same way that you would do if you would have a charge because you're not charged so you don't have to Lorentz force. So you simulate it with berry phases, which we introduced last week and quickly went through it again, and Peierls phase. If you do that, then you basically simulate the whole effect of the magnetic field on the Hamiltonian, which means that everything else also follows from that. 
+
+In relation to the Berry phase, we define two quantities: the \textbf{Berry connection} $A_B = i \langle \psi | \nabla_R |\psi \rangle $ and from that, the \textbf{Berry curvature} $B_B = \nabla_R \x A_B$. Reminder that the Berry phase $\phi_B = \ringint A_B dS $ is a geometric phase, so is independent of the evolution speed. 
+
+\begin{comment}
 and we said that the idea is that if I have an isolated state, so no degeneracy is nothing simple system.
 That's not often the tone of the first day to time zero being an aching state of Hamiltonian.
 And then I moved my Hamiltonian around the parameter space, so I slowly changed Hamiltonian in time.
@@ -30,51 +23,14 @@ And that's how I get back to a phase scalar. it's independent of the evolution o
 And then we said that is the part that you put you in the indiquant sorry gradient upsite.
 It's called the Bury Connexion, and the cut of that is something that's called the berry curvature.
 And we would see that this is analogous to the magnetic vector connexion and the magnetic field.
-And one thing that's important to say here is why do we make this emphasis about going around a closed loop?
-Why is this place picked or not defined for any  thing? And the answer is that you have a greater freedom in quantum mechanics, civility,
-bigotry, but you have an ongoing feud at the story is actually very simple.
-It's just fancy language.
-If you haven't Hamiltonian where anything I can sort of do Hamiltonian to epsilon energy epsilon, then if you multiply the state end of a phase III.
-Just a number, then, of course, that one is also an icon state of the Hamiltonian,
-because number two, when you commute with just a number, you can just put it through.
-whatever you define and as you can state or you eat you, the ICAI end, as you can state, that's fully up to you.
-Doesn't change anything in the physics, it's just a phase factor.
-It needs to be just a phase factor, because we say Oregon State needs to be normalised. But that's the only thing there was about it.
-And this is called a you want freedom because the group of numbers of the from Italy icon what Christ will be number.
-That's the one group, the rotations along the circle, if you want.
-And that's basically just the gay treatment you have to.
-this makes sense, you can choose whatever basis you want, you can choose the can function in multiple factors and suggest that I can function.
-But this, of course, means that if I say, let's start at this stage here and then move to another point in parameter space and ask,
-what is the perspective that I have here? Well, that's the totally arbitrary, because that depends on what definition I choose.
-For that point, I put it wavefunction. I can always make this phase, but it gets to an evolution here.
-Zero, by just saying, OK, let me just change the definition of my wavefunction or my basis date accordingly.
-That adjust end up of a positive parameter in front of it. You can. You could always do that.
-this is an open path. And therefore we say that this phase of evolution is Professor Gates dependent quantity.
-If you change like, say, the definition of your initial state by multiple factor of the final state,
-then you change the very phase it would get along this path. And this age dependent quantities, they are not observable.
-They just think if you wanted something some magical artefact because you can gauge the move where you can make them zero.
-all of this is for nothing.
-Well, no, because if you take a path, that's a closed path where you start at this one point, go a closed loop and come back to the same point.
-Then it turns out you get a independent quantity.
-Because if he wanted to change the gauge by, say, change the initial state, you get an icon from changing the initial state,
-but you also, on the other hand, get you to the minus IQ from also changing the final state if you initiate the final state at the same.
-It's not too independent phase factors that you can change.
-It's the same phase with the here and there, and it's you looking at the difference between the two changing.
-It doesn't do anything, so it's a well-defined quantity. It's the same thing as if you would say that if you think of Democratic Victor,
-potentially it's age dependent property, so you can change a lot how it looks.
-But just adding this, gradient terms to it.
-However, to call off that the magnetic field, that's a gauge independent, real physical property that you can measure in the lab and all of that.
-And that's an element of reality. the same thing you have here, the phase you get along an open path is gauge dependent,
-so not observable because you can always change it by just changing definitions of your states.
-But the phase along a closed loop that's independent, that's observable and well-defined.
-There's nothing you can do to change that because it's the same end point, a starting point.
-And also, it also make sense on a very intuitive physical level because you have to realise that the phase of a wave function is not an observable.
-How would you do an experiment where you measure the phase of a wave function? The answer is you cannot you can never measure your phase.
-The only measure density to measure something is one minus one. You measure a particle is there or not there.
-you can never measure a phase factor. However, what you can always do is you can make it into premature, right?
-We split a wave into two parts. Combine them and interfere them.
-And then, of course, the web interphase between these two parts, the relative phase between two parts.
-That's a very well-defined quantity that of the light goes left or right.
+\end{comment}
+
+And one thing that's important to say here is why do we make this emphasis about going around a closed loop? And the answer is that you have a gauge freedom in quantum mechanics. If you have a Hamiltonian where anything I can sort of do Hamiltonian to epsilon energy epsilon, then if you multiply the state end of a phase then you see you have a $U(1)$ gauge freedom $|n\rangle \xarrowright e^{i\chi} |n \rangle$. Doesn't change anything in the physics, it's just a phase factor. It needs to be just a phase factor, because we say our eigenstate needs to be normalised. But this, of course, means that if I say, let's start at this stage here and then move to another point in parameter space and ask, what is the phase that I have here? Well, that's the totally arbitrary, because that depends on what definition I choose. I can always make this phase, but it gets to an evolution here. You could always do that, but this is an open path and therefore we say that this phase of evolution is a gauge-dependent quantity. If you change the definition of your initial state by multiple factor of the final state, then you change the phase it would get along this path. And these gauge-dependent quantities, they are not observable. They just think if you wanted something some magical artefact because you can gauge the move where you can make them zero. All of this is for nothing.
+
+Well, no, because if you take a closed path where you start at this one point, go a closed loop and come back to the same point, then it turns out you get a gauge-independent quantity. It doesn't do anything, so it's a well-defined quantity. It's the same thing as if you would say that if you think of the magnetic vector potential, which is gauge-dependent, but just adding this gradient term to it to call that the magnetic field, that's a gauge independent, real physical property that you can measure in the lab and all of that. And that's an element of reality. the same thing you have here, the phase you get along an open path is gauge dependent, so not observable because you can always change it by just changing definitions of your states. But the phase along a closed loop that's independent, that's observable and well-defined. There's nothing you can do to change that because it's the same end point and starting point. And also, it also make sense on a very intuitive physical level because you have to realise that the phase of a wave function is not an observable. How would you do an experiment where you measure the phase of a wave function? The answer is you can never measure your phase. However, what you can always do is you can make it into a parameter, right? We split a wave into two parts. Combine them and interfere them. And then, of course, the relative phase between these two parts is a very well-defined quantity. 
+
+\begin{comment}
+that of the light goes left or right.
 if you just picture your interferometer in the easiest possible way, and it could probably also already use one of Matis plots here.
 But it's just making you want if you just say, OK, I have my my light coming in.
 Let's think about life is the easiest. There's a beam splitter. I make a machine at the front door.
@@ -86,16 +42,16 @@ whenever you can think of something being an interferometer, we really split som
 It turns out that's always  a closed loop, so it's also a physically observable faith factor.
 this buffer medical staff totally makes sense with what you intuitively think about what can be measured and what not.
 It makes perfect sense. OK.
-OK. And yet here's a guy in the heat that we had last time where we said that the
-very phase is a real phase that can be measured the heart of warm phase,
-and we say that this very connexion is the same estimate, getting back the potential that the berry curvature is the same as the magnetic field.
-In some sense, this is a special case of this general phenomena. This is a special case of the magnetic field and we base here.
-This is an arbitrary parameter spaces. It could, for instance, be quasi momentum space in the lattice.
-And that's  what we're going to look at because we want to combine artificial gauge fields a lot of the time with lattices.
-what are the consequences of this if we now say we have to spend torture, we can calculate in advance to acquire this bury connexion.
-It turns out if you do the semi classical theory of transport, you know what you normally have in condensed matter physics.
-You would say, OK, I have the effect the force of an electric field. That's the absolute that's the point is to force it, act on it.
-And they have the presence of a magnetic field. Then they get this cross to endure.
+\end{comment}
+
+OK. And yet here's a little cheatsheet which links these synthetic phases to releveant magnetic quantities.
+[fig - cheatsheet]
+In some sense, this is a special case of this general phenomena. 
+
+What are the consequences of this? It turns out if you do the semi classical theory of transport, you know what you normally have in condensed matter physics. You would say, OK, I have the effect the force of an electric field. And they have the presence of a magnetic field, giving the cross term in $$\dot{r_c} = \frac{1}{\hbar} \frac{\partial \epsilon(k_c)}{\partial k_c} - (\dot{k_c} \x z) B_B$$ where the second term describes the anomalous velocity due to Berry curvature. And it's very similar to the Hall drift, and is topologically protected, while the first term corresponds to Bloch oscillations and so averages out to zero. 
+[fig - sketch of motion of band]
+
+\begin{comment}
 And it turns out if you do the same analysis, it is actually done. The Cooper here in TeamGroup 10 years ago.
 Now, it turns out that if you do this, you do the same to me.
 Classical analysis you get the following part you get the point that if I have an
@@ -120,11 +76,11 @@ To the second term, we'll give you something that's proportional to the integral
 If you have a footprint that's obvious and that turns out to be a number which will come back to the next slide.
 if you have something that's topological and trivial and you sort of force on it in this direction,
 you will get a response that the whole system moves siteways, in the hall effect.
-OK. And then you can go to an mathematical story of this and you can say, well.
-What can I do, I can do the following the following thing Let's first start with this picture up here.
-This is a Prius on wheels qualities, and let's say we start with a parameter particle somewhere in the Prius when
-we start here and then we move the particle along this loop parameter space.
-we exert forces on the particle accelerator for us to be accelerated along a soccer direction.
+\end{comment}
+
+OK. And then you can go to an mathematical story of this. Let's say we start with a parameter particle somewhere in the Brillouin zone. We start here and then we move the particle along this loop in parameter space. We exert forces on the particle for it to be accelerated along a circular direction.
+
+
 And then we come back to the same point and we can calculate we'll get a very phase.
 But you can calculate of to ring and equal off the back of the above Tiberi connexion around this area.
 you can calculate this one where it's just at the antiquities to ring and taken over this little ring and you calculate the very phase.
