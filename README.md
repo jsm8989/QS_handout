@@ -1,3 +1,6 @@
+### License
+There is deliberately no license included in this repo, as the code is barely interesting enough for anyone to want to use it and the contents of the text files are not exactly open source.
+
 
 ### Additional possible shortcuts (in the python script)
 - way function into wavefunction
